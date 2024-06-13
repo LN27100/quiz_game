@@ -94,12 +94,12 @@ const questionsCultureGenerale = [
     },
     {
         question: "Qui a écrit 'Les Misérables' ?",
-        options: ["Victor Hugo", "Gustave Flaubert", "Émile Zola", "Alexandre Dumas"],
+        options: ["Gustave Flaubert", "Victor Hugo", "Émile Zola", "Alexandre Dumas"],
         answer: "Victor Hugo"
     },
     {
         question: "Quelle est la capitale de l'Argentine ?",
-        options: ["Buenos Aires", "Santiago", "Lima", "Montevideo"],
+        options: ["Santiago", "Lima", "Buenos Aires", "Montevideo"],
         answer: "Buenos Aires"
     },
     {
@@ -120,22 +120,203 @@ const questionsChansons = [
         options: ["Ed Sheeran", "Justin Bieber", "Taylor Swift", "Adele"],
         answer: "Ed Sheeran"
     },
-    // ... autres questions sur les chansons
+    {
+        question: "Qui a chanté 'La Vie en Rose' ?",
+        options: ["Édith Piaf", "Jacques Brel", "Charles Aznavour", "Serge Gainsbourg"],
+        answer: "Édith Piaf"
+    },
+    {
+        question: "Quel chanteur a interprété 'Ne me quitte pas' ?",
+        options: ["Jacques Brel", "Charles Aznavour", "Serge Gainsbourg", "Johnny Hallyday"],
+        answer: "Jacques Brel"
+    },
+    {
+        question: "Quel chanteur a chanté 'Purple Rain' ?",
+        options: ["Prince", "Michael Jackson", "David Bowie", "Elton John"],
+        answer: "Prince"
+    },
+    {
+        question: "Quel chanteur a interprété 'L'aigle noir' ?",
+        options: ["Barbara", "Mylène Farmer", "France Gall", "Michel Berger"],
+        answer: "Barbara"
+    },
+    {
+        question: "Qui a chanté 'Sous le vent' en duo avec Garou ?",
+        options: ["Céline Dion", "Lara Fabian", "Nolwenn Leroy", "Christophe Maé"],
+        answer: "Céline Dion"
+    },
+    {
+        question: "Qui a chanté 'Imagine' ?",
+        options: ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
+        answer: "John Lennon"
+    },
+    {
+        question: "Quel groupe a interprété 'J'ai demandé à la lune' ?",
+        options: ["Indochine", "Téléphone", "Noir Désir", "Les Rita Mitsouko"],
+        answer: "Indochine"
+    },
+    {
+        question: "Qui a chanté 'Billie Jean' ?",
+        options: ["Michael Jackson", "Prince", "David Bowie", "Elton John"],
+        answer: "Michael Jackson"
+    },
+    {
+        question: "Qui a chanté 'Adieu' ?",
+        options: ["Slimane", "Vianney", "Julien Doré", "Jérémy Frérot"],
+        answer: "Jérémy Frérot"
+    },
+    
+    {
+        question: "Qui a chanté 'My Heart Will Go On' ?",
+        options: ["Céline Dion", "Mariah Carey", "Whitney Houston", "Madonna"],
+        answer: "Céline Dion"
+    },
+    {
+        question: "Qui a chanté 'À nos souvenirs' ?",
+        options: ["Trois Cafés Gourmands", "Claudio Capéo", "Soprano", "Gims"],
+        answer: "Trois Cafés Gourmands"
+    },
+    {
+        question: "Qui a chanté 'La même' en duo avec Vianney ?",
+        options: ["Maître Gims", "Slimane", "Julien Doré", "Amir"],
+        answer: "Maître Gims"
+    },
+    {
+        question: "Qui a chanté 'Tous les mêmes' ?",
+        options: ["Stromae", "Maitre Gims", "Soprano", "Julien Doré"],
+        answer: "Stromae"
+    },
+    {
+        question: "Qui a chanté 'Ca va ça vient' ?",
+        options: ["Vitaa", "Amel Bent", "Léa Castel", "Shy'm"],
+        answer: "Vitaa"
+    },
+    {
+        question: "Qui a chanté 'Dance Monkey' ?",
+        options: ["Tones and I", "Ava Max", "Billie Eilish", "Dua Lipa"],
+        answer: "Tones and I"
+    },
+    {
+        question: "Quelle chanson de Aya Nakamura a été certifiée single de diamant en France ?",
+        options: ["Djadja", "Pookie", "Copines", "La Dot"],
+        answer: "Djadja"
+    },
+    {
+        question: "Qui a chanté 'Shallow' en duo avec Lady Gaga ?",
+        options: ["Bradley Cooper", "Sam Smith", "Shawn Mendes", "Harry Styles"],
+        answer: "Bradley Cooper"
+    },
+    {
+        question: "Qui a chanté 'Mon soleil' en 2021 ?",
+        options: ["Jérémy Frérot", "Vianney", "Jenifer", "Dadju"],
+        answer: "Dadju"
+    }
+
 ];
 
 const questionsDessinsAnimes = [
     {
         question: "Quel personnage est un célèbre chasseur de fantômes ?",
-        options: ["Scooby-Doo", "Tom", "Astérix", "Gaston Lagaffe"],
+        options: ["Astérix", "Scooby-Doo", "Gaston Lagaffe", "Tom"],
         answer: "Scooby-Doo"
     },
     {
-        question: "Qui est l'ami de Winnie l'Ourson ?",
-        options: ["Porcinet", "Tigrou", "Bourriquet", "Jean-Christophe"],
-        answer: "Porcinet"
+        question: "Quel est le nom de l'héroïne dans 'Sailor Moon' ?",
+        options: ["Makoto", "Rei", "Usagi", "Ami"],
+        answer: "Usagi"
     },
-    // ... autres questions sur les dessins animés
+    {
+        question: "Quel est le nom du lionceau protagoniste du 'Roi Lion' de Disney ?",
+        options: ["Simba", "Mufasa", "Nala", "Scar"],
+        answer: "Simba"
+    },
+    {
+        question: "Quel est le nom du héros principal dans 'Les Chevaliers du Zodiaque' ?",
+        options: ["Shiryu", "Hyoga", "Seiya", "Shun"],
+        answer: "Seiya"
+    },
+    {
+        question: "Quel est le nom de la petite sirène dans le dessin animé de Disney ?",
+        options: ["Belle", "Blanche-Neige", "Cendrillon", "Ariel"],
+        answer: "Ariel"
+    },
+    {
+        question: "Quel est le nom du dessin animé japonais mettant en scène un ninja blond aux yeux bleus ?",
+        options: ["One Piece", "Dragon Ball Z", "Naruto", "Bleach"],
+        answer: "Naruto"
+    },
+    {
+        question: "Dans quel dessin animé un robot géant nommé Baymax aide-t-il un jeune prodige en robotique ?",
+        options: ["Raiponce", "Les Nouveaux Héros", "La Reine des Neiges", "La Belle et la Bête"],
+        answer: "Les Nouveaux Héros"
+    },
+    {
+        question: "Quel est le nom du personnage principal dans 'Toy Story' de Pixar, un cow-boy en plastique ?",
+        options: ["Buzz", "Woody", "Andy", "Jessie"],
+        answer: "Woody"
+    },
+    {
+        question: "Qui a chanté 'Hakuna Matata' dans 'Le Roi Lion' ?",
+        options: ["Mufasa et Scar", "Simba et Nala", "Timon et Pumbaa", "Rafiki et Zazu"],
+        answer: "Timon et Pumbaa"
+    },
+    {
+        question: "Quel est le nom de l'ours dans 'Le Livre de la Jungle' ?",
+        options: ["Kaa", "Bagheera", "Shere Khan", "Baloo"],
+        answer: "Baloo"
+    },
+    {
+        question: "Qui est l'ami dragon de Mulan ?",
+        options: ["Mushu", "Shang", "Khan", "Cri-Kee"],
+        answer: "Mushu"
+    },
+    {
+        question: "Quel est le nom de la voiture de course dans 'Cars' ?",
+        options: ["Doc Hudson", "Sally", "Flash McQueen", "Mater"],
+        answer: "Flash McQueen"
+    },
+    {
+        question: "Quel est le nom du chien héros dans 'Les 101 Dalmatiens' ?",
+        options: ["Patch", "Lucky", "Pongo", "Perdita"],
+        answer: "Pongo"
+    },
+    {
+        question: "Quel est le nom du héros principal dans 'Dragon Ball Z' ?",
+        options: ["Gohan", "Vegeta", "Piccolo", "Goku"],
+        answer: "Goku"
+    },
+    {
+        question: "Quel est le nom des quatre tortues ninja dans 'Les Tortues Ninja' ?",
+        options: ["Leonardo, Michelangelo, Donatello, Raphael", "Leonardo, Rocksteady, Donatello, Baxter", "Leonardo, Donatello, Tommy, Jason", "Leonardo, Donatello, Casey, April"],
+        answer: "Leonardo, Michelangelo, Donatello, Raphael"
+    },
+    {
+        question: "Quel est le nom du rat cuisinier dans 'Ratatouille' ?",
+        options: ["Rémy", "Emile", "Linguini", "Colette"],
+        answer: "Rémy"
+    },
+    {
+        question: "Quel est le nom de l'amie indienne de Peter Pan ?",
+        options: ["Wendy", "Clochette", "Lily la Tigresse", "Jane"],
+        answer: "Lily la Tigresse"
+    },
+    {
+        question: "Quel est le nom du héros principal dans 'Les Mystérieuses Cités d'or' ?",
+        options: ["Zia", "Tao", "Esteban", "Mendoza"],
+        answer: "Esteban"
+    },
+    {
+        question: "Quel est le nom du petit écureuil dans 'L'Âge de Glace' ?",
+        options: ["Manny", "Diego", "Sid", "Scrat"],
+        answer: "Scrat"
+    },
+    {
+        question: "Quel est le nom du dessin animé mettant en scène des petits ours multicolores dotés de pouvoirs magiques ?",
+        options: ["Les Calinours", "Les Snorky", "Les Bisounours", "Les Popples"],
+        answer: "Les Bisounours"
+    }
 ];
+
 
 // Éléments DOM
 const quizContainer = document.getElementById('quiz-container');

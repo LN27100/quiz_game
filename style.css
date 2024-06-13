@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+/*   font-family: "Nova Cut", system-ui; */
+
 body {
     height: 100vh; /* Utilisation de la hauteur de la fenêtre */
     margin: 0;
@@ -16,6 +19,7 @@ body {
   h1 {
     font-size: 5rem;
     margin-top: 0;
+    font-family: "Nova Cut", system-ui;
   }
   
   .container {
