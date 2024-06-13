@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz Game</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>Quiz Game</h1>
-        <button id="start-btn">Démarrer</button>
+      <h1>Quiz Game</h1>
     </div>
 
+    <!-- Conteneurs pour le quiz et les boutons -->
     <div id="quiz-container" class="hidden">
-        <div id="question-text"></div>
-        <div id="options-container"></div>
-        <button id="next-btn" class="hidden">Suivant</button>
-        <div id="result-container" class="hidden">
-            <!-- Contenu dynamique ajouté par JavaScript -->
-            <h2>Votre Score</h2>
-            <p id="score"></p>
-            <button id="finish-btn">Terminer</button>
-        </div>
+      <div id="question-text"></div>
+      <div id="options-container"></div>
+      <button id="next-btn" class="hidden">Suivant</button>
+      <div id="result-container" class="hidden">
+        <h2>Votre Score</h2>
+        <p id="score"></p>
+        <button id="finish-btn" class="hidden">Terminer</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Bouton de démarrage et boutons de thème -->
+      <button id="theme-culture">Thème Culture</button>
+      <button id="theme-chansons">Thème Chansons</button>
+      <button id="theme-dessins">Thème Dessins animés</button>
     </div>
 
     <!-- Charger le fichier JavaScript -->
     <script src="quiz.js"></script>
-</body>
+  </body>
 </html>

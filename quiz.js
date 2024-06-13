@@ -1,7 +1,7 @@
 // quiz.js
 
 // Tableau des questions
-const questions = [
+const questionsCultureGenerale = [
     {
         question: "Quelle est la capitale de la France?",
         options: ["Paris", "London", "Berlin", "Madrid"],
@@ -109,31 +109,75 @@ const questions = [
     }
 ];
 
+const questionsChansons = [
+    {
+        question: "Qui a chanté 'Bohemian Rhapsody' ?",
+        options: ["Queen", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+        answer: "Queen"
+    },
+    {
+        question: "Qui a chanté 'Shape of You' ?",
+        options: ["Ed Sheeran", "Justin Bieber", "Taylor Swift", "Adele"],
+        answer: "Ed Sheeran"
+    },
+    // ... autres questions sur les chansons
+];
 
+const questionsDessinsAnimes = [
+    {
+        question: "Quel personnage est un célèbre chasseur de fantômes ?",
+        options: ["Scooby-Doo", "Tom", "Astérix", "Gaston Lagaffe"],
+        answer: "Scooby-Doo"
+    },
+    {
+        question: "Qui est l'ami de Winnie l'Ourson ?",
+        options: ["Porcinet", "Tigrou", "Bourriquet", "Jean-Christophe"],
+        answer: "Porcinet"
+    },
+    // ... autres questions sur les dessins animés
+];
 
 // Éléments DOM
-const startButton = document.getElementById('start-btn');
 const quizContainer = document.getElementById('quiz-container');
-const questionText = document.getElementById('question-text');
+const themeCultureBtn = document.getElementById('theme-culture');
+const themeChansonsBtn = document.getElementById('theme-chansons');
+const themeDessinsBtn = document.getElementById('theme-dessins');
 const optionsContainer = document.getElementById('options-container');
 const nextButton = document.getElementById('next-btn');
 const resultContainer = document.getElementById('result-container');
 const scoreText = document.getElementById('score');
-const finishButton = document.getElementById('finish-btn'); 
+const finishButton = document.getElementById('finish-btn');
 
 // Variables du quiz
+let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 
-// Fonction pour démarrer le quiz
-function startQuiz() {
-    startButton.classList.add('hidden');
+// Écouter le clic sur les boutons de thème et démarrer le quiz correspondant
+themeCultureBtn.addEventListener('click', () => {
+    startQuiz(questionsCultureGenerale);
+});
+
+themeChansonsBtn.addEventListener('click', () => {
+    startQuiz(questionsChansons);
+});
+
+themeDessinsBtn.addEventListener('click', () => {
+    startQuiz(questionsDessinsAnimes);
+});
+
+// Fonction pour démarrer le quiz avec les questions du thème sélectionné
+function startQuiz(selectedQuestions) {
+    questions = selectedQuestions;
     quizContainer.classList.remove('hidden');
     initializeQuiz();
 }
 
 // Fonction pour initialiser le quiz
 function initializeQuiz() {
+    score = 0;
+    currentQuestionIndex = 0;
+    resultContainer.classList.add('hidden');
     showQuestion();
     nextButton.addEventListener('click', nextQuestion);
 }
@@ -141,8 +185,10 @@ function initializeQuiz() {
 // Fonction pour afficher la question courante
 function showQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
-    questionText.textContent = currentQuestion.question;
-    
+    const questionTextElement = document.getElementById('question-text'); // Récupérer l'élément pour afficher la question
+
+    questionTextElement.textContent = currentQuestion.question; // Utiliser l'élément récupéré pour afficher la question
+
     optionsContainer.innerHTML = '';
     currentQuestion.options.forEach(option => {
         const optionElement = document.createElement('button');
@@ -191,7 +237,7 @@ function nextQuestion() {
     }
 }
 
-// Fonction pour réinitialiser l'état du quiz
+// Fonction pour réinitialiser l'état du quiz pour la prochaine question
 function resetQuiz() {
     nextButton.classList.add('hidden');
     const optionButtons = document.querySelectorAll('.option-btn');
@@ -203,29 +249,25 @@ function resetQuiz() {
 
 // Fonction pour afficher le score final et le bouton "Terminer"
 function showResult() {
-    resultContainer.innerHTML = ''; // Vide le conteneur des résultats au cas où
+    resultContainer.innerHTML = '';
     resultContainer.classList.remove('hidden');
-    
-    // Ajoute "Votre Score" au-dessus du score
+
     const scoreTitle = document.createElement('h2');
     scoreTitle.textContent = 'Votre Score';
     resultContainer.appendChild(scoreTitle);
 
-    // Affiche le score
     scoreText.textContent = `Vous avez marqué ${score} sur ${questions.length}`;
     resultContainer.appendChild(scoreText);
 
-    // Affiche le bouton "Terminer"
     finishButton.classList.remove('hidden');
     finishButton.addEventListener('click', () => {
-        // Revenir à la page de démarrage
         resultContainer.classList.add('hidden');
         quizContainer.classList.add('hidden');
-        startButton.classList.remove('hidden');
-        currentQuestionIndex = 0;
-        score = 0;
     });
 }
 
-// Écouter le clic sur le bouton "Démarrer"
-startButton.addEventListener('click', startQuiz);
+// Initialisation du quiz (cache par défaut le conteneur de quiz et les boutons de thème visibles)
+quizContainer.classList.add('hidden');
+themeCultureBtn.classList.remove('hidden');
+themeChansonsBtn.classList.remove('hidden');
+themeDessinsBtn.classList.remove('hidden');
