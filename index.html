@@ -8,19 +8,23 @@
 </head>
 <body>
     <div class="container">
-        <div id="quiz-container">
-            <div id="question-container">
-                <h2 id="question-text"></h2>
-                <div id="options-container"></div>
-            </div>
-            <button id="next-btn">Next</button>
-        </div>
+        <h1>Quiz Game</h1>
+        <button id="start-btn">Démarrer</button>
+    </div>
+
+    <div id="quiz-container" class="hidden">
+        <div id="question-text"></div>
+        <div id="options-container"></div>
+        <button id="next-btn" class="hidden">Suivant</button>
         <div id="result-container" class="hidden">
-            <h2>Your Score</h2>
+            <!-- Contenu dynamique ajouté par JavaScript -->
+            <h2>Votre Score</h2>
             <p id="score"></p>
+            <button id="finish-btn">Terminer</button>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Charger le fichier JavaScript -->
+    <script src="quiz.js"></script>
 </body>
 </html>
