@@ -317,12 +317,224 @@ const questionsDessinsAnimes = [
     }
 ];
 
+const questionsSeries = [
+    
+];
+
+const questionsCuisine = [
+    {
+        question: "Quel ingrédient principal compose une sauce béchamel ?",
+        options: ["Farine", "Lait", "Beurre", "Crème fraîche"],
+        answer: "Lait"
+    },
+    {
+        question: "Quel type de pâtes est souvent utilisé pour préparer le plat italien 'carbonara' ?",
+        options: ["Spaghetti", "Tagliatelle", "Penne", "Fettuccine"],
+        answer: "Spaghetti"
+    },
+    {
+        question: "Quel aliment est utilisé pour faire du guacamole ?",
+        options: ["Tomate", "Avocat", "Poivron", "Piment"],
+        answer: "Avocat"
+    },
+    {
+        question: "Quel type de viande est utilisé pour préparer un boeuf bourguignon ?",
+        options: ["Filet mignon", "Épaule", "Jarret", "Paleron"],
+        answer: "Paleron"
+    },
+    {
+        question: "Quel est l'ingrédient principal dans un risotto ?",
+        options: ["Blé", "Riz", "Orge", "Millet"],
+        answer: "Riz"
+    },
+    {
+        question: "Quel légume est souvent utilisé dans la salade niçoise ?",
+        options: ["Laitue", "Concombre", "Tomate", "Haricot vert"],
+        answer: "Haricot vert"
+    },
+    {
+        question: "Quel épice est souvent utilisé dans la cuisine indienne pour donner de la couleur aux plats ?",
+        options: ["Cumin", "Curcuma", "Coriandre", "Cannelle"],
+        answer: "Curcuma"
+    },
+    {
+        question: "Quel type de poisson est traditionnellement utilisé pour faire du sushi ?",
+        options: ["Saumon", "Thon", "Dorade", "Bar"],
+        answer: "Thon"
+    },
+    {
+        question: "Quel légume est traditionnellement utilisé dans la paella espagnole ?",
+        options: ["Poivron", "Courgette", "Aubergine", "Pois chiche"],
+        answer: "Poivron"
+    },
+    {
+        question: "Quel ingrédient est utilisé pour faire une sauce hollandaise ?",
+        options: ["Beurre", "Crème fraîche", "Moutarde", "Yaourt"],
+        answer: "Beurre"
+    },
+    {
+        question: "Quel fromage italien à pâte filée est utilisé dans la préparation de la pizza margherita ?",
+        options: ["Provolone", "Gorgonzola", "Parmesan", "Mozzarella"],
+        answer: "Mozzarella"
+    },
+    {
+        question: "Quel mollusque est utilisé dans la cuisine italienne pour préparer les 'spaghetti alle vongole' ?",
+        options: ["Moule", "Palourde", "Huître", "Coquille Saint-Jacques"],
+        answer: "Palourde"
+    },
+    {
+        question: "Quel légume est utilisé pour faire une sauce pesto ?",
+        options: ["Basilic", "Persil", "Coriandre", "Menthe"],
+        answer: "Basilic"
+    },
+    {
+        question: "Quel ingrédient est essentiel dans la préparation du tzatziki grec ?",
+        options: ["Concombre", "Tomate", "Poivron", "Oignon"],
+        answer: "Concombre"
+    },
+    {
+        question: "Quel ingrédient est utilisé pour faire une sauce béarnaise ?",
+        options: ["Estragon", "Ciboulette", "Persil", "Coriandre"],
+        answer: "Estragon"
+    },
+    {
+        question: "Quel fruit est souvent utilisé pour faire un clafoutis ?",
+        options: ["Framboise", "Cerise", "Myrtille", "Fraise"],
+        answer: "Cerise"
+    },
+    {
+        question: "Quel légume est utilisé pour faire une salade Caesar ?",
+        options: ["Laitue romaine", "Épinard", "Mâche", "Roquette"],
+        answer: "Laitue romaine"
+    },
+    {
+        question: "Quel fromage à pâte molle et à croûte fleurie est souvent associé à la gastronomie française et est utilisé dans la préparation du 'brie en croûte' ?",
+        options: ["Camembert", "Brie", "Roquefort", "Munster"],
+        answer: "Brie"
+    },
+    {
+        question: "Quel fromage de la région française de Normandie est connue pour sa forme typique ?",
+        options: ["Pont-l'Évêque", "Neufchâtel", "Livarot", "Camembert"],
+        answer: "Neufchâtel"
+    },
+    {
+        question: "Quel crustacé est utilisé pour préparer la célèbre soupe française 'bisque' ?",
+        options: ["Homard", "Crevette", "Langouste", "Crabe"],
+        answer: "Homard"
+    },
+];
+
+const questionsHarry = [
+        {
+            question: "Quel est le nom de l'école de sorcellerie fréquentée par Harry Potter ?",
+            options: ["Durmstrang", "Poudlard", "Beauxbâtons", "Ilvermorny"],
+            answer: "Poudlard"
+        },
+        {
+            question: "Quel est le prénom des parents de Harry Potter ?",
+            options: ["James et Lily", "Charles et Diana", "Henry et Emma", "John et Mary"],
+            answer: "James et Lily"
+        },
+        {
+            question: "Quel est le nom du professeur de potions durant les premières années à Poudlard ?",
+            options: ["Albus Dumbledore", "Gilderoy Lockhart", "Severus Rogue", "Minerva McGonagall"],
+            answer: "Severus Rogue"
+        },
+        {
+            question: "Quel est le nom du prisonnier d'Azkaban qui s'échappe dans le troisième film ?",
+            options: ["Peter Pettigrew", "Sirius Black", "Bellatrix Lestrange", "Lucius Malefoy"],
+            answer: "Sirius Black"
+        },
+        {
+            question: "Quel est le patronus de Harry Potter ?",
+            options: ["Un cerf", "Un phénix", "Un chien", "Un dragon"],
+            answer: "Un cerf"
+        },
+        {
+            question: "Quel est le nom de la maison à laquelle appartient Drago Malefoy ?",
+            options: ["Serpentard", "Gryffondor", "Serdaigle", "Poufsouffle"],
+            answer: "Serpentard"
+        },
+        {
+            question: "Quel est le nom de l'elfe de maison de la famille Malefoy ?",
+            options: ["Winky", "Kreacher", "Dobby", "Hokey"],
+            answer: "Dobby"
+        },
+        {
+            question: "Quel est le métier de Hermione Granger après avoir quitté Poudlard ?",
+            options: ["Magizoologiste", "Auror", "Professeur à Poudlard", "Employée au ministère de la Magie"],
+            answer: "Employée au ministère de la Magie"
+        },
+        {
+            question: "Quel est le nom du frère de Ron Weasley qui travaille avec des dragons ?",
+            options: ["George", "Percy", "Charlie", "Bill"],
+            answer: "Charlie"
+        },
+        {
+            question: "Quel est le nom complet de Voldemort ?",
+            options: ["Salazar Serpentard", "Tom Elvis Jedusor", "Regulus Black", "Gellert Grindelwald"],
+            answer: "Tom Elvis Jedusor"
+        },
+        {
+            question: "Quel est le nom du sport préféré des sorciers dans l'univers de Harry Potter ?",
+            options: ["Quidditch", "Wizard Chess", "Spellcasting", "Broom Racing"],
+            answer: "Quidditch"
+        },
+        {
+            question: "Quel est le nom de la banque des sorciers à Londres ?",
+            options: ["Gringotts", "Ollivander's", "Flourish and Blotts", "The Leaky Cauldron"],
+            answer: "Gringotts"
+        },
+        {
+            question: "Quel est le nom de la potion permettant de changer d'apparence ?",
+            options: ["Veritaserum", "Amortentia", "Felix Felicis", "Polynectar"],
+            answer: "Polynectar"
+        },
+        {
+            question: "Quel est le nom du professeur de Défense contre les forces du Mal dans la première année de Harry ?",
+            options: ["Remus Lupin", "Severus Rogue", "Quirinus Quirrell", "Dolores Ombrage"],
+            answer: "Quirinus Quirrell"
+        },
+        {
+            question: "Quel est le nom de la carte magique qui montre tout Poudlard et ses habitants ?",
+            options: ["La Carte des Fondateurs", "La Carte du Maraudeur", "La Carte de Poudlard", "La Carte de l'École"],
+            answer: "La Carte du Maraudeur"
+        },
+        {
+            question: "Quel est le nom du professeur de divination à Poudlard ?",
+            options: ["Aurora Sinistra", "Filius Flitwick", "Pomona Chourave", "Sybille Trelawney"],
+            answer: "Sybille Trelawney"
+        },
+        {
+            question: "Quel est le nom du serpent de Voldemort ?",
+            options: ["Nagini", "Basilic", "Niffler", "Nagini"],
+            answer: "Nagini"
+        },
+        {
+            question: "Quel est le nom du directeur de Poudlard avant Albus Dumbledore ?",
+            options: ["Horace Slughorn", "Phineas Nigellus Black", "Armando Dippet", "Dilys Derwent"],
+            answer: "Armando Dippet"
+        },
+        {
+            question: "Quel est le nom de l'animal de compagnie de Ron Weasley ?",
+            options: ["Pattenrond", "Croûtard", "Hedwige", "Errol"],
+            answer: "Croûtard"
+        },
+        {
+            question: "Quel est le nom du groupe de sorciers rebelles dirigé par Harry, Ron et Hermione en cinquième année ?",
+            options: ["La Brigade Inquisitoriale", "L'Ordre du Phénix", "L'Armée de Dumbledore", "Les Maraudeurs"],
+            answer: "L'Armée de Dumbledore"
+        }    
+];
 
 // Éléments DOM
 const quizContainer = document.getElementById('quiz-container');
 const themeCultureBtn = document.getElementById('theme-culture');
 const themeChansonsBtn = document.getElementById('theme-chansons');
 const themeDessinsBtn = document.getElementById('theme-dessins');
+const themeSeriesBtn = document.getElementById('theme-series');
+const themeCuisineBtn = document.getElementById('theme-cuisine');
+const themeHarryBtn = document.getElementById('theme-harry');
 const optionsContainer = document.getElementById('options-container');
 const nextButton = document.getElementById('next-btn');
 const resultContainer = document.getElementById('result-container');
@@ -345,6 +557,18 @@ themeChansonsBtn.addEventListener('click', () => {
 
 themeDessinsBtn.addEventListener('click', () => {
     startQuiz(questionsDessinsAnimes);
+});
+
+themeSeriesBtn.addEventListener('click', () => {
+    startQuiz(questionsSeries);
+});
+
+themeCuisineBtn.addEventListener('click', () => {
+    startQuiz(questionsCuisine);
+});
+
+themeHarryBtn.addEventListener('click', () => {
+    startQuiz(questionsHarry);
 });
 
 // Fonction pour démarrer le quiz avec les questions du thème sélectionné
