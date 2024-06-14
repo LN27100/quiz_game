@@ -685,6 +685,118 @@ const questionsHarry = [
         }    
 ];
 
+const questionsGeographie = [
+    {
+        question: "Quel est le plus grand pays du monde par superficie ?",
+        options: ["Russie", "Canada", "Chine", "États-Unis"],
+        answer: "Russie"
+    },
+    {
+        question: "Où se trouve le mont Everest, le plus haut sommet du monde ?",
+        options: ["Népal", "Inde", "Chine", "Bhoutan"],
+        answer: "Népal"
+    },
+    {
+        question: "Quel est le fleuve le plus long du monde ?",
+        options: ["Nil", "Amazone", "Yangzi Jiang", "Mississippi"],
+        answer: "Amazone"
+    },
+    {
+        question: "Quel est le point le plus bas de la Terre, situé à environ 430 mètres sous le niveau de la mer ?",
+        options: ["Mer Morte", "Vallée de la Mort", "Lac Assal", "Fosse des Mariannes"],
+        answer: "Mer Morte"
+    },
+    {
+        question: "Quel pays est le plus grand producteur mondial de café ?",
+        options: ["Brésil", "Colombie", "Vietnam", "Indonésie"],
+        answer: "Brésil"
+    },
+    {
+        question: "Quel est le plus grand archipel du monde en nombre d'îles ?",
+        options: ["Indonésie", "Philippines", "Japon", "Maldives"],
+        answer: "Indonésie"
+    },
+    {
+        question: "Quel est le pays le plus peuplé d'Afrique ?",
+        options: ["Nigeria", "Égypte", "Éthiopie", "République Démocratique du Congo"],
+        answer: "Nigeria"
+    },
+    {
+        question: "Quelle est la plus haute montagne d'Afrique ?",
+        options: ["Mont Kilimandjaro", "Mont Kenya", "Mont Stanley", "Mont Elgon"],
+        answer: "Mont Kilimandjaro"
+    },
+    {
+        question: "Quel est le plus grand pays d'Amérique du Sud par superficie ?",
+        options: ["Brésil", "Argentine", "Colombie", "Pérou"],
+        answer: "Brésil"
+    },
+    {
+        question: "Quel est le plus grand lac d'eau douce en volume du monde ?",
+        options: ["lac Baïkal", "lac Supérieur", "lac Tanganyika", "lac Victoria"],
+        answer: "lac Baïkal"
+    },
+    {
+        question: "Quel pays a le plus grand nombre de langues officielles ?",
+        options: ["Afrique du Sud", "Inde", "Suisse", "Nouvelle-Zélande"],
+        answer: "Afrique du Sud"
+    },
+    {
+        question: "Dans quel océan se trouve l'île de Madagascar ?",
+        options: ["Océan Indien", "Océan Atlantique", "Océan Pacifique", "Océan Arctique"],
+        answer: "Océan Indien"
+    },
+    {
+        question: "Quelle est la capitale du Pérou ?",
+        options: ["Lima", "Cusco", "Arequipa", "Trujillo"],
+        answer: "Lima"
+    },
+    {
+        question: "Quelle est la plus haute cascade du monde ?",
+        options: ["Salto Angel (Venezuela)", "Niagara (États-Unis/Canada)", "Victoria (Zimbabwe/Zambie)", "Tugela (Afrique du Sud)"],
+        answer: "Salto Angel (Venezuela)"
+    },
+    {
+        question: "Quelle est la ville la plus peuplée d'Europe ?",
+        options: ["Moscou", "Londres", "Paris", "Berlin"],
+        answer: "Moscou"
+    },
+    {
+        question: "Quel est le plus grand désert chaud du monde ?",
+        options: ["Sahara", "Kalahari", "Arabie", "Gobi"],
+        answer: "Sahara"
+    },
+    {
+        question: "Quel est le pays le plus grand exportateur de pétrole au monde ?",
+        options: ["Arabie Saoudite", "États-Unis", "Russie", "Canada"],
+        answer: "Arabie Saoudite"
+    },
+    {
+        question: "Quelle est la capitale de la Suède ?",
+        options: ["Stockholm", "Oslo", "Copenhague", "Helsinki"],
+        answer: "Stockholm"
+    },
+    {
+        question: "Dans quel pays se trouve la ville de Dubaï ?",
+        options: ["Émirats Arabes Unis", "Arabie Saoudite", "Qatar", "Koweït"],
+        answer: "Émirats Arabes Unis"
+    },
+    {
+        question: "Quelle est la plus longue rivière de France, s'étendant sur environ 1,012 kilomètres ?",
+        options: ["Loire", "Rhône", "Seine", "Garonne"],
+        answer: "Loire"
+    }
+];
+
+const questionsOrthographe = [
+
+];
+
+const questionsSport = [
+
+];
+
+
 // Mélanger les options pour chaque thème de questions
 shuffleQuestionsOptions(questionsCultureGenerale);
 shuffleQuestionsOptions(questionsChansons);
@@ -692,6 +804,9 @@ shuffleQuestionsOptions(questionsDessinsAnimes);
 shuffleQuestionsOptions(questionsSeries);
 shuffleQuestionsOptions(questionsHarry);
 shuffleQuestionsOptions(questionsCuisine);
+shuffleQuestionsOptions(questionsGeographie);
+shuffleQuestionsOptions(questionsOrthographe);
+shuffleQuestionsOptions(questionsSport);
 
 
 
@@ -703,6 +818,9 @@ const themeDessinsBtn = document.getElementById('theme-dessins');
 const themeSeriesBtn = document.getElementById('theme-series');
 const themeCuisineBtn = document.getElementById('theme-cuisine');
 const themeHarryBtn = document.getElementById('theme-harry');
+const themeGeographieBtn = document.getElementById('theme-geographie');
+const themeOrthographeBtn = document.getElementById('theme-orthographe');
+const themeSportBtn = document.getElementById('theme-sport');
 const optionsContainer = document.getElementById('options-container');
 const nextButton = document.getElementById('next-btn');
 const resultContainer = document.getElementById('result-container');
@@ -737,6 +855,18 @@ themeCuisineBtn.addEventListener('click', () => {
 
 themeHarryBtn.addEventListener('click', () => {
     startQuiz(questionsHarry);
+});
+
+themeGeographieBtn.addEventListener('click', () => {
+    startQuiz(questionsGeographie);
+});
+
+themeOrthographeBtn.addEventListener('click', () => {
+    startQuiz(questionsOrthographe);
+});
+
+themeSportBtn.addEventListener('click', () => {
+    startQuiz(questionsSport);
 });
 
 // Fonction pour démarrer le quiz avec les questions du thème sélectionné
