@@ -789,10 +789,210 @@ const questionsGeographie = [
 ];
 
 const questionsOrthographe = [
+    {
+        question: "Comment s'écrit le mot désignant l'action de se débarrasser de quelque chose ?",
+        options: ["Jetter", "Jeté", "Jeter", "Je tais"],
+        answer: "Jeter"
+    },
+    {
+        question: "Quel est le féminin de 'acteur' ?",
+        options: ["Actrice", "Acteuse", "Acteure", "Actrisse"],
+        answer: "Actrice"
+    },
+    {
+        question: "Comment s'écrit le mot désignant une énigme difficile, un problème insoluble ?",
+        options: ["Querelle", "Querelleur", "Querele", "Querrelle"],
+        answer: "Querelle"
+    },
+    {
+        question: "Quel est le mot désignant un petit lac ou une mare ?",
+        options: ["Marette", "Mare", "Maret", "Marre"],
+        answer: "Mare"
+    },
+    {
+        question: "Quel est le pluriel de 'monsieur' ?",
+        options: ["Monsieurs", "Monsieures", "Monsieur", "Messieurs"],
+        answer: "Messieurs"
+    },
+    {
+        question: "Comment s'écrit le mot désignant un ensemble de règles ou de lois ?",
+        options: ["Règles", "Règle", "Règlement", "Règlements"],
+        answer: "Règlement"
+    },
+    {
+        question: "Quel est le féminin de 'professeur' ?",
+        options: ["Professeuse", "Professeure", "Professeur", "Professeuress"],
+        answer: "Professeure"
+    },
+    {
+        question: "Quel est l'ancien terme pour désigner un poète musicien de la Renaissance ?",
+        options: ["Bachique", "Vagant", "Troubadour", "Luthier"],
+        answer: "Troubadour"
+    },
+    {
+        question: "Comment s'écrit le mot désignant la conversion d'une substance solide en gaz sans passer par l'état liquide ?",
+        options: ["Sublimation", "Sublimée", "Sublimée", "Sublimée"],
+        answer: "Sublimation"
+    },
+    {
+        question: "Quel est le féminin de 'ministre' ?",
+        options: ["Ministère", "Ministesse", "Ministre", "Ministresse"],
+        answer: "Ministre"
+    },
+    {
+        question: "Comment s'écrit le mot désignant une plante grimpante souvent utilisée comme décoration ?",
+        options: ["Lièvre", "Lierre", "Lières", "Lyère"],
+        answer: "Lierre"
+    },
+    {
+        question: "Quel est l'ancien terme pour désigner un alchimiste ?",
+        options: ["Sorcellier", "Alchimiste", "Philosophe", "Nigromant"],
+        answer: "Nigromant"
+    },
+    {
+        question: "Comment s'écrit le mot désignant une pierre précieuse bleue ?",
+        options: ["Saphire", "Saphyr", "Saphir", "Safir"],
+        answer: "Saphir"
+    },
+    {
+        question: "Comment s'écrit le mot désignant une personne qui s'occupe des enfants ?",
+        options: ["Nourice", "Nourrisse", "Nourice", "Nourisse"],
+        answer: "Nourrice"
+    },
+    {
+        question: "Comment s'écrit le mot désignant un vieux gréement à trois mâts ?",
+        options: ["Trois-mâts", "Tri-mât", "Très-mât", "Tri-mas"],
+        answer: "Trois-mâts"
+    },
+    {
+        question: "Quel est le mot désignant une marque laissée par la rouille sur le métal ?",
+        options: ["Ferrugine", "Ferrugineuse", "Ferruginé", "Ferruginée"],
+        answer: "Ferrugine"
+    },
+    {
+        question: "Comment s'écrit le mot désignant un courant d'eau rapide et tourbillonnant ?",
+        options: ["Mouillard", "Moulinet", "Mouillon", "Mouille"],
+        answer: "Mouillon"
+    },
+    {
+        question: "Comment s'écrit le mot désignant une personne atteinte de gigantisme ?",
+        options: ["Gigantesque", "Géantisme", "Gigantée", "Gigantiste"],
+        answer: "Géantisme"
+    },
+    {
+        question: "Quel est le mot désignant une inflammation aiguë de la muqueuse intestinale ?",
+        options: ["Entérite", "Entéritique", "Entéritée", "Entérine"],
+        answer: "Entérite"
+    },
 
+    {
+        question: "Quel est l'ancien terme pour désigner un ensemble de règles édictées par un seigneur au Moyen Âge ?",
+        options: ["Charte", "Ordonnance", "Fief", "Charte"],
+        answer: "Ordonnance"
+    }
 ];
 
 const questionsSport = [
+    {
+        question: "Quel est le nom du joueur de football brésilien surnommé 'O Fenômeno' ?",
+        options: ["Ronaldo", "Pelé", "Zidane", "Messi"],
+        answer: "Ronaldo"
+    },
+    {
+        question: "Dans quel sport l'expression 'Grand Chelem' désigne-t-elle la victoire dans les quatre tournois majeurs la même année ?",
+        options: ["Tennis", "Golf", "Football", "Basketball"],
+        answer: "Tennis"
+    },
+    {
+        question: "Quel est le nom du plus grand événement sportif international regroupant des athlètes de plus de 200 pays différents, se déroulant tous les quatre ans ?",
+        options: ["Jeux Olympiques", "Coupe du Monde", "Championnat du Monde", "Euro"],
+        answer: "Jeux Olympiques"
+    },
+    {
+        question: "Quel sport utilise une raquette pour frapper une balle contre un mur dans un court fermé avec des lignes marquant les limites du jeu ?",
+        options: ["Squash", "Tennis", "Paddle", "Ping-pong"],
+        answer: "Squash"
+    },
+    {
+        question: "Quel joueur de basket-ball américain a remporté six titres NBA avec les Chicago Bulls dans les années 1990 ?",
+        options: ["Michael Jordan", "Magic Johnson", "Larry Bird", "Kobe Bryant"],
+        answer: "Michael Jordan"
+    },
+    {
+        question: "Quel golfeur américain a remporté 15 titres du Grand Chelem, dont cinq Masters et quatre US Open ?",
+        options: ["Tiger Woods", "Jack Nicklaus", "Arnold Palmer", "Phil Mickelson"],
+        answer: "Tiger Woods"
+    },
+    {
+        question: "Quel est le nom du championnat annuel de rugby où s'affrontent les équipes des Six Nations européennes ?",
+        options: ["Tournoi des Six Nations", "Coupe du Monde de Rugby", "Championnat de France", "Rugby Championship"],
+        answer: "Tournoi des Six Nations"
+    },
+    {
+        question: "Dans quel sport les participants descendent une pente enneigée à l'aide de skis, en slalomant entre des portes ou d'autres obstacles ?",
+        options: ["Ski alpin", "Snowboard", "Ski de fond", "Biathlon"],
+        answer: "Ski alpin"
+    },
+    {
+        question: "Quel est le nom du sport qui se pratique sur une piste de glace où les concurrents descendent la pente à grande vitesse, en se couchant sur un traîneau ?",
+        options: ["Luge", "Bobsleigh", "Skeleton", "Patinage de vitesse"],
+        answer: "Luge"
+    },
+    {
+        question: "Quel footballeur argentin a remporté cinq Ballons d'Or et joue pour le FC Barcelone depuis le début de sa carrière professionnelle en 2000 ?",
+        options: ["Lionel Messi", "Cristiano Ronaldo", "Diego Maradona", "Neymar"],
+        answer: "Lionel Messi"
+    },
+    {
+        question: "Quel joueur de tennis suisse a remporté 20 titres du Grand Chelem, dont huit Wimbledon et cinq US Open ?",
+        options: ["Roger Federer", "Novak Djokovic", "Rafael Nadal", "Andy Murray"],
+        answer: "Roger Federer"
+    },
+    {
+        question: "Quelle est la distance officielle d'un marathon en kilomètres ?",
+        options: ["42,195 km", "40 km", "45 km", "50 km"],
+        answer: "42,195 km"
+    },
+    {
+        question: "Dans quel sport le joueur peut-il marquer un 'touchdown' ?",
+        options: ["Football américain", "Basket-ball", "Baseball", "Hockey sur glace"],
+        answer: "Football américain"
+    },
+    {
+        question: "Quel est le sport principal du Tour de France ?",
+        options: ["Cyclisme sur route", "Course à pied", "Cyclisme sur piste", "Ski alpin"],
+        answer: "Cyclisme sur route"
+    },
+    {
+        question: "Quel joueur de football brésilien a remporté deux Coupes du Monde de la FIFA avec le Brésil en 1958 et 1962 ?",
+        options: ["Pelé", "Ronaldinho", "Ronaldo", "Romário"],
+        answer: "Pelé"
+    },
+    {
+        question: "Quelle est la distance d'une piste d'athlétisme standard utilisée pour les courses sur longue distance, comme le 10 000 mètres ?",
+        options: ["400 mètres", "800 mètres", "200 mètres", "1000 mètres"],
+        answer: "400 mètres"
+    },
+    {
+        question: "Quel est le nom donné à la méthode utilisée pour marquer un point en rugby, où le joueur pose le ballon derrière la ligne de but de l'adversaire ?",
+        options: ["Essai", "Pénalité", "Drop", "Conversion"],
+        answer: "Essai"
+    },
+    {
+        question: "Quel joueur de tennis espagnol a remporté un record de 13 titres à Roland-Garros, dominant sur terre battue ?",
+        options: ["Rafael Nadal", "Roger Federer", "Novak Djokovic", "Andy Murray"],
+        answer: "Rafael Nadal"
+    },
+    {
+        question: "Quel est le nom de la compétition internationale de football la plus prestigieuse pour les équipes nationales, remportée par la France en 2018 ?",
+        options: ["Coupe du Monde de la FIFA", "Ligue des Champions", "Copa America", "Euro"],
+        answer: "Coupe du Monde de la FIFA"
+    },
+    {
+        question: "Quel joueur français a remporté la Coupe du Monde de la FIFA en 1998 en tant que capitaine de l'équipe nationale et est désormais entraîneur de l'équipe nationale française ?",
+        options: ["Zinédine Zidane", "Didier Deschamps", "Thierry Henry", "Marcel Desailly"],
+        answer: "Didier Deschamps"
+    }
 
 ];
 
