@@ -950,7 +950,7 @@ const questionsSport = [
     },
     {
         question: "Quelle est la distance officielle d'un marathon en kilomètres ?",
-        options: ["42,195 km", "40 km", "45 km", "50 km"],
+        options: ["42,195 km", "40,195 km", "45 km", "50 km"],
         answer: "42,195 km"
     },
     {

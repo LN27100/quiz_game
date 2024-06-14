@@ -85,9 +85,20 @@ h1 {
     width: 7rem;
     height: 2rem;
     color: white;
+    margin-bottom: 2rem;
 }
   
 #question-text {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    word-wrap: break-word; /* Permet le retour à la ligne en cas de besoin */
+    max-width: 31rem;
+    margin: 0 auto; 
 }
+
+#options-container {
+    max-width: 31rem;
+    margin: 1.25rem auto;
+}
+
+
