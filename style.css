@@ -104,7 +104,7 @@ h1 {
 /* NAVBAR */
 
 .navbar {
-    background-color: #5cb85c;
+    background-color: #8583e8;
 }
 
   /* SCROLLBAR PERSONNALISEE */
@@ -135,3 +135,15 @@ h1 {
     );
   }
   
+  /* CONNEXION / INSCRIPTION */
+
+  #login-form > form > button,
+  #register-form > form > button {
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #d93ffb; 
+    border: none;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+}
