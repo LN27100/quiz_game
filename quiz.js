@@ -1,5 +1,20 @@
 // quiz.js
 
+// Fonction de mélange
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+// Fonction pour mélanger les options de chaque question dans un ensemble de questions
+function shuffleQuestionsOptions(questions) {
+    questions.forEach(question => {
+        shuffle(question.options);
+    });
+}
+
 // Tableau des questions
 const questionsCultureGenerale = [
     {
@@ -33,11 +48,6 @@ const questionsCultureGenerale = [
         answer: "Yen"
     },
     {
-        question: "Qui a écrit 'Hamlet' ?",
-        options: ["William Shakespeare", "Charles Dickens", "Jane Austen", "George Orwell"],
-        answer: "William Shakespeare"
-    },
-    {
         question: "Quelle est la plus grande île du monde ?",
         options: ["Australie", "Groenland", "Nouvelle-Guinée", "Borneo"],
         answer: "Groenland"
@@ -54,12 +64,12 @@ const questionsCultureGenerale = [
     },
     {
         question: "Quel est le plus grand animal terrestre ?",
-        options: ["Éléphant d'Afrique", "Rhinocéros blanc", "Girafe", "Ours polaire"],
+        options: ["Rhinocéros blanc", "Girafe","Éléphant d'Afrique", "Ours polaire"],
         answer: "Éléphant d'Afrique"
     },
     {
         question: "Quel est le pays le plus peuplé du monde ?",
-        options: ["Inde", "Chine", "États-Unis", "Brésil"],
+        options: ["États-Unis", "Brésil","Inde", "Chine"],
         answer: "Chine"
     },
     {
@@ -74,7 +84,7 @@ const questionsCultureGenerale = [
     },
     {
         question: "Qui a écrit 'Madame Bovary' ?",
-        options: ["Gustave Flaubert", "Émile Zola", "Honoré de Balzac", "Guy de Maupassant"],
+        options: [ "Émile Zola","Gustave Flaubert","Honoré de Balzac", "Guy de Maupassant"],
         answer: "Gustave Flaubert"
     },
     {
@@ -84,7 +94,7 @@ const questionsCultureGenerale = [
     },
     {
         question: "Quel est le plus grand désert du monde ?",
-        options: ["Sahara", "Antarctique", "Gobi", "Arabie"],
+        options: ["Gobi", "Sahara", "Antarctique", "Arabie"],
         answer: "Antarctique"
     },
     {
@@ -165,7 +175,6 @@ const questionsChansons = [
         options: ["Slimane", "Vianney", "Julien Doré", "Jérémy Frérot"],
         answer: "Jérémy Frérot"
     },
-    
     {
         question: "Qui a chanté 'My Heart Will Go On' ?",
         options: ["Céline Dion", "Mariah Carey", "Whitney Houston", "Madonna"],
@@ -211,7 +220,6 @@ const questionsChansons = [
         options: ["Jérémy Frérot", "Vianney", "Jenifer", "Dadju"],
         answer: "Dadju"
     }
-
 ];
 
 const questionsDessinsAnimes = [
@@ -318,8 +326,158 @@ const questionsDessinsAnimes = [
 ];
 
 const questionsSeries = [
-    
+    {
+        question: "Quel est le nom du café où les personnages de 'Friends' passent beaucoup de temps ?",
+        options: ["Central Perk", "Monica's", "Starbucks", "Cafe Nervosa"],
+        answer: "Central Perk"
+    },
+    {
+        question: "Qui tire sur J.R. dans 'Dallas' ?",
+        options: ["Kristin Shepard", "Sue Ellen Ewing", "Pamela Barnes", "Cliff Barnes"],
+        answer: "Kristin Shepard"
+    },
+    {
+        question: "Quel est le nom du fils de Rick Grimes dans 'The Walking Dead' ?",
+        options: ["Carl", "Daryl", "Glenn", "Morgan"],
+        answer: "Carl"
+    },
+    {
+        question: "Quel est le prénom de la fille aînée de la famille Ingalls ?",
+        options: ["Mary", "Laura", "Carrie", "Grace"],
+        answer: "Mary"
+    },
+    {
+        question: "Qui est l'ami hacker d'Oliver Queen, également membre de l'équipe Arrow ?",
+        options: ["Felicity Smoak", "John Diggle", "Roy Harper", "Laurel Lance"],
+        answer: "Felicity Smoak"
+    },
+    {
+        question: "Quel est le prénom du père de Malcolm ?",
+        options: ["Hal", "Lois", "Craig", "Otto"],
+        answer: "Hal"
+    },
+    {
+        question: "Quel est le vrai nom de Superman dans 'Smallville' ?",
+        options: ["Clark Kent", "Bruce Wayne", "Oliver Queen", "Barry Allen"],
+        answer: "Clark Kent"
+    },
+    {
+        question: "Quel est le prénom du fils de Ross dans 'Friends' ?",
+        options: ["Ben", "Mike", "Jack", "David"],
+        answer: "Ben"
+    },
+    {
+        question: "Quel personnage de DC Comics est le mentor d'Oliver Queen dans la série 'Arrow' ?",
+        options: ["Slade Wilson", "Malcolm Merlyn", "John Diggle", "Floyd Lawton"],
+        answer: "Slade Wilson"
+    },
+    {
+        question: "Quel est le nom de la voiture parlante dans 'K2000' ?",
+        options: ["KITT", "Herbie", "Batmobile", "General Lee"],
+        answer: "KITT"
+    },
+    {
+        question: "Quel est le nom complet de KITT dans 'K2000' ?",
+        options: ["Knight Industries Two Thousand", "Knight Intelligent Two Thousand", "Knight Internal Two Thousand", "Knight International Two Thousand"],
+        answer: "Knight Industries Two Thousand"
+    },
+    {
+        question: "Qui joue le rôle de C.J. Parker dans 'Alerte à Malibu' ?",
+        options: ["Pamela Anderson", "Yasmine Bleeth", "Erika Eleniak", "Carmen Electra"],
+        answer: "Pamela Anderson"
+    },
+    {
+        question: "Dans quelle ville fictive se déroule 'The Flash' ?",
+        options: ["Central City", "Star City", "Gotham City", "Metropolis"],
+        answer: "Central City"
+    },
+    {
+        question: "Quel est le véritable nom du super-héros connu sous le nom d'Arrow ?",
+        options: ["Oliver Queen", "Bruce Wayne", "Clark Kent", "Barry Allen"],
+        answer: "Oliver Queen"
+    },
+    {
+        question: "Quelle famille est au centre de la série 'Santa Barbara' ?",
+        options: ["Capwell", "Carrington", "Ewing", "Channing"],
+        answer: "Capwell"
+    },
+    {
+        question: "Quel est le nom de l'ennemi juré de Clark Kent dans 'Smallville' ?",
+        options: ["Lex Luthor", "General Zod", "Darkseid", "Brainiac"],
+        answer: "Lex Luthor"
+    },
+    {
+        question: "Quelle est la profession de Charles Ingalls ?",
+        options: ["Fermier", "Forgeron", "Docteur", "Avocat"],
+        answer: "Fermier"
+    },
+    {
+        question: "Quel est l'objet emblématique que MacGyver utilise souvent pour se sortir de situations dangereuses ?",
+        options: ["Couteau suisse", "Téléphone", "Pistolet", "Briquet"],
+        answer: "Couteau suisse"
+    },
+    {
+        question: "Quel membre de l'Agence tous risques est connu pour son déguisement et ses plans élaborés ?",
+        options: ["Hannibal", "Faceman", "Murdock", "B.A. Baracus"],
+        answer: "Hannibal"
+    },
+    {
+        question: "Quel est le nom du voisin religieux de la famille Simpson ?",
+        options: ["Ned Flanders", "Moe Szyslak", "Chief Wiggum", "Apu Nahasapeemapetilon"],
+        answer: "Ned Flanders"
+    },
+    {
+        question: "Qui est le père de Luke Skywalker dans 'Star Wars' ?",
+        options: ["Anakin Skywalker", "Obi-Wan Kenobi", "Yoda", "Han Solo"],
+        answer: "Anakin Skywalker"
+    },
+    {
+        question: "Dans 'The Big Bang Theory', quel est le nom du colocataire de Sheldon ?",
+        options: ["Leonard", "Howard", "Raj", "Stuart"],
+        answer: "Leonard"
+    },
+    {
+        question: "Quel est le nom de la femme de Bobby Ewing dans 'Dallas' ?",
+        options: ["Pamela", "Sue Ellen", "Lucy", "Jenna"],
+        answer: "Pamela"
+    },
+    {
+        question: "Dans 'Friends', quel est le métier de Ross Geller ?",
+        options: ["Paléontologue", "Acteur", "Chef cuisinier", "Banquier"],
+        answer: "Paléontologue"
+    },
+    {
+        question: "Quel est le nom de l'équipe de scientifiques qui aide Barry Allen dans 'The Flash' ?",
+        options: ["S.T.A.R. Labs", "A.R.G.U.S.", "Wayne Enterprises", "LexCorp"],
+        answer: "S.T.A.R. Labs"
+    },
+    {
+        question: "Quelle est la planète d'origine de Chewbacca dans 'Star Wars' ?",
+        options: ["Kashyyyk", "Tatooine", "Endor", "Naboo"],
+        answer: "Kashyyyk"
+    },
+    {
+        question: "Quelle est la capacité la plus souvent utilisée par Jonathan Chase dans 'Manimal' ?",
+        options: ["Se transformer en panthère noire", "Se transformer en aigle", "Se transformer en serpent", "Se transformer en ours"],
+        answer: "Se transformer en panthère noire"
+    },
+    {
+        question: "Quel est le nom du groupe de survivants dirigé par Rick Grimes dans 'The Walking Dead' ?",
+        options: ["Alexandria", "The Saviors", "The Whisperers", "The Wolves"],
+        answer: "Alexandria"
+    },
+    {
+        question: "Quel est le nom de l'ennemi juré de Rick Grimes, connu pour utiliser une batte de baseball couverte de fil barbelé ?",
+        options: ["Negan", "Governor", "Shane", "Merle"],
+        answer: "Negan"
+    },
+    {
+        question: "Quel est le vrai nom de Daredevil dans la série éponyme ?",
+        options: ["Matt Murdock", "Frank Castle", "Wilson Fisk", "Foggy Nelson"],
+        answer: "Matt Murdock"
+    }
 ];
+
 
 const questionsCuisine = [
     {
@@ -526,6 +684,16 @@ const questionsHarry = [
             answer: "L'Armée de Dumbledore"
         }    
 ];
+
+// Mélanger les options pour chaque thème de questions
+shuffleQuestionsOptions(questionsCultureGenerale);
+shuffleQuestionsOptions(questionsChansons);
+shuffleQuestionsOptions(questionsDessinsAnimes);
+shuffleQuestionsOptions(questionsSeries);
+shuffleQuestionsOptions(questionsHarry);
+shuffleQuestionsOptions(questionsCuisine);
+
+
 
 // Éléments DOM
 const quizContainer = document.getElementById('quiz-container');
