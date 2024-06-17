@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Si aucune erreur, procédez à la vérification de l'utilisateur
     if (empty($errors)) {
         // Vérifiez si l'email existe dans la base de données
-        $utilisateurInfos = Player::getInfos($email);
+        $utilisateurInfos = Player::checkMailExists($email);
 
         if (!$utilisateurInfos) {
             $errors['email'] = 'Utilisateur Inconnu';

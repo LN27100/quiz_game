@@ -20,13 +20,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+            <a class="nav-link active" aria-current="page" href="../../quiz-game/index.html">Accueil</a>
             </li>
           </ul>
           
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="login.html">Connexion</a>
+            <a class="nav-link" href="controllers/controller-signin.php">Connexion</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -65,30 +65,9 @@
               <button type="submit" class="button2 btn-block">Connexion</button>
             </div>
           </form>
-          <p class="mt-3">Pas encore inscrit ? <a href="#" onclick="toggleForm('register-form')">Inscrivez-vous ici</a></p>
+          <p class="mt-3">Pas encore inscrit ? <a href="../controllers/controller-signup.php">Inscrivez-vous ici</a></p>
         </div>
 
-        <div id="register-form" style="display: none;">
-          <h1 class="text-center">Inscription</h1>
-          <form method="post" action="controller-register.php">
-            <div class="mb-3">
-              <label for="register-username" class="form-label">Pseudo</label>
-              <input type="text" class="form-control" id="register-username" name="pseudo" required>
-            </div>
-            <div class="mb-3">
-              <label for="register-email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="register-email" name="email" required>
-            </div>
-            <div class="mb-3">
-              <label for="register-password" class="form-label">Mot de passe</label>
-              <input type="password" class="form-control" id="register-password" name="mdp" required>
-            </div>
-            <div class="d-grid">
-              <button type="submit" class="button2 btn-block">S'inscrire</button>
-            </div>
-          </form>
-          <p class="mt-3">Déjà inscrit ? <a href="#" onclick="toggleForm('login-form')">Connectez-vous ici</a></p>
-        </div>
       </div>
     </div>
   </div>
