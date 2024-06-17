@@ -55,12 +55,12 @@
           <form method="post" action="controller-signin.php">
             <div class="mb-3">
               <label for="email" class="form-label">Adresse e-mail :</label>
-              <input type="email" class="form-control" id="email" name="email" required>
-            </div>
+              <input type="email" class="form-control" id="email" name="email" required autocomplete="username">
+              </div>
             <div class="mb-3">
               <label for="login-password" class="form-label">Mot de passe</label>
-              <input type="password" class="form-control" id="login-password" name="password" required>
-            </div>
+              <input type="password" class="form-control" id="login-password" name="password" required autocomplete="current-password">
+              </div>
             <div class="d-grid">
               <button type="submit" class="button2 btn-block">Connexion</button>
             </div>
@@ -75,13 +75,7 @@
   <!-- Charger le fichier JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  <script>
-    function toggleForm(formId) {
-      document.getElementById('login-form').style.display = 'none';
-      document.getElementById('register-form').style.display = 'none';
-      document.getElementById(formId).style.display = 'block';
-    }
-  </script>
+
 
 </body>
 </html>

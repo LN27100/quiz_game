@@ -23,29 +23,27 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Si aucune erreur, procédez à la vérification de l'utilisateur
     if (empty($errors)) {
-        // Vérifiez si l'email existe dans la base de données
         $utilisateurInfos = Player::checkMailExists($email);
 
         if (!$utilisateurInfos) {
             $errors['email'] = 'Utilisateur Inconnu';
         } else {
-            // Comparaison du mot de passe
-            if (password_verify($_POST["password"], $utilisateurInfos['player_password'])) {
-                // Mot de passe correct
-
-                // Stockez les infos dans la variable de session
-                $_SESSION['user'] = $utilisateurInfos;
-
-                // Redirigez vers la page d'accueil
-                header("Location: ../index.html");
-                exit();
+            // Vérifier si le mot de passe n'est pas null avant d'utiliser password_verify
+            if (!isset($utilisateurInfos['player_password'])) {
+                $errors['password'] = 'Mot de passe non défini pour cet utilisateur';
             } else {
-                $errors['password'] = 'Mauvais mot de passe';
+                if (password_verify($_POST["password"], $utilisateurInfos['player_password'])) {
+                    $_SESSION['user'] = $utilisateurInfos;
+                    header("Location: ../controller-home.php");
+
+                    exit();
+                } else {
+                    $errors['password'] = 'Mauvais mot de passe';
+                }
             }
         }
     }
 }
 
-// Inclure la vue du formulaire de connexion
 include_once '../views/view-signin.php';
 ?>

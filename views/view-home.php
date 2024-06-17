@@ -49,6 +49,10 @@
       <h1>Quiz Game</h1>
     </div>
 
+    <div class="container4">
+        <?php echo "<h3>Bienvenue $pseudo</h3>"; ?>
+        </div>
+        
     <!-- Conteneurs pour le quiz et les boutons -->
     <div id="quiz-container" class="hidden">
       <div id="question-text"></div>
