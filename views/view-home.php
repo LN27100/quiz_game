@@ -33,7 +33,7 @@
                   Profil
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Mon Profil</a></li>
+                  <li><a class="dropdown-item" href="../controllers/controller-profil.php">Mon Profil</a></li>
                   <li><a class="dropdown-item" href="#">Mes Résultats</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="../controllers/controller-signout.php">Déconnexion</a></li>

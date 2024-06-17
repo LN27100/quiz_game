@@ -143,5 +143,61 @@ class Player {
         }
     }
 
+     /**
+     * * Méthode pour modifier le profil utilisateur
+     */
+    public static function updateProfil(int $player_id, string $new_pseudo, string $new_email)
+{   
+    try {
+        $db = new PDO(DBNAME, DBUSER, DBPASSWORD, array(PDO::ATTR_PERSISTENT => true));
+        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        $sql = "UPDATE player 
+                SET player_pseudo = :new_pseudo, 
+                    player_mail = :new_email, 
+                WHERE player_id = :player_id";
+
+        $query = $db->prepare($sql);
+
+        $query->bindValue(':new_pseudo', $new_pseudo, PDO::PARAM_STR);
+        $query->bindValue(':new_email', $new_email, PDO::PARAM_STR);
+        $query->bindValue(':player_id', $player_id, PDO::PARAM_INT);
+
+        $query->execute();
+    } catch (PDOException $e) {
+        error_log('Erreur lors de la mise à jour du profil : ' . $e->getMessage());
+        throw new Exception('Une erreur s\'est produite lors de la mise à jour du profil.');
+    }
+}
+
+/**
+ * Méthode pour supprimer le profil utilisateur
+ * @param int $user_id est l'id de l'utilisateur
+ * @return bool|string Renvoie true si la suppression est réussie, sinon renvoie un message d'erreur
+ */
+
+public static function deleteUser(int $player_id) {
+    try {
+        $db = new PDO(DBNAME, DBUSER, DBPASSWORD);
+
+        $sql = "DELETE FROM player WHERE player_id = :player_id";
+        $query = $db->prepare($sql);
+        $query->bindValue(':player_id', $player_id, PDO::PARAM_INT);
+        $query->execute();
+
+          // Détruire la session
+          session_destroy();
+
+          // Supprimer le mot de passe de la session
+          unset($_SESSION['player_password']);
+
+        
+        return true;
+    } catch (PDOException $e) {
+        // Si une erreur se produit, retourner le message d'erreur
+        return 'Erreur : ' . $e->getMessage();
+    }
+}
+
 }
 ?>
