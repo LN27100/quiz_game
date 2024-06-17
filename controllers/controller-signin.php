@@ -12,38 +12,48 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (empty($_POST["email"])) {
         $errors["email"] = "Champ obligatoire";
     } else {
-        // Récupérez la valeur de l'email depuis le formulaire
-        $email = $_POST["email"];
+        // Récupérez et échappez la valeur de l'email depuis le formulaire
+        $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $errors["email"] = "Adresse e-mail invalide";
+        }
     }
 
     // Vérifiez si le mot de passe est vide
-    if (empty($_POST["password"])) {
-        $errors["password"] = "Champ obligatoire";
+    if (empty($_POST["mdp"])) {
+        $errors["mdp"] = "Champ obligatoire";
+    } else {
+        // Récupérez le mot de passe depuis le formulaire
+        $mdp = $_POST["mdp"];
     }
 
     // Si aucune erreur, procédez à la vérification de l'utilisateur
     if (empty($errors)) {
-        $utilisateurInfos = Player::checkMailExists($email);
+        $utilisateurInfos = Player::getInfos($email);
 
         if (!$utilisateurInfos) {
-            $errors['email'] = 'Utilisateur Inconnu';
+            $errors['email'] = 'Utilisateur inconnu';
         } else {
-            // Vérifier si le mot de passe n'est pas null avant d'utiliser password_verify
+            // Vérifiez si le mot de passe n'est pas null avant d'utiliser password_verify
             if (!isset($utilisateurInfos['player_password'])) {
-                $errors['password'] = 'Mot de passe non défini pour cet utilisateur';
+                $errors['mdp'] = 'Mot de passe non défini pour cet utilisateur';
             } else {
-                if (password_verify($_POST["password"], $utilisateurInfos['player_password'])) {
+                // Vérifiez le mot de passe
+                if (password_verify($mdp, $utilisateurInfos['player_password'])) {
+                    // Initialisez les données de session pour l'utilisateur connecté
                     $_SESSION['user'] = $utilisateurInfos;
-                    header("Location: ../controller-home.php");
 
+                    // Redirigez vers la page d'accueil du contrôleur
+                    header("Location: ../controllers/controller-home.php");
                     exit();
                 } else {
-                    $errors['password'] = 'Mauvais mot de passe';
+                    $errors['mdp'] = 'Mauvais mot de passe';
                 }
             }
         }
     }
 }
 
+// Incluez la vue pour le formulaire de connexion
 include_once '../views/view-signin.php';
 ?>

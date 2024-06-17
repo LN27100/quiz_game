@@ -23,13 +23,13 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../../quiz-game/index.html">Accueil</a>
+                            <a class="nav-link active" aria-current="page" href="../controllers/controller-home.php">Accueil</a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="controllers/controller-signin.php">Connexion</a>
+                            <a class="nav-link" href="../controllers/controller-signin.php">Connexion</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
