@@ -481,9 +481,9 @@ const questionsSeries = [
 
 const questionsCuisine = [
     {
-        question: "Quel ingrédient principal compose une sauce béchamel ?",
+        question: "Quel ingrédient ne compose pas une sauce béchamel ?",
         options: ["Farine", "Lait", "Beurre", "Crème fraîche"],
-        answer: "Lait"
+        answer: "Crème fraîche"
     },
     {
         question: "Quel type de pâtes est souvent utilisé pour préparer le plat italien 'carbonara' ?",
@@ -782,7 +782,7 @@ const questionsGeographie = [
         answer: "Émirats Arabes Unis"
     },
     {
-        question: "Quelle est la plus longue rivière de France, s'étendant sur environ 1,012 kilomètres ?",
+        question: "Quelle est le plus long fleuve de France, s'étendant sur environ 1,012 kilomètres ?",
         options: ["Loire", "Rhône", "Seine", "Garonne"],
         answer: "Loire"
     }
@@ -856,7 +856,7 @@ const questionsOrthographe = [
     },
     {
         question: "Comment s'écrit le mot désignant une personne qui s'occupe des enfants ?",
-        options: ["Nourice", "Nourrisse", "Nourice", "Nourisse"],
+        options: ["Nourrice", "Nourrisse", "Nourice", "Nourisse"],
         answer: "Nourrice"
     },
     {
