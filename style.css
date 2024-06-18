@@ -107,6 +107,12 @@ h1 {
     background-color: #8583e8;
 }
 
+#navbarNavDropdown > ul:nth-child(2) > li.nav-item.dropdown > ul {
+    background-color: #8583e8;
+}
+
+
+
   /* SCROLLBAR PERSONNALISEE */
 
 ::-webkit-scrollbar-track {
@@ -192,6 +198,10 @@ h2 {
     margin-top: 20px; 
 }
 
+.button3:hover {
+background-color: #c300e2;
+}
+
 #editDescriptionBtn {
     text-decoration: none;
     padding: 15px 25px;
@@ -203,6 +213,10 @@ h2 {
     text-align: center;
     display: inline-block;
 }
+
+#editDescriptionBtn:hover {
+    background-color: #c300e2;
+    }
 
 #cancelEditBtn {
     text-decoration: none;
@@ -216,6 +230,10 @@ h2 {
     display: inline-block;
     margin-top: 20px;  
 }
+
+#cancelEditBtn:hover {
+    background-color: #c300e2;
+    }
 
 body > div.profile-info {
     margin-top: 3rem;

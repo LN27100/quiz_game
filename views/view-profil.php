@@ -79,14 +79,14 @@
     <!-- Formulaire de modification du profil (masqué par défaut) -->
     <form method="post" action="../controllers/controller-profil.php" class="transparent-form" enctype="multipart/form-data" id="editDescriptionForm" style="display: none;">
       <div>
-        <label for="player_pseudo">Pseudo :</label>
+        <label class="textProfil" for="player_pseudo">Pseudo :</label>
         <input type="text" name="player_pseudo" value="<?php echo htmlspecialchars($pseudo); ?>" />
         <?php if (isset($errors["player_pseudo"])) { ?>
           <span class="error"><?php echo htmlspecialchars($errors["player_pseudo"]); ?></span>
         <?php } ?>
       </div>
       <div>
-        <label for="player_mail">Adresse email :</label>
+        <label class="textProfil" for="player_mail">Adresse email :</label>
         <input type="text" name="player_mail" value="<?php echo htmlspecialchars($email); ?>" />
         <?php if (isset($errors["player_mail"])) { ?>
           <span class="error"><?php echo htmlspecialchars($errors["player_mail"]); ?></span>
