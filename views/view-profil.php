@@ -67,35 +67,36 @@
         <div class="container">
         <button id="editDescriptionBtn">Modifier le profil</button>
 
-        <form action="../controllers/controller-profil.php" method="post" class="deleteProfil">
-            <input type="hidden" name="delete_profile" value="<?= $player_id ?>">
-            <button class="delete_profile" type="submit" name="delete_profile">Supprimer le profil</button>
-        </form>
+        <form method="post" action="../controllers/controller-profil.php" class="transparent-form" enctype="multipart/form-data" id="deleteAccountForm">
+    <div>
+        <input type="submit" name="delete_profile" value="Supprimer le profil" onclick="return confirm('Êtes-vous sûr de vouloir supprimer votre profil ? Cette action est irréversible.')">
+    </div>
+</form>
     </div>
 
     <!-- Formulaire de modification du profil (masqué par défaut) -->
     <form method="post" action="../controllers/controller-profil.php" class="transparent-form" enctype="multipart/form-data" id="editDescriptionForm" style="display: none;">
-        <div class="profile-info">
-            <p><span class="styleProfil">Pseudo:</span></p>
-            <input type="text" name="player_pseudo" placeholder="Nouveau pseudo" value="<?= $pseudo ?>">
-            <!-- Affichage des erreurs pour le pseudo -->
-            <?php if (isset($errors['player_pseudo'])) { ?>
-                <span class="error-message"><?= $errors['player_pseudo']; ?></span>
-            <?php } ?>
+    <div>
+        <label for="player_pseudo">Pseudo :</label>
+        <input type="text" name="player_pseudo" value="<?php echo htmlspecialchars($pseudo); ?>" />
+        <?php if (isset($errors["player_pseudo"])) { ?>
+            <span class="error"><?php echo htmlspecialchars($errors["player_pseudo"]); ?></span>
+        <?php } ?>
+    </div>
+    <div>
+        <label for="player_mail">Adresse email :</label>
+        <input type="text" name="player_mail" value="<?php echo htmlspecialchars($email); ?>" />
+        <?php if (isset($errors["player_mail"])) { ?>
+            <span class="error"><?php echo htmlspecialchars($errors["player_mail"]); ?></span>
+        <?php } ?>
+    </div>
+    <div class="profile-info">
+    <input type="submit" name="save_modification" value="Enregistrer les modifications">
+        <button type="button" id="cancelEditBtn" class="file-input-button">Annuler</button>
+    </div>
+</form>
 
-            <p><span class="styleProfil">Email:</span></p>
-            <input type="text" name="player_mail" placeholder="Nouveau email" value="<?= $email ?>">
-            <!-- Affichage des erreurs pour l'email -->
-            <?php if (isset($errors['player_mail'])) { ?>
-                <span class="error-message"><?= $errors['player_mail']; ?></span>
-            <?php } ?>
 
-            <div class="profile-info">
-                <input type="submit" name="save_modification" value="Enregistrer" class="file-input-button">
-                <button type="button" id="cancelEditBtn" class="file-input-button">Annuler</button>
-            </div>
-        </div>
-    </form>
 
  <!-- Charger le fichier JavaScript -->
  <script src="../quiz.js"></script>
