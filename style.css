@@ -154,7 +154,7 @@ h1 {
 
 .button2 {
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 15px 20px;
     font-size: 1.5rem;
     background-color: #d93ffb; 
     border: none;
@@ -169,3 +169,73 @@ h1 {
     font-weight: bold;
     font-style: italic;
 }
+
+/* PROFIL */
+
+h2 {
+    font-size: 3rem;
+    margin-top: 3rem;
+    font-family: "Nova Cut", system-ui;
+    margin-bottom: 0;
+}
+
+.button3 {
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    background-color: #d93ffb; 
+    border: none;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px; 
+}
+
+#editDescriptionBtn {
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    background-color: #d93ffb; 
+    border: none;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+#cancelEditBtn {
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    background-color: #d93ffb; 
+    border: none;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;  
+}
+
+body > div.profile-info {
+    margin-top: 3rem;
+}
+
+.textProfil {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  #deleteAccountForm .button3 {
+    margin: 0; 
+  }
+
+  .transparent-form {
+    margin-top: 3rem;
+  }
+  
