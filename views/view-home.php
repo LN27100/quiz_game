@@ -90,10 +90,10 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
     <button id="theme-dessins" data-playerid="<?php echo $player_id; ?>">Thème Dessins animés</button>
     <button id="theme-harry" data-playerid="<?php echo $player_id; ?>">Thème Harry Potter</button>
     <button id="theme-cuisine" data-playerid="<?php echo $player_id; ?>">Thème Cuisine</button>
-    <button id="theme-series" data-playerid="<?php echo $player_id; ?>">Thème Séries TV </button>
-    <button id="theme-geographie" data-playerid="<?php echo $player_id; ?>">Thème Géographie </button>
-    <button id="theme-orthographe" data-playerid="<?php echo $player_id; ?>">Thème Orthographe </button>
-    <button id="theme-sport" data-playerid="<?php echo $player_id; ?>">Thème Sport </button>
+    <button id="theme-series" data-playerid="<?php echo $player_id; ?>">Thème Séries TV</button>
+    <button id="theme-geographie" data-playerid="<?php echo $player_id; ?>">Thème Géographie</button>
+    <button id="theme-orthographe" data-playerid="<?php echo $player_id; ?>">Thème Orthographe</button>
+    <button id="theme-sport" data-playerid="<?php echo $player_id; ?>">Thème Sport</button>
 
   </div>
 

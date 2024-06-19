@@ -1,4 +1,3 @@
-// quiz.js
 
 // Fonction de mélange
 function shuffle(array) {
@@ -1040,40 +1039,59 @@ let score = 0;
  const themeButtons = document.querySelectorAll('.container.grid button');
  themeButtons.forEach(button => button.classList.remove('hidden'));
 
+// Variable globale pour stocker le thème sélectionné
+let selectedTheme = '';
+
+// Fonction pour récupérer le thème sélectionné
+function getSelectedTheme() {
+    return selectedTheme;
+}
+
 // Écouter le clic sur les boutons de thème et démarrer le quiz correspondant
 themeCultureBtn.addEventListener('click', () => {
+    selectedTheme = 'Culture générale';
     startQuiz(questionsCultureGenerale);
 });
 
 themeChansonsBtn.addEventListener('click', () => {
+    selectedTheme = 'Chansons';
     startQuiz(questionsChansons);
 });
 
 themeDessinsBtn.addEventListener('click', () => {
+    selectedTheme = 'Dessins animés';
     startQuiz(questionsDessinsAnimes);
 });
 
 themeSeriesBtn.addEventListener('click', () => {
+    selectedTheme = 'Séries TV';
     startQuiz(questionsSeries);
 });
 
 themeCuisineBtn.addEventListener('click', () => {
+    selectedTheme = 'Cuisine';
     startQuiz(questionsCuisine);
 });
 
 themeHarryBtn.addEventListener('click', () => {
+    selectedTheme = 'Harry Potter';
+
     startQuiz(questionsHarry);
 });
 
 themeGeographieBtn.addEventListener('click', () => {
+    selectedTheme = 'Géographie';
+
     startQuiz(questionsGeographie);
 });
 
 themeOrthographeBtn.addEventListener('click', () => {
+    selectedTheme = 'Orthographe';
     startQuiz(questionsOrthographe);
 });
 
 themeSportBtn.addEventListener('click', () => {
+    selectedTheme = 'Sport';
     startQuiz(questionsSport);
 });
 
@@ -1160,26 +1178,33 @@ function resetQuiz() {
 
 // Fonction pour afficher le score final et le bouton "Terminer"
 function showResult() {
-    resultContainer.classList.remove('hidden');  // Affiche le conteneur de résultat
+    resultContainer.classList.remove('hidden');
 
     const scoreTitle = document.createElement('h2');
     scoreTitle.textContent = 'Votre Score';
-    resultContainer.appendChild(scoreTitle);     // Ajoute le titre "Votre Score" à resultContainer
+    resultContainer.appendChild(scoreTitle);
 
     scoreText.textContent = `Vous avez marqué ${score} sur ${questions.length}`;
-    resultContainer.appendChild(scoreText);     // Affiche le score obtenu
+    resultContainer.appendChild(scoreText);
 
-    finishButton.classList.remove('hidden');    // Affiche le bouton "Terminer"
+    finishButton.classList.remove('hidden');
     finishButton.addEventListener('click', () => {
-        resultContainer.classList.add('hidden');    // Cache à nouveau le conteneur de résultat
-        quizContainer.classList.add('hidden');      // Cache à nouveau le conteneur de quiz
+        // Récupérer le pseudo (ou ID du joueur) et le thème choisi
+        const pseudo = '<?php echo $pseudo; ?>'; 
+        const theme = getSelectedTheme(); // Fonction pour obtenir le thème sélectionné par le joueur
+
+        // Enregistrer le score
+        saveScore(score, pseudo, theme);
+
+        resultContainer.classList.add('hidden');
+        quizContainer.classList.add('hidden');
     });
 }
 
 
 // Fonction pour enregistrer le score dans la base de données
 function saveScore(score, playerId, theme) {
-    fetch('controller-save-score.php', {
+    fetch('../controller-save-score.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
