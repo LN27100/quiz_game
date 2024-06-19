@@ -1032,14 +1032,13 @@ let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 
+ // Cacher le conteneur de quiz et le résultat au début
+ quizContainer.classList.add('hidden');
+ resultContainer.classList.add('hidden');
  
-// Cacher le conteneur de quiz et le résultat au début
-quizContainer.classList.add('hidden');
-resultContainer.classList.add('hidden');
-
-// Afficher tous les boutons de thème
-const themeButtons = document.querySelectorAll('.container.grid button');
-themeButtons.forEach(button => button.classList.remove('hidden'));
+ // Afficher tous les boutons de thème
+ const themeButtons = document.querySelectorAll('.container.grid button');
+ themeButtons.forEach(button => button.classList.remove('hidden'));
 
 // Écouter le clic sur les boutons de thème et démarrer le quiz correspondant
 themeCultureBtn.addEventListener('click', () => {
@@ -1170,26 +1169,15 @@ function showResult() {
     scoreText.textContent = `Vous avez marqué ${score} sur ${questions.length}`;
     resultContainer.appendChild(scoreText);     // Affiche le score obtenu
 
-    // Récupérer l'ID du joueur et le thème actuel
-    const playerId = document.querySelector('.container.grid button').getAttribute('data-playerid');
-    const theme = document.querySelector('.container.grid button.hidden').id.replace('theme-', '');
-
-    // Enregistrer le score
-    if (playerId) {
-        saveScore(score, playerId, theme);
-    } else {
-        console.error('Erreur: ID du joueur non trouvé');
-    }
-
     finishButton.classList.remove('hidden');    // Affiche le bouton "Terminer"
     finishButton.addEventListener('click', () => {
-        resultContainer.classList.add('hidden');
-        quizContainer.classList.add('hidden');
-        resetQuiz();
+        resultContainer.classList.add('hidden');    // Cache à nouveau le conteneur de résultat
+        quizContainer.classList.add('hidden');      // Cache à nouveau le conteneur de quiz
     });
 }
 
-// Fonction pour envoyer le score au serveur via une requête POST
+
+// Fonction pour enregistrer le score dans la base de données
 function saveScore(score, playerId, theme) {
     fetch('controller-save-score.php', {
         method: 'POST',
