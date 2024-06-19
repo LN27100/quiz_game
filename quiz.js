@@ -579,7 +579,7 @@ const questionsCuisine = [
         question: "Quel crustacé est utilisé pour préparer la célèbre soupe française 'bisque' ?",
         options: ["Homard", "Crevette", "Langouste", "Crabe"],
         answer: "Homard"
-    },
+    }
 ];
 
 const questionsHarry = [
@@ -1032,6 +1032,15 @@ let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 
+ 
+// Cacher le conteneur de quiz et le résultat au début
+quizContainer.classList.add('hidden');
+resultContainer.classList.add('hidden');
+
+// Afficher tous les boutons de thème
+const themeButtons = document.querySelectorAll('.container.grid button');
+themeButtons.forEach(button => button.classList.remove('hidden'));
+
 // Écouter le clic sur les boutons de thème et démarrer le quiz correspondant
 themeCultureBtn.addEventListener('click', () => {
     startQuiz(questionsCultureGenerale);
@@ -1152,25 +1161,48 @@ function resetQuiz() {
 
 // Fonction pour afficher le score final et le bouton "Terminer"
 function showResult() {
-    resultContainer.innerHTML = '';
-    resultContainer.classList.remove('hidden');
+    resultContainer.classList.remove('hidden');  // Affiche le conteneur de résultat
 
     const scoreTitle = document.createElement('h2');
     scoreTitle.textContent = 'Votre Score';
-    resultContainer.appendChild(scoreTitle);
+    resultContainer.appendChild(scoreTitle);     // Ajoute le titre "Votre Score" à resultContainer
 
     scoreText.textContent = `Vous avez marqué ${score} sur ${questions.length}`;
-    resultContainer.appendChild(scoreText);
+    resultContainer.appendChild(scoreText);     // Affiche le score obtenu
 
-    finishButton.classList.remove('hidden');
+    // Récupérer l'ID du joueur et le thème actuel
+    const playerId = document.querySelector('.container.grid button').getAttribute('data-playerid');
+    const theme = document.querySelector('.container.grid button.hidden').id.replace('theme-', '');
+
+    // Enregistrer le score
+    if (playerId) {
+        saveScore(score, playerId, theme);
+    } else {
+        console.error('Erreur: ID du joueur non trouvé');
+    }
+
+    finishButton.classList.remove('hidden');    // Affiche le bouton "Terminer"
     finishButton.addEventListener('click', () => {
         resultContainer.classList.add('hidden');
         quizContainer.classList.add('hidden');
+        resetQuiz();
     });
 }
 
-// Initialisation du quiz (cache par défaut le conteneur de quiz et les boutons de thème visibles)
-quizContainer.classList.add('hidden');
-themeCultureBtn.classList.remove('hidden');
-themeChansonsBtn.classList.remove('hidden');
-themeDessinsBtn.classList.remove('hidden');
+// Fonction pour envoyer le score au serveur via une requête POST
+function saveScore(score, playerId, theme) {
+    fetch('controller-save-score.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ score, playerId, theme }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Score enregistré avec succès:', data);
+    })
+    .catch(error => {
+        console.error('Erreur lors de l\'enregistrement du score:', error);
+    });
+}

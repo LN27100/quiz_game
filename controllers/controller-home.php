@@ -1,6 +1,8 @@
 <?php
 require_once '../config.php';
 require_once '../Models/login.php';
+require_once '../Models/results.php';
+
 session_start();
 
 
