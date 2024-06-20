@@ -85,15 +85,15 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
 
   <div class="container grid">
     <!-- boutons de thème -->
-    <button id="theme-culture" data-playerid="<?php echo $player_id; ?>">Thème Culture générale</button>
-    <button id="theme-chansons" data-playerid="<?php echo $player_id; ?>">Thème Chansons</button>
-    <button id="theme-dessins" data-playerid="<?php echo $player_id; ?>">Thème Dessins animés</button>
-    <button id="theme-harry" data-playerid="<?php echo $player_id; ?>">Thème Harry Potter</button>
-    <button id="theme-cuisine" data-playerid="<?php echo $player_id; ?>">Thème Cuisine</button>
-    <button id="theme-series" data-playerid="<?php echo $player_id; ?>">Thème Séries TV</button>
-    <button id="theme-geographie" data-playerid="<?php echo $player_id; ?>">Thème Géographie</button>
-    <button id="theme-orthographe" data-playerid="<?php echo $player_id; ?>">Thème Orthographe</button>
-    <button id="theme-sport" data-playerid="<?php echo $player_id; ?>">Thème Sport</button>
+    <button id="theme-culture" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Culture générale</button>
+    <button id="theme-chansons" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Chansons</button>
+    <button id="theme-dessins" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Dessins animés</button>
+    <button id="theme-harry" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Harry Potter</button>
+    <button id="theme-cuisine" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Cuisine</button>
+    <button id="theme-series" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Séries TV</button>
+    <button id="theme-geographie" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Géographie</button>
+    <button id="theme-orthographe" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Orthographe</button>
+    <button id="theme-sport" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Sport</button>
 
   </div>
 

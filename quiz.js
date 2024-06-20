@@ -1189,7 +1189,7 @@ function showResult() {
 
     finishButton.classList.remove('hidden');
     finishButton.addEventListener('click', () => {
-        // Récupérer le pseudo (ou ID du joueur) et le thème choisi
+        // Récupérer le pseudo et le thème choisi
         const pseudo = '<?php echo $pseudo; ?>'; 
         const theme = getSelectedTheme(); // Fonction pour obtenir le thème sélectionné par le joueur
 
@@ -1203,15 +1203,20 @@ function showResult() {
 
 
 // Fonction pour enregistrer le score dans la base de données
-function saveScore(score, playerId, theme) {
-    fetch('../controller-save-score.php', {
+function saveScore(score, playerPseudo, theme) {
+    fetch('/save-score.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ score, playerId, theme }),
+        body: JSON.stringify({ score, player_pseudo: playerPseudo, theme }),
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
     .then(data => {
         console.log('Score enregistré avec succès:', data);
     })
