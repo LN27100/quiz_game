@@ -85,15 +85,23 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
 
   <div class="container grid">
     <!-- boutons de thème -->
-    <button id="theme-culture" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Culture générale</button>
-    <button id="theme-chansons" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Chansons</button>
-    <button id="theme-dessins" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Dessins animés</button>
-    <button id="theme-harry" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Harry Potter</button>
-    <button id="theme-cuisine" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Cuisine</button>
-    <button id="theme-series" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Séries TV</button>
-    <button id="theme-geographie" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Géographie</button>
-    <button id="theme-orthographe" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Orthographe</button>
-    <button id="theme-sport" data-playerPseudo="<?php echo $player_pseudo; ?>">Thème Sport</button>
+    <button id="theme-culture" data-playerPseudo="<?php echo $pseudo; ?>">Thème Culture générale</button>
+    <button id="theme-chansons" data-playerPseudo="<?php echo $pseudo; ?>">Thème Chansons</button>
+    <button id="theme-dessins" data-playerPseudo="<?php echo $pseudo; ?>">Thème Dessins animés</button>
+    <button id="theme-harry" data-playerPseudo="<?php echo $pseudo; ?>">Thème Harry Potter</button>
+    <button id="theme-cuisine" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cuisine</button>
+    <button id="theme-series" data-playerPseudo="<?php echo $pseudo; ?>">Thème Séries TV</button>
+    <button id="theme-geographie" data-playerPseudo="<?php echo $pseudo; ?>">Thème Géographie</button>
+    <button id="theme-orthographe" data-playerPseudo="<?php echo $pseudo; ?>">Thème Orthographe</button>
+    <button id="theme-sport" data-playerPseudo="<?php echo $pseudo; ?>">Thème Sport</button>
+
+
+    <!-- Formulaire pour enregistrer le score -->
+    <form id="score-form" action="controller-home.php" method="POST" style="display: none;">
+        <input type="hidden" id="score-input" name="score">
+        <input type="hidden" id="player-pseudo-input" name="player_pseudo" value="<?php echo $pseudo; ?>">
+        <input type="hidden" id="theme-input" name="theme">
+    </form>
 
   </div>
 

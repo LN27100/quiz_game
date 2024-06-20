@@ -1185,16 +1185,16 @@ function showResult() {
     resultContainer.appendChild(scoreTitle);
 
     scoreText.textContent = `Vous avez marqué ${score} sur ${questions.length}`;
+    document.getElementById('score-input').value = score; 
     resultContainer.appendChild(scoreText);
 
     finishButton.classList.remove('hidden');
     finishButton.addEventListener('click', () => {
-        // Récupérer le pseudo et le thème choisi
-        const pseudo = '<?php echo $pseudo; ?>'; 
-        const theme = getSelectedTheme(); // Fonction pour obtenir le thème sélectionné par le joueur
+        const theme = getSelectedTheme(); // Obtenir le thème sélectionné
+        document.getElementById('theme-input').value = theme;
 
-        // Enregistrer le score
-        saveScore(score, pseudo, theme);
+        // Soumettre le formulaire
+        document.getElementById('score-form').submit();
 
         resultContainer.classList.add('hidden');
         quizContainer.classList.add('hidden');
@@ -1202,25 +1202,3 @@ function showResult() {
 }
 
 
-// Fonction pour enregistrer le score dans la base de données
-function saveScore(score, playerPseudo, theme) {
-    fetch('/save-score.php', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ score, player_pseudo: playerPseudo, theme }),
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-    })
-    .then(data => {
-        console.log('Score enregistré avec succès:', data);
-    })
-    .catch(error => {
-        console.error('Erreur lors de l\'enregistrement du score:', error);
-    });
-}
