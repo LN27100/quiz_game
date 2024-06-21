@@ -68,8 +68,11 @@ $scores = $scores ?? [];
   </header>
 
   <div class="container">
-    <h2>Résultats de <?php echo htmlspecialchars($pseudo); ?></h2>
-    <?php if (count($scores) > 0): ?>
+  <h2>Résultats de <?php echo htmlspecialchars($pseudo); ?></h2>
+
+  <?php if (count($scoresByTheme) > 0): ?>
+    <?php foreach ($scoresByTheme as $theme => $scores): ?>
+      <h3><?php echo htmlspecialchars($theme); ?></h3>
       <table class="table">
         <thead>
           <tr>
@@ -86,10 +89,11 @@ $scores = $scores ?? [];
           <?php endforeach; ?>
         </tbody>
       </table>
-    <?php else: ?>
-      <p>Aucun score disponible pour ce joueur.</p>
-    <?php endif; ?>
-  </div>
+    <?php endforeach; ?>
+  <?php else: ?>
+    <p>Aucun score disponible pour ce joueur.</p>
+  <?php endif; ?>
+</div>
 
   <!-- Charger le fichier JavaScript -->
   <script src="../quiz.js"></script>
