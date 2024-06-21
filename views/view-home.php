@@ -6,7 +6,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 require_once '../config.php';
 require_once '../Models/login.php';
-require_once '../Models/results.php';
+require_once '../Models/Scores.php';
 
 // Récupère le pseudo et l'ID de l'utilisateur
 $pseudo = $_SESSION['user']['player_pseudo'] ?? "cher joueur";
@@ -70,20 +70,20 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
 
   <div class="container4">
     <?php echo "<h3>Bienvenue $pseudo</h3>"; ?>
-  </div>
+</div>
 
-  <!-- Conteneurs pour le quiz et les boutons -->
-  <div id="quiz-container" class="hidden">
+<!-- Conteneurs pour le quiz et les boutons -->
+<div id="quiz-container" class="hidden">
     <div id="question-text"></div>
     <div id="options-container"></div>
     <button id="next-btn" class="hidden">Suivant</button>
     <div id="result-container" class="hidden">
-      <p id="score"></p>
-      <button id="finish-btn" class="button3">Terminer</button>
+        <p id="score"></p>
+        <button id="finish-btn" class="button3">Terminer</button>
     </div>
-  </div>
+</div>
 
-  <div class="container grid">
+<div class="container grid">
     <!-- boutons de thème -->
     <button id="theme-culture" data-playerPseudo="<?php echo $pseudo; ?>">Thème Culture générale</button>
     <button id="theme-chansons" data-playerPseudo="<?php echo $pseudo; ?>">Thème Chansons</button>
@@ -95,15 +95,14 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
     <button id="theme-orthographe" data-playerPseudo="<?php echo $pseudo; ?>">Thème Orthographe</button>
     <button id="theme-sport" data-playerPseudo="<?php echo $pseudo; ?>">Thème Sport</button>
 
-
     <!-- Formulaire pour enregistrer le score -->
-    <form id="score-form" action="controller-home.php" method="POST" style="display: none;">
+    <form id="score-form" style="display: none;">
         <input type="hidden" id="score-input" name="score">
         <input type="hidden" id="player-pseudo-input" name="player_pseudo" value="<?php echo $pseudo; ?>">
         <input type="hidden" id="theme-input" name="theme">
     </form>
+</div>
 
-  </div>
 
 
   <!-- Charger le fichier JavaScript -->

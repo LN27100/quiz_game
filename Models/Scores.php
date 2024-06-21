@@ -3,10 +3,10 @@ require_once '../config.php';
 
 class Scores
 {
-    /**
+     /**
      * Méthode permettant de créer un score
      */
-    public static function create(int $playerPseudo, string $theme, int $score)
+    public static function create(string $playerPseudo, string $theme, int $score)
     {
         try {
             // Connexion à la base de données
@@ -31,6 +31,7 @@ class Scores
             die();
         }
     }
+
 
     /**
      * Méthode permettant de récupérer les scores d'un utilisateur avec son pseudo comme paramètre

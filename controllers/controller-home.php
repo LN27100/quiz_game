@@ -1,13 +1,13 @@
 <?php
 require_once '../config.php';
-require_once '../Models/results.php';
+require_once '../Models/Scores.php';
 
 session_start();
 
 // Vérifier si la requête est de type POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Récupérer les données envoyées par la requête POST
-    $data = json_decode(file_get_contents('php://input'), true);
+    $data = $_POST;
 
     if ($data && isset($data['score'], $data['player_pseudo'], $data['theme'])) {
         // Extraire les données
@@ -40,4 +40,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $pseudo = isset($_SESSION['user']['player_pseudo']) ? ($_SESSION['user']['player_pseudo']) : "cher joueur";
     include_once '../views/view-home.php';
 }
-?>

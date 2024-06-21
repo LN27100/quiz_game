@@ -1031,13 +1031,13 @@ let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 
- // Cacher le conteneur de quiz et le résultat au début
- quizContainer.classList.add('hidden');
- resultContainer.classList.add('hidden');
- 
- // Afficher tous les boutons de thème
- const themeButtons = document.querySelectorAll('.container.grid button');
- themeButtons.forEach(button => button.classList.remove('hidden'));
+// Cacher le conteneur de quiz et le résultat au début
+quizContainer.classList.add('hidden');
+resultContainer.classList.add('hidden');
+
+// Afficher tous les boutons de thème
+const themeButtons = document.querySelectorAll('.container.grid button');
+themeButtons.forEach(button => button.classList.remove('hidden'));
 
 // Variable globale pour stocker le thème sélectionné
 let selectedTheme = '';
@@ -1075,13 +1075,11 @@ themeCuisineBtn.addEventListener('click', () => {
 
 themeHarryBtn.addEventListener('click', () => {
     selectedTheme = 'Harry Potter';
-
     startQuiz(questionsHarry);
 });
 
 themeGeographieBtn.addEventListener('click', () => {
     selectedTheme = 'Géographie';
-
     startQuiz(questionsGeographie);
 });
 
@@ -1114,9 +1112,9 @@ function initializeQuiz() {
 // Fonction pour afficher la question courante
 function showQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
-    const questionTextElement = document.getElementById('question-text'); // Récupérer l'élément pour afficher la question
+    const questionTextElement = document.getElementById('question-text');
 
-    questionTextElement.textContent = currentQuestion.question; // Utiliser l'élément récupéré pour afficher la question
+    questionTextElement.textContent = currentQuestion.question;
 
     optionsContainer.innerHTML = '';
     currentQuestion.options.forEach(option => {
@@ -1177,6 +1175,7 @@ function resetQuiz() {
 }
 
 // Fonction pour afficher le score final et le bouton "Terminer"
+// Fonction pour afficher le score final et le bouton "Terminer"
 function showResult() {
     resultContainer.classList.remove('hidden');
 
@@ -1185,7 +1184,7 @@ function showResult() {
     resultContainer.appendChild(scoreTitle);
 
     scoreText.textContent = `Vous avez marqué ${score} sur ${questions.length}`;
-    document.getElementById('score-input').value = score; 
+    document.getElementById('score-input').value = score;
     resultContainer.appendChild(scoreText);
 
     finishButton.classList.remove('hidden');
@@ -1193,12 +1192,28 @@ function showResult() {
         const theme = getSelectedTheme(); // Obtenir le thème sélectionné
         document.getElementById('theme-input').value = theme;
 
-        // Soumettre le formulaire
-        document.getElementById('score-form').submit();
+        // Créer l'objet de données à envoyer
+        const formData = new FormData(document.getElementById('score-form'));
+
+        // Envoyer les données avec fetch
+        fetch('/controllers/controller-home.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                alert('Score enregistré avec succès!');
+            } else {
+                alert('Erreur lors de l\'enregistrement du score.');
+            }
+        })
+        .catch(error => {
+            console.error('Erreur:', error);
+            alert('Erreur lors de l\'enregistrement du score.');
+        });
 
         resultContainer.classList.add('hidden');
         quizContainer.classList.add('hidden');
     });
 }
-
-
