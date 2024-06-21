@@ -43,7 +43,7 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
 
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="../controllers/controller-signin.php">Connexion</a>
+              <a class="nav-link" href="../controllers/controller-signin.php">Connexion/Inscription</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -66,11 +66,13 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
 
   <div class="container">
     <h1>Quiz Game</h1>
-  </div>
-
-  <div class="container4">
     <?php echo "<h3>Bienvenue $pseudo</h3>"; ?>
 </div>
+
+<div class="container4">
+Si vous souhaitez enregistrer vos scores, inscrivez-vous et retrouvez-les dans votre profil !
+</div>
+
 
 <!-- Conteneurs pour le quiz et les boutons -->
 <div id="quiz-container" class="hidden">
