@@ -1007,8 +1007,6 @@ shuffleQuestionsOptions(questionsGeographie);
 shuffleQuestionsOptions(questionsOrthographe);
 shuffleQuestionsOptions(questionsSport);
 
-
-
 // Éléments DOM
 const quizContainer = document.getElementById('quiz-container');
 const themeCultureBtn = document.getElementById('theme-culture');
@@ -1030,6 +1028,7 @@ const finishButton = document.getElementById('finish-btn');
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
+let selectedTheme = '';
 
 // Cacher le conteneur de quiz et le résultat au début
 quizContainer.classList.add('hidden');
@@ -1038,9 +1037,6 @@ resultContainer.classList.add('hidden');
 // Afficher tous les boutons de thème
 const themeButtons = document.querySelectorAll('.container.grid button');
 themeButtons.forEach(button => button.classList.remove('hidden'));
-
-// Variable globale pour stocker le thème sélectionné
-let selectedTheme = '';
 
 // Fonction pour récupérer le thème sélectionné
 function getSelectedTheme() {
@@ -1095,22 +1091,33 @@ themeSportBtn.addEventListener('click', () => {
 
 // Fonction pour démarrer le quiz avec les questions du thème sélectionné
 function startQuiz(selectedQuestions) {
+    // Réinitialiser l'état du quiz
     questions = selectedQuestions;
+    if (questions.length === 0) {
+        alert('Aucune question disponible pour ce thème.');
+        return;
+    }
+    score = 0;
+    currentQuestionIndex = 0;
     quizContainer.classList.remove('hidden');
-    initializeQuiz();
+    resultContainer.classList.add('hidden');
+    nextButton.classList.add('hidden');
+    showQuestion();
 }
 
 // Fonction pour initialiser le quiz
 function initializeQuiz() {
-    score = 0;
-    currentQuestionIndex = 0;
-    resultContainer.classList.add('hidden');
-    showQuestion();
+    nextButton.removeEventListener('click', nextQuestion);
     nextButton.addEventListener('click', nextQuestion);
 }
 
 // Fonction pour afficher la question courante
 function showQuestion() {
+    if (currentQuestionIndex >= questions.length) {
+        showResult();
+        return;
+    }
+
     const currentQuestion = questions[currentQuestionIndex];
     const questionTextElement = document.getElementById('question-text');
 
@@ -1175,7 +1182,6 @@ function resetQuiz() {
 }
 
 // Fonction pour afficher le score final et le bouton "Terminer"
-// Fonction pour afficher le score final et le bouton "Terminer"
 function showResult() {
     resultContainer.classList.remove('hidden');
 
@@ -1188,32 +1194,37 @@ function showResult() {
     resultContainer.appendChild(scoreText);
 
     finishButton.classList.remove('hidden');
-    finishButton.addEventListener('click', () => {
-        const theme = getSelectedTheme(); // Obtenir le thème sélectionné
-        document.getElementById('theme-input').value = theme;
-
-        // Créer l'objet de données à envoyer
-        const formData = new FormData(document.getElementById('score-form'));
-
-        // Envoyer les données avec fetch
-        fetch('/controllers/controller-home.php', {
-            method: 'POST',
-            body: formData
-        })
-        .then(response => response.json())
-        .then(data => {
-            if (data.success) {
-                alert('Score enregistré avec succès!');
-            } else {
-                alert('Erreur lors de l\'enregistrement du score.');
-            }
-        })
-        .catch(error => {
-            console.error('Erreur:', error);
-            alert('Erreur lors de l\'enregistrement du score.');
-        });
-
-        resultContainer.classList.add('hidden');
-        quizContainer.classList.add('hidden');
-    });
 }
+
+// Ajouter l'écouteur d'événements pour le bouton "Terminer" une seule fois
+finishButton.addEventListener('click', () => {
+    const theme = getSelectedTheme(); // Obtenir le thème sélectionné
+    document.getElementById('theme-input').value = theme;
+
+    // Créer l'objet de données à envoyer
+    const formData = new FormData(document.getElementById('score-form'));
+
+    // Envoyer les données avec fetch
+    fetch('/controllers/controller-home.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Score enregistré avec succès!');
+        } else {
+            alert('Erreur lors de l\'enregistrement du score.');
+        }
+    })
+    .catch(error => {
+        console.error('Erreur:', error);
+        alert('Erreur lors de l\'enregistrement du score.');
+    });
+
+    resultContainer.classList.add('hidden');
+    quizContainer.classList.add('hidden');
+});
+
+// Initialiser le quiz au chargement de la page
+initializeQuiz();
