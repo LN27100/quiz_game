@@ -26,11 +26,17 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
 
 <body style="padding-top: 56px;" >
 
-<div class="custom-alert" id="alertBox">
-Vous pouvez jouer sans vous inscrire ou inscrivez-vous et enregistrez vos scores !
-<br>
-    <button class="ok-btn" id="okBtn">OK</button>
-</div>
+<?php
+// Vérifie si l'utilisateur est connecté
+if (!$pseudo || !$playerId) {
+  // Affiche l'alerte si l'utilisateur n'est pas connecté
+  echo '<div class="custom-alert" id="alertBox">
+          Vous pouvez jouer sans vous inscrire ou inscrivez-vous et enregistrez vos scores !
+          <br>
+          <button class="ok-btn" id="okBtn">OK</button>
+        </div>';
+}
+?>
 
   <header>
     <nav class="navbar navbar-dark fixed-top">
@@ -108,6 +114,19 @@ Vous pouvez jouer sans vous inscrire ou inscrivez-vous et enregistrez vos scores
   </div>
 
   <script>
+
+     // Fermer le menu burger en cliquant en dehors de celui-ci
+  document.addEventListener('click', function(event) {
+    const menu = document.getElementById('navbarNavDropdown');
+    const menuButton = document.querySelector('.navbar-toggler');
+
+    // Si le clic n'est pas sur le menu ou son bouton toggle
+    if (!menu.contains(event.target) && event.target !== menuButton) {
+      menu.classList.remove('show'); // Ferme le menu
+    }
+  });
+
+  // alerte
     window.onload = function() {
         document.getElementById('alertBox').style.display = 'block';
     };
