@@ -1,7 +1,7 @@
 <?php
 // Vérifie si une session est déjà démarrée
 if (session_status() == PHP_SESSION_NONE) {
-    session_start();
+  session_start();
 }
 
 require_once '../config.php';
@@ -24,12 +24,12 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
   <link rel="stylesheet" href="/style.css" />
 </head>
 
-<body style="padding-top: 56px;">
+<body style="padding-top: 56px;" onLoad="alert('Inscrivez-vous pour enregistrer vos scores !');">
 
   <header>
     <nav class="navbar navbar-dark fixed-top">
       <div class="container-fluid">
-        <!-- Bouton pour afficher le menu sur les appareils mobiles -->
+        <!-- Menu burger -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -67,25 +67,23 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
   <div class="container">
     <h1>Quiz Game</h1>
     <?php echo "<h3>Bienvenue $pseudo</h3>"; ?>
-</div>
+  </div>
 
-<div class="container4">
-Si vous souhaitez enregistrer vos scores, inscrivez-vous et retrouvez-les dans votre profil !
-</div>
+ 
 
 
-<!-- Conteneurs pour le quiz et les boutons -->
-<div id="quiz-container" class="hidden">
+  <!-- Conteneurs pour le quiz et les boutons -->
+  <div id="quiz-container" class="hidden">
     <div id="question-text"></div>
     <div id="options-container"></div>
     <button id="next-btn" class="hidden">Suivant</button>
     <div id="result-container" class="hidden">
-        <p id="score"></p>
-        <button id="finish-btn" class="button3">Terminer</button>
+      <p id="score"></p>
+      <button id="finish-btn" class="button3">Terminer</button>
     </div>
-</div>
+  </div>
 
-<div class="container grid">
+  <div class="container grid">
     <!-- boutons de thème -->
     <button id="theme-culture" data-playerPseudo="<?php echo $pseudo; ?>">Thème Culture générale</button>
     <button id="theme-chansons" data-playerPseudo="<?php echo $pseudo; ?>">Thème Chansons</button>
@@ -99,11 +97,11 @@ Si vous souhaitez enregistrer vos scores, inscrivez-vous et retrouvez-les dans v
 
     <!-- Formulaire pour enregistrer le score -->
     <form id="score-form" style="display: none;">
-        <input type="hidden" id="score-input" name="score">
-        <input type="hidden" id="player-pseudo-input" name="player_pseudo" value="<?php echo $pseudo; ?>">
-        <input type="hidden" id="theme-input" name="theme">
+      <input type="hidden" id="score-input" name="score">
+      <input type="hidden" id="player-pseudo-input" name="player_pseudo" value="<?php echo $pseudo; ?>">
+      <input type="hidden" id="theme-input" name="theme">
     </form>
-</div>
+  </div>
 
 
 
