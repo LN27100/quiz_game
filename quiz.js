@@ -1228,3 +1228,5 @@ finishButton.addEventListener('click', () => {
 
 // Initialiser le quiz au chargement de la page
 initializeQuiz();
+
+ 

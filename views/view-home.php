@@ -24,7 +24,13 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
   <link rel="stylesheet" href="/style.css" />
 </head>
 
-<body style="padding-top: 56px;" onLoad="alert('Inscrivez-vous pour enregistrer vos scores !');">
+<body style="padding-top: 56px;" >
+
+<div class="custom-alert" id="alertBox">
+Vous pouvez jouer sans vous inscrire ou inscrivez-vous et enregistrez vos scores !
+<br>
+    <button class="ok-btn" id="okBtn">OK</button>
+</div>
 
   <header>
     <nav class="navbar navbar-dark fixed-top">
@@ -70,8 +76,6 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
   </div>
 
  
-
-
   <!-- Conteneurs pour le quiz et les boutons -->
   <div id="quiz-container" class="hidden">
     <div id="question-text"></div>
@@ -103,6 +107,15 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
     </form>
   </div>
 
+  <script>
+    window.onload = function() {
+        document.getElementById('alertBox').style.display = 'block';
+    };
+
+    document.getElementById('okBtn').onclick = function() {
+        document.getElementById('alertBox').style.display = 'none';
+    };
+</script>
 
 
   <!-- Charger le fichier JavaScript -->
