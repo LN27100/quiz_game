@@ -1139,6 +1139,11 @@ const questionsFaitsInsolites = [
         answer: "11 jours"
     },
     {
+        question: "Quel film d'animation de 2022 réalisé par Angus MacLane explore les origines du personnage Buzz l'Éclair ?",
+        options: ["Buzz l'Éclair", "Toy Story 4", "Raya et le Dernier Dragon", "En avant"],
+        answer: "Buzz l'Éclair"
+    },
+    {
         question: "Quel est le nombre de selfies pris chaque jour dans le monde ?",
         options: ["1 million", "5 millions", "10 millions", "25 millions"],
         answer: "25 millions"
@@ -1196,7 +1201,106 @@ const questionsFaitsInsolites = [
 ];
 
 const questionsCinema = [
-
+    {
+        question: "Quel acteur joue le rôle principal dans le film 'Inception' ?",
+        options: ["Brad Pitt", "Leonardo DiCaprio", "Johnny Depp", "Tom Cruise"],
+        answer: "Leonardo DiCaprio"
+    },
+    {
+        question: "Quel film d'animation de 2022 réalisé par Domee Shi raconte l'histoire d'une adolescente qui se transforme en panda roux géant lorsqu'elle est stressée ?",
+        options: ["Alerte Rouge", "Luca", "Soul", "Encanto"],
+        answer: "Alerte Rouge"
+    },
+    {
+        question: "Quel film est connu pour la réplique 'Je suis le maître du monde' ?",
+        options: ["Gladiator", "Titanic", "Avatar", "Le Seigneur des Anneaux"],
+        answer: "Titanic"
+    },
+    {
+        question: "Quel est le titre du premier film de la saga 'Star Wars' sorti en 1977 ?",
+        options: ["The Empire Strikes Back", "Return of the Jedi", "A New Hope", "The Phantom Menace"],
+        answer: "A New Hope"
+    },
+    {
+        question: "Qui a réalisé le film 'Avatar' sorti en 2009 ?",
+        options: ["James Cameron", "Steven Spielberg", "Peter Jackson", "Ridley Scott"],
+        answer: "James Cameron"
+    },
+    {
+        question: "Quel est le nom du personnage joué par Johnny Depp dans 'Pirates des Caraïbes' ?",
+        options: ["Will Turner", "Jack Sparrow", "Davy Jones", "Hector Barbossa"],
+        answer: "Jack Sparrow"
+    },
+    {
+        question: "Quel film de 1985 réalisé par Robert Zemeckis met en scène un scientifique nommé Doc Brown ?",
+        options: ["The Goonies", "E.T.", "Back to the Future", "Ghostbusters"],
+        answer: "Back to the Future"
+    },
+    {
+        question: "Quel film de 1979 réalisé par Ridley Scott met en scène un vaisseau spatial nommé Nostromo ?",
+        options: ["Blade Runner", "Star Wars", "2001: A Space Odyssey", "Alien"],
+        answer: "Alien"
+    },
+    {
+        question: "Quel film de 2019 réalisé par Todd Phillips met en scène Joaquin Phoenix en tant que Joker ?",
+        options: ["Birds of Prey", "Suicide Squad", "Joker", "The Dark Knight"],
+        answer: "Joker"
+    },
+    {
+        question: "Quel film de 1980 réalisé par Stanley Kubrick est une adaptation du roman de Stephen King 'The Shining' ?",
+        options: ["Carrie", "The Shining", "Misery", "It"],
+        answer: "The Shining"
+    },
+    {
+        question: "Quel film d'animation Pixar de 2015 explore les émotions humaines à travers les yeux d'une jeune fille nommée Riley ?",
+        options: ["Vice-versa", "Coco", "Le Monde de Dory", "Le Voyage d'Arlo"],
+        answer: "Vice-versa"
+    },
+    {
+        question: "Quel film de 1986 réalisé par Tony Scott met en scène Tom Cruise en tant que pilote de chasse ?",
+        options: ["Days of Thunder", "Top Gun", "Mission: Impossible", "Rain Man"],
+        answer: "Top Gun"
+    },
+    {
+        question: "Quel film de 2011 réalisé par Michel Hazanavicius a remporté l'Oscar du meilleur film ?",
+        options: ["Hugo", "The Artist", "Midnight in Paris", "The Descendants"],
+        answer: "The Artist"
+    },
+    {
+        question: "Quel film d'animation de 2016 réalisé par Byron Howard et Rich Moore se déroule dans une ville où cohabitent des animaux anthropomorphes ?",
+        options: ["Zootopia", "Sing", "The Secret Life of Pets", "Kung Fu Panda 3"],
+        answer: "Zootopia"
+    },
+    {
+        question: "Quel film de 2023 réalisé par Greta Gerwig est une adaptation moderne de la célèbre poupée de Mattel ?",
+        options: ["Barbie", "Oppenheimer", "Dune: Part Two", "The Little Mermaid"],
+        answer: "Barbie"
+    },
+    {
+        question: "Quel film de 2023 réalisé par James Gunn est le troisième et dernier volet de la série sur une équipe de héros intergalactiques ?",
+        options: ["Les Gardiens de la Galaxie Vol. 3", "Thor 3: Love and Thunder", "Eternals", "Doctor Strange in the Multiverse of Madness"],
+        answer: "Les Gardiens de la Galaxie Vol. 3"
+    },
+    {
+        question: "Quel film de 2019 réalisé par Todd Phillips raconte l'histoire de l'ennemi juré de Batman, centré sur l'origine du personnage ?",
+        options: ["Joker", "Birds of Prey", "Suicide Squad", "Harley Quinn: Birds of Prey"],
+        answer: "Joker"
+    },
+    {
+        question: "Quel film de 2011 réalisé par Rupert Wyatt est un reboot de la franchise où James Franco joue un scientifique étudiant des chimpanzés intelligents ?",
+        options: ["La Planète des Singes : Les Origines", "La Planète des Singes : Suprématie", "La Planète des Singes : L'Affrontement", "La Planète des Singes"],
+        answer: "La Planète des Singes : Les Origines"
+    },
+    {
+        question: "Quel film de 2018 réalisé par Bradley Cooper met en vedette Lady Gaga dans le rôle d'une chanteuse en herbe qui tombe amoureuse d'une star du rock ?",
+        options: ["A Star Is Born", "Bohemian Rhapsody", "La La Land", "Rocketman"],
+        answer: "A Star Is Born"
+    },
+    {
+        question: "Quel film de 2011 réalisé par David Yates est une adaptation finale de la saga Harry Potter, où Harry affronte Voldemort ?",
+        options: ["Harry Potter et les Reliques de la Mort - Partie 2", "Harry Potter et les Reliques de la Mort - Partie 1", "Harry Potter et le Prince de Sang-Mêlé", "Harry Potter et l'Ordre du Phénix"],
+        answer: "Harry Potter et les Reliques de la Mort - Partie 2"
+    }
 ];
    
 
@@ -1310,6 +1414,11 @@ themeOrthographeBtn.addEventListener('click', () => {
 themeSportBtn.addEventListener('click', () => {
     selectedTheme = 'Sport';
     startQuiz(questionsSport);
+});
+
+themeCinemaBtn.addEventListener('click', () => {
+    selectedTheme = 'Cinéma';
+    startQuiz(questionsCinema);
 });
 
 // Fonction pour démarrer le quiz avec les questions du thème sélectionné
