@@ -1,7 +1,7 @@
 <?php
 // Vérifie si une session est déjà démarrée
 if (session_status() == PHP_SESSION_NONE) {
-    session_start();
+  session_start();
 }
 
 require_once '../config.php';
@@ -27,7 +27,7 @@ $scores = $scores ?? [];
   <link rel="stylesheet" href="/style.css" />
 </head>
 
-<body style="padding-top: 56px;">
+<body>
 
   <header>
     <nav class="navbar navbar-dark fixed-top">
@@ -54,7 +54,7 @@ $scores = $scores ?? [];
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../controllers/controller-profil.php">Mon Profil</a></li>
-                <li><a class="dropdown-item" href="#">Mes Résultats</a></li>
+                <li><a class="dropdown-item" href="../controllers/controller-results.php">Mes Résultats</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -67,33 +67,72 @@ $scores = $scores ?? [];
     </nav>
   </header>
 
-  <div class="container">
-  <h2>Résultats de <?php echo htmlspecialchars($pseudo); ?></h2>
 
-  <?php if (count($scoresByTheme) > 0): ?>
-    <?php foreach ($scoresByTheme as $theme => $scores): ?>
-      <h3><?php echo htmlspecialchars($theme); ?></h3>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Thème</th>
-            <th>Score</th>
-          </tr>
-        </thead>
-        <tbody>
-          <?php foreach ($scores as $score): ?>
-            <tr>
-              <td><?php echo htmlspecialchars($score['theme']); ?></td>
-              <td><?php echo htmlspecialchars($score['score']); ?></td>
-            </tr>
-          <?php endforeach; ?>
-        </tbody>
-      </table>
-    <?php endforeach; ?>
-  <?php else: ?>
-    <p>Aucun score disponible pour ce joueur.</p>
-  <?php endif; ?>
-</div>
+  <h2 class="results-heading">Résultats de <?php echo htmlspecialchars($pseudo); ?></h2>
+
+  <div class="container4">
+
+
+    <?php if (count($scoresByTheme) > 0) : ?>
+      <div class="bordered-container">
+        <?php foreach ($scoresByTheme as $theme => $scores) : ?>
+          <h3><?php echo htmlspecialchars($theme); ?></h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php foreach ($scores as $score) : ?>
+                <tr>
+                  <td>
+                    <?php
+                    $date = new DateTime($score['created_at']);
+                    $month = $date->format('F'); // Récupérer le nom complet du mois en anglais
+                    $french_month = [
+                      'January' => 'janvier',
+                      'February' => 'février',
+                      'March' => 'mars',
+                      'April' => 'avril',
+                      'May' => 'mai',
+                      'June' => 'juin',
+                      'July' => 'juillet',
+                      'August' => 'août',
+                      'September' => 'septembre',
+                      'October' => 'octobre',
+                      'November' => 'novembre',
+                      'December' => 'décembre'
+                    ];
+                    $french_month_name = isset($french_month[$month]) ? $french_month[$month] : $month;
+                    echo $date->format('d') . ' ' . $french_month_name . ' ' . $date->format('Y');
+                    ?>
+                  </td>
+                  <td><?php echo htmlspecialchars($score['score']); ?></td>
+                </tr>
+              <?php endforeach; ?>
+            </tbody>
+          </table>
+        <?php endforeach; ?>
+      </div>
+    <?php else : ?>
+      <p>Aucun score disponible pour ce joueur.</p>
+    <?php endif; ?>
+  </div>
+
+  <script>
+    // Fermer le menu burger en cliquant en dehors de celui-ci
+    document.addEventListener('click', function(event) {
+      const menu = document.getElementById('navbarNavDropdown');
+      const menuButton = document.querySelector('.navbar-toggler');
+
+      // Si le clic n'est pas sur le menu ou son bouton toggle
+      if (!menu.contains(event.target) && event.target !== menuButton) {
+        menu.classList.remove('show'); // Ferme le menu
+      }
+    });
+  </script>
 
   <!-- Charger le fichier JavaScript -->
   <script src="../quiz.js"></script>

@@ -36,7 +36,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../controllers/controller-profil.php">Mon Profil</a></li>
-                <li><a class="dropdown-item" href="#">Mes Résultats</a></li>
+                <li><a class="dropdown-item" href="../controllers/controller-results.php">Mes Résultats</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -71,7 +71,7 @@
   <div class="container">
     <div class="button-container">
       <button id="editDescriptionBtn">Modifier le profil</button>
-      <form method="post" action="../controllers/controller-profil.php"  enctype="multipart/form-data" id="deleteAccountForm">
+      <form method="post" action="../controllers/controller-profil.php" enctype="multipart/form-data" id="deleteAccountForm">
         <input class="button3" type="submit" name="delete_profile" value="Supprimer le profil" onclick="return confirm('Êtes-vous sûr de vouloir supprimer votre profil ? Cette action est irréversible.')">
       </form>
     </div>
@@ -163,6 +163,19 @@
         // Masquer le formulaire de modification
         document.getElementById('editDescriptionForm').style.display = 'none';
       });
+    });
+
+
+
+    // Fermer le menu burger en cliquant en dehors de celui-ci
+    document.addEventListener('click', function(event) {
+      const menu = document.getElementById('navbarNavDropdown');
+      const menuButton = document.querySelector('.navbar-toggler');
+
+      // Si le clic n'est pas sur le menu ou son bouton toggle
+      if (!menu.contains(event.target) && event.target !== menuButton) {
+        menu.classList.remove('show'); // Ferme le menu
+      }
     });
   </script>
 

@@ -288,3 +288,33 @@ body > div.profile-info {
     margin-top: 3rem;
   }
   
+  /* PAGE RESULTATS */
+
+  .bordered-container {
+    border: 1px solid black;
+    padding: 1rem 4rem 1rem 4rem;
+    margin-top: 3rem;
+}
+
+.results-heading {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container4 {
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    max-height: calc(100vh - 5rem); 
+    overflow-y: auto; 
+}
+
+

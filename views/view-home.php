@@ -24,19 +24,19 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
   <link rel="stylesheet" href="/style.css" />
 </head>
 
-<body style="padding-top: 56px;" >
+<body style="padding-top: 56px;">
 
-<?php
-// Vérifie si l'utilisateur est connecté
-if (!$pseudo || !$playerId) {
-  // Affiche l'alerte si l'utilisateur n'est pas connecté
-  echo '<div class="custom-alert" id="alertBox">
+  <?php
+  // Vérifie si l'utilisateur est connecté
+  if (!$pseudo || !$playerId) {
+    // Affiche l'alerte si l'utilisateur n'est pas connecté
+    echo '<div class="custom-alert" id="alertBox">
           Vous pouvez jouer sans vous inscrire ou inscrivez-vous et enregistrez vos scores !
           <br>
           <button class="ok-btn" id="okBtn">OK</button>
         </div>';
-}
-?>
+  }
+  ?>
 
   <header>
     <nav class="navbar navbar-dark fixed-top">
@@ -81,7 +81,7 @@ if (!$pseudo || !$playerId) {
     <?php echo "<h3>Bienvenue $pseudo</h3>"; ?>
   </div>
 
- 
+
   <!-- Conteneurs pour le quiz et les boutons -->
   <div id="quiz-container" class="hidden">
     <div id="question-text"></div>
@@ -114,27 +114,26 @@ if (!$pseudo || !$playerId) {
   </div>
 
   <script>
+    // Fermer le menu burger en cliquant en dehors de celui-ci
+    document.addEventListener('click', function(event) {
+      const menu = document.getElementById('navbarNavDropdown');
+      const menuButton = document.querySelector('.navbar-toggler');
 
-     // Fermer le menu burger en cliquant en dehors de celui-ci
-  document.addEventListener('click', function(event) {
-    const menu = document.getElementById('navbarNavDropdown');
-    const menuButton = document.querySelector('.navbar-toggler');
+      // Si le clic n'est pas sur le menu ou son bouton toggle
+      if (!menu.contains(event.target) && event.target !== menuButton) {
+        menu.classList.remove('show'); // Ferme le menu
+      }
+    });
 
-    // Si le clic n'est pas sur le menu ou son bouton toggle
-    if (!menu.contains(event.target) && event.target !== menuButton) {
-      menu.classList.remove('show'); // Ferme le menu
-    }
-  });
-
-  // alerte
+    // alerte
     window.onload = function() {
-        document.getElementById('alertBox').style.display = 'block';
+      document.getElementById('alertBox').style.display = 'block';
     };
 
     document.getElementById('okBtn').onclick = function() {
-        document.getElementById('alertBox').style.display = 'none';
+      document.getElementById('alertBox').style.display = 'none';
     };
-</script>
+  </script>
 
 
   <!-- Charger le fichier JavaScript -->
