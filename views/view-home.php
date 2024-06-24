@@ -31,7 +31,7 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
   if (!$pseudo || !$playerId) {
     // Affiche l'alerte si l'utilisateur n'est pas connecté
     echo '<div class="custom-alert" id="alertBox">
-          Vous pouvez jouer sans vous inscrire ou inscrivez-vous et enregistrez vos scores !
+          Vous pouvez jouer sans vous inscrire ou inscrivez-vous, connectez-vous et enregistrez vos scores !
           <br>
           <button class="ok-btn" id="okBtn">OK</button>
         </div>';

@@ -1139,11 +1139,6 @@ const questionsFaitsInsolites = [
         answer: "11 jours"
     },
     {
-        question: "Quel film d'animation de 2022 réalisé par Angus MacLane explore les origines du personnage Buzz l'Éclair ?",
-        options: ["Buzz l'Éclair", "Toy Story 4", "Raya et le Dernier Dragon", "En avant"],
-        answer: "Buzz l'Éclair"
-    },
-    {
         question: "Quel est le nombre de selfies pris chaque jour dans le monde ?",
         options: ["1 million", "5 millions", "10 millions", "25 millions"],
         answer: "25 millions"
@@ -1242,9 +1237,9 @@ const questionsCinema = [
         answer: "Alien"
     },
     {
-        question: "Quel film de 2019 réalisé par Todd Phillips met en scène Joaquin Phoenix en tant que Joker ?",
-        options: ["Birds of Prey", "Suicide Squad", "Joker", "The Dark Knight"],
-        answer: "Joker"
+        question: "Quel film d'animation de 2022 réalisé par Angus MacLane explore les origines du personnage Buzz l'Éclair ?",
+        options: ["Buzz l'Éclair", "Toy Story 4", "Raya et le Dernier Dragon", "En avant"],
+        answer: "Buzz l'Éclair"
     },
     {
         question: "Quel film de 1980 réalisé par Stanley Kubrick est une adaptation du roman de Stephen King 'The Shining' ?",
