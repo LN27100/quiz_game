@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     header("Location: ../controllers/controller-home.php");
                     exit();
                 } else {
-                    $errors['mdp'] = 'Mauvais mot de passe';
+                    $errors['mdp'] = 'Mot de passe incorrect';
                 }
             }
         }

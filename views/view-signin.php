@@ -86,10 +86,21 @@
     </div>
   </div>
 
+  <script>
+    // Fermer le menu burger en cliquant en dehors de celui-ci
+    document.addEventListener('click', function(event) {
+      const menu = document.getElementById('navbarNavDropdown');
+      const menuButton = document.querySelector('.navbar-toggler');
+
+      // Si le clic n'est pas sur le menu ou son bouton toggle
+      if (!menu.contains(event.target) && event.target !== menuButton) {
+        menu.classList.remove('show'); // Ferme le menu
+      }
+    });
+  </script>
+  
   <!-- Charger le fichier JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-
 
 </body>
 

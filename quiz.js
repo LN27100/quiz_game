@@ -664,7 +664,7 @@ const questionsHarry = [
         },
         {
             question: "Quel est le nom du serpent de Voldemort ?",
-            options: ["Nagini", "Basilic", "Niffler", "Nagini"],
+            options: ["Nagili", "Basilic", "Niffler", "Nagini"],
             answer: "Nagini"
         },
         {
@@ -923,7 +923,7 @@ const questionsSport = [
         answer: "Tiger Woods"
     },
     {
-        question: "Quel est le nom du championnat annuel de rugby où s'affrontent les équipes des Six Nations européennes ?",
+        question: "Quel est le nom du championnat annuel de rugby où s'affrontent des équipes européennes ?",
         options: ["Tournoi des Six Nations", "Coupe du Monde de Rugby", "Championnat de France", "Rugby Championship"],
         answer: "Tournoi des Six Nations"
     },
@@ -992,12 +992,220 @@ const questionsSport = [
         options: ["Zinédine Zidane", "Didier Deschamps", "Thierry Henry", "Marcel Desailly"],
         answer: "Didier Deschamps"
     }
+];
+
+const questionsAnimaux = [
+    {
+        question: "Quel oiseau ne vole pas ?",
+        options: ["Autruche", "Aigle", "Moineau", "Colibri"],
+        answer: "Autruche"
+    },
+    {
+        question: "Quel est le plus grand reptile du monde ?",
+        options: ["Crocodile", "Serpent boa", "Tortue géante", "Lézard Komodo"],
+        answer: "Crocodile"
+    },
+    {
+        question: "Quel est l'animal terrestre le plus rapide ?",
+        options: ["Guépard", "Antilope", "Lion", "Zèbre"],
+        answer: "Guépard"
+    },
+    {
+        question: "Quel est le plus grand poisson du monde ?",
+        options: ["Requin-baleine", "Requin marteau", "Raie manta", "Thon"],
+        answer: "Requin-baleine"
+    },
+    {
+        question: "Quel est le plus petit mammifère au monde ?",
+        options: ["Musaraigne", "Souris", "Chauve-souris", "Mulot"],
+        answer: "Musaraigne"
+    },
+    {
+        question: "Quel insecte peut soulever des objets jusqu'à 50 fois son poids ?",
+        options: ["Fourmi", "Scarabée", "Papillon", "Abeille"],
+        answer: "Fourmi"
+    },
+    {
+        question: "Quel animal hiberne pendant tout l'hiver ?",
+        options: ["Ours", "Écureuil", "Marmotte", "Renard"],
+        answer: "Marmotte"
+    },
+    {
+        question: "Quel est l'animal national de l'Australie ?",
+        options: ["Kangourou", "Koala", "Emu", "Wombat"],
+        answer: "Kangourou"
+    },
+    {
+        question: "Quel est l'oiseau symbole des États-Unis ?",
+        options: ["Aigle", "Hibou", "Pigeon", "Faucon"],
+        answer: "Aigle"
+    },
+    {
+        question: "Quel est l'animal qui dort le moins ?",
+        options: ["Girafe", "Dauphin", "Chauve-souris", "Éléphant"],
+        answer: "Dauphin"
+    },
+    {
+        question: "Quel est l'oiseau le plus rapide au monde ?",
+        options: ["Colibri", "Faucon pèlerin", "Aigle", "Autruche"],
+        answer: "Faucon pèlerin"
+    },
+    {
+        question: "Quel est le plus grand animal marin ?",
+        options: ["Baleine bleue", "Requin blanc", "Orque", "Méduse géante"],
+        answer: "Baleine bleue"
+    },
+    {
+        question: "Quel est le serpent le plus venimeux au monde ?",
+        options: ["Cobra", "Vipère", "Mamba noir", "Taïpan"],
+        answer: "Mamba noir"
+    },
+    {
+        question: "Quel animal a le plus grand cerveau en proportion de sa taille ?",
+        options: ["Éléphant", "Dauphin", "Chimpanzé", "Humain"],
+        answer: "Dauphin"
+    },
+    {
+        question: "Quel est l'animal le plus lent du monde ?",
+        options: ["Limace", "Tortue", "Koala", "Sloth"],
+        answer: "Limace"
+    },
+    {
+        question: "Quel est le plus grand rongeur du monde ?",
+        options: ["Castor", "Rat", "Chinchilla", "Capybara"],
+        answer: "Capybara"
+    },
+    {
+        question: "Quel est l'oiseau qui peut courir le plus vite ?",
+        options: ["Autruche", "Émeu", "Kiwi", "Pingouin"],
+        answer: "Autruche"
+    },
+    {
+        question: "Quel est l'animal qui peut survivre sans eau le plus longtemps ?",
+        options: ["Chameau", "Kangourou", "Souris du désert", "Éléphant"],
+        answer: "Souris du désert"
+    },
+    {
+        question: "Quel est le poisson le plus venimeux au monde ?",
+        options: ["Poisson-pierre", "Poisson-scie", "Poisson-globe", "Raie pastenague"],
+        answer: "Poisson-pierre"
+    }
+];
+
+const questionsFaitsInsolites = [
+    {
+        question: "Quel pays consomme le plus de chocolat par habitant ?",
+        options: ["Suisse", "Belgique", "Allemagne", "États-Unis"],
+        answer: "Suisse"
+    },
+    {
+        question: "Quel est le record de la personne ayant le plus de piercings au corps ?",
+        options: ["567", "746", "901", "1027"],
+        answer: "1027"
+    },
+    {
+        question: "Quel est le nombre de chutes de cheveux quotidien moyen pour une personne ?",
+        options: ["100", "200", "50", "150"],
+        answer: "100"
+    },
+    {
+        question: "Quel est l'objet le plus souvent volé dans le monde ?",
+        options: ["Voiture", "Portefeuille", "Téléphone portable", "Stylo"],
+        answer: "Stylo"
+    },
+    {
+        question: "Quel est le nombre moyen de mots prononcés par une personne chaque jour ?",
+        options: ["2 000 mots", "5 000 mots", "7 000 mots", "10 000 mots"],
+        answer: "7 000 mots"
+    },
+    {
+        question: "Quel est le record du monde pour le nombre de hamburgers mangés en 10 minutes ?",
+        options: ["12", "22", "32", "42"],
+        answer: "32"
+    },
+    {
+        question: "Quel est le poids du plus gros hamburger jamais réalisé ?",
+        options: ["250 kg", "500 kg", "750 kg", "1 000 kg"],
+        answer: "1 000 kg"
+    },
+    {
+        question: "Quelle est la quantité de papier toilette utilisée en moyenne par personne par an ?",
+        options: ["5 kg", "10 kg", "15 kg", "20 kg"],
+        answer: "20 kg"
+    },
+    {
+        question: "Quelle est la durée la plus longue qu'une personne a passée sans dormir ?",
+        options: ["3 jours", "7 jours", "11 jours", "15 jours"],
+        answer: "11 jours"
+    },
+    {
+        question: "Quel est le nombre de selfies pris chaque jour dans le monde ?",
+        options: ["1 million", "5 millions", "10 millions", "25 millions"],
+        answer: "25 millions"
+    },
+    {
+        question: "Quelle est la vitesse moyenne d'un pet humain ?",
+        options: ["6 km/h", "10 km/h", "14 km/h", "18 km/h"],
+        answer: "14 km/h"
+    },
+    {
+        question: "Quel est le record du monde pour le nombre de mots tapés en une minute sur un clavier ?",
+        options: ["150 mots", "200 mots", "256 mots", "212 mots"],
+        answer: "212 mots"
+    },
+    {
+        question: "Quelle est la distance la plus longue jamais parcourue à la nage sans s'arrêter ?",
+        options: ["100 km", "225 km", "300 km", "400 km"],
+        answer: "225 km"
+    },
+    {
+        question: "Combien de fois le cœur humain bat-il en moyenne par jour ?",
+        options: ["10 000 fois", "25 000 fois", "100 000 fois", "56 000 fois"],
+        answer: "100 000 fois"
+    },
+    {
+        question: "Quelle est la quantité de chocolat consommée par habitant en Suisse par an ?",
+        options: ["5 kg", "10 kg", "15 kg", "20 kg"],
+        answer: "10 kg"
+    },
+    {
+        question: "Quelle est la température la plus basse jamais enregistrée sur Terre ?",
+        options: ["-60,2 °C", "-83,6 °C", "-100 °C", "-128,6 °C"],
+        answer: "-128,6 °C"
+    },
+    {
+        question: "Quelle est la longueur du plus long cheveu humain jamais enregistré ?",
+        options: ["50 cm", "75 cm", "100 cm", "150 cm"],
+        answer: "150 cm"
+    },
+    {
+        question: "Quel est le nombre de pattes qu'un escargot possède ?",
+        options: ["0", "1", "4", "6"],
+        answer: "1"
+    },
+    {
+        question: "Quel est le nombre de fois qu'un colibri bat des ailes en une seconde ?",
+        options: ["20 fois", "40 fois", "60 fois", "80 fois"],
+        answer: "80 fois"
+    },
+    {
+        question: "Quel est le nombre moyen de pas qu'une personne fait dans sa vie ?",
+        options: ["100 millions", "200 millions", "300 millions", "400 millions"],
+        answer: "200 millions"
+    }
+];
+
+const questionsCinema = [
 
 ];
+   
+
 
 
 // Mélanger les options pour chaque thème de questions
+shuffleQuestionsOptions(questionsAnimaux);
 shuffleQuestionsOptions(questionsCultureGenerale);
+shuffleQuestionsOptions(questionsFaitsInsolites);
 shuffleQuestionsOptions(questionsChansons);
 shuffleQuestionsOptions(questionsDessinsAnimes);
 shuffleQuestionsOptions(questionsSeries);
@@ -1006,9 +1214,14 @@ shuffleQuestionsOptions(questionsCuisine);
 shuffleQuestionsOptions(questionsGeographie);
 shuffleQuestionsOptions(questionsOrthographe);
 shuffleQuestionsOptions(questionsSport);
+shuffleQuestionsOptions(questionsCinema);
+
 
 // Éléments DOM
 const quizContainer = document.getElementById('quiz-container');
+const themeAnimauxBtn = document.getElementById('theme-animaux');
+const themeFaitsInsolitesBtn = document.getElementById('theme-faitsInsolites');
+const themeCinemaBtn = document.getElementById('theme-cinema');
 const themeCultureBtn = document.getElementById('theme-culture');
 const themeChansonsBtn = document.getElementById('theme-chansons');
 const themeDessinsBtn = document.getElementById('theme-dessins');
@@ -1047,6 +1260,16 @@ function getSelectedTheme() {
 themeCultureBtn.addEventListener('click', () => {
     selectedTheme = 'Culture générale';
     startQuiz(questionsCultureGenerale);
+});
+
+themeFaitsInsolitesBtn.addEventListener('click', () => {
+    selectedTheme = 'Faits insolites';
+    startQuiz(questionsFaitsInsolites);
+});
+
+themeAnimauxBtn.addEventListener('click', () => {
+    selectedTheme = 'Animaux';
+    startQuiz(questionsAnimaux);
 });
 
 themeChansonsBtn.addEventListener('click', () => {

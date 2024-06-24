@@ -104,6 +104,11 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
     <button id="theme-geographie" data-playerPseudo="<?php echo $pseudo; ?>">Thème Géographie</button>
     <button id="theme-orthographe" data-playerPseudo="<?php echo $pseudo; ?>">Thème Orthographe</button>
     <button id="theme-sport" data-playerPseudo="<?php echo $pseudo; ?>">Thème Sport</button>
+    <button id="theme-animaux" data-playerPseudo="<?php echo $pseudo; ?>">Thème Animaux</button>
+    <button id="theme-cinema" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cinéma</button>
+    <button id="theme-faitsInsolites" data-playerPseudo="<?php echo $pseudo; ?>">Thème Faits insolites</button>
+
+
 
     <!-- Formulaire pour enregistrer le score -->
     <form id="score-form" style="display: none;">
