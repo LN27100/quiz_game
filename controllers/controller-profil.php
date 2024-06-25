@@ -13,6 +13,8 @@ if (!isset($_SESSION['user'])) {
     exit();
 }
 
+$default_img = "avatarDefault.jpg";
+
 // Récupère les informations de l'utilisateur
 $pseudo = $_SESSION['user']['player_pseudo'] ?? "Pseudo non défini";
 $email = $_SESSION['user']['player_mail'] ?? "Email non défini";
@@ -21,7 +23,7 @@ $player_id = $_SESSION['user']['player_id'] ?? null;
 if (isset($_SESSION['user']['player_photo']) && !empty($_SESSION['user']['player_photo'])) {
     $img = $_SESSION['user']['player_photo'];
 } else {
-    $img = "../assets/uploads/avatarDefault.jpg";
+    $img = $default_img;
 }
 
 // Gestion du formulaire
@@ -46,12 +48,12 @@ if (isset($_FILES['profile_image'])) {
         $uploadFile = $uploadDir . $new_file_name;
 
         if (move_uploaded_file($_FILES['profile_image']['tmp_name'], $uploadFile)) {
-            $_SESSION['user']['player_photo'] = $uploadFile;
-            Player::updateProfileImage($_SESSION['user']['player_id'], $uploadFile);
+            // Stocker uniquement le nom du fichier dans la session et la base de données
+            $_SESSION['user']['player_photo'] = $new_file_name;
+            Player::updateProfileImage($_SESSION['user']['player_id'], $new_file_name);
             header("Location: ../controllers/controller-profil.php"); // Redirection vers la page de profil
             exit(); // Arrêter le script après la redirection
         } else {
-            $uploadDir = '../assets/uploads/avatarDefault.jpg';
             echo "Erreur lors du téléchargement du fichier : " . $_FILES['profile_image']['error'];
         }
     } catch (Exception $e) {
@@ -59,55 +61,6 @@ if (isset($_FILES['profile_image'])) {
     }
 }
 
-if (isset($_POST['save_modification'])) {
-    $new_pseudo = $_POST['player_pseudo'] ?? "";
-    $new_email = $_POST['player_mail'] ?? "";
-
-    // Contrôle du pseudo
-    if (empty($new_pseudo)) {
-        $errors["player_pseudo"] = "Champ obligatoire";
-    } elseif (!preg_match("/^[a-zA-ZÀ-ÿ\d]+$/", $new_pseudo)) {
-        $errors["player_pseudo"] = "Seules les lettres et les chiffres sont autorisés dans le champ Pseudo";
-    } elseif (strlen($new_pseudo) < 6) {
-        $errors["player_pseudo"] = "Le pseudo doit contenir au moins 6 caractères";
-    } elseif (Player::checkPseudoExists($new_pseudo) && $new_pseudo != $pseudo) {
-        $errors["player_pseudo"] = 'Pseudo déjà utilisé';
-    }
-
-    // Contrôle de l'email 
-    if (empty($new_email)) {
-        $errors["player_mail"] = "Champ obligatoire";
-    } elseif (!filter_var($new_email, FILTER_VALIDATE_EMAIL)) {
-        $errors["player_mail"] = "Le format de l'adresse email n'est pas valide";
-    } elseif (Player::checkMailExists($new_email) && $new_email != $email) {
-        $errors["player_mail"] = 'Mail déjà utilisé';
-    }
-
-    // Si des erreurs sont détectées, redirigez l'utilisateur vers le formulaire avec les erreurs
-    if (empty($errors)) {
-        try {
-            Player::updateProfil($player_id, $new_pseudo, $new_email);
-            $_SESSION['user']['player_pseudo'] = $new_pseudo;
-            $_SESSION['user']['player_mail'] = $new_email;
-            header("Location: ../controllers/controller-profil.php");
-            exit();
-        } catch (Exception $e) {
-            echo "Erreur lors de la mise à jour du profil : " . $e->getMessage();
-        }
-    }
-}
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_profile'])) {
-    $delete_result = Player::deleteUser($player_id);
-
-    if ($delete_result === true) {
-        header("Location: ../index.php?message=Profil supprimé avec succès");
-        exit();
-    } else {
-        echo "Erreur lors de la suppression du profil : " . $delete_result;
-        exit();
-    }
-}
 
 include_once '../views/view-profil.php';
 ?>

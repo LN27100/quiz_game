@@ -8,9 +8,18 @@ require_once '../config.php';
 require_once '../Models/login.php';
 require_once '../Models/Scores.php';
 
-// Récupère le pseudo et l'ID de l'utilisateur
-$pseudo = $_SESSION['user']['player_pseudo'] ?? "cher joueur";
-$playerId = $_SESSION['user']['player_id'] ?? null;
+// Définissez le chemin complet de l'image par défaut si nécessaire
+$default_img = "avatarDefault.jpg";
+$upload_dir = "../assets/uploads/";
+
+// Utilisez l'image par défaut si aucune image n'est définie
+if (isset($_SESSION['user']['player_photo']) && !empty($_SESSION['user']['player_photo'])) {
+    $img = $_SESSION['user']['player_photo'];
+} else {
+    $img = $default_img;
+}
+
+$img_path = $upload_dir . $img;
 ?>
 
 <!DOCTYPE html>
@@ -21,14 +30,14 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quiz Game</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="../assets/style.css" />
 </head>
 
 <body style="padding-top: 56px;">
 
   <?php
   // Vérifie si l'utilisateur est connecté
-  if (!$pseudo || !$playerId) {
+  if (!$pseudo) {
     // Affiche l'alerte si l'utilisateur n'est pas connecté
     echo '<div class="custom-alert" id="alertBox">
           Vous pouvez jouer sans vous inscrire ou inscrivez-vous, connectez-vous et enregistrez vos scores !
@@ -80,8 +89,8 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
     <h1>Quiz Game</h1>
     <?php echo "<h3>Bienvenue $pseudo</h3>"; ?>
     <div class="container4">
-        <img src="../assets/uploads/<?= $img ?>" alt="photo de profil" class="imageHome">
-        </div>
+    <img src="<?= $img_path ?>" alt="photo de profil" class="profile-image">
+    </div>
   </div>
 
 

@@ -200,13 +200,12 @@ class Player {
     }
 
 
-     /**
-     * Méthode permettant de télécharger une image de profil
-     * @param string $new_image_path est le nouveau nom de l'image télécharger
-     * @param int $user_id est l'id de l'utilisateur
-     */
-
-     public static function updateProfileImage(int $player_id, string $new_image_path)
+    /**
+ * Méthode permettant de télécharger une image de profil
+ * @param string $new_image_path est le nouveau nom de l'image télécharger
+ * @param int $user_id est l'id de l'utilisateur
+ */
+public static function updateProfileImage(int $player_id, string $new_image_path)
 {
     try {
         $db = new PDO(DBNAME, DBUSER, DBPASSWORD);
@@ -228,7 +227,4 @@ class Player {
         die();
     }
 }
-
-
 }
-?>
