@@ -135,6 +135,15 @@ h1 {
   font-weight: bold;
 }
 
+
+.imageHome {
+    margin-top: 1rem;
+    width: 8rem;
+    height: auto;
+    border: solid 2px #8583e8;
+    border-radius: 50px;
+  }
+
 /* NAVBAR */
 
 .navbar {

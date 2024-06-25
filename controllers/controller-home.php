@@ -1,8 +1,19 @@
 <?php
 require_once '../config.php';
 require_once '../Models/Scores.php';
+require_once '../Models/login.php';
+
 
 session_start();
+
+// Vérifie si une photo d'utilisateur est définie dans la session
+if (isset($_SESSION['user']['player_photo']) && !empty($_SESSION['user']['player_photo'])) {
+    // Utilise la photo de l'utilisateur s'il en existe une
+    $img = $_SESSION['user']['player_photo'];
+} else {
+    // Utilise une photo par défaut si aucune photo d'utilisateur n'est définie
+    $img = "../assets/uploads/avatarDefault.jpg";
+}
 
 // Vérifier si la requête est de type POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -40,3 +51,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $pseudo = isset($_SESSION['user']['player_pseudo']) ? ($_SESSION['user']['player_pseudo']) : "cher joueur";
     include_once '../views/view-home.php';
 }
+
+

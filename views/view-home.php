@@ -79,6 +79,9 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
   <div class="container">
     <h1>Quiz Game</h1>
     <?php echo "<h3>Bienvenue $pseudo</h3>"; ?>
+    <div class="container4">
+        <img src="<?= $img ?>" alt="photo de profil" class="imageHome">
+        </div>
   </div>
 
 
