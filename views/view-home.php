@@ -84,6 +84,7 @@ $playerId = $_SESSION['user']['player_id'] ?? null;
 
   <!-- Conteneurs pour le quiz et les boutons -->
   <div id="quiz-container" class="hidden">
+  <span id="question-number"></span>
     <div id="question-text"></div>
     <div id="options-container"></div>
     <button id="next-btn" class="hidden">Suivant</button>
