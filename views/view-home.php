@@ -38,7 +38,7 @@ $img_path = $upload_dir . $img;
 
 <body style="padding-top: 56px;">
 
-  <?php
+  <!-- <?php
   // Vérifie si l'utilisateur est connecté
   if (!$estConnecte) {
     // Affiche l'alerte si l'utilisateur n'est pas connecté
@@ -48,7 +48,7 @@ $img_path = $upload_dir . $img;
           <button class="ok-btn" id="okBtn">OK</button>
         </div>';
   }
-  ?>
+  ?> -->
 
   <header>
 
