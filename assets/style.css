@@ -154,6 +154,11 @@ h1 {
   background-color: #8583e8;
 }
 
+.navbar-nav .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
 /* SCROLLBAR PERSONNALISEE */
 
 ::-webkit-scrollbar-track {

@@ -12,41 +12,43 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-dark fixed-top">
-      <div class="container-fluid">
-        <!-- Menu burger -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-dark fixed-top navbar-expand-md">
+  <div class="container-fluid">
+    <!-- Menu burger visible uniquement sur les écrans de taille md ou plus petite -->
+    <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../controllers/controller-home.php">Accueil</a>
-            </li>
-          </ul>
+    <!-- Menu classique visible uniquement sur les écrans de taille md ou plus grande -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/controllers/controller-home.php">Accueil</a>
+        </li>
+      </ul>
 
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="../controllers/controller-signin.php">Connexion</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../controllers/controller-signin.php">Connexion/Inscription</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profil
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="../controllers/controller-profil.php">Mon Profil</a></li>
+            <li><a class="dropdown-item" href="../controllers/controller-results.php">Mes Résultats</a></li>
+            <li>
+              <hr class="dropdown-divider">
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Profil
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="../controllers/controller-profil.php">Mon Profil</a></li>
-                <li><a class="dropdown-item" href="../controllers/controller-results.php">Mes Résultats</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Déconnexion</a></li>
-              </ul>
-            </li>
+            <li><a class="dropdown-item" href="../controllers/controller-signout.php">Déconnexion</a></li>
           </ul>
-        </div>
-      </div>
-    </nav>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
   </header>
 
   <div class="container">

@@ -11,6 +11,6 @@ $_SESSION = array();
 session_destroy();
 
 // Rediriger vers la page de connexion
-header("Location: controller-signin.php");
+header("Location: controller-home.php");
 exit();
 ?>
