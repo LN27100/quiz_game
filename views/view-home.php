@@ -126,6 +126,9 @@ $img_path = $upload_dir . $img;
     <button id="theme-animaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Animaux</button>
     <button id="theme-cinema" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cinéma</button>
     <button id="theme-faitsInsolites" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Faits insolites</button>
+    <button id="theme-princessesDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Princesses Disney</button>
+    <button id="theme-filmsHorreur" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Films d'horreur</button>
+    <button id="theme-drapeaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Drapeaux</button>
 
     <!-- Formulaire pour enregistrer le score -->
     <form id="score-form" style="display: none;">
