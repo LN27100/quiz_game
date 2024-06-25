@@ -40,7 +40,7 @@ $img_path = $upload_dir . $img;
 
   <?php
   // Vérifie si l'utilisateur est connecté
-  if (!$pseudo) {
+  if (!$estConnecte) {
     // Affiche l'alerte si l'utilisateur n'est pas connecté
     echo '<div class="custom-alert" id="alertBox">
           Vous pouvez jouer sans vous inscrire ou inscrivez-vous, connectez-vous et enregistrez vos scores !
@@ -114,20 +114,18 @@ $img_path = $upload_dir . $img;
 
   <div class="container grid">
     <!-- boutons de thème -->
-    <button id="theme-culture" data-playerPseudo="<?php echo $pseudo; ?>">Thème Culture générale</button>
-    <button id="theme-chansons" data-playerPseudo="<?php echo $pseudo; ?>">Thème Chansons</button>
-    <button id="theme-dessins" data-playerPseudo="<?php echo $pseudo; ?>">Thème Dessins animés</button>
-    <button id="theme-harry" data-playerPseudo="<?php echo $pseudo; ?>">Thème Harry Potter</button>
-    <button id="theme-cuisine" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cuisine</button>
-    <button id="theme-series" data-playerPseudo="<?php echo $pseudo; ?>">Thème Séries TV</button>
-    <button id="theme-geographie" data-playerPseudo="<?php echo $pseudo; ?>">Thème Géographie</button>
-    <button id="theme-orthographe" data-playerPseudo="<?php echo $pseudo; ?>">Thème Orthographe</button>
-    <button id="theme-sport" data-playerPseudo="<?php echo $pseudo; ?>">Thème Sport</button>
-    <button id="theme-animaux" data-playerPseudo="<?php echo $pseudo; ?>">Thème Animaux</button>
-    <button id="theme-cinema" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cinéma</button>
-    <button id="theme-faitsInsolites" data-playerPseudo="<?php echo $pseudo; ?>">Thème Faits insolites</button>
-
-
+    <button id="theme-culture" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Culture générale</button>
+    <button id="theme-chansons" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Chansons</button>
+    <button id="theme-dessins" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Dessins animés</button>
+    <button id="theme-harry" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Harry Potter</button>
+    <button id="theme-cuisine" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cuisine</button>
+    <button id="theme-series" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Séries TV</button>
+    <button id="theme-geographie" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Géographie</button>
+    <button id="theme-orthographe" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Orthographe</button>
+    <button id="theme-sport" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Sport</button>
+    <button id="theme-animaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Animaux</button>
+    <button id="theme-cinema" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cinéma</button>
+    <button id="theme-faitsInsolites" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Faits insolites</button>
 
     <!-- Formulaire pour enregistrer le score -->
     <form id="score-form" style="display: none;">

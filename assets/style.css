@@ -56,19 +56,19 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-grow: 1; /* Permet à ce conteneur de prendre toute la hauteur disponible */
+  flex-grow: 1;
 }
 
 .container.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  gap: 7px;
   margin-top: 0;
   margin-bottom: 5rem;
 }
 
-.container button {
-  padding: 15px 30px;
+.container .theme-button {
+  padding: 20px 85px;
   font-size: 1.5rem;
   cursor: pointer;
   background-color: #d93ffb;
@@ -76,11 +76,88 @@ h1 {
   color: white;
   border-radius: 8px;
   text-align: center;
+  position: relative; /* Pour positionner l'image par rapport au bouton */
 }
 
-.container button:hover {
+.container .theme-button:hover {
   background-color: #c300e2;
 }
+
+/* Appliquez l'image à chaque bouton et ajustez sa taille */
+#theme-culture {
+  background-image: url('../assets/img/culture_general.jpg');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+#theme-chansons {
+  background-image: url('../assets/img/theme_chanson.jpg');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+#theme-dessins {
+  background-image: url('../assets/img/theme_dessinsAnimes.jpg');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+#theme-harry {
+  background-image: url('../assets/img/theme_harryPotter.jpg');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+#theme-cuisine {
+  background-image: url('../assets/img/theme_cuisine.jpg');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+#theme-series {
+  background-image: url('../assets/img/theme-serie.jpg');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+#theme-geographie {
+  background-image: url('../assets/img/theme_geographie.jpg');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+#theme-orthographe {
+  background-image: url('../assets/img/theme_orthographe.JPG');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+#theme-sport {
+  background-image: url('../assets/img/theme_sport.JPG');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+#theme-animaux {
+  background-image: url('../assets/img/theme_animaux.JPG');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+#theme-cinema {
+  background-image: url('../assets/img/theme_cinema.jpg');
+  background-size: 5.2rem 5.2rem; 
+  background-repeat: no-repeat;
+
+}
+
+#theme-faitsInsolites {
+  background-image: url('../assets/img/theme_insolite.JPG');
+  background-size: 5.2rem 5.2rem;
+  background-repeat: no-repeat;
+}
+
+
 
 .hidden {
   display: none;
@@ -135,14 +212,15 @@ h1 {
   font-weight: bold;
 }
 
-
 .imageHome {
-    margin-top: 1rem;
-    width: 8rem;
-    height: auto;
-    border: solid 2px #8583e8;
-    border-radius: 50px;
-  }
+  margin-top: 1rem;
+  width: 8rem;
+  height: auto;
+  border: solid 2px #8583e8;
+  border-radius: 50px;
+}
+
+
 
 /* NAVBAR */
 
