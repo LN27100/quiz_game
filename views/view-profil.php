@@ -63,6 +63,29 @@
     </div>
   </div>
 
+
+  <div class="container">
+        <div class="profile-image-container">
+
+            <!-- Popup confirmation suppression du profil -->
+            <div id="deleteProfileConfirm" class="popup-confirm" style="display: none;">
+                <div class="popup-content">
+                    <p id="deleteProfileText">Voulez-vous vraiment supprimer votre profil ?</p>
+                    <form id="deleteProfileForm" action="../controllers/controller-profil.php" method="POST">
+                        <button id="confirmDeleteProfile" class="btnYes" type="submit">Oui</button>
+                        <button id="cancelDeleteProfile" class="btnNo">Non</button>
+                    </form>
+                </div>
+            </div>
+
+            <img src="<?= $img ?>" alt="photo de profil" class="profile-image">
+
+            <form method="post" action="../controllers/controller-profil.php" enctype="multipart/form-data" class="file-input-container">
+                <input type="file" name="profile_image" id="profile_image" accept="image/png, image/gif, image/jpeg, image/jpg" required>
+                <input type="submit" value="Télécharger">
+            </form>
+        </div>
+
   <div class="profile-info">
     <p><span class="textProfil">Pseudo:</span> <?= $pseudo ?></p>
     <p><span class="textProfil">Email: </span> <?= $email ?></p>

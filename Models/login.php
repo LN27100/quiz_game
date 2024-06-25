@@ -198,5 +198,37 @@ class Player {
             return 'Erreur : ' . $e->getMessage();
         }
     }
+
+
+     /**
+     * Méthode permettant de télécharger une image de profil
+     * @param string $new_image_path est le nouveau nom de l'image télécharger
+     * @param int $user_id est l'id de l'utilisateur
+     */
+
+     public static function updateProfileImage(int $player_id, string $new_image_path)
+{
+    try {
+        $db = new PDO(DBNAME, DBUSER, DBPASSWORD);
+        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        // Obtenir le nom de fichier à partir du chemin de l'image
+        $file_name = basename($new_image_path);
+
+        $sql = "UPDATE player SET player_photo = :new_image_name WHERE player_id = :player_id";
+
+        $query = $db->prepare($sql);
+
+        $query->bindValue(':new_image_name', $file_name, PDO::PARAM_STR);
+        $query->bindValue(':player_id', $player_id, PDO::PARAM_INT);
+
+        $query->execute();
+    } catch (PDOException $e) {
+        echo 'Erreur :' . $e->getMessage();
+        die();
+    }
+}
+
+
 }
 ?>

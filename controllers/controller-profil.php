@@ -17,9 +17,47 @@ if (!isset($_SESSION['user'])) {
 $pseudo = $_SESSION['user']['player_pseudo'] ?? "Pseudo non défini";
 $email = $_SESSION['user']['player_mail'] ?? "Email non défini";
 $player_id = $_SESSION['user']['player_id'] ?? null;
+// Vérifie si une photo d'utilisateur est définie dans la session
+if (isset($_SESSION['user']['player_photo']) && !empty($_SESSION['user']['player_photo'])) {
+    $img = $_SESSION['user']['player_photo'];
+} else {
+    $img = "../assets/uploads/avatarDefault.jpg";
+}
 
 // Gestion du formulaire
 $errors = array(); // Tableau pour stocker les erreurs
+
+// Gestion de la mise à jour de l'image de profil
+if (isset($_FILES['profile_image'])) {
+    try {
+        // Dossier de sauvegarde des images
+        $uploadDir = '../assets/uploads/';
+
+        // Vérification du dossier de sauvegarde des images
+        if (!file_exists($uploadDir)) {
+            mkdir($uploadDir, 0777, true);
+        }
+
+        $file_extension = pathinfo($_FILES['profile_image']['name'], PATHINFO_EXTENSION);
+        // Construire un nom de fichier unique en combinant "profile_", l'ID de l'utilisateur et l'extension du fichier
+        $new_file_name = "profile_" . $_SESSION['user']['player_id'] . "." . $file_extension;
+
+        // Construire le chemin complet du fichier en concaténant le dossier de sauvegarde avec le nouveau nom de fichier
+        $uploadFile = $uploadDir . $new_file_name;
+
+        if (move_uploaded_file($_FILES['profile_image']['tmp_name'], $uploadFile)) {
+            $_SESSION['user']['player_photo'] = $uploadFile;
+            Player::updateProfileImage($_SESSION['user']['player_id'], $uploadFile);
+            header("Location: ../controllers/controller-profil.php"); // Redirection vers la page de profil
+            exit(); // Arrêter le script après la redirection
+        } else {
+            $uploadDir = '../assets/uploads/avatarDefault.jpg';
+            echo "Erreur lors du téléchargement du fichier : " . $_FILES['profile_image']['error'];
+        }
+    } catch (Exception $e) {
+        echo "Erreur lors de la mise à jour de l'image de profil : " . $e->getMessage();
+    }
+}
 
 if (isset($_POST['save_modification'])) {
     $new_pseudo = $_POST['player_pseudo'] ?? "";
