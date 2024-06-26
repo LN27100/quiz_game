@@ -2136,10 +2136,155 @@ const questionsHorreur = [
   },
 ];
 
+const questionsDrapeaux = [
+  {
+    numéro: "1/20",
+    question: "Quel pays est représenté par ce drapeau ?",
+    image: "../assets/img/france.png",
+    options: ["France", "Allemagne", "Espagne", "Italie"],
+    answer: "France",
+  },
+  {
+    numéro: "2/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/republique_tcheque.png",
+    options: ["Norvège", "République Tchèque", "Autriche", "Pologne"],
+    answer: "République Tchèque",
+  },
+  {
+    numéro: "3/20",
+    question: "A quel pays appartient ce drapeau ?",
+    image: "../assets/img/afrique_du_sud.png",
+    options: ["Afrique du Nord", "Afrique du Sud", "Vietnam", "Corée du Sud"],
+    answer: "Afrique du Sud",
+  },
+  {
+    numéro: "4/20",
+    question: "Ce drapeau est celui de quel pays européen qui comporte trois bandes verticales de couleurs rouge, blanche et rouge ?",
+    image: "../assets/img/autriche.png",
+    options: ["Autriche", "Hongrie", "Pays-Bas", "Belgique"],
+    answer: "Autriche",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel pays d'Afrique est représenté par ce drapeau avec une étoile jaune sur fond vert, rouge et noir ?",
+    image: "../assets/img/ghana.png",
+    options: ["Afrique du Sud", "Nigeria", "Éthiopie", "Ghana"],
+    answer: "Ghana",
+  },
+  {
+    numéro: "6/20",
+    question: "À quel pays appartient ce drapeau avec une étoile blanche à cinq branches sur fond bleu ?",
+    image: "../assets/img/etats_unis.png",
+    options: ["États-Unis", "Australie", "Nouvelle-Zélande", "Brésil"],
+    answer: "États-Unis",
+  },
+  {
+    numéro: "7/20",
+    question: "Ce drapeau avec une croix rouge sur fond blanc est celui de quel pays européen ?",
+    image: "../assets/img/danemark.png",
+    options: ["Suisse", "Norvège", "Danemark", "Suède"],
+    answer: "Danemark",
+  },
+  {
+    numéro: "8/20",
+    question: "Quel pays asiatique est représenté par ce drapeau avec une lune et une étoile blanche sur fond vert ?",
+    image: "../assets/img/pakistan.jpg",
+    options: ["Malaisie", "Pakistan", "Indonésie", "Bangladesh"],
+    answer: "Pakistan",
+  },
+  {
+    numéro: "9/20",
+    question: "A quels pays appartient ce drapeau ?",
+    image: "../assets/img/coree_du_sud.png",
+    options: ["Mexique", "Corée du Sud", "Argentine", "Pérou"],
+    answer: "Corée du Sud",
+  },
+  {
+    numéro: "10/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/botswana.png",
+    options: ["Botswana", "Irlande", "Royaume-Uni", "Estonie"],
+    answer: "Botswana",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le nom du pays représenté par ce drapeau bleu avec une croix rouge et quatre croix blanches ?",
+    image: "../assets/img/finlande.png",
+    options: ["Suède", "Norvège", "Danemark", "Finlande"],
+    answer: "Finlande",
+  },
+  {
+    numéro: "12/20",
+    question: "Ce drapeau avec une étoile jaune sur fond vert, rouge, jaune et noir est celui de quel pays africain ?",
+    image: "../assets/img/egypte.png",
+    options: ["Nigeria", "Afrique du Sud", "Égypte", "Zimbabwe"],
+    answer: "Égypte",
+  },
+  {
+    numéro: "13/20",
+    question: "À quel pays appartient ce drapeau tricolore vertical avec des bandes vertes, blanches et rouges ?",
+    image: "../assets/img/hongrie.png",
+    options: ["Italie", "Hongrie", "Russie", "Bulgarie"],
+    answer: "Hongrie",
+  },
+  {
+    numéro: "14/20",
+    question: "Ce drapeau avec une étoile rouge à cinq branches sur fond vert est celui de quel pays d'Asie du Sud-Est ?",
+    image: "../assets/img/vietnam.png",
+    options: ["Vietnam", "Laos", "Cambodge", "Thaïlande"],
+    answer: "Vietnam",
+  },
+  {
+    numéro: "15/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/albanie.png",
+    options: ["Albanie", "Arabie Saoudite", "Bahamas", "Bangladesh"],
+    answer: "Albanie",
+  },
+  {
+    numéro: "16/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/sri_lanka.png",
+    options: ["Sri Lanka", "Bénin", "Bhoutan", "Birmanie"],
+    answer: "Sri Lanka",
+  },
+  {
+    numéro: "17/20",
+    question: "Ce drapeau avec une lune et une étoile rouge sur fond blanc est celui de quel pays du Moyen-Orient ?",
+    image: "../assets/img/turquie.png",
+    options: ["Arabie Saoudite", "Iran", "Turquie", "Émirats Arabes Unis"],
+    answer: "Turquie",
+  },
+  {
+    numéro: "18/20",
+    question: "Quel pays d'Amérique du Sud est représenté par ce drapeau tricolore horizontal avec des bandes jaune, bleu et rouge ?",
+    image: "../assets/img/colombie.png",
+    options: ["Colombie", "Pérou", "Équateur", "Venezuela"],
+    answer: "Colombie",
+  },
+  {
+    numéro: "19/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/mexique.png",
+    options: ["Brésil", "Cameroun", "Cambodge", "Mexique"],
+    answer: "Mexique",
+  },
+  {
+    numéro: "20/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/laos.png",
+    options: ["Chine", "Vietnam", "Corée du Nord", "Laos"],
+    answer: "Laos",
+  },
+];
+
+
 
 
 // Mélanger les options pour chaque thème de questions
 
+shuffleQuestionsOptions(questionsDrapeaux);
 shuffleQuestionsOptions(questionsHorreur);
 shuffleQuestionsOptions(questionsAnimaux);
 shuffleQuestionsOptions(questionsCultureGenerale);
@@ -2160,6 +2305,7 @@ shuffleQuestionsOptions(questionsPrincessesDisney);
 const premièreQuestion = questionsCultureGenerale[0];
 const quizContainer = document.getElementById("quiz-container");
 const themeHorreurBtn = document.getElementById("theme-horreur");
+const themeDrapeauxBtn = document.getElementById("theme-drapeaux");
 const themeAnimauxBtn = document.getElementById("theme-animaux");
 const themeFaitsInsolitesBtn = document.getElementById("theme-faitsInsolites");
 const themeCinemaBtn = document.getElementById("theme-cinema");
@@ -2208,6 +2354,12 @@ themeHorreurBtn.addEventListener("click", () => {
   selectedTheme = "Films d'horreur";
   startQuiz(questionsHorreur);
 });
+
+themeDrapeauxBtn.addEventListener("click", () => {
+  selectedTheme = "Drapeaux";
+  startQuiz(questionsDrapeaux);
+});
+
 
 themePrincessesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Princesses Disney";
@@ -2301,12 +2453,22 @@ function showQuestion() {
   const currentQuestion = questions[currentQuestionIndex];
   const questionNumberElement = document.getElementById("question-number");
   const questionTextElement = document.getElementById("question-text");
+  const flagImageElement = document.getElementById("flag-image");
 
   // Afficher le numéro de la question
   questionNumberElement.textContent = currentQuestion.numéro;
 
   // Afficher le texte de la question
   questionTextElement.textContent = currentQuestion.question;
+
+  // Afficher l'image du drapeau seulement si le thème est "Drapeaux"
+  if (selectedTheme === "Drapeaux") {
+    flagImageElement.src = currentQuestion.image;
+    document.getElementById("image-container").style.display = "block";
+  } else {
+    flagImageElement.src = "";
+    document.getElementById("image-container").style.display = "none";
+  }
 
   optionsContainer.innerHTML = "";
   currentQuestion.options.forEach((option) => {
@@ -2341,7 +2503,6 @@ function disableOptions(selectedOption, correctAnswer) {
     }
   });
 }
-
 
 // Fonction pour afficher le bouton Suivant
 function showNextButton() {

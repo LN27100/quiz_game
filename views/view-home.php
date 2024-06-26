@@ -100,17 +100,21 @@ $img_path = $upload_dir . $img;
   </div>
 
 
-  <!-- Conteneurs pour le quiz et les boutons -->
-  <div id="quiz-container" class="hidden">
+ <!-- Conteneurs pour le quiz et les boutons -->
+<div id="quiz-container" class="hidden">
   <span id="question-number"></span>
-    <div id="question-text"></div>
-    <div id="options-container"></div>
-    <button id="next-btn" class="hidden">Suivant</button>
-    <div id="result-container" class="hidden">
-      <p id="score"></p>
-      <button id="finish-btn" class="button3">Terminer</button>
-    </div>
+  <div id="question-text"></div>
+  <div id="image-container">
+    <img id="flag-image" src="" alt="Drapeau">
   </div>
+  <div id="options-container"></div>
+  <button id="next-btn" class="hidden">Suivant</button>
+  <div id="result-container" class="hidden">
+    <p id="score"></p>
+    <button id="finish-btn" class="button3">Terminer</button>
+  </div>
+</div>
+
 
   <div class="container grid">
     <!-- boutons de thème -->
