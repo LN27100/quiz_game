@@ -47,7 +47,7 @@ body {
 
 h1 {
   font-size: 5rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-family: "Nova Cut", system-ui;
   margin-bottom: 0;
 }
@@ -190,7 +190,7 @@ h1 {
 
 #quiz-container {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1rem;
 }
 
 .option-btn {
@@ -199,6 +199,9 @@ h1 {
   margin: 10px 0;
   padding: 10px;
   font-size: 1rem;
+  border-radius: 5px;
+  background-color: #BDBCEF;
+  border-color: #d93ffb;
 }
 
 .correct {
@@ -230,11 +233,15 @@ h1 {
 
 #options-container {
   max-width: 31rem;
-  margin: 1.25rem auto;
 }
 
 #question-number {
   font-weight: bold;
+  border: solid 1px #8583e8;
+  background-color: #d93ffb;
+  border-radius: 50px;
+  padding: 0.3rem;
+  color: white;
 }
 
 .imageHome {
@@ -352,6 +359,46 @@ h2 {
   background-color: #c300e2;
 }
 
+.custom-button {
+  background-color: #d93ffb;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Masquer l'input file par défaut */
+.custom-file-input {
+  display: none;
+}
+
+/* Label personnalisé pour l'input file */
+.custom-file-label {
+  background-color: #d93ffb;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+/* Ajouter un style lorsque le fichier est sélectionné */
+.custom-file-label.selected {
+  background-color: #9840ec;
+}
+
+.file-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #editDescriptionBtn {
   text-decoration: none;
   padding: 15px 25px;
@@ -409,15 +456,15 @@ body > div.profile-info {
 
 .profile-image-container > form {
   height: 5rem;
-  width: 20rem;
+  width: 10rem;
   background-color: transparent;
-  margin-left: 2rem;
 }
 
 .profile-image-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 3rem;
 }
 
 .profile-image {
@@ -429,6 +476,10 @@ body > div.profile-info {
   margin: 0 auto;
   border: solid 2px #8583e8;
   border-radius: 50px;
+}
+
+body > div.container > div.profile-info > p:nth-child(2) {
+  margin-bottom: 3rem;
 }
 
 /* PAGE RESULTATS */

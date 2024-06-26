@@ -83,15 +83,17 @@ if (session_status() == PHP_SESSION_NONE) {
 
 
   <div class="container">
-        <div class="profile-image-container">
 
-            <img src="../assets/uploads/<?= $img ?>" alt="photo de profil" class="profile-image">
+  <div class="profile-image-container">
+    <img src="../assets/uploads/<?= $img ?>" alt="photo de profil" class="profile-image">
+    
+    <form method="post" action="../controllers/controller-profil.php" enctype="multipart/form-data" class="file-input-container">
+        <label for="profile_image" class="custom-file-label">Choisir un fichier</label>
+        <input type="file" name="profile_image" id="profile_image" accept="image/png, image/gif, image/jpeg, image/jpg" required class="custom-file-input" onchange="updateFileName()">
+        <input type="submit" value="Télécharger" class="custom-button">
+    </form>
+</div>
 
-            <form method="post" action="../controllers/controller-profil.php" enctype="multipart/form-data" class="file-input-container">
-                <input type="file" name="profile_image" id="profile_image" accept="image/png, image/gif, image/jpeg, image/jpg" required>
-                <input type="submit" value="Télécharger">
-            </form>
-        </div>
 
   <div class="profile-info">
     <p><span class="textProfil">Pseudo:</span> <?= $pseudo ?></p>
@@ -139,6 +141,16 @@ if (session_status() == PHP_SESSION_NONE) {
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   <script>
+
+function updateFileName() {
+            const fileInput = document.getElementById('profile_image');
+            const fileLabel = document.querySelector('.custom-file-label');
+            if (fileInput.files.length > 0) {
+                fileLabel.textContent = fileInput.files[0].name;
+                fileLabel.classList.add('selected');
+            }
+        }
+
     document.addEventListener("DOMContentLoaded", function() {
       const deleteProfileBtn = document.querySelector('.delete_profile');
 
