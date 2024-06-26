@@ -176,6 +176,24 @@ h1 {
   background-repeat: no-repeat;
 }
 
+#theme-spiderMan {
+  background-image: url('../assets/img/theme_spiderman.JPG');
+  background-size: 5.5rem 5.5rem;
+  background-repeat: no-repeat;
+}
+
+#theme-joueursFoot {
+  background-image: url('../assets/img/theme_foot.jpg');
+  background-size: 5.5rem 5.5rem;
+  background-repeat: no-repeat;
+}
+
+#theme-vraiFaux {
+  background-image: url('../assets/img/theme_vraiFaux.png');
+  background-size: 5.5rem 5.5rem;
+  background-repeat: no-repeat;
+}
+
 #finish-btn {
   margin-top: 0;
 }

@@ -2204,7 +2204,7 @@ const questionsDrapeaux = [
     numéro: "10/20",
     question: "À quel pays appartient ce drapeau ?",
     image: "../assets/img/botswana.png",
-    options: ["Botswana", "Irlande", "Royaume-Uni", "Estonie"],
+    options: ["Botswana", "Gabon", "Argentine", "Estonie"],
     answer: "Botswana",
   },
   {
