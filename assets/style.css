@@ -30,6 +30,7 @@ body {
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8); /* Ombrage extérieur */
   display: none; /* Masqué par défaut */
+  z-index: 1000; /* Assure que l'alerte est au-dessus de tous les autres éléments */
 }
 
 .ok-btn {
@@ -76,6 +77,7 @@ h1 {
   border-radius: 8px;
   text-align: center;
   position: relative; /* Pour positionner l'image par rapport au bouton */
+  z-index: 1; /* assure que les boutons sons en-dessous de l'alerte */
 }
 
 .container .theme-button:hover {
