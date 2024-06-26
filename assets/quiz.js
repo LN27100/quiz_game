@@ -1893,17 +1893,16 @@ const questionsPrincessesDisney = [
   },
   {
     numéro: "2/20",
-    question:
-      "Quel est le prénom de la princesse qui rêve d'explorer les océans ?",
-    options: ["Ariel", "Jasmine", "Pocahontas", "Blanche-Neige"],
+    question: "Quelle princesse Disney chante 'Partir là-bas' ?",
+    options: ["Jasmine", "Ariel", "Elsa", "Cendrillon"],
     answer: "Ariel",
   },
   {
     numéro: "3/20",
-    question:
-      "Quel est le nom de la princesse qui tombe amoureuse d'une bête ?",
-    options: ["Belle", "Mulan", "Aurore", "Merida"],
-    answer: "Belle",
+    question: "Quel est le nom du prince dans 'La Belle et la Bête' ?",
+    options: ["Eric", "Charmant", "Adam", "Philippe"],
+    answer: "Adam",
+
   },
   {
     numéro: "4/20",
@@ -1925,13 +1924,13 @@ const questionsPrincessesDisney = [
   },
   {
     numéro: "7/20",
-    question: "Quelle princesse vit sous la mer ?",
-    options: ["Pocahontas", "Mulan", "Ariel", "Tiana"],
-    answer: "Ariel",
+    question: "Quel est le nom du père de la princesse vivant sous l'eau ?",
+    options: ["Triton", "Eric", "Sébastien", "Polochon"],
+    answer: "Triton",
   },
   {
     numéro: "8/20",
-    question: "Quelle princesse Disney a une marraine la fée ?",
+    question: "Quelle princesse Disney a une marraine fée ?",
     options: ["Cendrillon", "Belle", "Raiponce", "Tiana"],
     answer: "Cendrillon",
   },
@@ -1969,8 +1968,8 @@ const questionsPrincessesDisney = [
   {
     numéro: "14/20",
     question: "Quel est le nom du prince de Cendrillon ?",
-    options: ["Eric", "Charming", "Philip", "Aladdin"],
-    answer: "Charming",
+    options: ["Eric", "Charmant", "Philippe", "Aladdin"],
+    answer: "Charmant",
   },
   {
     numéro: "15/20",
@@ -2014,7 +2013,134 @@ const questionsPrincessesDisney = [
   },
 ];
 
+const questionsHorreur = [
+  {
+    numéro: "1/20",
+    question: "Quel film de 1973 est centré sur une jeune fille possédée par un démon et un prêtre tentant de l'exorciser ?",
+    options: ["L'Exorciste", "Halloween", "Le Shining", "Psychose"],
+    answer: "L'Exorciste",
+  },
+  {
+    numéro: "2/20",
+    question: "Quel film de 1980 réalisé par Stanley Kubrick se déroule dans l'hôtel Overlook ?",
+    options: ["Shining", "Vendredi 13", "Poltergeist", "L'Exorciste"],
+    answer: "Shining",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel film de 1996 réalisé par Wes Craven met en scène un tueur masqué appelé Ghostface ?",
+    options: ["Scream", "Halloween", "Vendredi 13", "Les Griffes de la Nuit"],
+    answer: "Scream",
+  },
+  {
+    numéro: "4/20",
+    question: "Quel film de 1978 suit le tueur Michael Myers qui terrorise la ville de Haddonfield ?",
+    options: ["Halloween", "Psychose", "Carrie", "L'Exorciste"],
+    answer: "Halloween",
+  },
+  {
+    numéro: "5/20",
+    question: "Dans 'Ça', quel est le nom du clown maléfique qui terrorise les enfants de Derry ?",
+    options: ["Pennywise", "Jigsaw", "Annabelle", "Leatherface"],
+    answer: "Pennywise",
+  },
+  {
+    numéro: "6/20",
+    question: "Quel film de 1999 réalisé par M. Night Shyamalan met en scène un garçon capable de voir les morts ?",
+    options: ["Sixième Sens", "Le Cercle", "Paranormal Activity", "Les Autres"],
+    answer: "Sixième Sens",
+  },
+  {
+    numéro: "7/20",
+    question: "Dans quel film de 2018 des parents découvrent une poupée diabolique qui terrorise leur famille ?",
+    options: ["Annabelle : La Maison du Mal", "Conjuring", "La Dame Blanche", "Chucky"],
+    answer: "Annabelle : La Maison du Mal",
+  },
+  {
+    numéro: "8/20",
+    question: "Quel film de 2017 met en scène un groupe d'amis qui échappent à la mort grâce à une vision prémonitoire d'un accident de montagne russe ?",
+    options: ["Destination Finale 3", "Conjuring", "La Dame Blanche", "American Nightmare"],
+    answer: "Destination Finale 3"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel film de 1974 réalisé par Tobe Hooper met en scène un groupe d'amis attaqué par une famille de cannibales au Texas ?",
+    options: ["Massacre à la tronçonneuse", "Vendredi 13", "Halloween", "Les Griffes de la Nuit"],
+    answer: "Massacre à la tronçonneuse",
+  },
+  {
+    numéro: "10/20",
+    question: "Quel film de 2002 réalisé par Gore Verbinski met en scène une cassette vidéo maudite qui tue quiconque la regarde en sept jours ?",
+    options: ["Le Cercle", "The Grudge", "Paranormal Activity", "Sinister"],
+    answer: "Le Cercle",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel film de 1980 réalisé par Sean S. Cunningham se déroule autour du camp de Crystal Lake ?",
+    options: ["Vendredi 13", "Halloween", "Shining", "Chucky"],
+    answer: "Vendredi 13",
+  },
+  {
+    numéro: "12/20",
+    question: "Quel film dystopique dépeint une nuit où tous les crimes sont légaux, y compris le meurtre ?",
+    options: ["American Nightmare", "Vendredi 13", "La Plateforme", "Circle"],
+    answer: "American Nightmare",
+  },
+  {
+    numéro: "13/20",
+    question: "Quel film de 2019 est centré sur une légende mexicaine d'une femme pleurant ses enfants disparus ?",
+    options: ["La Dame Blanche", "Conjuring", "The Grudge", "Annabelle"],
+    answer: "La Dame Blanche",
+  },
+  {
+    numéro: "14/20",
+    question: "Quel film de 1960 réalisé par Alfred Hitchcock met en scène un motel dirigé par un homme avec des troubles psychologiques ?",
+    options: ["Psychose", "Les Oiseaux", "Fenêtre sur Cour", "Sueurs froides"],
+    answer: "Psychose",
+  },
+  {
+    numéro: "15/20",
+    question: "Quel film suit un tueur en série nommé John Kramer qui piège ses victimes dans des situations de vie ou de mort ?",
+    options: ["Saw", "Da Vinci Code", "Scream", "Hannibal"],
+    answer: "Saw",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel film de 2013 met en scène les enquêteurs paranormaux Ed et Lorraine Warren ?",
+    options: ["Conjuring", "Annabelle", "Sinister", "La Dame Blanche"],
+    answer: "Conjuring",
+  },
+  {
+    numéro: "17/20",
+    question: "Quel film suit un groupe de participants qui doivent échapper à une série de pièges mortels dans une pièce hexagonale ?",
+    options: ["Circle", "Cube", "Escape Room", "Saw"],
+    answer: "Cube",
+  },
+  {
+    numéro: "18/20",
+    question: "Quel film de 2001 suit un cannibale évadé poursuivi par une agente du FBI ?",
+    options: ["Hannibal", "Le Silence des Agneaux", "American Nightmare", "Conjuring"],
+    answer: "Hannibal",
+  },
+  {
+    numéro: "19/20",
+    question: "Quel film de 2018 réalisé par John Krasinski met en scène une famille qui doit vivre en silence pour éviter des créatures aveugles mais avec une ouïe surdéveloppée ?",
+    options: ["Sans un bruit", "Bird Box", "Get Out", "The Witch"],
+    answer: "Sans un bruit",
+  },
+  {
+    numéro: "20/20",
+    question: "Quel film de 1990 réalisé par Rob Reiner est basé sur un roman de Stephen King et met en scène un écrivain séquestré par une admiratrice ?",
+    options: ["Misery", "Carrie", "Ça", "Le Fléau"],
+    answer: "Misery",
+  },
+];
+
+
+
 // Mélanger les options pour chaque thème de questions
+
+shuffleQuestionsOptions(questionsHorreur);
 shuffleQuestionsOptions(questionsAnimaux);
 shuffleQuestionsOptions(questionsCultureGenerale);
 shuffleQuestionsOptions(questionsFaitsInsolites);
@@ -2033,6 +2159,7 @@ shuffleQuestionsOptions(questionsPrincessesDisney);
 // Éléments DOM
 const premièreQuestion = questionsCultureGenerale[0];
 const quizContainer = document.getElementById("quiz-container");
+const themeHorreurBtn = document.getElementById("theme-horreur");
 const themeAnimauxBtn = document.getElementById("theme-animaux");
 const themeFaitsInsolitesBtn = document.getElementById("theme-faitsInsolites");
 const themeCinemaBtn = document.getElementById("theme-cinema");
@@ -2075,6 +2202,11 @@ function getSelectedTheme() {
 themeCultureBtn.addEventListener("click", () => {
   selectedTheme = "Culture générale";
   startQuiz(questionsCultureGenerale);
+});
+
+themeHorreurBtn.addEventListener("click", () => {
+  selectedTheme = "Films d'horreur";
+  startQuiz(questionsHorreur);
 });
 
 themePrincessesDisneyBtn.addEventListener("click", () => {

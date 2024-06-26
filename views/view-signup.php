@@ -388,6 +388,9 @@ if (session_status() == PHP_SESSION_NONE) {
             }
         });
     </script>
+    
+    <!-- charge le fichier js -->
+  <script src="../assets/quiz.js"></script>
 
 </body>
 

@@ -164,7 +164,7 @@ h1 {
   background-repeat: no-repeat;
 }
 
-#theme-filmsHorreur {
+#theme-horreur {
   background-image: url('../assets/img/theme_filmHorreur.JPG');
   background-size: 5.5rem 5.5rem;
   background-repeat: no-repeat;
@@ -176,7 +176,13 @@ h1 {
   background-repeat: no-repeat;
 }
 
+#finish-btn {
+  margin-top: 0;
+}
 
+#score-form {
+  margin-top: 0;
+}
 
 .hidden {
   display: none;

@@ -127,7 +127,7 @@ $img_path = $upload_dir . $img;
     <button id="theme-cinema" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cinéma</button>
     <button id="theme-faitsInsolites" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Faits insolites</button>
     <button id="theme-princessesDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Princesses Disney</button>
-    <button id="theme-filmsHorreur" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Films d'horreur</button>
+    <button id="theme-horreur" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Films d'horreur</button>
     <button id="theme-drapeaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Drapeaux</button>
 
     <!-- Formulaire pour enregistrer le score -->
@@ -162,7 +162,7 @@ $img_path = $upload_dir . $img;
 
 
   <!-- Charger le fichier JavaScript -->
-  <script src="../quiz.js"></script>
+  <script src="../assets/quiz.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
