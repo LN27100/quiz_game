@@ -510,3 +510,8 @@ body > div.container > div.profile-info > p:nth-child(2) {
   max-height: calc(100vh - 5rem);
   overflow-y: auto;
 }
+
+body > div > div > h3 {
+  color: #9840ec;
+  font-family: "Nova Cut", system-ui;
+}

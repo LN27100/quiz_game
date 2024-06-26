@@ -2325,22 +2325,23 @@ function checkAnswer(selectedOption, correctAnswer) {
   if (selectedOption === correctAnswer) {
     score++;
   }
-  disableOptions();
+  disableOptions(selectedOption, correctAnswer); // Passer les arguments ici
   showNextButton();
 }
 
 // Fonction pour désactiver les options après avoir sélectionné une réponse
-function disableOptions() {
+function disableOptions(selectedOption, correctAnswer) {
   const optionButtons = document.querySelectorAll(".option-btn");
   optionButtons.forEach((button) => {
     button.disabled = true;
-    if (button.textContent === questions[currentQuestionIndex].answer) {
+    if (button.textContent === correctAnswer) {
       button.classList.add("correct");
-    } else {
+    } else if (button.textContent === selectedOption && selectedOption !== correctAnswer) {
       button.classList.add("incorrect");
     }
   });
 }
+
 
 // Fonction pour afficher le bouton Suivant
 function showNextButton() {
