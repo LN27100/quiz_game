@@ -70,15 +70,15 @@ h4 {
 
 .container.grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-top: 0;
+  grid-template-columns: repeat(4, 1fr); /* Grille sur 4 colonnes */
+  gap: 12px; /* Espacement entre les éléments de la grille */
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
 .container .theme-button {
-  padding: 25px 85px;
+  height: 6rem; 
+  padding: 0 5rem 0 5rem;
   font-size: 1.3rem;
   cursor: pointer;
   background-color: #d93ffb;
@@ -87,7 +87,7 @@ h4 {
   border-radius: 8px;
   text-align: center;
   position: relative; /* Pour positionner l'image par rapport au bouton */
-  z-index: 1; /* assure que les boutons sons en-dessous de l'alerte */
+  z-index: 1; /* assure que les boutons sont en-dessous de l'alerte */
 }
 
 .container .theme-button:hover {
@@ -97,122 +97,122 @@ h4 {
 /* Appliquez l'image à chaque bouton et ajustez sa taille */
 #theme-culture {
   background-image: url('../assets/img/culture_general.jpg');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-chansons {
   background-image: url('../assets/img/theme_chanson.jpg');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-dessins {
   background-image: url('../assets/img/theme_dessinsAnimes.jpg');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-harry {
   background-image: url('../assets/img/theme_harryPotter.jpg');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-cuisine {
   background-image: url('../assets/img/theme_cuisine.jpg');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-series {
   background-image: url('../assets/img/theme-serie.jpg');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-geographie {
   background-image: url('../assets/img/theme_geographie.jpg');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-orthographe {
   background-image: url('../assets/img/theme_orthographe.JPG');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-sport {
   background-image: url('../assets/img/theme_sport.JPG');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-animaux {
   background-image: url('../assets/img/theme_animaux.JPG');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-cinema {
   background-image: url('../assets/img/theme_cinema.jpg');
-  background-size: 5.5rem 5.5rem; 
+  background-size: 6rem 6rem; 
   background-repeat: no-repeat;
 
 }
 
 #theme-faitsInsolites {
   background-image: url('../assets/img/theme_insolite.JPG');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-princessesDisney {
   background-image: url('../assets/img/theme_princesseDisney.jpg');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-horreur {
   background-image: url('../assets/img/theme_filmHorreur.JPG');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-drapeaux {
   background-image: url('../assets/img/theme_drapeaux.jpg');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-spiderman {
   background-image: url('../assets/img/theme_spiderman.JPG');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-codeDeLaRoute {
   background-image: url('../assets/img/theme_codeRoute.JPG');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-timBurton {
   background-image: url('../assets/img/theme_timBurton.JPG');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-joueursFoot {
   background-image: url('../assets/img/theme_foot.jpg');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
 #theme-vraiFaux {
   background-image: url('../assets/img/theme_vraiFaux.png');
-  background-size: 5.5rem 5.5rem;
+  background-size: 6rem 6rem;
   background-repeat: no-repeat;
 }
 
