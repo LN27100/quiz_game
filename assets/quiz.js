@@ -1902,7 +1902,6 @@ const questionsPrincessesDisney = [
     question: "Quel est le nom du prince dans 'La Belle et la Bête' ?",
     options: ["Eric", "Charmant", "Adam", "Philippe"],
     answer: "Adam",
-
   },
   {
     numéro: "4/20",
@@ -2016,121 +2015,161 @@ const questionsPrincessesDisney = [
 const questionsHorreur = [
   {
     numéro: "1/20",
-    question: "Quel film de 1973 est centré sur une jeune fille possédée par un démon et un prêtre tentant de l'exorciser ?",
+    question:
+      "Quel film de 1973 est centré sur une jeune fille possédée par un démon et un prêtre tentant de l'exorciser ?",
     options: ["L'Exorciste", "Halloween", "Le Shining", "Psychose"],
     answer: "L'Exorciste",
   },
   {
     numéro: "2/20",
-    question: "Quel film de 1980 réalisé par Stanley Kubrick se déroule dans l'hôtel Overlook ?",
+    question:
+      "Quel film de 1980 réalisé par Stanley Kubrick se déroule dans l'hôtel Overlook ?",
     options: ["Shining", "Vendredi 13", "Poltergeist", "L'Exorciste"],
     answer: "Shining",
   },
   {
     numéro: "3/20",
-    question: "Quel film de 1996 réalisé par Wes Craven met en scène un tueur masqué appelé Ghostface ?",
+    question:
+      "Quel film de 1996 réalisé par Wes Craven met en scène un tueur masqué appelé Ghostface ?",
     options: ["Scream", "Halloween", "Vendredi 13", "Les Griffes de la Nuit"],
     answer: "Scream",
   },
   {
     numéro: "4/20",
-    question: "Quel film de 1978 suit le tueur Michael Myers qui terrorise la ville de Haddonfield ?",
+    question:
+      "Quel film de 1978 suit le tueur Michael Myers qui terrorise la ville de Haddonfield ?",
     options: ["Halloween", "Psychose", "Carrie", "L'Exorciste"],
     answer: "Halloween",
   },
   {
     numéro: "5/20",
-    question: "Dans 'Ça', quel est le nom du clown maléfique qui terrorise les enfants de Derry ?",
+    question:
+      "Dans 'Ça', quel est le nom du clown maléfique qui terrorise les enfants de Derry ?",
     options: ["Pennywise", "Jigsaw", "Annabelle", "Leatherface"],
     answer: "Pennywise",
   },
   {
     numéro: "6/20",
-    question: "Quel film de 1999 réalisé par M. Night Shyamalan met en scène un garçon capable de voir les morts ?",
+    question:
+      "Quel film de 1999 réalisé par M. Night Shyamalan met en scène un garçon capable de voir les morts ?",
     options: ["Sixième Sens", "Le Cercle", "Paranormal Activity", "Les Autres"],
     answer: "Sixième Sens",
   },
   {
     numéro: "7/20",
-    question: "Dans quel film de 2018 des parents découvrent une poupée diabolique qui terrorise leur famille ?",
-    options: ["Annabelle : La Maison du Mal", "Conjuring", "La Dame Blanche", "Chucky"],
+    question:
+      "Dans quel film de 2018 des parents découvrent une poupée diabolique qui terrorise leur famille ?",
+    options: [
+      "Annabelle : La Maison du Mal",
+      "Conjuring",
+      "La Dame Blanche",
+      "Chucky",
+    ],
     answer: "Annabelle : La Maison du Mal",
   },
   {
     numéro: "8/20",
-    question: "Quel film de 2017 met en scène un groupe d'amis qui échappent à la mort grâce à une vision prémonitoire d'un accident de montagne russe ?",
-    options: ["Destination Finale 3", "Conjuring", "La Dame Blanche", "American Nightmare"],
-    answer: "Destination Finale 3"
+    question:
+      "Quel film de 2017 met en scène un groupe d'amis qui échappent à la mort grâce à une vision prémonitoire d'un accident de montagne russe ?",
+    options: [
+      "Destination Finale 3",
+      "Conjuring",
+      "La Dame Blanche",
+      "American Nightmare",
+    ],
+    answer: "Destination Finale 3",
   },
   {
     numéro: "9/20",
-    question: "Quel film de 1974 réalisé par Tobe Hooper met en scène un groupe d'amis attaqué par une famille de cannibales au Texas ?",
-    options: ["Massacre à la tronçonneuse", "Vendredi 13", "Halloween", "Les Griffes de la Nuit"],
+    question:
+      "Quel film de 1974 réalisé par Tobe Hooper met en scène un groupe d'amis attaqué par une famille de cannibales au Texas ?",
+    options: [
+      "Massacre à la tronçonneuse",
+      "Vendredi 13",
+      "Halloween",
+      "Les Griffes de la Nuit",
+    ],
     answer: "Massacre à la tronçonneuse",
   },
   {
     numéro: "10/20",
-    question: "Quel film de 2002 réalisé par Gore Verbinski met en scène une cassette vidéo maudite qui tue quiconque la regarde en sept jours ?",
+    question:
+      "Quel film de 2002 réalisé par Gore Verbinski met en scène une cassette vidéo maudite qui tue quiconque la regarde en sept jours ?",
     options: ["Le Cercle", "The Grudge", "Paranormal Activity", "Sinister"],
     answer: "Le Cercle",
   },
   {
     numéro: "11/20",
-    question: "Quel film de 1980 réalisé par Sean S. Cunningham se déroule autour du camp de Crystal Lake ?",
+    question:
+      "Quel film de 1980 réalisé par Sean S. Cunningham se déroule autour du camp de Crystal Lake ?",
     options: ["Vendredi 13", "Halloween", "Shining", "Chucky"],
     answer: "Vendredi 13",
   },
   {
     numéro: "12/20",
-    question: "Quel film dystopique dépeint une nuit où tous les crimes sont légaux, y compris le meurtre ?",
+    question:
+      "Quel film dystopique dépeint une nuit où tous les crimes sont légaux, y compris le meurtre ?",
     options: ["American Nightmare", "Vendredi 13", "La Plateforme", "Circle"],
     answer: "American Nightmare",
   },
   {
     numéro: "13/20",
-    question: "Quel film de 2019 est centré sur une légende mexicaine d'une femme pleurant ses enfants disparus ?",
+    question:
+      "Quel film de 2019 est centré sur une légende mexicaine d'une femme pleurant ses enfants disparus ?",
     options: ["La Dame Blanche", "Conjuring", "The Grudge", "Annabelle"],
     answer: "La Dame Blanche",
   },
   {
     numéro: "14/20",
-    question: "Quel film de 1960 réalisé par Alfred Hitchcock met en scène un motel dirigé par un homme avec des troubles psychologiques ?",
+    question:
+      "Quel film de 1960 réalisé par Alfred Hitchcock met en scène un motel dirigé par un homme avec des troubles psychologiques ?",
     options: ["Psychose", "Les Oiseaux", "Fenêtre sur Cour", "Sueurs froides"],
     answer: "Psychose",
   },
   {
     numéro: "15/20",
-    question: "Quel film suit un tueur en série nommé John Kramer qui piège ses victimes dans des situations de vie ou de mort ?",
+    question:
+      "Quel film suit un tueur en série nommé John Kramer qui piège ses victimes dans des situations de vie ou de mort ?",
     options: ["Saw", "Da Vinci Code", "Scream", "Hannibal"],
     answer: "Saw",
   },
   {
     numéro: "16/20",
-    question: "Quel film de 2013 met en scène les enquêteurs paranormaux Ed et Lorraine Warren ?",
+    question:
+      "Quel film de 2013 met en scène les enquêteurs paranormaux Ed et Lorraine Warren ?",
     options: ["Conjuring", "Annabelle", "Sinister", "La Dame Blanche"],
     answer: "Conjuring",
   },
   {
     numéro: "17/20",
-    question: "Quel film suit un groupe de participants qui doivent échapper à une série de pièges mortels dans une pièce hexagonale ?",
+    question:
+      "Quel film suit un groupe de participants qui doivent échapper à une série de pièges mortels dans une pièce hexagonale ?",
     options: ["Circle", "Cube", "Escape Room", "Saw"],
     answer: "Cube",
   },
   {
     numéro: "18/20",
-    question: "Quel film de 2001 suit un cannibale évadé poursuivi par une agente du FBI ?",
-    options: ["Hannibal", "Le Silence des Agneaux", "American Nightmare", "Conjuring"],
+    question:
+      "Quel film de 2001 suit un cannibale évadé poursuivi par une agente du FBI ?",
+    options: [
+      "Hannibal",
+      "Le Silence des Agneaux",
+      "American Nightmare",
+      "Conjuring",
+    ],
     answer: "Hannibal",
   },
   {
     numéro: "19/20",
-    question: "Quel film de 2018 réalisé par John Krasinski met en scène une famille qui doit vivre en silence pour éviter des créatures aveugles mais avec une ouïe surdéveloppée ?",
+    question:
+      "Quel film de 2018 réalisé par John Krasinski met en scène une famille qui doit vivre en silence pour éviter des créatures aveugles mais avec une ouïe surdéveloppée ?",
     options: ["Sans un bruit", "Bird Box", "Get Out", "The Witch"],
     answer: "Sans un bruit",
   },
   {
     numéro: "20/20",
-    question: "Quel film de 1990 réalisé par Rob Reiner est basé sur un roman de Stephen King et met en scène un écrivain séquestré par une admiratrice ?",
+    question:
+      "Quel film de 1990 réalisé par Rob Reiner est basé sur un roman de Stephen King et met en scène un écrivain séquestré par une admiratrice ?",
     options: ["Misery", "Carrie", "Ça", "Le Fléau"],
     answer: "Misery",
   },
@@ -2160,35 +2199,40 @@ const questionsDrapeaux = [
   },
   {
     numéro: "4/20",
-    question: "Ce drapeau est celui de quel pays européen qui comporte trois bandes verticales de couleurs rouge, blanche et rouge ?",
+    question:
+      "Ce drapeau est celui de quel pays européen qui comporte trois bandes verticales de couleurs rouge, blanche et rouge ?",
     image: "../assets/img/autriche.png",
     options: ["Autriche", "Hongrie", "Pays-Bas", "Belgique"],
     answer: "Autriche",
   },
   {
     numéro: "5/20",
-    question: "Quel pays d'Afrique est représenté par ce drapeau avec une étoile jaune sur fond vert, rouge et noir ?",
+    question:
+      "Quel pays d'Afrique est représenté par ce drapeau avec une étoile jaune sur fond vert, rouge et noir ?",
     image: "../assets/img/ghana.png",
     options: ["Afrique du Sud", "Nigeria", "Éthiopie", "Ghana"],
     answer: "Ghana",
   },
   {
     numéro: "6/20",
-    question: "À quel pays appartient ce drapeau avec une étoile blanche à cinq branches sur fond bleu ?",
+    question:
+      "À quel pays appartient ce drapeau avec une étoile blanche à cinq branches sur fond bleu ?",
     image: "../assets/img/etats_unis.png",
     options: ["États-Unis", "Australie", "Nouvelle-Zélande", "Brésil"],
     answer: "États-Unis",
   },
   {
     numéro: "7/20",
-    question: "Ce drapeau avec une croix rouge sur fond blanc est celui de quel pays européen ?",
+    question:
+      "Ce drapeau avec une croix rouge sur fond blanc est celui de quel pays européen ?",
     image: "../assets/img/danemark.png",
     options: ["Suisse", "Norvège", "Danemark", "Suède"],
     answer: "Danemark",
   },
   {
     numéro: "8/20",
-    question: "Quel pays asiatique est représenté par ce drapeau avec une lune et une étoile blanche sur fond vert ?",
+    question:
+      "Quel pays asiatique est représenté par ce drapeau avec une lune et une étoile blanche sur fond vert ?",
     image: "../assets/img/pakistan.jpg",
     options: ["Malaisie", "Pakistan", "Indonésie", "Bangladesh"],
     answer: "Pakistan",
@@ -2209,28 +2253,32 @@ const questionsDrapeaux = [
   },
   {
     numéro: "11/20",
-    question: "Quel est le nom du pays représenté par ce drapeau bleu avec une croix rouge et quatre croix blanches ?",
+    question:
+      "Quel est le nom du pays représenté par ce drapeau bleu avec une croix rouge et quatre croix blanches ?",
     image: "../assets/img/finlande.png",
     options: ["Suède", "Norvège", "Danemark", "Finlande"],
     answer: "Finlande",
   },
   {
     numéro: "12/20",
-    question: "Ce drapeau avec une étoile jaune sur fond vert, rouge, jaune et noir est celui de quel pays africain ?",
+    question:
+      "Ce drapeau avec une étoile jaune sur fond vert, rouge, jaune et noir est celui de quel pays africain ?",
     image: "../assets/img/egypte.png",
     options: ["Nigeria", "Afrique du Sud", "Égypte", "Zimbabwe"],
     answer: "Égypte",
   },
   {
     numéro: "13/20",
-    question: "À quel pays appartient ce drapeau tricolore vertical avec des bandes vertes, blanches et rouges ?",
+    question:
+      "À quel pays appartient ce drapeau tricolore vertical avec des bandes vertes, blanches et rouges ?",
     image: "../assets/img/hongrie.png",
     options: ["Italie", "Hongrie", "Russie", "Bulgarie"],
     answer: "Hongrie",
   },
   {
     numéro: "14/20",
-    question: "Ce drapeau avec une étoile rouge à cinq branches sur fond vert est celui de quel pays d'Asie du Sud-Est ?",
+    question:
+      "Ce drapeau avec une étoile rouge à cinq branches sur fond vert est celui de quel pays d'Asie du Sud-Est ?",
     image: "../assets/img/vietnam.png",
     options: ["Vietnam", "Laos", "Cambodge", "Thaïlande"],
     answer: "Vietnam",
@@ -2251,14 +2299,16 @@ const questionsDrapeaux = [
   },
   {
     numéro: "17/20",
-    question: "Ce drapeau avec une lune et une étoile rouge sur fond blanc est celui de quel pays du Moyen-Orient ?",
+    question:
+      "Ce drapeau avec une lune et une étoile rouge sur fond blanc est celui de quel pays du Moyen-Orient ?",
     image: "../assets/img/turquie.png",
     options: ["Arabie Saoudite", "Iran", "Turquie", "Émirats Arabes Unis"],
     answer: "Turquie",
   },
   {
     numéro: "18/20",
-    question: "Quel pays d'Amérique du Sud est représenté par ce drapeau tricolore horizontal avec des bandes jaune, bleu et rouge ?",
+    question:
+      "Quel pays d'Amérique du Sud est représenté par ce drapeau tricolore horizontal avec des bandes jaune, bleu et rouge ?",
     image: "../assets/img/colombie.png",
     options: ["Colombie", "Pérou", "Équateur", "Venezuela"],
     answer: "Colombie",
@@ -2279,12 +2329,594 @@ const questionsDrapeaux = [
   },
 ];
 
+const questionsSpiderman = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel acteur incarne Spider-Man dans le film de 2002 réalisé par Sam Raimi ?",
+    options: [
+      "Tobey Maguire",
+      "Andrew Garfield",
+      "Tom Holland",
+      "Jake Gyllenhaal",
+    ],
+    answer: "Tobey Maguire",
+  },
+  {
+    numéro: "2/20",
+    question: "Dans quel film Spider-Man affronte-t-il le Docteur Octopus ?",
+    options: [
+      "Spider-Man",
+      "Spider-Man 2",
+      "Spider-Man 3",
+      "The Amazing Spider-Man",
+    ],
+    answer: "Spider-Man 2",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Quel acteur joue le rôle de l'ennemi principal, le Bouffon Vert, dans le film de 2002 ?",
+    options: [
+      "James Franco",
+      "Willem Dafoe",
+      "Alfred Molina",
+      "Thomas Haden Church",
+    ],
+    answer: "Willem Dafoe",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quel est le nom de la petite amie de Peter Parker dans 'The Amazing Spider-Man' ?",
+    options: ["Mary Jane Watson", "Gwen Stacy", "Betty Brant", "Felicia Hardy"],
+    answer: "Gwen Stacy",
+  },
+  {
+    numéro: "5/20",
+    question: "Qui a réalisé le film 'Spider-Man: Homecoming' ?",
+    options: ["Jon Watts", "Sam Raimi", "Marc Webb", "Jon Favreau"],
+    answer: "Jon Watts",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quel acteur joue le rôle de Spider-Man dans le film 'Spider-Man: Homecoming' ?",
+    options: [
+      "Tobey Maguire",
+      "Andrew Garfield",
+      "Tom Holland",
+      "Miles Morales",
+    ],
+    answer: "Tom Holland",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quel méchant apparaît dans le film 'Spider-Man: Far From Home' ?",
+    options: ["Le Vautour", "Mysterio", "Le Bouffon Vert", "L'Homme-Sable"],
+    answer: "Mysterio",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Dans 'Spider-Man: New Generation', quel personnage devient Spider-Man dans un univers parallèle ?",
+    options: ["Peter Parker", "Miles Morales", "Gwen Stacy", "Miguel O'Hara"],
+    answer: "Miles Morales",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quel est le vrai nom du Vautour, ennemi principal de 'Spider-Man: Homecoming' ?",
+    options: ["Norman Osborn", "Adrian Toomes", "Flint Marko", "Curt Connors"],
+    answer: "Adrian Toomes",
+  },
+  {
+    numéro: "10/20",
+    question:
+      "Dans 'Spider-Man 3', quel symbiote extraterrestre fusionne avec Peter Parker ?",
+    options: ["Venom", "Carnage", "Riot", "Toxin"],
+    answer: "Venom",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Dans quel film Spider-Man affronte-t-il Electro pour la première fois ?",
+    options: [
+      "Spider-Man",
+      "Spider-Man 2",
+      "The Amazing Spider-Man 2",
+      "Spider-Man: Far From Home",
+    ],
+    answer: "The Amazing Spider-Man 2",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Dans 'The Amazing Spider-Man', quel scientifique devient le Lézard ?",
+    options: [
+      "Dr. Otto Octavius",
+      "Dr. Curt Connors",
+      "Dr. Norman Osborn",
+      "Dr. Miles Warren",
+    ],
+    answer: "Dr. Curt Connors",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Dans quel film Spider-Man se joint-il à Iron Man pour combattre Captain America ?",
+    options: [
+      "Avengers",
+      "Captain America: Civil War",
+      "Spider-Man: Homecoming",
+      "Avengers: Endgame",
+    ],
+    answer: "Captain America: Civil War",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quel est le véritable nom de l'Homme-Sable dans 'Spider-Man 3' ?",
+    options: ["Flint Marko", "Eddie Brock", "Curt Connors", "Max Dillon"],
+    answer: "Flint Marko",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quel film de Spider-Man met en scène trois générations d'acteurs ayant joué Spider-Man ?",
+    options: [
+      "Spider-Man 2",
+      "Spider-Man: Homecoming",
+      "Spider-Man: No Way Home",
+      "The Amazing Spider-Man 2",
+    ],
+    answer: "Spider-Man: No Way Home",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le nom du journal pour lequel travaille Peter Parker ?",
+    options: [
+      "Le Daily Planet",
+      "Le Daily Bugle",
+      "Le New York Times",
+      "Le Gotham Gazette",
+    ],
+    answer: "Le Daily Bugle",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Dans 'Spider-Man: Far From Home', quelle ville européenne Peter Parker visite-t-il en premier ?",
+    options: ["Paris", "Berlin", "Venise", "Londres"],
+    answer: "Venise",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel méchant se révèle être le père de Liz Allan dans 'Spider-Man: Homecoming' ?",
+    options: ["Le Bouffon Vert", "Mysterio", "Le Vautour", "Le Scorpion"],
+    answer: "Le Vautour",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel personnage mentor de Peter Parker apparaît dans les films de l'univers cinématographique Marvel ?",
+    options: ["Nick Fury", "Tony Stark", "Steve Rogers", "Bruce Banner"],
+    answer: "Tony Stark",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel est le nom de l'oncle de Peter Parker qui meurt dans le premier film 'Spider-Man' ?",
+    options: ["Oncle Ben", "Oncle Jack", "Oncle Tom", "Oncle Harry"],
+    answer: "Oncle Ben",
+  },
+];
+
+const questionsVraiFaux = [
+  {
+    numéro: "1/20",
+    question: "Les chauves-souris sont aveugles.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "2/20",
+    question: "Le mont Everest est la plus haute montagne du monde.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "3/20",
+    question: "Les dauphins sont des mammifères.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "4/20",
+    question: "Le Nil est le fleuve le plus long du monde.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "5/20",
+    question: "Les koalas sont des ours.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "6/20",
+    question: "L'eau bout à 90 degrés Celsius.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "7/20",
+    question: "Le piment Carolina Reaper était le piment le plus fort du monde de 2013 à 2023.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "8/20",
+    question: "La Grande Muraille de Chine est visible depuis l'espace.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "9/20",
+    question: "Le cœur humain a quatre chambres.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "10/20",
+    question: "Les éléphants sont les seuls animaux à posséder un menton.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "11/20",
+    question: "Les étoiles de mer ont deux cœurs.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "L'hippopotomonstrosesquipedaliophobie est la peur des longs mots.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "13/20",
+    question: "Le plus petit os du corps humain est dans l'oreille.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "14/20",
+    question: "Le chocolat est toxique pour les chiens.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Les girafes ont le même nombre de vertèbres cervicales que les humains.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "16/20",
+    question: "Les tomates sont des légumes.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "17/20",
+    question: "Le drapeau de la France est composé de trois bandes verticales.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "18/20",
+    question: "Le kangourou est le symbole national de l'Australie.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "19/20",
+    question: "Les renards sont des animaux monogames.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Le cerveau humain est le plus grand cerveau de tous les animaux.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+];
+
+const questionsTimBurton = [
+  {
+    numéro: "1/20",
+    question: "Quel acteur a joué le rôle principal dans le film 'Edward aux mains d'argent' de Tim Burton ?",
+    options: ["Johnny Depp", "Michael Keaton", "Ewan McGregor", "Leonardo DiCaprio"],
+    answer: "Johnny Depp",
+  },
+  {
+    numéro: "2/20",
+    question: "Dans quel film de Tim Burton apparaît le personnage de Jack Skellington, le roi des citrouilles ?",
+    options: ["The Nightmare Before Christmas", "Frankenweenie", "Alice au pays des merveilles", "Sweeney Todd"],
+    answer: "The Nightmare Before Christmas",
+  },
+  {
+    numéro: "3/20",
+    question: "Dans quel film de Tim Burton un homme découvre-t-il un arbre magique qui peut prédire l'avenir de manière ambiguë ?",
+    options: ["Big Fish", "Edward aux mains d'argent", "Sweeney Todd", "Charlie et la chocolaterie"],
+    answer: "Big Fish",
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle actrice a joué le rôle de Catwoman dans 'Batman Returns', réalisé par Tim Burton ?",
+    options: ["Michelle Pfeiffer", "Winona Ryder", "Helena Bonham Carter", "Anne Hathaway"],
+    answer: "Michelle Pfeiffer",
+  },
+  {
+    numéro: "5/20",
+    question: "Dans quel film de Tim Burton une jeune femme est-elle transportée dans un monde parallèle rempli de créatures étranges et de magie ?",
+    options: ["Alice au pays des merveilles", "Miss Peregrine et les enfants particuliers", "Charlie et la chocolaterie", "Big Fish"],
+    answer: "Alice au pays des merveilles",
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom de la maman de Dumbo dans le film ?",
+    options: ["Delilah", "Mme. Dumbo", "Mme. Jumbo", "Ella"],
+    answer: "Mme. Jumbo",
+  },
+  {
+    numéro: "7/20",
+    question: "Dans quel film de Tim Burton un jeune garçon découvre-t-il une porte vers un monde fantastique où des créatures étranges résident ?",
+    options: ["Charlie et la chocolaterie", "Alice au pays des merveilles", "Big Fish", "Miss Peregrine et les enfants particuliers"],
+    answer: "Miss Peregrine et les enfants particuliers",
+  },
+  {
+    numéro: "8/20",
+    question: "Dans 'Beetlejuice', comment les Maitland meurent-ils ?",
+    options: ["Ils se noient", "Ils ont un accident de voiture", "Ils tombent d'une falaise", "Ils sont frappés par la foudre"],
+    answer: "Ils ont un accident de voiture",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel célèbre acteur a joué le rôle de Joker dans 'Batman' de Tim Burton ?",
+    options: ["Jack Nicholson", "Heath Ledger", "Joaquin Phoenix", "Jared Leto"],
+    answer: "Jack Nicholson",
+  },
+  {
+    numéro: "10/20",
+    question: "Dans 'Alice au pays des merveilles' (2010), quel personnage aide Alice à se préparer pour la bataille finale ?",
+    options: ["Le Lapin Blanc", "Le Chapelier Fou", "Le Chat du Cheshire", "Le Loir"],
+    answer: "Le Lapin Blanc",
+  },
+  {
+    numéro: "11/20",
+    question: "Dans quel film de Tim Burton un homme retourne-t-il dans sa ville natale pour découvrir qu'elle est devenue un parc d'attractions gothique ?",
+    options: ["Big Fish", "Dark Shadows", "Mars Attacks!", "Ed Wood"],
+    answer: "Dark Shadows",
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom de l'usine de chocolat dans 'Charlie et la chocolaterie' ?",
+    options: ["Wonka Chocolate Factory", "Sweet's chocolate", "Sweet Tooth Factory", "Golden Ticket Factory"],
+    answer: "Wonka Chocolate Factory",
+  },
+  {
+    numéro: "13/20",
+    question: "Dans 'Beetlejuice', comment Lydia Deetz communique-t-elle avec les Maitland après leur mort ?",
+    options: ["Avec un médium", "En utilisant un tableau Ouija", "Par télépathie", "À travers un miroir magique"],
+    answer: "À travers un miroir magique",
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom de la sorcière qui jette un sort à Edward dans 'Edward aux mains d'argent' ?",
+    options: ["Peg Boggs", "Kim Boggs", "Joyce", "Esmeralda"],
+    answer: "Esmeralda",
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le nom du personnage principal féminin dans 'Les Noces Funèbres' de Tim Burton ?",
+    options: ["Emily", "Victoria", "Sally", "Elsa"],
+    answer: "Emily",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le nom du chien fantôme dans 'Frankenweenie' de Tim Burton ?",
+    options: ["Sparky", "Zero", "Scud", "Spike"],
+    answer: "Sparky",
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est le nom du cirque où se déroule une grande partie de l'action dans le film 'Dumbo' de Tim Burton ?",
+    options: ["Cirque Wonders", "Cirque Dreamland", "Cirque Fantasia", "Cirque Stardust"],
+    answer: "Cirque Dreamland",
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle actrice a joué le rôle principal dans le film 'Miss Peregrine et les enfants particuliers' de Tim Burton ?",
+    options: ["Eva Green", "Helena Bonham Carter", "Winona Ryder", "Anne Hathaway"],
+    answer: "Eva Green",
+  },
+  {
+    numéro: "19/20",
+    question: "Quel est le nom complet du personnage principal de 'Batman' dans le film de Tim Burton ?",
+    options: ["Bruce Wayne", "Peter Parker", "Clark Kent", "Tony Stark"],
+    answer: "Bruce Wayne",
+  },
+  {
+    numéro: "20/20",
+    question: "Quel acteur a joué le rôle de Beetlejuice dans le film éponyme de Tim Burton ?",
+    options: ["Michael Keaton", "Johnny Depp", "Christopher Walken", "Jack Nicholson"],
+    answer: "Michael Keaton",
+  },
+];
+
+const questionsCodeDeLaRoute = [
+  {
+    numéro: "1/20",
+    question: "Quelle est la signification de ce panneau ?",
+    image: "../assets/img/cédez_passage.jpg",
+    options: ["Intersection", "Cédez le passage", "Priorité à droite", "Stop"],
+    answer: "Cédez le passage",
+  },
+  {
+    numéro: "2/20",
+    question: "Que signifie ce panneau ?",
+    image: "../assets/img/sens_interdit.jpg",
+    options: ["Sens interdit", "Route barrée", "Fin d'interdiction", "Allée réservée"],
+    answer: "Sens interdit",
+  },
+  {
+    numéro: "3/20",
+    question: "À quoi ce panneau vous oblige-t-il à faire attention ?",
+    image: "../assets/img/animaux_sauvages.jpg",
+    options: ["Risque de chutes de pierres", "Risque d'animaux sauvages", "Risque de verglas", "Risque de brouillard"],
+    answer: "Risque d'animaux sauvages",
+  },
+  {
+    numéro: "4/20",
+    uestion: "Que signifie ce panneau ?",
+    image: "../assets/img/fin_zone_piétonne.jpg",
+    options: ["Fin de zone piétonne", "Fin de surveillance", "Fin de zone d'école", "Fin de voie verte"],
+    answer: "Fin de zone piétonne",
+  },
+  {
+    numéro: "5/20",
+    question: "Que signifie ce panneau sous un feu tricolor ?",
+    image: "../assets/img/autorisation_cycle.png",
+    options: ["Autorisation de franchissement pour vélos", "Cédez le passage pour vélos", "Priorité aux vélos", "Vélos interdits dans la direction indiquée"],
+    answer: "Autorisation de franchissement pour vélos",
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle est la signification de ce panneau triangulaire ?",
+    image: "../assets/img/panneau_danger.png",
+    options: ["Danger", "Cédez le passage", "Arrêt obligatoire", "Fin de limitation de vitesse"],
+    answer: "Danger",
+  },
+  {
+    numéro: "7/20",
+    question: "Que signifie ce panneau avec un cercle rouge ?",
+    image: "../assets/img/zone_zfe.jpg",
+    options: ["Zone à faibles émissions", "Circulation interdite", "Zone à risque", "Route réservée"],
+    answer: "Zone à faibles émissions",
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle est la signification de ce panneau rectangulaire ?",
+    image: "../assets/img/vitesse_maximum_autorisée.JPG",
+    options: ["Limite de vitesse", "Vitesse conseillée", "Vitesse autorisée", "Limite minimum de vitesse"],
+    answer: "Limite de vitesse",
+  },
+  {
+    numéro: "9/20",
+    question: "À quoi ce panneau vous oblige-t-il à faire attention ?",
+    image: "../assets/img/passage_à_niveau.jpg",
+    options: ["Présence de passages à niveau", "Passage à niveau non protégé", "Risque de rétrécissement de chaussée", "Risque de piétons"],
+    answer: "Présence de passages à niveau",
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle est la signification de ce panneau ?",
+    image: "../assets/img/priorité_à_droite.jpg",
+    options: ["Début de zone résidentielle", "Priorité à droite", "Cédez le passage", "Fin d'interdiction"],
+    answer: "Priorité à droite",
+  },
+  {
+    numéro: "11/20",
+    question: "Que signifie ce panneau jaune ?",
+    image: "../assets/img/danger_piéton.JPG",
+    options: ["Danger piétons", "Piétons interdit", "Passage piétons", "Piétons fréquent"],
+    answer: "Danger piétons",
+  },
+  {
+    numéro: "12/20",
+    question: "À quoi ce panneau vous oblige-t-il à faire attention ?",
+    image: "../assets/img/vent_latéral.jpg",
+    options: ["Risque de vent latéral", "Risque de vent violent", "Risque de passage à niveau", "Risque de brouillard"],
+    answer: "Risque de vent latéral",
+  },
+  {
+    numéro: "13/20",
+    question: "Quelle est la signification de ce panneau ?",
+    image: "../assets/img/fin_route_prioritaire.jpg",
+    options: ["Fin de route prioritaire", "Fin de limitation de vitesse", "Fin d'interdiction", "Fin de zone piétonne"],
+    answer: "Fin de route prioritaire",
+  },
+  {
+    numéro: "14/20",
+    question: "Que signifie ce panneau vert ?",
+    image: "../assets/img/point_rassemblement.png",
+    options: ["Point de rassemblement", "Zone de covoiturage", "Ecole", "Evacuation d'urgence"],
+    answer: "Point de rassemblement",
+  },
+  {
+    numéro: "15/20",
+    question: "Quelle est la signification de ce panneau ?",
+    image: "../assets/img/inter_file.jpeg",
+    options: ["Règles circulation interfiles", "Priorité aux motos", "Fin de zone de dépassement", "Fin de limitation de vitesse"],
+    answer: "Règles circulation interfiles",
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle est la signification de ce panneau avec un losange blanc ?",
+    image: "../assets/img/covoiturage.JPG",
+    options: ["Voie réservée au covoiturage", "Aire de chaînage", "Chemin pour piétons", "Route à sens unique"],
+    answer: "Voie réservée au covoiturage",
+  },
+  {
+    numéro: "17/20",
+    question: "Que signifie ce panneau provisoir ?",
+    image: "../assets/img/danger_brouillard_fumee.jpg",
+    options: ["Danger nappe de brouillard ou fumée épaisse", "Danger mur en fin de route", "Travaux, passage interdit", "Travaux, ralentir"],
+    answer: "Danger nappe de brouillard ou fumée épaisse",
+  },
+  {
+    numéro: "18/20",
+    question: "À quoi ce panneau vous oblige-t-il à faire attention ?",
+    image: "../assets/img/risque_verglas.jpg",
+    options: ["Risque de brouillard", "Risque de traversée d'animaux sauvages", "Risque de chaussée déformée", "Risque de verglas"],
+    answer: "Risque de verglas",
+  },
+  {
+    numéro: "19/20",
+    question: "Quelle est la signification de ce panneau avec une barre diagonale noire ?",
+    image: "../assets/img/fin_interdiction.jpg",
+    options: ["Fin de route prioritaire", "Fin de limitation de vitesse", "Fin d'interdiction", "Fin de zone piétonne"],
+    answer: "Fin d'interdiction",
+  },
+  {
+    numéro: "20/20",
+    question: "Que signifie ce panneau avec un fond bleu et un symbole blanc ?",
+    image: "../assets/img/aire_chainage.jpeg",
+    options: ["Indique une aire de chaînage", "Indique une voie de bus", "Indique une autoroute", "Indique une route à double sens"],
+    answer: "Indique une aire de chaînage",
+  },
+];
+
+
 
 
 
 // Mélanger les options pour chaque thème de questions
 
+shuffleQuestionsOptions(questionsTimBurton);
+shuffleQuestionsOptions(questionsCodeDeLaRoute);
 shuffleQuestionsOptions(questionsDrapeaux);
+shuffleQuestionsOptions(questionsVraiFaux);
+shuffleQuestionsOptions(questionsSpiderman);
 shuffleQuestionsOptions(questionsHorreur);
 shuffleQuestionsOptions(questionsAnimaux);
 shuffleQuestionsOptions(questionsCultureGenerale);
@@ -2300,11 +2932,14 @@ shuffleQuestionsOptions(questionsSport);
 shuffleQuestionsOptions(questionsCinema);
 shuffleQuestionsOptions(questionsPrincessesDisney);
 
-
 // Éléments DOM
 const premièreQuestion = questionsCultureGenerale[0];
 const quizContainer = document.getElementById("quiz-container");
+const themeTimBurtonBtn = document.getElementById("theme-timBurton");
+const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
 const themeHorreurBtn = document.getElementById("theme-horreur");
+const themeVraiFauxBtn = document.getElementById("theme-vraiFaux");
+const themeSpidermanBtn = document.getElementById("theme-spiderman");
 const themeDrapeauxBtn = document.getElementById("theme-drapeaux");
 const themeAnimauxBtn = document.getElementById("theme-animaux");
 const themeFaitsInsolitesBtn = document.getElementById("theme-faitsInsolites");
@@ -2317,7 +2952,9 @@ const themeCuisineBtn = document.getElementById("theme-cuisine");
 const themeHarryBtn = document.getElementById("theme-harry");
 const themeGeographieBtn = document.getElementById("theme-geographie");
 const themeOrthographeBtn = document.getElementById("theme-orthographe");
-const themePrincessesDisneyBtn = document.getElementById("theme-princessesDisney");
+const themePrincessesDisneyBtn = document.getElementById(
+  "theme-princessesDisney"
+);
 const themeSportBtn = document.getElementById("theme-sport");
 const optionsContainer = document.getElementById("options-container");
 const nextButton = document.getElementById("next-btn");
@@ -2350,16 +2987,30 @@ themeCultureBtn.addEventListener("click", () => {
   startQuiz(questionsCultureGenerale);
 });
 
+themeTimBurtonBtn.addEventListener("click", () => {
+  selectedTheme = "Tim Burton";
+  startQuiz(questionsTimBurton);
+});
+
 themeHorreurBtn.addEventListener("click", () => {
   selectedTheme = "Films d'horreur";
   startQuiz(questionsHorreur);
+});
+
+themeVraiFauxBtn.addEventListener("click", () => {
+  selectedTheme = "Vrai ou Faux ?";
+  startQuiz(questionsVraiFaux);
+});
+
+themeCodeDeLaRouteBtn.addEventListener("click", () => {
+  selectedTheme = "Code de la route";
+  startQuiz(questionsCodeDeLaRoute);
 });
 
 themeDrapeauxBtn.addEventListener("click", () => {
   selectedTheme = "Drapeaux";
   startQuiz(questionsDrapeaux);
 });
-
 
 themePrincessesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Princesses Disney";
@@ -2412,13 +3063,18 @@ themeOrthographeBtn.addEventListener("click", () => {
 });
 
 themeSportBtn.addEventListener("click", () => {
-  selectedTheme = "Sport";
+  selectedTheme = "Tous sports";
   startQuiz(questionsSport);
 });
 
 themeCinemaBtn.addEventListener("click", () => {
   selectedTheme = "Cinéma";
   startQuiz(questionsCinema);
+});
+
+themeSpidermanBtn.addEventListener("click", () => {
+  selectedTheme = "Spiderman";
+  startQuiz(questionsSpiderman);
 });
 
 // Fonction pour démarrer le quiz avec les questions du thème sélectionné
@@ -2470,6 +3126,14 @@ function showQuestion() {
     document.getElementById("image-container").style.display = "none";
   }
 
+  if (selectedTheme === "Code de la route") {
+    flagImageElement.src = currentQuestion.image;
+    document.getElementById("image-container").style.display = "block";
+  } else {
+    flagImageElement.src = "";
+    document.getElementById("image-container").style.display = "none";
+  }
+
   optionsContainer.innerHTML = "";
   currentQuestion.options.forEach((option) => {
     const optionElement = document.createElement("button");
@@ -2498,7 +3162,10 @@ function disableOptions(selectedOption, correctAnswer) {
     button.disabled = true;
     if (button.textContent === correctAnswer) {
       button.classList.add("correct");
-    } else if (button.textContent === selectedOption && selectedOption !== correctAnswer) {
+    } else if (
+      button.textContent === selectedOption &&
+      selectedOption !== correctAnswer
+    ) {
       button.classList.add("incorrect");
     }
   });

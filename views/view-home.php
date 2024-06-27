@@ -115,35 +115,75 @@ $img_path = $upload_dir . $img;
   </div>
 </div>
 
+<h4>Catégorie Audiovisuelle</h4>
+<div class="container grid">
+  <button id="theme-dessins" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Dessins animés</button>
+  <button id="theme-series" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Séries TV</button>
+  <button id="theme-cinema" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cinéma</button>
+  <button id="theme-horreur" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Films d'horreur</button>
+</div>
 
+<h4>Catégorie Sport</h4>
+<div class="container grid">
+  <button id="theme-sport" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Tous sports</button>
+  <button id="theme-joueursFoot" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Joueurs de foot</button>
+</div>
+
+<h4>Catégorie Disney</h4>
+<div class="container grid">
+  <button id="theme-princessesDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Princesses Disney</button>
+</div>
+
+<h4>Catégorie Musicale</h4>
+<div class="container grid">
+  <button id="theme-chansons" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Chansons</button>
+
+</div>
+
+<h4>Catégorie Personnalités et Super-Héros</h4>
+<div class="container grid">
+  <button id="theme-harry" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Harry Potter</button>
+  <button id="theme-spiderman" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Spiderman</button>
+  <button id="theme-timBurton" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Tim Burton</button>
+
+</div>
+
+<h4>Catégorie Nature et Animaux</h4>
+<div class="container grid">
+<button id="theme-animaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Animaux</button>
+
+</div>
+
+<h4>Catégorie Scolaire</h4>
+<div class="container grid">
+<button id="theme-geographie" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Géographie</button>
+<button id="theme-orthographe" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Orthographe</button>
+<button id="theme-drapeaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Drapeaux</button>
+
+</div>
+
+<h4>Catégorie Culture</h4>
   <div class="container grid">
-    <!-- boutons de thème -->
     <button id="theme-culture" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Culture générale</button>
-    <button id="theme-chansons" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Chansons</button>
-    <button id="theme-dessins" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Dessins animés</button>
-    <button id="theme-harry" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Harry Potter</button>
-    <button id="theme-cuisine" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cuisine</button>
-    <button id="theme-series" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Séries TV</button>
-    <button id="theme-geographie" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Géographie</button>
-    <button id="theme-orthographe" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Orthographe</button>
-    <button id="theme-sport" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Sport</button>
-    <button id="theme-animaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Animaux</button>
-    <button id="theme-cinema" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cinéma</button>
     <button id="theme-faitsInsolites" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Faits insolites</button>
-    <button id="theme-princessesDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Princesses Disney</button>
-    <button id="theme-horreur" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Films d'horreur</button>
-    <button id="theme-drapeaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Drapeaux</button>
-    <button id="theme-spiderMan" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Spider Man</button>
-    <button id="theme-joueursFoot" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Joueurs de foot</button>
-    <button id="theme-vraiFaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Vrai ou Faux?</button>
+    <button id="theme-vraiFaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Vrai ou Faux ?</button>
+    <button id="theme-codeDeLaRoute" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Code de la route</button>
 
-    <!-- Formulaire pour enregistrer le score -->
-    <form id="score-form" style="display: none;">
+  </div>
+
+  <h4>Catégorie Alimentation</h4>
+  <div class="container grid">
+  <button id="theme-cuisine" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Cuisine</button>
+
+  </div>
+
+
+   <!-- Formulaire pour enregistrer le score -->
+   <form id="score-form" style="display: none;">
       <input type="hidden" id="score-input" name="score">
       <input type="hidden" id="player-pseudo-input" name="player_pseudo" value="<?php echo $pseudo; ?>">
       <input type="hidden" id="theme-input" name="theme">
     </form>
-  </div>
 
   <script>
     // Fermer le menu burger en cliquant en dehors de celui-ci

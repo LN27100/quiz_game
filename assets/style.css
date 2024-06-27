@@ -52,6 +52,16 @@ h1 {
   margin-bottom: 0;
 }
 
+body > div:nth-child(2) > h3 {
+  margin-bottom: 3rem;
+}
+
+h4 {
+  font-family: "Nova Cut", system-ui;
+  color: #4D4AE5;
+  font-weight: bold;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -176,8 +186,20 @@ h1 {
   background-repeat: no-repeat;
 }
 
-#theme-spiderMan {
+#theme-spiderman {
   background-image: url('../assets/img/theme_spiderman.JPG');
+  background-size: 5.5rem 5.5rem;
+  background-repeat: no-repeat;
+}
+
+#theme-codeDeLaRoute {
+  background-image: url('../assets/img/theme_codeRoute.JPG');
+  background-size: 5.5rem 5.5rem;
+  background-repeat: no-repeat;
+}
+
+#theme-timBurton {
+  background-image: url('../assets/img/theme_timBurton.JPG');
   background-size: 5.5rem 5.5rem;
   background-repeat: no-repeat;
 }
