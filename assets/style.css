@@ -78,8 +78,8 @@ h4 {
 
 .container .theme-button {
   height: 6rem; 
-  padding: 0 5rem 0 5rem;
-  font-size: 1.3rem;
+  padding: 0 0 0 6rem;
+  font-size: 1.2rem;
   cursor: pointer;
   background-color: #d93ffb;
   border: none;
@@ -93,6 +93,8 @@ h4 {
 .container .theme-button:hover {
   background-color: #c300e2;
 }
+
+
 
 /* Appliquez l'image à chaque bouton et ajustez sa taille */
 #theme-culture {
@@ -159,7 +161,6 @@ h4 {
   background-image: url('../assets/img/theme_cinema.jpg');
   background-size: 6rem 6rem; 
   background-repeat: no-repeat;
-
 }
 
 #theme-faitsInsolites {
