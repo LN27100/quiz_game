@@ -140,7 +140,7 @@ $img_path = $upload_dir . $img;
   <button id="theme-princessesDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Princesses Disney</button>
   <button id="theme-personnagesDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Personnages Disney</button>
   <button id="theme-dessinsAnimesDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Dessins animés Disney</button>
-  <button id="theme-filmsDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Films Disney</button>
+  <button id="theme-musiqueFilmsDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Musique des films Disney</button>
 
 </div>
 
@@ -173,7 +173,7 @@ $img_path = $upload_dir . $img;
 <button id="theme-geographie" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Géographie</button>
 <button id="theme-orthographe" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Orthographe</button>
 <button id="theme-drapeaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Drapeaux</button>
-<button id="theme-mathématiques" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Mathématiques</button>
+<button id="theme-mathematiques" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Mathématiques</button>
 <button id="theme-histoire" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème Histoire</button>
 
 </div>

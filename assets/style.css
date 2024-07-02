@@ -318,6 +318,60 @@ h4 {
   background-repeat: no-repeat;
 }
 
+#theme-acteursActrices {
+  background-image: url('../assets/img/theme_acteurs.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-activitesPleinAir {
+  background-image: url('../assets/img/theme_activitésPleinAir.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-jeuxDeSociete {
+  background-image: url('../assets/img/theme_jeuxSociété.JPG');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-sportsMoteur {
+  background-image: url('../assets/img/theme_sportMoteur.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-personnagesDisney {
+  background-image: url('../assets/img/theme_personnagesDisney.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-dessinsAnimesDisney {
+  background-image: url('../assets/img/theme_dessinsAnimesDisney.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-musiqueFilmsDisney {
+  background-image: url('../assets/img/theme_musiquesFilmsDisney.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-histoire {
+  background-image: url('../assets/img/theme_histoire.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-mathematiques {
+  background-image: url('../assets/img/theme_mathématiques.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
 #finish-btn {
   margin-top: 0;
 }
