@@ -216,6 +216,108 @@ h4 {
   background-repeat: no-repeat;
 }
 
+#theme-jeuxVideo {
+  background-image: url('../assets/img/theme_jeuxVideo.JPG');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-bdMangaComics {
+  background-image: url('../assets/img/theme_bandeDessinee.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-langageSMS {
+  background-image: url('../assets/img/theme_langageSMS.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-marquesLogos {
+  background-image: url('../assets/img/theme_marquesLogos.JPG');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-gastronomieMonde {
+  background-image: url('../assets/img/theme_gastronomie_monde.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-boissonsCocktail {
+  background-image: url('../assets/img/theme_boissonsCocktail.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-nutritionSante {
+  background-image: url('../assets/img/theme_nutritionSante.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-animauxDomestiques {
+  background-image: url('../assets/img/theme_animauxDomestiques.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-ecosystemesHabitats {
+  background-image: url('../assets/img/theme_ecosystème.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-plantesBotanique {
+  background-image: url('../assets/img/theme_botanique.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-dragonBall {
+  background-image: url('../assets/img/theme_dragonBall.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-annees80 {
+  background-image: url('../assets/img/theme_annees80.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-bandesOriginalesFilm {
+  background-image: url('../assets/img/theme_bandeOriginaleFilm.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-instruments {
+  background-image: url('../assets/img/theme_instruments.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-filmsDisney {
+  background-image: url('../assets/img/theme_instruments.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-personnagesDisney {
+  background-image: url('../assets/img/theme_instruments.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-dessinsAnimesDisney {
+  background-image: url('../assets/img/theme_instruments.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
 #finish-btn {
   margin-top: 0;
 }
