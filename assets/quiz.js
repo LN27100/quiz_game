@@ -3051,12 +3051,260 @@ const questionsCodeDeLaRoute = [
   },
 ];
 
+const questionsActeursActrices = [
+  {
+    numéro: "1/20",
+    question: "Quel acteur incarne Iron Man dans le Marvel Cinematic Universe ?",
+    options: ["Chris Hemsworth", "Robert Downey Jr.", "Chris Evans", "Mark Ruffalo"],
+    answer: "Robert Downey Jr.",
+  },
+  {
+    numéro: "2/20",
+    question: "Quelle actrice joue le rôle de Katniss Everdeen dans 'The Hunger Games' ?",
+    options: ["Shailene Woodley", "Jennifer Lawrence", "Emma Watson", "Kristen Stewart"],
+    answer: "Jennifer Lawrence",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel acteur est célèbre pour son rôle de Jack Dawson dans 'Titanic' ?",
+    options: ["Brad Pitt", "Johnny Depp", "Leonardo DiCaprio", "Matt Damon"],
+    answer: "Leonardo DiCaprio",
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle actrice a joué le rôle de Hermione Granger dans la saga 'Harry Potter' ?",
+    options: ["Emma Stone", "Emma Watson", "Natalie Portman", "Keira Knightley"],
+    answer: "Emma Watson",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel acteur a remporté l'Oscar du meilleur acteur pour son rôle dans 'The Revenant' ?",
+    options: ["Tom Hardy", "Leonardo DiCaprio", "Matt Damon", "Michael Fassbender"],
+    answer: "Leonardo DiCaprio",
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle actrice a joué le rôle principal dans le film 'La La Land' ?",
+    options: ["Emma Stone", "Amy Adams", "Jessica Chastain", "Anne Hathaway"],
+    answer: "Emma Stone",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel acteur est connu pour son rôle de Neo dans la trilogie 'Matrix' ?",
+    options: ["Brad Pitt", "Keanu Reeves", "Tom Cruise", "Will Smith"],
+    answer: "Keanu Reeves",
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle actrice a joué le rôle de Lara Croft dans 'Tomb Raider' (2018) ?",
+    options: ["Angelina Jolie", "Alicia Vikander", "Scarlett Johansson", "Charlize Theron"],
+    answer: "Alicia Vikander",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel acteur a incarné le personnage de Walter White dans la série 'Breaking Bad' ?",
+    options: ["Aaron Paul", "Bryan Cranston", "Jon Hamm", "Matthew McConaughey"],
+    answer: "Bryan Cranston",
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle actrice a interprété la reine Elizabeth II dans la série 'The Crown' ?",
+    options: ["Claire Foy", "Olivia Colman", "Helen Mirren", "Emily Blunt"],
+    answer: "Claire Foy",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel acteur a joué le rôle de Joker dans le film 'The Dark Knight' ?",
+    options: ["Joaquin Phoenix", "Jared Leto", "Jack Nicholson", "Heath Ledger"],
+    answer: "Heath Ledger",
+  },
+  {
+    numéro: "12/20",
+    question: "Quelle actrice a incarné Mary Poppins dans le film 'Mary Poppins Returns' ?",
+    options: ["Emily Blunt", "Anne Hathaway", "Amy Adams", "Rachel McAdams"],
+    answer: "Emily Blunt",
+  },
+  {
+    numéro: "13/20",
+    question: "Quel acteur a interprété le rôle de James Bond dans 'Casino Royale' ?",
+    options: ["Pierce Brosnan", "Sean Connery", "Daniel Craig", "Roger Moore"],
+    answer: "Daniel Craig",
+  },
+  {
+    numéro: "14/20",
+    question: "Quelle actrice a joué le rôle principal dans le film 'Wonder Woman' ?",
+    options: ["Gal Gadot", "Scarlett Johansson", "Brie Larson", "Margot Robbie"],
+    answer: "Gal Gadot",
+  },
+  {
+    numéro: "15/20",
+    question: "Quel acteur est célèbre pour son rôle de Wolverine dans les films 'X-Men' ?",
+    options: ["Hugh Jackman", "Chris Hemsworth", "Ryan Reynolds", "Chris Evans"],
+    answer: "Hugh Jackman",
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle actrice a remporté l'Oscar de la meilleure actrice pour son rôle dans 'La La Land' ?",
+    options: ["Amy Adams", "Natalie Portman", "Emma Stone", "Jessica Chastain"],
+    answer: "Emma Stone",
+  },
+  {
+    numéro: "17/20",
+    question: "Quel acteur a joué le rôle de Tony Montana dans le film 'Scarface' ?",
+    options: ["Robert De Niro", "Al Pacino", "Joe Pesci", "Marlon Brando"],
+    answer: "Al Pacino",
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle actrice a joué le rôle de Black Widow dans les films Marvel ?",
+    options: ["Scarlett Johansson", "Natalie Portman", "Brie Larson", "Elizabeth Olsen"],
+    answer: "Scarlett Johansson",
+  },
+  {
+    numéro: "19/20",
+    question: "Quel acteur a joué le rôle de Forrest Gump ?",
+    options: ["Tom Hanks", "Robin Williams", "Johnny Depp", "Dustin Hoffman"],
+    answer: "Tom Hanks",
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle actrice a incarné Mia Wallace dans le film 'Pulp Fiction' ?",
+    options: ["Uma Thurman", "Winona Ryder", "Jodie Foster", "Meg Ryan"],
+    answer: "Uma Thurman",
+  },
+];
+
+const questionsJeuxVideo = [
+  {
+    numéro: "1/20",
+    question: "Quel personnage emblématique de Nintendo porte une salopette rouge et une casquette avec un M ?",
+    options: ["Link", "Mario", "Kirby", "Donkey Kong"],
+    answer: "Mario",
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le nom de l'héroïne principale de la série 'Tomb Raider' ?",
+    options: ["Lara Croft", "Samus Aran", "Zelda", "Cortana"],
+    answer: "Lara Croft",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel jeu vidéo de 2017 se déroule dans l'univers de Hyrule et met en scène Link ?",
+    options: ["The Elder Scrolls V: Skyrim", "Dark Souls III", "The Legend of Zelda: Breath of the Wild", "Horizon Zero Dawn"],
+    answer: "The Legend of Zelda: Breath of the Wild",
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est le jeu vidéo le plus vendu de tous les temps ?",
+    options: ["Tetris", "Minecraft", "Grand Theft Auto V", "Super Mario Bros."],
+    answer: "Minecraft",
+  },
+  {
+    numéro: "5/20",
+    question: "Quelle est la forme géométrique de base des blocs dans le jeu Tetris ?",
+    options: ["Carré", "Triangle", "Cercle", "Losange"],
+    answer: "Carré",
+  },
+  {
+    numéro: "6/20",
+    question: "Quel personnage de jeu vidéo est connu pour sa vitesse et ses chaussures rouges ?",
+    options: ["Mega Man", "Crash Bandicoot", "Sonic the Hedgehog", "Pac-Man"],
+    answer: "Sonic the Hedgehog",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel jeu de combat de 1992 met en scène des personnages comme Ryu, Ken et Chun-Li ?",
+    options: ["Tekken", "Street Fighter II", "Mortal Kombat", "King of Fighters"],
+    answer: "Street Fighter II",
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom de la ville fictive inspirée de Las Vegas dans GTA San Andreas ?",
+    options: ["Liberty City", "Vice City", "Las Venturas", "San Fierro"],
+    answer: "Las Venturas",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel jeu vidéo multijoueur en ligne a popularisé le genre 'battle royale' en 2017 ?",
+    options: ["Apex Legends", "PlayerUnknown's Battlegrounds (PUBG)", "Fortnite", "Call of Duty: Warzone"],
+    answer: "Fortnite",
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le nom du plombier vert, frère de Mario ?",
+    options: ["Luigi", "Wario", "Toad", "Bowser"],
+    answer: "Luigi",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel jeu vidéo développé par Mojang permet de construire et explorer des mondes en blocs ?",
+    options: ["Terraria", "Roblox", "Minecraft", "LEGO Worlds"],
+    answer: "Minecraft",
+  },
+  {
+    numéro: "12/20",
+    question: "Dans quel jeu incarne-t-on un assassin membre de la confrérie des Assassins ?",
+    options: ["Hitman", "Assassin's Creed", "Dishonored", "Thief"],
+    answer: "Assassin's Creed",
+  },
+  {
+    numéro: "13/20",
+    question: "Dans 'Wii Sports Resort', quel sport utilise principalement le Wii MotionPlus pour une précision accrue ?",
+    options: ["Tennis de table", "Golf", "Natation", "Basket-ball"],
+    answer: "Tennis de table",
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom de la princesse que Mario doit souvent sauver dans les jeux 'Super Mario' ?",
+    options: ["Princesse Daisy", "Princesse Peach", "Princesse Zelda", "Princesse Rosalina"],
+    answer: "Princesse Peach",
+  },
+  {
+    numéro: "15/20",
+    question: "Quel personnage principal de GTA est surnommé 'The Joker' dans l'un des opus de la série ?",
+    options: ["Claude", "Tommy Vercetti", "Niko Bellic", "CJ"],
+    answer: "Tommy Vercetti",
+  },
+  {
+    numéro: "16/20",
+    question: "Dans quel jeu de simulation de vie les joueurs peuvent construire des maisons, créer des familles et gérer des personnages virtuels ?",
+    options: ["Animal Crossing", "The Sims", "Harvest Moon", "Stardew Valley"],
+    answer: "The Sims",
+  },
+  {
+    numéro: "17/20",
+    question: "Quel personnage de jeux vidéo est connu pour son apparence sans bras ni jambes ?",
+    options: ["Rayman", "Globox", "Murphy", "Ly"],
+    answer: "Rayman",
+  },
+  {
+    numéro: "18/20",
+    question: "Quel jeu vidéo d'action-aventure met en scène un héros nommé Nathan Drake ?",
+    options: ["Tomb Raider", "Uncharted", "The Last of Us", "Red Dead Redemption"],
+    answer: "Uncharted",
+  },
+  {
+    numéro: "19/20",
+    question: "Quel jeu de combat de 1995 a popularisé les 'Fatalities' et les 'Brutalities' ?",
+    options: ["Tekken", "SoulCalibur", "Mortal Kombat", "Dead or Alive"],
+    answer: "Mortal Kombat",
+  },
+  {
+    numéro: "20/20",
+    question: "Quel jeu vidéo de 2013 développé par Naughty Dog suit les aventures de Joel et Ellie dans un monde post-apocalyptique ?",
+    options: ["The Last of Us", "Days Gone", "Fallout 4", "Horizon Zero Dawn"],
+    answer: "The Last of Us",
+  },
+];
+
 
 
 
 // Mélanger les options pour chaque thème de questions
 
+shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
+shuffleQuestionsOptions(questionsJeuxVideo);
 shuffleQuestionsOptions(questionsJoueursFoot);
 shuffleQuestionsOptions(questionsCodeDeLaRoute);
 shuffleQuestionsOptions(questionsDrapeaux);
@@ -3082,6 +3330,8 @@ const premièreQuestion = questionsCultureGenerale[0];
 const quizContainer = document.getElementById("quiz-container");
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
+const themeActeursActricesBtn = document.getElementById("theme-acteursActrices");
+const themeJeuxVideoBtn = document.getElementById("theme-jeuxVideo");
 const themeJoueursFootBtn = document.getElementById("theme-joueursFoot");
 const themeHorreurBtn = document.getElementById("theme-horreur");
 const themeVraiFauxBtn = document.getElementById("theme-vraiFaux");
@@ -3131,9 +3381,19 @@ themeCultureBtn.addEventListener("click", () => {
   startQuiz(questionsCultureGenerale);
 });
 
+themeActeursActricesBtn.addEventListener("click", () => {
+  selectedTheme = "Actrices/Acteurs";
+  startQuiz(questionsActeursActrices);
+});
+
 themeTimBurtonBtn.addEventListener("click", () => {
   selectedTheme = "Tim Burton";
   startQuiz(questionsTimBurton);
+});
+
+themeJeuxVideoBtn.addEventListener("click", () => {
+  selectedTheme = "Jeux Vidéo";
+  startQuiz(questionsJeuxVideo);
 });
 
 themeHorreurBtn.addEventListener("click", () => {
