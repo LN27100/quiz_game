@@ -2763,6 +2763,150 @@ const questionsTimBurton = [
   },
 ];
 
+const questionsJoueursFoot = [
+  {
+    numéro: "1/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/adrien_rabiot.jpg",
+    options: ["Adrien Rabiot", "", "", ""],
+    answer: "Adrien Rabiot",
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/sens_interdit.jpg",
+    options: ["Sens interdit", "Route barrée", "Fin d'interdiction", "Allée réservée"],
+    answer: "Sens interdit",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/animaux_sauvages.jpg",
+    options: ["Risque de chutes de pierres", "Risque d'animaux sauvages", "Risque de verglas", "Risque de brouillard"],
+    answer: "Risque d'animaux sauvages",
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/fin_zone_piétonne.jpg",
+    options: ["Fin de zone piétonne", "Fin de surveillance", "Fin de zone d'école", "Fin de voie verte"],
+    answer: "Fin de zone piétonne",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/autorisation_cycle.png",
+    options: ["Autorisation de franchissement pour vélos", "Cédez le passage pour vélos", "Priorité aux vélos", "Vélos interdits dans la direction indiquée"],
+    answer: "Autorisation de franchissement pour vélos",
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/panneau_danger.png",
+    options: ["Danger", "Cédez le passage", "Arrêt obligatoire", "Fin de limitation de vitesse"],
+    answer: "Danger",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/zone_zfe.jpg",
+    options: ["Zone à faibles émissions", "Circulation interdite", "Zone à risque", "Route réservée"],
+    answer: "Zone à faibles émissions",
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/vitesse_maximum_autorisée.JPG",
+    options: ["Limite de vitesse", "Vitesse conseillée", "Vitesse autorisée", "Limite minimum de vitesse"],
+    answer: "Limite de vitesse",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/passage_à_niveau.jpg",
+    options: ["Présence de passages à niveau", "Passage à niveau non protégé", "Risque de rétrécissement de chaussée", "Risque de piétons"],
+    answer: "Présence de passages à niveau",
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/priorité_à_droite.jpg",
+    options: ["Début de zone résidentielle", "Priorité à droite", "Cédez le passage", "Fin d'interdiction"],
+    answer: "Priorité à droite",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/danger_piéton.JPG",
+    options: ["Danger piétons", "Piétons interdit", "Passage piétons", "Piétons fréquent"],
+    answer: "Danger piétons",
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/vent_latéral.jpg",
+    options: ["Risque de vent latéral", "Risque de vent violent", "Risque de passage à niveau", "Risque de brouillard"],
+    answer: "Risque de vent latéral",
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/fin_route_prioritaire.jpg",
+    options: ["Fin de route prioritaire", "Fin de limitation de vitesse", "Fin d'interdiction", "Fin de zone piétonne"],
+    answer: "Fin de route prioritaire",
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/point_rassemblement.png",
+    options: ["Point de rassemblement", "Zone de covoiturage", "Ecole", "Evacuation d'urgence"],
+    answer: "Point de rassemblement",
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/inter_file.jpeg",
+    options: ["Règles circulation interfiles", "Priorité aux motos", "Fin de zone de dépassement", "Fin de limitation de vitesse"],
+    answer: "Règles circulation interfiles",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/covoiturage.JPG",
+    options: ["Voie réservée au covoiturage", "Aire de chaînage", "Chemin pour piétons", "Route à sens unique"],
+    answer: "Voie réservée au covoiturage",
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/danger_brouillard_fumee.jpg",
+    options: ["Danger nappe de brouillard ou fumée épaisse", "Danger mur en fin de route", "Travaux, passage interdit", "Travaux, ralentir"],
+    answer: "Danger nappe de brouillard ou fumée épaisse",
+  },
+  {
+    numéro: "18/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/risque_verglas.jpg",
+    options: ["Risque de brouillard", "Risque de traversée d'animaux sauvages", "Risque de chaussée déformée", "Risque de verglas"],
+    answer: "Risque de verglas",
+  },
+  {
+    numéro: "19/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/fin_interdiction.jpg",
+    options: ["Fin de route prioritaire", "Fin de limitation de vitesse", "Fin d'interdiction", "Fin de zone piétonne"],
+    answer: "Fin d'interdiction",
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le nom de ce joueur ?",
+    image: "../assets/img/aire_chainage.jpeg",
+    options: ["Indique une aire de chaînage", "Indique une voie de bus", "Indique une autoroute", "Indique une route à double sens"],
+    answer: "Indique une aire de chaînage",
+  },
+];
+
+
 const questionsCodeDeLaRoute = [
   {
     numéro: "1/20",
@@ -2909,10 +3053,10 @@ const questionsCodeDeLaRoute = [
 
 
 
-
 // Mélanger les options pour chaque thème de questions
 
 shuffleQuestionsOptions(questionsTimBurton);
+shuffleQuestionsOptions(questionsJoueursFoot);
 shuffleQuestionsOptions(questionsCodeDeLaRoute);
 shuffleQuestionsOptions(questionsDrapeaux);
 shuffleQuestionsOptions(questionsVraiFaux);
@@ -2937,6 +3081,7 @@ const premièreQuestion = questionsCultureGenerale[0];
 const quizContainer = document.getElementById("quiz-container");
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
+const themeJoueursFootBtn = document.getElementById("theme-joueursFoot");
 const themeHorreurBtn = document.getElementById("theme-horreur");
 const themeVraiFauxBtn = document.getElementById("theme-vraiFaux");
 const themeSpidermanBtn = document.getElementById("theme-spiderman");
@@ -2952,9 +3097,7 @@ const themeCuisineBtn = document.getElementById("theme-cuisine");
 const themeHarryBtn = document.getElementById("theme-harry");
 const themeGeographieBtn = document.getElementById("theme-geographie");
 const themeOrthographeBtn = document.getElementById("theme-orthographe");
-const themePrincessesDisneyBtn = document.getElementById(
-  "theme-princessesDisney"
-);
+const themePrincessesDisneyBtn = document.getElementById("theme-princessesDisney");
 const themeSportBtn = document.getElementById("theme-sport");
 const optionsContainer = document.getElementById("options-container");
 const nextButton = document.getElementById("next-btn");
@@ -2995,6 +3138,11 @@ themeTimBurtonBtn.addEventListener("click", () => {
 themeHorreurBtn.addEventListener("click", () => {
   selectedTheme = "Films d'horreur";
   startQuiz(questionsHorreur);
+});
+
+themeJoueursFootBtn.addEventListener("click", () => {
+  selectedTheme = "Joueurs de foot";
+  startQuiz(questionsJoueursFoot);
 });
 
 themeVraiFauxBtn.addEventListener("click", () => {
@@ -3111,28 +3259,24 @@ function showQuestion() {
   const questionTextElement = document.getElementById("question-text");
   const flagImageElement = document.getElementById("flag-image");
 
-  // Afficher le numéro de la question
+  // Affiche le numéro de la question
   questionNumberElement.textContent = currentQuestion.numéro;
 
-  // Afficher le texte de la question
+  // Affiche le texte de la question
   questionTextElement.textContent = currentQuestion.question;
 
-  // Afficher l'image du drapeau seulement si le thème est "Drapeaux"
-  if (selectedTheme === "Drapeaux") {
-    flagImageElement.src = currentQuestion.image;
-    document.getElementById("image-container").style.display = "block";
-  } else {
-    flagImageElement.src = "";
-    document.getElementById("image-container").style.display = "none";
-  }
+   // Défini les thèmes qui nécessitent une image
+   const themesWithImages = ["Drapeaux", "Code de la route", "Joueurs de foot"];
 
-  if (selectedTheme === "Code de la route") {
-    flagImageElement.src = currentQuestion.image;
-    document.getElementById("image-container").style.display = "block";
-  } else {
-    flagImageElement.src = "";
-    document.getElementById("image-container").style.display = "none";
-  }
+   // Affiche l'image si le thème sélectionné est dans les thèmes avec images
+   if (themesWithImages.includes(selectedTheme)) {
+     flagImageElement.src = currentQuestion.image;
+     document.getElementById("image-container").style.display = "block";
+   } else {
+     flagImageElement.src = "";
+     document.getElementById("image-container").style.display = "none";
+   }
+ 
 
   optionsContainer.innerHTML = "";
   currentQuestion.options.forEach((option) => {
