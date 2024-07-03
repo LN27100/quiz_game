@@ -131,7 +131,7 @@ $img_path = $upload_dir . $img;
   <button id="theme-jeuxVideo" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Jeux Vidéo</button>
   <button id="theme-activitesPleinAir" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Activités de plein air</button>
   <button id="theme-jeuxDeSociete" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Jeux de société</button>
-  <button id="theme-sportsMoteur" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> sports à moteur</button>
+  <button id="theme-sportsMoteur" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Sports à moteur</button>
 
 </div>
 
