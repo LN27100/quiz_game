@@ -3929,7 +3929,6 @@ const questionsDessinsAnimesDisney = [
   },
 ];
 
-
 const questionsPersonnagesDisney = [
   {
     numéro: "1/20",
@@ -4429,7 +4428,6 @@ const questionsPlantesBotanique = [
     answer: "Lys",
   },
 ];
-
 
 const questionsAnimauxDomestiques = [
   {
@@ -5421,7 +5419,7 @@ const questionsBoissonsCocktail = [
   },
 ];
 
-const questionsAnnees80Francais = [
+const questionsAnnees80 = [
   {
     numéro: "1/20",
     question: "Quel artiste français a chanté 'Pour que tu m'aimes encore' en 1987, devenu un succès international ?",
@@ -5670,12 +5668,352 @@ const questionsInstruments = [
 
 
 const questionsNutritionSante = [
-
+  {
+    numéro: "1/20",
+    question: "Qu'est-ce qu'un antioxydant et comment peut-il bénéficier à la santé ?",
+    options: [
+      "Il protège les cellules du corps contre les dommages causés par les radicaux libres.",
+      "Il augmente la production de vitamine D dans le corps.",
+      "Il aide à renforcer les os et les dents.",
+      "Il stimule le système immunitaire."
+    ],
+    answer: "Il protège les cellules du corps contre les dommages causés par les radicaux libres."
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est l'apport quotidien recommandé en fibres alimentaires pour un adulte moyen ?",
+    options: ["5-10 grammes", "10-15 grammes", "15-25 grammes", "25-30 grammes"],
+    answer: "25-30 grammes"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est l'effet bénéfique des acides gras oméga-3 sur la santé ?",
+    options: [
+      "Ils peuvent réduire le risque de maladies cardiaques.",
+      "Ils favorisent la croissance musculaire.",
+      "Ils améliorent la vision nocturne.",
+      "Ils renforcent le système immunitaire."
+    ],
+    answer: "Ils peuvent réduire le risque de maladies cardiaques."
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle vitamine est essentielle pour la santé des os et est souvent synthétisée par l'exposition au soleil ?",
+    options: ["Vitamine A", "Vitamine C", "Vitamine D", "Vitamine E"],
+    answer: "Vitamine D"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est l'effet d'une consommation excessive de sodium sur la santé ?",
+    options: [
+      "Elle peut augmenter la pression artérielle.",
+      "Elle peut améliorer la digestion.",
+      "Elle peut favoriser la perte de poids.",
+      "Elle peut augmenter le taux de cholestérol."
+    ],
+    answer: "Elle peut augmenter la pression artérielle."
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le principal avantage des aliments riches en probiotiques ?",
+    options: [
+      "Ils favorisent une digestion saine en renforçant les bonnes bactéries intestinales.",
+      "Ils améliorent la qualité du sommeil.",
+      "Ils réduisent le risque de maladies cardiovasculaires.",
+      "Ils augmentent la capacité de concentration."
+    ],
+    answer: "Ils favorisent une digestion saine en renforçant les bonnes bactéries intestinales."
+  },
+  {
+    numéro: "7/20",
+    question: "Quelle est la principale source alimentaire de vitamine C ?",
+    options: ["Lait", "Poisson", "Fruits et légumes", "Viande rouge"],
+    answer: "Fruits et légumes"
+  },
+  {
+    numéro: "8/20",
+    question: "Qu'est-ce que l'indice glycémique d'un aliment mesure principalement ?",
+    options: [
+      "Sa capacité à augmenter la glycémie dans le sang après sa consommation.",
+      "Son contenu en protéines par portion.",
+      "Sa teneur en graisses saturées.",
+      "Son effet sur le métabolisme des lipides."
+    ],
+    answer: "Sa capacité à augmenter la glycémie dans le sang après sa consommation."
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est l'effet bénéfique des flavonoïdes présents dans certains aliments ?",
+    options: [
+      "Ils ont des propriétés antioxydantes et anti-inflammatoires.",
+      "Ils augmentent la teneur en fibres des aliments.",
+      "Ils renforcent les os et les dents.",
+      "Ils améliorent la fonction cognitive."
+    ],
+    answer: "Ils ont des propriétés antioxydantes et anti-inflammatoires."
+  },
+  {
+    numéro: "10/20",
+    question: "Quel nutriment est essentiel pour maintenir une bonne santé cardiovasculaire et est abondant dans les poissons gras comme le saumon et le maquereau ?",
+    options: ["Fer", "Calcium", "Vitamine B12", "Acides gras oméga-3"],
+    answer: "Acides gras oméga-3"
+  },
+  {
+    numéro: "11/20",
+    question: "Quelle est la principale différence entre les graisses saturées et les graisses insaturées en termes d'impact sur la santé ?",
+    options: [
+      "Les graisses saturées peuvent augmenter le taux de cholestérol LDL, tandis que les graisses insaturées peuvent le réduire.",
+      "Les graisses saturées sont plus efficaces pour augmenter l'énergie, tandis que les graisses insaturées sont mieux pour la régulation du sommeil.",
+      "Les graisses saturées sont meilleures pour la digestion, tandis que les graisses insaturées sont plus nutritives.",
+      "Les graisses saturées sont plus adaptées à la construction musculaire, tandis que les graisses insaturées sont meilleures pour la récupération après l'exercice."
+    ],
+    answer: "Les graisses saturées peuvent augmenter le taux de cholestérol LDL, tandis que les graisses insaturées peuvent le réduire."
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est l'importance de la vitamine B12 pour le corps humain ?",
+    options: [
+      "Elle est essentielle pour la production de globules rouges et le bon fonctionnement du système nerveux.",
+      "Elle aide à prévenir les maladies infectieuses.",
+      "Elle améliore la mémoire et la concentration.",
+      "Elle aide à réguler le métabolisme des lipides."
+    ],
+    answer: "Elle est essentielle pour la production de globules rouges et le bon fonctionnement du système nerveux."
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est l'effet bénéfique des fibres alimentaires sur la santé digestive ?",
+    options: [
+      "Elles favorisent le transit intestinal en augmentant le volume des selles.",
+      "Elles augmentent l'absorption des nutriments dans le tractus gastro-intestinal.",
+      "Elles réduisent la production d'enzymes digestives.",
+      "Elles améliorent l'hydratation du côlon."
+    ],
+    answer: "Elles favorisent le transit intestinal en augmentant le volume des selles."
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est l'effet d'une consommation excessive de sucre sur la santé ?",
+    options: [
+      "Elle peut contribuer à l'obésité et à l'augmentation du risque de diabète de type 2.",
+      "Elle améliore la concentration et la mémoire à court terme.",
+      "Elle renforce le système immunitaire.",
+      "Elle favorise la régulation de l'humeur."
+    ],
+    answer: "Elle peut contribuer à l'obésité et à l'augmentation du risque de diabète de type 2."
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est l'effet bénéfique des acides aminés essentiels sur la santé ?",
+    options: [
+      "Ils favorisent la croissance musculaire et la réparation des tissus.",
+      "Ils augmentent la résistance aux infections virales.",
+      "Ils améliorent l'absorption des minéraux essentiels.",
+      "Ils aident à réguler la pression artérielle."
+    ],
+    answer: "Ils favorisent la croissance musculaire et la réparation des tissus."
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est l'importance des minéraux comme le calcium et le magnésium pour la santé des os ?",
+    options: [
+      "Ils renforcent les dents et les gencives.",
+      "Ils améliorent la digestion des protéines.",
+      "Ils favorisent la coagulation sanguine.",
+      "Ils contribuent à maintenir la densité osseuse et à prévenir l'ostéoporose."
+    ],
+    answer: "Ils contribuent à maintenir la densité osseuse et à prévenir l'ostéoporose."
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est l'effet bénéfique des légumes verts comme les épinards et le brocoli sur la santé ?",
+    options: [
+      "Ils sont riches en antioxydants et en vitamines, aidant ainsi à prévenir les maladies chroniques.",
+      "Ils augmentent le taux de cholestérol HDL (bon cholestérol).",
+      "Ils favorisent la synthèse des protéines musculaires.",
+      "Ils améliorent la mémoire à long terme."
+    ],
+    answer: "Ils sont riches en antioxydants et en vitamines, aidant ainsi à prévenir les maladies chroniques."
+  },
+  {
+    numéro: "18/20",
+    question: "Quel est l'effet bénéfique des aliments riches en vitamine A, comme les carottes et les patates douces, sur la santé ?",
+    options: [
+      "Ils améliorent la vision nocturne et la santé des yeux.",
+      "Ils favorisent la croissance des cheveux et des ongles.",
+      "Ils augmentent la production de collagène dans la peau.",
+      "Ils réduisent les risques de maladies cardiaques."
+    ],
+    answer: "Ils améliorent la vision nocturne et la santé des yeux."
+  },
+  {
+    numéro: "19/20",
+    question: "Qu'est-ce que l'indice de masse corporelle (IMC) mesure principalement ?",
+    options: [
+      "Le rapport entre le poids et la taille d'une personne.",
+      "La force musculaire et l'endurance.",
+      "La capacité respiratoire et la santé pulmonaire.",
+      "Le taux de cholestérol et de lipides dans le sang."
+    ],
+    answer: "Le rapport entre le poids et la taille d'une personne."
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est l'effet bénéfique des fruits rouges comme les fraises et les framboises sur la santé ?",
+    options: [
+      "Ils sont riches en antioxydants qui peuvent aider à protéger contre les maladies cardiaques et le cancer.",
+      "Ils augmentent la production d'insuline dans le pancréas.",
+      "Ils stimulent le métabolisme des graisses dans le foie.",
+      "Ils favorisent la rétention d'eau dans le corps."
+    ],
+    answer: "Ils sont riches en antioxydants qui peuvent aider à protéger contre les maladies cardiaques et le cancer."
+  }
 ];
+
 
 const questionsMarquesLogos = [
-
+  {
+    numéro: "1/20",
+    question: "Quelle marque de voiture utilise le logo de trois losanges entrelacés ?",
+    image: "../assets/img/marque_renault.jpg", 
+    options: ["Renault", "Peugeot", "Citroën", "Ford"],
+    answer: "Renault"
+  },
+  {
+    numéro: "2/20",
+    question: "Quelle marque utilise le logo d'une pomme croquée ?",
+    image: "../assets/img/marque_apple.png", 
+    options: ["Microsoft", "Apple", "Samsung", "Google"],
+    answer: "Apple"
+  },
+  {
+    numéro: "3/20",
+    question: "Quelle marque utilise le logo d'un swoosh (virgule) ?",
+    image: "../assets/img/marque_nike.jpg", 
+    options: ["Adidas", "Nike", "Puma", "Reebok"],
+    answer: "Nike"
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle marque utilise le logo d'un lion rugissant ?",
+    image: "../assets/img/marque_peugeot.png", 
+    options: ["Lacoste", "Peugeot", "Ferrari", "Jaguar"],
+    answer: "Peugeot"
+  },
+  {
+    numéro: "5/20",
+    question: "Quelle marque utilise le logo d'un M jaune sur fond vert ?",
+    image: "../assets/img/marque_mcdonalds.png", 
+    options: ["McDonald's", "Burger King", "KFC", "Subway"],
+    answer: "McDonald's"
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle marque utilise le logo d'une étoile à trois branches ?",
+    image: "../assets/img/marque_mercedes.jpg", 
+    options: ["Mercedes-Benz", "BMW", "Audi", "Volvo"],
+    answer: "Mercedes-Benz"
+  },
+  {
+    numéro: "7/20",
+    question: "Quelle marque utilise le logo d'un cheval cabré ?",
+    image: "../assets/img/marque_ferrari.png", 
+    options: ["Ferrari", "Maserati", "Lamborghini", "Bugatti"],
+    answer: "Ferrari"
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle marque utilise le logo d'un taureau ?",
+    image: "../assets/img/marque_redbull.jpg", 
+    options: ["Red Bull", "Monster Energy", "Rockstar", "5-hour Energy"],
+    answer: "Red Bull"
+  },
+  {
+    numéro: "9/20",
+    question: "Quelle marque utilise le logo d'un oiseau bleu ?",
+    image: "../assets/img/marque_twitter.jpg", 
+    options: ["Twitter", "Facebook", "Instagram", "LinkedIn"],
+    answer: "Twitter"
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle marque utilise le logo d'une étoile et de trois bandes parallèles ?",
+    image: "../assets/img/marque_adidas.png", 
+    options: ["Nike", "Adidas", "Puma", "Reebok"],
+    answer: "Adidas"
+  },
+  {
+    numéro: "11/20",
+    question: "Quelle marque utilise ce logo ?",
+    image: "../assets/img/marque_reddit.jpg", 
+    options: ["YouTube", "Twitch", "Reddit", "Spotify"],
+    answer: "Reddit"
+  },
+  {
+    numéro: "12/20",
+    question: "Quelle marque utilise le logo d'une couronne dorée ?",
+    image: "../assets/img/marque_rolex.png", 
+    options: ["Rolex", "Patek Philippe", "Audemars Piguet", "Omega"],
+    answer: "Rolex"
+  },
+  {
+    numéro: "13/20",
+    question: "Quelle marque utilise le logo d'un crocodile ?",
+    image: "../assets/img/marque_lacoste.jpg", 
+    options: ["Lacoste", "Burberry", "Ralph Lauren", "Tommy Hilfiger"],
+    answer: "Lacoste"
+  },
+  {
+    numéro: "14/20",
+    question: "Quelle marque utilise ce logo ?",
+    image: "../assets/img/marque_chanel.jpg", 
+    options: ["Chanel", "Louis Vuitton", "Gucci", "Saint Laurent"],
+    answer: "Chanel"
+  },
+  {
+    numéro: "15/20",
+    question: "Quelle marque utilise un logo représentant un tigre bondissant ?",
+    image: "../assets/img/marque_frostedFlakes.jpg", 
+    options: ["Kellogg's", "Frosted Flakes", "Tony the Tiger", "Cheetos"],
+    answer: "Frosted Flakes"
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle marque représente ce logo ?",
+    image: "../assets/img/marque_playstation.JPG", 
+    options: ["PlayStation", "Xbox", "Nintendo", "Sega"],
+    answer: "PlayStation"
+  },
+  {
+    numéro: "17/20",
+    question: "Quelle marque utilise le logo rouge ?",
+    image: "../assets/img/marque_huawei.JPG", 
+    options: ["Huawei", "Ariel", "Vodafone", "Ducati"],
+    answer: "Huawei"
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle marque utilise un logo en forme de T ?",
+    image: "../assets/img/marque_tesla.JPG", 
+    options: ["Tesla", "Talbot", "Texas Instrument", "Troller"],
+    answer: "Tesla"
+  },
+  {
+    numéro: "19/20",
+    question: "Quelle est cette marque ?",
+    image: "../assets/img/marque_cadillac.jpg", 
+    options: ["Cadillac", "Chevrolet", "Buick", "Ford"],
+    answer: "Cadillac"
+  },
+  {
+    numéro: "20/20",
+    question: "À quelle marque appartient ce logo vert ?",
+    image: "../assets/img/marque_crocs.jpg", 
+    options: ["Crocs", "Cetelem", "Android", "Skoda"],
+    answer: "Crocs"
+  }
 ];
+
 
 
 // Mélanger les options pour chaque thème de questions
@@ -6056,7 +6394,7 @@ function showQuestion() {
   questionTextElement.textContent = currentQuestion.question;
 
    // Défini les thèmes qui nécessitent une image
-   const themesWithImages = ["Drapeaux", "Code de la route", "Joueurs de foot"];
+   const themesWithImages = ["Drapeaux", "Code de la route", "Joueurs de foot", "Marques et Logos"];
 
    // Affiche l'image si le thème sélectionné est dans les thèmes avec images
    if (themesWithImages.includes(selectedTheme)) {
