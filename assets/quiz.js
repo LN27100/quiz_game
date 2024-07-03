@@ -3078,15 +3078,15 @@ const questionsActeursActrices = [
   },
   {
     numéro: "5/20",
-    question: "Quel acteur a remporté l'Oscar du meilleur acteur pour son rôle dans 'The Revenant' ?",
-    options: ["Tom Hardy", "Leonardo DiCaprio", "Matt Damon", "Michael Fassbender"],
-    answer: "Leonardo DiCaprio",
+    question: "Quelle actrice a incarné le personnage de Clarice Starling dans 'Le Silence des agneaux' ?",
+    options: ["Jodie Foster", "Gillian Anderson", "Meryl Streep", "Nicole Kidman"],
+    answer: "Jodie Foster",
   },
   {
     numéro: "6/20",
-    question: "Quelle actrice a joué le rôle principal dans le film 'La La Land' ?",
-    options: ["Emma Stone", "Amy Adams", "Jessica Chastain", "Anne Hathaway"],
-    answer: "Emma Stone",
+    question: "Quelle actrice a incarné le rôle de Rachel Green dans la série 'Friends' ?",
+    options: ["Courteney Cox", "Jennifer Aniston", "Lisa Kudrow", "Sarah Jessica Parker"],
+    answer: "Jennifer Aniston",
   },
   {
     numéro: "7/20",
@@ -3096,9 +3096,9 @@ const questionsActeursActrices = [
   },
   {
     numéro: "8/20",
-    question: "Quelle actrice a joué le rôle de Lara Croft dans 'Tomb Raider' (2018) ?",
-    options: ["Angelina Jolie", "Alicia Vikander", "Scarlett Johansson", "Charlize Theron"],
-    answer: "Alicia Vikander",
+    question: "Quel acteur a incarné le personnage de Ethan Hunt dans la série de films 'Mission Impossible' ?",
+    options: ["Tom Cruise", "Matt Damon", "Keanu Reeves", "Brad Pitt"],
+    answer: "Tom Cruise",
   },
   {
     numéro: "9/20",
@@ -3114,9 +3114,9 @@ const questionsActeursActrices = [
   },
   {
     numéro: "11/20",
-    question: "Quel acteur a joué le rôle de Joker dans le film 'The Dark Knight' ?",
-    options: ["Joaquin Phoenix", "Jared Leto", "Jack Nicholson", "Heath Ledger"],
-    answer: "Heath Ledger",
+    question: "Quel acteur a incarné le rôle de Indiana Jones ?",
+    options: ["Harrison Ford", "Tom Selleck", "Mark Hamill", "Michael Douglas"],
+    answer: "Harrison Ford",
   },
   {
     numéro: "12/20",
@@ -3126,9 +3126,9 @@ const questionsActeursActrices = [
   },
   {
     numéro: "13/20",
-    question: "Quel acteur a interprété le rôle de James Bond dans 'Casino Royale' ?",
-    options: ["Pierce Brosnan", "Sean Connery", "Daniel Craig", "Roger Moore"],
-    answer: "Daniel Craig",
+    question: "Quel acteur a joué le rôle de Captain Jack Sparrow dans 'Pirates des Caraïbes' ?",
+    options: ["Johnny Depp", "Orlando Bloom", "Geoffrey Rush", "Javier Bardem"],
+    answer: "Johnny Depp",
   },
   {
     numéro: "14/20",
@@ -3297,6 +3297,267 @@ const questionsJeuxVideo = [
   },
 ];
 
+const questionsActivitesPleinAir = [
+  {
+    numéro: "1/20",
+    question: "Quelle activité de plein air consiste à voler avec une aile fixée à un cadre en aluminium ?",
+    options: ["Deltaplane", "Parapente", "Parachutisme", "Kitesurf"],
+    answer: "Deltaplane",
+  },
+  {
+    numéro: "2/20",
+    question: "Quel sport de plein air utilise un frisbee et consiste à marquer des points en le lançant dans des cibles spécifiques ?",
+    options: ["Ultimate frisbee", "Disc golf", "Frisbee freestyle", "Frisbee golf"],
+    answer: "Disc golf",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel équipement est essentiel pour faire de l'escalade ?",
+    options: ["Corde", "Parapente", "Elastique", "Raquettes"],
+    answer: "Corde",
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle activité de plein air consiste à naviguer sur l'eau dans une petite embarcation à pagaie ?",
+    options: ["Canoë-kayak", "Surf", "Planche à voile", "Zodiac"],
+    answer: "Canoë-kayak",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel sport de plein air utilise une balle et des clubs pour frapper la balle dans des trous sur un parcours ?",
+    options: ["Golf", "Croquet", "Baseball", "Polo"],
+    answer: "Golf",
+  },
+  {
+    numéro: "6/20",
+    question: "Quel jeu de plein air implique de marcher avec des longues tiges munies de plateforme ?",
+    options: ["Course en sac", "L'épervier", "Marche sur les mains", "Les échasses"],
+    answer: "Les échasses",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le nom de ce jeu de plein air qui nécessite une raquette et une balle attachée à un élastique fixé à un poteau ?",
+    options: ["Tennis de table", "Paddle-ball", "Jokari Tennis", "Tetherball"],
+    answer: "Jokari Tennis",
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle activité de plein air consiste à explorer des sentiers à pied, souvent en milieu naturel ?",
+    options: ["Randonnée", "VTT", "Spéléologie", "Course à pieds"],
+    answer: "Randonnée",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel sport de plein air se pratique sur une planche à roulettes et consiste à effectuer des figures ?",
+    options: ["Skateboard", "Roller", "BMX", "Trottinette"],
+    answer: "Skateboard",
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle activité de plein air consiste à glisser sur une pente enneigée avec une paire de skis ?",
+    options: ["Ski alpin", "Snowboard", "Luge", "Ski de fond"],
+    answer: "Ski alpin",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel activité de plein air se pratique en lançant des boules sur un terrain de sable ?",
+    options: ["Pétanque", "Bocce", "Cricket", "Jeu de billes"],
+    answer: "Pétanque",
+  },
+  {
+    numéro: "12/20",
+    question: "Quelle activité de plein air consiste à voler en parachute derrière un bateau à moteur ?",
+    options: ["Parachute ascensionnel", "Kitesurf", "Parapente", "Parachute"],
+    answer: "Parachute ascensionnel",
+  },
+  {
+    numéro: "13/20",
+    question: "Quel sport de plein air se pratique sur une planche, en se déplaçant sur les vagues de l'océan ?",
+    options: ["Surf", "Kitesurf", "Planche à voile", "Paddle"],
+    answer: "Surf",
+  },
+  {
+    numéro: "14/20",
+    question: "Quelle activité de plein air consiste à grimper dans des arbres avec un harnais et des cordes ?",
+    options: ["Accrobranche", "Randonnée", "Escalade", "Alpinisme"],
+    answer: "Accrobranche",
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est l'objectif principal du jeu de l'épervier ?",
+    options: [
+      "Attraper un objet au centre du terrain",
+      "Traverser le terrain sans se faire toucher",
+      "Se cacher sans se faire attraper",
+      "Construire un abri dans la forêt"
+    ],
+    answer: "Traverser le terrain sans se faire toucher",
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle activité de plein air consiste à voler librement à l'aide d'un parachute ?",
+    options: ["Parapente", "Parachutisme", "Parachute ascensionnel", "Montgolfière"],
+    answer: "Parapente",
+  },
+  {
+    numéro: "17/20",
+    question: "Dans quelle activité de plein air les participants doivent-ils conserver un aliment sur une cuillère tout en courant vers la ligne d'arrivée ?",
+    options: ["Course en sac", "Course à l'œuf", "Relais de l'œuf", "Course en trio"],
+    answer: "Course à l'œuf",
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle activité de plein air consiste à dormir dans la nature sous une tente ?",
+    options: ["Camping", "Randonnée", "Escalade", "Nuit à la belle étoile"],
+    answer: "Camping",
+  },
+  {
+    numéro: "19/20",
+    question: "Quel sport de plein air consiste à tirer des flèches avec un arc ?",
+    options: ["Tir à l'arc", "Paintball", "Airsoft", "Tir au pistolet"],
+    answer: "Tir à l'arc",
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle est la principale difficulté de la course en sac ?",
+    options: ["Équilibrer l'oeuf", "Sauter sans tomber", "Courir les pieds attachés", "Courir en portant un sac lourd"],
+    answer: "Sauter sans tomber",
+  }
+];
+
+const questionsJeuxDeSociete = [
+  {
+    numéro: "1/20",
+    question: "Quel jeu de société demande aux joueurs de dessiner et de deviner des mots tout en respectant un sablier ?",
+    options: ["Pandemic", "Time's Up", "Pictionary", "La Bonne Paye"],
+    answer: "Pictionary",
+  },
+  {
+    numéro: "2/20",
+    question: "Dans le Scrabble, combien de lettres y a-t-il en tout ?",
+    options: ["100", "120", "140", "160"],
+    answer: "100",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel jeu de société utilise un plateau circulaire divisé en cases de couleur où les joueurs se déplacent avec des pions en forme de camemberts ?",
+    options: ["Trivial Pursuit", "Risk", "Puissance 4", "Taboo"],
+    answer: "Trivial Pursuit",
+  },
+  {
+    numéro: "4/20",
+    question: "Quel jeu de plateau à pour but l'achat de propriétés?",
+    options: ["Carcassonne", "La bonne paye", "Monopoly", "Pandemic"],
+    answer: "Monopoly",
+  },
+  {
+    numéro: "5/20",
+    question: "Dans le jeu 'Puissance 4', combien de jetons de chaque couleur reçoit chaque joueur au début de la partie ?",
+    options: ["18", "19", "20", "21"],
+    answer: "21",
+  },
+  {
+    numéro: "6/20",
+    question: "Dans quel jeu de société les joueurs doivent-ils deviner qui est l'Assassin parmi eux sans se faire démasquer ?",
+    options: ["Les Loups-Garous de Thiercelieux", "Codenames", "Time's Up", "Secret Hitler"],
+    answer: "Les Loups-Garous de Thiercelieux",
+  },
+  {
+    numéro: "7/20",
+    question: "Combien de dés utilise-t-on dans une partie de 'Yahtzee' (Yams) ?",
+    options: ["3 dés", "4 dés", "5 dés", "6 dés"],
+    answer: "5 dés",
+  },
+  {
+    numéro: "8/20",
+    question: "Dans le jeu 'Trivial Pursuit', quelle couleur de camembert correspond aux questions de géographie ?",
+    options: ["Bleu", "Jaune", "Vert", "Rose"],
+    answer: "Bleu",
+  },
+  {
+    numéro: "9/20",
+    question: "Dans le jeu Cluedo, qui est le coupable du meurtre dans la version classique du jeu ?",
+    options: ["Mademoiselle Rose", "Colonel Moutarde", "Docteur Lenoir", "Monsieur Olive"],
+    answer: "Colonel Moutarde",
+  },
+  {
+    numéro: "10/20",
+    question: "Dans le jeu 6 qui prend, combien de cartes maximum peut-on avoir en main à la fin d'une manche ?",
+    options: ["4 cartes", "6 cartes", "10 cartes", "Aucune limite"],
+    answer: "10 cartes",
+  },
+  {
+    numéro: "11/20",
+    question: "Dans 'Puissance 4', combien de jetons doit-on aligner pour gagner la partie ?",
+    options: ["2", "3", "4", "5"],
+    answer: "4",
+  },
+  {
+    numéro: "12/20",
+    question: "Quel jeu de société nécessite que les joueurs devinent des mots à partir d'illustrations énigmatiques ?",
+    options: ["Dixit", "Codenames", "Time's Up", "Taboo"],
+    answer: "Dixit",
+  },
+  {
+    numéro: "13/20",
+    question: "Dans quel jeu de société les joueurs doivent-ils collaborer pour sauver l'humanité d'une pandémie ?",
+    options: ["Pandemic", "Puissance 4", "Risk", "Les Aventuriers du Rail"],
+    answer: "Pandemic",
+  },
+  {
+    numéro: "14/20",
+    question: "Dans 'Time's Up', quels types de cartes sont utilisés pour faire deviner des célébrités ?",
+    options: ["Mots", "Images", "Objets", "Sons"],
+    answer: "Mots",
+  },
+  {
+    numéro: "15/20",
+    question: "Dans 'Codenames', quel est le rôle du maître-espion ?",
+    options: ["Faire deviner les mots", "Donner des indices", "Déchiffrer les codes", "Contrer les adversaires"],
+    answer: "Faire deviner les mots",
+  },
+  {
+    numéro: "16/20",
+    question: "Dans le jeu Rummikub, combien de jetons faut-il avoir pour pouvoir poser une combinaison de tuiles pour la première fois ?",
+    options: ["3 jetons minimum", "5 jetons minimum", "7 jetons minimum", "9 jetons minimum"],
+    answer: "3 jetons minimum",
+  },
+  {
+    numéro: "17/20",
+    question: "Dans le jeu Uno, quelle carte permet de forcer le joueur suivant à piocher des cartes et à passer son tour ?",
+    options: ["Carte +2", "Carte Joker", "Carte Inversion", "Carte 2"],
+    answer: "Carte +2",
+  },
+  {
+    numéro: "18/20",
+    question: "Dans le jeu Uno Flip, quelle est la particularité de la carte Flip ?",
+    options: [
+      "Elle oblige à utiliser l'autre côté des cartes en main",
+      "Elle oblige à retourner les cartes joker",
+      "Elle est blanche",
+      "Elle a un carré dessiné au milieu "
+    ],
+    answer: "Elle oblige à utiliser l'autre côté des cartes en main",
+  },
+  {
+    numéro: "19/20",
+    question: "Dans le jeu Crack List, comment gagne-t-on une manche ?",
+    options: [
+      "En posant sa dernière carte",
+      "En collectant le plus de points",
+      "En complétant une liste entière",
+      "En battant tous les autres joueurs dans un duel"
+    ],
+    answer: "En posant sa dernière carte",
+  },
+  {
+    numéro: "20/20",
+    question: "Quel jeu d'adresse demande aux joueurs d'empiler des pièces en bois sans faire tomber la tour ?",
+    options: ["Tac Tik", "Jenga", "Jungle speed", "Goki Solitaire"],
+    answer: "Jenga",
+  }
+];
+
 
 
 
@@ -3305,6 +3566,7 @@ const questionsJeuxVideo = [
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
 shuffleQuestionsOptions(questionsJeuxVideo);
+shuffleQuestionsOptions(questionsActivitesPleinAir);
 shuffleQuestionsOptions(questionsJoueursFoot);
 shuffleQuestionsOptions(questionsCodeDeLaRoute);
 shuffleQuestionsOptions(questionsDrapeaux);
@@ -3323,6 +3585,7 @@ shuffleQuestionsOptions(questionsGeographie);
 shuffleQuestionsOptions(questionsOrthographe);
 shuffleQuestionsOptions(questionsSport);
 shuffleQuestionsOptions(questionsCinema);
+shuffleQuestionsOptions(questionsJeuxDeSociete);
 shuffleQuestionsOptions(questionsPrincessesDisney);
 
 // Éléments DOM
@@ -3331,6 +3594,7 @@ const quizContainer = document.getElementById("quiz-container");
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
 const themeActeursActricesBtn = document.getElementById("theme-acteursActrices");
+const themeActivitesPleinAirBtn = document.getElementById("theme-activitesPleinAir");
 const themeJeuxVideoBtn = document.getElementById("theme-jeuxVideo");
 const themeJoueursFootBtn = document.getElementById("theme-joueursFoot");
 const themeHorreurBtn = document.getElementById("theme-horreur");
@@ -3346,6 +3610,7 @@ const themeDessinsBtn = document.getElementById("theme-dessins");
 const themeSeriesBtn = document.getElementById("theme-series");
 const themeCuisineBtn = document.getElementById("theme-cuisine");
 const themeHarryBtn = document.getElementById("theme-harry");
+const themeJeuxDeSocieteBtn = document.getElementById("theme-jeuxDeSociete");
 const themeGeographieBtn = document.getElementById("theme-geographie");
 const themeOrthographeBtn = document.getElementById("theme-orthographe");
 const themePrincessesDisneyBtn = document.getElementById("theme-princessesDisney");
@@ -3384,6 +3649,16 @@ themeCultureBtn.addEventListener("click", () => {
 themeActeursActricesBtn.addEventListener("click", () => {
   selectedTheme = "Actrices/Acteurs";
   startQuiz(questionsActeursActrices);
+});
+
+themeJeuxDeSocieteBtn.addEventListener("click", () => {
+  selectedTheme = "Jeux de société";
+  startQuiz(questionsJeuxDeSociete);
+});
+
+themeActivitesPleinAirBtn.addEventListener("click", () => {
+  selectedTheme = "Activités de plein air";
+  startQuiz(questionsActivitesPleinAir);
 });
 
 themeTimBurtonBtn.addEventListener("click", () => {
