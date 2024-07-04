@@ -4122,7 +4122,7 @@ const questionsBandesOriginalesFilms = [
   },
   {
     numéro: "12/20",
-    question: "Quelle chanson de film, interprétée par Whitney Houston et Mariah Carey, est devenue un succès grâce au film 'Le Prince de Bel-Air' en 1997 ?",
+    question: "Quelle chanson de film, interprétée par Whitney Houston et Mariah Carey, est devenue un succès grâce au film 'Le Prince d'Egypte' en 1998 ?",
     options: ["Exhale (Shoop Shoop)", "My Love Is Your Love", "When You Believe", "I Will Always Love You"],
     answer: "When You Believe",
   },
@@ -4598,15 +4598,15 @@ const questionsEcosystemesHabitats = [
   },
   {
     numéro: "8/20",
-    question: "Dans quel écosystème se trouve le plus grand désert chaud du monde, le Sahara ?",
-    options: ["Désert", "Forêt tropicale", "Toundra", "Savane"],
-    answer: "Désert",
+    question: "Dans quel habitat vivent les ours bruns ?",
+    options: ["Banquise", "Forêt tempérée", "Désert", "Montagne"],
+    answer: "Forêt tempérée",
   },
   {
     numéro: "9/20",
-    question: "Quel est le principal habitat des pingouins empereurs en Antarctique ?",
-    options: ["Toundra", "Forêt de pins", "Forêt de mangrove", "Banquise"],
-    answer: "Banquise",
+    question: "Quel est l'habitat principal des léopards des neiges ?",
+    options: ["Banquise", "Forêt tropicale", "Montagne", "Désert"],
+    answer: "Montagne",
   },
   {
     numéro: "10/20",
@@ -4628,9 +4628,9 @@ const questionsEcosystemesHabitats = [
   },
   {
     numéro: "13/20",
-    question: "Quel type d'écosystème est principalement composé de vastes étendues d'herbes hautes et de quelques arbres dispersés ?",
-    options: ["Désert", "Toundra", "Savane", "Taïga"],
-    answer: "Savane",
+    question: "Où habitent principalement les crocodiles ?",
+    options: ["Rivière", "Océan", "Marais", "Désert"],
+    answer: "Marais",
   },
   {
     numéro: "14/20",
@@ -4640,9 +4640,9 @@ const questionsEcosystemesHabitats = [
   },
   {
     numéro: "15/20",
-    question: "Quel est le principal habitat des tigres du Bengale en Asie ?",
-    options: ["Forêt de mangrove", "Savane", "Toundra", "Forêt tropicale"],
-    answer: "Forêt tropicale",
+    question: "Où trouve-t-on les iguanes ?",
+    options: ["Désert", "Jungle", "Montagne", "Îles rocheuses"],
+    answer: "Îles rocheuses",
   },
   {
     numéro: "16/20",
@@ -4653,20 +4653,20 @@ const questionsEcosystemesHabitats = [
   {
     numéro: "17/20",
     question: "Quel est l'habitat principal des manchots en Antarctique ?",
-    options: ["Banquise", "Forêt de bambous", "Forêt d'eucalyptus", "Toundra"],
+    options: ["Banquise", "Forêt de bambous", "Lac", "Toundra"],
     answer: "Banquise",
   },
   {
     numéro: "18/20",
-    question: "Quel écosystème est caractérisé par une végétation dense adaptée à des précipitations abondantes et des températures modérées ?",
-    options: ["Toundra", "Forêt tropicale", "Désert", "Taïga"],
-    answer: "Forêt tropicale",
+    question: "Quel est l'habitat naturel des hippopotames ?",
+    options: ["Savane", "Forêt tropicale", "Désert", "Rivière et lac"],
+    answer: "Rivière et lac",
   },
   {
     numéro: "19/20",
-    question: "Dans quel écosystème se trouvent les éléphants d'Asie ?",
-    options: ["Savane", "Forêt de conifères", "Forêt de mangrove", "Forêt tropicale"],
-    answer: "Forêt de mangrove",
+    question: "Où vivent généralement les pandas roux ?",
+    options: ["Forêt tropicale", "Toundra", "Montagnes boisées", "Désert"],
+    answer: "Montagnes boisées",
   },
   {
     numéro: "20/20",
@@ -5440,8 +5440,8 @@ const questionsAnnees80 = [
   },
   {
     numéro: "4/20",
-    question: "Quel artiste a sorti 'Nuit de folie' avec le groupe Début de Soirée en 1988, un tube de la musique dance française ?",
-    options: ["Jean-Pierre Mader", "Jean-Luc Lahaye", "Patrick Hernandez", "Gérard Blanc"],
+    question: "Quel groupe a sorti 'Nuit de folie' en 1988, un tube de la musique dance française ?",
+    options: ["Jean-Pierre Mader", "Jean-Luc Lahaye", "Début de Soirée", "Gérard Blanc"],
     answer: "Début de Soirée",
   },
   {
@@ -5512,15 +5512,15 @@ const questionsAnnees80 = [
   },
   {
     numéro: "16/20",
-    question: "Quel artiste a sorti 'Nuit de folie' avec le groupe Début de Soirée en 1988, un tube de la musique dance française ?",
+    question: "Quel artiste français est connu pour la chanson 'Papa chanteur' sortie en 1982 ?",
     options: ["Jean-Pierre Mader", "Jean-Luc Lahaye", "Patrick Hernandez", "Gérard Blanc"],
-    answer: "Début de Soirée",
+    answer: "Jean-Luc Lahaye",
   },
   {
     numéro: "17/20",
-    question: "Quelle chanson de Mylène Farmer est sortie en 1986, marquant le début de sa carrière solo ?",
+    question: "Quelle chanson de Mylène Farmer est sortie en 1987, marquant le début de sa carrière solo ?",
     options: ["Désenchantée", "Libertine", "Sans contrefaçon", "Maman a tort"],
-    answer: "Libertine",
+    answer: "Sans contrefaçon",
   },
   {
     numéro: "18/20",
@@ -5624,9 +5624,9 @@ const questionsInstruments = [
   },
   {
     numéro: "14/20",
-    question: "Quel instrument à cordes frottées est associé à la musique classique occidentale et a quatre cordes accordées en quintes ?",
+    question: "Quel instrument à cordes frottées est plus grand que le violon et plus petit que la contrebasse, souvent utilisé en musique classique pour jouer des lignes mélodiques et des parties d'accompagnement ?",
     options: ["Violoncelle", "Alto", "Contrebasse", "Violon"],
-    answer: "Violon",
+    answer: "Violoncelle",
   },
   {
     numéro: "15/20",
