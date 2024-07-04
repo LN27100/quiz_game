@@ -3986,13 +3986,13 @@ const questionsPersonnagesDisney = [
   },
   {
     numéro: "10/20",
-    question: "Quelle est la couleur du personnage "/Envie/" dans Vice-Versa 2?",
+    question: "Quelle est la couleur du personnage Envie dans Vice-Versa 2?",
     options: ["Turquoise", "Bleu", "Vert", "Rose"],
     answer: "Turquoise",
   },
   {
     numéro: "11/20",
-    question: "Quel est le nom du vaillant "/guerrier/" chinois qui se déguise en homme pour combattre à la place de son père malade dans le film 'Mulan' ?",
+    question: "Quel est le nom du vaillant guerrier chinois qui se déguise en homme pour combattre à la place de son père malade dans le film 'Mulan' ?",
     options: ["Mulan", "Shang", "Cri-Kee", "Mushu"],
     answer: "Mulan",
   },
