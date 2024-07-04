@@ -3482,7 +3482,7 @@ const questionsJeuxDeSociete = [
   },
   {
     numéro: "10/20",
-    question: "Dans le jeu 6 qui prend, combien de cartes maximum peut-on avoir en main à la fin d'une manche ?",
+    question: "Dans le jeu 6 qui prend, combien de cartes maximum peut-on avoir en main à la fin d'une des manches ?",
     options: ["4 cartes", "6 cartes", "10 cartes", "Aucune limite"],
     answer: "10 cartes",
   },
@@ -3518,7 +3518,7 @@ const questionsJeuxDeSociete = [
   },
   {
     numéro: "16/20",
-    question: "Dans le jeu Rummikub, combien de jetons faut-il avoir pour pouvoir poser une combinaison de tuiles pour la première fois ?",
+    question: "Dans le jeu Rummikub, combien de jetons faut-il poser pour avoir une combinaison de tuiles correcte au premier tour ?",
     options: ["3 jetons minimum", "5 jetons minimum", "7 jetons minimum", "9 jetons minimum"],
     answer: "3 jetons minimum",
   },
@@ -3603,15 +3603,15 @@ const questionsSportsMoteur = [
   },
   {
     numéro: "8/20",
-    question: "Quel est le nom du sport à moteur où les participants conduisent des véhicules tout-terrain sur des parcours variés comprenant des chemins boueux, des collines escarpées et des obstacles naturels ?",
+    question: "Quel est le nom de la compétition où les participants conduisent des véhicules tout-terrain sur des parcours variés comprenant des chemins boueux, des collines escarpées et des obstacles naturels ?",
     options: ["Rallye", "Enduro", "Motocross", "Baja 1000"],
     answer: "Enduro",
   },
   {
-    numéro: "9/20",
-    question: "Quelle est la catégorie de course de voiture la plus célèbre aux États-Unis, caractérisée par des courses ovales et la participation de voitures stock de série ?",
-    options: ["NASCAR", "Formule 1", "IndyCar", "WRC"],
-    answer: "NASCAR",
+    "numéro": "10/20",
+    "question": "Quelle est la compétition internationale de rallye la plus prestigieuse, où les pilotes s'affrontent sur des surfaces variées allant de la terre à la neige en passant par l'asphalte ?",
+    "options": ["NASCAR", "Formule 1", "IndyCar", "World Rally Championship (WRC)"],
+    "answer": "World Rally Championship (WRC)"
   },
   {
     numéro: "10/20",
@@ -3696,113 +3696,113 @@ const questionsMusiqueFilmsDisney = [
     answer: "Let It Go",
   },
   {
-    numéro: "3/20",
-    question: "Quelle chanson du film 'Aladdin' est chantée par le personnage du Génie et est souvent associée à ses pouvoirs magiques ?",
-    options: ["Prince Ali", "A Whole New World", "Friend Like Me", "Arabian Nights"],
-    answer: "Friend Like Me",
+    "numéro": "3/20",
+    "question": "Quelle chanson du film 'Aladdin' est chantée par le personnage du Génie et est souvent associée à ses pouvoirs magiques ?",
+    "options": ["Prince Ali", "Ce Rêve Bleu", "Je Suis Ton Meilleur Ami", "Nuits d'Arabie"],
+    "answer": "Je Suis Ton Meilleur Ami"
   },
   {
-    numéro: "4/20",
-    question: "Quelle chanson du film 'La Belle et la Bête' est chantée par Lumière, Big Ben et les autres personnages pour accueillir Belle au château ?",
-    options: ["Beauty and the Beast", "Be Our Guest", "Something There", "Belle"],
-    answer: "Be Our Guest",
-  },
-  {
-    numéro: "5/20",
-    question: "Quelle chanson du film 'Pocahontas' a remporté l'Oscar de la meilleure chanson originale en 1996 ?",
-    options: ["Just Around the Riverbend", "Colors of the Wind", "Steady as the Beating Drum", "Savages"],
-    answer: "Colors of the Wind",
-  },
-  {
-    numéro: "6/20",
-    question: "Quelle chanson du film 'Mary Poppins' a remporté l'Oscar de la meilleure chanson originale en 1965 ?",
-    options: ["Supercalifragilisticexpialidocious", "A Spoonful of Sugar", "Chim Chim Cher-ee", "Let's Go Fly a Kite"],
-    answer: "Chim Chim Cher-ee",
-  },
-  {
-    numéro: "7/20",
-    question: "Quelle chanson du film 'Mulan' est chantée par Mulan lorsqu'elle décide de se déguiser en homme et de partir à la guerre à la place de son père ?",
-    options: ["Reflection", "I'll Make a Man Out of You", "Honor to Us All", "A Girl Worth Fighting For"],
-    answer: "Reflection",
-  },
-  {
-    numéro: "8/20",
-    question: "Quelle chanson du film 'Coco' a remporté l'Oscar de la meilleure chanson originale en 2018 ?",
-    options: ["Un Poco Loco", "Remember Me", "The World Es Mi Familia", "La Llorona"],
-    answer: "Remember Me",
-  },
-  {
-    numéro: "9/20",
-    question: "Quelle chanson du film 'Hercule' est chantée par les Muses pour raconter les exploits du héros ?",
-    options: ["Go the Distance", "Zero to Hero", "I Won't Say (I'm in Love)", "The Gospel Truth"],
-    answer: "Zero to Hero",
-  },
-  {
-    numéro: "10/20",
-    question: "Quelle chanson du film 'La Petite Sirène' est chantée par Ariel pour exprimer son désir de découvrir le monde des humains ?",
-    options: ["Under the Sea", "Kiss the Girl", "Part of Your World", "Poor Unfortunate Souls"],
-    answer: "Part of Your World",
-  },
-  {
-    numéro: "11/20",
-    question: "Quelle chanson du film 'Tarzan' est chantée par Phil Collins et a été nominée pour l'Oscar de la meilleure chanson originale en 2000 ?",
-    options: ["You'll Be in My Heart", "Strangers Like Me", "Son of Man", "Two Worlds"],
-    answer: "You'll Be in My Heart",
-  },
-  {
-    numéro: "12/20",
-    question: "Quelle chanson du film 'La Belle au Bois Dormant' est chantée par Maléfique lorsqu'elle jette un sort à la princesse Aurore ?",
-    options: ["Once Upon a Dream", "I Wonder", "Skumps", "A Dream Is a Wish Your Heart Makes"],
-    answer: "Once Upon a Dream",
-  },
-  {
-    numéro: "13/20",
-    question: "Quelle chanson du film 'Les Aristochats' est chantée par la célèbre Duchesse et ses chatons ?",
-    options: ["Everybody Wants to Be a Cat", "The Aristocats", "Scales and Arpeggios", "Thomas O'Malley Cat"],
-    answer: "Everybody Wants to Be a Cat",
-  },
-  {
-    numéro: "14/20",
-    question: "Quelle chanson du film 'Le Livre de la Jungle' est chantée par Baloo pour enseigner la philosophie de la vie à Mowgli ?",
-    options: ["Colonel Hathi's March", "I Wan'na Be Like You", "The Bare Necessities", "Trust in Me"],
-    answer: "The Bare Necessities",
-  },
-  {
-    numéro: "15/20",
-    question: "Quelle chanson du film 'La Princesse et la Grenouille' est chantée par le personnage de Ray, la luciole ?",
-    options: ["Almost There", "Down in New Orleans", "Friends on the Other Side", "Ma Belle Evangeline"],
-    answer: "Ma Belle Evangeline",
-  },
-  {
-    numéro: "16/20",
-    question: "Quelle chanson du film 'Raiponce' est chantée par Raiponce lorsqu'elle exprime son désir de voir les lanternes flottantes ?",
-    options: ["When Will My Life Begin", "Mother Knows Best", "I See the Light", "Healing Incantation"],
-    answer: "I See the Light",
-  },
-  {
-    numéro: "17/20",
-    question: "Quelle chanson du film 'Mulan' est chantée par les soldats chinois pour exprimer leur détermination à défendre leur pays ?",
-    options: ["Reflection", "Honor to Us All", "I'll Make a Man Out of You", "A Girl Worth Fighting For"],
-    answer: "I'll Make a Man Out of You",
-  },
-  {
-    numéro: "18/20",
-    question: "Quelle chanson du film 'Frozen' est chantée par Elsa lorsque ses pouvoirs de glace sont révélés au royaume d'Arendelle ?",
-    options: ["For the First Time in Forever", "Let It Go", "Love Is an Open Door", "Do You Want to Build a Snowman?"],
-    answer: "Let It Go",
-  },
-  {
-    numéro: "19/20",
-    question: "Quelle chanson du film 'Vaiana' est chantée par le personnage de Maui, le demi-dieu, pour vanter ses exploits ?",
-    options: ["We Know the Way", "How Far I'll Go", "You're Welcome", "I Am Moana (Song of the Ancestors)"],
-    answer: "You're Welcome",
-  },
-  {
-    numéro: "20/20",
-    question: "Quelle chanson du film 'Toy Story' est chantée par Randy Newman et a été nominée pour l'Oscar de la meilleure chanson originale en 1996 ?",
-    options: ["Strange Things", "You've Got a Friend in Me", "When She Loved Me", "We Belong Together"],
-    answer: "You've Got a Friend in Me",
-  },
+    "numéro": "4/20",
+    "question": "Quelle chanson du film 'La Belle et la Bête' est chantée par Lumière, Big Ben et les autres personnages pour accueillir Belle au château ?",
+    "options": ["Beauty and the Beast", "C'est la fête", "Something There", "Belle"],
+    "answer": "C'est la fête"
+},
+{
+    "numéro": "5/20",
+    "question": "Quelle chanson du film 'Pocahontas' a remporté l'Oscar de la meilleure chanson originale en 1996 ?",
+    "options": ["Just Around the Riverbend", "Colors of the Wind", "Steady as the Beating Drum", "Savages"],
+    "answer": "Colors of the Wind"
+},
+{
+    "numéro": "6/20",
+    "question": "Quelle chanson du film 'Mary Poppins' a remporté l'Oscar de la meilleure chanson originale en 1965 ?",
+    "options": ["Supercalifragilisticexpialidocious", "A Spoonful of Sugar", "Chim Chim Cher-ee", "Let's Go Fly a Kite"],
+    "answer": "Chim Chim Cher-ee"
+},
+{
+    "numéro": "7/20",
+    "question": "Quelle chanson du film 'Mulan' est chantée par Mulan lorsqu'elle décide de se déguiser en homme et de partir à la guerre à la place de son père ?",
+    "options": ["Reflection", "Comme un homme", "Honor to Us All", "A Girl Worth Fighting For"],
+    "answer": "Reflection"
+},
+{
+    "numéro": "8/20",
+    "question": "Quelle chanson du film 'Coco' a remporté l'Oscar de la meilleure chanson originale en 2018 ?",
+    "options": ["Un Poco Loco", "Remember Me", "The World Es Mi Familia", "La Llorona"],
+    "answer": "Remember Me"
+},
+{
+    "numéro": "9/20",
+    "question": "Quelle chanson du film 'Hercule' est chantée par les Muses pour raconter les exploits du héros ?",
+    "options": ["Go the Distance", "De Zéro en Héros", "I Won't Say (I'm in Love)", "The Gospel Truth"],
+    "answer": "De Zéro en Héros"
+},
+{
+    "numéro": "10/20",
+    "question": "Quelle chanson du film 'La Petite Sirène' est chantée par Ariel pour exprimer son désir de découvrir le monde des humains ?",
+    "options": ["Sous l'océan", "Embrasse-la", "Partir là-bas", "Les Poissons"],
+    "answer": "Partir là-bas"
+},
+{
+    "numéro": "11/20",
+    "question": "Quelle chanson du film 'Tarzan' est chantée par Phil Collins et a été nominée pour l'Oscar de la meilleure chanson originale en 2000 ?",
+    "options": ["You'll Be in My Heart", "Strangers Like Me", "Son of Man", "Two Worlds"],
+    "answer": "You'll Be in My Heart"
+},
+{
+    "numéro": "12/20",
+    "question": "Quelle chanson du film 'La Belle au Bois Dormant' est chantée par Maléfique lorsqu'elle jette un sort à la princesse Aurore ?",
+    "options": ["Once Upon a Dream", "I Wonder", "Skumps", "A Dream Is a Wish Your Heart Makes"],
+    "answer": "Once Upon a Dream"
+},
+{
+    "numéro": "13/20",
+    "question": "Quelle chanson du film 'Les Aristochats' est chantée par la célèbre Duchesse et ses chatons ?",
+    "options": ["Tout le monde veut devenir un cat", "The Aristocats", "Scales and Arpeggios", "Thomas O'Malley Cat"],
+    "answer": "Tout le monde veut devenir un cat"
+},
+{
+    "numéro": "14/20",
+    "question": "Quelle chanson du film 'Le Livre de la Jungle' est chantée par Baloo pour enseigner la philosophie de la vie à Mowgli ?",
+    "options": ["Colonel Hathi's March", "Je voudrais être comme vous", "Il en faut peu pour être heureux", "Aie Confiance"],
+    "answer": "Il en faut peu pour être heureux"
+},
+{
+    "numéro": "15/20",
+    "question": "Quelle chanson du film 'La Princesse et la Grenouille' est chantée par le personnage de Ray, la luciole ?",
+    "options": ["Almost There", "Down in New Orleans", "Friends on the Other Side", "Ma Belle Evangeline"],
+    "answer": "Ma Belle Evangeline"
+},
+{
+    "numéro": "16/20",
+    "question": "Quelle chanson du film 'Raiponce' est chantée par Raiponce lorsqu'elle exprime son désir de voir les lanternes flottantes ?",
+    "options": ["Quand est-ce que ma vie commence ?", "Mother Knows Best", "Je veux y croire", "Healing Incantation"],
+    "answer": "Je veux y croire"
+},
+{
+    "numéro": "17/20",
+    "question": "Quelle chanson du film 'Mulan' est chantée par les soldats chinois pour exprimer leur détermination à défendre leur pays ?",
+    "options": ["Reflection", "Honor to Us All", "Comme un homme", "A Girl Worth Fighting For"],
+    "answer": "Comme un homme"
+},
+{
+    "numéro": "18/20",
+    "question": "Quelle chanson du film 'La Reine des Neiges' est chantée par Elsa lorsque ses pouvoirs de glace sont révélés au royaume d'Arendelle ?",
+    "options": ["Le Renouveau", "Libérée, délivrée", "L'Amour est un cadeau", "Do You Want to Build a Snowman?"],
+    "answer": "Libérée, délivrée"
+},
+{
+    "numéro": "19/20",
+    "question": "Quelle chanson du film 'Vaiana' est chantée par le personnage de Maui, le demi-dieu, pour vanter ses exploits ?",
+    "options": ["On connaît la chanson", "Le Bleu Lumière", "You're Welcome", "I Am Moana (Song of the Ancestors)"],
+    "answer": "You're Welcome"
+},
+{
+    "numéro": "20/20",
+    "question": "Quelle chanson du film 'Toy Story' est chantée par Randy Newman et a été nominée pour l'Oscar de la meilleure chanson originale en 1996 ?",
+    "options": ["Strange Things", "Je suis ton ami", "When She Loved Me", "We Belong Together"],
+    "answer": "Je suis ton ami"
+}
 ];
 
 
@@ -3840,13 +3840,13 @@ const questionsDessinsAnimesDisney = [
   {
     numéro: "6/20",
     question: "Quel est le titre du film Disney où des animaux de la savane africaine sont représentés dans une histoire épique de trahison et de courage ?",
-    options: ["Le Roi Lion", "Bambi", "Dumbo", "Robin des Bois"],
+    options: ["Le Roi Lion", "Bambi", "Madagascar", "Robin des Bois"],
     answer: "Le Roi Lion",
   },
   {
     numéro: "7/20",
-    question: "Quel est le nom du film Disney où un jeune génie trouve une lampe magique contenant un puissant génie capable d'accorder des souhaits ?",
-    options: ["Aladdin", "Mulan", "Hercule", "Tarzan"],
+    question: "Quel est le nom du film Disney où un jeune prince trouve une lampe magique contenant un puissant génie capable d'accorder des souhaits ?",
+    options: ["Aladdin", "Charmant", "Hercule", "Tarzan"],
     answer: "Aladdin",
   },
   {
@@ -3863,14 +3863,14 @@ const questionsDessinsAnimesDisney = [
   },
   {
     numéro: "10/20",
-    question: "Quel est le nom du film Disney où une jeune femme courageuse part à la recherche de ses sœurs gelées et apprend à maîtriser ses pouvoirs de glace ?",
+    question: "Quel est le nom du film Disney où une jeune femme courageuse part à la recherche de sa sœur gelée et apprend à maîtriser ses pouvoirs de glace ?",
     options: ["La Reine des Neiges", "Vaiana, la Légende du Bout du Monde", "La Princesse et la Grenouille", "Mulan"],
     answer: "La Reine des Neiges",
   },
   {
     numéro: "11/20",
     question: "Quel est le titre du film Disney où une jeune princesse hawaïenne part à l'aventure pour restaurer le cœur d'une déesse et sauver son île ?",
-    options: ["Raiponce", "Vaiana, la Légende du Bout du Monde", "Lilo & Stitch", "Le Monde de Nemo"],
+    options: ["Wish", "Vaiana, la Légende du Bout du Monde", "Lilo & Stitch", "Encanto"],
     answer: "Vaiana, la Légende du Bout du Monde",
   },
   {
@@ -3881,19 +3881,19 @@ const questionsDessinsAnimesDisney = [
   },
   {
     numéro: "13/20",
-    question: "Quel est le nom du film Disney où un jeune garçon, accompagné de ses amis animaux, cherche à retrouver son père disparu en Amazonie ?",
+    question: "Quel est le nom du film Disney où un jeune Indien, avide de vengeance, se lance à la poursuite d'un grizzly qui a tué son frère ?",
     options: ["Tarzan", "Bernard et Bianca au pays des kangourous", "Frère des ours", "Le Monde de Nemo"],
     answer: "Frère des ours",
   },
   {
     numéro: "14/20",
-    question: "Quel est le titre du film Disney où une jeune fille découvre qu'elle est la descendante d'une ancienne lignée royale et qu'elle doit protéger son royaume ?",
+    question: " Dans quel film d'animation de Disney, une jeune femme passionnée de cuisine rêve-t-elle d'ouvrir son propre restaurant et travaille-t-elle dur pour atteindre son objectif malgré les obstacles ?",
     options: ["Atlantide, l'empire perdu", "La Princesse et la Grenouille", "Enchanted", "Mulan"],
     answer: "La Princesse et la Grenouille",
   },
   {
     numéro: "15/20",
-    question: "Dans quel film Disney les personnages principaux vivent-ils une aventure musicale dans les rues de Paris, accompagnés d'une célèbre souris détective ?",
+    question: "Dans quel film Disney les personnages principaux vivent-ils une aventure musicale dans les rues de Paris ?",
     options: ["Oliver et Compagnie", "Rox et Rouky", "Les Aventures de Bernard et Bianca", "Le Bossu de Notre-Dame"],
     answer: "Le Bossu de Notre-Dame",
   },
@@ -3911,9 +3911,9 @@ const questionsDessinsAnimesDisney = [
   },
   {
     numéro: "18/20",
-    question: "Dans quel film Disney un jeune garçon s'aventure-t-il dans la forêt pour rencontrer une grande créature poilue et devient son ami ?",
+    question: "Dans quel film Disney un jeune garçon est élevé par des loups après avoir été abandonné par ses parents ?",
     options: ["Lilo & Stitch", "Tarzan", "Le Livre de la Jungle", "Peter Pan"],
-    answer: "Peter Pan",
+    answer: "Le Livre de la Jungle",
   },
   {
     numéro: "19/20",
@@ -3923,8 +3923,8 @@ const questionsDessinsAnimesDisney = [
   },
   {
     numéro: "20/20",
-    question: "Quel est le titre du film Disney où un jeune garçon se retrouve coincé dans un monde peuplé de monstres et découvre qu'il est un prodige de l'épouvante ?",
-    options: ["Monstres et Cie", "Toy Story", "Les Indestructibles", "Le Monde de Nemo"],
+    question: "Dans quel film Disney une petite fille se retrouve coincée dans un monde peuplé de monstres ?",
+    options: ["Monstres et Cie", "Toy Story", "Les Indestructibles", "Monstres Academy"],
     answer: "Monstres et Cie",
   },
 ];
@@ -3944,9 +3944,9 @@ const questionsPersonnagesDisney = [
   },
   {
     numéro: "3/20",
-    question: "Quel est le nom du poisson clown courageux et aventureux, héros du film 'Le Monde de Nemo' ?",
+    question: "Quel est le nom du père du poisson clown courageux et aventureux ?",
     options: ["Marin", "Nemo", "Dory", "Crush"],
-    answer: "Nemo",
+    answer: "Marin",
   },
   {
     numéro: "4/20",
@@ -3968,31 +3968,31 @@ const questionsPersonnagesDisney = [
   },
   {
     numéro: "7/20",
-    question: "Quel est le nom de la sirène rêveuse et aventurière qui rêve de découvrir le monde des humains dans le film 'La Petite Sirène' ?",
-    options: ["Ursula", "Ariel", "Sebastien", "Triton"],
-    answer: "Ariel",
+    question: "Quel est le nom du protagoniste du film 'En Avant', un jeune elfe passionné de magie et d'aventure ?",
+    options: ["Barley", "Laurel", "Corey", "Wilden"],
+    answer: "Barley",
   },
   {
     numéro: "8/20",
-    question: "Quel est le nom du jouet cowboy qui devient le chef de file des jouets dans les films 'Toy Story' ?",
-    options: ["Woody", "Buzz l'Éclair", "Jessie", "Rex"],
-    answer: "Woody",
+    question: "Dans le film 'Encanto', quel est le nom de l'aînée de la famille Madrigal, qui a le pouvoir de contrôler les plantes ?",
+    options: ["Isabela", "Mirabel", "Abuela Alma", "Antonio"],
+    answer: "Isabela",
   },
   {
     numéro: "9/20",
-    question: "Quel est le nom du jouet astronaute qui devient un héros adoré des enfants dans les films 'Toy Story' ?",
-    options: ["Woody", "Buzz l'Éclair", "Jessie", "Rex"],
-    answer: "Buzz l'Éclair",
+    question: "Dans le film 'Luca', quel est le nom du meilleur ami de Luca, un jeune monstre marin audacieux ?",
+    options: ["Alberto", "Massimo", "Giulia", "Daniela"],
+    answer: "Alberto",
   },
   {
     numéro: "10/20",
-    question: "Quel est le nom du célèbre petit éléphant aux grandes oreilles qui apprend à voler avec l'aide d'une souris magique ?",
-    options: ["Dumbo", "Timothy", "Jumbo Jr.", "Trumpy"],
-    answer: "Dumbo",
+    question: "Quelle est la couleur du personnage "/Envie/" dans Vice-Versa 2?",
+    options: ["Turquoise", "Bleu", "Vert", "Rose"],
+    answer: "Turquoise",
   },
   {
     numéro: "11/20",
-    question: "Quel est le nom du vaillant guerrier chinois qui se déguise en homme pour combattre à la place de son père malade dans le film 'Mulan' ?",
+    question: "Quel est le nom du vaillant "/guerrier/" chinois qui se déguise en homme pour combattre à la place de son père malade dans le film 'Mulan' ?",
     options: ["Mulan", "Shang", "Cri-Kee", "Mushu"],
     answer: "Mulan",
   },
@@ -4004,15 +4004,15 @@ const questionsPersonnagesDisney = [
   },
   {
     numéro: "13/20",
-    question: "Quel est le nom du grand méchant sorcier, souvent accompagné de son fidèle corbeau, dans le film 'La Belle au Bois Dormant' ?",
+    question: "Quel est le nom du méchant, souvent accompagné de son fidèle corbeau, dans le film 'La Belle au Bois Dormant' ?",
     options: ["Jafar", "Gaston", "Maléfique", "Hades"],
     answer: "Maléfique",
   },
   {
     numéro: "14/20",
     question: "Quel est le nom de la célèbre petite souris verte qui est la meilleure amie de Cendrillon ?",
-    options: ["Gus", "Suzy", "Perla", "Jaq"],
-    answer: "Jaq",
+    options: ["Gus", "Suzy", "Perla", "Jac"],
+    answer: "Jac",
   },
   {
     numéro: "15/20",
@@ -4022,15 +4022,15 @@ const questionsPersonnagesDisney = [
   },
   {
     numéro: "16/20",
-    question: "Quel est le nom du célèbre dragon farceur qui devient l'ami de Mulan dans le film éponyme ?",
-    options: ["Mushu", "Khan", "Yao", "Ling"],
-    answer: "Mushu",
+    question: "Quel est le nom du général chinois respecté qui prend Mulan sous son aile malgré son identité secrète de femme ?",
+    options: ["Shang", "Chi-Fu", "Ling", "Yao"],
+    answer: "Shang",
   },
   {
     numéro: "17/20",
     question: "Quel est le nom de la gentille fée marraine qui aide Cendrillon à se rendre au bal dans un carrosse magique ?",
-    options: ["Fairy Godmother", "Flora", "Fauna", "Merryweather"],
-    answer: "Fairy Godmother",
+    options: ["Flora", "Pimprenelle", "Marraine la Bonne Fée", "Lucifer"],
+    answer: "Marraine la Bonne Fée",
   },
   {
     numéro: "18/20",
@@ -4040,9 +4040,9 @@ const questionsPersonnagesDisney = [
   },
   {
     numéro: "19/20",
-    question: "Quel est le nom du célèbre ours en peluche qui est le meilleur ami de Christopher Robin dans les histoires de Winnie l'Ourson ?",
-    options: ["Tigrou", "Porcinet", "Bourriquet", "Winnie l'Ourson"],
-    answer: "Winnie l'Ourson",
+    question: "Quel est le nom du célèbre ours en peluche qui est le meilleur ami de Christopher Robin ?",
+    options: ["Tigrou", "Porcinet", "Bourriquet", "Winnie"],
+    answer: "Winnie",
   },
   {
     numéro: "20/20",
@@ -4074,9 +4074,9 @@ const questionsBandesOriginalesFilms = [
   },
   {
     numéro: "4/20",
-    question: "Quelle chanson de film, interprétée par Idina Menzel, est devenue un phénomène mondial grâce au film 'La Reine des Neiges' en 2013 ?",
-    options: ["Love Is an Open Door", "For the First Time in Forever", "Let It Go", "Do You Want to Build a Snowman?"],
-    answer: "Let It Go",
+    question: "Quelle chanson de film, interprétée par Anaïs Delva, est devenue un phénomène mondial grâce au film 'La Reine des Neiges' en 2013 ?",
+    options: ["L'amour est un cadeau", "Le renouveau", "Libérée, délivrée", "Je voudrais un bonhomme de neige ?"],
+    answer: "Libérée, Délivrée",
   },
   {
     numéro: "5/20",
@@ -4087,8 +4087,8 @@ const questionsBandesOriginalesFilms = [
   {
     numéro: "6/20",
     question: "Quelle chanson de film, interprétée par Irene Cara, a remporté l'Oscar de la meilleure chanson originale en 1984 pour le film 'Flashdance' ?",
-    options: ["Flashdance... What a Feeling", "Maniac", "What a Feeling", "Flashdance"],
-    answer: "Flashdance... What a Feeling",
+    options: ["What a Feeling", "Maniac", "Fame", "Flashdance"],
+    answer: "What a Feeling",
   },
   {
     numéro: "7/20",
@@ -4110,9 +4110,9 @@ const questionsBandesOriginalesFilms = [
   },
   {
     numéro: "10/20",
-    question: "Quelle chanson de film, interprétée par Elton John, a été utilisée comme thème principal du film d'animation 'Le Roi Lion' en 1994 ?",
-    options: ["Circle of Life", "Can You Feel the Love Tonight", "Hakuna Matata", "The Lion Sleeps Tonight"],
-    answer: "Circle of Life",
+    question: "Pour quel film John Williams n'a t'il pas composé la BO?",
+    options: ["Jurrasic Park", "E.T", "Top Gun", "Star Wars"],
+    answer: "Top Gun",
   },
   {
     numéro: "11/20",
@@ -4146,9 +4146,9 @@ const questionsBandesOriginalesFilms = [
   },
   {
     numéro: "16/20",
-    question: "Quelle chanson de film, interprétée par Björk, a été nominée pour l'Oscar de la meilleure chanson originale en 2001 pour le film 'Dancer in the Dark' ?",
-    options: ["I've Seen It All", "Human Behaviour", "It's Oh So Quiet", "Army of Me"],
-    answer: "I've Seen It All",
+    question: "Quelle chanson de la bande originale du film 'Léon' est interprétée par Sting et a également été un succès en dehors du film ?",
+    options: ["Angel", "Fields of Gold", "Shape of my Heart", "Englishman in New York"],
+    answer: "Shape of my Heart",
   },
   {
     numéro: "17/20",
@@ -4164,15 +4164,15 @@ const questionsBandesOriginalesFilms = [
   },
   {
     numéro: "19/20",
-    question: "Quelle chanson de film, interprétée par Elvis Presley, a été utilisée comme thème musical du film 'Blue Hawaii' en 1961 ?",
-    options: ["Can't Help Falling in Love", "Love Me Tender", "Suspicious Minds", "Jailhouse Rock"],
-    answer: "Can't Help Falling in Love",
+    question: "Quelle chanson de la bande originale du film 'Léon' est interprétée par Massive Attack ?",
+    options: ["Angel", "Teardrop", "Two Ways Out", "Protection"],
+    answer: "Two Ways Out",
   },
   {
     numéro: "20/20",
-    question: "Quelle chanson de film, interprétée par Aerosmith, a été utilisée comme thème musical principal du film 'Armageddon' en 1998 ?",
-    options: ["I Don't Want to Miss a Thing", "Cryin'", "Dream On", "Sweet Emotion"],
-    answer: "I Don't Want to Miss a Thing",
+    question: "Quelle chanson de film, interprétée par Survivor, est devenue célèbre comme thème musical principal du film 'Rocky III' en 1982 ?",
+    options: ["Eye of the Tiger", "Gonna Fly Now", "Burning Heart", "No Easy Way Out"],
+    answer: "Eye of the Tiger",
   },
 ];
 
@@ -4204,45 +4204,45 @@ const questionsDragonBall = [
   },
   {
     numéro: "5/20",
-    question: "Qui est l'ennemi principal dans la saga Cell de Dragon Ball Z ?",
+    question: "De quel ennemi vient à bout Gohan avec l'aide de son père de l'au-delà dans Dragon Ball Z ?",
     options: ["Cell", "Freezer", "Buu", "Raditz"],
     answer: "Cell",
   },
   {
     numéro: "6/20",
-    question: "Quel est le nom du fils de Son Goku et de Chi-Chi ?",
-    options: ["Son Gohan", "Son Goten", "Trunks", "Krillin"],
-    answer: "Son Gohan",
+    question: "Quel est le nom du premier fils de Goku et de Chi-Chi ?",
+    options: ["Gohan", "Goten", "Trunks", "Krillin"],
+    answer: "Gohan",
   },
   {
     numéro: "7/20",
-    question: "Quel est le nom du meilleur ami de Son Goku, qui devient plus tard un Super Saiyan lui aussi ?",
+    question: "Quel est le nom du meilleur ami de Goku, qui se marie plus tard à un cyborg ?",
     options: ["Vegeta", "Piccolo", "Krilin", "Yamcha"],
     answer: "Krilin",
   },
   {
     numéro: "8/20",
-    question: "Quel est le nom de l'entraîneur de Son Goku dans sa jeunesse ?",
-    options: ["Maître Roshi", "Korin", "Mr. Popo", "Kami"],
-    answer: "Maître Roshi",
+    question: "Quel est le nom de naissance de Goku ?",
+    options: ["Kakarotto", "Korin", "Goku", "Kami"],
+    answer: "Kakarotto",
   },
   {
     numéro: "9/20",
-    question: "Quel est le nom de la technique spéciale de Son Goku qui lui permet de se déplacer très rapidement ?",
-    options: ["Kaioken", "Instant Transmission", "Solar Flare", "Spirit Bomb"],
-    answer: "Instant Transmission",
+    question: "Quel est le nom de la technique spéciale de Goku qui lui permet de se déplacer instantanément ?",
+    options: ["Le Kaioken", "Le Kaikai", "Le Solar Flare", "Le Kamehameha"],
+    answer: "Le Kaikai",
   },
   {
     numéro: "10/20",
-    question: "Quel est le nom de la planète d'origine de Vegeta et des Saiyans ?",
+    question: "Quel est le nom de la planète d'origine des Saiyans ?",
     options: ["Vegeta", "Namek", "Yardrat", "Vampa"],
     answer: "Vegeta",
   },
   {
     numéro: "11/20",
-    question: "Quel est le nom du robot créé par le Dr. Gero pour éliminer Son Goku ?",
-    options: ["Android 17", "Android 18", "Android 16", "Android 19"],
-    answer: "Android 16",
+    question: "Quel est le nom du robot créé initialement par le Dr. Gero pour éliminer Goku ?",
+    options: ["C17", "C18", "C16", "C19"],
+    answer: "C16",
   },
   {
     numéro: "12/20",
@@ -4252,13 +4252,13 @@ const questionsDragonBall = [
   },
   {
     numéro: "13/20",
-    question: "Quel est le nom de la technique de Son Goku qui implique la création d'une boule d'énergie géante qu'il lance sur ses ennemis ?",
-    options: ["Spirit Bomb", "Kamehameha", "Destruction Disk", "Special Beam Cannon"],
-    answer: "Spirit Bomb",
+    question: "Quel est le nom de la transformation de Gohan dans Dragon Ball Super Héros ?",
+    options: ["Gohan Beast", "Gohan SSJ2", "Ultimate Gohan", "Gohan guerrier intergalactique"],
+    answer: "Gohan Beast",
   },
   {
     numéro: "14/20",
-    question: "Quel est le nom de l'ennemi principal dans la saga Buu de Dragon Ball Z ?",
+    question: "Quel est le nom de l'ennemi rose dans Dragon Ball Z ?",
     options: ["Buu", "Freezer", "Cell", "Raditz"],
     answer: "Buu",
   },
@@ -4270,9 +4270,9 @@ const questionsDragonBall = [
   },
   {
     numéro: "16/20",
-    question: "Quel est le nom de l'armée de mercenaires dirigée par le commandant Red Ribbon, qui est une grande menace pour Son Goku ?",
-    options: ["Red Ribbon", "Capsule Corp", "Frieza Force", "Ginyu Force"],
-    answer: "Red Ribbon",
+    question: "Quel est le nom de l'entreprise du Dr Brief, père de Bulma ?",
+    options: ["Red Ribbon", "Capsule Corp", "Frieza Force", "Ginyu Corp"],
+    answer: "Capsule Corp",
   },
   {
     numéro: "17/20",
@@ -4294,9 +4294,9 @@ const questionsDragonBall = [
   },
   {
     numéro: "20/20",
-    question: "Quel est le nom du père de Vegeta, le roi de la planète Vegeta ?",
-    options: ["King Vegeta", "Bardock", "Paragus", "Nappa"],
-    answer: "King Vegeta",
+    question: "Quel est le nom de la fils de Gohan et Videl ?",
+    options: ["Pan", "Kale", "Marron", "Bra"],
+    answer: "Pan",
   },
 ];
 
