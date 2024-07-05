@@ -21,13 +21,14 @@ if (session_status() == PHP_SESSION_NONE) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Connexion - Quiz Game</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="../assets/style.css" />
 </head>
 
 <body>
 
   <header>
-  <nav class="navbar navbar-dark fixed-top navbar-expand-md">
+    <nav class="navbar navbar-dark fixed-top navbar-expand-md">
       <div class="container-fluid">
         <!-- Menu burger visible uniquement sur les écrans de taille md ou plus petite -->
         <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +44,7 @@ if (session_status() == PHP_SESSION_NONE) {
           </ul>
 
           <ul class="navbar-nav">
-          
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <?php echo $estConnecte ? $estConnecte : 'Connexion/Inscription'; ?>
@@ -52,7 +53,9 @@ if (session_status() == PHP_SESSION_NONE) {
                 <?php if ($estConnecte) : ?>
                   <li><a class="dropdown-item" href="../controllers/controller-profil.php">Mon Profil</a></li>
                   <li><a class="dropdown-item" href="../controllers/controller-results.php">Mes Résultats</a></li>
-                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
                   <li><a class="dropdown-item" href="../controllers/controller-signout.php">Déconnexion</a></li>
                 <?php else : ?>
                   <li><a class="dropdown-item" href="../controllers/controller-signin.php">Connexion</a></li>
@@ -89,10 +92,17 @@ if (session_status() == PHP_SESSION_NONE) {
               <label for="email" class="form-label">Adresse e-mail :</label>
               <input type="email" class="form-control" id="email" name="email" required autocomplete="email" value="<?= isset($email) ? htmlspecialchars($email) : '' ?>">
             </div>
+
             <div class="mb-3">
               <label for="login-password" class="form-label">Mot de passe</label>
-              <input type="password" class="form-control" id="login-password" name="mdp" required autocomplete="current-password">
+              <div class="password-toggle-wrapper">
+                <input type="password" class="form-control password-toggle-input" id="login-password" name="mdp" required autocomplete="current-password">
+                <span class="password-toggle-icon" onclick="togglePasswordVisibility()">
+                  <i class="bi bi-eye"></i>
+                </span>
+              </div>
             </div>
+
             <div class="d-grid">
               <button type="submit" class="button2">Connexion</button>
             </div>
@@ -115,8 +125,23 @@ if (session_status() == PHP_SESSION_NONE) {
         menu.classList.remove('show'); // Ferme le menu
       }
     });
+
+    function togglePasswordVisibility() {
+      const passwordInput = document.getElementById('login-password');
+      const passwordIcon = document.querySelector('.password-toggle-icon i');
+
+      if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+        passwordIcon.classList.remove('bi-eye');
+        passwordIcon.classList.add('bi-eye-slash');
+      } else {
+        passwordInput.type = 'password';
+        passwordIcon.classList.remove('bi-eye-slash');
+        passwordIcon.classList.add('bi-eye');
+      }
+    }
   </script>
-  
+
   <!-- Charger le fichier JavaScript -->
   <script src="../assets/quiz.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

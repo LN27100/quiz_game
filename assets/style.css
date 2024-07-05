@@ -535,6 +535,24 @@ h4 {
   font-style: italic;
 }
 
+.password-toggle-wrapper {
+  position: relative;
+}
+
+.password-toggle-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.password-toggle-input {
+  padding-right: 30px; 
+}
+
+
 /* PROFIL */
 
 h2 {
