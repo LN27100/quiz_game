@@ -6403,8 +6403,7 @@ themeSpidermanBtn.addEventListener("click", () => {
 });
 
 // Fonction pour démarrer le quiz avec les questions du thème sélectionné
-function startQuiz(selectedQuestions) {
-  // Réinitialiser l'état du quiz
+function startQuiz(selectedQuestions, selectedTheme) {
   questions = selectedQuestions;
   if (questions.length === 0) {
     alert("Aucune question disponible pour ce thème.");
@@ -6415,7 +6414,7 @@ function startQuiz(selectedQuestions) {
   quizContainer.classList.remove("hidden");
   resultContainer.classList.add("hidden");
   nextButton.classList.add("hidden");
-  showQuestion();
+  showQuestion(selectedTheme); // Passer le thème sélectionné à la fonction showQuestion
 }
 
 // Fonction pour initialiser le quiz
@@ -6425,7 +6424,7 @@ function initializeQuiz() {
 }
 
 // Fonction pour afficher la question courante
-function showQuestion() {
+function showQuestion(selectedTheme) {
   if (currentQuestionIndex >= questions.length) {
     showResult();
     return;
@@ -6436,24 +6435,20 @@ function showQuestion() {
   const questionTextElement = document.getElementById("question-text");
   const flagImageElement = document.getElementById("flag-image");
 
-  // Affiche le numéro de la question
   questionNumberElement.textContent = currentQuestion.numéro;
-
-  // Affiche le texte de la question
   questionTextElement.textContent = currentQuestion.question;
 
-   // Défini les thèmes qui nécessitent une image
-   const themesWithImages = ["Drapeaux", "Code de la route", "Joueurs de foot", "Marques et Logos"];
+  // Définir les thèmes qui nécessitent une image
+  const themesWithImages = ["Drapeaux", "Code de la route", "Joueurs de foot", "Marques et Logos"];
 
-   // Affiche l'image si le thème sélectionné est dans les thèmes avec images
-   if (themesWithImages.includes(selectedTheme)) {
-     flagImageElement.src = currentQuestion.image;
-     document.getElementById("image-container").style.display = "block";
-   } else {
-     flagImageElement.src = "";
-     document.getElementById("image-container").style.display = "none";
-   }
- 
+  // Afficher l'image si le thème sélectionné est dans les thèmes avec images
+  if (themesWithImages.includes(selectedTheme)) {
+    flagImageElement.src = currentQuestion.image;
+    document.getElementById("image-container").style.display = "block";
+  } else {
+    flagImageElement.src = "";
+    document.getElementById("image-container").style.display = "none";
+  }
 
   optionsContainer.innerHTML = "";
   currentQuestion.options.forEach((option) => {
@@ -6472,7 +6467,7 @@ function checkAnswer(selectedOption, correctAnswer) {
   if (selectedOption === correctAnswer) {
     score++;
   }
-  disableOptions(selectedOption, correctAnswer); // Passer les arguments ici
+  disableOptions(selectedOption, correctAnswer);
   showNextButton();
 }
 
@@ -6502,7 +6497,7 @@ function nextQuestion() {
   currentQuestionIndex++;
   if (currentQuestionIndex < questions.length) {
     resetQuiz();
-    showQuestion();
+    showQuestion(); // Ne pas passer de paramètre ici, la fonction showQuestion utilise currentQuestionIndex
   } else {
     showResult();
   }
@@ -6527,7 +6522,6 @@ function showResult() {
   resultContainer.appendChild(scoreTitle);
 
   scoreText.textContent = `Vous avez marqué ${score} sur ${questions.length}`;
-  document.getElementById("score-input").value = score;
   resultContainer.appendChild(scoreText);
 
   finishButton.classList.remove("hidden");
