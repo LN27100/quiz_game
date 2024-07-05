@@ -102,7 +102,7 @@ $img_path = $upload_dir . $img;
 
  <!-- Conteneurs pour le quiz et les boutons -->
 <div id="quiz-container" class="hidden">
-  <span id="question-number"></span>
+<span id="question-number"></span>
   <div id="question-text"></div>
   <div id="image-container">
     <img id="flag-image" src="" alt="Drapeau">

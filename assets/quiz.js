@@ -6134,223 +6134,272 @@ function getSelectedTheme() {
   return selectedTheme;
 }
 
-
+// Définir la fonction pour faire défiler la page vers le haut
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth" // Optionnel: pour un défilement fluide
+  });
+}
 
 // Écouter le clic sur les boutons de thème et démarrer le quiz correspondant
 
 themePersonnagesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Personnages Disney";
   startQuiz(questionsPersonnagesDisney);
+  scrollToTop(); // Appeler la fonction pour faire défiler la page vers le haut
 });
 
 themeMusiqueFilmsDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Musique de flms Disney";
   startQuiz(questionsMusiqueFilmsDisney);
+  scrollToTop(); 
 });
 
 themeBandesOriginalesFilmBtn.addEventListener("click", () => {
   selectedTheme = "Bandes originales de films";
   startQuiz(questionsBandesOriginalesFilms);
+  scrollToTop(); 
 });
 
 themeAnnees80Btn.addEventListener("click", () => {
   selectedTheme = "Années 80";
   startQuiz(questionsAnnees80);
+  scrollToTop(); 
 });
 
 themeInstrumentsBtn.addEventListener("click", () => {
   selectedTheme = "Instruments de musique";
   startQuiz(questionsInstruments);
+  scrollToTop(); 
 });
 
 themeDragonBallBtn.addEventListener("click", () => {
   selectedTheme = "Dragon Ball";
   startQuiz(questionsDragonBall);
+  scrollToTop(); 
 });
 
 themePlantesBotaniqueBtn.addEventListener("click", () => {
   selectedTheme = "Plantes et Botanique";
   startQuiz(questionsPlantesBotanique);
+  scrollToTop(); 
 });
 
 themeAnimauxDomestiquesBtn.addEventListener("click", () => {
   selectedTheme = "Animaux domestiques";
   startQuiz(questionsAnimauxDomestiques);
+  scrollToTop(); 
 });
 
 themeEcosystemesHabitatsBtn.addEventListener("click", () => {
   selectedTheme = "Ecosystèmes et habitats";
   startQuiz(questionsEcosystemesHabitats);
+  scrollToTop(); 
 });
 
 themeMathematiquesBtn.addEventListener("click", () => {
   selectedTheme = "Mathématiques";
   startQuiz(questionsMathematiques);
+  scrollToTop(); 
 });
 
 themeHistoireBtn.addEventListener("click", () => {
   selectedTheme = "Histoire";
   startQuiz(questionsHistoire);
+  scrollToTop(); 
 });
 
 themeBdMangaComicsBtn.addEventListener("click", () => {
   selectedTheme = "BD/Manga/Comics";
   startQuiz(questionsBdMangaComics);
+  scrollToTop(); 
 });
 
 themeLangageSMSBtn.addEventListener("click", () => {
   selectedTheme = "Langages SMS";
   startQuiz(questionsLangageSMS);
+  scrollToTop(); 
 });
 
 themeMarquesLogosBtn.addEventListener("click", () => {
   selectedTheme = "Marques et Logos";
   startQuiz(questionsMarquesLogos);
+  scrollToTop(); 
 });
 
 themeGastronomieDuMondeBtn.addEventListener("click", () => {
   selectedTheme = "Gastronomie du Monde";
   startQuiz(questionsGastronomieDuMonde);
+  scrollToTop(); 
 });
 
 themeBoissonsCocktailBtn.addEventListener("click", () => {
   selectedTheme = "Boissons et Cocktails";
   startQuiz(questionsBoissonsCocktail);
+  scrollToTop(); 
 });
 
 themeNutritionSanteBtn.addEventListener("click", () => {
   selectedTheme = "Nutrition et Santé";
   startQuiz(questionsNutritionSante);
+  scrollToTop(); 
 });
 
 themeCultureBtn.addEventListener("click", () => {
   selectedTheme = "Culture générale";
   startQuiz(questionsCultureGenerale);
+  scrollToTop(); 
 });
 
 themeActeursActricesBtn.addEventListener("click", () => {
   selectedTheme = "Actrices/Acteurs";
   startQuiz(questionsActeursActrices);
+  scrollToTop(); 
 });
 
 themeJeuxDeSocieteBtn.addEventListener("click", () => {
   selectedTheme = "Jeux de société";
   startQuiz(questionsJeuxDeSociete);
+  scrollToTop(); 
 });
 
 themeSportsMoteurBtn.addEventListener("click", () => {
   selectedTheme = "Sports à moteur";
   startQuiz(questionsSportsMoteur);
+  scrollToTop(); 
 });
 
 themeActivitesPleinAirBtn.addEventListener("click", () => {
   selectedTheme = "Activités de plein air";
   startQuiz(questionsActivitesPleinAir);
+  scrollToTop(); 
 });
 
 themeTimBurtonBtn.addEventListener("click", () => {
   selectedTheme = "Tim Burton";
   startQuiz(questionsTimBurton);
+  scrollToTop(); 
 });
 
 themeJeuxVideoBtn.addEventListener("click", () => {
   selectedTheme = "Jeux Vidéo";
   startQuiz(questionsJeuxVideo);
+  scrollToTop(); 
 });
 
 themeHorreurBtn.addEventListener("click", () => {
   selectedTheme = "Films d'horreur";
   startQuiz(questionsHorreur);
+  scrollToTop(); 
 });
 
 themeJoueursFootBtn.addEventListener("click", () => {
   selectedTheme = "Joueurs de foot";
   startQuiz(questionsJoueursFoot);
+  scrollToTop(); 
 });
 
 themeVraiFauxBtn.addEventListener("click", () => {
   selectedTheme = "Vrai ou Faux ?";
   startQuiz(questionsVraiFaux);
+  scrollToTop(); 
 });
 
 themeCodeDeLaRouteBtn.addEventListener("click", () => {
   selectedTheme = "Code de la route";
   startQuiz(questionsCodeDeLaRoute);
+  scrollToTop(); 
 });
 
 themeDrapeauxBtn.addEventListener("click", () => {
   selectedTheme = "Drapeaux";
   startQuiz(questionsDrapeaux);
+  scrollToTop(); 
 });
 
 themePrincessesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Princesses Disney";
   startQuiz(questionsPrincessesDisney);
+  scrollToTop(); 
 });
 
 themeDessinsAnimesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Dessins animés Disney";
   startQuiz(questionsDessinsAnimesDisney);
+  scrollToTop(); 
 });
 
 themeFaitsInsolitesBtn.addEventListener("click", () => {
   selectedTheme = "Faits insolites";
   startQuiz(questionsFaitsInsolites);
+  scrollToTop(); 
 });
 
 themeAnimauxBtn.addEventListener("click", () => {
   selectedTheme = "Animaux";
   startQuiz(questionsAnimaux);
+  scrollToTop(); 
 });
 
 themeChansonsBtn.addEventListener("click", () => {
   selectedTheme = "Chansons";
   startQuiz(questionsChansons);
+  scrollToTop(); 
 });
 
 themeDessinsBtn.addEventListener("click", () => {
   selectedTheme = "Dessins animés";
   startQuiz(questionsDessinsAnimes);
+  scrollToTop(); 
 });
 
 themeSeriesBtn.addEventListener("click", () => {
   selectedTheme = "Séries TV";
   startQuiz(questionsSeries);
+  scrollToTop(); 
 });
 
 themeCuisineBtn.addEventListener("click", () => {
   selectedTheme = "Cuisine";
   startQuiz(questionsCuisine);
+  scrollToTop(); 
 });
 
 themeHarryBtn.addEventListener("click", () => {
   selectedTheme = "Harry Potter";
   startQuiz(questionsHarry);
+  scrollToTop(); 
 });
 
 themeGeographieBtn.addEventListener("click", () => {
   selectedTheme = "Géographie";
   startQuiz(questionsGeographie);
+  scrollToTop(); 
 });
 
 themeOrthographeBtn.addEventListener("click", () => {
   selectedTheme = "Orthographe";
   startQuiz(questionsOrthographe);
+  scrollToTop(); 
 });
 
 themeSportBtn.addEventListener("click", () => {
   selectedTheme = "Tous sports";
   startQuiz(questionsSport);
+  scrollToTop(); 
 });
 
 themeCinemaBtn.addEventListener("click", () => {
   selectedTheme = "Cinéma";
   startQuiz(questionsCinema);
+  scrollToTop(); 
 });
 
 themeSpidermanBtn.addEventListener("click", () => {
   selectedTheme = "Spiderman";
   startQuiz(questionsSpiderman);
+  scrollToTop(); 
 });
 
 // Fonction pour démarrer le quiz avec les questions du thème sélectionné
