@@ -68,11 +68,14 @@ if (session_status() == PHP_SESSION_NONE) {
 
     </header>
 
+   
+
+    <div class="container">
+
     <?php if ($showform) : ?>
         <h1>Inscription</h1>
     <?php endif; ?>
 
-    <div class="container">
         <?php
         if ($showform) {
         ?>
@@ -147,7 +150,7 @@ if (session_status() == PHP_SESSION_NONE) {
                                 </div>
                             </div>
                             <div class="d-grid">
-                                <button class="btn btn-primary" type="submit">S'inscrire</button>
+                                <button class="button2" type="submit">S'inscrire</button>
                             </div>
                             <p class="mt-3">Déjà inscrit ? <a href="controller-signin.php">Connectez-vous ici</a></p>
 
