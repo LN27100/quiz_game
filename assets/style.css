@@ -735,3 +735,14 @@ body > div > div > h3 {
   color: #9840ec;
   font-family: "Nova Cut", system-ui;
 }
+
+.button3 {
+  text-decoration: none;
+  background-color: #d93ffb;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  display: inline-block;
+  padding: 0.5rem;
+}

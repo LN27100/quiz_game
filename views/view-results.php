@@ -16,7 +16,21 @@ $pseudo = $_SESSION['user']['player_pseudo'] ?? "cher joueur";
 $playerId = $_SESSION['user']['player_id'] ?? null;
 
 // Récupère les scores passés par le contrôleur
-$scores = $scores ?? [];
+$scoresByTheme = $scoresByTheme ?? [];
+
+// Trier les thèmes si le bouton de tri est cliqué
+if (isset($_POST['sort_themes'])) {
+  ksort($scoresByTheme);
+}
+
+// Trier les scores si le bouton de tri est cliqué
+if (isset($_POST['sort_scores'])) {
+  foreach ($scoresByTheme as $theme => $scores) {
+    usort($scoresByTheme[$theme], function($a, $b) {
+      return $a['score'] - $b['score'];
+    });
+  }
+}
 ?>
 
 <!DOCTYPE html>
@@ -73,11 +87,13 @@ $scores = $scores ?? [];
 
   </header>
 
-
   <h2 class="results-heading">Résultats de <?php echo htmlspecialchars($pseudo); ?></h2>
 
   <div class="container4">
-
+    <form method="POST" action="">
+      <button type="submit" name="sort_themes" class="button3 mb-3">Trier par thème</button>
+      <button type="submit" name="sort_scores" class="button3 mb-3">Trier par score</button>
+    </form>
 
     <?php if (count($scoresByTheme) > 0) : ?>
       <div class="bordered-container">
