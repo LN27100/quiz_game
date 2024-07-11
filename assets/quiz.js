@@ -2553,7 +2553,8 @@ const questionsVraiFaux = [
   },
   {
     numéro: "7/20",
-    question: "Le piment Carolina Reaper était le piment le plus fort du monde de 2013 à 2023.",
+    question:
+      "Le piment Carolina Reaper était le piment le plus fort du monde de 2013 à 2023.",
     options: ["Vrai", "Faux"],
     answer: "Vrai",
   },
@@ -2643,32 +2644,62 @@ const questionsVraiFaux = [
 const questionsTimBurton = [
   {
     numéro: "1/20",
-    question: "Quel acteur a joué le rôle principal dans le film 'Edward aux mains d'argent' de Tim Burton ?",
-    options: ["Johnny Depp", "Michael Keaton", "Ewan McGregor", "Leonardo DiCaprio"],
+    question:
+      "Quel acteur a joué le rôle principal dans le film 'Edward aux mains d'argent' de Tim Burton ?",
+    options: [
+      "Johnny Depp",
+      "Michael Keaton",
+      "Ewan McGregor",
+      "Leonardo DiCaprio",
+    ],
     answer: "Johnny Depp",
   },
   {
     numéro: "2/20",
-    question: "Dans quel film de Tim Burton apparaît le personnage de Jack Skellington, le roi des citrouilles ?",
-    options: ["The Nightmare Before Christmas", "Frankenweenie", "Alice au pays des merveilles", "Sweeney Todd"],
+    question:
+      "Dans quel film de Tim Burton apparaît le personnage de Jack Skellington, le roi des citrouilles ?",
+    options: [
+      "The Nightmare Before Christmas",
+      "Frankenweenie",
+      "Alice au pays des merveilles",
+      "Sweeney Todd",
+    ],
     answer: "The Nightmare Before Christmas",
   },
   {
     numéro: "3/20",
-    question: "Dans quel film de Tim Burton un homme découvre-t-il un arbre magique qui peut prédire l'avenir de manière ambiguë ?",
-    options: ["Big Fish", "Edward aux mains d'argent", "Sweeney Todd", "Charlie et la chocolaterie"],
+    question:
+      "Dans quel film de Tim Burton un homme découvre-t-il un arbre magique qui peut prédire l'avenir de manière ambiguë ?",
+    options: [
+      "Big Fish",
+      "Edward aux mains d'argent",
+      "Sweeney Todd",
+      "Charlie et la chocolaterie",
+    ],
     answer: "Big Fish",
   },
   {
     numéro: "4/20",
-    question: "Quelle actrice a joué le rôle de Catwoman dans 'Batman Returns', réalisé par Tim Burton ?",
-    options: ["Michelle Pfeiffer", "Winona Ryder", "Helena Bonham Carter", "Anne Hathaway"],
+    question:
+      "Quelle actrice a joué le rôle de Catwoman dans 'Batman Returns', réalisé par Tim Burton ?",
+    options: [
+      "Michelle Pfeiffer",
+      "Winona Ryder",
+      "Helena Bonham Carter",
+      "Anne Hathaway",
+    ],
     answer: "Michelle Pfeiffer",
   },
   {
     numéro: "5/20",
-    question: "Dans quel film de Tim Burton une jeune femme est-elle transportée dans un monde parallèle rempli de créatures étranges et de magie ?",
-    options: ["Alice au pays des merveilles", "Miss Peregrine et les enfants particuliers", "Charlie et la chocolaterie", "Big Fish"],
+    question:
+      "Dans quel film de Tim Burton une jeune femme est-elle transportée dans un monde parallèle rempli de créatures étranges et de magie ?",
+    options: [
+      "Alice au pays des merveilles",
+      "Miss Peregrine et les enfants particuliers",
+      "Charlie et la chocolaterie",
+      "Big Fish",
+    ],
     answer: "Alice au pays des merveilles",
   },
   {
@@ -2679,86 +2710,144 @@ const questionsTimBurton = [
   },
   {
     numéro: "7/20",
-    question: "Dans quel film de Tim Burton un jeune garçon découvre-t-il une porte vers un monde fantastique où des créatures étranges résident ?",
-    options: ["Charlie et la chocolaterie", "Alice au pays des merveilles", "Big Fish", "Miss Peregrine et les enfants particuliers"],
+    question:
+      "Dans quel film de Tim Burton un jeune garçon découvre-t-il une porte vers un monde fantastique où des créatures étranges résident ?",
+    options: [
+      "Charlie et la chocolaterie",
+      "Alice au pays des merveilles",
+      "Big Fish",
+      "Miss Peregrine et les enfants particuliers",
+    ],
     answer: "Miss Peregrine et les enfants particuliers",
   },
   {
     numéro: "8/20",
     question: "Dans 'Beetlejuice', comment les Maitland meurent-ils ?",
-    options: ["Ils se noient", "Ils ont un accident de voiture", "Ils tombent d'une falaise", "Ils sont frappés par la foudre"],
+    options: [
+      "Ils se noient",
+      "Ils ont un accident de voiture",
+      "Ils tombent d'une falaise",
+      "Ils sont frappés par la foudre",
+    ],
     answer: "Ils ont un accident de voiture",
   },
   {
     numéro: "9/20",
-    question: "Quel célèbre acteur a joué le rôle de Joker dans 'Batman' de Tim Burton ?",
-    options: ["Jack Nicholson", "Heath Ledger", "Joaquin Phoenix", "Jared Leto"],
+    question:
+      "Quel célèbre acteur a joué le rôle de Joker dans 'Batman' de Tim Burton ?",
+    options: [
+      "Jack Nicholson",
+      "Heath Ledger",
+      "Joaquin Phoenix",
+      "Jared Leto",
+    ],
     answer: "Jack Nicholson",
   },
   {
     numéro: "10/20",
-    question: "Dans 'Alice au pays des merveilles' (2010), quel personnage aide Alice à se préparer pour la bataille finale ?",
-    options: ["Le Lapin Blanc", "Le Chapelier Fou", "Le Chat du Cheshire", "Le Loir"],
+    question:
+      "Dans 'Alice au pays des merveilles' (2010), quel personnage aide Alice à se préparer pour la bataille finale ?",
+    options: [
+      "Le Lapin Blanc",
+      "Le Chapelier Fou",
+      "Le Chat du Cheshire",
+      "Le Loir",
+    ],
     answer: "Le Lapin Blanc",
   },
   {
     numéro: "11/20",
-    question: "Dans quel film de Tim Burton un homme retourne-t-il dans sa ville natale pour découvrir qu'elle est devenue un parc d'attractions gothique ?",
+    question:
+      "Dans quel film de Tim Burton un homme retourne-t-il dans sa ville natale pour découvrir qu'elle est devenue un parc d'attractions gothique ?",
     options: ["Big Fish", "Dark Shadows", "Mars Attacks!", "Ed Wood"],
     answer: "Dark Shadows",
   },
   {
     numéro: "12/20",
-    question: "Quel est le nom de l'usine de chocolat dans 'Charlie et la chocolaterie' ?",
-    options: ["Wonka Chocolate Factory", "Sweet's chocolate", "Sweet Tooth Factory", "Golden Ticket Factory"],
+    question:
+      "Quel est le nom de l'usine de chocolat dans 'Charlie et la chocolaterie' ?",
+    options: [
+      "Wonka Chocolate Factory",
+      "Sweet's chocolate",
+      "Sweet Tooth Factory",
+      "Golden Ticket Factory",
+    ],
     answer: "Wonka Chocolate Factory",
   },
   {
     numéro: "13/20",
-    question: "Dans 'Beetlejuice', comment Lydia Deetz communique-t-elle avec les Maitland après leur mort ?",
-    options: ["Avec un médium", "En utilisant un tableau Ouija", "Par télépathie", "À travers un miroir magique"],
+    question:
+      "Dans 'Beetlejuice', comment Lydia Deetz communique-t-elle avec les Maitland après leur mort ?",
+    options: [
+      "Avec un médium",
+      "En utilisant un tableau Ouija",
+      "Par télépathie",
+      "À travers un miroir magique",
+    ],
     answer: "À travers un miroir magique",
   },
   {
     numéro: "14/20",
-    question: "Quel est le nom de la sorcière qui jette un sort à Edward dans 'Edward aux mains d'argent' ?",
+    question:
+      "Quel est le nom de la sorcière qui jette un sort à Edward dans 'Edward aux mains d'argent' ?",
     options: ["Peg Boggs", "Kim Boggs", "Joyce", "Esmeralda"],
     answer: "Esmeralda",
   },
   {
     numéro: "15/20",
-    question: "Quel est le nom du personnage principal féminin dans 'Les Noces Funèbres' de Tim Burton ?",
+    question:
+      "Quel est le nom du personnage principal féminin dans 'Les Noces Funèbres' de Tim Burton ?",
     options: ["Emily", "Victoria", "Sally", "Elsa"],
     answer: "Emily",
   },
   {
     numéro: "16/20",
-    question: "Quel est le nom du chien fantôme dans 'Frankenweenie' de Tim Burton ?",
+    question:
+      "Quel est le nom du chien fantôme dans 'Frankenweenie' de Tim Burton ?",
     options: ["Sparky", "Zero", "Scud", "Spike"],
     answer: "Sparky",
   },
   {
     numéro: "17/20",
-    question: "Quel est le nom du cirque où se déroule une grande partie de l'action dans le film 'Dumbo' de Tim Burton ?",
-    options: ["Cirque Wonders", "Cirque Dreamland", "Cirque Fantasia", "Cirque Stardust"],
+    question:
+      "Quel est le nom du cirque où se déroule une grande partie de l'action dans le film 'Dumbo' de Tim Burton ?",
+    options: [
+      "Cirque Wonders",
+      "Cirque Dreamland",
+      "Cirque Fantasia",
+      "Cirque Stardust",
+    ],
     answer: "Cirque Dreamland",
   },
   {
     numéro: "18/20",
-    question: "Quelle actrice a joué le rôle principal dans le film 'Miss Peregrine et les enfants particuliers' de Tim Burton ?",
-    options: ["Eva Green", "Helena Bonham Carter", "Winona Ryder", "Anne Hathaway"],
+    question:
+      "Quelle actrice a joué le rôle principal dans le film 'Miss Peregrine et les enfants particuliers' de Tim Burton ?",
+    options: [
+      "Eva Green",
+      "Helena Bonham Carter",
+      "Winona Ryder",
+      "Anne Hathaway",
+    ],
     answer: "Eva Green",
   },
   {
     numéro: "19/20",
-    question: "Quel est le nom complet du personnage principal de 'Batman' dans le film de Tim Burton ?",
+    question:
+      "Quel est le nom complet du personnage principal de 'Batman' dans le film de Tim Burton ?",
     options: ["Bruce Wayne", "Peter Parker", "Clark Kent", "Tony Stark"],
     answer: "Bruce Wayne",
   },
   {
     numéro: "20/20",
-    question: "Quel acteur a joué le rôle de Beetlejuice dans le film éponyme de Tim Burton ?",
-    options: ["Michael Keaton", "Johnny Depp", "Christopher Walken", "Jack Nicholson"],
+    question:
+      "Quel acteur a joué le rôle de Beetlejuice dans le film éponyme de Tim Burton ?",
+    options: [
+      "Michael Keaton",
+      "Johnny Depp",
+      "Christopher Walken",
+      "Jack Nicholson",
+    ],
     answer: "Michael Keaton",
   },
 ];
@@ -2775,35 +2864,60 @@ const questionsJoueursFoot = [
     numéro: "2/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/didier_deschamps.jpg",
-    options: ["Didier Deschamps", "Cristiano Ronaldo", "Zlatan Ibrahimovic", "Sergio Ramos"],
+    options: [
+      "Didier Deschamps",
+      "Cristiano Ronaldo",
+      "Zlatan Ibrahimovic",
+      "Sergio Ramos",
+    ],
     answer: "Didier Deschamps",
   },
   {
     numéro: "3/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/erling_haaland.jpg",
-    options: ["Erling Haaland", "Robert Lewandowski", "Kylian Mbappé", "Harry Kane"],
+    options: [
+      "Erling Haaland",
+      "Robert Lewandowski",
+      "Kylian Mbappé",
+      "Harry Kane",
+    ],
     answer: "Erling Haaland",
   },
   {
     numéro: "4/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/ethan_mbappé.jpg",
-    options: ["Ethan Mbappé", "Karim Benzema", "Luka Modric", "Kevin De Bruyne"],
+    options: [
+      "Ethan Mbappé",
+      "Karim Benzema",
+      "Luka Modric",
+      "Kevin De Bruyne",
+    ],
     answer: "Ethan Mbappé",
   },
   {
     numéro: "5/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/gareth_bale.JPG",
-    options: ["Gareth Bale", "Antoine Griezmann", "Eden Hazard", "Raheem Sterling"],
+    options: [
+      "Gareth Bale",
+      "Antoine Griezmann",
+      "Eden Hazard",
+      "Raheem Sterling",
+    ],
     answer: "Gareth Bale",
   },
   {
     numéro: "6/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/jonathan_bamba.jpg",
-    options: ["Jonathan Bamba", "Thomas Müller", "Gerard Piqué", "Thiago Silva"],
+    options: [
+      "Jonathan Bamba",
+      "Thomas Müller",
+      "Gerard Piqué",
+      "Thiago Silva",
+    ],
     answer: "Jonathan Bamba",
   },
   {
@@ -2817,7 +2931,12 @@ const questionsJoueursFoot = [
     numéro: "8/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/vincieus_junior.jpg",
-    options: ["Vincieus Junior", "Philippe Coutinho", "Marcelo Vieira", "Casemiro"],
+    options: [
+      "Vincieus Junior",
+      "Philippe Coutinho",
+      "Marcelo Vieira",
+      "Casemiro",
+    ],
     answer: "Vincieus Junior",
   },
   {
@@ -2831,42 +2950,72 @@ const questionsJoueursFoot = [
     numéro: "10/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/christiano_ronaldo.jpg",
-    options: ["Lionel Messi", "Cristiano Ronaldo", "Luis Suárez", "Romelu Lukaku"],
+    options: [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Luis Suárez",
+      "Romelu Lukaku",
+    ],
     answer: "Cristiano Ronaldo",
   },
   {
     numéro: "11/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/zinedine_zidane.jpg",
-    options: ["Zinedine Zidane", "David Beckham", "Andrea Pirlo", "Clarence Seedorf"],
+    options: [
+      "Zinedine Zidane",
+      "David Beckham",
+      "Andrea Pirlo",
+      "Clarence Seedorf",
+    ],
     answer: "Zinedine Zidane",
   },
   {
     numéro: "12/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/karim_benzema.jpg",
-    options: ["Karim Benzema", "Fernando Torres", "Gonzalo Higuain", "Diego Costa"],
+    options: [
+      "Karim Benzema",
+      "Fernando Torres",
+      "Gonzalo Higuain",
+      "Diego Costa",
+    ],
     answer: "Karim Benzema",
   },
   {
     numéro: "13/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/kyllian_mbappe.jpg",
-    options: ["Kyllian Mbappé", "Pierre-Emerick Aubameyang", "Alexis Sánchez", "Gabriel Jesus"],
+    options: [
+      "Kyllian Mbappé",
+      "Pierre-Emerick Aubameyang",
+      "Alexis Sánchez",
+      "Gabriel Jesus",
+    ],
     answer: "Kyllian Mbappé",
   },
   {
     numéro: "14/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/marcus_thuram.jpg",
-    options: ["Marcus Thuram", "N'Golo Kanté", "Franck Ribéry", "Kingsley Coman"],
+    options: [
+      "Marcus Thuram",
+      "N'Golo Kanté",
+      "Franck Ribéry",
+      "Kingsley Coman",
+    ],
     answer: "Marcus Thuram",
   },
   {
     numéro: "15/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/khéphren_thuram.jpg",
-    options: ["Khéphren Thuram", "Paul Pogba", "Adrien Rabiot", "Blaise Matuidi"],
+    options: [
+      "Khéphren Thuram",
+      "Paul Pogba",
+      "Adrien Rabiot",
+      "Blaise Matuidi",
+    ],
     answer: "Khéphren Thuram",
   },
   {
@@ -2880,14 +3029,24 @@ const questionsJoueursFoot = [
     numéro: "17/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/neymar.jpg",
-    options: ["Neymar da Silva Santos", "Roberto Firmino", "Gabriel Barbosa", "Richarlison"],
+    options: [
+      "Neymar da Silva Santos",
+      "Roberto Firmino",
+      "Gabriel Barbosa",
+      "Richarlison",
+    ],
     answer: "Neymar da Silva Santos",
   },
   {
     numéro: "18/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/ngolo_kanté.jpg",
-    options: ["N'golo Kanté", "Luka Modric", "Thiago Alcantara", "Ivan Rakitic"],
+    options: [
+      "N'golo Kanté",
+      "Luka Modric",
+      "Thiago Alcantara",
+      "Ivan Rakitic",
+    ],
     answer: "N'golo Kanté",
   },
   {
@@ -2901,12 +3060,15 @@ const questionsJoueursFoot = [
     numéro: "20/20",
     question: "Quel est le nom de ce joueur ?",
     image: "../assets/img/robin_le_normand.jpg",
-    options: ["Robin Le Normand", "Raphaël Varane", "Samuel Umtiti", "Aymeric Laporte"],
+    options: [
+      "Robin Le Normand",
+      "Raphaël Varane",
+      "Samuel Umtiti",
+      "Aymeric Laporte",
+    ],
     answer: "Robin Le Normand",
   },
 ];
-
-
 
 const questionsCodeDeLaRoute = [
   {
@@ -2920,133 +3082,230 @@ const questionsCodeDeLaRoute = [
     numéro: "2/20",
     question: "Que signifie ce panneau ?",
     image: "../assets/img/sens_interdit.jpg",
-    options: ["Sens interdit", "Route barrée", "Fin d'interdiction", "Allée réservée"],
+    options: [
+      "Sens interdit",
+      "Route barrée",
+      "Fin d'interdiction",
+      "Allée réservée",
+    ],
     answer: "Sens interdit",
   },
   {
     numéro: "3/20",
     question: "À quoi ce panneau vous oblige-t-il à faire attention ?",
     image: "../assets/img/animaux_sauvages.jpg",
-    options: ["Risque de chutes de pierres", "Risque d'animaux sauvages", "Risque de verglas", "Risque de brouillard"],
+    options: [
+      "Risque de chutes de pierres",
+      "Risque d'animaux sauvages",
+      "Risque de verglas",
+      "Risque de brouillard",
+    ],
     answer: "Risque d'animaux sauvages",
   },
   {
     numéro: "4/20",
     uestion: "Que signifie ce panneau ?",
     image: "../assets/img/fin_zone_piétonne.jpg",
-    options: ["Fin de zone piétonne", "Fin de surveillance", "Fin de zone d'école", "Fin de voie verte"],
+    options: [
+      "Fin de zone piétonne",
+      "Fin de surveillance",
+      "Fin de zone d'école",
+      "Fin de voie verte",
+    ],
     answer: "Fin de zone piétonne",
   },
   {
     numéro: "5/20",
     question: "Que signifie ce panneau sous un feu tricolor ?",
     image: "../assets/img/autorisation_cycle.png",
-    options: ["Autorisation de franchissement pour vélos", "Cédez le passage pour vélos", "Priorité aux vélos", "Vélos interdits dans la direction indiquée"],
+    options: [
+      "Autorisation de franchissement pour vélos",
+      "Cédez le passage pour vélos",
+      "Priorité aux vélos",
+      "Vélos interdits dans la direction indiquée",
+    ],
     answer: "Autorisation de franchissement pour vélos",
   },
   {
     numéro: "6/20",
     question: "Quelle est la signification de ce panneau triangulaire ?",
     image: "../assets/img/panneau_danger.png",
-    options: ["Danger", "Cédez le passage", "Arrêt obligatoire", "Fin de limitation de vitesse"],
+    options: [
+      "Danger",
+      "Cédez le passage",
+      "Arrêt obligatoire",
+      "Fin de limitation de vitesse",
+    ],
     answer: "Danger",
   },
   {
     numéro: "7/20",
     question: "Que signifie ce panneau avec un cercle rouge ?",
     image: "../assets/img/zone_zfe.jpg",
-    options: ["Zone à faibles émissions", "Circulation interdite", "Zone à risque", "Route réservée"],
+    options: [
+      "Zone à faibles émissions",
+      "Circulation interdite",
+      "Zone à risque",
+      "Route réservée",
+    ],
     answer: "Zone à faibles émissions",
   },
   {
     numéro: "8/20",
     question: "Quelle est la signification de ce panneau rectangulaire ?",
     image: "../assets/img/vitesse_maximum_autorisée.JPG",
-    options: ["Limite de vitesse", "Vitesse conseillée", "Vitesse autorisée", "Limite minimum de vitesse"],
+    options: [
+      "Limite de vitesse",
+      "Vitesse conseillée",
+      "Vitesse autorisée",
+      "Limite minimum de vitesse",
+    ],
     answer: "Limite de vitesse",
   },
   {
     numéro: "9/20",
     question: "À quoi ce panneau vous oblige-t-il à faire attention ?",
     image: "../assets/img/passage_à_niveau.jpg",
-    options: ["Présence de passages à niveau", "Passage à niveau non protégé", "Risque de rétrécissement de chaussée", "Risque de piétons"],
+    options: [
+      "Présence de passages à niveau",
+      "Passage à niveau non protégé",
+      "Risque de rétrécissement de chaussée",
+      "Risque de piétons",
+    ],
     answer: "Présence de passages à niveau",
   },
   {
     numéro: "10/20",
     question: "Quelle est la signification de ce panneau ?",
     image: "../assets/img/priorité_à_droite.jpg",
-    options: ["Début de zone résidentielle", "Priorité à droite", "Cédez le passage", "Fin d'interdiction"],
+    options: [
+      "Début de zone résidentielle",
+      "Priorité à droite",
+      "Cédez le passage",
+      "Fin d'interdiction",
+    ],
     answer: "Priorité à droite",
   },
   {
     numéro: "11/20",
     question: "Que signifie ce panneau jaune ?",
     image: "../assets/img/danger_piéton.JPG",
-    options: ["Danger piétons", "Piétons interdit", "Passage piétons", "Piétons fréquent"],
+    options: [
+      "Danger piétons",
+      "Piétons interdit",
+      "Passage piétons",
+      "Piétons fréquent",
+    ],
     answer: "Danger piétons",
   },
   {
     numéro: "12/20",
     question: "À quoi ce panneau vous oblige-t-il à faire attention ?",
     image: "../assets/img/vent_latéral.jpg",
-    options: ["Risque de vent latéral", "Risque de vent violent", "Risque de passage à niveau", "Risque de brouillard"],
+    options: [
+      "Risque de vent latéral",
+      "Risque de vent violent",
+      "Risque de passage à niveau",
+      "Risque de brouillard",
+    ],
     answer: "Risque de vent latéral",
   },
   {
     numéro: "13/20",
     question: "Quelle est la signification de ce panneau ?",
     image: "../assets/img/fin_route_prioritaire.jpg",
-    options: ["Fin de route prioritaire", "Fin de limitation de vitesse", "Fin d'interdiction", "Fin de zone piétonne"],
+    options: [
+      "Fin de route prioritaire",
+      "Fin de limitation de vitesse",
+      "Fin d'interdiction",
+      "Fin de zone piétonne",
+    ],
     answer: "Fin de route prioritaire",
   },
   {
     numéro: "14/20",
     question: "Que signifie ce panneau vert ?",
     image: "../assets/img/point_rassemblement.png",
-    options: ["Point de rassemblement", "Zone de covoiturage", "Ecole", "Evacuation d'urgence"],
+    options: [
+      "Point de rassemblement",
+      "Zone de covoiturage",
+      "Ecole",
+      "Evacuation d'urgence",
+    ],
     answer: "Point de rassemblement",
   },
   {
     numéro: "15/20",
     question: "Quelle est la signification de ce panneau ?",
     image: "../assets/img/inter_file.jpeg",
-    options: ["Règles circulation interfiles", "Priorité aux motos", "Fin de zone de dépassement", "Fin de limitation de vitesse"],
+    options: [
+      "Règles circulation interfiles",
+      "Priorité aux motos",
+      "Fin de zone de dépassement",
+      "Fin de limitation de vitesse",
+    ],
     answer: "Règles circulation interfiles",
   },
   {
     numéro: "16/20",
-    question: "Quelle est la signification de ce panneau avec un losange blanc ?",
+    question:
+      "Quelle est la signification de ce panneau avec un losange blanc ?",
     image: "../assets/img/covoiturage.JPG",
-    options: ["Voie réservée au covoiturage", "Aire de chaînage", "Chemin pour piétons", "Route à sens unique"],
+    options: [
+      "Voie réservée au covoiturage",
+      "Aire de chaînage",
+      "Chemin pour piétons",
+      "Route à sens unique",
+    ],
     answer: "Voie réservée au covoiturage",
   },
   {
     numéro: "17/20",
     question: "Que signifie ce panneau provisoir ?",
     image: "../assets/img/danger_brouillard_fumee.jpg",
-    options: ["Danger nappe de brouillard ou fumée épaisse", "Danger mur en fin de route", "Travaux, passage interdit", "Travaux, ralentir"],
+    options: [
+      "Danger nappe de brouillard ou fumée épaisse",
+      "Danger mur en fin de route",
+      "Travaux, passage interdit",
+      "Travaux, ralentir",
+    ],
     answer: "Danger nappe de brouillard ou fumée épaisse",
   },
   {
     numéro: "18/20",
     question: "À quoi ce panneau vous oblige-t-il à faire attention ?",
     image: "../assets/img/risque_verglas.jpg",
-    options: ["Risque de brouillard", "Risque de traversée d'animaux sauvages", "Risque de chaussée déformée", "Risque de verglas"],
+    options: [
+      "Risque de brouillard",
+      "Risque de traversée d'animaux sauvages",
+      "Risque de chaussée déformée",
+      "Risque de verglas",
+    ],
     answer: "Risque de verglas",
   },
   {
     numéro: "19/20",
-    question: "Quelle est la signification de ce panneau avec une barre diagonale noire ?",
+    question:
+      "Quelle est la signification de ce panneau avec une barre diagonale noire ?",
     image: "../assets/img/fin_interdiction.jpg",
-    options: ["Fin de route prioritaire", "Fin de limitation de vitesse", "Fin d'interdiction", "Fin de zone piétonne"],
+    options: [
+      "Fin de route prioritaire",
+      "Fin de limitation de vitesse",
+      "Fin d'interdiction",
+      "Fin de zone piétonne",
+    ],
     answer: "Fin d'interdiction",
   },
   {
     numéro: "20/20",
     question: "Que signifie ce panneau avec un fond bleu et un symbole blanc ?",
     image: "../assets/img/aire_chainage.jpeg",
-    options: ["Indique une aire de chaînage", "Indique une voie de bus", "Indique une autoroute", "Indique une route à double sens"],
+    options: [
+      "Indique une aire de chaînage",
+      "Indique une voie de bus",
+      "Indique une autoroute",
+      "Indique une route à double sens",
+    ],
     answer: "Indique une aire de chaînage",
   },
 ];
@@ -3054,61 +3313,101 @@ const questionsCodeDeLaRoute = [
 const questionsActeursActrices = [
   {
     numéro: "1/20",
-    question: "Quel acteur incarne Iron Man dans le Marvel Cinematic Universe ?",
-    options: ["Chris Hemsworth", "Robert Downey Jr.", "Chris Evans", "Mark Ruffalo"],
+    question:
+      "Quel acteur incarne Iron Man dans le Marvel Cinematic Universe ?",
+    options: [
+      "Chris Hemsworth",
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+    ],
     answer: "Robert Downey Jr.",
   },
   {
     numéro: "2/20",
-    question: "Quelle actrice joue le rôle de Katniss Everdeen dans 'The Hunger Games' ?",
-    options: ["Shailene Woodley", "Jennifer Lawrence", "Emma Watson", "Kristen Stewart"],
+    question:
+      "Quelle actrice joue le rôle de Katniss Everdeen dans 'The Hunger Games' ?",
+    options: [
+      "Shailene Woodley",
+      "Jennifer Lawrence",
+      "Emma Watson",
+      "Kristen Stewart",
+    ],
     answer: "Jennifer Lawrence",
   },
   {
     numéro: "3/20",
-    question: "Quel acteur est célèbre pour son rôle de Jack Dawson dans 'Titanic' ?",
+    question:
+      "Quel acteur est célèbre pour son rôle de Jack Dawson dans 'Titanic' ?",
     options: ["Brad Pitt", "Johnny Depp", "Leonardo DiCaprio", "Matt Damon"],
     answer: "Leonardo DiCaprio",
   },
   {
     numéro: "4/20",
-    question: "Quelle actrice a joué le rôle de Hermione Granger dans la saga 'Harry Potter' ?",
-    options: ["Emma Stone", "Emma Watson", "Natalie Portman", "Keira Knightley"],
+    question:
+      "Quelle actrice a joué le rôle de Hermione Granger dans la saga 'Harry Potter' ?",
+    options: [
+      "Emma Stone",
+      "Emma Watson",
+      "Natalie Portman",
+      "Keira Knightley",
+    ],
     answer: "Emma Watson",
   },
   {
     numéro: "5/20",
-    question: "Quelle actrice a incarné le personnage de Clarice Starling dans 'Le Silence des agneaux' ?",
-    options: ["Jodie Foster", "Gillian Anderson", "Meryl Streep", "Nicole Kidman"],
+    question:
+      "Quelle actrice a incarné le personnage de Clarice Starling dans 'Le Silence des agneaux' ?",
+    options: [
+      "Jodie Foster",
+      "Gillian Anderson",
+      "Meryl Streep",
+      "Nicole Kidman",
+    ],
     answer: "Jodie Foster",
   },
   {
     numéro: "6/20",
-    question: "Quelle actrice a incarné le rôle de Rachel Green dans la série 'Friends' ?",
-    options: ["Courteney Cox", "Jennifer Aniston", "Lisa Kudrow", "Sarah Jessica Parker"],
+    question:
+      "Quelle actrice a incarné le rôle de Rachel Green dans la série 'Friends' ?",
+    options: [
+      "Courteney Cox",
+      "Jennifer Aniston",
+      "Lisa Kudrow",
+      "Sarah Jessica Parker",
+    ],
     answer: "Jennifer Aniston",
   },
   {
     numéro: "7/20",
-    question: "Quel acteur est connu pour son rôle de Neo dans la trilogie 'Matrix' ?",
+    question:
+      "Quel acteur est connu pour son rôle de Neo dans la trilogie 'Matrix' ?",
     options: ["Brad Pitt", "Keanu Reeves", "Tom Cruise", "Will Smith"],
     answer: "Keanu Reeves",
   },
   {
     numéro: "8/20",
-    question: "Quel acteur a incarné le personnage de Ethan Hunt dans la série de films 'Mission Impossible' ?",
+    question:
+      "Quel acteur a incarné le personnage de Ethan Hunt dans la série de films 'Mission Impossible' ?",
     options: ["Tom Cruise", "Matt Damon", "Keanu Reeves", "Brad Pitt"],
     answer: "Tom Cruise",
   },
   {
     numéro: "9/20",
-    question: "Quel acteur a incarné le personnage de Walter White dans la série 'Breaking Bad' ?",
-    options: ["Aaron Paul", "Bryan Cranston", "Jon Hamm", "Matthew McConaughey"],
+    question:
+      "Quel acteur a incarné le personnage de Walter White dans la série 'Breaking Bad' ?",
+    options: [
+      "Aaron Paul",
+      "Bryan Cranston",
+      "Jon Hamm",
+      "Matthew McConaughey",
+    ],
     answer: "Bryan Cranston",
   },
   {
     numéro: "10/20",
-    question: "Quelle actrice a interprété la reine Elizabeth II dans la série 'The Crown' ?",
+    question:
+      "Quelle actrice a interprété la reine Elizabeth II dans la série 'The Crown' ?",
     options: ["Claire Foy", "Olivia Colman", "Helen Mirren", "Emily Blunt"],
     answer: "Claire Foy",
   },
@@ -3120,44 +3419,66 @@ const questionsActeursActrices = [
   },
   {
     numéro: "12/20",
-    question: "Quelle actrice a incarné Mary Poppins dans le film 'Mary Poppins Returns' ?",
+    question:
+      "Quelle actrice a incarné Mary Poppins dans le film 'Mary Poppins Returns' ?",
     options: ["Emily Blunt", "Anne Hathaway", "Amy Adams", "Rachel McAdams"],
     answer: "Emily Blunt",
   },
   {
     numéro: "13/20",
-    question: "Quel acteur a joué le rôle de Captain Jack Sparrow dans 'Pirates des Caraïbes' ?",
+    question:
+      "Quel acteur a joué le rôle de Captain Jack Sparrow dans 'Pirates des Caraïbes' ?",
     options: ["Johnny Depp", "Orlando Bloom", "Geoffrey Rush", "Javier Bardem"],
     answer: "Johnny Depp",
   },
   {
     numéro: "14/20",
-    question: "Quelle actrice a joué le rôle principal dans le film 'Wonder Woman' ?",
-    options: ["Gal Gadot", "Scarlett Johansson", "Brie Larson", "Margot Robbie"],
+    question:
+      "Quelle actrice a joué le rôle principal dans le film 'Wonder Woman' ?",
+    options: [
+      "Gal Gadot",
+      "Scarlett Johansson",
+      "Brie Larson",
+      "Margot Robbie",
+    ],
     answer: "Gal Gadot",
   },
   {
     numéro: "15/20",
-    question: "Quel acteur est célèbre pour son rôle de Wolverine dans les films 'X-Men' ?",
-    options: ["Hugh Jackman", "Chris Hemsworth", "Ryan Reynolds", "Chris Evans"],
+    question:
+      "Quel acteur est célèbre pour son rôle de Wolverine dans les films 'X-Men' ?",
+    options: [
+      "Hugh Jackman",
+      "Chris Hemsworth",
+      "Ryan Reynolds",
+      "Chris Evans",
+    ],
     answer: "Hugh Jackman",
   },
   {
     numéro: "16/20",
-    question: "Quelle actrice a remporté l'Oscar de la meilleure actrice pour son rôle dans 'La La Land' ?",
+    question:
+      "Quelle actrice a remporté l'Oscar de la meilleure actrice pour son rôle dans 'La La Land' ?",
     options: ["Amy Adams", "Natalie Portman", "Emma Stone", "Jessica Chastain"],
     answer: "Emma Stone",
   },
   {
     numéro: "17/20",
-    question: "Quel acteur a joué le rôle de Tony Montana dans le film 'Scarface' ?",
+    question:
+      "Quel acteur a joué le rôle de Tony Montana dans le film 'Scarface' ?",
     options: ["Robert De Niro", "Al Pacino", "Joe Pesci", "Marlon Brando"],
     answer: "Al Pacino",
   },
   {
     numéro: "18/20",
-    question: "Quelle actrice a joué le rôle de Black Widow dans les films Marvel ?",
-    options: ["Scarlett Johansson", "Natalie Portman", "Brie Larson", "Elizabeth Olsen"],
+    question:
+      "Quelle actrice a joué le rôle de Black Widow dans les films Marvel ?",
+    options: [
+      "Scarlett Johansson",
+      "Natalie Portman",
+      "Brie Larson",
+      "Elizabeth Olsen",
+    ],
     answer: "Scarlett Johansson",
   },
   {
@@ -3168,7 +3489,8 @@ const questionsActeursActrices = [
   },
   {
     numéro: "20/20",
-    question: "Quelle actrice a incarné Mia Wallace dans le film 'Pulp Fiction' ?",
+    question:
+      "Quelle actrice a incarné Mia Wallace dans le film 'Pulp Fiction' ?",
     options: ["Uma Thurman", "Winona Ryder", "Jodie Foster", "Meg Ryan"],
     answer: "Uma Thurman",
   },
@@ -3177,20 +3499,28 @@ const questionsActeursActrices = [
 const questionsJeuxVideo = [
   {
     numéro: "1/20",
-    question: "Quel personnage emblématique de Nintendo porte une salopette rouge et une casquette avec un M ?",
+    question:
+      "Quel personnage emblématique de Nintendo porte une salopette rouge et une casquette avec un M ?",
     options: ["Link", "Mario", "Kirby", "Donkey Kong"],
     answer: "Mario",
   },
   {
     numéro: "2/20",
-    question: "Quel est le nom de l'héroïne principale de la série 'Tomb Raider' ?",
+    question:
+      "Quel est le nom de l'héroïne principale de la série 'Tomb Raider' ?",
     options: ["Lara Croft", "Samus Aran", "Zelda", "Cortana"],
     answer: "Lara Croft",
   },
   {
     numéro: "3/20",
-    question: "Quel jeu vidéo de 2017 se déroule dans l'univers de Hyrule et met en scène Link ?",
-    options: ["The Elder Scrolls V: Skyrim", "Dark Souls III", "The Legend of Zelda: Breath of the Wild", "Horizon Zero Dawn"],
+    question:
+      "Quel jeu vidéo de 2017 se déroule dans l'univers de Hyrule et met en scène Link ?",
+    options: [
+      "The Elder Scrolls V: Skyrim",
+      "Dark Souls III",
+      "The Legend of Zelda: Breath of the Wild",
+      "Horizon Zero Dawn",
+    ],
     answer: "The Legend of Zelda: Breath of the Wild",
   },
   {
@@ -3201,32 +3531,47 @@ const questionsJeuxVideo = [
   },
   {
     numéro: "5/20",
-    question: "Quelle est la forme géométrique de base des blocs dans le jeu Tetris ?",
+    question:
+      "Quelle est la forme géométrique de base des blocs dans le jeu Tetris ?",
     options: ["Carré", "Triangle", "Cercle", "Losange"],
     answer: "Carré",
   },
   {
     numéro: "6/20",
-    question: "Quel personnage de jeu vidéo est connu pour sa vitesse et ses chaussures rouges ?",
+    question:
+      "Quel personnage de jeu vidéo est connu pour sa vitesse et ses chaussures rouges ?",
     options: ["Mega Man", "Crash Bandicoot", "Sonic the Hedgehog", "Pac-Man"],
     answer: "Sonic the Hedgehog",
   },
   {
     numéro: "7/20",
-    question: "Quel jeu de combat de 1992 met en scène des personnages comme Ryu, Ken et Chun-Li ?",
-    options: ["Tekken", "Street Fighter II", "Mortal Kombat", "King of Fighters"],
+    question:
+      "Quel jeu de combat de 1992 met en scène des personnages comme Ryu, Ken et Chun-Li ?",
+    options: [
+      "Tekken",
+      "Street Fighter II",
+      "Mortal Kombat",
+      "King of Fighters",
+    ],
     answer: "Street Fighter II",
   },
   {
     numéro: "8/20",
-    question: "Quel est le nom de la ville fictive inspirée de Las Vegas dans GTA San Andreas ?",
+    question:
+      "Quel est le nom de la ville fictive inspirée de Las Vegas dans GTA San Andreas ?",
     options: ["Liberty City", "Vice City", "Las Venturas", "San Fierro"],
     answer: "Las Venturas",
   },
   {
     numéro: "9/20",
-    question: "Quel jeu vidéo multijoueur en ligne a popularisé le genre 'battle royale' en 2017 ?",
-    options: ["Apex Legends", "PlayerUnknown's Battlegrounds (PUBG)", "Fortnite", "Call of Duty: Warzone"],
+    question:
+      "Quel jeu vidéo multijoueur en ligne a popularisé le genre 'battle royale' en 2017 ?",
+    options: [
+      "Apex Legends",
+      "PlayerUnknown's Battlegrounds (PUBG)",
+      "Fortnite",
+      "Call of Duty: Warzone",
+    ],
     answer: "Fortnite",
   },
   {
@@ -3237,61 +3582,81 @@ const questionsJeuxVideo = [
   },
   {
     numéro: "11/20",
-    question: "Quel jeu vidéo développé par Mojang permet de construire et explorer des mondes en blocs ?",
+    question:
+      "Quel jeu vidéo développé par Mojang permet de construire et explorer des mondes en blocs ?",
     options: ["Terraria", "Roblox", "Minecraft", "LEGO Worlds"],
     answer: "Minecraft",
   },
   {
     numéro: "12/20",
-    question: "Dans quel jeu incarne-t-on un assassin membre de la confrérie des Assassins ?",
+    question:
+      "Dans quel jeu incarne-t-on un assassin membre de la confrérie des Assassins ?",
     options: ["Hitman", "Assassin's Creed", "Dishonored", "Thief"],
     answer: "Assassin's Creed",
   },
   {
     numéro: "13/20",
-    question: "Dans 'Wii Sports Resort', quel sport utilise principalement le Wii MotionPlus pour une précision accrue ?",
+    question:
+      "Dans 'Wii Sports Resort', quel sport utilise principalement le Wii MotionPlus pour une précision accrue ?",
     options: ["Tennis de table", "Golf", "Natation", "Basket-ball"],
     answer: "Tennis de table",
   },
   {
     numéro: "14/20",
-    question: "Quel est le nom de la princesse que Mario doit souvent sauver dans les jeux 'Super Mario' ?",
-    options: ["Princesse Daisy", "Princesse Peach", "Princesse Zelda", "Princesse Rosalina"],
+    question:
+      "Quel est le nom de la princesse que Mario doit souvent sauver dans les jeux 'Super Mario' ?",
+    options: [
+      "Princesse Daisy",
+      "Princesse Peach",
+      "Princesse Zelda",
+      "Princesse Rosalina",
+    ],
     answer: "Princesse Peach",
   },
   {
     numéro: "15/20",
-    question: "Quel personnage principal de GTA est surnommé 'The Joker' dans l'un des opus de la série ?",
+    question:
+      "Quel personnage principal de GTA est surnommé 'The Joker' dans l'un des opus de la série ?",
     options: ["Claude", "Tommy Vercetti", "Niko Bellic", "CJ"],
     answer: "Tommy Vercetti",
   },
   {
     numéro: "16/20",
-    question: "Dans quel jeu de simulation de vie les joueurs peuvent construire des maisons, créer des familles et gérer des personnages virtuels ?",
+    question:
+      "Dans quel jeu de simulation de vie les joueurs peuvent construire des maisons, créer des familles et gérer des personnages virtuels ?",
     options: ["Animal Crossing", "The Sims", "Harvest Moon", "Stardew Valley"],
     answer: "The Sims",
   },
   {
     numéro: "17/20",
-    question: "Quel personnage de jeux vidéo est connu pour son apparence sans bras ni jambes ?",
+    question:
+      "Quel personnage de jeux vidéo est connu pour son apparence sans bras ni jambes ?",
     options: ["Rayman", "Globox", "Murphy", "Ly"],
     answer: "Rayman",
   },
   {
     numéro: "18/20",
-    question: "Quel jeu vidéo d'action-aventure met en scène un héros nommé Nathan Drake ?",
-    options: ["Tomb Raider", "Uncharted", "The Last of Us", "Red Dead Redemption"],
+    question:
+      "Quel jeu vidéo d'action-aventure met en scène un héros nommé Nathan Drake ?",
+    options: [
+      "Tomb Raider",
+      "Uncharted",
+      "The Last of Us",
+      "Red Dead Redemption",
+    ],
     answer: "Uncharted",
   },
   {
     numéro: "19/20",
-    question: "Quel jeu de combat de 1995 a popularisé les 'Fatalities' et les 'Brutalities' ?",
+    question:
+      "Quel jeu de combat de 1995 a popularisé les 'Fatalities' et les 'Brutalities' ?",
     options: ["Tekken", "SoulCalibur", "Mortal Kombat", "Dead or Alive"],
     answer: "Mortal Kombat",
   },
   {
     numéro: "20/20",
-    question: "Quel jeu vidéo de 2013 développé par Naughty Dog suit les aventures de Joel et Ellie dans un monde post-apocalyptique ?",
+    question:
+      "Quel jeu vidéo de 2013 développé par Naughty Dog suit les aventures de Joel et Ellie dans un monde post-apocalyptique ?",
     options: ["The Last of Us", "Days Gone", "Fallout 4", "Horizon Zero Dawn"],
     answer: "The Last of Us",
   },
@@ -3300,14 +3665,21 @@ const questionsJeuxVideo = [
 const questionsActivitesPleinAir = [
   {
     numéro: "1/20",
-    question: "Quelle activité de plein air consiste à voler avec une aile fixée à un cadre en aluminium ?",
+    question:
+      "Quelle activité de plein air consiste à voler avec une aile fixée à un cadre en aluminium ?",
     options: ["Deltaplane", "Parapente", "Parachutisme", "Kitesurf"],
     answer: "Deltaplane",
   },
   {
     numéro: "2/20",
-    question: "Quel sport de plein air utilise un frisbee et consiste à marquer des points en le lançant dans des cibles spécifiques ?",
-    options: ["Ultimate frisbee", "Disc golf", "Frisbee freestyle", "Frisbee golf"],
+    question:
+      "Quel sport de plein air utilise un frisbee et consiste à marquer des points en le lançant dans des cibles spécifiques ?",
+    options: [
+      "Ultimate frisbee",
+      "Disc golf",
+      "Frisbee freestyle",
+      "Frisbee golf",
+    ],
     answer: "Disc golf",
   },
   {
@@ -3318,67 +3690,83 @@ const questionsActivitesPleinAir = [
   },
   {
     numéro: "4/20",
-    question: "Quelle activité de plein air consiste à naviguer sur l'eau dans une petite embarcation à pagaie ?",
+    question:
+      "Quelle activité de plein air consiste à naviguer sur l'eau dans une petite embarcation à pagaie ?",
     options: ["Canoë-kayak", "Surf", "Planche à voile", "Zodiac"],
     answer: "Canoë-kayak",
   },
   {
     numéro: "5/20",
-    question: "Quel sport de plein air utilise une balle et des clubs pour frapper la balle dans des trous sur un parcours ?",
+    question:
+      "Quel sport de plein air utilise une balle et des clubs pour frapper la balle dans des trous sur un parcours ?",
     options: ["Golf", "Croquet", "Baseball", "Polo"],
     answer: "Golf",
   },
   {
     numéro: "6/20",
-    question: "Quel jeu de plein air implique de marcher avec des longues tiges munies de plateforme ?",
-    options: ["Course en sac", "L'épervier", "Marche sur les mains", "Les échasses"],
+    question:
+      "Quel jeu de plein air implique de marcher avec des longues tiges munies de plateforme ?",
+    options: [
+      "Course en sac",
+      "L'épervier",
+      "Marche sur les mains",
+      "Les échasses",
+    ],
     answer: "Les échasses",
   },
   {
     numéro: "7/20",
-    question: "Quel est le nom de ce jeu de plein air qui nécessite une raquette et une balle attachée à un élastique fixé à un poteau ?",
+    question:
+      "Quel est le nom de ce jeu de plein air qui nécessite une raquette et une balle attachée à un élastique fixé à un poteau ?",
     options: ["Tennis de table", "Paddle-ball", "Jokari Tennis", "Tetherball"],
     answer: "Jokari Tennis",
   },
   {
     numéro: "8/20",
-    question: "Quelle activité de plein air consiste à explorer des sentiers à pied, souvent en milieu naturel ?",
+    question:
+      "Quelle activité de plein air consiste à explorer des sentiers à pied, souvent en milieu naturel ?",
     options: ["Randonnée", "VTT", "Spéléologie", "Course à pieds"],
     answer: "Randonnée",
   },
   {
     numéro: "9/20",
-    question: "Quel sport de plein air se pratique sur une planche à roulettes et consiste à effectuer des figures ?",
+    question:
+      "Quel sport de plein air se pratique sur une planche à roulettes et consiste à effectuer des figures ?",
     options: ["Skateboard", "Roller", "BMX", "Trottinette"],
     answer: "Skateboard",
   },
   {
     numéro: "10/20",
-    question: "Quelle activité de plein air consiste à glisser sur une pente enneigée avec une paire de skis ?",
+    question:
+      "Quelle activité de plein air consiste à glisser sur une pente enneigée avec une paire de skis ?",
     options: ["Ski alpin", "Snowboard", "Luge", "Ski de fond"],
     answer: "Ski alpin",
   },
   {
     numéro: "11/20",
-    question: "Quel activité de plein air se pratique en lançant des boules sur un terrain de sable ?",
+    question:
+      "Quel activité de plein air se pratique en lançant des boules sur un terrain de sable ?",
     options: ["Pétanque", "Bocce", "Cricket", "Jeu de billes"],
     answer: "Pétanque",
   },
   {
     numéro: "12/20",
-    question: "Quelle activité de plein air consiste à voler en parachute derrière un bateau à moteur ?",
+    question:
+      "Quelle activité de plein air consiste à voler en parachute derrière un bateau à moteur ?",
     options: ["Parachute ascensionnel", "Kitesurf", "Parapente", "Parachute"],
     answer: "Parachute ascensionnel",
   },
   {
     numéro: "13/20",
-    question: "Quel sport de plein air se pratique sur une planche, en se déplaçant sur les vagues de l'océan ?",
+    question:
+      "Quel sport de plein air se pratique sur une planche, en se déplaçant sur les vagues de l'océan ?",
     options: ["Surf", "Kitesurf", "Planche à voile", "Paddle"],
     answer: "Surf",
   },
   {
     numéro: "14/20",
-    question: "Quelle activité de plein air consiste à grimper dans des arbres avec un harnais et des cordes ?",
+    question:
+      "Quelle activité de plein air consiste à grimper dans des arbres avec un harnais et des cordes ?",
     options: ["Accrobranche", "Randonnée", "Escalade", "Alpinisme"],
     answer: "Accrobranche",
   },
@@ -3389,46 +3777,66 @@ const questionsActivitesPleinAir = [
       "Attraper un objet au centre du terrain",
       "Traverser le terrain sans se faire toucher",
       "Se cacher sans se faire attraper",
-      "Construire un abri dans la forêt"
+      "Construire un abri dans la forêt",
     ],
     answer: "Traverser le terrain sans se faire toucher",
   },
   {
     numéro: "16/20",
-    question: "Quelle activité de plein air consiste à voler librement à l'aide d'un parachute ?",
-    options: ["Parapente", "Parachutisme", "Parachute ascensionnel", "Montgolfière"],
+    question:
+      "Quelle activité de plein air consiste à voler librement à l'aide d'un parachute ?",
+    options: [
+      "Parapente",
+      "Parachutisme",
+      "Parachute ascensionnel",
+      "Montgolfière",
+    ],
     answer: "Parapente",
   },
   {
     numéro: "17/20",
-    question: "Dans quelle activité de plein air les participants doivent-ils conserver un aliment sur une cuillère tout en courant vers la ligne d'arrivée ?",
-    options: ["Course en sac", "Course à l'œuf", "Relais de l'œuf", "Course en trio"],
+    question:
+      "Dans quelle activité de plein air les participants doivent-ils conserver un aliment sur une cuillère tout en courant vers la ligne d'arrivée ?",
+    options: [
+      "Course en sac",
+      "Course à l'œuf",
+      "Relais de l'œuf",
+      "Course en trio",
+    ],
     answer: "Course à l'œuf",
   },
   {
     numéro: "18/20",
-    question: "Quelle activité de plein air consiste à dormir dans la nature sous une tente ?",
+    question:
+      "Quelle activité de plein air consiste à dormir dans la nature sous une tente ?",
     options: ["Camping", "Randonnée", "Escalade", "Nuit à la belle étoile"],
     answer: "Camping",
   },
   {
     numéro: "19/20",
-    question: "Quel sport de plein air consiste à tirer des flèches avec un arc ?",
+    question:
+      "Quel sport de plein air consiste à tirer des flèches avec un arc ?",
     options: ["Tir à l'arc", "Paintball", "Airsoft", "Tir au pistolet"],
     answer: "Tir à l'arc",
   },
   {
     numéro: "20/20",
     question: "Quelle est la principale difficulté de la course en sac ?",
-    options: ["Équilibrer l'oeuf", "Sauter sans tomber", "Courir les pieds attachés", "Courir en portant un sac lourd"],
+    options: [
+      "Équilibrer l'oeuf",
+      "Sauter sans tomber",
+      "Courir les pieds attachés",
+      "Courir en portant un sac lourd",
+    ],
     answer: "Sauter sans tomber",
-  }
+  },
 ];
 
 const questionsJeuxDeSociete = [
   {
     numéro: "1/20",
-    question: "Quel jeu de société demande aux joueurs de dessiner et de deviner des mots tout en respectant un sablier ?",
+    question:
+      "Quel jeu de société demande aux joueurs de dessiner et de deviner des mots tout en respectant un sablier ?",
     options: ["Pandemic", "Time's Up", "Pictionary", "La Bonne Paye"],
     answer: "Pictionary",
   },
@@ -3440,7 +3848,8 @@ const questionsJeuxDeSociete = [
   },
   {
     numéro: "3/20",
-    question: "Quel jeu de société utilise un plateau circulaire divisé en cases de couleur où les joueurs se déplacent avec des pions en forme de camemberts ?",
+    question:
+      "Quel jeu de société utilise un plateau circulaire divisé en cases de couleur où les joueurs se déplacent avec des pions en forme de camemberts ?",
     options: ["Trivial Pursuit", "Risk", "Puissance 4", "Taboo"],
     answer: "Trivial Pursuit",
   },
@@ -3452,90 +3861,123 @@ const questionsJeuxDeSociete = [
   },
   {
     numéro: "5/20",
-    question: "Dans le jeu 'Puissance 4', combien de jetons de chaque couleur reçoit chaque joueur au début de la partie ?",
+    question:
+      "Dans le jeu 'Puissance 4', combien de jetons de chaque couleur reçoit chaque joueur au début de la partie ?",
     options: ["18", "19", "20", "21"],
     answer: "21",
   },
   {
     numéro: "6/20",
-    question: "Dans quel jeu de société les joueurs doivent-ils deviner qui est l'Assassin parmi eux sans se faire démasquer ?",
-    options: ["Les Loups-Garous de Thiercelieux", "Codenames", "Time's Up", "Secret Hitler"],
+    question:
+      "Dans quel jeu de société les joueurs doivent-ils deviner qui est l'Assassin parmi eux sans se faire démasquer ?",
+    options: [
+      "Les Loups-Garous de Thiercelieux",
+      "Codenames",
+      "Time's Up",
+      "Secret Hitler",
+    ],
     answer: "Les Loups-Garous de Thiercelieux",
   },
   {
     numéro: "7/20",
-    question: "Combien de dés utilise-t-on dans une partie de 'Yahtzee' (Yams) ?",
+    question:
+      "Combien de dés utilise-t-on dans une partie de 'Yahtzee' (Yams) ?",
     options: ["3 dés", "4 dés", "5 dés", "6 dés"],
     answer: "5 dés",
   },
   {
     numéro: "8/20",
-    question: "Dans le jeu 'Trivial Pursuit', quelle couleur de camembert correspond aux questions de géographie ?",
+    question:
+      "Dans le jeu 'Trivial Pursuit', quelle couleur de camembert correspond aux questions de géographie ?",
     options: ["Bleu", "Jaune", "Vert", "Rose"],
     answer: "Bleu",
   },
   {
     numéro: "9/20",
-    question: "Dans le jeu Cluedo, qui est le coupable du meurtre dans la version classique du jeu ?",
-    options: ["Mademoiselle Rose", "Colonel Moutarde", "Docteur Lenoir", "Monsieur Olive"],
+    question:
+      "Dans le jeu Cluedo, qui est le coupable du meurtre dans la version classique du jeu ?",
+    options: [
+      "Mademoiselle Rose",
+      "Colonel Moutarde",
+      "Docteur Lenoir",
+      "Monsieur Olive",
+    ],
     answer: "Colonel Moutarde",
   },
   {
     numéro: "10/20",
-    question: "Dans le jeu 6 qui prend, combien de cartes maximum peut-on avoir en main à la fin d'une des manches ?",
+    question:
+      "Dans le jeu 6 qui prend, combien de cartes maximum peut-on avoir en main à la fin d'une des manches ?",
     options: ["4 cartes", "6 cartes", "10 cartes", "Aucune limite"],
     answer: "10 cartes",
   },
   {
     numéro: "11/20",
-    question: "Dans 'Puissance 4', combien de jetons doit-on aligner pour gagner la partie ?",
+    question:
+      "Dans 'Puissance 4', combien de jetons doit-on aligner pour gagner la partie ?",
     options: ["2", "3", "4", "5"],
     answer: "4",
   },
   {
     numéro: "12/20",
-    question: "Quel jeu de société nécessite que les joueurs devinent des mots à partir d'illustrations énigmatiques ?",
+    question:
+      "Quel jeu de société nécessite que les joueurs devinent des mots à partir d'illustrations énigmatiques ?",
     options: ["Dixit", "Codenames", "Time's Up", "Taboo"],
     answer: "Dixit",
   },
   {
     numéro: "13/20",
-    question: "Dans quel jeu de société les joueurs doivent-ils collaborer pour sauver l'humanité d'une pandémie ?",
+    question:
+      "Dans quel jeu de société les joueurs doivent-ils collaborer pour sauver l'humanité d'une pandémie ?",
     options: ["Pandemic", "Puissance 4", "Risk", "Les Aventuriers du Rail"],
     answer: "Pandemic",
   },
   {
     numéro: "14/20",
-    question: "Dans 'Time's Up', quels types de cartes sont utilisés pour faire deviner des célébrités ?",
+    question:
+      "Dans 'Time's Up', quels types de cartes sont utilisés pour faire deviner des célébrités ?",
     options: ["Mots", "Images", "Objets", "Sons"],
     answer: "Mots",
   },
   {
     numéro: "15/20",
     question: "Dans 'Codenames', quel est le rôle du maître-espion ?",
-    options: ["Faire deviner les mots", "Donner des indices", "Déchiffrer les codes", "Contrer les adversaires"],
+    options: [
+      "Faire deviner les mots",
+      "Donner des indices",
+      "Déchiffrer les codes",
+      "Contrer les adversaires",
+    ],
     answer: "Faire deviner les mots",
   },
   {
     numéro: "16/20",
-    question: "Dans le jeu Rummikub, combien de jetons faut-il poser pour avoir une combinaison de tuiles correcte au premier tour ?",
-    options: ["3 jetons minimum", "5 jetons minimum", "7 jetons minimum", "9 jetons minimum"],
+    question:
+      "Dans le jeu Rummikub, combien de jetons faut-il poser pour avoir une combinaison de tuiles correcte au premier tour ?",
+    options: [
+      "3 jetons minimum",
+      "5 jetons minimum",
+      "7 jetons minimum",
+      "9 jetons minimum",
+    ],
     answer: "3 jetons minimum",
   },
   {
     numéro: "17/20",
-    question: "Dans le jeu Uno, quelle carte permet de forcer le joueur suivant à piocher des cartes et à passer son tour ?",
+    question:
+      "Dans le jeu Uno, quelle carte permet de forcer le joueur suivant à piocher des cartes et à passer son tour ?",
     options: ["Carte +2", "Carte Joker", "Carte Inversion", "Carte 2"],
     answer: "Carte +2",
   },
   {
     numéro: "18/20",
-    question: "Dans le jeu Uno Flip, quelle est la particularité de la carte Flip ?",
+    question:
+      "Dans le jeu Uno Flip, quelle est la particularité de la carte Flip ?",
     options: [
       "Elle oblige à utiliser l'autre côté des cartes en main",
       "Elle oblige à retourner les cartes joker",
       "Elle est blanche",
-      "Elle a un carré dessiné au milieu "
+      "Elle a un carré dessiné au milieu ",
     ],
     answer: "Elle oblige à utiliser l'autre côté des cartes en main",
   },
@@ -3546,385 +3988,664 @@ const questionsJeuxDeSociete = [
       "En posant sa dernière carte",
       "En collectant le plus de points",
       "En complétant une liste entière",
-      "En battant tous les autres joueurs dans un duel"
+      "En battant tous les autres joueurs dans un duel",
     ],
     answer: "En posant sa dernière carte",
   },
   {
     numéro: "20/20",
-    question: "Quel jeu d'adresse demande aux joueurs d'empiler des pièces en bois sans faire tomber la tour ?",
+    question:
+      "Quel jeu d'adresse demande aux joueurs d'empiler des pièces en bois sans faire tomber la tour ?",
     options: ["Tac Tik", "Jenga", "Jungle speed", "Goki Solitaire"],
     answer: "Jenga",
-  }
+  },
 ];
 
 const questionsSportsMoteur = [
   {
     numéro: "1/20",
-    question: "Dans quelle discipline de sport à moteur les pilotes utilisent-ils des voitures spécialement conçues pour rouler sur des circuits ovales, comme celui d'Indianapolis 500 ?",
+    question:
+      "Dans quelle discipline de sport à moteur les pilotes utilisent-ils des voitures spécialement conçues pour rouler sur des circuits ovales, comme celui d'Indianapolis 500 ?",
     options: ["Formule 1", "NASCAR", "Rallye", "Endurance"],
     answer: "NASCAR",
   },
   {
     numéro: "2/20",
-    question: "Quel est le nom du circuit qui accueille le Grand Prix de Monaco de Formule 1 chaque année ?",
+    question:
+      "Quel est le nom du circuit qui accueille le Grand Prix de Monaco de Formule 1 chaque année ?",
     options: ["Monza", "Spa-Francorchamps", "Monte Carlo", "Suzuka"],
     answer: "Monte Carlo",
   },
   {
     numéro: "3/20",
-    question: "Quelle épreuve légendaire de course d'endurance se déroule chaque année en France sur un circuit de 13,6 kilomètres comprenant des portions de route publique ?",
-    options: ["24 Heures du Mans", "12 Heures de Sebring", "6 Heures de Spa", "24 Heures de Daytona"],
+    question:
+      "Quelle épreuve légendaire de course d'endurance se déroule chaque année en France sur un circuit de 13,6 kilomètres comprenant des portions de route publique ?",
+    options: [
+      "24 Heures du Mans",
+      "12 Heures de Sebring",
+      "6 Heures de Spa",
+      "24 Heures de Daytona",
+    ],
     answer: "24 Heures du Mans",
   },
   {
     numéro: "4/20",
-    question: "Quel pilote de Formule 1 brésilien, surnommé 'Magic Senna', a remporté trois championnats du monde avant son décès tragique lors du Grand Prix de Saint-Marin en 1994 ?",
-    options: ["Emerson Fittipaldi", "Ayrton Senna", "Nelson Piquet", "Rubens Barrichello"],
+    question:
+      "Quel pilote de Formule 1 brésilien, surnommé 'Magic Senna', a remporté trois championnats du monde avant son décès tragique lors du Grand Prix de Saint-Marin en 1994 ?",
+    options: [
+      "Emerson Fittipaldi",
+      "Ayrton Senna",
+      "Nelson Piquet",
+      "Rubens Barrichello",
+    ],
     answer: "Ayrton Senna",
   },
   {
     numéro: "5/20",
-    question: "Quel est le nom de la compétition de bateaux à moteur qui se déroule sur des eaux agitées et comporte des courses de vitesse sur des circuits définis ?",
-    options: ["Course Offshore", "Régate de voiliers", "Formule 1 nautique", "Key West Powerboat Race"],
+    question:
+      "Quel est le nom de la compétition de bateaux à moteur qui se déroule sur des eaux agitées et comporte des courses de vitesse sur des circuits définis ?",
+    options: [
+      "Course Offshore",
+      "Régate de voiliers",
+      "Formule 1 nautique",
+      "Key West Powerboat Race",
+    ],
     answer: "Course Offshore",
   },
   {
     numéro: "6/20",
-    question: "Quelle est la catégorie de courses de moto qui se déroule sur des circuits fermés et inclut des épreuves comme le TT de l'île de Man ?",
+    question:
+      "Quelle est la catégorie de courses de moto qui se déroule sur des circuits fermés et inclut des épreuves comme le TT de l'île de Man ?",
     options: ["MotoGP", "Motocross", "Enduro", "Trial"],
     answer: "MotoGP",
   },
   {
     numéro: "7/20",
-    question: "Dans quelle discipline de sport à moteur les pilotes conduisent-ils des véhicules à 4 roues sur des parcours variés comprenant des chemins boueux, des collines escarpées et des obstacles naturels ?",
+    question:
+      "Dans quelle discipline de sport à moteur les pilotes conduisent-ils des véhicules à 4 roues sur des parcours variés comprenant des chemins boueux, des collines escarpées et des obstacles naturels ?",
     options: ["Rallye tout-terrain", "Motocross", "Enduro", "Baja 1000"],
     answer: "Rallye tout-terrain",
   },
   {
     numéro: "8/20",
-    question: "Quel est le nom de la compétition où les participants conduisent des véhicules tout-terrain sur des parcours variés comprenant des chemins boueux, des collines escarpées et des obstacles naturels ?",
+    question:
+      "Quel est le nom de la compétition où les participants conduisent des véhicules tout-terrain sur des parcours variés comprenant des chemins boueux, des collines escarpées et des obstacles naturels ?",
     options: ["Rallye", "Enduro", "Motocross", "Baja 1000"],
     answer: "Enduro",
   },
   {
-    "numéro": "10/20",
-    "question": "Quelle est la compétition internationale de rallye la plus prestigieuse, où les pilotes s'affrontent sur des surfaces variées allant de la terre à la neige en passant par l'asphalte ?",
-    "options": ["NASCAR", "Formule 1", "IndyCar", "World Rally Championship (WRC)"],
-    "answer": "World Rally Championship (WRC)"
+    numéro: "10/20",
+    question:
+      "Quelle est la compétition internationale de rallye la plus prestigieuse, où les pilotes s'affrontent sur des surfaces variées allant de la terre à la neige en passant par l'asphalte ?",
+    options: [
+      "NASCAR",
+      "Formule 1",
+      "IndyCar",
+      "World Rally Championship (WRC)",
+    ],
+    answer: "World Rally Championship (WRC)",
   },
   {
     numéro: "10/20",
-    question: "Quel est le nom du célèbre pilote de Formule 1 britannique qui a remporté sept titres mondiaux, égalant le record de Michael Schumacher ?",
-    options: ["Ayrton Senna", "Lewis Hamilton", "Sebastian Vettel", "Fernando Alonso"],
+    question:
+      "Quel est le nom du célèbre pilote de Formule 1 britannique qui a remporté sept titres mondiaux, égalant le record de Michael Schumacher ?",
+    options: [
+      "Ayrton Senna",
+      "Lewis Hamilton",
+      "Sebastian Vettel",
+      "Fernando Alonso",
+    ],
     answer: "Lewis Hamilton",
   },
   {
     numéro: "11/20",
-    question: "Quelle est la catégorie de courses de voitures qui se déroule principalement sur des circuits urbains temporaires, mettant en avant la vitesse et l'agilité des voitures de sport ?",
+    question:
+      "Quelle est la catégorie de courses de voitures qui se déroule principalement sur des circuits urbains temporaires, mettant en avant la vitesse et l'agilité des voitures de sport ?",
     options: ["Formule E", "IndyCar", "Formule 1", "NASCAR"],
     answer: "Formule E",
   },
   {
     numéro: "12/20",
-    question: "Quelle est la discipline de sport à moteur qui se pratique sur des circuits tout-terrain, souvent dans des conditions de saleté, de boue ou de sable ?",
+    question:
+      "Quelle est la discipline de sport à moteur qui se pratique sur des circuits tout-terrain, souvent dans des conditions de saleté, de boue ou de sable ?",
     options: ["Rallye", "Motocross", "Trial", "Enduro"],
     answer: "Motocross",
   },
   {
     numéro: "13/20",
-    question: "Dans quelle compétition de course automobile les voitures sont-elles évaluées sur leur vitesse maximale sur une ligne droite d'un mile ?",
+    question:
+      "Dans quelle compétition de course automobile les voitures sont-elles évaluées sur leur vitesse maximale sur une ligne droite d'un mile ?",
     options: ["Formula E", "Drag Racing", "Rallycross", "Touring Car Racing"],
     answer: "Drag Racing",
   },
   {
     numéro: "14/20",
-    question: "Quel est le nom de la compétition de moto-cross annuelle qui se déroule sur une piste artificielle, où les pilotes doivent naviguer à travers des sauts et des virages serrés ?",
-    options: ["Supercross", "Endurocross", "Motocross des Nations", "X Games Moto-X"],
+    question:
+      "Quel est le nom de la compétition de moto-cross annuelle qui se déroule sur une piste artificielle, où les pilotes doivent naviguer à travers des sauts et des virages serrés ?",
+    options: [
+      "Supercross",
+      "Endurocross",
+      "Motocross des Nations",
+      "X Games Moto-X",
+    ],
     answer: "Supercross",
   },
   {
     numéro: "15/20",
-    question: "Quel est le nom de la célèbre course de voitures de sport qui se déroule chaque année en Floride, où les participants courent sur un circuit routier urbain ?",
-    options: ["24 Heures de Daytona", "12 Heures de Sebring", "Grand Prix de Miami", "Rolex Sports Car Series"],
+    question:
+      "Quel est le nom de la célèbre course de voitures de sport qui se déroule chaque année en Floride, où les participants courent sur un circuit routier urbain ?",
+    options: [
+      "24 Heures de Daytona",
+      "12 Heures de Sebring",
+      "Grand Prix de Miami",
+      "Rolex Sports Car Series",
+    ],
     answer: "24 Heures de Daytona",
   },
   {
     numéro: "16/20",
-    question: "Quel est le nom de la compétition de voiliers en solitaire, sans escale et sans assistance, considérée comme l'une des courses les plus difficiles au monde, se déroulant tous les quatre ans ?",
-    options: ["Transat Jacques Vabre", "Route du Rhum", "Vendée Globe", "Sydney to Hobart Yacht Race"],
+    question:
+      "Quel est le nom de la compétition de voiliers en solitaire, sans escale et sans assistance, considérée comme l'une des courses les plus difficiles au monde, se déroulant tous les quatre ans ?",
+    options: [
+      "Transat Jacques Vabre",
+      "Route du Rhum",
+      "Vendée Globe",
+      "Sydney to Hobart Yacht Race",
+    ],
     answer: "Vendée Globe",
   },
   {
     numéro: "17/20",
-    question: "Dans quelle discipline de sport à moteur les pilotes conduisent-ils des véhicules tout-terrain sur de longues distances, traversant différents types de terrains comme le sable, les rochers et les déserts ?",
+    question:
+      "Dans quelle discipline de sport à moteur les pilotes conduisent-ils des véhicules tout-terrain sur de longues distances, traversant différents types de terrains comme le sable, les rochers et les déserts ?",
     options: ["Baja 1000", "Rallye tout-terrain", "Rally Dakar", "Enduro"],
     answer: "Rally Dakar",
   },
   {
     numéro: "18/20",
-    question: "Quel est le nom du célèbre pilote de moto espagnol, multiple champion du monde dans la catégorie MotoGP ?",
-    options: ["Valentino Rossi", "Casey Stoner", "Jorge Lorenzo", "Marc Márquez"],
+    question:
+      "Quel est le nom du célèbre pilote de moto espagnol, multiple champion du monde dans la catégorie MotoGP ?",
+    options: [
+      "Valentino Rossi",
+      "Casey Stoner",
+      "Jorge Lorenzo",
+      "Marc Márquez",
+    ],
     answer: "Marc Márquez",
   },
   {
     numéro: "19/20",
-    question: "Dans quelle compétition de course de voitures de sport les pilotes doivent-ils rouler pendant 24 heures consécutives sur un circuit mixte comprenant des portions de route et de piste ?",
-    options: ["24 Heures du Mans", "24 Heures de Spa-Francorchamps", "Rolex 24 at Daytona", "12 Heures de Sebring"],
+    question:
+      "Dans quelle compétition de course de voitures de sport les pilotes doivent-ils rouler pendant 24 heures consécutives sur un circuit mixte comprenant des portions de route et de piste ?",
+    options: [
+      "24 Heures du Mans",
+      "24 Heures de Spa-Francorchamps",
+      "Rolex 24 at Daytona",
+      "12 Heures de Sebring",
+    ],
     answer: "24 Heures du Mans",
   },
   {
     numéro: "20/20",
-    question: "Quel est le nom du célèbre pilote français qui a remporté quatre championnats du monde de Formule 1 dans les années 1990 et 2000 ?",
-    options: ["Alain Prost", "Jean Alesi", "Jacques Villeneuve", "Fernando Alonso"],
+    question:
+      "Quel est le nom du célèbre pilote français qui a remporté quatre championnats du monde de Formule 1 dans les années 1990 et 2000 ?",
+    options: [
+      "Alain Prost",
+      "Jean Alesi",
+      "Jacques Villeneuve",
+      "Fernando Alonso",
+    ],
     answer: "Alain Prost",
   },
 ];
 
-
 const questionsMusiqueFilmsDisney = [
   {
     numéro: "1/20",
-    question: "Quelle chanson du film 'Le Roi Lion' remporta l'Oscar de la meilleure chanson originale en 1995 ?",
-    options: ["Hakuna Matata", "Can You Feel the Love Tonight", "Circle of Life", "I Just Can't Wait to Be King"],
+    question:
+      "Quelle chanson du film 'Le Roi Lion' remporta l'Oscar de la meilleure chanson originale en 1995 ?",
+    options: [
+      "Hakuna Matata",
+      "Can You Feel the Love Tonight",
+      "Circle of Life",
+      "I Just Can't Wait to Be King",
+    ],
     answer: "Can You Feel the Love Tonight",
   },
   {
     numéro: "2/20",
-    question: "Quelle chanson du film 'La Reine des Neiges' a connu un grand succès et a été traduite dans de nombreuses langues ?",
-    options: ["Let It Go", "Do You Want to Build a Snowman?", "For the First Time in Forever", "Love Is an Open Door"],
+    question:
+      "Quelle chanson du film 'La Reine des Neiges' a connu un grand succès et a été traduite dans de nombreuses langues ?",
+    options: [
+      "Let It Go",
+      "Do You Want to Build a Snowman?",
+      "For the First Time in Forever",
+      "Love Is an Open Door",
+    ],
     answer: "Let It Go",
   },
   {
-    "numéro": "3/20",
-    "question": "Quelle chanson du film 'Aladdin' est chantée par le personnage du Génie et est souvent associée à ses pouvoirs magiques ?",
-    "options": ["Prince Ali", "Ce Rêve Bleu", "Je Suis Ton Meilleur Ami", "Nuits d'Arabie"],
-    "answer": "Je Suis Ton Meilleur Ami"
+    numéro: "3/20",
+    question:
+      "Quelle chanson du film 'Aladdin' est chantée par le personnage du Génie et est souvent associée à ses pouvoirs magiques ?",
+    options: [
+      "Prince Ali",
+      "Ce Rêve Bleu",
+      "Je Suis Ton Meilleur Ami",
+      "Nuits d'Arabie",
+    ],
+    answer: "Je Suis Ton Meilleur Ami",
   },
   {
-    "numéro": "4/20",
-    "question": "Quelle chanson du film 'La Belle et la Bête' est chantée par Lumière, Big Ben et les autres personnages pour accueillir Belle au château ?",
-    "options": ["Beauty and the Beast", "C'est la fête", "Something There", "Belle"],
-    "answer": "C'est la fête"
-},
-{
-    "numéro": "5/20",
-    "question": "Quelle chanson du film 'Pocahontas' a remporté l'Oscar de la meilleure chanson originale en 1996 ?",
-    "options": ["Just Around the Riverbend", "Colors of the Wind", "Steady as the Beating Drum", "Savages"],
-    "answer": "Colors of the Wind"
-},
-{
-    "numéro": "6/20",
-    "question": "Quelle chanson du film 'Mary Poppins' a remporté l'Oscar de la meilleure chanson originale en 1965 ?",
-    "options": ["Supercalifragilisticexpialidocious", "A Spoonful of Sugar", "Chim Chim Cher-ee", "Let's Go Fly a Kite"],
-    "answer": "Chim Chim Cher-ee"
-},
-{
-    "numéro": "7/20",
-    "question": "Quelle chanson du film 'Mulan' est chantée par Mulan lorsqu'elle décide de se déguiser en homme et de partir à la guerre à la place de son père ?",
-    "options": ["Reflection", "Comme un homme", "Honor to Us All", "A Girl Worth Fighting For"],
-    "answer": "Reflection"
-},
-{
-    "numéro": "8/20",
-    "question": "Quelle chanson du film 'Coco' a remporté l'Oscar de la meilleure chanson originale en 2018 ?",
-    "options": ["Un Poco Loco", "Remember Me", "The World Es Mi Familia", "La Llorona"],
-    "answer": "Remember Me"
-},
-{
-    "numéro": "9/20",
-    "question": "Quelle chanson du film 'Hercule' est chantée par les Muses pour raconter les exploits du héros ?",
-    "options": ["Go the Distance", "De Zéro en Héros", "I Won't Say (I'm in Love)", "The Gospel Truth"],
-    "answer": "De Zéro en Héros"
-},
-{
-    "numéro": "10/20",
-    "question": "Quelle chanson du film 'La Petite Sirène' est chantée par Ariel pour exprimer son désir de découvrir le monde des humains ?",
-    "options": ["Sous l'océan", "Embrasse-la", "Partir là-bas", "Les Poissons"],
-    "answer": "Partir là-bas"
-},
-{
-    "numéro": "11/20",
-    "question": "Quelle chanson du film 'Tarzan' est chantée par Phil Collins et a été nominée pour l'Oscar de la meilleure chanson originale en 2000 ?",
-    "options": ["You'll Be in My Heart", "Strangers Like Me", "Son of Man", "Two Worlds"],
-    "answer": "You'll Be in My Heart"
-},
-{
-    "numéro": "12/20",
-    "question": "Quelle chanson du film 'La Belle au Bois Dormant' est chantée par Maléfique lorsqu'elle jette un sort à la princesse Aurore ?",
-    "options": ["Once Upon a Dream", "I Wonder", "Skumps", "A Dream Is a Wish Your Heart Makes"],
-    "answer": "Once Upon a Dream"
-},
-{
-    "numéro": "13/20",
-    "question": "Quelle chanson du film 'Les Aristochats' est chantée par la célèbre Duchesse et ses chatons ?",
-    "options": ["Tout le monde veut devenir un cat", "The Aristocats", "Scales and Arpeggios", "Thomas O'Malley Cat"],
-    "answer": "Tout le monde veut devenir un cat"
-},
-{
-    "numéro": "14/20",
-    "question": "Quelle chanson du film 'Le Livre de la Jungle' est chantée par Baloo pour enseigner la philosophie de la vie à Mowgli ?",
-    "options": ["Colonel Hathi's March", "Je voudrais être comme vous", "Il en faut peu pour être heureux", "Aie Confiance"],
-    "answer": "Il en faut peu pour être heureux"
-},
-{
-    "numéro": "15/20",
-    "question": "Quelle chanson du film 'La Princesse et la Grenouille' est chantée par le personnage de Ray, la luciole ?",
-    "options": ["Almost There", "Down in New Orleans", "Friends on the Other Side", "Ma Belle Evangeline"],
-    "answer": "Ma Belle Evangeline"
-},
-{
-    "numéro": "16/20",
-    "question": "Quelle chanson du film 'Raiponce' est chantée par Raiponce lorsqu'elle exprime son désir de voir les lanternes flottantes ?",
-    "options": ["Quand est-ce que ma vie commence ?", "Mother Knows Best", "Je veux y croire", "Healing Incantation"],
-    "answer": "Je veux y croire"
-},
-{
-    "numéro": "17/20",
-    "question": "Quelle chanson du film 'Mulan' est chantée par les soldats chinois pour exprimer leur détermination à défendre leur pays ?",
-    "options": ["Reflection", "Honor to Us All", "Comme un homme", "A Girl Worth Fighting For"],
-    "answer": "Comme un homme"
-},
-{
-    "numéro": "18/20",
-    "question": "Quelle chanson du film 'La Reine des Neiges' est chantée par Elsa lorsque ses pouvoirs de glace sont révélés au royaume d'Arendelle ?",
-    "options": ["Le Renouveau", "Libérée, délivrée", "L'Amour est un cadeau", "Do You Want to Build a Snowman?"],
-    "answer": "Libérée, délivrée"
-},
-{
-    "numéro": "19/20",
-    "question": "Quelle chanson du film 'Vaiana' est chantée par le personnage de Maui, le demi-dieu, pour vanter ses exploits ?",
-    "options": ["On connaît la chanson", "Le Bleu Lumière", "You're Welcome", "I Am Moana (Song of the Ancestors)"],
-    "answer": "You're Welcome"
-},
-{
-    "numéro": "20/20",
-    "question": "Quelle chanson du film 'Toy Story' est chantée par Randy Newman et a été nominée pour l'Oscar de la meilleure chanson originale en 1996 ?",
-    "options": ["Strange Things", "Je suis ton ami", "When She Loved Me", "We Belong Together"],
-    "answer": "Je suis ton ami"
-}
+    numéro: "4/20",
+    question:
+      "Quelle chanson du film 'La Belle et la Bête' est chantée par Lumière, Big Ben et les autres personnages pour accueillir Belle au château ?",
+    options: [
+      "Beauty and the Beast",
+      "C'est la fête",
+      "Something There",
+      "Belle",
+    ],
+    answer: "C'est la fête",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Quelle chanson du film 'Pocahontas' a remporté l'Oscar de la meilleure chanson originale en 1996 ?",
+    options: [
+      "Just Around the Riverbend",
+      "Colors of the Wind",
+      "Steady as the Beating Drum",
+      "Savages",
+    ],
+    answer: "Colors of the Wind",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quelle chanson du film 'Mary Poppins' a remporté l'Oscar de la meilleure chanson originale en 1965 ?",
+    options: [
+      "Supercalifragilisticexpialidocious",
+      "A Spoonful of Sugar",
+      "Chim Chim Cher-ee",
+      "Let's Go Fly a Kite",
+    ],
+    answer: "Chim Chim Cher-ee",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quelle chanson du film 'Mulan' est chantée par Mulan lorsqu'elle décide de se déguiser en homme et de partir à la guerre à la place de son père ?",
+    options: [
+      "Reflection",
+      "Comme un homme",
+      "Honor to Us All",
+      "A Girl Worth Fighting For",
+    ],
+    answer: "Reflection",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Quelle chanson du film 'Coco' a remporté l'Oscar de la meilleure chanson originale en 2018 ?",
+    options: [
+      "Un Poco Loco",
+      "Remember Me",
+      "The World Es Mi Familia",
+      "La Llorona",
+    ],
+    answer: "Remember Me",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quelle chanson du film 'Hercule' est chantée par les Muses pour raconter les exploits du héros ?",
+    options: [
+      "Go the Distance",
+      "De Zéro en Héros",
+      "I Won't Say (I'm in Love)",
+      "The Gospel Truth",
+    ],
+    answer: "De Zéro en Héros",
+  },
+  {
+    numéro: "10/20",
+    question:
+      "Quelle chanson du film 'La Petite Sirène' est chantée par Ariel pour exprimer son désir de découvrir le monde des humains ?",
+    options: ["Sous l'océan", "Embrasse-la", "Partir là-bas", "Les Poissons"],
+    answer: "Partir là-bas",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quelle chanson du film 'Tarzan' est chantée par Phil Collins et a été nominée pour l'Oscar de la meilleure chanson originale en 2000 ?",
+    options: [
+      "You'll Be in My Heart",
+      "Strangers Like Me",
+      "Son of Man",
+      "Two Worlds",
+    ],
+    answer: "You'll Be in My Heart",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Quelle chanson du film 'La Belle au Bois Dormant' est chantée par Maléfique lorsqu'elle jette un sort à la princesse Aurore ?",
+    options: [
+      "Once Upon a Dream",
+      "I Wonder",
+      "Skumps",
+      "A Dream Is a Wish Your Heart Makes",
+    ],
+    answer: "Once Upon a Dream",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Quelle chanson du film 'Les Aristochats' est chantée par la célèbre Duchesse et ses chatons ?",
+    options: [
+      "Tout le monde veut devenir un cat",
+      "The Aristocats",
+      "Scales and Arpeggios",
+      "Thomas O'Malley Cat",
+    ],
+    answer: "Tout le monde veut devenir un cat",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quelle chanson du film 'Le Livre de la Jungle' est chantée par Baloo pour enseigner la philosophie de la vie à Mowgli ?",
+    options: [
+      "Colonel Hathi's March",
+      "Je voudrais être comme vous",
+      "Il en faut peu pour être heureux",
+      "Aie Confiance",
+    ],
+    answer: "Il en faut peu pour être heureux",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quelle chanson du film 'La Princesse et la Grenouille' est chantée par le personnage de Ray, la luciole ?",
+    options: [
+      "Almost There",
+      "Down in New Orleans",
+      "Friends on the Other Side",
+      "Ma Belle Evangeline",
+    ],
+    answer: "Ma Belle Evangeline",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Quelle chanson du film 'Raiponce' est chantée par Raiponce lorsqu'elle exprime son désir de voir les lanternes flottantes ?",
+    options: [
+      "Quand est-ce que ma vie commence ?",
+      "Mother Knows Best",
+      "Je veux y croire",
+      "Healing Incantation",
+    ],
+    answer: "Je veux y croire",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quelle chanson du film 'Mulan' est chantée par les soldats chinois pour exprimer leur détermination à défendre leur pays ?",
+    options: [
+      "Reflection",
+      "Honor to Us All",
+      "Comme un homme",
+      "A Girl Worth Fighting For",
+    ],
+    answer: "Comme un homme",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quelle chanson du film 'La Reine des Neiges' est chantée par Elsa lorsque ses pouvoirs de glace sont révélés au royaume d'Arendelle ?",
+    options: [
+      "Le Renouveau",
+      "Libérée, délivrée",
+      "L'Amour est un cadeau",
+      "Do You Want to Build a Snowman?",
+    ],
+    answer: "Libérée, délivrée",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quelle chanson du film 'Vaiana' est chantée par le personnage de Maui, le demi-dieu, pour vanter ses exploits ?",
+    options: [
+      "On connaît la chanson",
+      "Le Bleu Lumière",
+      "You're Welcome",
+      "I Am Moana (Song of the Ancestors)",
+    ],
+    answer: "You're Welcome",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quelle chanson du film 'Toy Story' est chantée par Randy Newman et a été nominée pour l'Oscar de la meilleure chanson originale en 1996 ?",
+    options: [
+      "Strange Things",
+      "Je suis ton ami",
+      "When She Loved Me",
+      "We Belong Together",
+    ],
+    answer: "Je suis ton ami",
+  },
 ];
-
 
 const questionsDessinsAnimesDisney = [
   {
     numéro: "1/20",
-    question: "Quel est le premier long métrage d'animation réalisé par les studios Disney, sorti en 1937 ?",
-    options: ["Pinocchio", "Cendrillon", "Blanche-Neige et les Sept Nains", "La Belle et la Bête"],
+    question:
+      "Quel est le premier long métrage d'animation réalisé par les studios Disney, sorti en 1937 ?",
+    options: [
+      "Pinocchio",
+      "Cendrillon",
+      "Blanche-Neige et les Sept Nains",
+      "La Belle et la Bête",
+    ],
     answer: "Blanche-Neige et les Sept Nains",
   },
   {
     numéro: "2/20",
-    question: "Dans quel film Disney les personnages principaux s'aventurent-ils dans une jungle indienne et rencontrent des animaux comme Baloo et Shere Khan ?",
-    options: ["La Belle et le Clochard", "Le Livre de la Jungle", "Les Aristochats", "La Petite Sirène"],
+    question:
+      "Dans quel film Disney les personnages principaux s'aventurent-ils dans une jungle indienne et rencontrent des animaux comme Baloo et Shere Khan ?",
+    options: [
+      "La Belle et le Clochard",
+      "Le Livre de la Jungle",
+      "Les Aristochats",
+      "La Petite Sirène",
+    ],
     answer: "Le Livre de la Jungle",
   },
   {
     numéro: "3/20",
-    question: "Quel est le titre du film Disney où une jeune fille courageuse part à la recherche de son père disparu avec l'aide d'un poisson et d'un crustacé ?",
-    options: ["La Reine des Neiges", "La Petite Sirène", "Raiponce", "La Belle et la Bête"],
+    question:
+      "Quel est le titre du film Disney où une jeune fille courageuse part à la recherche de son père disparu avec l'aide d'un poisson et d'un crustacé ?",
+    options: [
+      "La Reine des Neiges",
+      "La Petite Sirène",
+      "Raiponce",
+      "La Belle et la Bête",
+    ],
     answer: "La Petite Sirène",
   },
   {
     numéro: "4/20",
-    question: "Quel est le nom du personnage principal du film Disney qui souhaite devenir un vrai garçon grâce à l'aide de Jiminy Cricket ?",
+    question:
+      "Quel est le nom du personnage principal du film Disney qui souhaite devenir un vrai garçon grâce à l'aide de Jiminy Cricket ?",
     options: ["Bambi", "Dumbo", "Pinocchio", "Peter Pan"],
     answer: "Pinocchio",
   },
   {
     numéro: "5/20",
-    question: "Dans quel film Disney des jouets prennent-ils vie lorsque les humains ne sont pas présents ?",
-    options: ["Toy Story", "Monstres et Cie", "Les Indestructibles", "La Reine des Neiges"],
+    question:
+      "Dans quel film Disney des jouets prennent-ils vie lorsque les humains ne sont pas présents ?",
+    options: [
+      "Toy Story",
+      "Monstres et Cie",
+      "Les Indestructibles",
+      "La Reine des Neiges",
+    ],
     answer: "Toy Story",
   },
   {
     numéro: "6/20",
-    question: "Quel est le titre du film Disney où des animaux de la savane africaine sont représentés dans une histoire épique de trahison et de courage ?",
+    question:
+      "Quel est le titre du film Disney où des animaux de la savane africaine sont représentés dans une histoire épique de trahison et de courage ?",
     options: ["Le Roi Lion", "Bambi", "Madagascar", "Robin des Bois"],
     answer: "Le Roi Lion",
   },
   {
     numéro: "7/20",
-    question: "Quel est le nom du film Disney où un jeune prince trouve une lampe magique contenant un puissant génie capable d'accorder des souhaits ?",
+    question:
+      "Quel est le nom du film Disney où un jeune prince trouve une lampe magique contenant un puissant génie capable d'accorder des souhaits ?",
     options: ["Aladdin", "Charmant", "Hercule", "Tarzan"],
     answer: "Aladdin",
   },
   {
     numéro: "8/20",
-    question: "Quel est le nom du film Disney où une jeune fille intrépide et un renard rusé se lient d'amitié malgré les différences entre leurs espèces ?",
-    options: ["Pocahontas", "La Belle et le Clochard", "Robin des Bois", "Les Aristochats"],
+    question:
+      "Quel est le nom du film Disney où une jeune fille intrépide et un renard rusé se lient d'amitié malgré les différences entre leurs espèces ?",
+    options: [
+      "Pocahontas",
+      "La Belle et le Clochard",
+      "Robin des Bois",
+      "Les Aristochats",
+    ],
     answer: "Robin des Bois",
   },
   {
     numéro: "9/20",
-    question: "Quel est le titre du film Disney où une jeune princesse, malédiction oblige, se retrouve piégée dans un château en compagnie d'une Bête terrifiante ?",
-    options: ["La Belle au Bois Dormant", "La Belle et la Bête", "Blanche-Neige et les Sept Nains", "Cendrillon"],
+    question:
+      "Quel est le titre du film Disney où une jeune princesse, malédiction oblige, se retrouve piégée dans un château en compagnie d'une Bête terrifiante ?",
+    options: [
+      "La Belle au Bois Dormant",
+      "La Belle et la Bête",
+      "Blanche-Neige et les Sept Nains",
+      "Cendrillon",
+    ],
     answer: "La Belle et la Bête",
   },
   {
     numéro: "10/20",
-    question: "Quel est le nom du film Disney où une jeune femme courageuse part à la recherche de sa sœur gelée et apprend à maîtriser ses pouvoirs de glace ?",
-    options: ["La Reine des Neiges", "Vaiana, la Légende du Bout du Monde", "La Princesse et la Grenouille", "Mulan"],
+    question:
+      "Quel est le nom du film Disney où une jeune femme courageuse part à la recherche de sa sœur gelée et apprend à maîtriser ses pouvoirs de glace ?",
+    options: [
+      "La Reine des Neiges",
+      "Vaiana, la Légende du Bout du Monde",
+      "La Princesse et la Grenouille",
+      "Mulan",
+    ],
     answer: "La Reine des Neiges",
   },
   {
     numéro: "11/20",
-    question: "Quel est le titre du film Disney où une jeune princesse hawaïenne part à l'aventure pour restaurer le cœur d'une déesse et sauver son île ?",
-    options: ["Wish", "Vaiana, la Légende du Bout du Monde", "Lilo & Stitch", "Encanto"],
+    question:
+      "Quel est le titre du film Disney où une jeune princesse hawaïenne part à l'aventure pour restaurer le cœur d'une déesse et sauver son île ?",
+    options: [
+      "Wish",
+      "Vaiana, la Légende du Bout du Monde",
+      "Lilo & Stitch",
+      "Encanto",
+    ],
     answer: "Vaiana, la Légende du Bout du Monde",
   },
   {
     numéro: "12/20",
-    question: "Dans quel film Disney des jouets d'une chambre d'enfant partent-ils à la recherche de Buzz l'Éclair, leur nouveau camarade de jeu ?",
+    question:
+      "Dans quel film Disney des jouets d'une chambre d'enfant partent-ils à la recherche de Buzz l'Éclair, leur nouveau camarade de jeu ?",
     options: ["Toy Story 2", "Toy Story 3", "Toy Story 4", "Toy Story"],
     answer: "Toy Story 2",
   },
   {
     numéro: "13/20",
-    question: "Quel est le nom du film Disney où un jeune Indien, avide de vengeance, se lance à la poursuite d'un grizzly qui a tué son frère ?",
-    options: ["Tarzan", "Bernard et Bianca au pays des kangourous", "Frère des ours", "Le Monde de Nemo"],
+    question:
+      "Quel est le nom du film Disney où un jeune Indien, avide de vengeance, se lance à la poursuite d'un grizzly qui a tué son frère ?",
+    options: [
+      "Tarzan",
+      "Bernard et Bianca au pays des kangourous",
+      "Frère des ours",
+      "Le Monde de Nemo",
+    ],
     answer: "Frère des ours",
   },
   {
     numéro: "14/20",
-    question: " Dans quel film d'animation de Disney, une jeune femme passionnée de cuisine rêve-t-elle d'ouvrir son propre restaurant et travaille-t-elle dur pour atteindre son objectif malgré les obstacles ?",
-    options: ["Atlantide, l'empire perdu", "La Princesse et la Grenouille", "Enchanted", "Mulan"],
+    question:
+      " Dans quel film d'animation de Disney, une jeune femme passionnée de cuisine rêve-t-elle d'ouvrir son propre restaurant et travaille-t-elle dur pour atteindre son objectif malgré les obstacles ?",
+    options: [
+      "Atlantide, l'empire perdu",
+      "La Princesse et la Grenouille",
+      "Enchanted",
+      "Mulan",
+    ],
     answer: "La Princesse et la Grenouille",
   },
   {
     numéro: "15/20",
-    question: "Dans quel film Disney les personnages principaux vivent-ils une aventure musicale dans les rues de Paris ?",
-    options: ["Oliver et Compagnie", "Rox et Rouky", "Les Aventures de Bernard et Bianca", "Le Bossu de Notre-Dame"],
+    question:
+      "Dans quel film Disney les personnages principaux vivent-ils une aventure musicale dans les rues de Paris ?",
+    options: [
+      "Oliver et Compagnie",
+      "Rox et Rouky",
+      "Les Aventures de Bernard et Bianca",
+      "Le Bossu de Notre-Dame",
+    ],
     answer: "Le Bossu de Notre-Dame",
   },
   {
     numéro: "16/20",
-    question: "Quel est le nom du film Disney où un jeune lion doit affronter son destin pour devenir le roi de la savane après la mort de son père ?",
+    question:
+      "Quel est le nom du film Disney où un jeune lion doit affronter son destin pour devenir le roi de la savane après la mort de son père ?",
     options: ["Le Roi Lion", "Bambi", "Dumbo", "Tarzan"],
     answer: "Le Roi Lion",
   },
   {
     numéro: "17/20",
-    question: "Quel est le titre du film Disney où une jeune fille, en quête de justice, devient guerrière pour défendre son peuple contre les envahisseurs hun ?",
-    options: ["Pocahontas", "Mulan", "Vaiana, la Légende du Bout du Monde", "La Reine des Neiges"],
+    question:
+      "Quel est le titre du film Disney où une jeune fille, en quête de justice, devient guerrière pour défendre son peuple contre les envahisseurs hun ?",
+    options: [
+      "Pocahontas",
+      "Mulan",
+      "Vaiana, la Légende du Bout du Monde",
+      "La Reine des Neiges",
+    ],
     answer: "Mulan",
   },
   {
     numéro: "18/20",
-    question: "Dans quel film Disney un jeune garçon est élevé par des loups après avoir été abandonné par ses parents ?",
+    question:
+      "Dans quel film Disney un jeune garçon est élevé par des loups après avoir été abandonné par ses parents ?",
     options: ["Lilo & Stitch", "Tarzan", "Le Livre de la Jungle", "Peter Pan"],
     answer: "Le Livre de la Jungle",
   },
   {
     numéro: "19/20",
-    question: "Quel est le nom du film Disney où un jeune garçon vit des aventures magiques dans un monde souterrain rempli de créatures étranges ?",
-    options: ["Les Mondes de Ralph", "Atlantide, l'empire perdu", "La Planète au trésor", "Le Voyage d'Arlo"],
+    question:
+      "Quel est le nom du film Disney où un jeune garçon vit des aventures magiques dans un monde souterrain rempli de créatures étranges ?",
+    options: [
+      "Les Mondes de Ralph",
+      "Atlantide, l'empire perdu",
+      "La Planète au trésor",
+      "Le Voyage d'Arlo",
+    ],
     answer: "Atlantide, l'empire perdu",
   },
   {
     numéro: "20/20",
-    question: "Dans quel film Disney une petite fille se retrouve coincée dans un monde peuplé de monstres ?",
-    options: ["Monstres et Cie", "Toy Story", "Les Indestructibles", "Monstres Academy"],
+    question:
+      "Dans quel film Disney une petite fille se retrouve coincée dans un monde peuplé de monstres ?",
+    options: [
+      "Monstres et Cie",
+      "Toy Story",
+      "Les Indestructibles",
+      "Monstres Academy",
+    ],
     answer: "Monstres et Cie",
   },
 ];
@@ -3932,55 +4653,64 @@ const questionsDessinsAnimesDisney = [
 const questionsPersonnagesDisney = [
   {
     numéro: "1/20",
-    question: "Quel est le nom du célèbre souriceau intrépide et optimiste, créé par Walt Disney en 1928 ?",
+    question:
+      "Quel est le nom du célèbre souriceau intrépide et optimiste, créé par Walt Disney en 1928 ?",
     options: ["Dingo", "Mickey Mouse", "Donald Duck", "Pluto"],
     answer: "Mickey Mouse",
   },
   {
     numéro: "2/20",
-    question: "Quelle princesse Disney, inspirée d'un conte de fées danois, a le pouvoir de geler les objets et les personnes ?",
+    question:
+      "Quelle princesse Disney, inspirée d'un conte de fées danois, a le pouvoir de geler les objets et les personnes ?",
     options: ["Aurore", "Cendrillon", "Elsa", "Blanche-Neige"],
     answer: "Elsa",
   },
   {
     numéro: "3/20",
-    question: "Quel est le nom du père du poisson clown courageux et aventureux ?",
+    question:
+      "Quel est le nom du père du poisson clown courageux et aventureux ?",
     options: ["Marin", "Nemo", "Dory", "Crush"],
     answer: "Marin",
   },
   {
     numéro: "4/20",
-    question: "Quel est le nom de la princesse qui est forcée de travailler comme servante avant de retrouver sa véritable identité grâce à une pantoufle de verre ?",
+    question:
+      "Quel est le nom de la princesse qui est forcée de travailler comme servante avant de retrouver sa véritable identité grâce à une pantoufle de verre ?",
     options: ["Aurore", "Cendrillon", "Ariel", "Belle"],
     answer: "Cendrillon",
   },
   {
     numéro: "5/20",
-    question: "Quel est le nom du célèbre génie bleu qui vit dans une lampe magique et peut exaucer des vœux dans le film 'Aladdin' ?",
+    question:
+      "Quel est le nom du célèbre génie bleu qui vit dans une lampe magique et peut exaucer des vœux dans le film 'Aladdin' ?",
     options: ["Abu", "Jafar", "Iago", "Génie"],
     answer: "Génie",
   },
   {
     numéro: "6/20",
-    question: "Quel est le nom du lionceau qui devient roi de la savane dans le film 'Le Roi Lion' ?",
+    question:
+      "Quel est le nom du lionceau qui devient roi de la savane dans le film 'Le Roi Lion' ?",
     options: ["Simba", "Mufasa", "Timon", "Pumbaa"],
     answer: "Simba",
   },
   {
     numéro: "7/20",
-    question: "Quel est le nom du protagoniste du film 'En Avant', un jeune elfe passionné de magie et d'aventure ?",
+    question:
+      "Quel est le nom du protagoniste du film 'En Avant', un jeune elfe passionné de magie et d'aventure ?",
     options: ["Barley", "Laurel", "Corey", "Wilden"],
     answer: "Barley",
   },
   {
     numéro: "8/20",
-    question: "Dans le film 'Encanto', quel est le nom de l'aînée de la famille Madrigal, qui a le pouvoir de contrôler les plantes ?",
+    question:
+      "Dans le film 'Encanto', quel est le nom de l'aînée de la famille Madrigal, qui a le pouvoir de contrôler les plantes ?",
     options: ["Isabela", "Mirabel", "Abuela Alma", "Antonio"],
     answer: "Isabela",
   },
   {
     numéro: "9/20",
-    question: "Dans le film 'Luca', quel est le nom du meilleur ami de Luca, un jeune monstre marin audacieux ?",
+    question:
+      "Dans le film 'Luca', quel est le nom du meilleur ami de Luca, un jeune monstre marin audacieux ?",
     options: ["Alberto", "Massimo", "Giulia", "Daniela"],
     answer: "Alberto",
   },
@@ -3992,120 +4722,183 @@ const questionsPersonnagesDisney = [
   },
   {
     numéro: "11/20",
-    question: "Quel est le nom du vaillant guerrier chinois qui se déguise en homme pour combattre à la place de son père malade dans le film 'Mulan' ?",
+    question:
+      "Quel est le nom du vaillant guerrier chinois qui se déguise en homme pour combattre à la place de son père malade dans le film 'Mulan' ?",
     options: ["Mulan", "Shang", "Cri-Kee", "Mushu"],
     answer: "Mulan",
   },
   {
     numéro: "12/20",
-    question: "Quel est le nom du célèbre chien de chasse rusé qui aide les renards dans le film 'Rox et Rouky' ?",
+    question:
+      "Quel est le nom du célèbre chien de chasse rusé qui aide les renards dans le film 'Rox et Rouky' ?",
     options: ["Rox", "Rouky", "Copper", "Tod"],
     answer: "Copper",
   },
   {
     numéro: "13/20",
-    question: "Quel est le nom du méchant, souvent accompagné de son fidèle corbeau, dans le film 'La Belle au Bois Dormant' ?",
+    question:
+      "Quel est le nom du méchant, souvent accompagné de son fidèle corbeau, dans le film 'La Belle au Bois Dormant' ?",
     options: ["Jafar", "Gaston", "Maléfique", "Hades"],
     answer: "Maléfique",
   },
   {
     numéro: "14/20",
-    question: "Quel est le nom de la célèbre petite souris verte qui est la meilleure amie de Cendrillon ?",
+    question:
+      "Quel est le nom de la célèbre petite souris verte qui est la meilleure amie de Cendrillon ?",
     options: ["Gus", "Suzy", "Perla", "Jac"],
     answer: "Jac",
   },
   {
     numéro: "15/20",
-    question: "Quel est le nom du célèbre capitaine pirate qui poursuit Peter Pan dans le Pays Imaginaire ?",
-    options: ["Capitaine Crochet", "Capitaine Barbossa", "Capitaine Jack Sparrow", "Capitaine Hector"],
+    question:
+      "Quel est le nom du célèbre capitaine pirate qui poursuit Peter Pan dans le Pays Imaginaire ?",
+    options: [
+      "Capitaine Crochet",
+      "Capitaine Barbossa",
+      "Capitaine Jack Sparrow",
+      "Capitaine Hector",
+    ],
     answer: "Capitaine Crochet",
   },
   {
     numéro: "16/20",
-    question: "Quel est le nom du général chinois respecté qui prend Mulan sous son aile malgré son identité secrète de femme ?",
+    question:
+      "Quel est le nom du général chinois respecté qui prend Mulan sous son aile malgré son identité secrète de femme ?",
     options: ["Shang", "Chi-Fu", "Ling", "Yao"],
     answer: "Shang",
   },
   {
     numéro: "17/20",
-    question: "Quel est le nom de la gentille fée marraine qui aide Cendrillon à se rendre au bal dans un carrosse magique ?",
+    question:
+      "Quel est le nom de la gentille fée marraine qui aide Cendrillon à se rendre au bal dans un carrosse magique ?",
     options: ["Flora", "Pimprenelle", "Marraine la Bonne Fée", "Lucifer"],
     answer: "Marraine la Bonne Fée",
   },
   {
     numéro: "18/20",
-    question: "Quel est le nom du célèbre lion majestueux, père de Simba, dans le film 'Le Roi Lion' ?",
+    question:
+      "Quel est le nom du célèbre lion majestueux, père de Simba, dans le film 'Le Roi Lion' ?",
     options: ["Mufasa", "Scar", "Rafiki", "Zazu"],
     answer: "Mufasa",
   },
   {
     numéro: "19/20",
-    question: "Quel est le nom du célèbre ours en peluche qui est le meilleur ami de Christopher Robin ?",
+    question:
+      "Quel est le nom du célèbre ours en peluche qui est le meilleur ami de Christopher Robin ?",
     options: ["Tigrou", "Porcinet", "Bourriquet", "Winnie"],
     answer: "Winnie",
   },
   {
     numéro: "20/20",
-    question: "Quel est le nom du célèbre chat roux de la princesse Aurore dans le film 'La Belle au Bois Dormant' ?",
+    question:
+      "Quel est le nom du célèbre chat roux de la princesse Aurore dans le film 'La Belle au Bois Dormant' ?",
     options: ["Lucifer", "Figaro", "Cheshire", "Tom"],
     answer: "Figaro",
   },
 ];
 
-
 const questionsBandesOriginalesFilms = [
   {
     numéro: "1/20",
-    question: "Quelle chanson de film, écrite par Elton John et Tim Rice, a remporté l'Oscar de la meilleure chanson originale en 1995 pour le film 'Le Roi Lion' ?",
-    options: ["Can You Feel the Love Tonight", "Circle of Life", "Hakuna Matata", "I Just Can't Wait to Be King"],
+    question:
+      "Quelle chanson de film, écrite par Elton John et Tim Rice, a remporté l'Oscar de la meilleure chanson originale en 1995 pour le film 'Le Roi Lion' ?",
+    options: [
+      "Can You Feel the Love Tonight",
+      "Circle of Life",
+      "Hakuna Matata",
+      "I Just Can't Wait to Be King",
+    ],
     answer: "Can You Feel the Love Tonight",
   },
   {
     numéro: "2/20",
-    question: "Quelle chanson de Whitney Houston, issue du film 'The Bodyguard', est devenue un énorme succès en 1992 ?",
-    options: ["Greatest Love of All", "I Have Nothing", "I Will Always Love You", "Run to You"],
+    question:
+      "Quelle chanson de Whitney Houston, issue du film 'The Bodyguard', est devenue un énorme succès en 1992 ?",
+    options: [
+      "Greatest Love of All",
+      "I Have Nothing",
+      "I Will Always Love You",
+      "Run to You",
+    ],
     answer: "I Will Always Love You",
   },
   {
     numéro: "3/20",
-    question: "Quelle chanson de Céline Dion, pour le film 'Titanic', a remporté l'Oscar de la meilleure chanson originale en 1998 ?",
-    options: ["My Heart Will Go On", "Near, Far, Wherever You Are", "Every Night in My Dreams", "Titanic Anthem"],
+    question:
+      "Quelle chanson de Céline Dion, pour le film 'Titanic', a remporté l'Oscar de la meilleure chanson originale en 1998 ?",
+    options: [
+      "My Heart Will Go On",
+      "Near, Far, Wherever You Are",
+      "Every Night in My Dreams",
+      "Titanic Anthem",
+    ],
     answer: "My Heart Will Go On",
   },
   {
     numéro: "4/20",
-    question: "Quelle chanson de film, interprétée par Anaïs Delva, est devenue un phénomène mondial grâce au film 'La Reine des Neiges' en 2013 ?",
-    options: ["L'amour est un cadeau", "Le renouveau", "Libérée, délivrée", "Je voudrais un bonhomme de neige ?"],
+    question:
+      "Quelle chanson de film, interprétée par Anaïs Delva, est devenue un phénomène mondial grâce au film 'La Reine des Neiges' en 2013 ?",
+    options: [
+      "L'amour est un cadeau",
+      "Le renouveau",
+      "Libérée, délivrée",
+      "Je voudrais un bonhomme de neige ?",
+    ],
     answer: "Libérée, Délivrée",
   },
   {
     numéro: "5/20",
-    question: "Quelle chanson de film, chantée par Julie Andrews, est devenue emblématique dans le film 'Mary Poppins' sorti en 1964 ?",
-    options: ["A Spoonful of Sugar", "Chim Chim Cher-ee", "Feed the Birds", "Supercalifragilisticexpialidocious"],
+    question:
+      "Quelle chanson de film, chantée par Julie Andrews, est devenue emblématique dans le film 'Mary Poppins' sorti en 1964 ?",
+    options: [
+      "A Spoonful of Sugar",
+      "Chim Chim Cher-ee",
+      "Feed the Birds",
+      "Supercalifragilisticexpialidocious",
+    ],
     answer: "Supercalifragilisticexpialidocious",
   },
   {
     numéro: "6/20",
-    question: "Quelle chanson de film, interprétée par Irene Cara, a remporté l'Oscar de la meilleure chanson originale en 1984 pour le film 'Flashdance' ?",
+    question:
+      "Quelle chanson de film, interprétée par Irene Cara, a remporté l'Oscar de la meilleure chanson originale en 1984 pour le film 'Flashdance' ?",
     options: ["What a Feeling", "Maniac", "Fame", "Flashdance"],
     answer: "What a Feeling",
   },
   {
     numéro: "7/20",
-    question: "Quelle chanson de film, chantée par Judy Garland, est devenue un symbole d'espoir dans le film 'Le Magicien d'Oz' sorti en 1939 ?",
-    options: ["Ding-Dong! The Witch Is Dead", "We're Off to See the Wizard", "Somewhere Over the Rainbow", "Follow the Yellow Brick Road"],
+    question:
+      "Quelle chanson de film, chantée par Judy Garland, est devenue un symbole d'espoir dans le film 'Le Magicien d'Oz' sorti en 1939 ?",
+    options: [
+      "Ding-Dong! The Witch Is Dead",
+      "We're Off to See the Wizard",
+      "Somewhere Over the Rainbow",
+      "Follow the Yellow Brick Road",
+    ],
     answer: "Somewhere Over the Rainbow",
   },
   {
     numéro: "8/20",
-    question: "Quelle chanson de film, interprétée par Bill Medley et Jennifer Warnes, est devenue un succès phénoménal grâce au film 'Dirty Dancing' en 1987 ?",
-    options: ["(I've Had) The Time of My Life", "Hungry Eyes", "She's Like the Wind", "Do You Love Me"],
+    question:
+      "Quelle chanson de film, interprétée par Bill Medley et Jennifer Warnes, est devenue un succès phénoménal grâce au film 'Dirty Dancing' en 1987 ?",
+    options: [
+      "(I've Had) The Time of My Life",
+      "Hungry Eyes",
+      "She's Like the Wind",
+      "Do You Love Me",
+    ],
     answer: "(I've Had) The Time of My Life",
   },
   {
     numéro: "9/20",
-    question: "Quelle chanson de film, écrite par Howard Shore et interprétée par Enya, a été utilisée dans la trilogie 'Le Seigneur des Anneaux' ?",
-    options: ["Concerning Hobbits", "May It Be", "The Breaking of the Fellowship", "Into the West"],
+    question:
+      "Quelle chanson de film, écrite par Howard Shore et interprétée par Enya, a été utilisée dans la trilogie 'Le Seigneur des Anneaux' ?",
+    options: [
+      "Concerning Hobbits",
+      "May It Be",
+      "The Breaking of the Fellowship",
+      "Into the West",
+    ],
     answer: "May It Be",
   },
   {
@@ -4116,66 +4909,115 @@ const questionsBandesOriginalesFilms = [
   },
   {
     numéro: "11/20",
-    question: "Quelle chanson de film, interprétée par Phil Collins, a été utilisée comme thème musical principal du film 'Tarzan' de Disney en 1999 ?",
-    options: ["Son of Man", "Strangers Like Me", "You'll Be in My Heart", "Two Worlds"],
+    question:
+      "Quelle chanson de film, interprétée par Phil Collins, a été utilisée comme thème musical principal du film 'Tarzan' de Disney en 1999 ?",
+    options: [
+      "Son of Man",
+      "Strangers Like Me",
+      "You'll Be in My Heart",
+      "Two Worlds",
+    ],
     answer: "You'll Be in My Heart",
   },
   {
     numéro: "12/20",
-    question: "Quelle chanson de film, interprétée par Whitney Houston et Mariah Carey, est devenue un succès grâce au film 'Le Prince d'Egypte' en 1998 ?",
-    options: ["Exhale (Shoop Shoop)", "My Love Is Your Love", "When You Believe", "I Will Always Love You"],
+    question:
+      "Quelle chanson de film, interprétée par Whitney Houston et Mariah Carey, est devenue un succès grâce au film 'Le Prince d'Egypte' en 1998 ?",
+    options: [
+      "Exhale (Shoop Shoop)",
+      "My Love Is Your Love",
+      "When You Believe",
+      "I Will Always Love You",
+    ],
     answer: "When You Believe",
   },
   {
     numéro: "13/20",
-    question: "Quelle chanson de film, interprétée par Adele, a remporté l'Oscar de la meilleure chanson originale en 2013 pour le film 'Skyfall' ?",
-    options: ["Skyfall", "Writing's on the Wall", "No Time to Die", "All the Stars"],
+    question:
+      "Quelle chanson de film, interprétée par Adele, a remporté l'Oscar de la meilleure chanson originale en 2013 pour le film 'Skyfall' ?",
+    options: [
+      "Skyfall",
+      "Writing's on the Wall",
+      "No Time to Die",
+      "All the Stars",
+    ],
     answer: "Skyfall",
   },
   {
     numéro: "14/20",
-    question: "Quelle chanson de film, interprétée par Eminem, a remporté l'Oscar de la meilleure chanson originale en 2003 pour le film '8 Mile' ?",
+    question:
+      "Quelle chanson de film, interprétée par Eminem, a remporté l'Oscar de la meilleure chanson originale en 2003 pour le film '8 Mile' ?",
     options: ["Without Me", "Lose Yourself", "Mockingbird", "Stan"],
     answer: "Lose Yourself",
   },
   {
     numéro: "15/20",
-    question: "Quelle chanson de film, interprétée par Bruce Springsteen, a remporté l'Oscar de la meilleure chanson originale en 1994 pour le film 'Philadelphia' ?",
-    options: ["The Streets of Philadelphia", "Streets of Fire", "Born in the USA", "Dancing in the Dark"],
+    question:
+      "Quelle chanson de film, interprétée par Bruce Springsteen, a remporté l'Oscar de la meilleure chanson originale en 1994 pour le film 'Philadelphia' ?",
+    options: [
+      "The Streets of Philadelphia",
+      "Streets of Fire",
+      "Born in the USA",
+      "Dancing in the Dark",
+    ],
     answer: "The Streets of Philadelphia",
   },
   {
     numéro: "16/20",
-    question: "Quelle chanson de la bande originale du film 'Léon' est interprétée par Sting et a également été un succès en dehors du film ?",
-    options: ["Angel", "Fields of Gold", "Shape of my Heart", "Englishman in New York"],
+    question:
+      "Quelle chanson de la bande originale du film 'Léon' est interprétée par Sting et a également été un succès en dehors du film ?",
+    options: [
+      "Angel",
+      "Fields of Gold",
+      "Shape of my Heart",
+      "Englishman in New York",
+    ],
     answer: "Shape of my Heart",
   },
   {
     numéro: "17/20",
-    question: "Quelle chanson de film, interprétée par Phil Collins, est devenue un succès mondial grâce au film d'animation 'Tarzan' en 1999 ?",
-    options: ["Two Worlds", "Strangers Like Me", "Son of Man", "You'll Be in My Heart"],
+    question:
+      "Quelle chanson de film, interprétée par Phil Collins, est devenue un succès mondial grâce au film d'animation 'Tarzan' en 1999 ?",
+    options: [
+      "Two Worlds",
+      "Strangers Like Me",
+      "Son of Man",
+      "You'll Be in My Heart",
+    ],
     answer: "Strangers Like Me",
   },
   {
     numéro: "18/20",
-    question: "Quelle chanson de film, interprétée par Huey Lewis and the News, a été utilisée comme thème musical principal du film 'Retour vers le futur' en 1985 ?",
-    options: ["Back in Time", "The Power of Love", "Hip to Be Square", "Heart and Soul"],
+    question:
+      "Quelle chanson de film, interprétée par Huey Lewis and the News, a été utilisée comme thème musical principal du film 'Retour vers le futur' en 1985 ?",
+    options: [
+      "Back in Time",
+      "The Power of Love",
+      "Hip to Be Square",
+      "Heart and Soul",
+    ],
     answer: "The Power of Love",
   },
   {
     numéro: "19/20",
-    question: "Quelle chanson de la bande originale du film 'Léon' est interprétée par Massive Attack ?",
+    question:
+      "Quelle chanson de la bande originale du film 'Léon' est interprétée par Massive Attack ?",
     options: ["Angel", "Teardrop", "Two Ways Out", "Protection"],
     answer: "Two Ways Out",
   },
   {
     numéro: "20/20",
-    question: "Quelle chanson de film, interprétée par Survivor, est devenue célèbre comme thème musical principal du film 'Rocky III' en 1982 ?",
-    options: ["Eye of the Tiger", "Gonna Fly Now", "Burning Heart", "No Easy Way Out"],
+    question:
+      "Quelle chanson de film, interprétée par Survivor, est devenue célèbre comme thème musical principal du film 'Rocky III' en 1982 ?",
+    options: [
+      "Eye of the Tiger",
+      "Gonna Fly Now",
+      "Burning Heart",
+      "No Easy Way Out",
+    ],
     answer: "Eye of the Tiger",
   },
 ];
-
 
 const questionsDragonBall = [
   {
@@ -4186,25 +5028,33 @@ const questionsDragonBall = [
   },
   {
     numéro: "2/20",
-    question: "Quel est le nom du premier ennemi de Son Goku dans Dragon Ball ?",
+    question:
+      "Quel est le nom du premier ennemi de Son Goku dans Dragon Ball ?",
     options: ["Raditz", "Nappa", "Freezer", "Cell"],
     answer: "Raditz",
   },
   {
     numéro: "3/20",
     question: "Quel est le nom du créateur de Dragon Ball ?",
-    options: ["Akira Toriyama", "Hayao Miyazaki", "Osamu Tezuka", "Masashi Kishimoto"],
+    options: [
+      "Akira Toriyama",
+      "Hayao Miyazaki",
+      "Osamu Tezuka",
+      "Masashi Kishimoto",
+    ],
     answer: "Akira Toriyama",
   },
   {
     numéro: "4/20",
-    question: "Quel est le nom de la transformation où les cheveux de Son Goku deviennent blonds et ses yeux verts ?",
+    question:
+      "Quel est le nom de la transformation où les cheveux de Son Goku deviennent blonds et ses yeux verts ?",
     options: ["Super Saiyan", "Kaioken", "Ultra Instinct", "Super Saiyan God"],
     answer: "Super Saiyan",
   },
   {
     numéro: "5/20",
-    question: "De quel ennemi vient à bout Gohan avec l'aide de son père de l'au-delà dans Dragon Ball Z ?",
+    question:
+      "De quel ennemi vient à bout Gohan avec l'aide de son père de l'au-delà dans Dragon Ball Z ?",
     options: ["Cell", "Freezer", "Buu", "Raditz"],
     answer: "Cell",
   },
@@ -4216,7 +5066,8 @@ const questionsDragonBall = [
   },
   {
     numéro: "7/20",
-    question: "Quel est le nom du meilleur ami de Goku, qui se marie plus tard à un cyborg ?",
+    question:
+      "Quel est le nom du meilleur ami de Goku, qui se marie plus tard à un cyborg ?",
     options: ["Vegeta", "Piccolo", "Krilin", "Yamcha"],
     answer: "Krilin",
   },
@@ -4228,7 +5079,8 @@ const questionsDragonBall = [
   },
   {
     numéro: "9/20",
-    question: "Quel est le nom de la technique spéciale de Goku qui lui permet de se déplacer instantanément ?",
+    question:
+      "Quel est le nom de la technique spéciale de Goku qui lui permet de se déplacer instantanément ?",
     options: ["Le Kaioken", "Le Kaikai", "Le Solar Flare", "Le Kamehameha"],
     answer: "Le Kaikai",
   },
@@ -4240,20 +5092,28 @@ const questionsDragonBall = [
   },
   {
     numéro: "11/20",
-    question: "Quel est le nom du robot créé initialement par le Dr. Gero pour éliminer Goku ?",
+    question:
+      "Quel est le nom du robot créé initialement par le Dr. Gero pour éliminer Goku ?",
     options: ["C17", "C18", "C16", "C19"],
     answer: "C16",
   },
   {
     numéro: "12/20",
-    question: "Quel est le nom de l'attaque signature de Vegeta, où il rassemble de l'énergie dans ses mains et la tire vers son adversaire ?",
+    question:
+      "Quel est le nom de l'attaque signature de Vegeta, où il rassemble de l'énergie dans ses mains et la tire vers son adversaire ?",
     options: ["Final Flash", "Galick Gun", "Big Bang Attack", "Spirit Bomb"],
     answer: "Final Flash",
   },
   {
     numéro: "13/20",
-    question: "Quel est le nom de la transformation de Gohan dans Dragon Ball Super Héros ?",
-    options: ["Gohan Beast", "Gohan SSJ2", "Ultimate Gohan", "Gohan guerrier intergalactique"],
+    question:
+      "Quel est le nom de la transformation de Gohan dans Dragon Ball Super Héros ?",
+    options: [
+      "Gohan Beast",
+      "Gohan SSJ2",
+      "Ultimate Gohan",
+      "Gohan guerrier intergalactique",
+    ],
     answer: "Gohan Beast",
   },
   {
@@ -4264,8 +5124,14 @@ const questionsDragonBall = [
   },
   {
     numéro: "15/20",
-    question: "Quel est le nom de la technique de Son Gohan qui combine une puissante vague d'énergie avec un coup de poing ?",
-    options: ["Masenko", "Kamehameha", "Gekiretsu Madan", "Father-Son Kamehameha"],
+    question:
+      "Quel est le nom de la technique de Son Gohan qui combine une puissante vague d'énergie avec un coup de poing ?",
+    options: [
+      "Masenko",
+      "Kamehameha",
+      "Gekiretsu Madan",
+      "Father-Son Kamehameha",
+    ],
     answer: "Masenko",
   },
   {
@@ -4282,14 +5148,21 @@ const questionsDragonBall = [
   },
   {
     numéro: "18/20",
-    question: "Quel est le nom de la fusion entre Son Goku et Vegeta, souvent utilisée pour affronter des ennemis très puissants ?",
+    question:
+      "Quel est le nom de la fusion entre Son Goku et Vegeta, souvent utilisée pour affronter des ennemis très puissants ?",
     options: ["Gogeta", "Gotenks", "Vegito", "Kefla"],
     answer: "Gogeta",
   },
   {
     numéro: "19/20",
-    question: "Quel est le nom du tournoi d'arts martiaux où Son Goku et ses amis se battent pour prouver leur force ?",
-    options: ["Tenkaichi Budokai", "Cell Games", "World Martial Arts Tournament", "King of Fighters"],
+    question:
+      "Quel est le nom du tournoi d'arts martiaux où Son Goku et ses amis se battent pour prouver leur force ?",
+    options: [
+      "Tenkaichi Budokai",
+      "Cell Games",
+      "World Martial Arts Tournament",
+      "King of Fighters",
+    ],
     answer: "Tenkaichi Budokai",
   },
   {
@@ -4300,130 +5173,149 @@ const questionsDragonBall = [
   },
 ];
 
-
 const questionsPlantesBotanique = [
   {
     numéro: "1/20",
-    question: "Pourquoi offre-t-on traditionnellement du muguet à la fête du travail ?",
+    question:
+      "Pourquoi offre-t-on traditionnellement du muguet à la fête du travail ?",
     options: [
       "Pour célébrer le début du printemps",
       "En signe de bonheur et de prospérité",
       "Pour marquer la solidarité ou l'amitié",
-      "Pour honorer les travailleurs et leurs droits"
+      "Pour honorer les travailleurs et leurs droits",
     ],
     answer: "Pour honorer les travailleurs et leurs droits",
   },
   {
     numéro: "2/20",
-    question: "Quelle est la partie de la plante qui absorbe l'eau et les nutriments du sol ?",
+    question:
+      "Quelle est la partie de la plante qui absorbe l'eau et les nutriments du sol ?",
     options: ["Racine", "Tige", "Feuille", "Fleur"],
     answer: "Racine",
   },
   {
     numéro: "3/20",
-    question: "Quel est le nom du processus par lequel les plantes produisent leur propre nourriture en utilisant la lumière du soleil, le dioxyde de carbone et l'eau ?",
+    question:
+      "Quel est le nom du processus par lequel les plantes produisent leur propre nourriture en utilisant la lumière du soleil, le dioxyde de carbone et l'eau ?",
     options: ["Photosynthèse", "Respiration", "Transpiration", "Germination"],
     answer: "Photosynthèse",
   },
   {
     numéro: "4/20",
-    question: "Quel est le nom de la partie de la fleur qui contient le pollen ?",
+    question:
+      "Quel est le nom de la partie de la fleur qui contient le pollen ?",
     options: ["Étamines", "Pistil", "Sépales", "Pétales"],
     answer: "Étamines",
   },
   {
     numéro: "5/20",
-    question: "Quel est le nom de la partie de la plante qui soutient les feuilles, les fleurs et les fruits, et transporte l'eau et les nutriments ?",
+    question:
+      "Quel est le nom de la partie de la plante qui soutient les feuilles, les fleurs et les fruits, et transporte l'eau et les nutriments ?",
     options: ["Tige", "Racine", "Feuille", "Écorce"],
     answer: "Tige",
   },
   {
     numéro: "6/20",
-    question: "Quelle est la substance verte présente dans les feuilles des plantes qui capture la lumière du soleil pour la photosynthèse ?",
+    question:
+      "Quelle est la substance verte présente dans les feuilles des plantes qui capture la lumière du soleil pour la photosynthèse ?",
     options: ["Chlorophylle", "Cellulose", "Amidon", "Fibre"],
     answer: "Chlorophylle",
   },
   {
     numéro: "7/20",
-    question: "Quel est le nom de l'organe reproducteur femelle des plantes à fleurs ?",
+    question:
+      "Quel est le nom de l'organe reproducteur femelle des plantes à fleurs ?",
     options: ["Pistil", "Étamines", "Stigmate", "Ovaire"],
     answer: "Pistil",
   },
   {
     numéro: "8/20",
-    question: "Quel est le nom du processus par lequel les graines germent et commencent à pousser ?",
+    question:
+      "Quel est le nom du processus par lequel les graines germent et commencent à pousser ?",
     options: ["Germination", "Pollinisation", "Fertilisation", "Photosynthèse"],
     answer: "Germination",
   },
   {
     numéro: "9/20",
-    question: "Quel est le nom de la partie de la fleur qui protège le bourgeon floral avant qu'il ne s'ouvre ?",
+    question:
+      "Quel est le nom de la partie de la fleur qui protège le bourgeon floral avant qu'il ne s'ouvre ?",
     options: ["Sépales", "Pétales", "Étamines", "Pistil"],
     answer: "Sépales",
   },
   {
     numéro: "10/20",
-    question: "Quelle est cette fleur qui est souvent associée au deuil et à la commémoration ?",
+    question:
+      "Quelle est cette fleur qui est souvent associée au deuil et à la commémoration ?",
     options: ["Chrysanthème", "Lisianthus", "Anémone", "Renoncule"],
     answer: "Chrysanthème",
   },
   {
     numéro: "11/20",
-    question: "Quel est le nom de la partie de la plante qui produit les spores pour la reproduction ?",
+    question:
+      "Quel est le nom de la partie de la plante qui produit les spores pour la reproduction ?",
     options: ["Sporanges", "Rhizome", "Bulbe", "Stolon"],
     answer: "Sporanges",
   },
   {
     numéro: "12/20",
-    question: "Quelle fleur est souvent associée à la gratitude, en particulier lorsqu'elle est donnée comme bouquet ?",
+    question:
+      "Quelle fleur est souvent associée à la gratitude, en particulier lorsqu'elle est donnée comme bouquet ?",
     options: ["Tulipe", "Gerbera", "Lilas", "Muguet"],
     answer: "Tulipe",
   },
   {
     numéro: "13/20",
-    question: "Quel est le nom de la partie de la plante qui stocke les réserves nutritives et d'où une nouvelle plante peut se développer ?",
+    question:
+      "Quel est le nom de la partie de la plante qui stocke les réserves nutritives et d'où une nouvelle plante peut se développer ?",
     options: ["Graine", "Bulbe", "Rhizome", "Tubercule"],
     answer: "Tubercule",
   },
   {
     numéro: "14/20",
-    question: "Quel est le nom de la couche externe protectrice de la racine, responsable de l'absorption de l'eau et des nutriments ?",
+    question:
+      "Quel est le nom de la couche externe protectrice de la racine, responsable de l'absorption de l'eau et des nutriments ?",
     options: ["Épiderme", "Cortex", "Endoderme", "Xylème"],
     answer: "Épiderme",
   },
   {
     numéro: "15/20",
-    question: "Quel est le nom de la partie de la plante qui produit des hormones de croissance et où poussent les nouvelles feuilles et fleurs ?",
+    question:
+      "Quel est le nom de la partie de la plante qui produit des hormones de croissance et où poussent les nouvelles feuilles et fleurs ?",
     options: ["Méristème", "Stigmate", "Pistil", "Nœud"],
     answer: "Méristème",
   },
   {
     numéro: "16/20",
-    question: "Quel est le nom de cette fleur en forme d'étoile souvent utilisée comme décoration de Noël ?",
+    question:
+      "Quel est le nom de cette fleur en forme d'étoile souvent utilisée comme décoration de Noël ?",
     options: ["Poinsettia", "Hortensia", "Bégonia", "Glaïeul"],
     answer: "Poinsettia",
   },
   {
     numéro: "17/20",
-    question: "Quelle est cette fleur célèbre pour ses grandes têtes de fleurs colorées qui ressemblent à des soleils miniatures ?",
+    question:
+      "Quelle est cette fleur célèbre pour ses grandes têtes de fleurs colorées qui ressemblent à des soleils miniatures ?",
     options: ["Tournesol", "Marguerite", "Dahlia", "Gazania"],
     answer: "Tournesol",
   },
   {
     numéro: "18/20",
-    question: "Quel est le nom de la couche protectrice interne de la racine qui régule le passage de l'eau et des nutriments vers le xylème ?",
+    question:
+      "Quel est le nom de la couche protectrice interne de la racine qui régule le passage de l'eau et des nutriments vers le xylème ?",
     options: ["Endoderme", "Cortex", "Épiderme", "Phloème"],
     answer: "Endoderme",
   },
   {
     numéro: "19/20",
-    question: "Quel est le nom du phénomène où les plantes perdent de l'eau par évaporation à travers les stomates de leurs feuilles ?",
+    question:
+      "Quel est le nom du phénomène où les plantes perdent de l'eau par évaporation à travers les stomates de leurs feuilles ?",
     options: ["Transpiration", "Photosynthèse", "Respiration", "Germination"],
     answer: "Transpiration",
   },
   {
     numéro: "20/20",
-    question: "Quelle fleur est souvent utilisée pour symboliser la pureté et l'innocence ?",
+    question:
+      "Quelle fleur est souvent utilisée pour symboliser la pureté et l'innocence ?",
     options: ["Lys", "Pivoine", "Chrysanthème", "Iris"],
     answer: "Lys",
   },
@@ -4432,155 +5324,188 @@ const questionsPlantesBotanique = [
 const questionsAnimauxDomestiques = [
   {
     numéro: "1/20",
-    question: "Quel est le nom de l'animal domestique qui est souvent décrit comme le meilleur ami de l'homme ?",
+    question:
+      "Quel est le nom de l'animal domestique qui est souvent décrit comme le meilleur ami de l'homme ?",
     options: ["Chat", "Chien", "Poisson", "Hamster"],
     answer: "Chien",
   },
   {
     numéro: "2/20",
-    question: "Quelle est la durée de vie moyenne d'un chat domestique en bonne santé ?",
+    question:
+      "Quelle est la durée de vie moyenne d'un chat domestique en bonne santé ?",
     options: ["8-10 ans", "12-15 ans", "18-20 ans", "25-30 ans"],
     answer: "12-15 ans",
   },
   {
     numéro: "3/20",
-    question: "Quel est le nom de l'oiseau domestique connu pour sa capacité à imiter les sons humains et autres bruits environnants ?",
+    question:
+      "Quel est le nom de l'oiseau domestique connu pour sa capacité à imiter les sons humains et autres bruits environnants ?",
     options: ["Perruche", "Canari", "Perroquet", "Colombe"],
     answer: "Perroquet",
   },
   {
     numéro: "4/20",
-    question: "Quelle est la race de chat domestique la plus commune dans de nombreux foyers à travers le monde ?",
+    question:
+      "Quelle est la race de chat domestique la plus commune dans de nombreux foyers à travers le monde ?",
     options: ["Siamois", "Maine Coon", "Persan", "Chat domestique commun"],
     answer: "Chat domestique commun",
   },
   {
     numéro: "5/20",
-    question: "Quel est le nom de l'animal domestique souvent gardé pour sa capacité à chasser les rongeurs dans les maisons et les fermes ?",
+    question:
+      "Quel est le nom de l'animal domestique souvent gardé pour sa capacité à chasser les rongeurs dans les maisons et les fermes ?",
     options: ["Chat", "Chien", "Furet", "Hérisson"],
     answer: "Chat",
   },
   {
     numéro: "6/20",
-    question: "Quelle est la race de chien domestique la plus populaire aux États-Unis et dans de nombreux autres pays ?",
-    options: ["Labrador Retriever", "Berger Allemand", "Golden Retriever", "Bulldog français"],
+    question:
+      "Quelle est la race de chien domestique la plus populaire aux États-Unis et dans de nombreux autres pays ?",
+    options: [
+      "Labrador Retriever",
+      "Berger Allemand",
+      "Golden Retriever",
+      "Bulldog français",
+    ],
     answer: "Labrador Retriever",
   },
   {
     numéro: "7/20",
-    question: "Quel est le nom de l'animal domestique connu pour sa capacité à tourner la tête presque à 180 degrés ?",
+    question:
+      "Quel est le nom de l'animal domestique connu pour sa capacité à tourner la tête presque à 180 degrés ?",
     options: ["Chien", "Chat", "Hibou", "Chinchilla"],
     answer: "Chat",
   },
   {
     numéro: "8/20",
-    question: "Quelle est la race de chien domestique originaire d'Écosse, connue pour ses petites pattes courtes et son corps trapu ?",
+    question:
+      "Quelle est la race de chien domestique originaire d'Écosse, connue pour ses petites pattes courtes et son corps trapu ?",
     options: ["Teckel", "Bichon frisé", "Shih Tzu", "Pékinois"],
     answer: "Teckel",
   },
   {
     numéro: "9/20",
-    question: "Quel est le nom de l'animal domestique souvent associé à la royauté et aux palais, en raison de sa grâce et de son élégance ?",
+    question:
+      "Quel est le nom de l'animal domestique souvent associé à la royauté et aux palais, en raison de sa grâce et de son élégance ?",
     options: ["Poisson rouge", "Chat siamois", "Chien de berger", "Perroquet"],
     answer: "Chat siamois",
   },
   {
     numéro: "10/20",
-    question: "Quelle est la race de chien domestique originaire de Russie, caractérisée par son pelage dense et double et ses oreilles pointues ?",
+    question:
+      "Quelle est la race de chien domestique originaire de Russie, caractérisée par son pelage dense et double et ses oreilles pointues ?",
     options: ["Husky sibérien", "Borzoi", "Terrier noir russe", "Samoyède"],
     answer: "Terrier noir russe",
   },
   {
     numéro: "11/20",
-    question: "Quel est le nom de l'animal domestique qui est souvent utilisé pour des compétitions d'agilité et de dressage ?",
+    question:
+      "Quel est le nom de l'animal domestique qui est souvent utilisé pour des compétitions d'agilité et de dressage ?",
     options: ["Cheval", "Chien", "Lapin", "Furet"],
     answer: "Chien",
   },
   {
     numéro: "12/20",
-    question: "Quelle est la race de chat domestique caractérisée par ses grandes oreilles et sa robe sans poils ?",
+    question:
+      "Quelle est la race de chat domestique caractérisée par ses grandes oreilles et sa robe sans poils ?",
     options: ["Sphynx", "Bengal", "Maine Coon", "Scottish Fold"],
     answer: "Sphynx",
   },
   {
     numéro: "13/20",
-    question: "Quel est le nom de l'animal domestique qui est souvent utilisé pour sa laine fine et douce ?",
+    question:
+      "Quel est le nom de l'animal domestique qui est souvent utilisé pour sa laine fine et douce ?",
     options: ["Mouton", "Chèvre", "Alpaga", "Lama"],
     answer: "Alpaga",
   },
   {
     numéro: "14/20",
-    question: "Quelle est la race de chien domestique originaire du Japon, caractérisée par sa queue bouclée et ses petites oreilles triangulaires ?",
+    question:
+      "Quelle est la race de chien domestique originaire du Japon, caractérisée par sa queue bouclée et ses petites oreilles triangulaires ?",
     options: ["Akita Inu", "Shiba Inu", "Hokkaido", "Kishu"],
     answer: "Shiba Inu",
   },
   {
     numéro: "15/20",
-    question: "Quel est le nom de l'animal domestique qui est souvent utilisé pour aider les personnes malvoyantes à se déplacer en toute sécurité ?",
+    question:
+      "Quel est le nom de l'animal domestique qui est souvent utilisé pour aider les personnes malvoyantes à se déplacer en toute sécurité ?",
     options: ["Chat", "Chien", "Cheval", "Perroquet"],
     answer: "Chien",
   },
   {
     numéro: "16/20",
-    question: "Quelle est la race de chat domestique originaire de Thaïlande, connue pour ses grandes oreilles et son miaulement distinctif ?",
+    question:
+      "Quelle est la race de chat domestique originaire de Thaïlande, connue pour ses grandes oreilles et son miaulement distinctif ?",
     options: ["Siamois", "Burmese", "Ragdoll", "Birman"],
     answer: "Siamois",
   },
   {
     numéro: "17/20",
-    question: "Quel est le nom de l'animal domestique souvent utilisé pour sa capacité à détecter les tremblements de terre imminents ?",
+    question:
+      "Quel est le nom de l'animal domestique souvent utilisé pour sa capacité à détecter les tremblements de terre imminents ?",
     options: ["Chat", "Chien", "Poisson", "Pigeon"],
     answer: "Chat",
   },
   {
     numéro: "18/20",
-    question: "Quelle est la race de chien domestique originaire d'Australie, connue pour sa queue frisée et son intelligence élevée ?",
+    question:
+      "Quelle est la race de chien domestique originaire d'Australie, connue pour sa queue frisée et son intelligence élevée ?",
     options: ["Border Collie", "Australian Shepherd", "Cattle Dog", "Dingo"],
     answer: "Australian Shepherd",
   },
   {
     numéro: "19/20",
-    question: "Quel est le nom de l'animal domestique souvent élevé pour sa viande et sa laine ?",
+    question:
+      "Quel est le nom de l'animal domestique souvent élevé pour sa viande et sa laine ?",
     options: ["Vache", "Poule", "Mouton", "Cochon"],
     answer: "Mouton",
   },
   {
     numéro: "20/20",
-    question: "Quelle est la race de chat domestique originaire de Birmanie, caractérisée par ses pattes blanches et ses grands yeux bleus ?",
+    question:
+      "Quelle est la race de chat domestique originaire de Birmanie, caractérisée par ses pattes blanches et ses grands yeux bleus ?",
     options: ["Birman", "Persan", "Norvégien", "Sibérien"],
     answer: "Birman",
   },
 ];
 
-
 const questionsEcosystemesHabitats = [
   {
     numéro: "1/20",
-    question: "Quel écosystème est principalement constitué d'arbres qui perdent leurs feuilles chaque automne ?",
+    question:
+      "Quel écosystème est principalement constitué d'arbres qui perdent leurs feuilles chaque automne ?",
     options: ["Forêt tropicale", "Taïga", "Forêt tempérée", "Désert"],
     answer: "Forêt tempérée",
   },
   {
     numéro: "2/20",
-    question: "Dans quel type d'habitat les pingouins vivent-ils principalement ?",
+    question:
+      "Dans quel type d'habitat les pingouins vivent-ils principalement ?",
     options: ["Désert", "Toundra", "Forêt tropicale", "Pôle Sud"],
     answer: "Pôle Sud",
   },
   {
     numéro: "3/20",
     question: "Quel est le principal habitat des koalas en Australie ?",
-    options: ["Désert", "Forêt tropicale", "Forêt de pins", "Forêt d'eucalyptus"],
+    options: [
+      "Désert",
+      "Forêt tropicale",
+      "Forêt de pins",
+      "Forêt d'eucalyptus",
+    ],
     answer: "Forêt d'eucalyptus",
   },
   {
     numéro: "4/20",
-    question: "Dans quel écosystème trouve-t-on le plus grand nombre de différentes espèces de plantes et d'animaux ?",
+    question:
+      "Dans quel écosystème trouve-t-on le plus grand nombre de différentes espèces de plantes et d'animaux ?",
     options: ["Toundra", "Forêt tropicale", "Désert", "Savane"],
     answer: "Forêt tropicale",
   },
   {
     numéro: "5/20",
-    question: "Quel type d'écosystème est caractérisé par de longues périodes de gel et des sols gelés en permanence ?",
+    question:
+      "Quel type d'écosystème est caractérisé par de longues périodes de gel et des sols gelés en permanence ?",
     options: ["Savane", "Toundra", "Forêt tempérée", "Désert"],
     answer: "Toundra",
   },
@@ -4593,7 +5518,12 @@ const questionsEcosystemesHabitats = [
   {
     numéro: "7/20",
     question: "Quel est le principal habitat des pandas géants en Chine ?",
-    options: ["Forêt d'eucalyptus", "Forêt de conifères", "Forêt de bambous", "Toundra"],
+    options: [
+      "Forêt d'eucalyptus",
+      "Forêt de conifères",
+      "Forêt de bambous",
+      "Toundra",
+    ],
     answer: "Forêt de bambous",
   },
   {
@@ -4610,19 +5540,22 @@ const questionsEcosystemesHabitats = [
   },
   {
     numéro: "10/20",
-    question: "Quel écosystème est caractérisé par des températures extrêmement froides, des vents violents et une végétation limitée ?",
+    question:
+      "Quel écosystème est caractérisé par des températures extrêmement froides, des vents violents et une végétation limitée ?",
     options: ["Désert", "Taïga", "Toundra", "Forêt tropicale"],
     answer: "Toundra",
   },
   {
     numéro: "11/20",
-    question: "Dans quel écosystème vivent principalement les éléphants d'Afrique ?",
+    question:
+      "Dans quel écosystème vivent principalement les éléphants d'Afrique ?",
     options: ["Savane", "Forêt de conifères", "Forêt tropicale", "Toundra"],
     answer: "Savane",
   },
   {
     numéro: "12/20",
-    question: "Quel est l'habitat naturel des orangs-outans en Indonésie et en Malaisie ?",
+    question:
+      "Quel est l'habitat naturel des orangs-outans en Indonésie et en Malaisie ?",
     options: ["Forêt tropicale", "Désert", "Savane", "Toundra"],
     answer: "Forêt tropicale",
   },
@@ -4634,7 +5567,8 @@ const questionsEcosystemesHabitats = [
   },
   {
     numéro: "14/20",
-    question: "Dans quel écosystème se trouvent les cactus et autres plantes adaptées à des conditions arides ?",
+    question:
+      "Dans quel écosystème se trouvent les cactus et autres plantes adaptées à des conditions arides ?",
     options: ["Forêt tropicale", "Désert", "Savane", "Forêt tempérée"],
     answer: "Désert",
   },
@@ -4646,7 +5580,8 @@ const questionsEcosystemesHabitats = [
   },
   {
     numéro: "16/20",
-    question: "Dans quel écosystème se trouvent principalement les dauphins et les baleines ?",
+    question:
+      "Dans quel écosystème se trouvent principalement les dauphins et les baleines ?",
     options: ["Récif corallien", "Océan profond", "Estuaire", "Banquise"],
     answer: "Océan profond",
   },
@@ -4670,12 +5605,12 @@ const questionsEcosystemesHabitats = [
   },
   {
     numéro: "20/20",
-    question: "Quel est l'habitat principal des chameaux dans les régions arides d'Afrique et d'Asie ?",
+    question:
+      "Quel est l'habitat principal des chameaux dans les régions arides d'Afrique et d'Asie ?",
     options: ["Toundra", "Savane", "Désert", "Taïga"],
     answer: "Désert",
   },
 ];
-
 
 const questionsMathematiques = [
   {
@@ -4710,7 +5645,8 @@ const questionsMathematiques = [
   },
   {
     numéro: "6/20",
-    question: "Quel est le périmètre d'un rectangle de longueur 8 cm et de largeur 5 cm ?",
+    question:
+      "Quel est le périmètre d'un rectangle de longueur 8 cm et de largeur 5 cm ?",
     options: ["13 cm", "26 cm", "40 cm", "56 cm"],
     answer: "26 cm",
   },
@@ -4794,12 +5730,12 @@ const questionsMathematiques = [
   },
   {
     numéro: "20/20",
-    question: "Si un triangle a une base de 12 cm et une hauteur de 8 cm, quelle est sa surface ?",
+    question:
+      "Si un triangle a une base de 12 cm et une hauteur de 8 cm, quelle est sa surface ?",
     options: ["48 cm²", "60 cm²", "72 cm²", "84 cm²"],
     answer: "48 cm²",
   },
 ];
-
 
 const questionsHistoire = [
   {
@@ -4811,25 +5747,47 @@ const questionsHistoire = [
   {
     numéro: "2/20",
     question: "Quelle bataille célèbre a eu lieu en 1066 ?",
-    options: ["Bataille de Hastings", "Bataille de Poitiers", "Bataille d'Azincourt", "Bataille de Marignan"],
+    options: [
+      "Bataille de Hastings",
+      "Bataille de Poitiers",
+      "Bataille d'Azincourt",
+      "Bataille de Marignan",
+    ],
     answer: "Bataille de Hastings",
   },
   {
     numéro: "3/20",
-    question: "Quel événement marquant de la Révolution française a eu lieu le 14 juillet 1789 ?",
-    options: ["La prise de la Bastille", "L'exécution de Louis XVI", "La déclaration des droits de l'homme", "La fin de la monarchie"],
+    question:
+      "Quel événement marquant de la Révolution française a eu lieu le 14 juillet 1789 ?",
+    options: [
+      "La prise de la Bastille",
+      "L'exécution de Louis XVI",
+      "La déclaration des droits de l'homme",
+      "La fin de la monarchie",
+    ],
     answer: "La prise de la Bastille",
   },
   {
     numéro: "4/20",
-    question: "Qui était le chef de la Résistance française pendant la Seconde Guerre mondiale ?",
-    options: ["Charles de Gaulle", "Jean Moulin", "Philippe Pétain", "André Malraux"],
+    question:
+      "Qui était le chef de la Résistance française pendant la Seconde Guerre mondiale ?",
+    options: [
+      "Charles de Gaulle",
+      "Jean Moulin",
+      "Philippe Pétain",
+      "André Malraux",
+    ],
     answer: "Charles de Gaulle",
   },
   {
     numéro: "5/20",
     question: "Quel traité a mis fin à la Première Guerre mondiale en 1919 ?",
-    options: ["Traité de Versailles", "Traité de Trianon", "Traité de Brest-Litovsk", "Traité de Saint-Germain"],
+    options: [
+      "Traité de Versailles",
+      "Traité de Trianon",
+      "Traité de Brest-Litovsk",
+      "Traité de Saint-Germain",
+    ],
     answer: "Traité de Versailles",
   },
   {
@@ -4840,56 +5798,84 @@ const questionsHistoire = [
   },
   {
     numéro: "7/20",
-    question: "En quelle année Jeanne d'Arc a-t-elle été brûlée sur le bûcher ?",
+    question:
+      "En quelle année Jeanne d'Arc a-t-elle été brûlée sur le bûcher ?",
     options: ["1431", "1429", "1440", "1415"],
     answer: "1431",
   },
   {
     numéro: "8/20",
-    question: "Quel roi de France a été guillotiné pendant la Révolution française ?",
+    question:
+      "Quel roi de France a été guillotiné pendant la Révolution française ?",
     options: ["Louis XV", "Louis XVI", "Charles IX", "Henri III"],
     answer: "Louis XVI",
   },
   {
     numéro: "9/20",
-    question: "Quelle célèbre bataille de la Première Guerre mondiale a eu lieu en 1916 ?",
-    options: ["Bataille de Verdun", "Bataille de la Somme", "Bataille de Tannenberg", "Bataille de Gallipoli"],
+    question:
+      "Quelle célèbre bataille de la Première Guerre mondiale a eu lieu en 1916 ?",
+    options: [
+      "Bataille de Verdun",
+      "Bataille de la Somme",
+      "Bataille de Tannenberg",
+      "Bataille de Gallipoli",
+    ],
     answer: "Bataille de Verdun",
   },
   {
     numéro: "10/20",
-    question: "Qui était le premier président de la Cinquième République française ?",
-    options: ["Charles de Gaulle", "François Mitterrand", "Georges Pompidou", "Valéry Giscard d'Estaing"],
+    question:
+      "Qui était le premier président de la Cinquième République française ?",
+    options: [
+      "Charles de Gaulle",
+      "François Mitterrand",
+      "Georges Pompidou",
+      "Valéry Giscard d'Estaing",
+    ],
     answer: "Charles de Gaulle",
   },
   {
     numéro: "11/20",
-    question: "En quelle année a eu lieu la Révolution de Juillet, qui a renversé Charles X ?",
+    question:
+      "En quelle année a eu lieu la Révolution de Juillet, qui a renversé Charles X ?",
     options: ["1830", "1789", "1848", "1871"],
     answer: "1830",
   },
   {
     numéro: "12/20",
-    question: "Quelle région française a été annexée par l'Allemagne après la guerre franco-prussienne de 1870 ?",
+    question:
+      "Quelle région française a été annexée par l'Allemagne après la guerre franco-prussienne de 1870 ?",
     options: ["Alsace-Lorraine", "Normandie", "Bretagne", "Aquitaine"],
     answer: "Alsace-Lorraine",
   },
   {
     numéro: "13/20",
     question: "Quel traité a mis fin à la guerre de Cent Ans ?",
-    options: ["Traité de Paris", "Traité de Troyes", "Traité de Versailles", "Traité de Brétigny"],
+    options: [
+      "Traité de Paris",
+      "Traité de Troyes",
+      "Traité de Versailles",
+      "Traité de Brétigny",
+    ],
     answer: "Traité de Troyes",
   },
   {
     numéro: "14/20",
-    question: "Quel roi de France a signé l'Édit de Nantes en 1598, garantissant la liberté de culte aux protestants ?",
+    question:
+      "Quel roi de France a signé l'Édit de Nantes en 1598, garantissant la liberté de culte aux protestants ?",
     options: ["Henri IV", "Louis XIII", "François Ier", "Charles IX"],
     answer: "Henri IV",
   },
   {
     numéro: "15/20",
-    question: "Quelle bataille navale décisive a eu lieu en 1805, où Napoléon a été vaincu par l'amiral Nelson ?",
-    options: ["Bataille de Trafalgar", "Bataille d'Austerlitz", "Bataille de Leipzig", "Bataille de Waterloo"],
+    question:
+      "Quelle bataille navale décisive a eu lieu en 1805, où Napoléon a été vaincu par l'amiral Nelson ?",
+    options: [
+      "Bataille de Trafalgar",
+      "Bataille d'Austerlitz",
+      "Bataille de Leipzig",
+      "Bataille de Waterloo",
+    ],
     answer: "Bataille de Trafalgar",
   },
   {
@@ -4900,14 +5886,25 @@ const questionsHistoire = [
   },
   {
     numéro: "17/20",
-    question: "Quel célèbre général français est devenu empereur des Français en 1804 ?",
-    options: ["Napoléon Bonaparte", "Charles de Gaulle", "Jean Moulin", "Philippe Pétain"],
+    question:
+      "Quel célèbre général français est devenu empereur des Français en 1804 ?",
+    options: [
+      "Napoléon Bonaparte",
+      "Charles de Gaulle",
+      "Jean Moulin",
+      "Philippe Pétain",
+    ],
     answer: "Napoléon Bonaparte",
   },
   {
     numéro: "18/20",
     question: "Quelle guerre a opposé la France à la Prusse en 1870-1871 ?",
-    options: ["Guerre franco-prussienne", "Guerre de Cent Ans", "Guerre des Deux Roses", "Guerre de Sept Ans"],
+    options: [
+      "Guerre franco-prussienne",
+      "Guerre de Cent Ans",
+      "Guerre des Deux Roses",
+      "Guerre de Sept Ans",
+    ],
     answer: "Guerre franco-prussienne",
   },
   {
@@ -4918,17 +5915,23 @@ const questionsHistoire = [
   },
   {
     numéro: "20/20",
-    question: "Quel traité a mis fin à la guerre de Sept Ans en 1763, marquant la perte de la Nouvelle-France pour la France ?",
-    options: ["Traité de Paris", "Traité de Versailles", "Traité de Brétigny", "Traité de Troyes"],
+    question:
+      "Quel traité a mis fin à la guerre de Sept Ans en 1763, marquant la perte de la Nouvelle-France pour la France ?",
+    options: [
+      "Traité de Paris",
+      "Traité de Versailles",
+      "Traité de Brétigny",
+      "Traité de Troyes",
+    ],
     answer: "Traité de Paris",
   },
 ];
 
-
 const questionsBdMangaComics = [
   {
     numéro: "1/20",
-    question: "Quel est le nom du créateur de la série de bandes dessinées 'Astérix le Gaulois' ?",
+    question:
+      "Quel est le nom du créateur de la série de bandes dessinées 'Astérix le Gaulois' ?",
     options: ["René Goscinny", "Hergé", "Albert Uderzo", "André Franquin"],
     answer: "René Goscinny",
   },
@@ -4940,7 +5943,8 @@ const questionsBdMangaComics = [
   },
   {
     numéro: "3/20",
-    question: "Quel super-héros de DC Comics est connu comme étant 'le Chevalier Noir' ?",
+    question:
+      "Quel super-héros de DC Comics est connu comme étant 'le Chevalier Noir' ?",
     options: ["Superman", "Wonder Woman", "Batman", "Flash"],
     answer: "Batman",
   },
@@ -4953,30 +5957,43 @@ const questionsBdMangaComics = [
   {
     numéro: "5/20",
     question: "Qui est l'auteur de la série de mangas 'One Piece' ?",
-    options: ["Akira Toriyama", "Eiichiro Oda", "Masashi Kishimoto", "Tite Kubo"],
+    options: [
+      "Akira Toriyama",
+      "Eiichiro Oda",
+      "Masashi Kishimoto",
+      "Tite Kubo",
+    ],
     answer: "Eiichiro Oda",
   },
   {
     numéro: "6/20",
-    question: "Quel super-héros de Marvel Comics est également connu sous le nom de 'Peter Parker' ?",
+    question:
+      "Quel super-héros de Marvel Comics est également connu sous le nom de 'Peter Parker' ?",
     options: ["Iron Man", "Hulk", "Spider-Man", "Thor"],
     answer: "Spider-Man",
   },
   {
     numéro: "7/20",
-    question: "Quel personnage de bande dessinée est célèbre pour ses aventures avec son chien Milou ?",
+    question:
+      "Quel personnage de bande dessinée est célèbre pour ses aventures avec son chien Milou ?",
     options: ["Astérix", "Tintin", "Lucky Luke", "Gaston Lagaffe"],
     answer: "Tintin",
   },
   {
     numéro: "8/20",
     question: "Quel est le nom du village où vivent les Schtroumpfs ?",
-    options: ["Schtroumpf Village", "Schtroumpfbourg", "Schtroumpfville", "Schtroumpfheim"],
+    options: [
+      "Schtroumpf Village",
+      "Schtroumpfbourg",
+      "Schtroumpfville",
+      "Schtroumpfheim",
+    ],
     answer: "Schtroumpf Village",
   },
   {
     numéro: "9/20",
-    question: "Quel est le nom du créateur des personnages de Marvel Comics comme Spider-Man, les X-Men et Iron Man ?",
+    question:
+      "Quel est le nom du créateur des personnages de Marvel Comics comme Spider-Man, les X-Men et Iron Man ?",
     options: ["Stan Lee", "Jack Kirby", "Steve Ditko", "Joe Simon"],
     answer: "Stan Lee",
   },
@@ -4988,14 +6005,21 @@ const questionsBdMangaComics = [
   },
   {
     numéro: "11/20",
-    question: "Quel est le nom du vaisseau spatial dans la série de bandes dessinées 'Valérian et Laureline' ?",
+    question:
+      "Quel est le nom du vaisseau spatial dans la série de bandes dessinées 'Valérian et Laureline' ?",
     options: ["Millennium Falcon", "USS Enterprise", "Intruder", "Astroship"],
     answer: "Intruder",
   },
   {
     numéro: "12/20",
-    question: "Dans 'Lucky Luke', quel est le nom des frères bandits récurrents ?",
-    options: ["Les Frères Dalton", "Les Frères Marx", "Les Frères Coen", "Les Frères Grimm"],
+    question:
+      "Dans 'Lucky Luke', quel est le nom des frères bandits récurrents ?",
+    options: [
+      "Les Frères Dalton",
+      "Les Frères Marx",
+      "Les Frères Coen",
+      "Les Frères Grimm",
+    ],
     answer: "Les Frères Dalton",
   },
   {
@@ -5006,31 +6030,40 @@ const questionsBdMangaComics = [
   },
   {
     numéro: "14/20",
-    question: "Quel manga suit l'histoire d'un garçon appelé Gon à la recherche de son père ?",
+    question:
+      "Quel manga suit l'histoire d'un garçon appelé Gon à la recherche de son père ?",
     options: ["Naruto", "One Piece", "Hunter x Hunter", "Bleach"],
     answer: "Hunter x Hunter",
   },
   {
     numéro: "15/20",
-    question: "Dans 'One Piece', quel est le nom du capitaine de l'équipage au chapeau de paille ?",
+    question:
+      "Dans 'One Piece', quel est le nom du capitaine de l'équipage au chapeau de paille ?",
     options: ["Zoro", "Sanji", "Luffy", "Usopp"],
     answer: "Luffy",
   },
   {
     numéro: "16/20",
-    question: "Quel super-héros de Marvel Comics est aveugle mais possède des sens ultra-développés ?",
+    question:
+      "Quel super-héros de Marvel Comics est aveugle mais possède des sens ultra-développés ?",
     options: ["Daredevil", "Hawkeye", "Wolverine", "Cyclope"],
     answer: "Daredevil",
   },
   {
     numéro: "17/20",
     question: "Quel est le nom du créateur du manga 'Dragon Ball' ?",
-    options: ["Eiichiro Oda", "Masashi Kishimoto", "Akira Toriyama", "Tite Kubo"],
+    options: [
+      "Eiichiro Oda",
+      "Masashi Kishimoto",
+      "Akira Toriyama",
+      "Tite Kubo",
+    ],
     answer: "Akira Toriyama",
   },
   {
     numéro: "18/20",
-    question: "Quel personnage de bande dessinée est un cow-boy solitaire qui tire plus vite que son ombre ?",
+    question:
+      "Quel personnage de bande dessinée est un cow-boy solitaire qui tire plus vite que son ombre ?",
     options: ["Tintin", "Lucky Luke", "Astérix", "Blueberry"],
     answer: "Lucky Luke",
   },
@@ -5042,42 +6075,72 @@ const questionsBdMangaComics = [
   },
   {
     numéro: "20/20",
-    question: "Quel est le nom du groupe de super-héros dans lequel on retrouve Cyclope, Wolverine et Storm ?",
-    options: ["Les Vengeurs", "Les Quatre Fantastiques", "Les X-Men", "La Justice League"],
+    question:
+      "Quel est le nom du groupe de super-héros dans lequel on retrouve Cyclope, Wolverine et Storm ?",
+    options: [
+      "Les Vengeurs",
+      "Les Quatre Fantastiques",
+      "Les X-Men",
+      "La Justice League",
+    ],
     answer: "Les X-Men",
   },
 ];
-
 
 const questionsLangageSMS = [
   {
     numéro: "1/20",
     question: "Que signifie 'lol' dans le langage SMS ?",
-    options: ["Lots of Love", "Laughing Out Loud", "Look Over Here", "Last One Left"],
+    options: [
+      "Lots of Love",
+      "Laughing Out Loud",
+      "Look Over Here",
+      "Last One Left",
+    ],
     answer: "Laughing Out Loud",
   },
   {
     numéro: "2/20",
     question: "Que signifie 'Yolo' ?",
-    options: ["You only live once", "You only love once", "You only look once", "You only laugh once"],
+    options: [
+      "You only live once",
+      "You only love once",
+      "You only look once",
+      "You only laugh once",
+    ],
     answer: "You only live once",
   },
   {
     numéro: "3/20",
     question: "Que signifie 'asap' dans le langage SMS ?",
-    options: ["As Simple As Possible", "As Soon As Possible", "As Safe As Possible", "As Short As Possible"],
+    options: [
+      "As Simple As Possible",
+      "As Soon As Possible",
+      "As Safe As Possible",
+      "As Short As Possible",
+    ],
     answer: "As Soon As Possible",
   },
   {
     numéro: "4/20",
     question: "Que signifie 'brb' dans le langage SMS ?",
-    options: ["Be Right Back", "Bring Right Back", "Be Really Busy", "Bye Right Back"],
+    options: [
+      "Be Right Back",
+      "Bring Right Back",
+      "Be Really Busy",
+      "Bye Right Back",
+    ],
     answer: "Be Right Back",
   },
   {
     numéro: "5/20",
     question: "Que signifie 'svp' en français ?",
-    options: ["Salut Vous Pouvez", "S'il Vous Plaît", "Sauveur Voiture Poste", "Surveillez Vos Propos"],
+    options: [
+      "Salut Vous Pouvez",
+      "S'il Vous Plaît",
+      "Sauveur Voiture Poste",
+      "Surveillez Vos Propos",
+    ],
     answer: "S'il Vous Plaît",
   },
   {
@@ -5089,19 +6152,34 @@ const questionsLangageSMS = [
   {
     numéro: "7/20",
     question: "Que signifie 'ptdr' en français ?",
-    options: ["Plié Ton Dos Rigide", "Pète Ta Drôle Réponse", "Plié De Rire", "Perdu Ton Dossier Reçu"],
+    options: [
+      "Plié Ton Dos Rigide",
+      "Pète Ta Drôle Réponse",
+      "Plié De Rire",
+      "Perdu Ton Dossier Reçu",
+    ],
     answer: "Plié De Rire",
   },
   {
     numéro: "8/20",
     question: "Que signifie 'pov' dans le langage SMS français ?",
-    options: ["Pas Oublier Vite", "Pas Oui Vraiment", "Pourquoi Oui Voilà", "Point Of View"],
+    options: [
+      "Pas Oublier Vite",
+      "Pas Oui Vraiment",
+      "Pourquoi Oui Voilà",
+      "Point Of View",
+    ],
     answer: "Point Of View",
   },
   {
     numéro: "9/20",
     question: "Que signifie 'askip' dans le langage SMS français ?",
-    options: ["À Suivre Kipling", "Assez Kiffant, Parfois", "À Ce Qu'il Paraît", "Arrête, S'il Te Plaît"],
+    options: [
+      "À Suivre Kipling",
+      "Assez Kiffant, Parfois",
+      "À Ce Qu'il Paraît",
+      "Arrête, S'il Te Plaît",
+    ],
     answer: "À Ce Qu'il Paraît",
   },
   {
@@ -5113,13 +6191,23 @@ const questionsLangageSMS = [
   {
     numéro: "11/20",
     question: "Que signifie 'bff' dans le langage SMS ?",
-    options: ["Best Friend Forever", "Be Funny Forever", "Best Foe Forever", "Be Fast Friend"],
+    options: [
+      "Best Friend Forever",
+      "Be Funny Forever",
+      "Best Foe Forever",
+      "Be Fast Friend",
+    ],
     answer: "Best Friend Forever",
   },
   {
     numéro: "12/20",
     question: "Que signifie 'dsl' en français ?",
-    options: ["Désolé", "Désole", "Désolé Sincèrement Loin", "Désolé Sérieusement"],
+    options: [
+      "Désolé",
+      "Désole",
+      "Désolé Sincèrement Loin",
+      "Désolé Sérieusement",
+    ],
     answer: "Désolé",
   },
   {
@@ -5137,7 +6225,12 @@ const questionsLangageSMS = [
   {
     numéro: "15/20",
     question: "Que signifie 'cpg' en français ?",
-    options: ["C'est Pas Grave", "Ça Peut Gérer", "C'est Pas Génial", "Ça Peut Générer"],
+    options: [
+      "C'est Pas Grave",
+      "Ça Peut Gérer",
+      "C'est Pas Génial",
+      "Ça Peut Générer",
+    ],
     answer: "C'est Pas Grave",
   },
   {
@@ -5155,7 +6248,12 @@ const questionsLangageSMS = [
   {
     numéro: "18/20",
     question: "Que signifie 'vdr' dans le langage SMS français ?",
-    options: ["Vraiment De Rêve", "Vivre De Rien", "Vas-y De Rire", "Vraiment Drôle"],
+    options: [
+      "Vraiment De Rêve",
+      "Vivre De Rien",
+      "Vas-y De Rire",
+      "Vraiment Drôle",
+    ],
     answer: "Vas-y De Rire",
   },
   {
@@ -5167,7 +6265,12 @@ const questionsLangageSMS = [
   {
     numéro: "20/20",
     question: "Que signifie 'oklm' dans le langage SMS français ?",
-    options: ["Au Calme", "Ok Le Matin", "Ouais Comme La Mer", "On Kiffe La Musique"],
+    options: [
+      "Au Calme",
+      "Ok Le Matin",
+      "Ouais Comme La Mer",
+      "On Kiffe La Musique",
+    ],
     answer: "Au Calme",
   },
 ];
@@ -5175,7 +6278,8 @@ const questionsLangageSMS = [
 const questionsGastronomieDuMonde = [
   {
     numéro: "1/20",
-    question: "Quel plat italien est composé de pâtes, fromage pecorino romano, poivre noir et eau de cuisson des pâtes ?",
+    question:
+      "Quel plat italien est composé de pâtes, fromage pecorino romano, poivre noir et eau de cuisson des pâtes ?",
     options: ["Carbonara", "Paella", "Sushi", "Ceviche"],
     answer: "Carbonara",
   },
@@ -5187,85 +6291,99 @@ const questionsGastronomieDuMonde = [
   },
   {
     numéro: "3/20",
-    question: "Quel plat traditionnel français est composé de viande de bœuf mijotée lentement dans du vin rouge avec des légumes et des herbes ?",
+    question:
+      "Quel plat traditionnel français est composé de viande de bœuf mijotée lentement dans du vin rouge avec des légumes et des herbes ?",
     options: ["Coq au vin", "Ratatouille", "Bœuf bourguignon", "Escargots"],
     answer: "Bœuf bourguignon",
   },
   {
     numéro: "4/20",
-    question: "Quel est le nom du plat japonais composé de riz vinaigré garni de poisson cru, d'œufs de poisson, de légumes et d'autres ingrédients ?",
+    question:
+      "Quel est le nom du plat japonais composé de riz vinaigré garni de poisson cru, d'œufs de poisson, de légumes et d'autres ingrédients ?",
     options: ["Sushi", "Pad thaï", "Kimchi", "Pho"],
     answer: "Sushi",
   },
   {
     numéro: "5/20",
-    question: "Quelle est la spécialité de la cuisine marocaine qui consiste en un plat de couscous servi avec de la viande, des légumes et une sauce épicée ?",
+    question:
+      "Quelle est la spécialité de la cuisine marocaine qui consiste en un plat de couscous servi avec de la viande, des légumes et une sauce épicée ?",
     options: ["Tajine", "Couscous", "Falafel", "Hummus"],
     answer: "Couscous",
   },
   {
     numéro: "6/20",
-    question: "Quel est le nom du plat national de l'Inde, composé de poulet mariné dans du yaourt et des épices, puis cuit au four ou grillé ?",
+    question:
+      "Quel est le nom du plat national de l'Inde, composé de poulet mariné dans du yaourt et des épices, puis cuit au four ou grillé ?",
     options: ["Tandoori", "Vindaloo", "Samosa", "Naan"],
     answer: "Tandoori",
   },
   {
     numéro: "7/20",
-    question: "Quelle est la boisson nationale de la Russie, faite à partir de pommes de terre fermentées ?",
+    question:
+      "Quelle est la boisson nationale de la Russie, faite à partir de pommes de terre fermentées ?",
     options: ["Vodka", "Raki", "Sake", "Tequila"],
     answer: "Vodka",
   },
   {
     numéro: "8/20",
-    question: "Quel est le plat traditionnel espagnol à base de riz, souvent mélangé à du poisson, des fruits de mer, du poulet et/ou de la viande, typique de la région de Valence ?",
+    question:
+      "Quel est le plat traditionnel espagnol à base de riz, souvent mélangé à du poisson, des fruits de mer, du poulet et/ou de la viande, typique de la région de Valence ?",
     options: ["Paella", "Tapas", "Gazpacho", "Churros"],
     answer: "Paella",
   },
   {
     numéro: "9/20",
-    question: "Quel plat mexicain traditionnel est composé de tortillas garnies de viande (souvent de bœuf), de haricots, de fromage et de salsa ?",
+    question:
+      "Quel plat mexicain traditionnel est composé de tortillas garnies de viande (souvent de bœuf), de haricots, de fromage et de salsa ?",
     options: ["Tacos", "Burritos", "Enchiladas", "Quesadillas"],
     answer: "Tacos",
   },
   {
     numéro: "10/20",
-    question: "Quelle est la pâtisserie traditionnelle française composée de couches fines de pâte feuilletée, alternées avec une crème pâtissière ou une ganache ?",
+    question:
+      "Quelle est la pâtisserie traditionnelle française composée de couches fines de pâte feuilletée, alternées avec une crème pâtissière ou une ganache ?",
     options: ["Mille-feuille", "Éclair", "Macaron", "Tarte Tatin"],
     answer: "Mille-feuille",
   },
   {
     numéro: "11/20",
-    question: "Quelle est la spécialité de la cuisine chinoise, composée de pâtes longues et fines, généralement servies avec des légumes et de la viande ou des fruits de mer ?",
+    question:
+      "Quelle est la spécialité de la cuisine chinoise, composée de pâtes longues et fines, généralement servies avec des légumes et de la viande ou des fruits de mer ?",
     options: ["Ramen", "Dim sum", "Hot pot", "Peking duck"],
     answer: "Ramen",
   },
   {
     numéro: "12/20",
-    question: "Quelle est la spécialité italienne de pâtes longues et fines, souvent servies avec une sauce tomate ou une sauce à la viande ?",
+    question:
+      "Quelle est la spécialité italienne de pâtes longues et fines, souvent servies avec une sauce tomate ou une sauce à la viande ?",
     options: ["Spaghetti", "Fettuccine", "Tagliatelle", "Ravioli"],
     answer: "Spaghetti",
   },
   {
     numéro: "13/20",
-    question: "Quel est le plat national du Maroc, un plat de viande ou de poisson, cuit lentement avec des légumes et des fruits secs, servi avec de la semoule de blé dur ?",
+    question:
+      "Quel est le plat national du Maroc, un plat de viande ou de poisson, cuit lentement avec des légumes et des fruits secs, servi avec de la semoule de blé dur ?",
     options: ["Tajine", "Couscous", "Pastilla", "Harira"],
     answer: "Tajine",
   },
   {
     numéro: "14/20",
-    question: "Quelle est la spécialité de la cuisine argentine, une pâte fourrée de viande, de fromage ou d'autres ingrédients, puis cuite au four ?",
+    question:
+      "Quelle est la spécialité de la cuisine argentine, une pâte fourrée de viande, de fromage ou d'autres ingrédients, puis cuite au four ?",
     options: ["Empanadas", "Asado", "Milanesa", "Choripán"],
     answer: "Empanadas",
   },
   {
     numéro: "15/20",
-    question: "Quelle est la spécialité de la cuisine américaine, composée de bœuf haché, de fromage, de laitue, de tomate, d'oignon et de sauce, servie dans un pain rond ?",
+    question:
+      "Quelle est la spécialité de la cuisine américaine, composée de bœuf haché, de fromage, de laitue, de tomate, d'oignon et de sauce, servie dans un pain rond ?",
     options: ["Hamburger", "Hot dog", "Pulled pork", "Barbecue ribs"],
     answer: "Hamburger",
   },
   {
     numéro: "16/20",
-    question: "Quelle est la spécialité de la cuisine turque, composée de fines couches de pâte et de noix, arrosée de sirop de sucre ?",
+    question:
+      "Quelle est la spécialité de la cuisine turque, composée de fines couches de pâte et de noix, arrosée de sirop de sucre ?",
     options: ["Baklava", "Kebab", "Pide", "Manti"],
     answer: "Baklava",
   },
@@ -5277,143 +6395,180 @@ const questionsGastronomieDuMonde = [
   },
   {
     numéro: "18/20",
-    question: "Quelle est la spécialité de la cuisine indienne, composée de poulet cuit dans une sauce au curry crémeuse et épicée ?",
+    question:
+      "Quelle est la spécialité de la cuisine indienne, composée de poulet cuit dans une sauce au curry crémeuse et épicée ?",
     options: ["Butter chicken", "Biryani", "Tikka masala", "Vindaloo"],
     answer: "Butter chicken",
   },
   {
     numéro: "19/20",
-    question: "Quel est le plat national de l'Inde, un mélange épicé de légumes cuits lentement avec des épices, souvent servi avec du riz basmati ou du pain naan ?",
+    question:
+      "Quel est le plat national de l'Inde, un mélange épicé de légumes cuits lentement avec des épices, souvent servi avec du riz basmati ou du pain naan ?",
     options: ["Tandoori", "Biryani", "Saag paneer", "Curry"],
     answer: "Curry",
   },
   {
     numéro: "20/20",
-    question: "Quel plat italien est composé de fines tranches de veau panées et frites, souvent servies avec du citron et accompagnées de spaghetti à la sauce tomate ?",
+    question:
+      "Quel plat italien est composé de fines tranches de veau panées et frites, souvent servies avec du citron et accompagnées de spaghetti à la sauce tomate ?",
     options: ["Pizza", "Lasagnes", "Osso buco", "Carbonara"],
     answer: "Osso buco",
   },
 ];
 
-
 const questionsBoissonsCocktail = [
   {
     numéro: "1/20",
-    question: "Quel sirop est souvent utilisé pour aromatiser les boissons chaudes comme le café et le chocolat chaud ?",
-    options: ["Sirop de menthe", "Sirop de caramel", "Sirop de vanille", "Sirop d'érable"],
+    question:
+      "Quel sirop est souvent utilisé pour aromatiser les boissons chaudes comme le café et le chocolat chaud ?",
+    options: [
+      "Sirop de menthe",
+      "Sirop de caramel",
+      "Sirop de vanille",
+      "Sirop d'érable",
+    ],
     answer: "Sirop de vanille",
   },
   {
     numéro: "2/20",
-    question: "Quelle est la boisson emblématique de Cuba, composée de rhum, de menthe, de sucre et de soda ?",
+    question:
+      "Quelle est la boisson emblématique de Cuba, composée de rhum, de menthe, de sucre et de soda ?",
     options: ["Margarita", "Piña colada", "Mojito", "Daiquiri"],
     answer: "Mojito",
   },
   {
     numéro: "3/20",
-    question: "Quel est le cocktail à base de gin, de vermouth sec et d'olive, souvent associé à James Bond ?",
+    question:
+      "Quel est le cocktail à base de gin, de vermouth sec et d'olive, souvent associé à James Bond ?",
     options: ["Bloody Mary", "Martini", "Negroni", "Caipirinha"],
     answer: "Martini",
   },
   {
     numéro: "4/20",
-    question: "Quelle boisson est préparée à partir de tequila, de jus de citron vert et de liqueur d'orange ?",
+    question:
+      "Quelle boisson est préparée à partir de tequila, de jus de citron vert et de liqueur d'orange ?",
     options: ["Margarita", "Caipirinha", "Mai Tai", "Daiquiri"],
     answer: "Margarita",
   },
   {
     numéro: "5/20",
-    question: "Quel est le cocktail à base de vodka, de jus de cranberry et de jus de citron vert ?",
+    question:
+      "Quel est le cocktail à base de vodka, de jus de cranberry et de jus de citron vert ?",
     options: ["Mojito", "Cosmopolitan", "Piña colada", "Bloody Mary"],
     answer: "Cosmopolitan",
   },
   {
     numéro: "6/20",
-    question: "Quel est le nom de la boisson gazeuse au citron vert et à la limette produite par The Coca-Cola Company ?",
+    question:
+      "Quel est le nom de la boisson gazeuse au citron vert et à la limette produite par The Coca-Cola Company ?",
     options: ["Badoit", "Sprite", "Seven up", "Perrier"],
     answer: "Sprite",
   },
   {
     numéro: "7/20",
-    question: "Quelle boisson énergisante est populaire pour sa teneur en caféine et sa canette bleue et argentée ?",
+    question:
+      "Quelle boisson énergisante est populaire pour sa teneur en caféine et sa canette bleue et argentée ?",
     options: ["Monster", "Rockstar", "Red Bull", "Burn"],
     answer: "Red Bull",
   },
   {
     numéro: "8/20",
-    question: "Quelle est la boisson traditionnelle mexicaine à base d'agave fermenté ?",
+    question:
+      "Quelle est la boisson traditionnelle mexicaine à base d'agave fermenté ?",
     options: ["Tequila sunrise", "Margarita", "Mojito", "Michelada"],
     answer: "Tequila sunrise",
   },
   {
     numéro: "9/20",
-    question: "Quelle boisson alcoolisée est brassée à partir de grains d'orge fermentés et souvent servie dans des pubs ?",
+    question:
+      "Quelle boisson alcoolisée est brassée à partir de grains d'orge fermentés et souvent servie dans des pubs ?",
     options: ["L'alccol de microbrasseries", "Lager", "Stout", "Bières"],
     answer: "Bières",
   },
   {
     numéro: "10/20",
-    question: "Quelle boisson est composée de vodka, de jus de tomate, de jus de citron, de sauce Worcestershire et de sauce Tabasco ?",
-    options: ["Bloody Mary", "Moscow Mule", "Screwdriver", "Long Island Iced Tea"],
+    question:
+      "Quelle boisson est composée de vodka, de jus de tomate, de jus de citron, de sauce Worcestershire et de sauce Tabasco ?",
+    options: [
+      "Bloody Mary",
+      "Moscow Mule",
+      "Screwdriver",
+      "Long Island Iced Tea",
+    ],
     answer: "Bloody Mary",
   },
   {
     numéro: "11/20",
-    question: "Quel est le cocktail à base de rhum, de jus d'ananas et de lait de coco ?",
+    question:
+      "Quel est le cocktail à base de rhum, de jus d'ananas et de lait de coco ?",
     options: ["Piña colada", "Margarita", "Mojito", "Daiquiri"],
     answer: "Piña colada",
   },
   {
     numéro: "12/20",
-    question: "Quelle boisson est préparée avec du whisky, du vermouth doux et une cerise comme garniture ?",
+    question:
+      "Quelle boisson est préparée avec du whisky, du vermouth doux et une cerise comme garniture ?",
     options: ["Manhattan", "Old Fashioned", "Sazerac", "Whisky sour"],
     answer: "Manhattan",
   },
   {
     numéro: "13/20",
-    question: "Quel cocktail est fait à partir de vodka, de jus de cranberry et d'un quartier de lime ?",
+    question:
+      "Quel cocktail est fait à partir de vodka, de jus de cranberry et d'un quartier de lime ?",
     options: ["Cosmopolitan", "Screwdriver", "Gin fizz", "Tequila sunrise"],
     answer: "Cosmopolitan",
   },
   {
     numéro: "14/20",
-    question: "Quelle est la boisson traditionnelle brésilienne à base de cachaça, de sucre et de citron vert ?",
+    question:
+      "Quelle est la boisson traditionnelle brésilienne à base de cachaça, de sucre et de citron vert ?",
     options: ["Piña colada", "Mojito", "Daiquiri", "Caipirinha"],
     answer: "Caipirinha",
   },
   {
     numéro: "15/20",
-    question: "Quelle boisson sans alcool est fabriquée à partir de feuilles, souvent sucrée et parfois aromatisée ?",
+    question:
+      "Quelle boisson sans alcool est fabriquée à partir de feuilles, souvent sucrée et parfois aromatisée ?",
     options: ["Jus de pomme", "Soda au gingembre", "Thé glacé", "Limonade"],
     answer: "Thé glacé",
   },
   {
     numéro: "16/20",
-    question: "Quelle boisson sans alcool est faite à partir de grains torréfiés ?",
+    question:
+      "Quelle boisson sans alcool est faite à partir de grains torréfiés ?",
     options: ["Thé glacé", "Café", "Soda au gingembre", "Eau minérale"],
     answer: "Café",
   },
   {
     numéro: "17/20",
-    question: "Quelle boisson alcoolisée est fabriquée à partir de la distillation de la canne à sucre fermentée ?",
+    question:
+      "Quelle boisson alcoolisée est fabriquée à partir de la distillation de la canne à sucre fermentée ?",
     options: ["Cachaça", "Pisco", "Rhum", "Tequila"],
     answer: "Rhum",
   },
   {
     numéro: "18/20",
-    question: "Quelle boisson est composée de vin rouge, de fruits frais et de brandy ?",
+    question:
+      "Quelle boisson est composée de vin rouge, de fruits frais et de brandy ?",
     options: ["Mimosa", "Bellini", "Sangria", "Mai Tai"],
     answer: "Sangria",
   },
   {
     numéro: "19/20",
-    question: "Quelle boisson rafraîchissante est composée de jus de citron vert, de feuilles de menthe, de sucre et d'eau gazeuse, sans alcool ?",
-    options: ["Virgin Mojito", "Faux Caipirinha", "Mocktail Mojito", "Mint Fizz sans alcool"],
+    question:
+      "Quelle boisson rafraîchissante est composée de jus de citron vert, de feuilles de menthe, de sucre et d'eau gazeuse, sans alcool ?",
+    options: [
+      "Virgin Mojito",
+      "Faux Caipirinha",
+      "Mocktail Mojito",
+      "Mint Fizz sans alcool",
+    ],
     answer: "Virgin Mojito",
   },
   {
     numéro: "20/20",
-    question: "Quelle boisson est composée de vodka, de jus de tomate, de jus de citron vert et de sauce Worcestershire ?",
+    question:
+      "Quelle boisson est composée de vodka, de jus de tomate, de jus de citron vert et de sauce Worcestershire ?",
     options: ["Bloody Mary", "Moscow Mule", "Screwdriver", "Tequila sunrise"],
     answer: "Bloody Mary",
   },
@@ -5422,352 +6577,459 @@ const questionsBoissonsCocktail = [
 const questionsAnnees80 = [
   {
     numéro: "1/20",
-    question: "Quel artiste français a chanté 'Pour que tu m'aimes encore' en 1987, devenu un succès international ?",
-    options: ["Jean-Jacques Goldman", "Johnny Hallyday", "Céline Dion", "Francis Cabrel"],
+    question:
+      "Quel artiste français a chanté 'Pour que tu m'aimes encore' en 1987, devenu un succès international ?",
+    options: [
+      "Jean-Jacques Goldman",
+      "Johnny Hallyday",
+      "Céline Dion",
+      "Francis Cabrel",
+    ],
     answer: "Céline Dion",
   },
   {
     numéro: "2/20",
-    question: "Quelle chanson de Jeanne Mas est sortie en 1985, marquant son début dans la musique pop française ?",
-    options: ["En rouge et noir", "Toute première fois", "Johnny, Johnny", "Femmes d'aujourd'hui"],
+    question:
+      "Quelle chanson de Jeanne Mas est sortie en 1985, marquant son début dans la musique pop française ?",
+    options: [
+      "En rouge et noir",
+      "Toute première fois",
+      "Johnny, Johnny",
+      "Femmes d'aujourd'hui",
+    ],
     answer: "Toute première fois",
   },
   {
     numéro: "3/20",
-    question: "Quel artiste a sorti l'album 'Thriller' en 1982, devenu l'album le plus vendu de tous les temps ?",
+    question:
+      "Quel artiste a sorti l'album 'Thriller' en 1982, devenu l'album le plus vendu de tous les temps ?",
     options: ["Prince", "Michael Jackson", "Madonna", "Bruce Springsteen"],
     answer: "Michael Jackson",
   },
   {
     numéro: "4/20",
-    question: "Quel groupe a sorti 'Nuit de folie' en 1988, un tube de la musique dance française ?",
-    options: ["Jean-Pierre Mader", "Jean-Luc Lahaye", "Début de Soirée", "Gérard Blanc"],
+    question:
+      "Quel groupe a sorti 'Nuit de folie' en 1988, un tube de la musique dance française ?",
+    options: [
+      "Jean-Pierre Mader",
+      "Jean-Luc Lahaye",
+      "Début de Soirée",
+      "Gérard Blanc",
+    ],
     answer: "Début de Soirée",
   },
   {
     numéro: "5/20",
-    question: "Quelle chanson de Mylène Farmer est sortie en 1986, marquant le début de sa carrière solo ?",
+    question:
+      "Quelle chanson de Mylène Farmer est sortie en 1986, marquant le début de sa carrière solo ?",
     options: ["Désenchantée", "Libertine", "Sans contrefaçon", "Maman a tort"],
     answer: "Libertine",
   },
   {
     numéro: "6/20",
-    question: "Quelle chanson de Michael Jackson est sortie en 1982, marquant le début de l'ère 'Thriller' ?",
+    question:
+      "Quelle chanson de Michael Jackson est sortie en 1982, marquant le début de l'ère 'Thriller' ?",
     options: ["Beat It", "Billie Jean", "Thriller", "Bad"],
     answer: "Billie Jean",
   },
   {
     numéro: "7/20",
-    question: "Quel groupe a sorti la chanson 'Africa', devenue un hit mondial en 1982 ?",
+    question:
+      "Quel groupe a sorti la chanson 'Africa', devenue un hit mondial en 1982 ?",
     options: ["Toto", "Boston", "Journey", "Foreigner"],
     answer: "Toto",
   },
   {
     numéro: "8/20",
-    question: "Quel artiste a sorti l'album 'Purple Rain' en 1984, accompagné du film du même nom ?",
+    question:
+      "Quel artiste a sorti l'album 'Purple Rain' en 1984, accompagné du film du même nom ?",
     options: ["Prince", "David Bowie", "George Michael", "Elton John"],
     answer: "Prince",
   },
   {
     numéro: "9/20",
-    question: "Quel groupe français a chanté 'Marcia Baila', une chanson devenue emblématique des années 80 ?",
+    question:
+      "Quel groupe français a chanté 'Marcia Baila', une chanson devenue emblématique des années 80 ?",
     options: ["Indochine", "Les Rita Mitsouko", "Téléphone", "Trust"],
     answer: "Les Rita Mitsouko",
   },
   {
     numéro: "10/20",
-    question: "Quelle chanson de Jean-Jacques Goldman est sortie en 1985, un des nombreux succès de sa carrière ?",
-    options: ["Quand la musique est bonne", "Au bout de mes rêves", "Je te promets", "Envole-moi"],
+    question:
+      "Quelle chanson de Jean-Jacques Goldman est sortie en 1985, un des nombreux succès de sa carrière ?",
+    options: [
+      "Quand la musique est bonne",
+      "Au bout de mes rêves",
+      "Je te promets",
+      "Envole-moi",
+    ],
     answer: "Quand la musique est bonne",
   },
   {
     numéro: "11/20",
-    question: "Quelle chanson de Madonna est devenue un tube en 1984, propulsant sa carrière musicale ?",
-    options: ["Like a Virgin", "Material Girl", "Into the Groove", "Papa Don't Preach"],
+    question:
+      "Quelle chanson de Madonna est devenue un tube en 1984, propulsant sa carrière musicale ?",
+    options: [
+      "Like a Virgin",
+      "Material Girl",
+      "Into the Groove",
+      "Papa Don't Preach",
+    ],
     answer: "Like a Virgin",
   },
   {
     numéro: "12/20",
-    question: "Quelle chanson de Michel Berger a été popularisée en 1980, issue de la comédie musicale 'Starmania' ?",
-    options: ["Chanter pour ceux qui sont loin de chez eux", "Quelque chose de Tennessee", "La groupie du pianiste", "Les uns contre les autres"],
+    question:
+      "Quelle chanson de Michel Berger a été popularisée en 1980, issue de la comédie musicale 'Starmania' ?",
+    options: [
+      "Chanter pour ceux qui sont loin de chez eux",
+      "Quelque chose de Tennessee",
+      "La groupie du pianiste",
+      "Les uns contre les autres",
+    ],
     answer: "La groupie du pianiste",
   },
   {
     numéro: "13/20",
-    question: "Quelle chanteuse a sorti 'Girls Just Want to Have Fun' en 1983, un hymne des années 80 ?",
+    question:
+      "Quelle chanteuse a sorti 'Girls Just Want to Have Fun' en 1983, un hymne des années 80 ?",
     options: ["Cyndi Lauper", "Madonna", "Whitney Houston", "Tina Turner"],
     answer: "Cyndi Lauper",
   },
   {
     numéro: "14/20",
-    question: "Quelle chanson de Jeanne Mas est sortie en 1985, marquant son début dans la musique pop française ?",
-    options: ["En rouge et noir", "Toute première fois", "Johnny, Johnny", "Femmes d'aujourd'hui"],
+    question:
+      "Quelle chanson de Jeanne Mas est sortie en 1985, marquant son début dans la musique pop française ?",
+    options: [
+      "En rouge et noir",
+      "Toute première fois",
+      "Johnny, Johnny",
+      "Femmes d'aujourd'hui",
+    ],
     answer: "Toute première fois",
   },
   {
     numéro: "15/20",
-    question: "Quelle chanson du groupe U2 est sortie en 1987, devenant l'une de leurs plus grandes réussites ?",
-    options: ["Sunday Bloody Sunday", "With or Without You", "Pride (In the Name of Love)", "Where the Streets Have No Name"],
+    question:
+      "Quelle chanson du groupe U2 est sortie en 1987, devenant l'une de leurs plus grandes réussites ?",
+    options: [
+      "Sunday Bloody Sunday",
+      "With or Without You",
+      "Pride (In the Name of Love)",
+      "Where the Streets Have No Name",
+    ],
     answer: "With or Without You",
   },
   {
     numéro: "16/20",
-    question: "Quel artiste français est connu pour la chanson 'Papa chanteur' sortie en 1982 ?",
-    options: ["Jean-Pierre Mader", "Jean-Luc Lahaye", "Patrick Hernandez", "Gérard Blanc"],
+    question:
+      "Quel artiste français est connu pour la chanson 'Papa chanteur' sortie en 1982 ?",
+    options: [
+      "Jean-Pierre Mader",
+      "Jean-Luc Lahaye",
+      "Patrick Hernandez",
+      "Gérard Blanc",
+    ],
     answer: "Jean-Luc Lahaye",
   },
   {
     numéro: "17/20",
-    question: "Quelle chanson de Mylène Farmer est sortie en 1987, marquant le début de sa carrière solo ?",
+    question:
+      "Quelle chanson de Mylène Farmer est sortie en 1987, marquant le début de sa carrière solo ?",
     options: ["Désenchantée", "Libertine", "Sans contrefaçon", "Maman a tort"],
     answer: "Sans contrefaçon",
   },
   {
     numéro: "18/20",
-    question: "Quel duo français a chanté 'Les Démons de minuit', une chanson très populaire en 1986 ?",
+    question:
+      "Quel duo français a chanté 'Les Démons de minuit', une chanson très populaire en 1986 ?",
     options: ["Elsa et Glenn Medeiros", "Images", "Gold", "Cookie Dingler"],
     answer: "Images",
   },
   {
     numéro: "19/20",
-    question: "Quel artiste français a sorti 'Joe le taxi' en 1987, une chanson qui l'a propulsé sur la scène internationale ?",
+    question:
+      "Quel artiste français a sorti 'Joe le taxi' en 1987, une chanson qui l'a propulsé sur la scène internationale ?",
     options: ["Vanessa Paradis", "Patricia Kaas", "Lio", "Indra"],
     answer: "Vanessa Paradis",
   },
   {
     numéro: "20/20",
-    question: "Quelle chanson de Daniel Balavoine est sortie en 1983, peu de temps avant sa disparition tragique ?",
-    options: ["Mon fils, ma bataille", "Sauver l'amour", "L'Aziza", "Vivre ou survivre"],
+    question:
+      "Quelle chanson de Daniel Balavoine est sortie en 1983, peu de temps avant sa disparition tragique ?",
+    options: [
+      "Mon fils, ma bataille",
+      "Sauver l'amour",
+      "L'Aziza",
+      "Vivre ou survivre",
+    ],
     answer: "L'Aziza",
   },
 ];
 
-
 const questionsInstruments = [
   {
     numéro: "1/20",
-    question: "Quel instrument de musique est souvent associé à la musique classique indienne et se joue avec un archet ?",
+    question:
+      "Quel instrument de musique est souvent associé à la musique classique indienne et se joue avec un archet ?",
     options: ["Sitar", "Tabla", "Sarod", "Violon"],
     answer: "Violon",
   },
   {
     numéro: "2/20",
-    question: "Quel est l'instrument de musique à cordes pincées le plus ancien, ayant des origines datant de plus de 3 000 ans en Perse ?",
+    question:
+      "Quel est l'instrument de musique à cordes pincées le plus ancien, ayant des origines datant de plus de 3 000 ans en Perse ?",
     options: ["Sitar", "Oud", "Luth", "Guitare"],
     answer: "Luth",
   },
   {
     numéro: "3/20",
-    question: "À quelle famille d'instruments de musique appartient le saxophone ?",
+    question:
+      "À quelle famille d'instruments de musique appartient le saxophone ?",
     options: ["Cordes", "Cuivres", "Bois", "Percussions"],
     answer: "Cuivres",
   },
   {
     numéro: "4/20",
-    question: "Quel instrument de percussion africain est joué avec les mains et est traditionnellement fabriqué à partir d'un tronc d'arbre creusé et d'une peau de chèvre tendue ?",
+    question:
+      "Quel instrument de percussion africain est joué avec les mains et est traditionnellement fabriqué à partir d'un tronc d'arbre creusé et d'une peau de chèvre tendue ?",
     options: ["Bongo", "Conga", "Djembé", "Timbales"],
     answer: "Djembé",
   },
   {
     numéro: "5/20",
-    question: "Quel instrument a popularisé Jimi Hendrix, connu pour ses performances électriques et sa virtuosité ?",
+    question:
+      "Quel instrument a popularisé Jimi Hendrix, connu pour ses performances électriques et sa virtuosité ?",
     options: ["Basse", "Batterie", "Guitare électrique", "Clarinette"],
     answer: "Guitare électrique",
   },
   {
     numéro: "6/20",
-    question: "Quel instrument à vent est souvent utilisé dans les fanfares et est connu pour sa forme incurvée distinctive ?",
+    question:
+      "Quel instrument à vent est souvent utilisé dans les fanfares et est connu pour sa forme incurvée distinctive ?",
     options: ["Saxophone", "Trompette", "Cor d'harmonie", "Tuba"],
     answer: "Tuba",
   },
   {
     numéro: "7/20",
-    question: "Quel instrument à vent utilise un embout buccal et des clés pour produire des sons ?",
+    question:
+      "Quel instrument à vent utilise un embout buccal et des clés pour produire des sons ?",
     options: ["Trompette", "Saxophone", "Flûte traversière", "Clarinette"],
     answer: "Clarinette",
   },
   {
     numéro: "8/20",
-    question: "Quel instrument à cordes pincées est originaire d'Hawaï et est souvent associé à la musique de l'île ?",
+    question:
+      "Quel instrument à cordes pincées est originaire d'Hawaï et est souvent associé à la musique de l'île ?",
     options: ["Ukulélé", "Banjo", "Mandoline", "Guitare"],
     answer: "Ukulélé",
   },
   {
     numéro: "9/20",
-    question: "Quel instrument à cordes est couramment utilisé dans le bluegrass et possède quatre cordes accordées en quintes ?",
+    question:
+      "Quel instrument à cordes est couramment utilisé dans le bluegrass et possède quatre cordes accordées en quintes ?",
     options: ["Violoncelle", "Mandoline", "Violon", "Banjo"],
     answer: "Banjo",
   },
   {
     numéro: "10/20",
-    question: "Quel instrument électronique utilise un clavier et produit des sons synthétisés ?",
+    question:
+      "Quel instrument électronique utilise un clavier et produit des sons synthétisés ?",
     options: ["Synthétiseur", "Theremin", "Mellotron", "Orgue électrique"],
     answer: "Synthétiseur",
   },
   {
     numéro: "11/20",
-    question: "Quel instrument de percussion est constitué de deux plaques métalliques qui s'entrechoquent pour produire des sons ?",
+    question:
+      "Quel instrument de percussion est constitué de deux plaques métalliques qui s'entrechoquent pour produire des sons ?",
     options: ["Glockenspiel", "Cymbales", "Xylophone", "Tambourin"],
     answer: "Cymbales",
   },
   {
     numéro: "12/20",
-    question: "Quel instrument à clavier a été inventé au XVIIIe siècle par Bartolomeo Cristofori à Florence, en Italie ?",
+    question:
+      "Quel instrument à clavier a été inventé au XVIIIe siècle par Bartolomeo Cristofori à Florence, en Italie ?",
     options: ["Clavecin", "Piano", "Orgue", "Accordéon"],
     answer: "Piano",
   },
   {
     numéro: "13/20",
-    question: "Quel instrument à vent utilise une anche simple et est souvent associé à la musique classique et au jazz ?",
+    question:
+      "Quel instrument à vent utilise une anche simple et est souvent associé à la musique classique et au jazz ?",
     options: ["Flûte traversière", "Hautbois", "Clarinet", "Basson"],
     answer: "Hautbois",
   },
   {
     numéro: "14/20",
-    question: "Quel instrument à cordes frottées est plus grand que le violon et plus petit que la contrebasse, souvent utilisé en musique classique pour jouer des lignes mélodiques et des parties d'accompagnement ?",
+    question:
+      "Quel instrument à cordes frottées est plus grand que le violon et plus petit que la contrebasse, souvent utilisé en musique classique pour jouer des lignes mélodiques et des parties d'accompagnement ?",
     options: ["Violoncelle", "Alto", "Contrebasse", "Violon"],
     answer: "Violoncelle",
   },
   {
     numéro: "15/20",
-    question: "Quel instrument à vent est souvent associé au jazz et se joue en utilisant une anche simple ou double ?",
+    question:
+      "Quel instrument à vent est souvent associé au jazz et se joue en utilisant une anche simple ou double ?",
     options: ["Saxophone", "Trombone", "Trompette", "Cor"],
     answer: "Saxophone",
   },
   {
     numéro: "16/20",
-    question: "Quel instrument à cordes est traditionnellement utilisé dans la musique flamenco et a un corps en forme de poire ?",
+    question:
+      "Quel instrument à cordes est traditionnellement utilisé dans la musique flamenco et a un corps en forme de poire ?",
     options: ["Guitare", "Mandoline", "Charango", "Laúd"],
     answer: "Guitare",
   },
   {
     numéro: "17/20",
-    question: "Quel instrument de percussion peut être joué en frappant avec des baguettes, en utilisant des balais ou même avec les mains ?",
+    question:
+      "Quel instrument de percussion peut être joué en frappant avec des baguettes, en utilisant des balais ou même avec les mains ?",
     options: ["Marimba", "Tambour", "Cajón", "Batterie"],
     answer: "Batterie",
   },
   {
     numéro: "18/20",
-    question: "Quel instrument à vent en bambou est populaire dans la musique traditionnelle japonaise ?",
+    question:
+      "Quel instrument à vent en bambou est populaire dans la musique traditionnelle japonaise ?",
     options: ["Shakuhachi", "Erhu", "Dizi", "Didgeridoo"],
     answer: "Shakuhachi",
   },
   {
     numéro: "19/20",
-    question: "Quel instrument à vent est souvent utilisé dans les orchestres symphoniques et utilise une embouchure et des pistons ?",
+    question:
+      "Quel instrument à vent est souvent utilisé dans les orchestres symphoniques et utilise une embouchure et des pistons ?",
     options: ["Trompette", "Tuba", "Cor d'harmonie", "Bugle"],
     answer: "Trompette",
   },
   {
     numéro: "20/20",
-    question: "Quel instrument de percussion brésilien est souvent associé à la samba et est joué avec des maillets ?",
+    question:
+      "Quel instrument de percussion brésilien est souvent associé à la samba et est joué avec des maillets ?",
     options: ["Pandeiro", "Agogô", "Cuíca", "Surdo"],
     answer: "Surdo",
   },
 ];
 
-
 const questionsNutritionSante = [
   {
     numéro: "1/20",
-    question: "Qu'est-ce qu'un antioxydant et comment peut-il bénéficier à la santé ?",
+    question:
+      "Qu'est-ce qu'un antioxydant et comment peut-il bénéficier à la santé ?",
     options: [
       "Il protège les cellules du corps contre les dommages causés par les radicaux libres.",
       "Il augmente la production de vitamine D dans le corps.",
       "Il aide à renforcer les os et les dents.",
-      "Il stimule le système immunitaire."
+      "Il stimule le système immunitaire.",
     ],
-    answer: "Il protège les cellules du corps contre les dommages causés par les radicaux libres."
+    answer:
+      "Il protège les cellules du corps contre les dommages causés par les radicaux libres.",
   },
   {
     numéro: "2/20",
-    question: "Quel est l'apport quotidien recommandé en fibres alimentaires pour un adulte moyen ?",
-    options: ["5-10 grammes", "10-15 grammes", "15-25 grammes", "25-30 grammes"],
-    answer: "25-30 grammes"
+    question:
+      "Quel est l'apport quotidien recommandé en fibres alimentaires pour un adulte moyen ?",
+    options: [
+      "5-10 grammes",
+      "10-15 grammes",
+      "15-25 grammes",
+      "25-30 grammes",
+    ],
+    answer: "25-30 grammes",
   },
   {
     numéro: "3/20",
-    question: "Quel est l'effet bénéfique des acides gras oméga-3 sur la santé ?",
+    question:
+      "Quel est l'effet bénéfique des acides gras oméga-3 sur la santé ?",
     options: [
       "Ils peuvent réduire le risque de maladies cardiaques.",
       "Ils favorisent la croissance musculaire.",
       "Ils améliorent la vision nocturne.",
-      "Ils renforcent le système immunitaire."
+      "Ils renforcent le système immunitaire.",
     ],
-    answer: "Ils peuvent réduire le risque de maladies cardiaques."
+    answer: "Ils peuvent réduire le risque de maladies cardiaques.",
   },
   {
     numéro: "4/20",
-    question: "Quelle vitamine est essentielle pour la santé des os et est souvent synthétisée par l'exposition au soleil ?",
+    question:
+      "Quelle vitamine est essentielle pour la santé des os et est souvent synthétisée par l'exposition au soleil ?",
     options: ["Vitamine A", "Vitamine C", "Vitamine D", "Vitamine E"],
-    answer: "Vitamine D"
+    answer: "Vitamine D",
   },
   {
     numéro: "5/20",
-    question: "Quel est l'effet d'une consommation excessive de sodium sur la santé ?",
+    question:
+      "Quel est l'effet d'une consommation excessive de sodium sur la santé ?",
     options: [
       "Elle peut augmenter la pression artérielle.",
       "Elle peut améliorer la digestion.",
       "Elle peut favoriser la perte de poids.",
-      "Elle peut augmenter le taux de cholestérol."
+      "Elle peut augmenter le taux de cholestérol.",
     ],
-    answer: "Elle peut augmenter la pression artérielle."
+    answer: "Elle peut augmenter la pression artérielle.",
   },
   {
     numéro: "6/20",
-    question: "Quel est le principal avantage des aliments riches en probiotiques ?",
+    question:
+      "Quel est le principal avantage des aliments riches en probiotiques ?",
     options: [
       "Ils favorisent une digestion saine en renforçant les bonnes bactéries intestinales.",
       "Ils améliorent la qualité du sommeil.",
       "Ils réduisent le risque de maladies cardiovasculaires.",
-      "Ils augmentent la capacité de concentration."
+      "Ils augmentent la capacité de concentration.",
     ],
-    answer: "Ils favorisent une digestion saine en renforçant les bonnes bactéries intestinales."
+    answer:
+      "Ils favorisent une digestion saine en renforçant les bonnes bactéries intestinales.",
   },
   {
     numéro: "7/20",
     question: "Quelle est la principale source alimentaire de vitamine C ?",
     options: ["Lait", "Poisson", "Fruits et légumes", "Viande rouge"],
-    answer: "Fruits et légumes"
+    answer: "Fruits et légumes",
   },
   {
     numéro: "8/20",
-    question: "Qu'est-ce que l'indice glycémique d'un aliment mesure principalement ?",
+    question:
+      "Qu'est-ce que l'indice glycémique d'un aliment mesure principalement ?",
     options: [
       "Sa capacité à augmenter la glycémie dans le sang après sa consommation.",
       "Son contenu en protéines par portion.",
       "Sa teneur en graisses saturées.",
-      "Son effet sur le métabolisme des lipides."
+      "Son effet sur le métabolisme des lipides.",
     ],
-    answer: "Sa capacité à augmenter la glycémie dans le sang après sa consommation."
+    answer:
+      "Sa capacité à augmenter la glycémie dans le sang après sa consommation.",
   },
   {
     numéro: "9/20",
-    question: "Quel est l'effet bénéfique des flavonoïdes présents dans certains aliments ?",
+    question:
+      "Quel est l'effet bénéfique des flavonoïdes présents dans certains aliments ?",
     options: [
       "Ils ont des propriétés antioxydantes et anti-inflammatoires.",
       "Ils augmentent la teneur en fibres des aliments.",
       "Ils renforcent les os et les dents.",
-      "Ils améliorent la fonction cognitive."
+      "Ils améliorent la fonction cognitive.",
     ],
-    answer: "Ils ont des propriétés antioxydantes et anti-inflammatoires."
+    answer: "Ils ont des propriétés antioxydantes et anti-inflammatoires.",
   },
   {
     numéro: "10/20",
-    question: "Quel nutriment est essentiel pour maintenir une bonne santé cardiovasculaire et est abondant dans les poissons gras comme le saumon et le maquereau ?",
+    question:
+      "Quel nutriment est essentiel pour maintenir une bonne santé cardiovasculaire et est abondant dans les poissons gras comme le saumon et le maquereau ?",
     options: ["Fer", "Calcium", "Vitamine B12", "Acides gras oméga-3"],
-    answer: "Acides gras oméga-3"
+    answer: "Acides gras oméga-3",
   },
   {
     numéro: "11/20",
-    question: "Quelle est la principale différence entre les graisses saturées et les graisses insaturées en termes d'impact sur la santé ?",
+    question:
+      "Quelle est la principale différence entre les graisses saturées et les graisses insaturées en termes d'impact sur la santé ?",
     options: [
       "Les graisses saturées peuvent augmenter le taux de cholestérol LDL, tandis que les graisses insaturées peuvent le réduire.",
       "Les graisses saturées sont plus efficaces pour augmenter l'énergie, tandis que les graisses insaturées sont mieux pour la régulation du sommeil.",
       "Les graisses saturées sont meilleures pour la digestion, tandis que les graisses insaturées sont plus nutritives.",
-      "Les graisses saturées sont plus adaptées à la construction musculaire, tandis que les graisses insaturées sont meilleures pour la récupération après l'exercice."
+      "Les graisses saturées sont plus adaptées à la construction musculaire, tandis que les graisses insaturées sont meilleures pour la récupération après l'exercice.",
     ],
-    answer: "Les graisses saturées peuvent augmenter le taux de cholestérol LDL, tandis que les graisses insaturées peuvent le réduire."
+    answer:
+      "Les graisses saturées peuvent augmenter le taux de cholestérol LDL, tandis que les graisses insaturées peuvent le réduire.",
   },
   {
     numéro: "12/20",
@@ -5776,516 +7038,819 @@ const questionsNutritionSante = [
       "Elle est essentielle pour la production de globules rouges et le bon fonctionnement du système nerveux.",
       "Elle aide à prévenir les maladies infectieuses.",
       "Elle améliore la mémoire et la concentration.",
-      "Elle aide à réguler le métabolisme des lipides."
+      "Elle aide à réguler le métabolisme des lipides.",
     ],
-    answer: "Elle est essentielle pour la production de globules rouges et le bon fonctionnement du système nerveux."
+    answer:
+      "Elle est essentielle pour la production de globules rouges et le bon fonctionnement du système nerveux.",
   },
   {
     numéro: "13/20",
-    question: "Quel est l'effet bénéfique des fibres alimentaires sur la santé digestive ?",
+    question:
+      "Quel est l'effet bénéfique des fibres alimentaires sur la santé digestive ?",
     options: [
       "Elles favorisent le transit intestinal en augmentant le volume des selles.",
       "Elles augmentent l'absorption des nutriments dans le tractus gastro-intestinal.",
       "Elles réduisent la production d'enzymes digestives.",
-      "Elles améliorent l'hydratation du côlon."
+      "Elles améliorent l'hydratation du côlon.",
     ],
-    answer: "Elles favorisent le transit intestinal en augmentant le volume des selles."
+    answer:
+      "Elles favorisent le transit intestinal en augmentant le volume des selles.",
   },
   {
     numéro: "14/20",
-    question: "Quel est l'effet d'une consommation excessive de sucre sur la santé ?",
+    question:
+      "Quel est l'effet d'une consommation excessive de sucre sur la santé ?",
     options: [
       "Elle peut contribuer à l'obésité et à l'augmentation du risque de diabète de type 2.",
       "Elle améliore la concentration et la mémoire à court terme.",
       "Elle renforce le système immunitaire.",
-      "Elle favorise la régulation de l'humeur."
+      "Elle favorise la régulation de l'humeur.",
     ],
-    answer: "Elle peut contribuer à l'obésité et à l'augmentation du risque de diabète de type 2."
+    answer:
+      "Elle peut contribuer à l'obésité et à l'augmentation du risque de diabète de type 2.",
   },
   {
     numéro: "15/20",
-    question: "Quel est l'effet bénéfique des acides aminés essentiels sur la santé ?",
+    question:
+      "Quel est l'effet bénéfique des acides aminés essentiels sur la santé ?",
     options: [
       "Ils favorisent la croissance musculaire et la réparation des tissus.",
       "Ils augmentent la résistance aux infections virales.",
       "Ils améliorent l'absorption des minéraux essentiels.",
-      "Ils aident à réguler la pression artérielle."
+      "Ils aident à réguler la pression artérielle.",
     ],
-    answer: "Ils favorisent la croissance musculaire et la réparation des tissus."
+    answer:
+      "Ils favorisent la croissance musculaire et la réparation des tissus.",
   },
   {
     numéro: "16/20",
-    question: "Quel est l'importance des minéraux comme le calcium et le magnésium pour la santé des os ?",
+    question:
+      "Quel est l'importance des minéraux comme le calcium et le magnésium pour la santé des os ?",
     options: [
       "Ils renforcent les dents et les gencives.",
       "Ils améliorent la digestion des protéines.",
       "Ils favorisent la coagulation sanguine.",
-      "Ils contribuent à maintenir la densité osseuse et à prévenir l'ostéoporose."
+      "Ils contribuent à maintenir la densité osseuse et à prévenir l'ostéoporose.",
     ],
-    answer: "Ils contribuent à maintenir la densité osseuse et à prévenir l'ostéoporose."
+    answer:
+      "Ils contribuent à maintenir la densité osseuse et à prévenir l'ostéoporose.",
   },
   {
     numéro: "17/20",
-    question: "Quel est l'effet bénéfique des légumes verts comme les épinards et le brocoli sur la santé ?",
+    question:
+      "Quel est l'effet bénéfique des légumes verts comme les épinards et le brocoli sur la santé ?",
     options: [
       "Ils sont riches en antioxydants et en vitamines, aidant ainsi à prévenir les maladies chroniques.",
       "Ils augmentent le taux de cholestérol HDL (bon cholestérol).",
       "Ils favorisent la synthèse des protéines musculaires.",
-      "Ils améliorent la mémoire à long terme."
+      "Ils améliorent la mémoire à long terme.",
     ],
-    answer: "Ils sont riches en antioxydants et en vitamines, aidant ainsi à prévenir les maladies chroniques."
+    answer:
+      "Ils sont riches en antioxydants et en vitamines, aidant ainsi à prévenir les maladies chroniques.",
   },
   {
     numéro: "18/20",
-    question: "Quel est l'effet bénéfique des aliments riches en vitamine A, comme les carottes et les patates douces, sur la santé ?",
+    question:
+      "Quel est l'effet bénéfique des aliments riches en vitamine A, comme les carottes et les patates douces, sur la santé ?",
     options: [
       "Ils améliorent la vision nocturne et la santé des yeux.",
       "Ils favorisent la croissance des cheveux et des ongles.",
       "Ils augmentent la production de collagène dans la peau.",
-      "Ils réduisent les risques de maladies cardiaques."
+      "Ils réduisent les risques de maladies cardiaques.",
     ],
-    answer: "Ils améliorent la vision nocturne et la santé des yeux."
+    answer: "Ils améliorent la vision nocturne et la santé des yeux.",
   },
   {
     numéro: "19/20",
-    question: "Qu'est-ce que l'indice de masse corporelle (IMC) mesure principalement ?",
+    question:
+      "Qu'est-ce que l'indice de masse corporelle (IMC) mesure principalement ?",
     options: [
       "Le rapport entre le poids et la taille d'une personne.",
       "La force musculaire et l'endurance.",
       "La capacité respiratoire et la santé pulmonaire.",
-      "Le taux de cholestérol et de lipides dans le sang."
+      "Le taux de cholestérol et de lipides dans le sang.",
     ],
-    answer: "Le rapport entre le poids et la taille d'une personne."
+    answer: "Le rapport entre le poids et la taille d'une personne.",
   },
   {
     numéro: "20/20",
-    question: "Quel est l'effet bénéfique des fruits rouges comme les fraises et les framboises sur la santé ?",
+    question:
+      "Quel est l'effet bénéfique des fruits rouges comme les fraises et les framboises sur la santé ?",
     options: [
       "Ils sont riches en antioxydants qui peuvent aider à protéger contre les maladies cardiaques et le cancer.",
       "Ils augmentent la production d'insuline dans le pancréas.",
       "Ils stimulent le métabolisme des graisses dans le foie.",
-      "Ils favorisent la rétention d'eau dans le corps."
+      "Ils favorisent la rétention d'eau dans le corps.",
     ],
-    answer: "Ils sont riches en antioxydants qui peuvent aider à protéger contre les maladies cardiaques et le cancer."
-  }
+    answer:
+      "Ils sont riches en antioxydants qui peuvent aider à protéger contre les maladies cardiaques et le cancer.",
+  },
 ];
-
 
 const questionsMarquesLogos = [
   {
     numéro: "1/20",
-    question: "Quelle marque de voiture utilise le logo de trois losanges entrelacés ?",
-    image: "../assets/img/marque_renault.jpg", 
+    question:
+      "Quelle marque de voiture utilise le logo de trois losanges entrelacés ?",
+    image: "../assets/img/marque_renault.jpg",
     options: ["Renault", "Peugeot", "Citroën", "Ford"],
-    answer: "Renault"
+    answer: "Renault",
   },
   {
     numéro: "2/20",
     question: "Quelle marque utilise le logo d'une pomme croquée ?",
-    image: "../assets/img/marque_apple.png", 
+    image: "../assets/img/marque_apple.png",
     options: ["Microsoft", "Apple", "Samsung", "Google"],
-    answer: "Apple"
+    answer: "Apple",
   },
   {
     numéro: "3/20",
     question: "Quelle marque utilise le logo d'un swoosh (virgule) ?",
-    image: "../assets/img/marque_nike.jpg", 
+    image: "../assets/img/marque_nike.jpg",
     options: ["Adidas", "Nike", "Puma", "Reebok"],
-    answer: "Nike"
+    answer: "Nike",
   },
   {
     numéro: "4/20",
     question: "Quelle marque utilise le logo d'un lion rugissant ?",
-    image: "../assets/img/marque_peugeot.png", 
+    image: "../assets/img/marque_peugeot.png",
     options: ["Lacoste", "Peugeot", "Ferrari", "Jaguar"],
-    answer: "Peugeot"
+    answer: "Peugeot",
   },
   {
     numéro: "5/20",
     question: "Quelle marque utilise le logo d'un M jaune sur fond vert ?",
-    image: "../assets/img/marque_mcdonalds.png", 
+    image: "../assets/img/marque_mcdonalds.png",
     options: ["McDonald's", "Burger King", "KFC", "Subway"],
-    answer: "McDonald's"
+    answer: "McDonald's",
   },
   {
     numéro: "6/20",
     question: "Quelle marque utilise le logo d'une étoile à trois branches ?",
-    image: "../assets/img/marque_mercedes.jpg", 
+    image: "../assets/img/marque_mercedes.jpg",
     options: ["Mercedes-Benz", "BMW", "Audi", "Volvo"],
-    answer: "Mercedes-Benz"
+    answer: "Mercedes-Benz",
   },
   {
     numéro: "7/20",
     question: "Quelle marque utilise le logo d'un cheval cabré ?",
-    image: "../assets/img/marque_ferrari.png", 
+    image: "../assets/img/marque_ferrari.png",
     options: ["Ferrari", "Maserati", "Lamborghini", "Bugatti"],
-    answer: "Ferrari"
+    answer: "Ferrari",
   },
   {
     numéro: "8/20",
     question: "Quelle marque utilise le logo d'un taureau ?",
-    image: "../assets/img/marque_redbull.jpg", 
+    image: "../assets/img/marque_redbull.jpg",
     options: ["Red Bull", "Monster Energy", "Rockstar", "5-hour Energy"],
-    answer: "Red Bull"
+    answer: "Red Bull",
   },
   {
     numéro: "9/20",
     question: "Quelle marque utilise le logo d'un oiseau bleu ?",
-    image: "../assets/img/marque_twitter.jpg", 
+    image: "../assets/img/marque_twitter.jpg",
     options: ["Twitter", "Facebook", "Instagram", "LinkedIn"],
-    answer: "Twitter"
+    answer: "Twitter",
   },
   {
     numéro: "10/20",
-    question: "Quelle marque utilise le logo d'une étoile et de trois bandes parallèles ?",
-    image: "../assets/img/marque_adidas.png", 
+    question:
+      "Quelle marque utilise le logo d'une étoile et de trois bandes parallèles ?",
+    image: "../assets/img/marque_adidas.png",
     options: ["Nike", "Adidas", "Puma", "Reebok"],
-    answer: "Adidas"
+    answer: "Adidas",
   },
   {
     numéro: "11/20",
     question: "Quelle marque utilise ce logo ?",
-    image: "../assets/img/marque_reddit.jpg", 
+    image: "../assets/img/marque_reddit.jpg",
     options: ["YouTube", "Twitch", "Reddit", "Spotify"],
-    answer: "Reddit"
+    answer: "Reddit",
   },
   {
     numéro: "12/20",
     question: "Quelle marque utilise le logo d'une couronne dorée ?",
-    image: "../assets/img/marque_rolex.png", 
+    image: "../assets/img/marque_rolex.png",
     options: ["Rolex", "Patek Philippe", "Audemars Piguet", "Omega"],
-    answer: "Rolex"
+    answer: "Rolex",
   },
   {
     numéro: "13/20",
     question: "Quelle marque utilise le logo d'un crocodile ?",
-    image: "../assets/img/marque_lacoste.jpg", 
+    image: "../assets/img/marque_lacoste.jpg",
     options: ["Lacoste", "Burberry", "Ralph Lauren", "Tommy Hilfiger"],
-    answer: "Lacoste"
+    answer: "Lacoste",
   },
   {
     numéro: "14/20",
     question: "Quelle marque utilise ce logo ?",
-    image: "../assets/img/marque_chanel.jpg", 
+    image: "../assets/img/marque_chanel.jpg",
     options: ["Chanel", "Louis Vuitton", "Gucci", "Saint Laurent"],
-    answer: "Chanel"
+    answer: "Chanel",
   },
   {
     numéro: "15/20",
-    question: "Quelle marque utilise un logo représentant un tigre bondissant ?",
-    image: "../assets/img/marque_frostedFlakes.jpg", 
+    question:
+      "Quelle marque utilise un logo représentant un tigre bondissant ?",
+    image: "../assets/img/marque_frostedFlakes.jpg",
     options: ["Kellogg's", "Frosted Flakes", "Tony the Tiger", "Cheetos"],
-    answer: "Frosted Flakes"
+    answer: "Frosted Flakes",
   },
   {
     numéro: "16/20",
     question: "Quelle marque représente ce logo ?",
-    image: "../assets/img/marque_playstation.JPG", 
+    image: "../assets/img/marque_playstation.JPG",
     options: ["PlayStation", "Xbox", "Nintendo", "Sega"],
-    answer: "PlayStation"
+    answer: "PlayStation",
   },
   {
     numéro: "17/20",
     question: "Quelle marque utilise le logo rouge ?",
-    image: "../assets/img/marque_huawei.JPG", 
+    image: "../assets/img/marque_huawei.JPG",
     options: ["Huawei", "Ariel", "Vodafone", "Ducati"],
-    answer: "Huawei"
+    answer: "Huawei",
   },
   {
     numéro: "18/20",
     question: "Quelle marque utilise un logo en forme de T ?",
-    image: "../assets/img/marque_tesla.JPG", 
+    image: "../assets/img/marque_tesla.JPG",
     options: ["Tesla", "Talbot", "Texas Instrument", "Troller"],
-    answer: "Tesla"
+    answer: "Tesla",
   },
   {
     numéro: "19/20",
     question: "Quelle est cette marque ?",
-    image: "../assets/img/marque_cadillac.jpg", 
+    image: "../assets/img/marque_cadillac.jpg",
     options: ["Cadillac", "Chevrolet", "Buick", "Ford"],
-    answer: "Cadillac"
+    answer: "Cadillac",
   },
   {
     numéro: "20/20",
     question: "À quelle marque appartient ce logo vert ?",
-    image: "../assets/img/marque_crocs.jpg", 
+    image: "../assets/img/marque_crocs.jpg",
     options: ["Crocs", "Cetelem", "Android", "Skoda"],
-    answer: "Crocs"
-  }
+    answer: "Crocs",
+  },
 ];
 
 const questionsFromages = [
   {
     numéro: "1/20",
-    question: "Quel fromage français est connu pour sa forme en cœur et sa croûte fleurie blanche ?",
-    image: "../assets/img/fromage_neufchatel.jpg", 
+    question:
+      "Quel fromage français est connu pour sa forme en cœur et sa croûte fleurie blanche ?",
+    image: "../assets/img/fromage_neufchatel.jpg",
     options: ["Neufchâtel", "Brie", "Camembert", "Roquefort"],
-    answer: "Neufchâtel"
+    answer: "Neufchâtel",
   },
   {
     numéro: "2/20",
-    question: "Quel fromage italien est souvent râpé sur les pâtes et les pizzas ?",
-    image: "../assets/img/fromage_parmesan.jpg", 
+    question:
+      "Quel fromage italien est souvent râpé sur les pâtes et les pizzas ?",
+    image: "../assets/img/fromage_parmesan.jpg",
     options: ["Parmesan", "Mozzarella", "Gorgonzola", "Pecorino"],
-    answer: "Parmesan"
+    answer: "Parmesan",
   },
   {
     numéro: "3/20",
-    question: "Quel fromage est connu pour ses veines bleues et sa forte saveur ?",
-    image: "../assets/img/fromage_roquefort.jpg", 
+    question:
+      "Quel fromage est connu pour ses veines bleues et sa forte saveur ?",
+    image: "../assets/img/fromage_roquefort.jpg",
     options: ["Roquefort", "Stilton", "Gorgonzola", "Bleu d'Auvergne"],
-    answer: "Roquefort"
+    answer: "Roquefort",
   },
   {
     numéro: "4/20",
-    question: "Quel fromage français est célèbre pour sa croûte lavée orange et son odeur forte ?",
-    image: "../assets/img/fromage_munster.jpg", 
+    question:
+      "Quel fromage français est célèbre pour sa croûte lavée orange et son odeur forte ?",
+    image: "../assets/img/fromage_munster.jpg",
     options: ["Munster", "Livarot", "Epoisses", "Reblochon"],
-    answer: "Munster"
+    answer: "Munster",
   },
   {
     numéro: "5/20",
     question: "Quel fromage suisse est utilisé pour la fondue ?",
-    image: "../assets/img/fromage_gruyere.jpg", 
+    image: "../assets/img/fromage_gruyere.jpg",
     options: ["Gruyère", "Beaufort", "Appenzeller", "Raclette"],
-    answer: "Beaufort"
+    answer: "Beaufort",
   },
   {
     numéro: "6/20",
-    question: "Quel fromage italien est connu pour être frais et souvent utilisé sur les salades Caprese ?",
-    image: "../assets/img/fromage_mozzarella.jpg", 
+    question:
+      "Quel fromage italien est connu pour être frais et souvent utilisé sur les salades Caprese ?",
+    image: "../assets/img/fromage_mozzarella.jpg",
     options: ["Mozzarella", "Ricotta", "Burrata", "Provolone"],
-    answer: "Mozzarella"
+    answer: "Mozzarella",
   },
   {
     numéro: "7/20",
-    question: "Quel fromage français est produit en Savoie et a une croûte lavée orange ?",
-    image: "../assets/img/fromage_reblochon.jpg", 
+    question:
+      "Quel fromage français est produit en Savoie et a une croûte lavée orange ?",
+    image: "../assets/img/fromage_reblochon.jpg",
     options: ["Reblochon", "Beaufort", "Tomme de Savoie", "Abondance"],
-    answer: "Reblochon"
+    answer: "Reblochon",
   },
   {
     numéro: "8/20",
-    question: "Quel fromage français est connu pour sa forme de cylindre plat et sa croûte blanche ?",
-    image: "../assets/img/fromage_camembert.jpg", 
+    question:
+      "Quel fromage français est connu pour sa forme de cylindre plat et sa croûte blanche ?",
+    image: "../assets/img/fromage_camembert.jpg",
     options: ["Camembert", "Brie", "Pont-l'Évêque", "Chaource"],
-    answer: "Camembert"
+    answer: "Camembert",
   },
   {
     numéro: "9/20",
-    question: "Quel fromage hollandais est souvent vendu en boule et recouvert de cire rouge ?",
-    image: "../assets/img/fromage_edam.jpg", 
+    question:
+      "Quel fromage hollandais est souvent vendu en boule et recouvert de cire rouge ?",
+    image: "../assets/img/fromage_edam.jpg",
     options: ["Edam", "Gouda", "Leerdammer", "Maasdam"],
-    answer: "Edam"
+    answer: "Edam",
   },
   {
     numéro: "10/20",
-    question: "Quel fromage français est fabriqué en Bourgogne et est lavé au marc de Bourgogne ?",
-    image: "../assets/img/fromage_epoisses.jpg", 
+    question:
+      "Quel fromage français est fabriqué en Bourgogne et est lavé au marc de Bourgogne ?",
+    image: "../assets/img/fromage_epoisses.jpg",
     options: ["Epoisses", "Langres", "Soumaintrain", "Chaource"],
-    answer: "Epoisses"
+    answer: "Epoisses",
   },
   {
     numéro: "11/20",
-    question: "Quel fromage grec est connu pour être salé et conservé dans une saumure ?",
-    image: "../assets/img/fromage_feta.jpg", 
+    question:
+      "Quel fromage grec est connu pour être salé et conservé dans une saumure ?",
+    image: "../assets/img/fromage_feta.jpg",
     options: ["Feta", "Halloumi", "Kasseri", "Mizithra"],
-    answer: "Feta"
+    answer: "Feta",
   },
   {
     numéro: "12/20",
-    question: "Quel fromage français est fabriqué en Normandie et a une croûte lavée orange ?",
-    image: "../assets/img/fromage_livarot.jpg", 
+    question:
+      "Quel fromage français est fabriqué en Normandie et a une croûte lavée orange ?",
+    image: "../assets/img/fromage_livarot.jpg",
     options: ["Livarot", "Pont-l'Évêque", "Camembert", "Brie"],
-    answer: "Livarot"
+    answer: "Livarot",
   },
   {
     numéro: "13/20",
-    question: "Quel fromage français est connu pour sa pâte persillée et est fabriqué en Auvergne ?",
-    image: "../assets/img/fromage_bleu_auvergne.jpg", 
+    question:
+      "Quel fromage français est connu pour sa pâte persillée et est fabriqué en Auvergne ?",
+    image: "../assets/img/fromage_bleu_auvergne.jpg",
     options: ["Bleu d'Auvergne", "Roquefort", "Fourme d'Ambert", "Bleu de Gex"],
-    answer: "Bleu d'Auvergne"
+    answer: "Bleu d'Auvergne",
   },
   {
     numéro: "14/20",
-    question: "Quel fromage italien est connu pour être très crémeux à l'intérieur et souvent servi avec des tomates et du basilic ?",
-    image: "../assets/img/fromage_burrata.jpg", 
+    question:
+      "Quel fromage italien est connu pour être très crémeux à l'intérieur et souvent servi avec des tomates et du basilic ?",
+    image: "../assets/img/fromage_burrata.jpg",
     options: ["Burrata", "Mozzarella", "Ricotta", "Stracciatella"],
-    answer: "Burrata"
+    answer: "Burrata",
   },
   {
     numéro: "15/20",
-    question: "Quel fromage italien est connu pour être un fromage frais à pâte filée, souvent utilisé dans les desserts ?",
-    image: "../assets/img/fromage_ricotta.jpg", 
+    question:
+      "Quel fromage italien est connu pour être un fromage frais à pâte filée, souvent utilisé dans les desserts ?",
+    image: "../assets/img/fromage_ricotta.jpg",
     options: ["Ricotta", "Mascarpone", "Mozzarella", "Burrata"],
-    answer: "Ricotta"
+    answer: "Ricotta",
   },
   {
     numéro: "16/20",
-    question: "Quel fromage français est produit en Corse et a une croûte fleurie blanche ?",
-    image: "../assets/img/fromage_brocciu.jpg", 
+    question:
+      "Quel fromage français est produit en Corse et a une croûte fleurie blanche ?",
+    image: "../assets/img/fromage_brocciu.jpg",
     options: ["Brocciu", "Brin d'Amour", "Cabécou", "Brousse"],
-    answer: "Brocciu"
+    answer: "Brocciu",
   },
   {
     numéro: "17/20",
-    question: "Quel fromage anglais est souvent recouvert de cire rouge ou noire et a une saveur douce ?",
-    image: "../assets/img/fromage_cheddar.jpg", 
+    question:
+      "Quel fromage anglais est souvent recouvert de cire rouge ou noire et a une saveur douce ?",
+    image: "../assets/img/fromage_cheddar.jpg",
     options: ["Cheddar", "Red Leicester", "Double Gloucester", "Wensleydale"],
-    answer: "Cheddar"
+    answer: "Cheddar",
   },
   {
     numéro: "18/20",
-    question: "Quel fromage français normande souvent en triangle a une texture crémeuse et une croûte fleurie blanche ?",
-    image: "../assets/img/fromage_brie.jpg", 
+    question:
+      "Quel fromage français normande souvent en triangle a une texture crémeuse et une croûte fleurie blanche ?",
+    image: "../assets/img/fromage_brie.jpg",
     options: ["Brie", "Camembert", "Neufchâtel", "Pont-l'Évêque"],
-    answer: "Brie"
+    answer: "Brie",
   },
   {
     numéro: "19/20",
-    question: "Quel fromage suisse est connu pour ses trous et est souvent utilisé dans les sandwiches ?",
-    image: "../assets/img/fromage_emmental.jpg", 
+    question:
+      "Quel fromage suisse est connu pour ses trous et est souvent utilisé dans les sandwiches ?",
+    image: "../assets/img/fromage_emmental.jpg",
     options: ["Emmental", "Gruyère", "Appenzeller", "Tilsit"],
-    answer: "Emmental"
+    answer: "Emmental",
   },
   {
     numéro: "20/20",
-    question: "Quel fromage italien est connu pour sa texture crémeuse et est souvent utilisé dans les tiramisus ?",
-    image: "../assets/img/fromage_mascarpone.jpg", 
+    question:
+      "Quel fromage italien est connu pour sa texture crémeuse et est souvent utilisé dans les tiramisus ?",
+    image: "../assets/img/fromage_mascarpone.jpg",
     options: ["Mascarpone", "Ricotta", "Gorgonzola", "Burrata"],
-    answer: "Mascarpone"
-  }
+    answer: "Mascarpone",
+  },
 ];
 
 const questionsPixar = [
   {
     numéro: "1/20",
-    question: "Quel film Pixar met en scène des jouets qui prennent vie lorsque les humains ne sont pas présents ?",
+    question:
+      "Quel film Pixar met en scène des jouets qui prennent vie lorsque les humains ne sont pas présents ?",
     options: ["Toy Story", "Monstres et Cie", "Cars", "Les Indestructibles"],
-    answer: "Toy Story"
+    answer: "Toy Story",
   },
   {
     numéro: "2/20",
-    question: "Quel film Pixar raconte l'histoire d'un poisson clown qui se perd dans l'océan ?",
+    question:
+      "Quel film Pixar raconte l'histoire d'un poisson clown qui se perd dans l'océan ?",
     options: ["Le Monde de Nemo", "Wall-E", "Ratatouille", "Là-haut"],
-    answer: "Le Monde de Nemo"
+    answer: "Le Monde de Nemo",
   },
   {
     numéro: "3/20",
-    question: "Quel film Pixar met en avant des personnages émotions vivant dans la tête d'une jeune fille ?",
+    question:
+      "Quel film Pixar met en avant des personnages émotions vivant dans la tête d'une jeune fille ?",
     options: ["Vice-Versa", "Coco", "Les Indestructibles", "Brave"],
-    answer: "Vice-Versa"
+    answer: "Vice-Versa",
   },
   {
     numéro: "4/20",
-    question: "Quel film Pixar se déroule dans un monde où les voitures sont des personnages anthropomorphes ?",
+    question:
+      "Quel film Pixar se déroule dans un monde où les voitures sont des personnages anthropomorphes ?",
     options: ["Cars", "Monstres Academy", "Ratatouille", "Le Monde de Dory"],
-    answer: "Cars"
+    answer: "Cars",
   },
   {
     numéro: "5/20",
-    question: "Quel film Pixar met en scène des animaux qui mènent une double vie ?",
-    options: ["La Vie Secrète des Animaux de Compagnie", "Toy Story", "Monstres et Cie", "Là-haut"],
-    answer: "La Vie Secrète des Animaux de Compagnie"
+    question:
+      "Quel film Pixar met en scène des animaux qui mènent une double vie ?",
+    options: [
+      "La Vie Secrète des Animaux de Compagnie",
+      "Toy Story",
+      "Monstres et Cie",
+      "Là-haut",
+    ],
+    answer: "La Vie Secrète des Animaux de Compagnie",
   },
   {
     numéro: "6/20",
-    question: "Quel film Pixar présente un robot nettoyeur solitaire sur une Terre dévastée ?",
+    question:
+      "Quel film Pixar présente un robot nettoyeur solitaire sur une Terre dévastée ?",
     options: ["Wall-E", "Là-haut", "Coco", "Les Indestructibles"],
-    answer: "Wall-E"
+    answer: "Wall-E",
   },
   {
     numéro: "7/20",
-    question: "Quel film Pixar raconte l'histoire d'un rat qui rêve de devenir chef cuisinier à Paris ?",
+    question:
+      "Quel film Pixar raconte l'histoire d'un rat qui rêve de devenir chef cuisinier à Paris ?",
     options: ["Ratatouille", "Le Monde de Nemo", "Monstres Academy", "Cars"],
-    answer: "Ratatouille"
+    answer: "Ratatouille",
   },
   {
     numéro: "8/20",
-    question: "Quel film Pixar suit les aventures de super-héros retirés forcés de reprendre du service ?",
+    question:
+      "Quel film Pixar suit les aventures de super-héros retirés forcés de reprendre du service ?",
     options: ["Les Indestructibles", "Toy Story", "Vice-Versa", "Coco"],
-    answer: "Les Indestructibles"
+    answer: "Les Indestructibles",
   },
   {
     numéro: "9/20",
-    question: "Quel film Pixar raconte l'histoire d'un vieil homme et un jeune scout naviguant vers une destination exotique ?",
+    question:
+      "Quel film Pixar raconte l'histoire d'un vieil homme et un jeune scout naviguant vers une destination exotique ?",
     options: ["Là-haut", "Inside Out", "Brave", "Monstres et Cie"],
-    answer: "Là-haut"
+    answer: "Là-haut",
   },
   {
     numéro: "10/20",
-    question: "Quel film Pixar raconte l'histoire d'une petite fourmi qui tente de sauver sa colonie en recrutant des guerriers ?",
+    question:
+      "Quel film Pixar raconte l'histoire d'une petite fourmi qui tente de sauver sa colonie en recrutant des guerriers ?",
     options: ["1001 Pattes", "Le Monde de Nemo", "Cars", "Ratatouille"],
-    answer: "1001 Pattes"
+    answer: "1001 Pattes",
   },
   {
     numéro: "11/20",
-    question: "Quel film Pixar met en scène un jeune musicien mexicain qui se retrouve dans le monde des morts ?",
+    question:
+      "Quel film Pixar met en scène un jeune musicien mexicain qui se retrouve dans le monde des morts ?",
     options: ["Coco", "Vice-Versa", "Les Indestructibles", "Ratatouille"],
-    answer: "Coco"
+    answer: "Coco",
   },
   {
     numéro: "12/20",
-    question: "Quel film Pixar se déroule dans une ville où les habitants sont des éléments de la nature, comme le feu, l'eau, la terre et l'air ?",
-    options: ["Élémentaire", "Vice-Versa", "Les Indestructibles", "Monstres et Cie"],
-    answer: "Élémentaire"
+    question:
+      "Quel film Pixar se déroule dans une ville où les habitants sont des éléments de la nature, comme le feu, l'eau, la terre et l'air ?",
+    options: [
+      "Élémentaire",
+      "Vice-Versa",
+      "Les Indestructibles",
+      "Monstres et Cie",
+    ],
+    answer: "Élémentaire",
   },
   {
     numéro: "13/20",
-    question: "Quel film Pixar met en avant une jeune princesse écossaise qui défie une tradition ancienne ?",
-    options: ["Brave", "Monstres Academy", "Le Monde de Nemo", "Les Indestructibles"],
-    answer: "Brave"
+    question:
+      "Quel film Pixar met en avant une jeune princesse écossaise qui défie une tradition ancienne ?",
+    options: [
+      "Brave",
+      "Monstres Academy",
+      "Le Monde de Nemo",
+      "Les Indestructibles",
+    ],
+    answer: "Brave",
   },
   {
     numéro: "14/20",
-    question: "Quel film Pixar met en scène un jeune monstre effrayé par les enfants humains qui se retrouve dans un collège de monstres ?",
-    options: ["Monstres Academy", "Les Indestructibles", "Toy Story", "Là-haut"],
-    answer: "Monstres Academy"
+    question:
+      "Quel film Pixar met en scène un jeune monstre effrayé par les enfants humains qui se retrouve dans un collège de monstres ?",
+    options: [
+      "Monstres Academy",
+      "Les Indestructibles",
+      "Toy Story",
+      "Là-haut",
+    ],
+    answer: "Monstres Academy",
   },
   {
     numéro: "15/20",
-    question: "Quel film Pixar met en scène une jeune fille qui découvre un passage secret menant à un monde fantastique ?",
+    question:
+      "Quel film Pixar met en scène une jeune fille qui découvre un passage secret menant à un monde fantastique ?",
     options: ["Monstres et Cie", "Toy Story", "Là-haut", "Inside Out"],
-    answer: "Monstres et Cie"
+    answer: "Monstres et Cie",
   },
   {
     numéro: "16/20",
-    question: "Quel film Pixar raconte l'histoire de deux frères elfes qui partent en quête de magie pour ramener leur père à la vie ?",
+    question:
+      "Quel film Pixar raconte l'histoire de deux frères elfes qui partent en quête de magie pour ramener leur père à la vie ?",
     options: ["En Avant", "Soul", "Luca", "Vice-Versa"],
-    answer: "En Avant"
+    answer: "En Avant",
   },
   {
     numéro: "17/20",
-    question: "Quel film Pixar se déroule dans un monde où les émotions d'un musicien de jazz sont mises à l'épreuve après un accident ?",
+    question:
+      "Quel film Pixar se déroule dans un monde où les émotions d'un musicien de jazz sont mises à l'épreuve après un accident ?",
     options: ["Soul", "Coco", "Brave", "Wall-E"],
-    answer: "Soul"
+    answer: "Soul",
   },
   {
     numéro: "18/20",
-    question: "Quel film Pixar raconte l'histoire d'un jeune garçon et de son ami qui vivent un été inoubliable en Italie, tout en cachant qu'ils sont en réalité des monstres marins ?",
+    question:
+      "Quel film Pixar raconte l'histoire d'un jeune garçon et de son ami qui vivent un été inoubliable en Italie, tout en cachant qu'ils sont en réalité des monstres marins ?",
     options: ["Luca", "En Avant", "Onward", "Soul"],
-    answer: "Luca"
+    answer: "Luca",
   },
   {
     numéro: "19/20",
-    question: "Quel film Pixar raconte l'histoire d'un groupe de personnages de jeu vidéo qui découvrent l'importance de l'amitié ?",
-    options: ["Les Mondes de Ralph", "Les Indestructibles", "Monstres et Cie", "Toy Story"],
-    answer: "Les Mondes de Ralph"
+    question:
+      "Quel film Pixar raconte l'histoire d'un groupe de personnages de jeu vidéo qui découvrent l'importance de l'amitié ?",
+    options: [
+      "Les Mondes de Ralph",
+      "Les Indestructibles",
+      "Monstres et Cie",
+      "Toy Story",
+    ],
+    answer: "Les Mondes de Ralph",
   },
   {
     numéro: "20/20",
-    question: "Quel film Pixar raconte l'histoire d'un poisson bleu souffrant de pertes de mémoire qui part à la recherche de sa famille ?",
+    question:
+      "Quel film Pixar raconte l'histoire d'un poisson bleu souffrant de pertes de mémoire qui part à la recherche de sa famille ?",
     options: ["Le Monde de Dory", "Le Monde de Nemo", "Ratatouille", "Là-haut"],
-    answer: "Le Monde de Dory"
-  }
+    answer: "Le Monde de Dory",
+  },
 ];
 
-
+const questionsTelerealite = [
+  {
+    numéro: "1/20",
+    question:
+      "Quelle émission de téléréalité met en scène des candidats cherchant l'amour parmi un groupe de prétendantes ou prétendants ?",
+    options: [
+      "Le Bachelor",
+      "Secret Story",
+      "Les Anges de la téléréalité",
+      "L'amour est dans le pré",
+    ],
+    answer: "Le Bachelor",
+  },
+  {
+    numéro: "2/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des chefs cuisiniers amateurs ou professionnels pour remporter le titre de meilleur chef ?",
+    options: [
+      "Top Chef",
+      "MasterChef",
+      "Le Meilleur Pâtissier",
+      "La Cuisine des Mousquetaires",
+    ],
+    answer: "Top Chef",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Dans quelle émission de téléréalité des candidats doivent-ils survivre sur une île déserte en participant à des épreuves physiques et mentales ?",
+    options: [
+      "Koh-Lanta",
+      "Pékin Express",
+      "La Ferme Célébrités",
+      "Secret Story",
+    ],
+    answer: "Koh-Lanta",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quelle émission de téléréalité suit des candidats qui doivent garder des secrets tout en essayant de découvrir ceux des autres ?",
+    options: [
+      "Secret Story",
+      "Les Anges de la téléréalité",
+      "Loft Story",
+      "La Maison des Secrets",
+    ],
+    answer: "Secret Story",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Quelle émission de téléréalité suit des agriculteurs cherchant l'amour parmi des prétendantes ou prétendants ?",
+    options: [
+      "L'amour est dans le pré",
+      "Le Bachelor",
+      "Les Anges de la téléréalité",
+      "Secret Story",
+    ],
+    answer: "L'amour est dans le pré",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des chanteurs amateurs pour trouver la meilleure voix de France ?",
+    options: ["The Voice", "Star Academy", "Nouvelle Star", "Popstars"],
+    answer: "The Voice",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des célébrités qui doivent apprendre à danser avec des partenaires professionnels ?",
+    options: [
+      "Danse avec les stars",
+      "The Voice",
+      "La Ferme Célébrités",
+      "Top Chef",
+    ],
+    answer: "Danse avec les stars",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des pâtissiers amateurs pour remporter le titre de meilleur pâtissier ?",
+    options: [
+      "Le Meilleur Pâtissier",
+      "Top Chef",
+      "MasterChef",
+      "Les Rois du Gâteau",
+    ],
+    answer: "Le Meilleur Pâtissier",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quelle émission de téléréalité suit des candidats qui parcourent le monde en équipe pour remporter un grand prix ?",
+    options: [
+      "Pékin Express",
+      "Koh-Lanta",
+      "The Amazing Race",
+      "La Carte aux Trésors",
+    ],
+    answer: "Pékin Express",
+  },
+  {
+    numéro: "10/20",
+    question:
+      "Quelle émission de téléréalité rassemble des célébrités dans une ferme où elles doivent s'occuper des animaux et des tâches agricoles ?",
+    options: [
+      "La Ferme Célébrités",
+      "Secret Story",
+      "Koh-Lanta",
+      "Pékin Express",
+    ],
+    answer: "La Ferme Célébrités",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quelle émission de téléréalité suit la vie quotidienne de jeunes adultes en quête de célébrité et de succès ?",
+    options: [
+      "Les Anges de la téléréalité",
+      "Secret Story",
+      "Star Academy",
+      "Loft Story",
+    ],
+    answer: "Les Anges de la téléréalité",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Quelle émission de téléréalité suit des candidats qui doivent chanter devant un jury pour remporter un contrat d'enregistrement ?",
+    options: ["Star Academy", "Nouvelle Star", "The Voice", "Popstars"],
+    answer: "Star Academy",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Quelle émission de téléréalité met en scène des couples de futurs mariés qui évaluent leurs cérémonies de mariage respectives ?",
+    options: [
+      "4 Mariages pour une Lune de Miel",
+      "Mariés au Premier Regard",
+      "L'amour est dans le pré",
+      "La Robe de Ma Vie",
+    ],
+    answer: "4 Mariages pour une Lune de Miel",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quelle émission de téléréalité suit des familles dans leur quotidien, mettant en avant leurs dynamiques et leurs défis ?",
+    options: [
+      "Une Famille en Or",
+      "Les Marseillais",
+      "La Villa des Cœurs Brisés",
+      "Les Anges de la téléréalité",
+    ],
+    answer: "Une Famille en Or",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quelle émission de téléréalité met en scène des candidats célibataires qui se marient sans s'être rencontrés auparavant ?",
+    options: [
+      "Mariés au Premier Regard",
+      "L'amour est dans le pré",
+      "Le Bachelor",
+      "4 Mariages pour une Lune de Miel",
+    ],
+    answer: "Mariés au Premier Regard",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des candidats qui doivent organiser des dîners parfaits chez eux pour remporter un prix ?",
+    options: [
+      "Un Dîner Presque Parfait",
+      "Top Chef",
+      "Le Meilleur Pâtissier",
+      "MasterChef",
+    ],
+    answer: "Un Dîner Presque Parfait",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quelle émission de téléréalité suit des candidats qui participent à des épreuves culinaires pour remporter un prix en argent et la reconnaissance de chefs célèbres ?",
+    options: [
+      "MasterChef",
+      "Top Chef",
+      "Le Meilleur Pâtissier",
+      "Cauchemar en Cuisine",
+    ],
+    answer: "MasterChef",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quelle émission de téléréalité consiste à rénover et décorer des maisons avec l'aide d'une équipe de professionnels ?",
+    options: ["D&CO", "Maison à Vendre", "Rénovation Impossible", "Queer Eye"],
+    answer: "D&CO",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quelle émission de téléréalité met en scène des célibataires qui cherchent l'amour sur une île tropicale ?",
+    options: [
+      "Love Island",
+      "Les Princes de l'Amour",
+      "L'île de la Tentation",
+      "Bachelor in Paradise",
+    ],
+    answer: "Love Island",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des candidats qui doivent réaliser des transformations de maisons ?",
+    options: ["Maison à Vendre", "D&CO", "Rénovation Impossible", "Queer Eye"],
+    answer: "Maison à Vendre",
+  },
+];
 
 // Mélanger les options pour chaque thème de questions
 
 shuffleQuestionsOptions(questionsFromages);
 shuffleQuestionsOptions(questionsPixar);
+shuffleQuestionsOptions(questionsTelerealite);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -6335,32 +7900,55 @@ const premièreQuestion = questionsCultureGenerale[0];
 const quizContainer = document.getElementById("quiz-container");
 const themeFromagesBtn = document.getElementById("theme-fromages");
 const themePixarBtn = document.getElementById("theme-filmsPixar");
+const themeTelerealiteBtn = document.getElementById("theme-telerealite");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
-const themeActeursActricesBtn = document.getElementById("theme-acteursActrices");
-const themeActivitesPleinAirBtn = document.getElementById("theme-activitesPleinAir");
+const themeActeursActricesBtn = document.getElementById(
+  "theme-acteursActrices"
+);
+const themeActivitesPleinAirBtn = document.getElementById(
+  "theme-activitesPleinAir"
+);
 const themeJeuxVideoBtn = document.getElementById("theme-jeuxVideo");
 const themeJoueursFootBtn = document.getElementById("theme-joueursFoot");
 const themeHorreurBtn = document.getElementById("theme-horreur");
 const themeSportsMoteurBtn = document.getElementById("theme-sportsMoteur");
-const themePersonnagesDisneyBtn = document.getElementById("theme-personnagesDisney");
-const themeDessinsAnimesDisneyBtn = document.getElementById("theme-dessinsAnimesDisney");
-const themeMusiqueFilmsDisneyBtn = document.getElementById("theme-musiqueFilmsDisney");
-const themeBandesOriginalesFilmBtn = document.getElementById("theme-bandesOriginalesFilm");
+const themePersonnagesDisneyBtn = document.getElementById(
+  "theme-personnagesDisney"
+);
+const themeDessinsAnimesDisneyBtn = document.getElementById(
+  "theme-dessinsAnimesDisney"
+);
+const themeMusiqueFilmsDisneyBtn = document.getElementById(
+  "theme-musiqueFilmsDisney"
+);
+const themeBandesOriginalesFilmBtn = document.getElementById(
+  "theme-bandesOriginalesFilm"
+);
 const themeAnnees80Btn = document.getElementById("theme-annees80");
 const themeInstrumentsBtn = document.getElementById("theme-instruments");
 const themeDragonBallBtn = document.getElementById("theme-dragonBall");
-const themePlantesBotaniqueBtn = document.getElementById("theme-plantesBotanique");
-const themeAnimauxDomestiquesBtn = document.getElementById("theme-animauxDomestiques");
-const themeEcosystemesHabitatsBtn = document.getElementById("theme-ecosystemesHabitats");
+const themePlantesBotaniqueBtn = document.getElementById(
+  "theme-plantesBotanique"
+);
+const themeAnimauxDomestiquesBtn = document.getElementById(
+  "theme-animauxDomestiques"
+);
+const themeEcosystemesHabitatsBtn = document.getElementById(
+  "theme-ecosystemesHabitats"
+);
 const themeMathematiquesBtn = document.getElementById("theme-mathematiques");
 const themeHistoireBtn = document.getElementById("theme-histoire");
 const themeBdMangaComicsBtn = document.getElementById("theme-bdMangaComics");
 const themeLangageSMSBtn = document.getElementById("theme-langageSMS");
 const themeMarquesLogosBtn = document.getElementById("theme-marquesLogos");
-const themeGastronomieDuMondeBtn = document.getElementById("theme-gastronomieMonde");
-const themeBoissonsCocktailBtn = document.getElementById("theme-boissonsCocktail");
+const themeGastronomieDuMondeBtn = document.getElementById(
+  "theme-gastronomieMonde"
+);
+const themeBoissonsCocktailBtn = document.getElementById(
+  "theme-boissonsCocktail"
+);
 const themeNutritionSanteBtn = document.getElementById("theme-nutritionSante");
 const themeVraiFauxBtn = document.getElementById("theme-vraiFaux");
 const themeSpidermanBtn = document.getElementById("theme-spiderman");
@@ -6377,7 +7965,9 @@ const themeHarryBtn = document.getElementById("theme-harry");
 const themeJeuxDeSocieteBtn = document.getElementById("theme-jeuxDeSociete");
 const themeGeographieBtn = document.getElementById("theme-geographie");
 const themeOrthographeBtn = document.getElementById("theme-orthographe");
-const themePrincessesDisneyBtn = document.getElementById("theme-princessesDisney");
+const themePrincessesDisneyBtn = document.getElementById(
+  "theme-princessesDisney"
+);
 const themeSportBtn = document.getElementById("theme-sport");
 const optionsContainer = document.getElementById("options-container");
 const nextButton = document.getElementById("next-btn");
@@ -6400,13 +7990,11 @@ function getSelectedTheme() {
   return selectedTheme;
 }
 
-
-
 // Définir la fonction pour faire défiler la page vers le haut
 function scrollToTop() {
   window.scrollTo({
     top: 0,
-    behavior: "smooth" // Optionnel: pour un défilement fluide
+    behavior: "smooth", // Optionnel: pour un défilement fluide
   });
 }
 
@@ -6421,265 +8009,271 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
-  scrollToTop(); 
+  scrollToTop();
+});
+
+themeTelerealiteBtn.addEventListener("click", () => {
+  selectedTheme = "Téléréalité";
+  startQuiz(questionsTelerealite);
+  scrollToTop();
 });
 
 themePersonnagesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Personnages Disney";
   startQuiz(questionsPersonnagesDisney);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeMusiqueFilmsDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Musique de flms Disney";
   startQuiz(questionsMusiqueFilmsDisney);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeBandesOriginalesFilmBtn.addEventListener("click", () => {
   selectedTheme = "Bandes originales de films";
   startQuiz(questionsBandesOriginalesFilms);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeAnnees80Btn.addEventListener("click", () => {
   selectedTheme = "Années 80";
   startQuiz(questionsAnnees80);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeInstrumentsBtn.addEventListener("click", () => {
   selectedTheme = "Instruments de musique";
   startQuiz(questionsInstruments);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeDragonBallBtn.addEventListener("click", () => {
   selectedTheme = "Dragon Ball";
   startQuiz(questionsDragonBall);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themePlantesBotaniqueBtn.addEventListener("click", () => {
   selectedTheme = "Plantes et Botanique";
   startQuiz(questionsPlantesBotanique);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeAnimauxDomestiquesBtn.addEventListener("click", () => {
   selectedTheme = "Animaux domestiques";
   startQuiz(questionsAnimauxDomestiques);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeEcosystemesHabitatsBtn.addEventListener("click", () => {
   selectedTheme = "Ecosystèmes et habitats";
   startQuiz(questionsEcosystemesHabitats);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeMathematiquesBtn.addEventListener("click", () => {
   selectedTheme = "Mathématiques";
   startQuiz(questionsMathematiques);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeHistoireBtn.addEventListener("click", () => {
   selectedTheme = "Histoire";
   startQuiz(questionsHistoire);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeBdMangaComicsBtn.addEventListener("click", () => {
   selectedTheme = "BD/Manga/Comics";
   startQuiz(questionsBdMangaComics);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeLangageSMSBtn.addEventListener("click", () => {
   selectedTheme = "Langages SMS";
   startQuiz(questionsLangageSMS);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeMarquesLogosBtn.addEventListener("click", () => {
   selectedTheme = "Marques et Logos";
   startQuiz(questionsMarquesLogos);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeGastronomieDuMondeBtn.addEventListener("click", () => {
   selectedTheme = "Gastronomie du Monde";
   startQuiz(questionsGastronomieDuMonde);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeBoissonsCocktailBtn.addEventListener("click", () => {
   selectedTheme = "Boissons et Cocktails";
   startQuiz(questionsBoissonsCocktail);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeNutritionSanteBtn.addEventListener("click", () => {
   selectedTheme = "Nutrition et Santé";
   startQuiz(questionsNutritionSante);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeCultureBtn.addEventListener("click", () => {
   selectedTheme = "Culture générale";
   startQuiz(questionsCultureGenerale);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeActeursActricesBtn.addEventListener("click", () => {
   selectedTheme = "Actrices/Acteurs";
   startQuiz(questionsActeursActrices);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeJeuxDeSocieteBtn.addEventListener("click", () => {
   selectedTheme = "Jeux de société";
   startQuiz(questionsJeuxDeSociete);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeSportsMoteurBtn.addEventListener("click", () => {
   selectedTheme = "Sports à moteur";
   startQuiz(questionsSportsMoteur);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeActivitesPleinAirBtn.addEventListener("click", () => {
   selectedTheme = "Activités de plein air";
   startQuiz(questionsActivitesPleinAir);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeTimBurtonBtn.addEventListener("click", () => {
   selectedTheme = "Tim Burton";
   startQuiz(questionsTimBurton);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeJeuxVideoBtn.addEventListener("click", () => {
   selectedTheme = "Jeux Vidéo";
   startQuiz(questionsJeuxVideo);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeHorreurBtn.addEventListener("click", () => {
   selectedTheme = "Films d'horreur";
   startQuiz(questionsHorreur);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeJoueursFootBtn.addEventListener("click", () => {
   selectedTheme = "Joueurs de foot";
   startQuiz(questionsJoueursFoot);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeVraiFauxBtn.addEventListener("click", () => {
   selectedTheme = "Vrai ou Faux ?";
   startQuiz(questionsVraiFaux);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeCodeDeLaRouteBtn.addEventListener("click", () => {
   selectedTheme = "Code de la route";
   startQuiz(questionsCodeDeLaRoute);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeDrapeauxBtn.addEventListener("click", () => {
   selectedTheme = "Drapeaux";
   startQuiz(questionsDrapeaux);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themePrincessesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Princesses Disney";
   startQuiz(questionsPrincessesDisney);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeDessinsAnimesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Dessins animés Disney";
   startQuiz(questionsDessinsAnimesDisney);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeFaitsInsolitesBtn.addEventListener("click", () => {
   selectedTheme = "Faits insolites";
   startQuiz(questionsFaitsInsolites);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeAnimauxBtn.addEventListener("click", () => {
   selectedTheme = "Animaux";
   startQuiz(questionsAnimaux);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeChansonsBtn.addEventListener("click", () => {
   selectedTheme = "Chansons";
   startQuiz(questionsChansons);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeDessinsBtn.addEventListener("click", () => {
   selectedTheme = "Dessins animés";
   startQuiz(questionsDessinsAnimes);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeSeriesBtn.addEventListener("click", () => {
   selectedTheme = "Séries TV";
   startQuiz(questionsSeries);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeCuisineBtn.addEventListener("click", () => {
   selectedTheme = "Cuisine";
   startQuiz(questionsCuisine);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeHarryBtn.addEventListener("click", () => {
   selectedTheme = "Harry Potter";
   startQuiz(questionsHarry);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeGeographieBtn.addEventListener("click", () => {
   selectedTheme = "Géographie";
   startQuiz(questionsGeographie);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeOrthographeBtn.addEventListener("click", () => {
   selectedTheme = "Orthographe";
   startQuiz(questionsOrthographe);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeSportBtn.addEventListener("click", () => {
   selectedTheme = "Tous sports";
   startQuiz(questionsSport);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeCinemaBtn.addEventListener("click", () => {
   selectedTheme = "Cinéma";
   startQuiz(questionsCinema);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 themeSpidermanBtn.addEventListener("click", () => {
   selectedTheme = "Spiderman";
   startQuiz(questionsSpiderman);
-  scrollToTop(); 
+  scrollToTop();
 });
 
 // Fonction pour démarrer le quiz avec les questions du thème sélectionné
@@ -6716,17 +8310,22 @@ function showQuestion() {
   questionNumberElement.textContent = currentQuestion.numéro;
   // Affiche le texte de la question
   questionTextElement.textContent = currentQuestion.question;
-   // Défini les thèmes qui nécessitent une image
-   const themesWithImages = ["Drapeaux", "Code de la route", "Joueurs de foot", "Marques et Logos"];
-   // Affiche l'image si le thème sélectionné est dans les thèmes avec images
-   if (themesWithImages.includes(selectedTheme)) {
-     flagImageElement.src = currentQuestion.image;
-     document.getElementById("image-container").style.display = "block";
-   } else {
-     flagImageElement.src = "";
-     document.getElementById("image-container").style.display = "none";
-   }
- 
+  // Défini les thèmes qui nécessitent une image
+  const themesWithImages = [
+    "Drapeaux",
+    "Code de la route",
+    "Joueurs de foot",
+    "Marques et Logos",
+  ];
+  // Affiche l'image si le thème sélectionné est dans les thèmes avec images
+  if (themesWithImages.includes(selectedTheme)) {
+    flagImageElement.src = currentQuestion.image;
+    document.getElementById("image-container").style.display = "block";
+  } else {
+    flagImageElement.src = "";
+    document.getElementById("image-container").style.display = "none";
+  }
+
   optionsContainer.innerHTML = "";
   currentQuestion.options.forEach((option) => {
     const optionElement = document.createElement("button");
