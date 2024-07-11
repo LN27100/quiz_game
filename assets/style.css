@@ -374,6 +374,174 @@ h4 {
   background-repeat: no-repeat;
 }
 
+#theme-animes {
+  background-image: url('../assets/img/theme_animes.png');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-comedies {
+  background-image: url('../assets/img/theme_comedies.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-telerealite {
+  background-image: url('../assets/img/theme_telerealite.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-tennis {
+  background-image: url('../assets/img/theme_tennis.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-bricolage {
+  background-image: url('../assets/img/theme_bricolage.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-parcDisney {
+  background-image: url('../assets/img/theme_parcDisney.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-mechantsDisney {
+  background-image: url('../assets/img/theme_vilainsDisney.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-animauxDisney {
+  background-image: url('../assets/img/theme_animauxDisney.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-filmsPixar {
+  background-image: url('../assets/img/theme_pixar.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-popRock {
+  background-image: url('../assets/img/theme_popRock.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-instrumentsCordes {
+  background-image: url('../assets/img/theme_instrumentsCordes.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-starChanson {
+  background-image: url('../assets/img/theme_starChanson.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-festivalsMusique {
+  background-image: url('../assets/img/theme_festivalMusique.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-marvel {
+  background-image: url('../assets/img/theme_marvel.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-superVilains {
+  background-image: url('../assets/img/theme_superVilains.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-personnalitesMondiales {
+  background-image: url('../assets/img/theme_personnalitesMondiales.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-superman {
+  background-image: url('../assets/img/theme_superman.JPG');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-merOceans {
+  background-image: url('../assets/img/theme_mersOceans.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-insectes {
+  background-image: url('../assets/img/theme_insectes.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-animauxDeLaFerme {
+  background-image: url('../assets/img/theme_animauxFerme.JPG');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-especesAnimales {
+  background-image: url('../assets/img/theme_especesAnimales.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-sciences {
+  background-image: url('../assets/img/theme_sciences.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-litterature {
+  background-image: url('../assets/img/theme_litterature.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-anglais {
+  background-image: url('../assets/img/theme_anglais.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-desserts {
+  background-image: url('../assets/img/theme_desserts.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-fromages {
+  background-image: url('../assets/img/theme_fromages.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-fruitsLegumes {
+  background-image: url('../assets/img/theme_fruitsLegumes.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
+#theme-viennoiseriesPatisseries {
+  background-image: url('../assets/img/theme_viennoiseriesPatisseries.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
 #finish-btn {
   margin-top: 0;
 }
