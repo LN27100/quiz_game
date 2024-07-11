@@ -8183,6 +8183,129 @@ const questionsBricolage = [
   }
 ];
 
+const questionsTennis = [
+  {
+    numéro: "1/20",
+    question: "Qui est le joueur de tennis suisse qui a remporté 20 titres du Grand Chelem en simple masculin ?",
+    options: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Andy Murray"],
+    answer: "Roger Federer"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel tournoi du Grand Chelem se joue sur gazon au Royaume-Uni chaque année en juin/juillet ?",
+    options: ["Wimbledon", "Roland Garros", "US Open", "Open d'Australie"],
+    answer: "Wimbledon"
+  },
+  {
+    numéro: "3/20",
+    question: "Qui est le joueur de tennis espagnol surnommé 'Rafa' qui a remporté 21 titres du Grand Chelem en simple masculin ?",
+    options: ["Rafael Nadal", "Roger Federer", "Novak Djokovic", "Andy Murray"],
+    answer: "Rafael Nadal"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel tournoi du Grand Chelem se joue sur dur à New York chaque année en août/septembre ?",
+    options: ["US Open", "Roland Garros", "Wimbledon", "Australian Open"],
+    answer: "US Open"
+  },
+  {
+    numéro: "5/20",
+    question: "Qui est le joueur de tennis serbe surnommé 'Nole' qui a remporté 20 titres du Grand Chelem en simple masculin ?",
+    options: ["Novak Djokovic", "Roger Federer", "Rafael Nadal", "Andy Murray"],
+    answer: "Novak Djokovic"
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle joueuse de tennis américaine a remporté 23 titres du Grand Chelem en simple féminin, un record dans l'ère Open ?",
+    options: ["Serena Williams", "Venus Williams", "Maria Sharapova", "Simona Halep"],
+    answer: "Serena Williams"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel joueur de tennis français, surnommé 'La Monf', est connu pour son style de jeu flamboyant et a atteint les demi-finales de l'US Open en 2008 ?",
+    options: ["Gaël Monfils", "Jo-Wilfried Tsonga", "Richard Gasquet", "Lucas Pouille"],
+    answer: "Gaël Monfils"
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle joueuse de tennis allemande a remporté Wimbledon à deux reprises, en 1988 et 1989, et a été numéro un mondiale ?",
+    options: ["Steffi Graf", "Martina Navratilova", "Monica Seles", "Serena Williams"],
+    answer: "Steffi Graf"
+  },
+  {
+    numéro: "9/20",
+    question: "Quelle joueuse de tennis américaine a remporté Wimbledon à cinq reprises entre 2000 et 2008, ainsi que l'US Open et l'Open d'Australie ?",
+    options: ["Venus Williams", "Serena Williams", "Maria Sharapova", "Justine Henin"],
+    answer: "Venus Williams"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel joueur de tennis américain, surnommé 'Pistol Pete', a remporté 14 titres du Grand Chelem en simple masculin dans les années 1990 ?",
+    options: ["Pete Sampras", "Andre Agassi", "Jim Courier", "Michael Chang"],
+    answer: "Pete Sampras"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le nom du type de surface de tennis le plus rapide ?",
+    options: ["Gazon", "Terre battue", "Dur", "Moquette"],
+    answer: "Gazon"
+  },
+  {
+    numéro: "12/20",
+    question: "Combien de points un joueur doit-il gagner pour remporter un tie-break dans un set de tennis ?",
+    options: ["7", "10", "12", "15"],
+    answer: "7"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le nom du type de surface de tennis le plus lent ?",
+    options: ["Terre battue", "Gazon", "Dur", "Moquette"],
+    answer: "Terre battue"
+  },
+  {
+    numéro: "14/20",
+    question: "À quelle distance le filet est-il placé au-dessus du sol dans un court de tennis réglementaire ?",
+    options: ["91,4 cm", "106,7 cm", "121,9 cm", "137,2 cm"],
+    answer: "91,4 cm"
+  },
+  {
+    numéro: "15/20",
+    question: "À quel âge minimum peut-on participer au tournoi junior de Roland Garros ?",
+    options: ["11 ans", "12 ans", "13 ans", "14 ans"],
+    answer: "11 ans"
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle joueuse de tennis française a remporté l'Open d'Australie en 2006 et Wimbledon en 2006, devenant la première Française depuis 1967 à atteindre la première place mondiale ?",
+    options: ["Marion Bartoli", "Amélie Mauresmo", "Mary Pierce", "Nathalie Tauziat"],
+    answer: "Amélie Mauresmo"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel joueur de tennis américain est connu pour son style flamboyant sur le court, ses tenues excentriques et ses remarquables succès dans les années 90 ?",
+    options: ["John McEnroe", "Jimmy Connors", "André Agassi", "Pete Sampras"],
+    answer: "André Agassi"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel joueur de tennis français, également chanteur à succès, a mené l'équipe de France à la victoire en Coupe Davis en 1991 ?",
+    options: ["Guy Forget", "Yannick Noah", "Henri Leconte", "Cédric Pioline"],
+    answer: "Yannick Noah"
+  },
+  {
+    numéro: "19/20",
+    question: "En quelle année a eu lieu la première édition du tournoi de Roland Garros ?",
+    options: ["1910", "1925", "1891", "1905"],
+    answer: "1891"
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle joueuse de tennis française a remporté six titres à Roland Garros dans les années 1920 ?",
+    options: ["Suzanne Lenglen", "Simone Mathieu", "Françoise Dürr", "Amélie Mauresmo"],
+    answer: "Suzanne Lenglen"
+  }
+];
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -8191,6 +8314,7 @@ shuffleQuestionsOptions(questionsPixar);
 shuffleQuestionsOptions(questionsTelerealite);
 shuffleQuestionsOptions(questionsComedies);
 shuffleQuestionsOptions(questionsBricolage);
+shuffleQuestionsOptions(questionsTennis);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -8235,6 +8359,8 @@ shuffleQuestionsOptions(questionsAnimauxDomestiques);
 shuffleQuestionsOptions(questionsPlantesBotanique);
 shuffleQuestionsOptions(questionsDragonBall);
 shuffleQuestionsOptions(questionsDessinsAnimesDisney);
+
+
 // Éléments DOM
 const premièreQuestion = questionsCultureGenerale[0];
 const quizContainer = document.getElementById("quiz-container");
@@ -8243,6 +8369,7 @@ const themePixarBtn = document.getElementById("theme-filmsPixar");
 const themeTelerealiteBtn = document.getElementById("theme-telerealite");
 const themeComediesBtn = document.getElementById("theme-comedies");
 const themeBricolageBtn = document.getElementById("theme-bricolage");
+const themeTennisBtn = document.getElementById("theme-tennis");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -8319,6 +8446,7 @@ function scrollToTop() {
   });
 }
 
+
 // Écouter le clic sur les boutons de thème et démarrer le quiz correspondant
 
 themeFromagesBtn.addEventListener("click", () => {
@@ -8330,6 +8458,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeTennisBtn.addEventListener("click", () => {
+  selectedTheme = "Tennis";
+  startQuiz(questionsTennis);
   scrollToTop();
 });
 
