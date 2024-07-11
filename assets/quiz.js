@@ -6014,9 +6014,156 @@ const questionsMarquesLogos = [
   }
 ];
 
+const questionsFromages = [
+  {
+    numéro: "1/20",
+    question: "Quel fromage français est connu pour sa forme en cœur et sa croûte fleurie blanche ?",
+    image: "../assets/img/fromage_neufchatel.jpg", 
+    options: ["Neufchâtel", "Brie", "Camembert", "Roquefort"],
+    answer: "Neufchâtel"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel fromage italien est souvent râpé sur les pâtes et les pizzas ?",
+    image: "../assets/img/fromage_parmesan.jpg", 
+    options: ["Parmesan", "Mozzarella", "Gorgonzola", "Pecorino"],
+    answer: "Parmesan"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel fromage est connu pour ses veines bleues et sa forte saveur ?",
+    image: "../assets/img/fromage_roquefort.jpg", 
+    options: ["Roquefort", "Stilton", "Gorgonzola", "Bleu d'Auvergne"],
+    answer: "Roquefort"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel fromage français est célèbre pour sa croûte lavée orange et son odeur forte ?",
+    image: "../assets/img/fromage_munster.jpg", 
+    options: ["Munster", "Livarot", "Epoisses", "Reblochon"],
+    answer: "Munster"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel fromage suisse est utilisé pour la fondue ?",
+    image: "../assets/img/fromage_gruyere.jpg", 
+    options: ["Gruyère", "Beaufort", "Appenzeller", "Raclette"],
+    answer: "Beaufort"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel fromage italien est connu pour être frais et souvent utilisé sur les salades Caprese ?",
+    image: "../assets/img/fromage_mozzarella.jpg", 
+    options: ["Mozzarella", "Ricotta", "Burrata", "Provolone"],
+    answer: "Mozzarella"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel fromage français est produit en Savoie et a une croûte lavée orange ?",
+    image: "../assets/img/fromage_reblochon.jpg", 
+    options: ["Reblochon", "Beaufort", "Tomme de Savoie", "Abondance"],
+    answer: "Reblochon"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel fromage français est connu pour sa forme de cylindre plat et sa croûte blanche ?",
+    image: "../assets/img/fromage_camembert.jpg", 
+    options: ["Camembert", "Brie", "Pont-l'Évêque", "Chaource"],
+    answer: "Camembert"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel fromage hollandais est souvent vendu en boule et recouvert de cire rouge ?",
+    image: "../assets/img/fromage_edam.jpg", 
+    options: ["Edam", "Gouda", "Leerdammer", "Maasdam"],
+    answer: "Edam"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel fromage français est fabriqué en Bourgogne et est lavé au marc de Bourgogne ?",
+    image: "../assets/img/fromage_epoisses.jpg", 
+    options: ["Epoisses", "Langres", "Soumaintrain", "Chaource"],
+    answer: "Epoisses"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel fromage grec est connu pour être salé et conservé dans une saumure ?",
+    image: "../assets/img/fromage_feta.jpg", 
+    options: ["Feta", "Halloumi", "Kasseri", "Mizithra"],
+    answer: "Feta"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel fromage français est fabriqué en Normandie et a une croûte lavée orange ?",
+    image: "../assets/img/fromage_livarot.jpg", 
+    options: ["Livarot", "Pont-l'Évêque", "Camembert", "Brie"],
+    answer: "Livarot"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel fromage français est connu pour sa pâte persillée et est fabriqué en Auvergne ?",
+    image: "../assets/img/fromage_bleu_auvergne.jpg", 
+    options: ["Bleu d'Auvergne", "Roquefort", "Fourme d'Ambert", "Bleu de Gex"],
+    answer: "Bleu d'Auvergne"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel fromage italien est connu pour être très crémeux à l'intérieur et souvent servi avec des tomates et du basilic ?",
+    image: "../assets/img/fromage_burrata.jpg", 
+    options: ["Burrata", "Mozzarella", "Ricotta", "Stracciatella"],
+    answer: "Burrata"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel fromage italien est connu pour être un fromage frais à pâte filée, souvent utilisé dans les desserts ?",
+    image: "../assets/img/fromage_ricotta.jpg", 
+    options: ["Ricotta", "Mascarpone", "Mozzarella", "Burrata"],
+    answer: "Ricotta"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel fromage français est produit en Corse et a une croûte fleurie blanche ?",
+    image: "../assets/img/fromage_brocciu.jpg", 
+    options: ["Brocciu", "Brin d'Amour", "Cabécou", "Brousse"],
+    answer: "Brocciu"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel fromage anglais est souvent recouvert de cire rouge ou noire et a une saveur douce ?",
+    image: "../assets/img/fromage_cheddar.jpg", 
+    options: ["Cheddar", "Red Leicester", "Double Gloucester", "Wensleydale"],
+    answer: "Cheddar"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel fromage français normande souvent en triangle a une texture crémeuse et une croûte fleurie blanche ?",
+    image: "../assets/img/fromage_brie.jpg", 
+    options: ["Brie", "Camembert", "Neufchâtel", "Pont-l'Évêque"],
+    answer: "Brie"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel fromage suisse est connu pour ses trous et est souvent utilisé dans les sandwiches ?",
+    image: "../assets/img/fromage_emmental.jpg", 
+    options: ["Emmental", "Gruyère", "Appenzeller", "Tilsit"],
+    answer: "Emmental"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel fromage italien est connu pour sa texture crémeuse et est souvent utilisé dans les tiramisus ?",
+    image: "../assets/img/fromage_mascarpone.jpg", 
+    options: ["Mascarpone", "Ricotta", "Gorgonzola", "Burrata"],
+    answer: "Mascarpone"
+  }
+];
+
+
 
 
 // Mélanger les options pour chaque thème de questions
+
+shuffleQuestionsOptions(questionsFromages);
+
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
 shuffleQuestionsOptions(questionsSportsMoteur);
@@ -6063,6 +6210,8 @@ shuffleQuestionsOptions(questionsDessinsAnimesDisney);
 // Éléments DOM
 const premièreQuestion = questionsCultureGenerale[0];
 const quizContainer = document.getElementById("quiz-container");
+const themeFromagesBtn = document.getElementById("theme-fromages");
+
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
 const themeActeursActricesBtn = document.getElementById("theme-acteursActrices");
@@ -6138,6 +6287,12 @@ function scrollToTop() {
 }
 
 // Écouter le clic sur les boutons de thème et démarrer le quiz correspondant
+
+themeFromagesBtn.addEventListener("click", () => {
+  selectedTheme = "Fromages";
+  startQuiz(questionsFromages);
+  scrollToTop(); // Appeler la fonction pour faire défiler la page vers le haut
+});
 
 themePersonnagesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Personnages Disney";
