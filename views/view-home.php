@@ -122,6 +122,9 @@ $img_path = $upload_dir . $img;
   <button id="theme-cinema" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Cinéma</button>
   <button id="theme-horreur" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Films d'horreur</button>
   <button id="theme-acteursActrices" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Actrices/Acteurs</button>
+  <button id="theme-Animes" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Animes</button>
+  <button id="theme-comedies" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Comédies</button>
+  <button id="theme-teleRealite" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Télé-réalité</button>
 </div>
 
 <h4>Catégorie Sport et loisirs</h4>
@@ -132,7 +135,8 @@ $img_path = $upload_dir . $img;
   <button id="theme-activitesPleinAir" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Activités de plein air</button>
   <button id="theme-jeuxDeSociete" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Jeux de société</button>
   <button id="theme-sportsMoteur" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Sports à moteur</button>
-
+  <button id="theme-tennis" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Tennis</button>
+  <button id="theme-bricolage" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Bricolage</button>
 </div>
 
 <h4>Catégorie Disney</h4>
@@ -141,7 +145,10 @@ $img_path = $upload_dir . $img;
   <button id="theme-personnagesDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Personnages Disney</button>
   <button id="theme-dessinsAnimesDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Dessins animés Disney</button>
   <button id="theme-musiqueFilmsDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Musique de films Disney</button>
-
+  <button id="theme-mechantsDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Méchants Disney</button>
+  <button id="theme-parcsDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Parcs Disney</button>
+  <button id="theme-animauxDisney" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Animaux Disney</button>
+  <button id="theme-filmsPixar" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Films Pixar</button>
 </div>
 
 <h4>Catégorie Musicale</h4>
@@ -150,6 +157,10 @@ $img_path = $upload_dir . $img;
   <button id="theme-bandesOriginalesFilm" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Bandes originales de films</button>
   <button id="theme-annees80" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Années 80</button>
   <button id="theme-instruments" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Instruments de musique</button>
+  <button id="theme-Poprock" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Pop-Rock</button>
+  <button id="theme-instrumentsCordes" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Instruments à cordes</button>
+  <button id="theme-starChanson" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Star de la chanson</button>
+  <button id="theme-festivalsMusique" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Festivals de musique</button>
 </div>
 
 <h4>Catégorie Personnalités et Super-Héros</h4>
@@ -158,14 +169,24 @@ $img_path = $upload_dir . $img;
   <button id="theme-spiderman" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Spiderman</button>
   <button id="theme-timBurton" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Tim Burton</button>
   <button id="theme-dragonBall" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Dragon Ball</button>
+  <button id="theme-marvel" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Marvel</button>
+  <button id="theme-superVilains" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Super-Vilains</button>
+  <button id="theme-personnalitesMondiales" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Personnalités mondiales</button>
+  <button id="theme-superman" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Superman</button>
+
 </div>
 
 <h4>Catégorie Nature et Animaux</h4>
 <div class="container grid">
-<button id="theme-animaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Animaux</button>
+<button id="theme-animaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Animaux en général</button>
 <button id="theme-plantesBotanique" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Plantes et Botanique</button>
 <button id="theme-animauxDomestiques" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Animaux domestiques</button>
 <button id="theme-ecosystemesHabitats" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Ecosystèmes et habitats</button>
+<button id="theme-merOceans" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Mers et Océans</button>
+<button id="theme-insectes" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Insectes</button>
+<button id="theme-animauxDeLaFerme" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Animaux de la ferme</button>
+<button id="theme-especesAnimales" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Espèces animales</button>
+
 </div>
 
 <h4>Catégorie Scolaire</h4>
@@ -175,7 +196,9 @@ $img_path = $upload_dir . $img;
 <button id="theme-drapeaux" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Drapeaux</button>
 <button id="theme-mathematiques" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Mathématiques</button>
 <button id="theme-histoire" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Histoire</button>
-
+<button id="theme-sciences" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Sciences</button>
+<button id="theme-litterature" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Littérature</button>
+<button id="theme-anglais" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Anglais</button>
 </div>
 
 <h4>Catégorie Culture et Médias</h4>
@@ -187,17 +210,20 @@ $img_path = $upload_dir . $img;
     <button id="theme-bdMangaComics" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> BD/Manga/Comics</button>
     <button id="theme-langageSMS" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Langages SMS</button>
     <button id="theme-marquesLogos" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Marques et Logos</button>
-
+    <button id="theme-cinema" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Cinéma</button>
   </div>
 
   <h4>Catégorie Alimentation</h4>
   <div class="container grid">
-  <button id="theme-cuisine" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Cuisine</button>
+  <button id="theme-cuisine" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Cuisine en général</button>
   <button id="theme-gastronomieMonde" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Gastronomie du Monde</button>
   <button id="theme-boissonsCocktail" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Boissons et Cocktails</button>
   <button id="theme-nutritionSante" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Nutrition et Santé</button>
-
-  </div>
+  <button id="theme-desserts" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Desserts</button>
+  <button id="theme-fromages" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Fromages</button>
+  <button id="theme-fruitsLegumes" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Fruits et Légumes</button>  
+  <button id="theme-viennoiseriePâtisserie" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Viennoiseries et Pâtisseries</button>
+</div>
 
 
    <!-- Formulaire pour enregistrer le score -->

@@ -1326,7 +1326,7 @@ const questionsSport = [
     question:
       "Quel est le nom du sport qui se pratique sur une piste de glace où les concurrents descendent la pente à grande vitesse, en se couchant sur un traîneau ?",
     options: ["Luge", "Bobsleigh", "Skeleton", "Patinage de vitesse"],
-    answer: "Luge",
+    answer: "Skeleton",
   },
   {
     numéro: "10/20",
