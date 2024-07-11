@@ -6157,12 +6157,135 @@ const questionsFromages = [
   }
 ];
 
+const questionsPixar = [
+  {
+    numéro: "1/20",
+    question: "Quel film Pixar met en scène des jouets qui prennent vie lorsque les humains ne sont pas présents ?",
+    options: ["Toy Story", "Monstres et Cie", "Cars", "Les Indestructibles"],
+    answer: "Toy Story"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel film Pixar raconte l'histoire d'un poisson clown qui se perd dans l'océan ?",
+    options: ["Le Monde de Nemo", "Wall-E", "Ratatouille", "Là-haut"],
+    answer: "Le Monde de Nemo"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel film Pixar met en avant des personnages émotions vivant dans la tête d'une jeune fille ?",
+    options: ["Vice-Versa", "Coco", "Les Indestructibles", "Brave"],
+    answer: "Vice-Versa"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel film Pixar se déroule dans un monde où les voitures sont des personnages anthropomorphes ?",
+    options: ["Cars", "Monstres Academy", "Ratatouille", "Le Monde de Dory"],
+    answer: "Cars"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel film Pixar met en scène des animaux qui mènent une double vie ?",
+    options: ["La Vie Secrète des Animaux de Compagnie", "Toy Story", "Monstres et Cie", "Là-haut"],
+    answer: "La Vie Secrète des Animaux de Compagnie"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel film Pixar présente un robot nettoyeur solitaire sur une Terre dévastée ?",
+    options: ["Wall-E", "Là-haut", "Coco", "Les Indestructibles"],
+    answer: "Wall-E"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel film Pixar raconte l'histoire d'un rat qui rêve de devenir chef cuisinier à Paris ?",
+    options: ["Ratatouille", "Le Monde de Nemo", "Monstres Academy", "Cars"],
+    answer: "Ratatouille"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel film Pixar suit les aventures de super-héros retirés forcés de reprendre du service ?",
+    options: ["Les Indestructibles", "Toy Story", "Vice-Versa", "Coco"],
+    answer: "Les Indestructibles"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel film Pixar raconte l'histoire d'un vieil homme et un jeune scout naviguant vers une destination exotique ?",
+    options: ["Là-haut", "Inside Out", "Brave", "Monstres et Cie"],
+    answer: "Là-haut"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel film Pixar raconte l'histoire d'une petite fourmi qui tente de sauver sa colonie en recrutant des guerriers ?",
+    options: ["1001 Pattes", "Le Monde de Nemo", "Cars", "Ratatouille"],
+    answer: "1001 Pattes"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel film Pixar met en scène un jeune musicien mexicain qui se retrouve dans le monde des morts ?",
+    options: ["Coco", "Vice-Versa", "Les Indestructibles", "Ratatouille"],
+    answer: "Coco"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel film Pixar se déroule dans une ville où les habitants sont des éléments de la nature, comme le feu, l'eau, la terre et l'air ?",
+    options: ["Élémentaire", "Vice-Versa", "Les Indestructibles", "Monstres et Cie"],
+    answer: "Élémentaire"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel film Pixar met en avant une jeune princesse écossaise qui défie une tradition ancienne ?",
+    options: ["Brave", "Monstres Academy", "Le Monde de Nemo", "Les Indestructibles"],
+    answer: "Brave"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel film Pixar met en scène un jeune monstre effrayé par les enfants humains qui se retrouve dans un collège de monstres ?",
+    options: ["Monstres Academy", "Les Indestructibles", "Toy Story", "Là-haut"],
+    answer: "Monstres Academy"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel film Pixar met en scène une jeune fille qui découvre un passage secret menant à un monde fantastique ?",
+    options: ["Monstres et Cie", "Toy Story", "Là-haut", "Inside Out"],
+    answer: "Monstres et Cie"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel film Pixar raconte l'histoire de deux frères elfes qui partent en quête de magie pour ramener leur père à la vie ?",
+    options: ["En Avant", "Soul", "Luca", "Vice-Versa"],
+    answer: "En Avant"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel film Pixar se déroule dans un monde où les émotions d'un musicien de jazz sont mises à l'épreuve après un accident ?",
+    options: ["Soul", "Coco", "Brave", "Wall-E"],
+    answer: "Soul"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel film Pixar raconte l'histoire d'un jeune garçon et de son ami qui vivent un été inoubliable en Italie, tout en cachant qu'ils sont en réalité des monstres marins ?",
+    options: ["Luca", "En Avant", "Onward", "Soul"],
+    answer: "Luca"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel film Pixar raconte l'histoire d'un groupe de personnages de jeu vidéo qui découvrent l'importance de l'amitié ?",
+    options: ["Les Mondes de Ralph", "Les Indestructibles", "Monstres et Cie", "Toy Story"],
+    answer: "Les Mondes de Ralph"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel film Pixar raconte l'histoire d'un poisson bleu souffrant de pertes de mémoire qui part à la recherche de sa famille ?",
+    options: ["Le Monde de Dory", "Le Monde de Nemo", "Ratatouille", "Là-haut"],
+    answer: "Le Monde de Dory"
+  }
+];
 
 
 
 // Mélanger les options pour chaque thème de questions
 
 shuffleQuestionsOptions(questionsFromages);
+shuffleQuestionsOptions(questionsPixar);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -6211,6 +6334,7 @@ shuffleQuestionsOptions(questionsDessinsAnimesDisney);
 const premièreQuestion = questionsCultureGenerale[0];
 const quizContainer = document.getElementById("quiz-container");
 const themeFromagesBtn = document.getElementById("theme-fromages");
+const themePixarBtn = document.getElementById("theme-filmsPixar");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -6294,10 +6418,16 @@ themeFromagesBtn.addEventListener("click", () => {
   scrollToTop(); // Appeler la fonction pour faire défiler la page vers le haut
 });
 
+themePixarBtn.addEventListener("click", () => {
+  selectedTheme = "Films pixar";
+  startQuiz(questionsPixar);
+  scrollToTop(); 
+});
+
 themePersonnagesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Personnages Disney";
   startQuiz(questionsPersonnagesDisney);
-  scrollToTop(); // Appeler la fonction pour faire défiler la page vers le haut
+  scrollToTop(); 
 });
 
 themeMusiqueFilmsDisneyBtn.addEventListener("click", () => {
