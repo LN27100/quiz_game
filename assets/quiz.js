@@ -7846,11 +7846,351 @@ const questionsTelerealite = [
   },
 ];
 
+
+const questionsComedies = [
+  {
+    numéro: "1/20",
+    question: "Quel film met en scène un groupe d'amis qui décide de partir en vacances au ski ensemble ?",
+    options: [
+      "Les Bronzés font du ski",
+      "Tout Schuss",
+      "Les petits flocons",
+      "La deuxième étoile",
+    ],
+    answer: "Les Bronzés font du ski",
+  },
+  {
+    numéro: "2/20",
+    question: "Quel film raconte l'histoire de trois personnes totalement opposées qui se retrouvent après la mort de leur mère et doivent respecter ses dernières volontés ?",
+    options: [
+      "Les 3 Frères",
+      "3 femmes",
+      "3 hommes et un couffin",
+      "La femme de mon pote",
+    ],
+    answer: "Les 3 Frères",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel film met en scène des vacanciers dans un camping où les situations comiques s'enchaînent ?",
+    options: ["Camping", "Les Tuche", "Le paquet", "Camping-car"],
+    answer: "Camping",
+  },
+  {
+    numéro: "4/20",
+    question: "Quel film parodie les films d'horreur et d'action tout en mettant en avant l'humour absurde ?",
+    options: ["La Cité de la Peur", "Scary movie", "OSS 117", "Y a t'il un pilote dans l'avion?"],
+    answer: "La Cité de la Peur",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel film raconte l'histoire d'une amitié entre un aristocrate paraplégique et son aide à domicile d'origine modeste ?",
+    options: [
+      "Intouchables",
+      "The artist",
+      "La doublure",
+      "L'amour sans préavis",
+    ],
+    answer: "Intouchables",
+  },
+  {
+    numéro: "6/20",
+    question: "Quel film se déroule dans le Nord de la France et met en scène un employé de bureau de poste muté malgré lui ?",
+    options: [
+      "Bienvenue chez les Ch'tis",
+      "La Vie d'Adèle",
+      "Les Tuches",
+      "La ch'tite famille",
+    ],
+    answer: "Bienvenue chez les Ch'tis",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel film français met en scène deux beaux-frères qui parient d'arrêter de fumer pendant quinze jours ?",
+    options: [
+      "Le Pari",
+      "Les 3 Frères",
+      "Sous la Seine",
+      "L'arnaqueur",
+    ],
+    answer: "Le Pari",
+  },
+  {
+    numéro: "8/20",
+    question: "Quel film raconte l'histoire de quatre filles qui épousent des hommes de différentes origines ?",
+    options: [
+      "Qu'est-ce qu'on a fait au Bon Dieu ?",
+      "Les Filles du docteur March",
+      "4 filles et un jean",
+      "Telle mère telle fille",
+    ],
+    answer: "Qu'est-ce qu'on a fait au Bon Dieu ?",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel film met en scène un pseudo surfeur qui part à la conquête des vagues du sud de la France ?",
+    options: [
+      "Brice de Nice",
+      "Point break",
+      "Les rois de la glisse",
+      "Blue crush",
+    ],
+    answer: "Brice de Nice",
+  },
+  {
+    numéro: "10/20",
+    question: "Quel film suit une équipe de chasseurs de fantômes essayant de sauver New York d'une invasion surnaturelle ?",
+    options: [
+      "SOS Fantômes",
+      "Fantôme et cie",
+      "Casper",
+      "Le manoir hanté",
+    ],
+    answer: "SOS Fantômes",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel film raconte l'histoire d'un chevalier du Moyen Âge transporté accidentellement à l'époque moderne ?",
+    options: [
+      "Les Visiteurs",
+      "Les chevaliers du ciel",
+      "Le dernier des templiers",
+      "Lancelot",
+    ],
+    answer: "Les Visiteurs",
+  },
+  {
+    numéro: "12/20",
+    question: "Quel film met en scène une famille modeste qui gagne une fortune à la loterie ?",
+    options: [
+      "Les Tuches",
+      "La famille Bélier",
+      "Heureux gagnants",
+      "Ah! Si j'étais riche",
+    ],
+    answer: "Les Tuches",
+  },
+  {
+    numéro: "13/20",
+    question: "Quel film  suit les aventures d'un chauffeur marseillais aux côtés d'un policier parisien ?",
+    options: [
+      "Taxi",
+      "Le transporteur",
+      "Fast and furious",
+      "Drive my car",
+    ],
+    answer: "Taxi",
+  },
+  {
+    numéro: "14/20",
+    question: "Quel film met en scène les aventures délirantes de gaulois en Égypte antique ?",
+    options: [
+      "Astérix et Obélix mission Cléopâtre",
+      "Astérix et Obélix: le domaine des dieux",
+      "Astérix et Obélix aux jeux Olympiques",
+      "Astérix et Obélix au service de sa majesté",
+    ],
+    answer: "Astérix et Obélix mission Cléopâtre",
+  },
+  {
+    numéro: "15/20",
+    question: "Quel film suit un groupe d'amis qui partent à Las Vegas pour fêter un enterrement de vie de garçon et se retrouvent dans des situations délirantes ?",
+    options: [
+      "Very Bad Trip",
+      "American Pie",
+      "Casino",
+      "Jackpot",
+    ],
+    answer: "Very Bad Trip",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel film raconte l'histoire d'une jeune femme obnubilée par la taille de ses fesses, qui s'invente une histoire d'amour avec un chirurgien brésilien pour échapper à la pression familiale ?",
+    options: [
+      "Joséphine",
+      "Le fabuleux destin d'Amelie Poulain",
+      "Le Journal de Bridget Jones",
+      "Vilaine",
+    ],
+    answer: "Joséphine",
+  },
+  {
+    numéro: "17/20",
+    question: "Quel film met en scène un couple en crise qui voit sa vie chamboulée par l'arrivée de Marijo ?",
+    options: [
+      "Gazon Maudit",
+      "La leçon de piano",
+      "L'auberge espagnole",
+      "American Beauty",
+    ],
+    answer: "Gazon Maudit",
+  },
+  {
+    numéro: "18/20",
+    question: "Quel film raconte l'histoire d'une vieille dame acariâtre qui terrorise son entourage ?",
+    options: [
+      "Tatie Danielle",
+      "Maison de retraite",
+      "Et si on vivait tous ensemble?",
+      "Joyeuse retraite",
+    ],
+    answer: "Tatie Danielle",
+  },
+  {
+    numéro: "19/20",
+    question: "Quel film met en scène un critique gastronomique victime d'agueusie et luttant pour conserver son statut ?",
+    options: [
+      "L'aile ou la cuisse",
+      "A vif !",
+      "Julie et Julia",
+      "Le grand restaurant",
+    ],
+    answer: "L'aile ou la cuisse",
+  },
+  {
+    numéro: "20/20",
+    question: "Quel film raconte les aventures loufoques de lycéens en quête de perdre leur virginité avant la fin de leurs études ?",
+    options: [
+      "American Pie",
+      "Projet X",
+      "LOL",
+      "Nos jours heureux",
+    ],
+    answer: "American Pie",
+  },
+];
+
+const questionsBricolage = [
+  {
+    numéro: "1/20",
+    question: "Quel outil est principalement utilisé pour percer des trous dans le bois ou d'autres matériaux ?",
+    options: ["Perceuse", "Tournevis", "Marteau", "Scie"],
+    answer: "Perceuse"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel type de clé est utilisé pour serrer ou desserrer des boulons et des écrous ?",
+    options: ["Clé à molette", "Clé à pipe", "Clé Allen", "Clé plate"],
+    answer: "Clé à molette"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel outil est utilisé pour couper des matériaux tels que le bois, le métal ou le plastique ?",
+    options: ["Scie", "Pince coupante", "Marteau", "Perceuse"],
+    answer: "Scie"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est l'outil principal pour mesurer des longueurs et des dimensions précises ?",
+    options: ["Mètre ruban", "Niveau à bulle", "Équerre", "Compas"],
+    answer: "Mètre ruban"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel outil est utilisé pour fixer deux pièces de bois ensemble à l'aide de vis ou de clous ?",
+    options: ["Perceuse-visseuse", "Marteau", "Tournevis", "Colle"],
+    answer: "Perceuse-visseuse"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est l'outil idéal pour lisser et polir des surfaces de bois ?",
+    options: ["Ponceuse", "Scie sauteuse", "Défonceuse", "Ciseaux à bois"],
+    answer: "Ponceuse"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel type de clou est le plus souvent utilisé pour fixer des objets légers sur des murs en plaques de plâtre ?",
+    options: ["Clou à tête plate", "Clou à tête d'homme", "Clou à tête d'as", "Clou à tête tronquée"],
+    answer: "Clou à tête d'homme"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel outil est utilisé pour serrer ou desserrer des écrous dans des endroits difficiles d'accès avec une grande force de levier ?",
+    options: ["Clé à pipe", "Marteau", "Tournevis", "Cliquet"],
+    answer: "Clé à pipe"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est l'outil indispensable pour mesurer l'angle droit entre deux surfaces ?",
+    options: ["Équerre", "Compas", "Rapporteur", "Niveau à bulle"],
+    answer: "Équerre"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel outil est utilisé pour appliquer de la peinture sur une surface de manière uniforme ?",
+    options: ["Pinceau", "Rouleau", "Pistolet à peinture", "Éponge"],
+    answer: "Rouleau"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel outil est utilisé pour enfoncer des clous ou frapper des surfaces dures pour les ajuster ?",
+    options: ["Marteau", "Tournevis", "Cliquet", "Clé à pipe"],
+    answer: "Marteau"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel outil est utilisé pour lisser les bords d'une pièce de bois après la coupe ?",
+    options: ["Rabot", "Scie sauteuse", "Défonceuse", "Ponceuse"],
+    answer: "Rabot"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel outil est utilisé pour fixer des objets lourds sur des surfaces creuses comme les cloisons sèches ?",
+    options: ["Pince à cheville Molly", "Tournevis", "Marteau", "Cliquet"],
+    answer: "Pince à cheville Molly"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel outil est utilisé pour enlever la rouille ou la peinture d'une surface métallique ?",
+    options: ["Ponceuse à bande", "Brosse métallique", "Décapant chimique", "Tournevis"],
+    answer: "Brosse métallique"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est l'outil utilisé pour couper des cercles parfaits dans le bois ou le métal ?",
+    options: ["Scie cloche", "Fraiseuse", "Ponceuse à bande", "Étau"],
+    answer: "Scie cloche"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est l'outil indispensable pour mesurer la verticalité ou l'horizontalité d'une surface ?",
+    options: ["Niveau à bulle", "Équerre", "Mètre ruban", "Rapporteur"],
+    answer: "Niveau à bulle"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel outil est utilisé pour couper des matériaux épais comme le métal ou le PVC ?",
+    options: ["Scie à métaux", "Scie circulaire", "Scie sauteuse", "Scie à onglet"],
+    answer: "Scie à métaux"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel est l'outil utilisé pour maintenir fermement des pièces de bois pendant leur collage ou leur assemblage ?",
+    options: ["Étau", "Serre-joint", "Pince à ressort", "Colle à bois"],
+    answer: "Serre-joint"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel outil est utilisé pour serrer ou desserrer des écrous et des boulons à l'aide de douilles interchangeables ?",
+    options: ["Cliquet", "Tournevis", "Marteau", "Pince à cheville Molly"],
+    answer: "Cliquet"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel dispositif est utilisé pour maintenir une pièce de bois ou de métal pendant qu'on la travaille ?",
+    options: ["Étau", "Serre-joint", "Équerre", "Pince"],
+    answer: "Étau"
+  }
+];
+
+
 // Mélanger les options pour chaque thème de questions
 
 shuffleQuestionsOptions(questionsFromages);
 shuffleQuestionsOptions(questionsPixar);
 shuffleQuestionsOptions(questionsTelerealite);
+shuffleQuestionsOptions(questionsComedies);
+shuffleQuestionsOptions(questionsBricolage);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -7901,54 +8241,34 @@ const quizContainer = document.getElementById("quiz-container");
 const themeFromagesBtn = document.getElementById("theme-fromages");
 const themePixarBtn = document.getElementById("theme-filmsPixar");
 const themeTelerealiteBtn = document.getElementById("theme-telerealite");
+const themeComediesBtn = document.getElementById("theme-comedies");
+const themeBricolageBtn = document.getElementById("theme-bricolage");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
-const themeActeursActricesBtn = document.getElementById(
-  "theme-acteursActrices"
-);
-const themeActivitesPleinAirBtn = document.getElementById(
-  "theme-activitesPleinAir"
-);
+const themeActeursActricesBtn = document.getElementById("theme-acteursActrices");
+const themeActivitesPleinAirBtn = document.getElementById("theme-activitesPleinAir");
 const themeJeuxVideoBtn = document.getElementById("theme-jeuxVideo");
 const themeJoueursFootBtn = document.getElementById("theme-joueursFoot");
 const themeHorreurBtn = document.getElementById("theme-horreur");
 const themeSportsMoteurBtn = document.getElementById("theme-sportsMoteur");
-const themePersonnagesDisneyBtn = document.getElementById(
-  "theme-personnagesDisney"
-);
-const themeDessinsAnimesDisneyBtn = document.getElementById(
-  "theme-dessinsAnimesDisney"
-);
-const themeMusiqueFilmsDisneyBtn = document.getElementById(
-  "theme-musiqueFilmsDisney"
-);
-const themeBandesOriginalesFilmBtn = document.getElementById(
-  "theme-bandesOriginalesFilm"
-);
+const themePersonnagesDisneyBtn = document.getElementById("theme-personnagesDisney");
+const themeDessinsAnimesDisneyBtn = document.getElementById("theme-dessinsAnimesDisney");
+const themeMusiqueFilmsDisneyBtn = document.getElementById("theme-musiqueFilmsDisney");
+const themeBandesOriginalesFilmBtn = document.getElementById("theme-bandesOriginalesFilm");
 const themeAnnees80Btn = document.getElementById("theme-annees80");
 const themeInstrumentsBtn = document.getElementById("theme-instruments");
 const themeDragonBallBtn = document.getElementById("theme-dragonBall");
-const themePlantesBotaniqueBtn = document.getElementById(
-  "theme-plantesBotanique"
-);
-const themeAnimauxDomestiquesBtn = document.getElementById(
-  "theme-animauxDomestiques"
-);
-const themeEcosystemesHabitatsBtn = document.getElementById(
-  "theme-ecosystemesHabitats"
-);
+const themePlantesBotaniqueBtn = document.getElementById("theme-plantesBotanique");
+const themeAnimauxDomestiquesBtn = document.getElementById("theme-animauxDomestiques");
+const themeEcosystemesHabitatsBtn = document.getElementById("theme-ecosystemesHabitats");
 const themeMathematiquesBtn = document.getElementById("theme-mathematiques");
 const themeHistoireBtn = document.getElementById("theme-histoire");
 const themeBdMangaComicsBtn = document.getElementById("theme-bdMangaComics");
 const themeLangageSMSBtn = document.getElementById("theme-langageSMS");
 const themeMarquesLogosBtn = document.getElementById("theme-marquesLogos");
-const themeGastronomieDuMondeBtn = document.getElementById(
-  "theme-gastronomieMonde"
-);
-const themeBoissonsCocktailBtn = document.getElementById(
-  "theme-boissonsCocktail"
-);
+const themeGastronomieDuMondeBtn = document.getElementById("theme-gastronomieMonde");
+const themeBoissonsCocktailBtn = document.getElementById("theme-boissonsCocktail");
 const themeNutritionSanteBtn = document.getElementById("theme-nutritionSante");
 const themeVraiFauxBtn = document.getElementById("theme-vraiFaux");
 const themeSpidermanBtn = document.getElementById("theme-spiderman");
@@ -7965,23 +8285,24 @@ const themeHarryBtn = document.getElementById("theme-harry");
 const themeJeuxDeSocieteBtn = document.getElementById("theme-jeuxDeSociete");
 const themeGeographieBtn = document.getElementById("theme-geographie");
 const themeOrthographeBtn = document.getElementById("theme-orthographe");
-const themePrincessesDisneyBtn = document.getElementById(
-  "theme-princessesDisney"
-);
+const themePrincessesDisneyBtn = document.getElementById("theme-princessesDisney");
 const themeSportBtn = document.getElementById("theme-sport");
 const optionsContainer = document.getElementById("options-container");
 const nextButton = document.getElementById("next-btn");
 const resultContainer = document.getElementById("result-container");
 const scoreText = document.getElementById("score");
 const finishButton = document.getElementById("finish-btn");
+
 // Variables du quiz
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let selectedTheme = "";
+
 // Cacher le conteneur de quiz et le résultat au début
 quizContainer.classList.add("hidden");
 resultContainer.classList.add("hidden");
+
 // Afficher tous les boutons de thème
 const themeButtons = document.querySelectorAll(".container.grid button");
 themeButtons.forEach((button) => button.classList.remove("hidden"));
@@ -8009,6 +8330,18 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeBricolageBtn.addEventListener("click", () => {
+  selectedTheme = "Bricolage";
+  startQuiz(questionsBricolage);
+  scrollToTop();
+});
+
+themeComediesBtn.addEventListener("click", () => {
+  selectedTheme = "Comédies";
+  startQuiz(questionsComedies);
   scrollToTop();
 });
 
