@@ -8429,6 +8429,129 @@ const questionsInstrumentsCorde = [
   }
 ];
 
+const questionsAnimauxDisney = [
+  {
+    numéro: "1/20",
+    question: "Quel animal est Sid dans le film 'l'âge de glace' ?",
+    options: ["Paresseux", "Suricate", "Ecureuil", "Mangouste"],
+    answer: "Paresseux"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel type d'animal est Bambi ?",
+    options: ["Cerf", "Lapin", "Renard", "Ours"],
+    answer: "Cerf"
+  },
+  {
+    numéro: "3/20",
+    question: "Comment s'appelle le cheval de Raiponce dans 'Tangled' ?",
+    options: ["Maximus", "Philippe", "Pegasus", "Achilles"],
+    answer: "Maximus"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel animal est Baloo dans 'Le Livre de la jungle' ?",
+    options: ["Ours", "Tigre", "Panthère", "Éléphant"],
+    answer: "Ours"
+  },
+  {
+    numéro: "5/20",
+    question: "Comment s'appelle le chien de Mickey Mouse ?",
+    options: ["Pluto", "Dingo", "Max", "Goofy"],
+    answer: "Pluto"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel type d'animal est Abu dans 'Aladdin' ?",
+    options: ["Singe", "Perroquet", "Tigre", "Chameau"],
+    answer: "Singe"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel animal est Shere Khan dans 'Le Livre de la jungle' ?",
+    options: ["Tigre", "Panthère", "Ours", "Serpent"],
+    answer: "Tigre"
+  },
+  {
+    numéro: "8/20",
+    question: "Dans 'La Belle et le Clochard', quel type de chien est Clochard ?",
+    options: ["Chien bâtard", "Cocker Spaniel", "Dalmatien", "Caniche"],
+    answer: "Chien bâtard"
+  },
+  {
+    numéro: "9/20",
+    question: "Comment s'appelle le chat de Cendrillon ?",
+    options: ["Lucifer", "Figaro", "Oliver", "Tom"],
+    answer: "Lucifer"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel animal est Rafiki dans 'Le Roi Lion' ?",
+    options: ["Mandrill", "Lion", "Hyène", "Girafe"],
+    answer: "Mandrill"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel type d'animal est Pégase dans 'Hercules' ?",
+    options: ["Cheval ailé", "Chèvre", "Lion", "Chien"],
+    answer: "Cheval ailé"
+  },
+  {
+    numéro: "12/20",
+    question: "Comment s'appelle le chat de Geppetto dans 'Pinocchio' ?",
+    options: ["Figaro", "Lucifer", "Oliver", "Tom"],
+    answer: "Figaro"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel type d'animal est Sébastien dans 'La Petite Sirène' ?",
+    options: ["Crabe", "Poisson", "Homard", "Crevette"],
+    answer: "Crabe"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel animal est Robin des Bois dans le film Disney du même nom ?",
+    options: ["Renard", "Ours", "Lion", "Lapin"],
+    answer: "Renard"
+  },
+  {
+    numéro: "15/20",
+    question: "Comment s'appelle le dragon gardien dans 'Mulan' ?",
+    options: ["Mushu", "Khan", "Shan Yu", "Cri-Kee"],
+    answer: "Mushu"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel animal est le personnage principal dans 'Zootopie' qui est un officier de police ?",
+    options: ["Lapin", "Renard", "Tigre", "Éléphant"],
+    answer: "Lapin"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel animal est Bagheera dans 'Le Livre de la jungle' ?",
+    options: ["Panthère", "Tigre", "Ours", "Loup"],
+    answer: "Panthère"
+  },
+  {
+    numéro: "18/20",
+    question: "Comment s'appelle le renard arnaqueur dans 'Zootopie' ?",
+    options: ["Nick Wilde", "Judy Hopps", "Finnick", "Chief Bogo"],
+    answer: "Nick Wilde"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel type d'animal est utilisé comme maillet dans le croquet de la Reine de Cœur dans 'Alice au Pays des Merveilles' ?",
+    options: ["Flamant rose", "Hérisson", "Lapin", "Chat"],
+    answer: "Flamant rose"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel type d'animal est Pumbaa dans 'Le Roi Lion' ?",
+    options: ["Phacochère", "Lion", "Hyène", "Suricate"],
+    answer: "Phacochère"
+  }
+];
+
 
 
 // Mélanger les options pour chaque thème de questions
@@ -8440,6 +8563,8 @@ shuffleQuestionsOptions(questionsComedies);
 shuffleQuestionsOptions(questionsBricolage);
 shuffleQuestionsOptions(questionsTennis);
 shuffleQuestionsOptions(questionsInstrumentsCorde);
+shuffleQuestionsOptions(questionsAnimauxDisney);
+
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -8496,6 +8621,7 @@ const themeComediesBtn = document.getElementById("theme-comedies");
 const themeBricolageBtn = document.getElementById("theme-bricolage");
 const themeTennisBtn = document.getElementById("theme-tennis");
 const themeInstrumentsCordeBtn = document.getElementById("theme-instrumentsCordes");
+const themeAnimauxDisneyBtn = document.getElementById("theme-animauxDisney");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -8584,6 +8710,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeAnimauxDisneyBtn.addEventListener("click", () => {
+  selectedTheme = "Animaux Disney";
+  startQuiz(questionsAnimauxDisney);
   scrollToTop();
 });
 
