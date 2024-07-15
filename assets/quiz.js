@@ -8556,13 +8556,13 @@ const questionsMechantsDisney = [
   {
     numéro: "1/20",
     question: "Quel est le nom du méchant dans 'La Petite Sirène' ?",
-    options: ["Ursula", "Maléfique", "Cruella", "Jafar"],
+    options: ["Ursula", "Joanna", "L'Hydre", "Gazeem"],
     answer: "Ursula"
   },
   {
     numéro: "2/20",
     question: "Quel méchant veut la peau de 101 dalmatiens ?",
-    options: ["Cruella d'Enfer", "Jafar", "Ursula", "Gaston"],
+    options: ["Cruella d'Enfer", "Jafar", "Helga Sinclair", "Gaston"],
     answer: "Cruella d'Enfer"
   },
   {
@@ -8574,31 +8574,31 @@ const questionsMechantsDisney = [
   {
     numéro: "4/20",
     question: "Quel méchant est un capitaine pirate dans 'Peter Pan' ?",
-    options: ["Capitaine Crochet", "Scar", "Hades", "Jafar"],
+    options: ["Capitaine Crochet", "Denahi", "Monsieur La Lorgnette", "Jafar"],
     answer: "Capitaine Crochet"
   },
   {
     numéro: "5/20",
     question: "Quel méchant est un sorcier qui veut devenir Sultan dans 'Aladdin' ?",
-    options: ["Jafar", "Scar", "Ursula", "Hades"],
+    options: ["Jafar", "Wesley", "Ursula", "Hadès"],
     answer: "Jafar"
   },
   {
     numéro: "6/20",
     question: "Quel est le nom du lion qui tue Mufasa dans 'Le Roi Lion' ?",
-    options: ["Scar", "Jafar", "Hades", "Gaston"],
+    options: ["Scar", "Jafar", "Hadès", "Gaston"],
     answer: "Scar"
   },
   {
     numéro: "7/20",
     question: "Quel méchant est la fée maléfique qui maudit Aurore dans 'La Belle au bois dormant' ?",
-    options: ["Maléfique", "Ursula", "Cruella", "Scar"],
+    options: ["Maléfique", "Ursula", "Cruella", "Goosey Loosey"],
     answer: "Maléfique"
   },
   {
     numéro: "8/20",
     question: "Quel méchant est le dieu des Enfers dans 'Hercule' ?",
-    options: ["Hadès", "Jafar", "Ursula", "Gaston"],
+    options: ["Hadès", "Les Ombres Démoniaques", "Lawrence", "Gaston"],
     answer: "Hadès"
   },
   {
@@ -8610,13 +8610,13 @@ const questionsMechantsDisney = [
   {
     numéro: "10/20",
     question: "Quel méchant veut prendre le trône d'Arendelle dans 'La Reine des Neiges' ?",
-    options: ["Elsa", "Hans", "Ursula", "Scar"],
+    options: ["Doug", "Hans", "Michel", "Le Roi Magnifico"],
     answer: "Hans"
   },
   {
     numéro: "11/20",
     question: "Quel méchant a une cicatrice en forme de tête de mort sur son visage dans 'Le Bossu de Notre-Dame' ?",
-    options: ["Claude Frollo", "Jafar", "Hadès", "Capitaine Crochet"],
+    options: ["Claude Frollo", "Yokai", "Hadès", "Capitaine Crochet"],
     answer: "Claude Frollo"
   },
   {
@@ -8634,37 +8634,37 @@ const questionsMechantsDisney = [
   {
     numéro: "14/20",
     question: "Quel méchant est une mère adoptive abusive dans 'Raiponce' ?",
-    options: ["Mère Gothel", "Ursula", "Scar", "Maléfique"],
+    options: ["Mère Gothel", "Ursula", "Helga Sinclair", "Namaari"],
     answer: "Mère Gothel"
   },
   {
     numéro: "15/20",
-    question: "Quel méchant est une marâtre qui exploite ses belles-filles dans 'Cendrillon' ?",
-    options: ["Lady Tremaine", "Ursula", "Maléfique", "Scar"],
-    answer: "Lady Tremaine"
+    question: "Dans quel film Disney le Prince Jean est-il le principal antagoniste ?",
+    options: ["Robin des Bois", "La Belle au Bois Dormant", "Le Livre de la Jungle", "Cendrillon"],
+    answer: "Robin des Bois"
   },
   {
     numéro: "16/20",
     question: "Quel méchant en a après les souris dans 'Cendrillon' ?",
-    options: ["Lucifer", "Jafar", "Scar", "Gaston"],
+    options: ["Lucifer", "Diablo", "Scar", "Kaa"],
     answer: "Lucifer"
   },
   {
     numéro: "17/20",
     question: "Quel méchant est une marâtre cruelle dans 'Cendrillon' ?",
-    options: ["Lady Tremaine", "Cruella", "Maléfique", "Mère Gothel"],
+    options: ["Lady Tremaine", "Tante Sarah", "Maléfique", "Mère Gothel"],
     answer: "Lady Tremaine"
   },
   {
     numéro: "18/20",
     question: "Quel méchant est le chef du trio de hyènes dans 'Le Roi Lion' ?",
-    options: ["Shenzi", "Jafar", "Hades", "Gaston"],
+    options: ["Shenzi", "Jafar", "Banzaï", "Demon"],
     answer: "Shenzi"
   },
   {
     numéro: "19/20",
     question: "Quel méchant est un empereur cruel dans 'Kuzco, l'empereur mégalo' ?",
-    options: ["Yzma", "Jafar", "Hadès", "Gaston"],
+    options: ["Yzma", "Yzmo", "Zéphir", "Gargamel"],
     answer: "Yzma"
   },
   {
