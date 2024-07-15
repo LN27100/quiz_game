@@ -8798,6 +8798,129 @@ const questionsDisneylandParis = [
   }
 ];
 
+const questionsStarsChanson = [
+  {
+    numéro: "1/20",
+    question: "Quel est le surnom de Johnny Hallyday, souvent appelé le 'Elvis Presley' français ?",
+    options: ["Le Taulier", "Le Roi", "Le Patron", "Le Maître"],
+    answer: "Le Taulier"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le titre de la chanson de Michel Sardou qui a suscité des controverses pour ses paroles en 1976 ?",
+    options: ["Le France", "Je suis pour", "Les Lacs du Connemara", "La Maladie d'amour"],
+    answer: "Je suis pour"
+  },
+  {
+    numéro: "3/20",
+    question: "Quelle est la chanson la plus célèbre de Keen'V, sortie en 2011, qui a atteint le top des charts en France ?",
+    options: ["J'aimerais trop", "La vie du bon côté", "Dis-moi oui", "Ma vie au soleil"],
+    answer: "J'aimerais trop"
+  },
+  {
+    numéro: "4/20",
+    question: "Kendji Girac a gagné 'The Voice' en France dans quelle saison ?",
+    options: ["Saison 3", "Saison 1", "Saison 2", "Saison 4"],
+    answer: "Saison 3"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le titre de la chanson de Mylène Farmer qui a été un énorme succès en 1988 ?",
+    options: ["Désenchantée", "Sans contrefaçon", "Libertine", "Pourvu qu'elles soient douces"],
+    answer: "Sans contrefaçon"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom du célèbre duo musical que Sylvie Vartan formait avec Johnny Hallyday dans les années 60 ?",
+    options: ["Les Années Yéyé", "Les Rockers", "Les Chouchous", "Les Idoles"],
+    answer: "Les Années Yéyé"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le titre du premier album studio de Hoshi, sorti en 2018 ?",
+    options: ["Il suffit d'y croire", "Amour censure", "Ta marinière", "Soleil levant"],
+    answer: "Il suffit d'y croire"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel album de Michael Jackson, sorti en 1982, est le plus vendu de tous les temps ?",
+    options: ["Thriller", "Bad", "Off the Wall", "Dangerous"],
+    answer: "Thriller"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est le surnom de Madonna, souvent appelée la 'Reine de...' ?",
+    options: ["La Reine de la Pop", "La Reine du Rock", "La Reine du R&B", "La Reine du Jazz"],
+    answer: "La Reine de la Pop"
+  },
+  {
+    numéro: "10/20",
+    question: "Céline Dion a représenté quel pays lors de sa victoire à l'Eurovision en 1988 ?",
+    options: ["Suisse", "France", "Canada", "Belgique"],
+    answer: "Suisse"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le titre de la chanson d'Aya Nakamura qui a connu un énorme succès en 2018 ?",
+    options: ["Djadja", "Copines", "Pookie", "Comportement"],
+    answer: "Djadja"
+  },
+  {
+    numéro: "12/20",
+    question: "Avec quel groupe Beyoncé a-t-elle commencé sa carrière musicale avant de devenir une artiste solo à succès ?",
+    options: ["Destiny's Child", "TLC", "Spice Girls", "En Vogue"],
+    answer: "Destiny's Child"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le titre du premier album d'Adèle, sorti en 2008 ?",
+    options: ["19", "21", "25", "30"],
+    answer: "19"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le titre de la chanson de Pink qui a été un énorme succès en 2001, tirée de l'album 'Missundaztood' ?",
+    options: ["Get the Party Started", "Just Like a Pill", "So What", "Try"],
+    answer: "Get the Party Started"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le titre de la chanson avec laquelle Slimane a remporté 'The Voice' en France ?",
+    options: ["A fleur de toi", "Viens on s'aime", "Paname", "Adieu"],
+    answer: "A fleur de toi"
+  },
+  {
+    numéro: "16/20",
+    question: "Vitaa a collaboré avec quel artiste sur l'album 'VersuS', sorti en 2019 ?",
+    options: ["Slimane", "M. Pokora", "Kendji Girac", "Gims"],
+    answer: "Slimane"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est le titre de la chanson d'Ed Sheeran qui a été un énorme succès en 2017, tirée de l'album '÷' (Divide) ?",
+    options: ["Shape of You", "Thinking Out Loud", "Perfect", "Castle on the Hill"],
+    answer: "Shape of You"
+  },
+  {
+    numéro: "18/20",
+    question: "Soprano faisait partie de quel groupe de rap français avant de commencer sa carrière solo ?",
+    options: ["Psy 4 de la Rime", "IAM", "113", "Sniper"],
+    answer: "Psy 4 de la Rime"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel est le titre du premier album studio de Dadju, sorti en 2017 ?",
+    options: ["Gentleman 2.0", "Poison ou Antidote", "Mafia K'1 Fry", "Reine"],
+    answer: "Gentleman 2.0"
+  },
+  {
+    numéro: "20/20",
+    question: "Jérémy Frérot faisait partie de quel duo musical avant de commencer sa carrière solo ?",
+    options: ["Fréro Delavega", "Cats on Trees", "Bigflo et Oli", "Madame Monsieur"],
+    answer: "Fréro Delavega"
+  }
+];
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -8811,6 +8934,7 @@ shuffleQuestionsOptions(questionsInstrumentsCorde);
 shuffleQuestionsOptions(questionsAnimauxDisney);
 shuffleQuestionsOptions(questionsMechantsDisney);
 shuffleQuestionsOptions(questionsDisneylandParis);
+shuffleQuestionsOptions(questionsStarsChanson);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -8870,6 +8994,7 @@ const themeInstrumentsCordeBtn = document.getElementById("theme-instrumentsCorde
 const themeAnimauxDisneyBtn = document.getElementById("theme-animauxDisney");
 const themeMechantsDisneyBtn = document.getElementById("theme-mechantsDisney");
 const themeDisneylandParisBtn = document.getElementById("theme-parcDisneyland");
+const themeStarsChansonBtn = document.getElementById("theme-starChanson");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -8958,6 +9083,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeStarsChansonBtn.addEventListener("click", () => {
+  selectedTheme = "Star de la chanson";
+  startQuiz(questionsStarsChanson);
   scrollToTop();
 });
 
