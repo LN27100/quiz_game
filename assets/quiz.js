@@ -8675,6 +8675,129 @@ const questionsMechantsDisney = [
   }
 ];
 
+const questionsDisneylandParis = [
+  {
+    numéro: "1/20",
+    question: "En quelle année le parc Disneyland Paris a-t-il ouvert ses portes ?",
+    options: ["1992", "1985", "2000", "1995"],
+    answer: "1992"
+  },
+  {
+    numéro: "2/20",
+    question: "Comment s'appelle le château emblématique du parc Disneyland Paris ?",
+    options: ["Le Château de la Belle au Bois Dormant", "Le Château de Cendrillon", "Le Château de Blanche-Neige", "Le Château de la Bête"],
+    answer: "Le Château de la Belle au Bois Dormant"
+  },
+  {
+    numéro: "3/20",
+    question: "Combien de parcs à thèmes composent Disneyland Paris ?",
+    options: ["2", "3", "1", "4"],
+    answer: "2"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est le nom du second parc à thème de Disneyland Paris, ouvert en 2002 ?",
+    options: ["Walt Disney Studios", "Magic Kingdom", "Epcot", "Animal Kingdom"],
+    answer: "Walt Disney Studios"
+  },
+  {
+    numéro: "5/20",
+    question: "Comment s'appelle la célèbre attraction de type montagnes russes enfermées située dans Discoveryland ?",
+    options: ["Space Mountain", "Big Thunder Mountain", "Indiana Jones et le Temple du Péril", "Rock 'n' Roller Coaster"],
+    answer: "Space Mountain"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom du quartier où se trouve le galion des pirates dans le parc Disneyland Paris ?",
+    options: ["Adventureland", "Fantasyland", "Frontierland", "Discoveryland"],
+    answer: "Adventureland"
+  },
+  {
+    numéro: "7/20",
+    question: "Quelle attraction emblématique permet de faire un tour en bateau à travers le monde des poupées animées ?",
+    options: ["It's a Small World", "Pirates of the Caribbean", "Peter Pan's Flight", "The Jungle Cruise"],
+    answer: "It's a Small World"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel spectacle nocturne utilise des projections, des feux d'artifice et des fontaines sur le château ?",
+    options: ["Disney Illuminations", "Fantasmic!", "World of Color", "Happily Ever After"],
+    answer: "Disney Illuminations"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel hôtel de Disneyland Paris est directement situé à l'entrée du parc Disneyland ?",
+    options: ["Disneyland Hotel", "Hotel New York", "Hotel Cheyenne", "Hotel Santa Fe"],
+    answer: "Disneyland Hotel"
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle attraction de Disneyland Paris est inspirée du film 'Indiana Jones' ?",
+    options: ["Indiana Jones et le Temple du Péril", "Pirates of the Caribbean", "The Twilight Zone Tower of Terror", "Big Thunder Mountain"],
+    answer: "Indiana Jones et le Temple du Péril"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel parc de Disneyland Paris contient l'attraction 'Ratatouille : L'Aventure Totalement Toquée de Rémy' ?",
+    options: ["Walt Disney Studios", "Magic Kingdom", "Disneyland Park", "Animal Kingdom"],
+    answer: "Walt Disney Studios"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom de la zone thématique dédiée à Toy Story dans Walt Disney Studios ?",
+    options: ["Toy Story Playland", "Toy Story Land", "Pixar Pier", "Andy’s Backyard"],
+    answer: "Toy Story Playland"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel spectacle acrobatique se déroule dans l'amphithéâtre de Frontierland ?",
+    options: ["The Lion King: Rhythms of the Pride Lands", "Mickey's PhilharMagic", "Frozen: A Musical Invitation", "Mickey and the Magician"],
+    answer: "The Lion King: Rhythms of the Pride Lands"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom de l'attraction où les visiteurs peuvent rencontrer leurs personnages Disney préférés dans Disneyland Park ?",
+    options: ["Meet Mickey Mouse", "Princess Pavilion", "Character Meet and Greet", "Starport"],
+    answer: "Meet Mickey Mouse"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le nom de l'attraction aquatique située à Adventureland, inspirée des histoires d'un prince et un génie ?",
+    options: ["Le Passage Enchanté d'Aladdin", "Pirates of the Caribbean", "Les Mystères du Nautilus", "La Cabane des Robinson"],
+    answer: "Le Passage Enchanté d'Aladdin"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le thème de l'attraction 'Phantom Manor' dans Frontierland ?",
+    options: ["Maison hantée", "Château de princesse", "Espace", "Sous-marin"],
+    answer: "Maison hantée"
+  },
+  {
+    numéro: "17/20",
+    question: "Quelle est la durée approximative du trajet en train de la 'Disneyland Railroad' autour du parc Disneyland ?",
+    options: ["20 minutes", "10 minutes", "30 minutes", "40 minutes"],
+    answer: "20 minutes"
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle est la principale saison pendant laquelle Disneyland Paris propose des décorations et des spectacles spéciaux pour Halloween ?",
+    options: ["Octobre", "Novembre", "Décembre", "Janvier"],
+    answer: "Octobre"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel est le nom de la parade quotidienne qui traverse le parc Disneyland ?",
+    options: ["Disney Stars on Parade", "Main Street Electrical Parade", "Festival of Fantasy Parade", "Dreamlights Parade"],
+    answer: "Disney Stars on Parade"
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle est la zone thématique inspirée des contes de fées dans Disneyland Park ?",
+    options: ["Fantasyland", "Adventureland", "Frontierland", "Discoveryland"],
+    answer: "Fantasyland"
+  }
+];
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -8687,6 +8810,7 @@ shuffleQuestionsOptions(questionsTennis);
 shuffleQuestionsOptions(questionsInstrumentsCorde);
 shuffleQuestionsOptions(questionsAnimauxDisney);
 shuffleQuestionsOptions(questionsMechantsDisney);
+shuffleQuestionsOptions(questionsDisneylandParis);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -8745,6 +8869,7 @@ const themeTennisBtn = document.getElementById("theme-tennis");
 const themeInstrumentsCordeBtn = document.getElementById("theme-instrumentsCordes");
 const themeAnimauxDisneyBtn = document.getElementById("theme-animauxDisney");
 const themeMechantsDisneyBtn = document.getElementById("theme-mechantsDisney");
+const themeDisneylandParisBtn = document.getElementById("theme-parcDisneyland");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -8839,6 +8964,12 @@ themePixarBtn.addEventListener("click", () => {
 themeMechantsDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Méchants Disney";
   startQuiz(questionsMechantsDisney);
+  scrollToTop();
+});
+
+themeDisneylandParisBtn.addEventListener("click", () => {
+  selectedTheme = "Parc Disneyland Paris";
+  startQuiz(questionsDisneylandParis);
   scrollToTop();
 });
 
