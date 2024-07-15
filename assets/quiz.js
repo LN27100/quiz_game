@@ -8306,6 +8306,130 @@ const questionsTennis = [
   }
 ];
 
+const questionsInstrumentsCorde = [
+  {
+    numéro: "1/20",
+    question: "Quel instrument à corde est souvent utilisé dans la musique classique et possède quatre cordes ?",
+    options: ["Violon", "Guitare", "Harpe", "Banjo"],
+    answer: "Violon"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel instrument à corde a été popularisé par des musiciens comme Jimi Hendrix et Eric Clapton ?",
+    options: ["Guitare électrique", "Contrebasse", "Mandoline", "Luth"],
+    answer: "Guitare électrique"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel instrument à corde est associé au style de musique flamenco ?",
+    options: ["Guitare espagnole", "Violoncelle", "Harpe", "Sitar"],
+    answer: "Guitare espagnole"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel instrument à corde possède 88 touches et est largement utilisé dans la musique classique et jazz ?",
+    options: ["Piano", "Clavecin", "Cithare", "Bouzouki"],
+    answer: "Piano"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel instrument à corde est traditionnellement utilisé dans la musique folk irlandaise ?",
+    options: ["Violoncelle", "Guitare acoustique", "Banjo", "Bouzouki"],
+    answer: "Bouzouki"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel instrument à corde possède 47 cordes et est souvent joué dans les orchestres symphoniques ?",
+    options: ["Harpe", "Mandoline", "Violon", "Guitare"],
+    answer: "Harpe"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel instrument à corde a été utilisé par Niccolò Paganini, un célèbre virtuose du 19ème siècle ?",
+    options: ["Violoncelle", "Guitare", "Violon", "Luth"],
+    answer: "Violon"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel instrument à corde est connu pour son utilisation dans la musique bluegrass ?",
+    options: ["Banjo", "Harp", "Sitar", "Clavecin"],
+    answer: "Banjo"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel instrument à corde, similaire à un luth, est utilisé dans la musique baroque ?",
+    options: ["Théorbe", "Mandoline", "Guitare", "Violon"],
+    answer: "Théorbe"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel instrument à corde d'origine indienne est souvent associé à la musique de Ravi Shankar ?",
+    options: ["Sitar", "Tambura", "Sarod", "Veena"],
+    answer: "Sitar"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel instrument à corde est un membre plus grand de la famille des violons et est joué entre les genoux ?",
+    options: ["Violoncelle", "Violon", "Alto", "Contrebasse"],
+    answer: "Violoncelle"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel instrument à corde est utilisé dans la musique traditionnelle japonaise ?",
+    options: ["Koto", "Guzheng", "Sitar", "Banjo"],
+    answer: "Koto"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel instrument à corde a été popularisé par les Beatles, notamment George Harrison ?",
+    options: ["Sitar", "Guitare", "Mandoline", "Banjo"],
+    answer: "Sitar"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel instrument à corde, souvent utilisé dans le jazz, a une caisse de résonance en forme de huit ?",
+    options: ["Guitare acoustique", "Guitare électrique", "Mandoline", "Ukulélé"],
+    answer: "Guitare acoustique"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel instrument à corde est typique de la musique hawaïenne ?",
+    options: ["Ukulélé", "Banjo", "Harp", "Violon"],
+    answer: "Ukulélé"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel instrument à corde est le plus grand membre de la famille des violons ?",
+    options: ["Contrebasse", "Violoncelle", "Alto", "Violon"],
+    answer: "Contrebasse"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel instrument à corde est couramment utilisé dans les orchestres symphoniques et a quatre cordes ?",
+    options: ["Alto", "Banjo", "Mandoline", "Ukulélé"],
+    answer: "Alto"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel instrument à corde est souvent utilisé dans la musique country américaine ?",
+    options: ["Guitare acoustique", "Harpe", "Violon", "Banjo"],
+    answer: "Banjo"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel instrument à corde est connu pour ses sonorités riches et profondes, et est souvent utilisé dans la musique de chambre ?",
+    options: ["Violoncelle", "Violon", "Alto", "Contrebasse"],
+    answer: "Violoncelle"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel instrument à corde a été inventé par les anciens Grecs et est considéré comme l'ancêtre de la guitare ?",
+    options: ["Luth", "Lyre", "Harpe", "Mandoline"],
+    answer: "Lyre"
+  }
+];
+
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -8315,6 +8439,7 @@ shuffleQuestionsOptions(questionsTelerealite);
 shuffleQuestionsOptions(questionsComedies);
 shuffleQuestionsOptions(questionsBricolage);
 shuffleQuestionsOptions(questionsTennis);
+shuffleQuestionsOptions(questionsInstrumentsCorde);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -8370,6 +8495,7 @@ const themeTelerealiteBtn = document.getElementById("theme-telerealite");
 const themeComediesBtn = document.getElementById("theme-comedies");
 const themeBricolageBtn = document.getElementById("theme-bricolage");
 const themeTennisBtn = document.getElementById("theme-tennis");
+const themeInstrumentsCordeBtn = document.getElementById("theme-instrumentsCordes");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -8458,6 +8584,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeInstrumentsCordeBtn.addEventListener("click", () => {
+  selectedTheme = " Instruments à cordes";
+  startQuiz(questionsInstrumentsCorde);
   scrollToTop();
 });
 
