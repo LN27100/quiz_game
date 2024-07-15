@@ -160,7 +160,7 @@ $img_path = $upload_dir . $img;
   <button id="theme-popRock" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Pop-Rock</button>
   <button id="theme-instrumentsCordes" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Instruments à cordes</button>
   <button id="theme-starChanson" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Star de la chanson</button>
-  <button id="theme-festivalsMusique" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Festivals de musique</button>
+  <button id="theme-festivalsMusique" class="theme-button" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Festivals de musique français</button>
 </div>
 
 <h4>Catégorie Personnalités et Super-Héros</h4>

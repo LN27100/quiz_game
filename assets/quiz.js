@@ -8921,6 +8921,129 @@ const questionsStarsChanson = [
   }
 ];
 
+const questionsFestivalsMusiqueFrance = [
+  {
+    numéro: "1/20",
+    question: "Quel festival de musique se déroule chaque année à Carhaix, en Bretagne ?",
+    options: ["Les Vieilles Charrues", "Hellfest", "Solidays", "Rock en Seine"],
+    answer: "Les Vieilles Charrues"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel festival de musique métal a lieu chaque année à Clisson ?",
+    options: ["Hellfest", "Download Festival", "Motocultor Festival", "MetalDays"],
+    answer: "Hellfest"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel festival parisien a lieu sur l'hippodrome de Longchamp et est organisé par Solidarité Sida ?",
+    options: ["Solidays", "Rock en Seine", "We Love Green", "Lollapalooza Paris"],
+    answer: "Solidays"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel festival se tient chaque année au Domaine National de Saint-Cloud, près de Paris ?",
+    options: ["Rock en Seine", "We Love Green", "Les Eurockéennes", "Garorock"],
+    answer: "Rock en Seine"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel festival se déroule sur l'île du Gaou, dans le Var, et propose une programmation éclectique chaque été ?",
+    options: ["Les Voix du Gaou", "Festival de Nîmes", "Les Déferlantes", "Main Square Festival"],
+    answer: "Les Voix du Gaou"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel festival, situé à Belfort, est l'un des plus anciens et des plus importants festivals de rock en France ?",
+    options: ["Les Eurockéennes", "Main Square Festival", "Garorock", "Vieilles Charrues"],
+    answer: "Les Eurockéennes"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel festival de musique électronique se déroule à Lyon chaque année ?",
+    options: ["Nuits Sonores", "Les Transmusicales", "Astropolis", "Marsatac"],
+    answer: "Nuits Sonores"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel festival de musique se tient dans l'enceinte du théâtre antique de Nîmes ?",
+    options: ["Festival de Nîmes", "Les Déferlantes", "Les Vieilles Charrues", "Main Square Festival"],
+    answer: "Festival de Nîmes"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel festival se déroule à Marmande et est célèbre pour sa programmation rock, pop et électro ?",
+    options: ["Garorock", "Les Eurockéennes", "Solidays", "Les Déferlantes"],
+    answer: "Garorock"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel festival se déroule à Argelès-sur-Mer et propose une programmation variée allant du rock à la musique électronique ?",
+    options: ["Les Déferlantes", "Les Vieilles Charrues", "Rock en Seine", "Main Square Festival"],
+    answer: "Les Déferlantes"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel festival de musique éclectique se tient chaque année à la Citadelle d'Arras ?",
+    options: ["Main Square Festival", "Les Eurockéennes", "Solidays", "Vieilles Charrues"],
+    answer: "Main Square Festival"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel festival a lieu à la Cité des Congrès de Nantes et est consacré aux musiques électroniques et actuelles ?",
+    options: ["Scopitone", "Nuits Sonores", "Les Transmusicales", "Astropolis"],
+    answer: "Scopitone"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel festival de musique est organisé à Montpellier et met en avant la scène indépendante et émergente ?",
+    options: ["Tinals (This is Not a Love Song)", "Marsatac", "Les Déferlantes", "Les Vieilles Charrues"],
+    answer: "Tinals (This is Not a Love Song)"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel festival se déroule à Rennes et est connu pour découvrir les artistes émergents ?",
+    options: ["Les Transmusicales", "Les Vieilles Charrues", "Rock en Seine", "Nuits Sonores"],
+    answer: "Les Transmusicales"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel festival de musique classique a lieu chaque été dans le parc du Château de Fontainebleau ?",
+    options: ["Festival de l'Orangerie de Sceaux", "Festival de la Vézère", "Festival de la Roque-d'Anthéron", "Festival de Fontainebleau"],
+    answer: "Festival de Fontainebleau"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel festival de musique électro se déroule chaque année à Brest ?",
+    options: ["Astropolis", "Marsatac", "Nuits Sonores", "Scopitone"],
+    answer: "Astropolis"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel festival de musique se déroule à Marseille et propose une programmation variée de musiques actuelles ?",
+    options: ["Marsatac", "Nuits Sonores", "Les Transmusicales", "Solidays"],
+    answer: "Marsatac"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel festival de musique électro se déroule chaque été dans le Bois de Vincennes à Paris ?",
+    options: ["We Love Green", "Solidays", "Rock en Seine", "Lollapalooza Paris"],
+    answer: "We Love Green"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel festival de musique, qui se tient à La Rochelle, est consacré à la chanson francophone et aux découvertes musicales ?",
+    options: ["Les Francofolies", "Les Déferlantes", "Main Square Festival", "Garorock"],
+    answer: "Les Francofolies"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel festival de musique est organisé chaque année à Belfort et attire des milliers de spectateurs ?",
+    options: ["Les Eurockéennes", "Garorock", "Les Vieilles Charrues", "Solidays"],
+    answer: "Les Eurockéennes"
+  }
+];
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -8935,6 +9058,7 @@ shuffleQuestionsOptions(questionsAnimauxDisney);
 shuffleQuestionsOptions(questionsMechantsDisney);
 shuffleQuestionsOptions(questionsDisneylandParis);
 shuffleQuestionsOptions(questionsStarsChanson);
+shuffleQuestionsOptions(questionsFestivalsMusiqueFrance );
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -8995,6 +9119,7 @@ const themeAnimauxDisneyBtn = document.getElementById("theme-animauxDisney");
 const themeMechantsDisneyBtn = document.getElementById("theme-mechantsDisney");
 const themeDisneylandParisBtn = document.getElementById("theme-parcDisneyland");
 const themeStarsChansonBtn = document.getElementById("theme-starChanson");
+const themeFestivalsMusiqueFranceBtn = document.getElementById("theme-festivalsMusique");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -9113,6 +9238,12 @@ themeAnimauxDisneyBtn.addEventListener("click", () => {
 themeInstrumentsCordeBtn.addEventListener("click", () => {
   selectedTheme = " Instruments à cordes";
   startQuiz(questionsInstrumentsCorde);
+  scrollToTop();
+});
+
+themeFestivalsMusiqueFranceBtn.addEventListener("click", () => {
+  selectedTheme = "Festivals de musique français";
+  startQuiz(questionsFestivalsMusiqueFrance);
   scrollToTop();
 });
 
