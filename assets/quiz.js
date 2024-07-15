@@ -8552,6 +8552,128 @@ const questionsAnimauxDisney = [
   }
 ];
 
+const questionsMechantsDisney = [
+  {
+    numéro: "1/20",
+    question: "Quel est le nom du méchant dans 'La Petite Sirène' ?",
+    options: ["Ursula", "Maléfique", "Cruella", "Jafar"],
+    answer: "Ursula"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel méchant veut la peau de 101 dalmatiens ?",
+    options: ["Cruella d'Enfer", "Jafar", "Ursula", "Gaston"],
+    answer: "Cruella d'Enfer"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel méchant utilise une pomme empoisonnée pour endormir Blanche-Neige ?",
+    options: ["La Reine", "Maléfique", "Jafar", "Hades"],
+    answer: "La Reine"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel méchant est un capitaine pirate dans 'Peter Pan' ?",
+    options: ["Capitaine Crochet", "Scar", "Hades", "Jafar"],
+    answer: "Capitaine Crochet"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel méchant est un sorcier qui veut devenir Sultan dans 'Aladdin' ?",
+    options: ["Jafar", "Scar", "Ursula", "Hades"],
+    answer: "Jafar"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom du lion qui tue Mufasa dans 'Le Roi Lion' ?",
+    options: ["Scar", "Jafar", "Hades", "Gaston"],
+    answer: "Scar"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel méchant est la fée maléfique qui maudit Aurore dans 'La Belle au bois dormant' ?",
+    options: ["Maléfique", "Ursula", "Cruella", "Scar"],
+    answer: "Maléfique"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel méchant est le dieu des Enfers dans 'Hercule' ?",
+    options: ["Hadès", "Jafar", "Ursula", "Gaston"],
+    answer: "Hadès"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel méchant veut chasser la Bête pour prouver son courage dans 'La Belle et la Bête' ?",
+    options: ["Gaston", "Jafar", "Scar", "Hadès"],
+    answer: "Gaston"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel méchant veut prendre le trône d'Arendelle dans 'La Reine des Neiges' ?",
+    options: ["Elsa", "Hans", "Ursula", "Scar"],
+    answer: "Hans"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel méchant a une cicatrice en forme de tête de mort sur son visage dans 'Le Bossu de Notre-Dame' ?",
+    options: ["Claude Frollo", "Jafar", "Hadès", "Capitaine Crochet"],
+    answer: "Claude Frollo"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel méchant transforme des princes en grenouilles dans 'La Princesse et la Grenouille' ?",
+    options: ["Dr. Facilier", "Jafar", "Scar", "Hadès"],
+    answer: "Dr. Facilier"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel duo de méchants siamois provoque des problèmes pour Lady dans 'La Belle et le Clochard' ?",
+    options: ["Si et Am", "Anastasie et Javotte", "Flotsam et Jetsam", "Shenzi et Banzai"],
+    answer: "Si et Am"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel méchant est une mère adoptive abusive dans 'Raiponce' ?",
+    options: ["Mère Gothel", "Ursula", "Scar", "Maléfique"],
+    answer: "Mère Gothel"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel méchant est une marâtre qui exploite ses belles-filles dans 'Cendrillon' ?",
+    options: ["Lady Tremaine", "Ursula", "Maléfique", "Scar"],
+    answer: "Lady Tremaine"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel méchant en a après les souris dans 'Cendrillon' ?",
+    options: ["Lucifer", "Jafar", "Scar", "Gaston"],
+    answer: "Lucifer"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel méchant est une marâtre cruelle dans 'Cendrillon' ?",
+    options: ["Lady Tremaine", "Cruella", "Maléfique", "Mère Gothel"],
+    answer: "Lady Tremaine"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel méchant est le chef du trio de hyènes dans 'Le Roi Lion' ?",
+    options: ["Shenzi", "Jafar", "Hades", "Gaston"],
+    answer: "Shenzi"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel méchant est un empereur cruel dans 'Kuzco, l'empereur mégalo' ?",
+    options: ["Yzma", "Jafar", "Hadès", "Gaston"],
+    answer: "Yzma"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel méchant transforme des humains en ânes dans 'Pinocchio' ?",
+    options: ["Le cochet", "Grand coquin", "Gédéon", "Stromboli "],
+    answer: "Le cochet"
+  }
+];
 
 
 // Mélanger les options pour chaque thème de questions
@@ -8564,7 +8686,7 @@ shuffleQuestionsOptions(questionsBricolage);
 shuffleQuestionsOptions(questionsTennis);
 shuffleQuestionsOptions(questionsInstrumentsCorde);
 shuffleQuestionsOptions(questionsAnimauxDisney);
-
+shuffleQuestionsOptions(questionsMechantsDisney);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -8622,6 +8744,7 @@ const themeBricolageBtn = document.getElementById("theme-bricolage");
 const themeTennisBtn = document.getElementById("theme-tennis");
 const themeInstrumentsCordeBtn = document.getElementById("theme-instrumentsCordes");
 const themeAnimauxDisneyBtn = document.getElementById("theme-animauxDisney");
+const themeMechantsDisneyBtn = document.getElementById("theme-mechantsDisney");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -8710,6 +8833,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeMechantsDisneyBtn.addEventListener("click", () => {
+  selectedTheme = "Méchants Disney";
+  startQuiz(questionsMechantsDisney);
   scrollToTop();
 });
 
