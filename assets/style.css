@@ -107,22 +107,20 @@ h4 {
   box-sizing: border-box;
 }
 
-
-
 #question-title-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 18vh;
+  margin-bottom: 2rem;
 }
 
 .box {
   position: relative;
-  width: 240px;
-  height: 40px; 
-  background: rgba(142, 124, 195, 0.5);  border: 2px solid #2a3cad;
-  box-shadow: 0 20px 50px rgb(23, 32, 90);
+  padding: 0.3rem 0.2rem 0 0.3rem;
+  background: rgba(149, 128, 212, 0.4);  border: 2px solid #4D4AE5;
+  box-shadow: 0 10px 20px rgb(23, 32, 90);
   overflow: hidden;
+  height: 3rem;
 }
 
 .box:before {
@@ -132,7 +130,7 @@ h4 {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.3);
   transition: 0.5s;
   pointer-events: none;
 }
@@ -172,8 +170,8 @@ h4 {
   content: '';
   position: absolute;
   width: 100%;
-  height: 2px;
-  background: #50dfdb;
+  height: 0.1rem;
+  background: #0cf5ef;
   animation: animate 4s linear infinite;
 }
 
@@ -664,6 +662,7 @@ h4 {
 #quiz-container {
   text-align: center;
   margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 
 #flag-image {
