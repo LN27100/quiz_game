@@ -3869,7 +3869,7 @@ const questionsJeuxDeSociete = [
   {
     numéro: "6/20",
     question:
-      "Dans quel jeu de société les joueurs doivent-ils deviner qui est l'Assassin parmi eux sans se faire démasquer ?",
+      "Dans quel jeu de société les joueurs doivent-ils deviner qui sont les assassins parmi eux sans se faire démasquer ?",
     options: [
       "Les Loups-Garous de Thiercelieux",
       "Codenames",
@@ -7521,7 +7521,7 @@ const questionsPixar = [
     numéro: "9/20",
     question:
       "Quel film Pixar raconte l'histoire d'un vieil homme et un jeune scout naviguant vers une destination exotique ?",
-    options: ["Là-haut", "Inside Out", "Brave", "Monstres et Cie"],
+    options: ["Là-haut", "Vice-Versa", "Rebelle", "Monstres et Cie"],
     answer: "Là-haut",
   },
   {
@@ -7555,12 +7555,12 @@ const questionsPixar = [
     question:
       "Quel film Pixar met en avant une jeune princesse écossaise qui défie une tradition ancienne ?",
     options: [
-      "Brave",
+      "Rebelle",
       "Monstres Academy",
       "Le Monde de Nemo",
       "Les Indestructibles",
     ],
-    answer: "Brave",
+    answer: "Rebelle",
   },
   {
     numéro: "14/20",
@@ -7578,7 +7578,7 @@ const questionsPixar = [
     numéro: "15/20",
     question:
       "Quel film Pixar met en scène une jeune fille qui découvre un passage secret menant à un monde fantastique ?",
-    options: ["Monstres et Cie", "Toy Story", "Là-haut", "Inside Out"],
+    options: ["Monstres et Cie", "Toy Story", "Là-haut", "Vice-Versa"],
     answer: "Monstres et Cie",
   },
   {
@@ -7592,14 +7592,14 @@ const questionsPixar = [
     numéro: "17/20",
     question:
       "Quel film Pixar se déroule dans un monde où les émotions d'un musicien de jazz sont mises à l'épreuve après un accident ?",
-    options: ["Soul", "Coco", "Brave", "Wall-E"],
+    options: ["Soul", "Coco", "Rebelle", "Wall-E"],
     answer: "Soul",
   },
   {
     numéro: "18/20",
     question:
       "Quel film Pixar raconte l'histoire d'un jeune garçon et de son ami qui vivent un été inoubliable en Italie, tout en cachant qu'ils sont en réalité des monstres marins ?",
-    options: ["Luca", "En Avant", "Onward", "Soul"],
+    options: ["Luca", "En Avant", "En avant", "Soul"],
     answer: "Luca",
   },
   {
@@ -7627,7 +7627,7 @@ const questionsTelerealite = [
   {
     numéro: "1/20",
     question:
-      "Quelle émission de téléréalité met en scène des candidats cherchant l'amour parmi un groupe de prétendantes ou prétendants ?",
+      "Quelle émission de téléréalité met en scène un candidat cherchant l'amour parmi un groupe de prétendantes ou prétendants ?",
     options: [
       "Le Bachelor",
       "Secret Story",
@@ -7773,7 +7773,7 @@ const questionsTelerealite = [
   {
     numéro: "14/20",
     question:
-      "Quelle émission de téléréalité suit des familles dans leur quotidien, mettant en avant leurs dynamiques et leurs défis ?",
+      "Quelle émission de téléréalité met au défi deux familles lors d'un jeu?",
     options: [
       "Une Famille en Or",
       "Les Marseillais",
@@ -7797,7 +7797,7 @@ const questionsTelerealite = [
   {
     numéro: "16/20",
     question:
-      "Quelle émission de téléréalité met en compétition des candidats qui doivent organiser des dîners parfaits chez eux pour remporter un prix ?",
+      "Quelle émission de téléréalité met en compétition des candidats qui doivent organiser des dîners chez eux pour remporter un prix ?",
     options: [
       "Un Dîner Presque Parfait",
       "Top Chef",
@@ -7840,7 +7840,7 @@ const questionsTelerealite = [
   {
     numéro: "20/20",
     question:
-      "Quelle émission de téléréalité met en compétition des candidats qui doivent réaliser des transformations de maisons ?",
+      "Quelle émission de téléréalité met en compétition des candidats qui doivent vendre une maison pour gagner ?",
     options: ["Maison à Vendre", "D&CO", "Rénovation Impossible", "Queer Eye"],
     answer: "Maison à Vendre",
   },
@@ -8352,7 +8352,7 @@ const questionsInstrumentsCorde = [
   {
     numéro: "8/20",
     question: "Quel instrument à corde est connu pour son utilisation dans la musique bluegrass ?",
-    options: ["Banjo", "Harp", "Sitar", "Clavecin"],
+    options: ["Banjo", "Harpe", "Sitar", "Clavecin"],
     answer: "Banjo"
   },
   {
@@ -8394,7 +8394,7 @@ const questionsInstrumentsCorde = [
   {
     numéro: "15/20",
     question: "Quel instrument à corde est typique de la musique hawaïenne ?",
-    options: ["Ukulélé", "Banjo", "Harp", "Violon"],
+    options: ["Ukulélé", "Banjo", "Harpe", "Violon"],
     answer: "Ukulélé"
   },
   {
@@ -8444,7 +8444,7 @@ const questionsAnimauxDisney = [
   },
   {
     numéro: "3/20",
-    question: "Comment s'appelle le cheval de Raiponce dans 'Tangled' ?",
+    question: "Comment s'appelle le cheval dans 'Raiponce' ?",
     options: ["Maximus", "Philippe", "Pegasus", "Achilles"],
     answer: "Maximus"
   },
@@ -8487,7 +8487,7 @@ const questionsAnimauxDisney = [
   {
     numéro: "10/20",
     question: "Quel animal est Rafiki dans 'Le Roi Lion' ?",
-    options: ["Mandrill", "Lion", "Hyène", "Girafe"],
+    options: ["Mandrill", "Lion", "Babouin", "Girafe"],
     answer: "Mandrill"
   },
   {
@@ -9044,6 +9044,130 @@ const questionsFestivalsMusiqueFrance = [
   }
 ];
 
+const questionsPersonnalitesMondiales = [
+  {
+    numéro: "1/20",
+    question: "Quelle est la nationalité du chanteur Roch Voisine ?",
+    options: ["Canadienne", "Française", "Belge", "Américaine"],
+    answer: "Canadienne"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le genre littéraire pour lequel Stephen King est le plus connu ?",
+    options: ["Horreur", "Romance", "Science-fiction", "Fantaisie"],
+    answer: "Horreur"
+  },
+  {
+    numéro: "3/20",
+    question: "Quelle théorie célèbre a été développée par Albert Einstein ?",
+    options: ["Théorie de la relativité", "Théorie de la gravitation", "Théorie de l'évolution", "Théorie du Big Bang"],
+    answer: "Théorie de la relativité"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel rôle Charles de Gaulle a-t-il joué pendant la Seconde Guerre mondiale ?",
+    options: ["Chef de la Résistance française", "Président des États-Unis", "Premier ministre britannique", "Empereur du Japon"],
+    answer: "Chef de la Résistance française"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel type de contenu est principalement produit par Amixem sur YouTube ?",
+    options: ["Vlogs et divertissement", "Cuisine", "Jeux vidéo", "Tutoriels de maquillage"],
+    answer: "Vlogs et divertissement"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel titre était porté par Napoléon Bonaparte en France ?",
+    options: ["Empereur", "Roi", "Président", "Premier ministre"],
+    answer: "Empereur"
+  },
+  {
+    numéro: "7/20",
+    question: "Dans quelle maison Harry Potter a-t-il été réparti à Poudlard ?",
+    options: ["Gryffondor", "Serpentard", "Poufsouffle", "Serdaigle"],
+    answer: "Gryffondor"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel type de vidéos Tibo Inshape est-il connu pour produire ?",
+    options: ["Fitness et musculation", "Cuisine", "Mode", "Voyage"],
+    answer: "Fitness et musculation"
+  },
+  {
+    numéro: "9/20",
+    question: "Quelle émission de télévision française est principalement animée par Nagui ?",
+    options: ["Taratata", "Le Grand Journal", "The Voice", "Qui veut gagner des millions ?"],
+    answer: "Taratata"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel pays Barack Obama a-t-il dirigé en tant que président ?",
+    options: ["États-Unis", "Canada", "Royaume-Uni", "France"],
+    answer: "États-Unis"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le métier du personnage Columbo dans la série télévisée éponyme ?",
+    options: ["Détective", "Docteur", "Avocat", "Journaliste"],
+    answer: "Détective"
+  },
+  {
+    numéro: "12/20",
+    question: "Quelle émission de télévision a révélé Jenifer Bartoli au grand public ?",
+    options: ["Star Academy", "The Voice", "Popstars", "La Nouvelle Star"],
+    answer: "Star Academy"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel type de contenu est principalement produit par Squeezie sur YouTube ?",
+    options: ["Jeux vidéo", "Cuisine", "Mode", "Voyage"],
+    answer: "Jeux vidéo"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom du père dans la série télévisée 'Les Simpson' ?",
+    options: ["Homer Simpson", "Bart Simpson", "Ned Flanders", "Moe Szyslak"],
+    answer: "Homer Simpson"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel groupe musical a révélé Harry Styles au grand public ?",
+    options: ["One Direction", "The Beatles", "NSYNC", "Backstreet Boys"],
+    answer: "One Direction"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le métier de Tintin dans la bande dessinée éponyme ?",
+    options: ["Journaliste", "Détective", "Docteur", "Pilote"],
+    answer: "Journaliste"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel rôle Tom Hanks a-t-il joué dans le film 'Toy Story' ?",
+    options: ["Woody", "Buzz l'éclair", "Monsieur Patate", "Rex"],
+    answer: "Woody"
+  },
+  {
+    numéro: "18/20",
+    question: "Dans quel film d'animation un extraterrestre bleu apparaît-il ?",
+    options: ["Lilo & Stitch", "Le Roi Lion", "La Belle et la Bête", "Aladdin"],
+    answer: "Lilo & Stitch"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel type de contenu est principalement produit par Neo et Swan sur YouTube ?",
+    options: ["Vlogs familiaux et défis", "Jeux vidéo", "Cuisine", "Mode"],
+    answer: "Vlogs familiaux et défis"
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle émission de télévision a révélé Louane au grand public ?",
+    options: ["The Voice", "Star Academy", "Nouvelle Star", "Popstars"],
+    answer: "The Voice"
+  }
+];
+
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -9059,6 +9183,7 @@ shuffleQuestionsOptions(questionsMechantsDisney);
 shuffleQuestionsOptions(questionsDisneylandParis);
 shuffleQuestionsOptions(questionsStarsChanson);
 shuffleQuestionsOptions(questionsFestivalsMusiqueFrance );
+shuffleQuestionsOptions(questionsPersonnalitesMondiales);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -9120,6 +9245,7 @@ const themeMechantsDisneyBtn = document.getElementById("theme-mechantsDisney");
 const themeDisneylandParisBtn = document.getElementById("theme-parcDisneyland");
 const themeStarsChansonBtn = document.getElementById("theme-starChanson");
 const themeFestivalsMusiqueFranceBtn = document.getElementById("theme-festivalsMusique");
+const themePersonnalitesMondialesBtn = document.getElementById("theme-personnalitesMondiales");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -9214,6 +9340,12 @@ themePixarBtn.addEventListener("click", () => {
 themeStarsChansonBtn.addEventListener("click", () => {
   selectedTheme = "Star de la chanson";
   startQuiz(questionsStarsChanson);
+  scrollToTop();
+});
+
+themePersonnalitesMondialesBtn.addEventListener("click", () => {
+  selectedTheme = "Personnalités mondiales";
+  startQuiz(questionsPersonnalitesMondiales);
   scrollToTop();
 });
 
@@ -9549,6 +9681,16 @@ function initializeQuiz() {
   nextButton.removeEventListener("click", nextQuestion);
   nextButton.addEventListener("click", nextQuestion);
 }
+
+document.querySelectorAll('.theme-button').forEach(button => {
+  button.addEventListener('click', function() {
+    const theme = this.getAttribute('data-theme');
+    document.getElementById('question-title').innerText = theme;
+    document.getElementById('quiz-container').classList.remove('hidden');
+  });
+});
+
+
 // Fonction pour afficher la question courante
 function showQuestion() {
   if (currentQuestionIndex >= questions.length) {
