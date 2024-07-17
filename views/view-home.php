@@ -161,6 +161,8 @@ $img_path = $upload_dir . $img;
     <button id="theme-parcDisneyland" class="theme-button" data-theme="Parc Disneyland Paris" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Parc Disneyland Paris</button>
     <button id="theme-animauxDisney" class="theme-button" data-theme="Animaux Disney" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Animaux Disney</button>
     <button id="theme-filmsPixar" class="theme-button" data-theme="Films Pixar" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Films Pixar</button>
+    <button id="theme-detailsDisney" class="theme-button" data-theme="Détails Disney" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Détails des Disney</button>
+
   </div>
 
   <h4>Catégorie Musicale</h4>

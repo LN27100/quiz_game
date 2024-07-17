@@ -9659,6 +9659,129 @@ const questionsSuperVilains = [
   }
 ];
 
+const questionsDetailsDisney = [
+  {
+    numéro: "1/20",
+    question: "Comment s'appelle l'elfe à la chemise de bucheron rouge dans 'En avant' ?",
+    options: ["Ian Lightfoot", "Barley Lightfoot", "Wilden Lightfoot", "Laurel Lightfoot"],
+    answer: "Ian Lightfoot"
+  },
+  {
+    numéro: "2/20",
+    question: "Comment s'appelle la jeune-fille au bonnet vert dans 'Alerte rouge' ?",
+    options: ["Abby", "Miriam", "Lily", "Meilin"],
+    answer: "Miriam"
+  },
+  {
+    numéro: "3/20",
+    question: "De quelle race animal est Tuk Tuk dans 'Raya et le dernier dragon'?",
+    options: ["un mélange de tatou, d’insecte et de cochon", "un tatou", "un pangolin", "un mélange de pangolin, d'insecte et de hamster"],
+    answer: "Loki"
+  },
+  {
+    numéro: "4/20",
+    question: "De quelle couleur sont les pompons sur les ballerines de la fée Clochette",
+    options: ["Blanc", "Vert", "Jaune", "Rose"],
+    answer: "Blanc"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le prénom de la femme de Marin dans 'Le monde de Nemo'?",
+    options: ["Corail", "Darla", "Gill", "Astrid"],
+    answer: "Corail"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel super-vilain est un génie scientifique avec des bras mécaniques qui combattent Spider-Man ?",
+    options: ["Docteur Octopus", "Le Bouffon Vert", "Venom", "Electro"],
+    answer: "Docteur Octopus"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel ennemi de Daredevil contrôle une grande partie du crime organisé à New York ?",
+    options: ["Kingpin", "Bullseye", "Purple Man", "The Hand"],
+    answer: "Kingpin"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel super-vilain est une intelligence artificielle créée par Tony Stark et Bruce Banner ?",
+    options: ["Ultron", "Thanos", "Loki", "Red Skull"],
+    answer: "Ultron"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel super-vilain est un extraterrestre symbiotique qui s'attache à Eddie Brock ?",
+    options: ["Venom", "Carnage", "Morbius", "Scorpion"],
+    answer: "Venom"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel super-vilain est un ancien chirurgien devenu sorcier maléfique et ennemi de Doctor Strange ?",
+    options: ["Baron Mordo", "Dormammu", "Kaecilius", "Mephisto"],
+    answer: "Baron Mordo"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel ennemi des Gardiens de la Galaxie est surnommé 'Le Destructeur' ?",
+    options: ["Ronan", "Ego", "Nebula", "Thanos"],
+    answer: "Ronan"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel super-vilain est un scientifique qui se transforme en un monstre de sable ?",
+    options: ["Sandman", "Rhino", "Lizard", "Vulture"],
+    answer: "Sandman"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel ennemi de Thor est le dieu du mensonge et de la tromperie ?",
+    options: ["Loki", "Hela", "Malekith", "Surtur"],
+    answer: "Loki"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel super-vilain de l'univers Marvel a une tête en forme de crâne rouge ?",
+    options: ["Red Skull", "Crossbones", "Baron Zemo", "Winter Soldier"],
+    answer: "Red Skull"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel super-vilain est aussi appelé Victor Von Doom et est un ennemi des Quatre Fantastiques ?",
+    options: ["Docteur Doom", "Galactus", "Mole Man", "Silver Surfer"],
+    answer: "Docteur Doom"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel super-vilain est un dieu du chaos qui affronte Thor dans 'Thor: Ragnarok' ?",
+    options: ["Hela", "Loki", "Surtur", "Malekith"],
+    answer: "Hela"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel super-vilain peut manipuler l'électricité et est un ennemi de Spider-Man ?",
+    options: ["Electro", "Shocker", "Rhino", "Vulture"],
+    answer: "Electro"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel super-vilain est une version maléfique de Spider-Man et s'appelle Cletus Kasady ?",
+    options: ["Carnage", "Venom", "Morbius", "Toxin"],
+    answer: "Carnage"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel super-vilain est un ancien général Kree devenu accroc à la Pierre de l'Infini ?",
+    options: ["Yon-Rogg", "Ronan", "Korath", "Talos"],
+    answer: "Ronan"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel super-vilain est un méchant de l'univers Marvel qui est un maître en arts martiaux et ennemi de Shang-Chi ?",
+    options: ["Le Mandarin", "Killian", "Whiplash", "Taskmaster"],
+    answer: "Le Mandarin"
+  }
+];
+
 
 
 // Mélanger les options pour chaque thème de questions
@@ -9680,6 +9803,7 @@ shuffleQuestionsOptions(questionsAnimes);
 shuffleQuestionsOptions(questionsPopRock);
 shuffleQuestionsOptions(questionsMarvel);
 shuffleQuestionsOptions(questionsSuperVilains);
+shuffleQuestionsOptions(questionsDetailsDisney);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -9746,6 +9870,8 @@ const themeAnimesBtn = document.getElementById("theme-animes");
 const themePopRockBtn = document.getElementById("theme-popRock");
 const themeMarvelBtn = document.getElementById("theme-marvel");
 const themeSuperVilainsBtn = document.getElementById("theme-superVilains");
+const themeDetailsDisneyBtn = document.getElementById("theme-detailsDisney");
+
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -9858,6 +9984,12 @@ themePopRockBtn.addEventListener("click", () => {
 themeAnimesBtn.addEventListener("click", () => {
   selectedTheme = "Animes";
   startQuiz(questionsAnimes);
+  scrollToTop();
+});
+
+themeDetailsDisneyBtn.addEventListener("click", () => {
+  selectedTheme = "Détails des Disney";
+  startQuiz(questionsDetailsDisney);
   scrollToTop();
 });
 

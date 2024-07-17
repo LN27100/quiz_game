@@ -282,6 +282,12 @@ h4 {
   background-repeat: no-repeat;
 }
 
+#theme-detailsDisney {
+  background-image: url('../assets/img/theme_detailsDisney.jpg');
+  background-size: 6rem 6rem;
+  background-repeat: no-repeat;
+}
+
 #theme-horreur {
   background-image: url('../assets/img/theme_filmHorreur.JPG');
   background-size: 6rem 6rem;
