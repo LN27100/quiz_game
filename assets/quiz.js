@@ -9167,6 +9167,498 @@ const questionsPersonnalitesMondiales = [
   }
 ];
 
+const questionsAnimes = [
+  {
+    numéro: "1/20",
+    question: "Quel est le rêve de Luffy dans One Piece ?",
+    options: ["Devenir le Roi des Pirates", "Trouver le trésor One Piece", "Devenir un Amiral de la Marine", "Trouver All Blue"],
+    answer: "Devenir le Roi des Pirates"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le pouvoir principal de Gon Freecss dans Hunter x Hunter ?",
+    options: ["Renforcement", "Manipulation", "Transmutation", "Spécialisation"],
+    answer: "Renforcement"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est le nom de l'équipe de Natsu Dragnir dans Fairy Tail ?",
+    options: ["Team Natsu", "Team Dragon", "Team Fairy", "Team Fire"],
+    answer: "Team Natsu"
+  },
+  {
+    numéro: "4/20",
+    question: "Comment se nomme la petite sœur d'Anya dans Spy x Family ?",
+    options: ["Elle n'a pas de petite sœur", "Becky", "Yor", "Loyd"],
+    answer: "Elle n'a pas de petite sœur"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le style de combat de Tanjiro Kamado dans Demon Slayer ?",
+    options: ["Souffle de l'Eau", "Souffle du Feu", "Souffle de la Foudre", "Souffle du Vent"],
+    answer: "Souffle de l'Eau"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom de l'ennemi principal de Goku dans Dragon Ball Z ?",
+    options: ["Freezer", "Cell", "Majin Buu", "Vegeta"],
+    answer: "Freezer"
+  },
+  {
+    numéro: "7/20",
+    question: "Comment se nomme la protagoniste de Komi cherche ses mots ?",
+    options: ["Shoko Komi", "Komi San", "Komi Shoko", "Shoko Tadano"],
+    answer: "Shoko Komi"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom du goule qui attaque Ken Kaneki dans Tokyo Ghoul ?",
+    options: ["Rize Kamishiro", "Touka Kirishima", "Yoshimura", "Nishiki Nishio"],
+    answer: "Rize Kamishiro"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est le métier de Shinya Kogami dans Psycho Pass ?",
+    options: ["Inspecteur", "Exécuteur ", "Détective", "Scientifique"],
+    answer: "Exécuteur "
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle malédiction frappe la classe 3-3 dans Another ?",
+    options: ["Un étudiant mort réapparaît", "Tous les étudiants deviennent des goules", "Un tueur en série les pourchasse", "Ils sont transportés dans un autre monde"],
+    answer: "Un étudiant mort réapparaît"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel métal est recherché par les frères Elric dans Fullmetal Alchemist ?",
+    options: ["Pierre Philosophale", "Or", "Argent", "Plomb"],
+    answer: "Pierre Philosophale"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le pouvoir de Saitama dans One Punch Man ?",
+    options: ["Super force", "Invisibilité", "Vol", "Télékinésie"],
+    answer: "Super force"
+  },
+  {
+    numéro: "13/20",
+    question: "Quelle est la principale toupie de Tyson dans Beyblade ?",
+    options: ["Dragoon", "Pegasus", "Bull", "Wolf"],
+    answer: "Dragoon"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom du rival de Yugi dans Yu-Gi-Oh ?",
+    options: ["Seto Kaiba", "Joey Wheeler", "Bakura", "Marik Ishtar"],
+    answer: "Seto Kaiba"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le rêve de Yatora Yaguchi dans Blue Period ?",
+    options: ["Devenir artiste", "Devenir musicien", "Devenir écrivain", "Devenir ingénieur"],
+    answer: "Devenir artiste"
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle est la particularité de Shinichi Izumi dans Parasite ?",
+    options: ["Il partage son corps avec un parasite", "Il peut voir les esprits", "Il est un vampire", "Il peut manipuler le feu"],
+    answer: "Il partage son corps avec un parasite"
+  },
+  {
+    numéro: "17/20",
+    question: "Quelle application mobile transforme les gens en avatars dans Lookism ?",
+    options: ["4 Look", "LOOK", "Avatarize", "Lookism"],
+    answer: "Lookism"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel est le but principal de Senku Ishigami dans Dr. Stone ?",
+    options: ["Rebâtir la civilisation avec la science", "Devenir le chef du village", "Trouver un remède pour sauver son père", "Créer une arme ultime"],
+    answer: "Rebâtir la civilisation avec la science"
+  },
+  {
+    numéro: "19/20",
+    question: "Qui est le capitaine de l'équipage d'Edens Zero ?",
+    options: ["Shiki Granbell", "Rebecca Bluegarden", "Weisz Steiner", "Happy"],
+    answer: "Shiki Granbell"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le pouvoir de Davi dans My Daemon ?",
+    options: ["Invoquer un démon", "Voler", "Manipuler le temps", "Télékinésie"],
+    answer: "Invoquer un démon"
+  }
+];
+
+const questionsPopRock = [
+  {
+    numéro: "1/20",
+    question: "Quel groupe est connu pour la chanson 'Bohemian Rhapsody' ?",
+    options: ["Queen", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+    answer: "Queen"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel membre des Beatles a été assassiné en 1980 ?",
+    options: ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
+    answer: "John Lennon"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel groupe a sorti l'album 'The Dark Side of the Moon' ?",
+    options: ["Pink Floyd", "The Rolling Stones", "The Who", "Fleetwood Mac"],
+    answer: "Pink Floyd"
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle est la nationalité du groupe U2 ?",
+    options: ["Irlandaise", "Américaine", "Anglaise", "Australienne"],
+    answer: "Irlandaise"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le titre de la première chanson des Rolling Stones à atteindre la première place des charts américains ?",
+    options: ["(I Can't Get No) Satisfaction", "Paint It Black", "Angie", "Start Me Up"],
+    answer: "(I Can't Get No) Satisfaction"
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle est la profession de Bruce Springsteen avant de devenir célèbre ?",
+    options: ["Musicien", "Journaliste", "Professeur", "Ouvrier"],
+    answer: "Musicien"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le nom du premier album des Arctic Monkeys ?",
+    options: ["Whatever People Say I Am, That's What I'm Not", "Favourite Worst Nightmare", "AM", "Humbug"],
+    answer: "Whatever People Say I Am, That's What I'm Not"
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle chanson de Nirvana a été réalisée en acoustique pour MTV Unplugged en 1993 ?",
+    options: ["About a Girl", "Smells Like Teen Spirit", "In Bloom", "Lithium"],
+    answer: "About a Girl"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel membre de Queen a écrit la chanson 'We Will Rock You' ?",
+    options: ["Brian May", "Freddie Mercury", "Roger Taylor", "John Deacon"],
+    answer: "Brian May"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le vrai nom de Bono, le chanteur principal de U2 ?",
+    options: ["Paul Hewson", "David Howell Evans", "Adam Clayton", "Larry Mullen Jr."],
+    answer: "Paul Hewson"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel groupe est connu pour la chanson 'Smells Like Teen Spirit' ?",
+    options: ["Nirvana", "Pearl Jam", "Soundgarden", "Alice in Chains"],
+    answer: "Nirvana"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel album des Beatles est souvent considéré comme l'un des meilleurs albums de tous les temps ?",
+    options: ["Sgt. Pepper's Lonely Hearts Club Band", "Abbey Road", "Revolver", "The White Album"],
+    answer: "Sgt. Pepper's Lonely Hearts Club Band"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel groupe a sorti l'album 'Hotel California' ?",
+    options: ["Eagles", "Fleetwood Mac", "The Doors", "The Beach Boys"],
+    answer: "Eagles"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel membre des Rolling Stones a fondé le groupe ?",
+    options: ["Brian Jones", "Mick Jagger", "Keith Richards", "Charlie Watts"],
+    answer: "Brian Jones"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel groupe a popularisé le genre 'grunge' dans les années 90 ?",
+    options: ["Nirvana", "Red Hot Chili Peppers", "Green Day", "Blink-182"],
+    answer: "Nirvana"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le titre de l'album légendaire des Sex Pistols ?",
+    options: ["Never Mind the Bollocks, Here's the Sex Pistols", "London Calling", "The Clash", "Combat Rock"],
+    answer: "Never Mind the Bollocks, Here's the Sex Pistols"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel groupe a sorti la chanson 'Wonderwall' ?",
+    options: ["Oasis", "Blur", "Radiohead", "The Verve"],
+    answer: "Oasis"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel membre du groupe Foo Fighters était le batteur de Nirvana ?",
+    options: ["Dave Grohl", "Pat Smear", "Taylor Hawkins", "Nate Mendel"],
+    answer: "Dave Grohl"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel groupe britannique a sorti l'album 'A Night at the Opera' ?",
+    options: ["Queen", "Led Zeppelin", "The Beatles", "Pink Floyd"],
+    answer: "Queen"
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle est la chanson la plus célèbre de Lynyrd Skynyrd ?",
+    options: ["Sweet Home Alabama", "Free Bird", "Simple Man", "Tuesday's Gone"],
+    answer: "Sweet Home Alabama"
+  }
+];
+
+const questionsMarvel = [
+  {
+    numéro: "1/20",
+    question: "Quel super-héros est également connu sous le nom de Steve Rogers ?",
+    options: ["Captain America", "Iron Man", "Thor", "Hulk"],
+    answer: "Captain America"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel acteur interprète Spider-Man dans Spider-Man: No Way Home ?",
+    options: ["Tom Holland", "Tobey Maguire", "Andrew Garfield", "Chris Pratt"],
+    answer: "Tom Holland"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est le matériau du bouclier de Captain America ?",
+    options: ["Vibranium", "Adamantium", "Titanium", "Acier"],
+    answer: "Vibranium"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel super-héros est aussi appelé 'Le Tisseur' ?",
+    options: ["Spider-Man", "Doctor Strange", "Black Panther", "Ant-Man"],
+    answer: "Spider-Man"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel personnage est surnommé 'le Sorcier Suprême' ?",
+    options: ["Doctor Strange", "Scarlet Witch", "Loki", "Thanos"],
+    answer: "Doctor Strange"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom de l'arme de Thor ?",
+    options: ["Mjolnir", "Stormbreaker", "Gungnir", "Hofund"],
+    answer: "Mjolnir"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le nom de l'alter ego de Hulk ?",
+    options: ["Bruce Banner", "Tony Stark", "Peter Parker", "Stephen Strange"],
+    answer: "Bruce Banner"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel groupe de super-héros comprend Star-Lord, Gamora, Drax, Rocket et Groot ?",
+    options: ["Les Gardiens de la Galaxie", "Les Avengers", "Les X-Men", "Les Quatre Fantastiques"],
+    answer: "Les Gardiens de la Galaxie"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est le nom de la nation que Black Panther protège ?",
+    options: ["Wakanda", "Genosha", "Latveria", "Sokovia"],
+    answer: "Wakanda"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le nom du frère adoptif de Thor qui est aussi connu comme le 'Dieu de la Malice' ?",
+    options: ["Loki", "Heimdall", "Balder", "Hela"],
+    answer: "Loki"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel super-héros est interprété par Chris Hemsworth dans l'univers cinématographique Marvel ?",
+    options: ["Thor", "Captain America", "Iron Man", "Hawkeye"],
+    answer: "Thor"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom du méchant principal dans 'Avengers: Infinity War' ?",
+    options: ["Thanos", "Loki", "Ultron", "Red Skull"],
+    answer: "Thanos"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel super-héros est aveugle mais possède des sens surdéveloppés ?",
+    options: ["Daredevil", "Hawkeye", "Cyclope", "Quicksilver"],
+    answer: "Daredevil"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel personnage féminin devient un super-héros après une piqûre d'araignée radioactive ?",
+    options: ["Spider-Woman", "Black Widow", "Scarlet Witch", "Wasp"],
+    answer: "Spider-Woman"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le nom de l'organisation dirigée par Nick Fury ?",
+    options: ["S.H.I.E.L.D.", "HYDRA", "A.I.M.", "S.W.O.R.D."],
+    answer: "S.H.I.E.L.D."
+  },
+  {
+    numéro: "16/20",
+    question: "Quel super-héros possède une armure faite d'un alliage spécial appelé 'Adamantium' ?",
+    options: ["Wolverine", "Iron Man", "Captain America", "Black Panther"],
+    answer: "Wolverine"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel personnage des Gardiens de la Galaxie ne prononce que les mots 'Je s’appelle Groot' ?",
+    options: ["Groot", "Rocket", "Drax", "Gamora"],
+    answer: "Groot"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel acteur incarne Tony Stark/Iron Man dans l'univers cinématographique Marvel ?",
+    options: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth"],
+    answer: "Robert Downey Jr."
+  },
+  {
+    numéro: "19/20",
+    question: "Quel super-héros a pour nom civil 'Matt Murdock' ?",
+    options: ["Daredevil", "Iron Fist", "Luke Cage", "Jessica Jones"],
+    answer: "Daredevil"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le nom civil de Daredevil ?",
+    options: ["Matt Murdock", "Peter Parker", "Steve Rogers", "Clint Barton"],
+    answer: "Matt Murdock"
+  }
+];
+
+const questionsSuperVilains = [
+  {
+    numéro: "1/20",
+    question: "Quel super-vilain est surnommé le 'Titan Fou' ?",
+    options: ["Thanos", "Loki", "Red Skull", "Ultron"],
+    answer: "Thanos"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel ennemi de Spider-Man est un scientifique devenu lézard géant ?",
+    options: ["Le Lézard", "Venom", "Le Bouffon Vert", "Docteur Octopus"],
+    answer: "Le Lézard"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel super-vilain a été le premier ennemi des Avengers dans leur film de 2012 ?",
+    options: ["Loki", "Ultron", "Thanos", "Red Skull"],
+    answer: "Loki"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel ennemi des X-Men peut contrôler le métal ?",
+    options: ["Magneto", "Apocalypse", "Mystique", "Sabretooth"],
+    answer: "Magneto"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel super-vilain est le roi de Wakanda avant T'Challa et revient pour réclamer le trône dans 'Black Panther' ?",
+    options: ["Killmonger", "M'Baku", "Klaw", "Zemo"],
+    answer: "Killmonger"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel super-vilain est un génie scientifique avec des bras mécaniques qui combattent Spider-Man ?",
+    options: ["Docteur Octopus", "Le Bouffon Vert", "Venom", "Electro"],
+    answer: "Docteur Octopus"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel ennemi de Daredevil contrôle une grande partie du crime organisé à New York ?",
+    options: ["Kingpin", "Bullseye", "Purple Man", "The Hand"],
+    answer: "Kingpin"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel super-vilain est une intelligence artificielle créée par Tony Stark et Bruce Banner ?",
+    options: ["Ultron", "Thanos", "Loki", "Red Skull"],
+    answer: "Ultron"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel super-vilain est un extraterrestre symbiotique qui s'attache à Eddie Brock ?",
+    options: ["Venom", "Carnage", "Morbius", "Scorpion"],
+    answer: "Venom"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel super-vilain est un ancien chirurgien devenu sorcier maléfique et ennemi de Doctor Strange ?",
+    options: ["Baron Mordo", "Dormammu", "Kaecilius", "Mephisto"],
+    answer: "Baron Mordo"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel ennemi des Gardiens de la Galaxie est surnommé 'Le Destructeur' ?",
+    options: ["Ronan", "Ego", "Nebula", "Thanos"],
+    answer: "Ronan"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel super-vilain est un scientifique qui se transforme en un monstre de sable ?",
+    options: ["Sandman", "Rhino", "Lizard", "Vulture"],
+    answer: "Sandman"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel ennemi de Thor est le dieu du mensonge et de la tromperie ?",
+    options: ["Loki", "Hela", "Malekith", "Surtur"],
+    answer: "Loki"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel super-vilain de l'univers Marvel a une tête en forme de crâne rouge ?",
+    options: ["Red Skull", "Crossbones", "Baron Zemo", "Winter Soldier"],
+    answer: "Red Skull"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel super-vilain est aussi appelé Victor Von Doom et est un ennemi des Quatre Fantastiques ?",
+    options: ["Docteur Doom", "Galactus", "Mole Man", "Silver Surfer"],
+    answer: "Docteur Doom"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel super-vilain est un dieu du chaos qui affronte Thor dans 'Thor: Ragnarok' ?",
+    options: ["Hela", "Loki", "Surtur", "Malekith"],
+    answer: "Hela"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel super-vilain peut manipuler l'électricité et est un ennemi de Spider-Man ?",
+    options: ["Electro", "Shocker", "Rhino", "Vulture"],
+    answer: "Electro"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel super-vilain est une version maléfique de Spider-Man et s'appelle Cletus Kasady ?",
+    options: ["Carnage", "Venom", "Morbius", "Toxin"],
+    answer: "Carnage"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel super-vilain est un ancien général Kree devenu accroc à la Pierre de l'Infini ?",
+    options: ["Yon-Rogg", "Ronan", "Korath", "Talos"],
+    answer: "Ronan"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel super-vilain est un méchant de l'univers Marvel qui est un maître en arts martiaux et ennemi de Shang-Chi ?",
+    options: ["Le Mandarin", "Killian", "Whiplash", "Taskmaster"],
+    answer: "Le Mandarin"
+  }
+];
+
 
 
 // Mélanger les options pour chaque thème de questions
@@ -9184,6 +9676,10 @@ shuffleQuestionsOptions(questionsDisneylandParis);
 shuffleQuestionsOptions(questionsStarsChanson);
 shuffleQuestionsOptions(questionsFestivalsMusiqueFrance );
 shuffleQuestionsOptions(questionsPersonnalitesMondiales);
+shuffleQuestionsOptions(questionsAnimes);
+shuffleQuestionsOptions(questionsPopRock);
+shuffleQuestionsOptions(questionsMarvel);
+shuffleQuestionsOptions(questionsSuperVilains);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -9246,6 +9742,10 @@ const themeDisneylandParisBtn = document.getElementById("theme-parcDisneyland");
 const themeStarsChansonBtn = document.getElementById("theme-starChanson");
 const themeFestivalsMusiqueFranceBtn = document.getElementById("theme-festivalsMusique");
 const themePersonnalitesMondialesBtn = document.getElementById("theme-personnalitesMondiales");
+const themeAnimesBtn = document.getElementById("theme-animes");
+const themePopRockBtn = document.getElementById("theme-popRock");
+const themeMarvelBtn = document.getElementById("theme-marvel");
+const themeSuperVilainsBtn = document.getElementById("theme-superVilains");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -9334,6 +9834,30 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeSuperVilainsBtn.addEventListener("click", () => {
+  selectedTheme = "Super-Vilains";
+  startQuiz(questionsSuperVilains);
+  scrollToTop();
+});
+
+themeMarvelBtn.addEventListener("click", () => {
+  selectedTheme = "Marvel";
+  startQuiz(questionsMarvel);
+  scrollToTop();
+});
+
+themePopRockBtn.addEventListener("click", () => {
+  selectedTheme = "Pop-Rock";
+  startQuiz(questionsPopRock);
+  scrollToTop();
+});
+
+themeAnimesBtn.addEventListener("click", () => {
+  selectedTheme = "Animes";
+  startQuiz(questionsAnimes);
   scrollToTop();
 });
 
