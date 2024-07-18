@@ -207,9 +207,9 @@ $img_path = $upload_dir . $img;
   <div class="container grid">
     <button id="theme-geographie" class="theme-button" data-theme="Géographie" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Géographie</button>
     <button id="theme-orthographe" class="theme-button" data-theme="Orthographe" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Orthographe</button>
-    <button id="theme-drapeaux" class="theme-button" data-theme="Bricolage" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Drapeaux</button>
-    <button id="theme-mathematiques" class="theme-button" data-theme="Drapeaux" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Mathématiques</button>
-    <button id="theme-histoire" class="theme-button" data-theme="Mathématiques" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Histoire</button>
+    <button id="theme-drapeaux" class="theme-button" data-theme="Drapeaux" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Drapeaux</button>
+    <button id="theme-mathematiques" class="theme-button" data-theme="Mathématiques" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Mathématiques</button>
+    <button id="theme-histoire" class="theme-button" data-theme="Histoire" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Histoire</button>
     <button id="theme-sciences" class="theme-button" data-theme="Sciences" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Sciences</button>
     <button id="theme-litterature" class="theme-button" data-theme="Littérature" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Littérature</button>
     <button id="theme-anglais" class="theme-button" data-theme="Anglais" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Anglais</button>

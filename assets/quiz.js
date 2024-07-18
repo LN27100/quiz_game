@@ -9692,93 +9692,93 @@ const questionsDetailsDisney = [
   },
   {
     numéro: "6/20",
-    question: "Quel super-vilain est un génie scientifique avec des bras mécaniques qui combattent Spider-Man ?",
-    options: ["Docteur Octopus", "Le Bouffon Vert", "Venom", "Electro"],
-    answer: "Docteur Octopus"
+    question: "Dans Lilo et Stitch, quels dessins sont représentés sur la robe de Lilo ?",
+    options: ["Des feuilles", "Des fleurs", "Des oursons", "Des pois"],
+    answer: "Des feuilles"
   },
   {
     numéro: "7/20",
-    question: "Quel ennemi de Daredevil contrôle une grande partie du crime organisé à New York ?",
-    options: ["Kingpin", "Bullseye", "Purple Man", "The Hand"],
-    answer: "Kingpin"
+    question: "De quelle couleur est le canapé dans la tour de contrôle de Vice-Versa 2?",
+    options: ["Rouge", "Bleu", "Vert", "Orange"],
+    answer: "Rouge"
   },
   {
     numéro: "8/20",
-    question: "Quel super-vilain est une intelligence artificielle créée par Tony Stark et Bruce Banner ?",
-    options: ["Ultron", "Thanos", "Loki", "Red Skull"],
-    answer: "Ultron"
+    question: "Combien d'élans tiennent compagnie aux ours pendant leur périple dans 'Frère des ours'?",
+    options: ["2", "1", "4", "3"],
+    answer: "2"
   },
   {
     numéro: "9/20",
-    question: "Quel super-vilain est un extraterrestre symbiotique qui s'attache à Eddie Brock ?",
-    options: ["Venom", "Carnage", "Morbius", "Scorpion"],
-    answer: "Venom"
+    question: "Quel dessin est sur la voile du bateau de Vaïana et Maui",
+    options: ["Une spirale", "Un dessin maori", "Une tortue", "Une vague"],
+    answer: "Une spirale"
   },
   {
     numéro: "10/20",
-    question: "Quel super-vilain est un ancien chirurgien devenu sorcier maléfique et ennemi de Doctor Strange ?",
-    options: ["Baron Mordo", "Dormammu", "Kaecilius", "Mephisto"],
-    answer: "Baron Mordo"
+    question: "Comment s'appelle a grand-mère de Coco dans le film 'Coco'?",
+    options: ["Mama Coco", "Grandma", "Mama", "Mama Rivera"],
+    answer: "Mama Coco"
   },
   {
     numéro: "11/20",
-    question: "Quel ennemi des Gardiens de la Galaxie est surnommé 'Le Destructeur' ?",
-    options: ["Ronan", "Ego", "Nebula", "Thanos"],
-    answer: "Ronan"
+    question: "Comment s'appellent les 2 souris principales dans 'Cendrillon'?",
+    options: ["Gus et Jaq", "Mert et Ventus", "Perla et Suzy", "Bert et Luke"],
+    answer: "Gus et Jaq"
   },
   {
     numéro: "12/20",
-    question: "Quel super-vilain est un scientifique qui se transforme en un monstre de sable ?",
-    options: ["Sandman", "Rhino", "Lizard", "Vulture"],
-    answer: "Sandman"
+    question: "Comment s'appelle le créateur du restaurant dans 'Ratatouille'?",
+    options: ["Auguste Gusteau", "Anton Ego", "Colette", "Django"],
+    answer: "Auguste Gusteau"
   },
   {
     numéro: "13/20",
-    question: "Quel ennemi de Thor est le dieu du mensonge et de la tromperie ?",
-    options: ["Loki", "Hela", "Malekith", "Surtur"],
-    answer: "Loki"
+    question: "De quelle couleur est le chapeau de la théière appelée Madame Samovar dans 'La belle et la bête'?",
+    options: ["Violet", "Bleu", "Rose", "Orange"],
+    answer: "Violet"
   },
   {
     numéro: "14/20",
-    question: "Quel super-vilain de l'univers Marvel a une tête en forme de crâne rouge ?",
-    options: ["Red Skull", "Crossbones", "Baron Zemo", "Winter Soldier"],
-    answer: "Red Skull"
+    question: "Combien de frères à Rebelle dans le film du même nom?",
+    options: ["3", "0", "1", "5"],
+    answer: "3"
   },
   {
     numéro: "15/20",
-    question: "Quel super-vilain est aussi appelé Victor Von Doom et est un ennemi des Quatre Fantastiques ?",
-    options: ["Docteur Doom", "Galactus", "Mole Man", "Silver Surfer"],
-    answer: "Docteur Doom"
+    question: "A quel tableau Anna dit-elle 'Salut' dans la chanson 'Je voudrai un bonhomme de neige' de la Reine des neige ?",
+    options: ["Jeanne d'Arc", "Leonard de Vinci", "Jeanne du Barry", "Henri IV"],
+    answer: "Jeanne d'Arc"
   },
   {
     numéro: "16/20",
-    question: "Quel super-vilain est un dieu du chaos qui affronte Thor dans 'Thor: Ragnarok' ?",
-    options: ["Hela", "Loki", "Surtur", "Malekith"],
-    answer: "Hela"
+    question: "De quelle couleur est la larve que mange Simba lors de sa 1ère fois ?",
+    options: ["Rouge", "Blanche", "Crème", "Verte"],
+    answer: "Rouge"
   },
   {
     numéro: "17/20",
-    question: "Quel super-vilain peut manipuler l'électricité et est un ennemi de Spider-Man ?",
-    options: ["Electro", "Shocker", "Rhino", "Vulture"],
-    answer: "Electro"
+    question: "Combien d'oeil possède Jumba dans 'Lilo et Stitch' ?",
+    options: ["2", "4", "6", "3"],
+    answer: "4"
   },
   {
     numéro: "18/20",
-    question: "Quel super-vilain est une version maléfique de Spider-Man et s'appelle Cletus Kasady ?",
-    options: ["Carnage", "Venom", "Morbius", "Toxin"],
-    answer: "Carnage"
+    question: "Avec quoi Raiponce assomme Flynn dans la tour ?",
+    options: ["Une poêle", "Une casserole", "Un couvercle", "Une louche"],
+    answer: "Une poêle"
   },
   {
     numéro: "19/20",
-    question: "Quel super-vilain est un ancien général Kree devenu accroc à la Pierre de l'Infini ?",
-    options: ["Yon-Rogg", "Ronan", "Korath", "Talos"],
-    answer: "Ronan"
+    question: "Dans les 102 dalmatiens, quelle est la particularité du 102ème chien ?",
+    options: ["Il n'a pas de tâche", "Il est noir", "Il a des plus petites tâches", "Il a la truffe rose"],
+    answer: "Il n'a pas de tâche"
   },
   {
     numéro: "20/20",
-    question: "Quel super-vilain est un méchant de l'univers Marvel qui est un maître en arts martiaux et ennemi de Shang-Chi ?",
-    options: ["Le Mandarin", "Killian", "Whiplash", "Taskmaster"],
-    answer: "Le Mandarin"
+    question: "Quel est le rôle d'Abuela (Alma Madrigal) dans 'Encanto' ?",
+    options: ["Veiller sur la chandelle magique", "Attribuer les pouvoirs de chacun", "Protéger Mirabel", "Retrouver Bruno Madrigal"],
+    answer: "Veiller sur la chandelle magique"
   }
 ];
 
