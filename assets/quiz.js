@@ -10028,6 +10028,129 @@ const questionsMersOceans = [
   }
 ];
 
+const questionsInsectes = [
+  {
+    numéro: "1/20",
+    question: "Quel insecte est connu pour sa capacité à produire du miel ?",
+    options: ["Abeille", "Fourmi", "Papillon", "Libellule"],
+    answer: "Abeille"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le nom de l'insecte qui peut sauter jusqu'à 100 fois la longueur de son corps ?",
+    options: ["Sauterelle", "Fourmi", "Mouche", "Puce"],
+    answer: "Puce"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel insecte est célèbre pour ses transformations de la larve à l'adulte, passant par le stade de nymphe dans un cocon ?",
+    options: ["Papillon", "Mouche", "Abeille", "Scarabée"],
+    answer: "Papillon"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel insecte est connu pour sa capacité à porter des charges plusieurs fois plus lourdes que son propre poids ?",
+    options: ["Fourmi", "Abeille", "Libellule", "Sauterelle"],
+    answer: "Fourmi"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le plus grand insecte vivant sur Terre ?",
+    options: ["Phasme", "Scarabée Goliath", "Libellule", "Mante religieuse"],
+    answer: "Phasme"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel insecte est connu pour sa capacité à clignoter et produire de la lumière ?",
+    options: ["Luciole", "Papillon de nuit", "Cigale", "Mille-pattes"],
+    answer: "Luciole"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel insecte est capable de voler en arrière ?",
+    options: ["Libellule", "Papillon", "Abeille", "Moustique"],
+    answer: "Libellule"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel insecte est souvent associé à la propagation de maladies comme le paludisme et la dengue ?",
+    options: ["Moustique", "Tique", "Puce", "Abeille"],
+    answer: "Moustique"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel insecte construit des nids en papier mâché ?",
+    options: ["Guêpe", "Fourmi", "Abeille", "Termite"],
+    answer: "Guêpe"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel insecte est connu pour sa capacité à produire un son stridulant en frottant ses ailes ou ses pattes arrière ?",
+    options: ["Criquet", "Mouche", "Scarabée", "Libellule"],
+    answer: "Criquet"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le nom de l'insecte dont les larves sont connues sous le nom de chenilles ?",
+    options: ["Papillon", "Mouche", "Guêpe", "Scarabée"],
+    answer: "Papillon"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel insecte est souvent appelé 'dieu des jardins' en raison de son rôle bénéfique dans le contrôle des ravageurs ?",
+    options: ["Coccinelle", "Criquet", "Libellule", "Fourmi"],
+    answer: "Coccinelle"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel insecte a une relation mutualiste avec les pucerons, les protégeant en échange de leur miellat ?",
+    options: ["Fourmi", "Libellule", "Papillon", "Guêpe"],
+    answer: "Fourmi"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel insecte est souvent appelé 'tondeuse de gazon' naturelle en raison de son appétit pour l'herbe et les plantes ?",
+    options: ["Sauterelle", "Cigale", "Criquet", "Papillon"],
+    answer: "Sauterelle"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel insecte est connu pour son rôle dans la décomposition des matières organiques mortes ?",
+    options: ["Coléoptère nécrophore", "Moustique", "Papillon", "Fourmi"],
+    answer: "Coléoptère nécrophore"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel insecte est souvent considéré comme un indicateur de la qualité de l'eau douce ?",
+    options: ["Libellule", "Moustique", "Scarabée", "Fourmi"],
+    answer: "Libellule"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel insecte est connu pour construire des galeries complexes et souterraines ?",
+    options: ["Termite", "Fourmi", "Abeille", "Guêpe"],
+    answer: "Termite"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel insecte est capable de régénérer ses membres perdus au fil du temps ?",
+    options: ["Mante religieuse", "Criquet", "Fourmi", "Papillon"],
+    answer: "Mante religieuse"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel insecte est connu pour son camouflage efficace, imitant des branches ou des feuilles ?",
+    options: ["Phasme", "Sauterelle", "Papillon", "Guêpe"],
+    answer: "Phasme"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel insecte est souvent utilisé comme modèle dans les études de génétique et de développement ?",
+    options: ["Mouche drosophile", "Fourmi", "Abeille", "Papillon"],
+    answer: "Mouche drosophile"
+  }
+];
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -10051,6 +10174,7 @@ shuffleQuestionsOptions(questionsSuperVilains);
 shuffleQuestionsOptions(questionsDetailsDisney);
 shuffleQuestionsOptions(questionsSuperman);
 shuffleQuestionsOptions(questionsMersOceans);
+shuffleQuestionsOptions(questionsInsectes);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -10120,6 +10244,7 @@ const themeSuperVilainsBtn = document.getElementById("theme-superVilains");
 const themeDetailsDisneyBtn = document.getElementById("theme-detailsDisney");
 const themeSupermanBtn = document.getElementById("theme-superman");
 const themeMersOceansBtn = document.getElementById("theme-mersOceans");
+const themeInsectesBtn = document.getElementById("theme-insectes");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -10214,6 +10339,12 @@ themePixarBtn.addEventListener("click", () => {
 themeMersOceansBtn.addEventListener("click", () => {
   selectedTheme = "Mers et Océans";
   startQuiz(questionsMersOceans);
+  scrollToTop();
+});
+
+themeInsectesBtn.addEventListener("click", () => {
+  selectedTheme = "Insectes";
+  startQuiz(questionsInsectes);
   scrollToTop();
 });
 
