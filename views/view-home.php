@@ -224,7 +224,7 @@ $img_path = $upload_dir . $img;
     <button id="theme-bdMangaComics" class="theme-button" data-theme="BD/Manga/Comics" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> BD/Manga/Comics</button>
     <button id="theme-langageSMS" class="theme-button" data-theme="Langages SMS" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Langages SMS</button>
     <button id="theme-marquesLogos" class="theme-button" data-theme="Marques et Logos" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Marques et Logos</button>
-    <button id="theme-cinema" class="theme-button" data-theme="Cinéma" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Cinéma</button>
+    <button id="theme-publicitesCelebres" class="theme-button" data-theme="Publicités célèbres" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Publicités célèbres</button>
   </div>
 
   <h4>Catégorie Alimentation</h4>

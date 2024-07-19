@@ -11136,6 +11136,129 @@ const questionsDesserts = [
   }
 ];
 
+const questionsPublicitesCelebres = [
+  {
+    numéro: "1/20",
+    question: "Quelle marque est associée au slogan 'Just Do It' ?",
+    options: ["Nike", "Adidas", "Puma", "Reebok"],
+    answer: "Nike"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le produit promu par le célèbre jingle 'I'm Lovin' It' ?",
+    options: ["McDonald's", "Burger King", "Wendy's", "Taco Bell"],
+    answer: "McDonald's"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est le produit pour lequel le personnage de Tony the Tiger est le porte-parole ?",
+    options: ["Frosted Flakes", "Cocoa Pebbles", "Cheerios", "Lucky Charms"],
+    answer: "Frosted Flakes"
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle marque utilise le slogan 'Because You're Worth It' ?",
+    options: ["L'Oréal", "Maybelline", "Revlon", "Estée Lauder"],
+    answer: "L'Oréal"
+  },
+  {
+    numéro: "5/20",
+    question: "Quelle marque est connue pour sa publicité 'La Redoute est la mode' ?",
+    options: ["La Redoute", "Vente-Privée", "Zalando", "H&M"],
+    answer: "La Redoute"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel produit est promu avec le slogan 'Have a Break, Have a Kit Kat' ?",
+    options: ["Kit Kat", "Snickers", "Twix", "Mars"],
+    answer: "Kit Kat"
+  },
+  {
+    numéro: "7/20",
+    question: "Quelle marque de voiture utilise le slogan 'Vorsprung durch Technik' ?",
+    options: ["Audi", "BMW", "Mercedes-Benz", "Volkswagen"],
+    answer: "Audi"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le produit associé au célèbre slogan 'The Ultimate Driving Machine' ?",
+    options: ["BMW", "Audi", "Mercedes-Benz", "Porsche"],
+    answer: "BMW"
+  },
+  {
+    numéro: "9/20",
+    question: "Quelle marque de boissons gazeuses utilise le slogan 'Open Happiness' ?",
+    options: ["Coca-Cola", "Pepsi", "7 Up", "Sprite"],
+    answer: "Coca-Cola"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel produit est promu avec le slogan 'Red Bull Gives You Wings' ?",
+    options: ["Red Bull", "Monster", "Rockstar", "5-hour Energy"],
+    answer: "Red Bull"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le produit pour lequel la célèbre publicité 'A Diamond is Forever' a été créée ?",
+    options: ["De Beers", "Tiffany & Co.", "Cartier", "Harry Winston"],
+    answer: "De Beers"
+  },
+  {
+    numéro: "12/20",
+    question: "Quelle marque de vêtements utilise le slogan 'Impossible is Nothing' ?",
+    options: ["Adidas", "Nike", "Puma", "Reebok"],
+    answer: "Adidas"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le produit associé au célèbre jingle 'Have a Coke and a Smile' ?",
+    options: ["Coca-Cola", "Pepsi", "Dr Pepper", "Sprite"],
+    answer: "Coca-Cola"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel produit utilise le slogan 'Think Different' ?",
+    options: ["Apple", "Microsoft", "Dell", "HP"],
+    answer: "Apple"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le produit promu avec le slogan 'Taste the Feeling' ?",
+    options: ["Coca-Cola", "Pepsi", "7 Up", "Fanta"],
+    answer: "Coca-Cola"
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle marque est associée au slogan 'The King of Beers' ?",
+    options: ["Budweiser", "Heineken", "Coors", "Corona"],
+    answer: "Budweiser"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel produit est promu avec le slogan 'I'm a Pepper, Wouldn't You Like to Be a Pepper Too?' ?",
+    options: ["Dr Pepper", "Pepsi", "Coca-Cola", "Sprite"],
+    answer: "Dr Pepper"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel est le produit associé au slogan 'Like a Good Neighbor, State Farm is There' ?",
+    options: ["State Farm", "Geico", "Allstate", "Progressive"],
+    answer: "State Farm"
+  },
+  {
+    numéro: "19/20",
+    question: "Quelle marque de soins pour la peau utilise le slogan 'The Science of Beautiful Skin' ?",
+    options: ["Neutrogena", "Olay", "L'Oréal", "Clinique"],
+    answer: "Neutrogena"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel produit est associé à la célèbre publicité 'It's Finger Lickin' Good' ?",
+    options: ["KFC", "McDonald's", "Wendy's", "Burger King"],
+    answer: "KFC"
+  }
+];
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -11168,7 +11291,7 @@ shuffleQuestionsOptions(questionsLitterature);
 shuffleQuestionsOptions(questionsViennoiseriesPatisseries);
 shuffleQuestionsOptions(questionsFruitsLegumes);
 shuffleQuestionsOptions(questionsDesserts);
-
+shuffleQuestionsOptions(questionsPublicitesCelebres);
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
 shuffleQuestionsOptions(questionsSportsMoteur);
@@ -11246,7 +11369,7 @@ const themeLitteratureBtn = document.getElementById("theme-litterature");
 const themeViennoiseriesPatisseriesBtn = document.getElementById("theme-viennoiseriesPatisseries");
 const themeFruitsLegumesBtn = document.getElementById("theme-fruitsLegumes");
 const themeDessertsBtn = document.getElementById("theme-desserts");
-
+const themePublicitesCelebresBtn = document.getElementById("theme-publicitesCelebres");
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
 const themeActeursActricesBtn = document.getElementById("theme-acteursActrices");
@@ -11334,6 +11457,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themePublicitesCelebresBtn.addEventListener("click", () => {
+  selectedTheme = "Publicités célèbres";
+  startQuiz(questionsPublicitesCelebres);
   scrollToTop();
 });
 

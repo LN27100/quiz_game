@@ -270,6 +270,12 @@ h4 {
   background-repeat: no-repeat;
 }
 
+#theme-publicitesCelebres {
+  background-image: url('../assets/img/theme_pub.jpg');
+  background-size: 6rem 6rem; 
+  background-repeat: no-repeat;
+}
+
 #theme-faitsInsolites {
   background-image: url('../assets/img/theme_insolite.JPG');
   background-size: 6rem 6rem;
