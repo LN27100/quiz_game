@@ -236,7 +236,7 @@ $img_path = $upload_dir . $img;
     <button id="theme-desserts" class="theme-button" data-theme="Desserts" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Desserts</button>
     <button id="theme-fromages" class="theme-button" data-theme="Fromages" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Fromages</button>
     <button id="theme-fruitsLegumes" class="theme-button" data-theme="Fruits et Légumes" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Fruits et Légumes</button>
-    <button id="theme-viennoiseriesPatisseries" class="theme-button" data-theme="Viennoiseries" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Viennoiseries et Pâtisseries</button>
+    <button id="theme-viennoiseriesPatisseries" class="theme-button" data-theme="Viennoiseries et Pâtisseries" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Viennoiseries et Pâtisseries</button>
   </div>
 
 

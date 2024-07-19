@@ -10520,6 +10520,376 @@ const questionsAnglais = [
   }
 ];
 
+const questionsSciences = [
+  {
+    numéro: "1/20",
+    question: "Quel est l'élément chimique dont le symbole est 'O' ?",
+    options: ["Oxygène", "Or", "Osmium", "Oxyde"],
+    answer: "Oxygène"
+  },
+  {
+    numéro: "2/20",
+    question: "Quelle est la planète la plus proche du Soleil ?",
+    options: ["Mercure", "Vénus", "Terre", "Mars"],
+    answer: "Mercure"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est l'organisme responsable de la photosynthèse ?",
+    options: ["Les plantes", "Les animaux", "Les champignons", "Les bactéries"],
+    answer: "Les plantes"
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle est la formule chimique de l'eau ?",
+    options: ["H2O", "CO2", "O2", "H2SO4"],
+    answer: "H2O"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel scientifique est connu pour la théorie de la relativité ?",
+    options: ["Albert Einstein", "Isaac Newton", "Galilée", "Niels Bohr"],
+    answer: "Albert Einstein"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le plus grand organe du corps humain ?",
+    options: ["La peau", "Le foie", "Le cœur", "Les poumons"],
+    answer: "La peau"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est l'organe responsable de la production de l'insuline dans le corps humain ?",
+    options: ["Le pancréas", "Le foie", "Les reins", "Les poumons"],
+    answer: "Le pancréas"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom du phénomène où la lumière blanche se sépare en un spectre de couleurs ?",
+    options: ["La diffraction", "La dispersion", "La polarisation", "L'absorption"],
+    answer: "La dispersion"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est l'élément chimique dont le symbole est 'Fe' ?",
+    options: ["Fer", "Fluor", "Francium", "Fermium"],
+    answer: "Fer"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le nom de l'élément chimique dont le symbole est 'Na' ?",
+    options: ["Sodium", "Nickel", "Néon", "Nitrate"],
+    answer: "Sodium"
+  },
+  {
+    numéro: "11/20",
+    question: "Quelle est la distance approximative entre la Terre et la Lune ?",
+    options: ["384 400 km", "150 000 km", "1 000 000 km", "10 000 km"],
+    answer: "384 400 km"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom du mécanisme par lequel les organismes s'adaptent à leur environnement ?",
+    options: ["L'évolution", "La sélection naturelle", "La mutation", "La réplication"],
+    answer: "L'évolution"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est l'acide nucléique responsable du stockage de l'information génétique ?",
+    options: ["L'ADN", "L'ARN", "La protéine", "Le glucose"],
+    answer: "L'ADN"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom de la théorie qui décrit la formation de l'univers à partir d'une grande explosion ?",
+    options: ["Le Big Bang", "La théorie de la relativité", "La théorie des cordes", "La mécanique quantique"],
+    answer: "Le Big Bang"
+  },
+  {
+    numéro: "15/20",
+    question: "Quelle est la loi qui stipule que chaque action a une réaction égale et opposée ?",
+    options: ["La troisième loi de Newton", "La loi de la gravitation universelle", "La loi de Boyle-Mariotte", "La loi de Coulomb"],
+    answer: "La troisième loi de Newton"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le nom de la couche de gaz qui entoure la Terre ?",
+    options: ["L'atmosphère", "La lithosphère", "La troposphère", "La stratosphère"],
+    answer: "L'atmosphère"
+  },
+  {
+    numéro: "17/20",
+    question: "Quelle est la principale source d'énergie pour la Terre ?",
+    options: ["Le Soleil", "Le vent", "Les océans", "Les volcans"],
+    answer: "Le Soleil"
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle est la partie du cerveau responsable du contrôle des mouvements volontaires ?",
+    options: ["Le cortex moteur", "Le cervelet", "Le tronc cérébral", "L'hypothalamus"],
+    answer: "Le cortex moteur"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel est le nom du processus par lequel les plantes libèrent de l'eau dans l'atmosphère ?",
+    options: ["La transpiration", "L'évaporation", "La condensation", "L'absorption"],
+    answer: "La transpiration"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le nom de la particule subatomique portant une charge positive ?",
+    options: ["Le proton", "Le neutron", "L'électron", "Le positron"],
+    answer: "Le proton"
+  }
+];
+
+const questionsLitterature = [
+  {
+    numéro: "1/20",
+    question: "Qui est l'auteur du roman 'Les Misérables' ?",
+    options: ["Victor Hugo", "Émile Zola", "Honoré de Balzac", "Gustave Flaubert"],
+    answer: "Victor Hugo"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le titre du célèbre roman écrit par George Orwell en 1949 ?",
+    options: ["1984", "La Ferme des animaux", "Le Meilleur des mondes", "Fahrenheit 451"],
+    answer: "1984"
+  },
+  {
+    numéro: "3/20",
+    question: "Qui a écrit 'Les Trois Mousquetaires' ?",
+    options: ["Alexandre Dumas", "Jules Verne", "Victor Hugo", "Gustave Flaubert"],
+    answer: "Alexandre Dumas"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel auteur est célèbre pour sa série de romans policiers avec le détective Hercule Poirot ?",
+    options: ["Agatha Christie", "Arthur Conan Doyle", "Raymond Chandler", "Georges Simenon"],
+    answer: "Agatha Christie"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le titre du roman d'Herman Melville où le personnage principal est le capitaine Ahab ?",
+    options: ["Moby Dick", "Billy Budd", "Bartleby", "Typee"],
+    answer: "Moby Dick"
+  },
+  {
+    numéro: "6/20",
+    question: "Qui est l'auteur du poème épique 'L'Iliade' ?",
+    options: ["Homère", "Virgile", "Hésiode", "Ovide"],
+    answer: "Homère"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel roman de Mary Shelley est considéré comme l'un des premiers romans de science-fiction ?",
+    options: ["Frankenstein", "Le Dernier Homme", "Mathilda", "Valperga"],
+    answer: "Frankenstein"
+  },
+  {
+    numéro: "8/20",
+    question: "Qui a écrit 'À la recherche du temps perdu' ?",
+    options: ["Marcel Proust", "Jean-Paul Sartre", "Albert Camus", "André Gide"],
+    answer: "Marcel Proust"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel roman de J.D. Salinger est centré sur le personnage d'Holden Caulfield ?",
+    options: ["L'Attrape-cœurs", "Franny et Zooey", "Nouvelles", "Raise High the Roof Beam, Carpenters"],
+    answer: "L'Attrape-cœurs"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel roman de Fiodor Dostoïevski explore les tourments psychologiques de son protagoniste, Raskolnikov ?",
+    options: ["Crime et Châtiment", "L'Idiot", "Les Frères Karamazov", "Les Démons"],
+    answer: "Crime et Châtiment"
+  },
+  {
+    numéro: "11/20",
+    question: "Qui est l'auteur de 'Don Quichotte' ?",
+    options: ["Miguel de Cervantes", "Gabriel García Márquez", "Jorge Luis Borges", "Pablo Neruda"],
+    answer: "Miguel de Cervantes"
+  },
+  {
+    numéro: "12/20",
+    question: "Dans quelle pièce de Shakespeare trouve-t-on le personnage de Puck ?",
+    options: ["Le Songe d'une nuit d'été", "Hamlet", "Macbeth", "Othello"],
+    answer: "Le Songe d'une nuit d'été"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel roman de William Golding est une allégorie sur la nature humaine se déroulant sur une île déserte ?",
+    options: ["Sa Majesté des Mouches", "Rites de Passage", "Les Héritiers", "Le Dieu scorpion"],
+    answer: "Sa Majesté des Mouches"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel écrivain français a écrit 'Madame Bovary' ?",
+    options: ["Gustave Flaubert", "Victor Hugo", "Émile Zola", "Alphonse Daudet"],
+    answer: "Gustave Flaubert"
+  },
+  {
+    numéro: "15/20",
+    question: "Qui est l'auteur de 'La Ligne verte' ?",
+    options: ["Stephen King", "Dean Koontz", "Anne Rice", "Clive Barker"],
+    answer: "Stephen King"
+  },
+  {
+    numéro: "16/20",
+    question: "Qui a écrit 'Les Fleurs du mal' ?",
+    options: ["Charles Baudelaire", "Arthur Rimbaud", "Paul Verlaine", "Stéphane Mallarmé"],
+    answer: "Charles Baudelaire"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel roman d'Albert Camus explore les thèmes de l'absurde et de la révolte ?",
+    options: ["L'Étranger", "La Peste", "Le Mythe de Sisyphe", "L'Homme révolté"],
+    answer: "L'Étranger"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel livre a été écrit par J.R.R. Tolkien ?",
+    options: ["Le Seigneur des Anneaux", "Le Monde de Narnia", "Harry Potter", "L'Assassin Royal"],
+    answer: "Le Seigneur des Anneaux"
+  },
+  {
+    numéro: "19/20",
+    question: "Qui est l'auteur du livre 'Jamais sans ma fille' ?",
+    options: ["Betty Mahmoody", "Jean Sasson", "Deborah Rodriguez", "Azar Nafisi"],
+    answer: "Betty Mahmoody"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel auteur français a écrit le roman 'Au Bonheur des Dames' ?",
+    options: ["Émile Zola", "Honoré de Balzac", "Gustave Flaubert", "Stendhal"],
+    answer: "Émile Zola"
+  }
+];
+
+const questionsViennoiseriesPatisseries = [
+  {
+    numéro: "1/20",
+    question: "Quelle viennoiserie française est généralement associée à une pâte feuilletée et des amandes ?",
+    options: ["Croissant aux amandes", "Pain au chocolat", "Chausson aux pommes", "Brioche"],
+    answer: "Croissant aux amandes"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel dessert français est composé de couches alternées de crème pâtissière et de pâte feuilletée ?",
+    options: ["Mille-feuille", "Éclair", "Tarte Tatin", "Opéra"],
+    answer: "Mille-feuille"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel gâteau traditionnel français est souvent servi lors de la fête de l'Épiphanie ?",
+    options: ["Galette des rois", "Bûche de Noël", "Tarte aux pommes", "Clafoutis"],
+    answer: "Galette des rois"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel dessert italien est composé de couches de biscuits imbibés de café et de mascarpone ?",
+    options: ["Tiramisu", "Panna cotta", "Cannoli", "Sfogliatella"],
+    answer: "Tiramisu"
+  },
+  {
+    numéro: "5/20",
+    question: "Quelle viennoiserie est faite à partir de pâte levée feuilletée en forme de croissant ?",
+    options: ["Croissant", "Pain aux raisins", "Brioche", "Palmier"],
+    answer: "Croissant"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel dessert est traditionnellement flambé au rhum avant d'être servi ?",
+    options: ["Crêpes Suzette", "Soufflé au chocolat", "Île flottante", "Gâteau basque"],
+    answer: "Crêpes Suzette"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel gâteau allemand est célèbre pour ses couches de chocolat, de cerises et de crème chantilly ?",
+    options: ["Forêt-Noire", "Stollen", "Apfelstrudel", "Baumkuchen"],
+    answer: "Forêt-Noire"
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle pâtisserie française est une petite tourte garnie de crème pâtissière et recouverte de fondant ?",
+    options: ["Religieuse", "Paris-Brest", "Saint-Honoré", "Puits d'amour"],
+    answer: "Puits d'amour"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel dessert portugais est un petit flan pâtissier souvent saupoudré de cannelle ?",
+    options: ["Pastel de nata", "Queijada", "Bolo Rei", "Pão de ló"],
+    answer: "Pastel de nata"
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle pâtisserie est connue pour sa forme de spirale et est souvent garnie de raisins secs ?",
+    options: ["Pain aux raisins", "Palmier", "Brioche", "Croissant"],
+    answer: "Pain aux raisins"
+  },
+  {
+    numéro: "11/20",
+    question: "Quelle viennoiserie est traditionnellement composée d'une pâte levée et d'une garniture de fruits confits et de sucre perlé ?",
+    options: ["Brioche des Rois", "Kouign-amann", "Pain d'épices", "Canelé"],
+    answer: "Brioche des Rois"
+  },
+  {
+    numéro: "12/20",
+    question: "Quelle pâtisserie française est une pâte à choux garnie de crème pâtissière et glacée au chocolat ?",
+    options: ["Éclair", "Chouquette", "Profiterole", "Religieuse"],
+    answer: "Éclair"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel dessert est fait de couches de dacquoise, de crème au beurre et de ganache au chocolat ?",
+    options: ["Opéra", "Macaron", "Financier", "Tartelette"],
+    answer: "Opéra"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel dessert français est composé de crème caramel et de caramel liquide ?",
+    options: ["Crème caramel", "Crème brûlée", "Panna cotta", "Flan pâtissier"],
+    answer: "Crème caramel"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel dessert autrichien est une pâte feuilletée roulée garnie de pommes, de cannelle et de raisins secs ?",
+    options: ["Apfelstrudel", "Sachertorte", "Gugelhupf", "Linzer Torte"],
+    answer: "Apfelstrudel"
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle pâtisserie française est en forme de palmier ou de cœur et est faite de pâte feuilletée caramélisée ?",
+    options: ["Palmier", "Chouquette", "Madeleine", "Canelé"],
+    answer: "Palmier"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel dessert est un gâteau éponge imbibé de sirop et souvent garni de crème Chantilly et de fruits ?",
+    options: ["Baba au rhum", "Génoise", "Charlotte", "Clafoutis"],
+    answer: "Baba au rhum"
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle viennoiserie française est garnie de crème pâtissière et de pépites de chocolat ?",
+    options: ["Pain suisse", "Brioche", "Chouquette", "Croissant"],
+    answer: "Pain suisse"
+  },
+  {
+    numéro: "19/20",
+    question: "Quelle pâtisserie alsacienne est composée de pâte levée et est souvent saupoudrée de sucre et d'amandes effilées ?",
+    options: ["Kouglof", "Bretzel", "Stollen", "Tarte flambée"],
+    answer: "Kouglof"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel dessert italien est composé de plusieurs couches de crème pâtissière, de pâte feuilletée et de fruits confits ?",
+    options: ["Sfogliatella", "Cannoli", "Cassata", "Tiramisu"],
+    answer: "Sfogliatella"
+  }
+];
+
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -10547,6 +10917,9 @@ shuffleQuestionsOptions(questionsInsectes);
 shuffleQuestionsOptions(questionsAnimauxFerme);
 shuffleQuestionsOptions(questionsEspecesAnimales);
 shuffleQuestionsOptions(questionsAnglais);
+shuffleQuestionsOptions(questionsSciences);
+shuffleQuestionsOptions(questionsLitterature);
+shuffleQuestionsOptions(questionsViennoiseriesPatisseries);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -10620,6 +10993,9 @@ const themeInsectesBtn = document.getElementById("theme-insectes");
 const themeAnimauxFermeBtn = document.getElementById("theme-animauxDeLaFerme");
 const themeEspecesAnimalesBtn = document.getElementById("theme-especesAnimales");
 const themeAnglaisBtn = document.getElementById("theme-anglais");
+const themeSciencesBtn = document.getElementById("theme-sciences");
+const themeLitteratureBtn = document.getElementById("theme-litterature");
+const themeViennoiseriesPatisseriesBtn = document.getElementById("theme-viennoiseriesPatisseries");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -10708,6 +11084,24 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeViennoiseriesPatisseriesBtn.addEventListener("click", () => {
+  selectedTheme = "Viennoiseries et Pâtisseries";
+  startQuiz(questionsViennoiseriesPatisseries);
+  scrollToTop();
+});
+
+themeLitteratureBtn.addEventListener("click", () => {
+  selectedTheme = "Littérature";
+  startQuiz(questionsLitterature);
+  scrollToTop();
+});
+
+themeSciencesBtn.addEventListener("click", () => {
+  selectedTheme = "Sciences";
+  startQuiz(questionsSciences);
   scrollToTop();
 });
 
