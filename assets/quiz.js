@@ -10397,6 +10397,129 @@ const questionsEspecesAnimales = [
   }
 ];
 
+const questionsAnglais = [
+  {
+    numéro: "1/20",
+    question: "Quel est le mot anglais pour 'chat' ?",
+    options: ["Cat", "Dog", "Bird", "Fish"],
+    answer: "Cat"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le passé simple de 'go' ?",
+    options: ["Went", "Gone", "Going", "Goes"],
+    answer: "Went"
+  },
+  {
+    numéro: "3/20",
+    question: "Comment dit-on 'merci' en anglais ?",
+    options: ["Thank you", "Please", "Sorry", "Hello"],
+    answer: "Thank you"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est l'antonyme de 'hot' en anglais ?",
+    options: ["Cold", "Warm", "Sweet", "Spicy"],
+    answer: "Cold"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le pluriel de 'mouse' ?",
+    options: ["Mice", "Mouses", "Micees", "Mouse"],
+    answer: "Mice"
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle est la traduction de 'jardin' en anglais ?",
+    options: ["Garden", "Park", "Yard", "Field"],
+    answer: "Garden"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le synonyme de 'happy' ?",
+    options: ["Sad", "Joyful", "Angry", "Bored"],
+    answer: "Joyful"
+  },
+  {
+    numéro: "8/20",
+    question: "Comment dit-on 'je suis fatigué' en anglais ?",
+    options: ["I am tired", "I am hungry", "I am happy", "I am excited"],
+    answer: "I am tired"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est l'article défini en anglais ?",
+    options: ["The", "A", "An", "Some"],
+    answer: "The"
+  },
+  {
+    numéro: "10/20",
+    question: "Comment se dit 'chien' en anglais ?",
+    options: ["Dog", "Cat", "Bird", "Fish"],
+    answer: "Dog"
+  },
+  {
+    numéro: "11/20",
+    question: "Quelle est la traduction de 'épicerie' en anglais ?",
+    options: ["Grocery store", "Pharmacy", "Bank", "Post office"],
+    answer: "Grocery store"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel mot complète la phrase : 'They ___ to the beach every summer.' ?",
+    options: ["Go", "Goes", "Went", "Going"],
+    answer: "Go"
+  },
+  {
+    numéro: "13/20",
+    question: "Quelle est la traduction de 'sourire' en anglais ?",
+    options: ["Smile", "Laugh", "Cry", "Frown"],
+    answer: "Smile"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le synonyme de 'difficult' ?",
+    options: ["Easy", "Hard", "Simple", "Clear"],
+    answer: "Hard"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le comparatif de 'good' ?",
+    options: ["Better", "Gooder", "Best", "Well"],
+    answer: "Better"
+  },
+  {
+    numéro: "16/20",
+    question: "Comment se dit 'ordinateur portable' en anglais ?",
+    options: ["Laptop", "Desktop", "Tablet", "Monitor"],
+    answer: "Laptop"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est le superlatif de 'bad' ?",
+    options: ["Worst", "Badder", "Worstest", "Worse"],
+    answer: "Worst"
+  },
+  {
+    numéro: "18/20",
+    question: "Comment dit-on 'je t'aime' en anglais ?",
+    options: ["I love you", "I like you", "I hate you", "I miss you"],
+    answer: "I love you"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel est le pluriel de 'child' ?",
+    options: ["Children", "Childs", "Childes", "Childer"],
+    answer: "Children"
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle est la traduction de 'fête' en anglais ?",
+    options: ["Party", "Meeting", "Event", "Festival"],
+    answer: "Party"
+  }
+];
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -10423,6 +10546,7 @@ shuffleQuestionsOptions(questionsMersOceans);
 shuffleQuestionsOptions(questionsInsectes);
 shuffleQuestionsOptions(questionsAnimauxFerme);
 shuffleQuestionsOptions(questionsEspecesAnimales);
+shuffleQuestionsOptions(questionsAnglais);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -10495,6 +10619,7 @@ const themeMersOceansBtn = document.getElementById("theme-mersOceans");
 const themeInsectesBtn = document.getElementById("theme-insectes");
 const themeAnimauxFermeBtn = document.getElementById("theme-animauxDeLaFerme");
 const themeEspecesAnimalesBtn = document.getElementById("theme-especesAnimales");
+const themeAnglaisBtn = document.getElementById("theme-anglais");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -10583,6 +10708,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeAnglaisBtn.addEventListener("click", () => {
+  selectedTheme = "Anglais";
+  startQuiz(questionsAnglais);
   scrollToTop();
 });
 
