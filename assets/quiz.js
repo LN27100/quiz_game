@@ -11012,6 +11012,130 @@ const questionsFruitsLegumes = [
   }
 ];
 
+const questionsDesserts = [
+  {
+    numéro: "1/20",
+    question: "Quel dessert est une tarte américaine composée d'une croûte et d'une garniture de pommes assaisonnées de sucre et de cannelle ?",
+    options: ["Apple pie", "Cheesecake", "Pastéis de nata", "Dulce de leche"],
+    answer: "Apple pie"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel dessert français est connu pour sa croûte de caramel dur sur le dessus ?",
+    options: ["Crème brûlée", "Tarte Tatin", "Éclair", "Mille-feuille"],
+    answer: "Crème brûlée"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel dessert est souvent servi avec une boule de glace à la vanille et se compose de pommes caramélisées ?",
+    options: ["Tarte Tatin", "Clafoutis", "Crème caramel", "Profiterole"],
+    answer: "Tarte Tatin"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel dessert autrichien est un gâteau en forme de spirale, souvent garni de fruits secs et de cannelle ?",
+    options: ["Apfelstrudel", "Linzer Torte", "Kaiserschmarrn", "Gugelhupf"],
+    answer: "Apfelstrudel"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel dessert américain est connu pour être fait de pâte à biscuits au chocolat et de crème glacée ?",
+    options: ["Cookie dough ice cream", "Brownie", "Cheesecake", "Banana split"],
+    answer: "Cookie dough ice cream"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel dessert japonais est une sorte de crème caramel renversée ?",
+    options: ["Purin", "Mochi", "Dorayaki", "Taiyaki"],
+    answer: "Purin"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel dessert français est une pâtisserie ronde composée de pâte à choux garnie de crème pralinée ?",
+    options: ["Paris-Brest", "Éclair", "Chou à la crème", "Profiterole"],
+    answer: "Paris-Brest"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel dessert français est une pâtisserie feuilletée au beurre, souvent remplie de crème pâtissière ou de fruits ?",
+    options: ["Mille-feuille", "Éclair", "Paris-Brest", "Chou à la crème"],
+    answer: "Mille-feuille"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel dessert américain est traditionnellement préparé pour Thanksgiving, à base de purée de citrouille ?",
+    options: ["Pumpkin pie", "Apple pie", "Pecan pie", "Sweet potato pie"],
+    answer: "Pumpkin pie"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel dessert italien est une crème épaisse, souvent aromatisée à la vanille et servie avec un coulis de fruits rouges ?",
+    options: ["Panna Cotta", "Tiramisu", "Cannoli", "Cassata"],
+    answer: "Panna Cotta"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel dessert français est un gâteau à base de meringue, garni de crème fouettée et de fruits ?",
+    options: ["Vacherin", "Mille-feuille", "Éclair", "Saint-Honoré"],
+    answer: "Vacherin"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel dessert est une spécialité latino-américaine à base de lait concentré sucré caramélisé ?",
+    options: ["Dulce de leche", "Cheesecake", "Cornes de gazelle", "Crêpes"],
+    answer: "Dulce de leche"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel dessert espagnol est une sorte de crème gélatineuse à la vanille avec une sauce caramel ?",
+    options: ["Flan", "Churros", "Tarta de Santiago", "Leche frita"],
+    answer: "Flan"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel dessert espagnol est une sorte de pâte frite, souvent saupoudrée de sucre et servie avec du chocolat chaud ?",
+    options: ["Churros", "Flan", "Tarta de Santiago", "Leche frita"],
+    answer: "Churros"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel dessert français est composé de blancs d'œufs battus en neige, pochés et servis sur une crème anglaise ?",
+    options: ["Île flottante", "Baba au rhum", "Soufflé au citron", "Crème brûlée"],
+    answer: "Île flottante"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel dessert est une pâte à crêpe cuite dans un moule spécial qui la rend croustillante à l'extérieur et moelleuse à l'intérieur, souvent garnie de fruits et de crème glacée ?",
+    options: ["Bubble waffle", "Cheesecake", "Pastéis de nata", "Apple pie"],
+    answer: "Bubble waffle"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel dessert est une pâtisserie américaine composée d'une base de biscuits émiettés et d'une garniture à base de fromage frais ?",
+    options: ["Cheesecake", "Apple pie", "Pastéis de nata", "Bubble waffle"],
+    answer: "Cheesecake"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel dessert japonais est une crème glacée enveloppée dans une couche de pâte de riz gluante ?",
+    options: ["Mochi Ice Cream", "Dorayaki", "Taiyaki", "Kakigori"],
+    answer: "Mochi Ice Cream"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel dessert est une pâte fine en forme de croissant fourrée de pâte d'amande et parfumée à la fleur d'oranger, typique de la pâtisserie maghrébine ?",
+    options: ["Cornes de gazelle", "Pastéis de nata", "Cheesecake", "Apple pie"],
+    answer: "Cornes de gazelle"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel dessert est une tartelette portugaise garnie de crème pâtissière et souvent saupoudrée de cannelle ?",
+    options: ["Pastéis de nata", "Cheesecake", "Apple pie", "Cornes de gazelle"],
+    answer: "Pastéis de nata"
+
+  }
+];
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -11043,6 +11167,7 @@ shuffleQuestionsOptions(questionsSciences);
 shuffleQuestionsOptions(questionsLitterature);
 shuffleQuestionsOptions(questionsViennoiseriesPatisseries);
 shuffleQuestionsOptions(questionsFruitsLegumes);
+shuffleQuestionsOptions(questionsDesserts);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -11120,6 +11245,7 @@ const themeSciencesBtn = document.getElementById("theme-sciences");
 const themeLitteratureBtn = document.getElementById("theme-litterature");
 const themeViennoiseriesPatisseriesBtn = document.getElementById("theme-viennoiseriesPatisseries");
 const themeFruitsLegumesBtn = document.getElementById("theme-fruitsLegumes");
+const themeDessertsBtn = document.getElementById("theme-desserts");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -11208,6 +11334,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeDessertsBtn.addEventListener("click", () => {
+  selectedTheme = "Desserts";
+  startQuiz(questionsDesserts);
   scrollToTop();
 });
 
