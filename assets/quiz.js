@@ -11260,6 +11260,8 @@ const questionsPublicitesCelebres = [
 ];
 
 
+
+
 // Mélanger les options pour chaque thème de questions
 
 shuffleQuestionsOptions(questionsFromages);
@@ -11335,6 +11337,8 @@ shuffleQuestionsOptions(questionsAnimauxDomestiques);
 shuffleQuestionsOptions(questionsPlantesBotanique);
 shuffleQuestionsOptions(questionsDragonBall);
 shuffleQuestionsOptions(questionsDessinsAnimesDisney);
+
+
 
 
 // Éléments DOM
@@ -11419,6 +11423,8 @@ const resultContainer = document.getElementById("result-container");
 const scoreText = document.getElementById("score");
 const finishButton = document.getElementById("finish-btn");
 
+
+
 // Variables du quiz
 let questions = [];
 let currentQuestionIndex = 0;
@@ -11444,6 +11450,7 @@ function scrollToTop() {
     behavior: "smooth", // Optionnel: pour un défilement fluide
   });
 }
+
 
 
 // Écouter le clic sur les boutons de thème et démarrer le quiz correspondant
@@ -11886,6 +11893,9 @@ themeSpidermanBtn.addEventListener("click", () => {
   scrollToTop();
 });
 
+
+
+
 // Fonction pour démarrer le quiz avec les questions du thème sélectionné
 function startQuiz(selectedQuestions) {
   // Réinitialiser l'état du quiz
@@ -11901,6 +11911,8 @@ function startQuiz(selectedQuestions) {
   nextButton.classList.add("hidden");
   showQuestion();
 }
+
+
 // Fonction pour initialiser le quiz
 function initializeQuiz() {
   nextButton.removeEventListener("click", nextQuestion);
@@ -11957,6 +11969,8 @@ function showQuestion() {
     optionsContainer.appendChild(optionElement);
   });
 }
+
+
 // Fonction pour vérifier la réponse sélectionnée
 function checkAnswer(selectedOption, correctAnswer) {
   if (selectedOption === correctAnswer) {
@@ -11965,6 +11979,8 @@ function checkAnswer(selectedOption, correctAnswer) {
   disableOptions(selectedOption, correctAnswer); // Passer les arguments ici
   showNextButton();
 }
+
+
 // Fonction pour désactiver les options après avoir sélectionné une réponse
 function disableOptions(selectedOption, correctAnswer) {
   const optionButtons = document.querySelectorAll(".option-btn");
@@ -11980,10 +11996,14 @@ function disableOptions(selectedOption, correctAnswer) {
     }
   });
 }
+
+
 // Fonction pour afficher le bouton Suivant
 function showNextButton() {
   nextButton.classList.remove("hidden");
 }
+
+
 // Fonction pour passer à la question suivante
 function nextQuestion() {
   currentQuestionIndex++;
@@ -11994,6 +12014,8 @@ function nextQuestion() {
     showResult();
   }
 }
+
+
 // Fonction pour réinitialiser l'état du quiz pour la prochaine question
 function resetQuiz() {
   nextButton.classList.add("hidden");
@@ -12003,6 +12025,8 @@ function resetQuiz() {
     button.classList.remove("correct", "incorrect");
   });
 }
+
+
 // Fonction pour afficher le score final et le bouton "Terminer"
 function showResult() {
   resultContainer.classList.remove("hidden");
@@ -12014,12 +12038,15 @@ function showResult() {
   resultContainer.appendChild(scoreText);
   finishButton.classList.remove("hidden");
 }
+
+
 // Ajouter l'écouteur d'événements pour le bouton "Terminer" une seule fois
 finishButton.addEventListener("click", () => {
   const theme = getSelectedTheme(); // Obtenir le thème sélectionné
   document.getElementById("theme-input").value = theme;
   // Créer l'objet de données à envoyer
   const formData = new FormData(document.getElementById("score-form"));
+
   // Envoyer les données avec fetch
   fetch("/controllers/controller-home.php", {
     method: "POST",
@@ -12044,5 +12071,7 @@ finishButton.addEventListener("click", () => {
   resultContainer.classList.add("hidden");
   quizContainer.classList.add("hidden");
 });
+
+
 // Initialiser le quiz au chargement de la page
 initializeQuiz();
