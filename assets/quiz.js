@@ -9676,7 +9676,7 @@ const questionsDetailsDisney = [
     numéro: "3/20",
     question: "De quelle race animal est Tuk Tuk dans 'Raya et le dernier dragon'?",
     options: ["un mélange de tatou, d’insecte et de cochon", "un tatou", "un pangolin", "un mélange de pangolin, d'insecte et de hamster"],
-    answer: "Loki"
+    answer: "un mélange de tatou, d’insecte et de cochon"
   },
   {
     numéro: "4/20",
@@ -10889,6 +10889,128 @@ const questionsViennoiseriesPatisseries = [
   }
 ];
 
+const questionsFruitsLegumes = [
+  {
+    numéro: "1/20",
+    question: "Quel fruit est connu pour sa teneur élevée en vitamine C ?",
+    options: ["Orange", "Banane", "Pomme", "Raisin"],
+    answer: "Orange"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel légume est souvent utilisé pour faire du guacamole ?",
+    options: ["Avocat", "Tomate", "Poivron", "Concombre"],
+    answer: "Avocat"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel fruit est souvent utilisé dans les smoothies pour sa texture crémeuse ?",
+    options: ["Banane", "Fraise", "Mangue", "Ananas"],
+    answer: "Banane"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel fruit exotique est connu pour son goût sucré et acidulé et sa chair jaune ?",
+    options: ["Mangue", "Papaye", "Ananas", "Fruit de la passion"],
+    answer: "Mangue"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel légume racine est souvent utilisé dans les soupes et les ragoûts et est de couleur orange ?",
+    options: ["Carotte", "Navet", "Betterave", "Panais"],
+    answer: "Carotte"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel fruit a une peau verte épaisse et une chair rouge avec des pépins noirs ?",
+    options: ["Pastèque", "Melon", "Citron vert", "Pamplemousse"],
+    answer: "Pastèque"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel légume vert est souvent utilisé dans les salades et a un goût légèrement amer ?",
+    options: ["Roquette", "Laitue", "Chou frisé", "Épinard"],
+    answer: "Roquette"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel fruit est souvent séché et utilisé dans les céréales et les produits de boulangerie ?",
+    options: ["Raisin sec", "Pruneau", "Figue", "Abricot sec"],
+    answer: "Raisin sec"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel légume crucifère est souvent consommé cru ou cuit et est connu pour ses propriétés anticancéreuses ?",
+    options: ["Brocoli", "Chou", "Chou-fleur", "Chou de Bruxelles"],
+    answer: "Brocoli"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel fruit est connu pour sa peau veloutée et son noyau central dur ?",
+    options: ["Pêche", "Abricot", "Prune", "Nectarine"],
+    answer: "Pêche"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel fruit est connu pour ses propriétés laxatives ?",
+    options: ["Pruneau", "Raisin", "Orange", "Banane"],
+    answer: "Pruneau"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel fruit tropical est souvent consommé en tranches ou en jus et a une couronne de feuilles sur le dessus ?",
+    options: ["Ananas", "Mangue", "Papaye", "Kiwi"],
+    answer: "Ananas"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel légume est souvent associé à la cuisine méditerranéenne et se mange farci ?",
+    options: ["Aubergine", "Poivron", "Tomate", "Courgette"],
+    answer: "Aubergine"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel fruit a une peau épaisse et dure et des segments juteux à l'intérieur ?",
+    options: ["Pamplemousse", "Orange", "Citron", "Lime"],
+    answer: "Pamplemousse"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel légume est souvent utilisé pour faire du kimchi et est connu pour ses propriétés probiotiques ?",
+    options: ["Chou", "Navet", "Radis", "Carotte"],
+    answer: "Chou"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel fruit est souvent utilisé dans les salades de fruits et a une peau lisse et une chair juteuse ?",
+    options: ["Nectarine", "Pêche", "Prune", "Abricot"],
+    answer: "Nectarine"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel légume est connu pour ses gousses comestibles et est souvent utilisé dans les plats asiatiques ?",
+    options: ["Haricot vert", "Pois mange-tout", "Fève", "Lentille"],
+    answer: "Pois mange-tout"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel légume d'autrefois, souvent appelé 'racine blanche', est de retour dans les potagers modernes ?",
+    options: ["Panais", "Topinambour", "Salsifis", "Rutabaga"],
+    answer: "Panais"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel légume est souvent utilisé dans les plats mexicains et est connu pour son goût piquant ?",
+    options: ["Piment jalapeño", "Poivron", "Courgette", "Tomate"],
+    answer: "Piment jalapeño"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel fruit exotique est connu pour ses grains sucrés et juteux à l'intérieur d'une coque dure ?",
+    options: ["Grenade", "Mangue", "Kiwi", "Papaye"],
+    answer: "Grenade"
+  }
+];
 
 
 // Mélanger les options pour chaque thème de questions
@@ -10920,6 +11042,7 @@ shuffleQuestionsOptions(questionsAnglais);
 shuffleQuestionsOptions(questionsSciences);
 shuffleQuestionsOptions(questionsLitterature);
 shuffleQuestionsOptions(questionsViennoiseriesPatisseries);
+shuffleQuestionsOptions(questionsFruitsLegumes);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -10996,6 +11119,7 @@ const themeAnglaisBtn = document.getElementById("theme-anglais");
 const themeSciencesBtn = document.getElementById("theme-sciences");
 const themeLitteratureBtn = document.getElementById("theme-litterature");
 const themeViennoiseriesPatisseriesBtn = document.getElementById("theme-viennoiseriesPatisseries");
+const themeFruitsLegumesBtn = document.getElementById("theme-fruitsLegumes");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -11084,6 +11208,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeFruitsLegumesBtn.addEventListener("click", () => {
+  selectedTheme = "Fruits et Légumes";
+  startQuiz(questionsFruitsLegumes);
   scrollToTop();
 });
 
