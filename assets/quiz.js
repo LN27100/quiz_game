@@ -9905,6 +9905,130 @@ const questionsSuperman = [
   }
 ];
 
+const questionsMersOceans = [
+  {
+    numéro: "1/20",
+    question: "Quel est l'océan le plus vaste de la planète Terre ?",
+    options: ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Arctique"],
+    answer: "Océan Pacifique"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le nom de la mer bordée par la Jordanie, Israël et la Palestine, connue pour sa salinité élevée ?",
+    options: ["Mer Morte", "Mer Rouge", "Mer Noire", "Mer Caspienne"],
+    answer: "Mer Morte"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel courant océanique chaud traverse l'Atlantique Nord et influence le climat de l'Europe ?",
+    options: ["Courant du Labrador", "Courant de Humboldt", "Gulf Stream", "Courant de Kuroshio"],
+    answer: "Gulf Stream"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel océan est le plus profond, abritant la fosse des Mariannes ?",
+    options: ["Océan Atlantique", "Océan Indien", "Océan Pacifique", "Océan Austral"],
+    answer: "Océan Pacifique"
+  },
+  {
+    numéro: "5/20",
+    question: "Quelle mer est située entre l'Europe, l'Afrique et l'Asie, connue pour son importance historique et culturelle ?",
+    options: ["Mer Noire", "Mer Méditerranée", "Mer Rouge", "Mer d'Arabie"],
+    answer: "Mer Méditerranée"
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle mer intérieure, entourée par la Russie, le Kazakhstan, le Turkménistan et l'Iran, est la plus grande étendue d'eau salée enclavée au monde ?",
+    options: ["Mer Caspienne", "Mer Noire", "Mer d'Aral", "Mer Baltique"],
+    answer: "Mer Caspienne"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le nom de la grande barrière de corail située au large de la côte nord-est de l'Australie ?",
+    options: ["Barrière de corail de Belize", "Grande Barrière de corail", "Barrière de corail de Mesoamerica", "Barrière de corail de Chagos"],
+    answer: "Grande Barrière de corail"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel phénomène naturel, caractérisé par une montée anormale du niveau de la mer, est souvent associé aux cyclones et ouragans ?",
+    options: ["Marée haute", "Raz-de-marée", "Tsunami", "Surge de tempête"],
+    answer: "Surge de tempête"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel détroit sépare l'Espagne et le Maroc, reliant la mer Méditerranée à l'océan Atlantique ?",
+    options: ["Détroit de Gibraltar", "Détroit de Bering", "Détroit de Magellan", "Détroit de Malacca"],
+    answer: "Détroit de Gibraltar"
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle mer est célèbre pour ses nombreux naufrages et sa légende du triangle des Bermudes ?",
+    options: ["Mer des Caraïbes", "Mer des Sargasses", "Mer de Chine méridionale", "Mer de Norvège"],
+    answer: "Mer des Sargasses"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel courant océanique froid longe la côte ouest de l'Amérique du Sud, influençant le climat de la région ?",
+    options: ["Courant du Brésil", "Courant de Humboldt", "Courant des Aiguilles", "Courant de Californie"],
+    answer: "Courant de Humboldt"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom de la mer située entre la Chine et la péninsule coréenne ?",
+    options: ["Mer Jaune", "Mer de Chine méridionale", "Mer de Chine orientale", "Mer du Japon"],
+    answer: "Mer Jaune"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le plus grand océanique du monde, qui couvre environ 30 % de la surface terrestre ?",
+    options: ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Austral"],
+    answer: "Océan Pacifique"
+  },
+  {
+    numéro: "14/20",
+    question: "Quelle est la profondeur approximative de la fosse des Mariannes, le point le plus profond des océans du monde ?",
+    options: ["11 000 mètres", "8 000 mètres", "7 000 mètres", "9 000 mètres"],
+    answer: "11 000 mètres"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le nom du phénomène océanique où les eaux de surface deviennent exceptionnellement chaudes dans l'océan Pacifique équatorial ?",
+    options: ["El Niño", "La Niña", "Upwelling", "Thermocline"],
+    answer: "El Niño"
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle mer intérieure est connue pour ses hauts niveaux de salinité et pour avoir perdu une grande partie de son eau en raison de l'irrigation ?",
+    options: ["Mer d'Aral", "Mer Caspienne", "Mer Morte", "Mer Noire"],
+    answer: "Mer d'Aral"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel océan entoure le continent antarctique ?",
+    options: ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Austral"],
+    answer: "Océan Austral"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel détroit relie la mer Rouge à l'océan Indien ?",
+    options: ["Détroit de Malacca", "Détroit de Gibraltar", "Détroit de Bering", "Détroit de Bab-el-Mandeb"],
+    answer: "Détroit de Bab-el-Mandeb"
+  },
+  {
+    numéro: "19/20",
+    question: "Quelle mer borde les côtes de la Bulgarie, de la Roumanie et de l'Ukraine ?",
+    options: ["Mer Noire", "Mer Méditerranée", "Mer Baltique", "Mer du Nord"],
+    answer: "Mer Noire"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le nom de l'immense gyre océanique dans le Pacifique Nord, connu pour sa grande accumulation de déchets plastiques ?",
+    options: ["Great Pacific Garbage Patch", "Atlantic Trash Vortex", "Indian Ocean Garbage Zone", "Antarctic Trash Gyre"],
+    answer: "Great Pacific Garbage Patch"
+  }
+];
+
+
 // Mélanger les options pour chaque thème de questions
 
 shuffleQuestionsOptions(questionsFromages);
@@ -9926,6 +10050,7 @@ shuffleQuestionsOptions(questionsMarvel);
 shuffleQuestionsOptions(questionsSuperVilains);
 shuffleQuestionsOptions(questionsDetailsDisney);
 shuffleQuestionsOptions(questionsSuperman);
+shuffleQuestionsOptions(questionsMersOceans);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -9994,6 +10119,7 @@ const themeMarvelBtn = document.getElementById("theme-marvel");
 const themeSuperVilainsBtn = document.getElementById("theme-superVilains");
 const themeDetailsDisneyBtn = document.getElementById("theme-detailsDisney");
 const themeSupermanBtn = document.getElementById("theme-superman");
+const themeMersOceansBtn = document.getElementById("theme-mersOceans");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -10082,6 +10208,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeMersOceansBtn.addEventListener("click", () => {
+  selectedTheme = "Mers et Océans";
+  startQuiz(questionsMersOceans);
   scrollToTop();
 });
 

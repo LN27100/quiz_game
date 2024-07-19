@@ -196,7 +196,7 @@ $img_path = $upload_dir . $img;
     <button id="theme-plantesBotanique" class="theme-button" data-theme="Plantes et Botanique" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Plantes et Botanique</button>
     <button id="theme-animauxDomestiques" class="theme-button" data-theme="Animaux domestiques" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Animaux domestiques</button>
     <button id="theme-ecosystemesHabitats" class="theme-button" data-theme="Ecosystèmes et habitats" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Ecosystèmes et habitats</button>
-    <button id="theme-merOceans" class="theme-button" data-theme="Mers et Océans" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Mers et Océans</button>
+    <button id="theme-mersOceans" class="theme-button" data-theme="Mers et Océans" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Mers et Océans</button>
     <button id="theme-insectes" class="theme-button" data-theme="Insectes" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Insectes</button>
     <button id="theme-animauxDeLaFerme" class="theme-button" data-theme="Animaux de la ferme" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Animaux de la ferme</button>
     <button id="theme-especesAnimales" class="theme-button" data-theme="Espèces animales" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Espèces animales</button>
