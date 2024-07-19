@@ -9782,7 +9782,128 @@ const questionsDetailsDisney = [
   }
 ];
 
-
+const questionsSuperman = [
+  {
+    numéro: "1/20",
+    question: "Quel est le véritable nom de Superman ?",
+    options: ["Kal-El", "Jor-El", "Clark Kent", "Lex Luthor"],
+    answer: "Kal-El"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le nom de la ville où Clark Kent grandit dans Smallville ?",
+    options: ["Smallville", "Metropolis", "Gotham City", "Central City"],
+    answer: "Smallville"
+  },
+  {
+    numéro: "3/20",
+    question: "Qui est le père biologique de Superman ?",
+    options: ["Jor-El", "Zod", "Jonathan Kent", "Lex Luthor"],
+    answer: "Jor-El"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est le métier de Lois Lane ?",
+    options: ["Journaliste", "Scientifique", "Avocate", "Médecin"],
+    answer: "Journaliste"
+  },
+  {
+    numéro: "5/20",
+    question: "Quelle substance affaiblit Superman ?",
+    options: ["Kryptonite", "Adamantium", "Vibranium", "Mithril"],
+    answer: "Kryptonite"
+  },
+  {
+    numéro: "6/20",
+    question: "Comment s'appelle l'ami d'enfance de Clark Kent dans Smallville qui devient plus tard son ennemi ?",
+    options: ["Lex Luthor", "Pete Ross", "Jimmy Olsen", "Bruce Wayne"],
+    answer: "Lex Luthor"
+  },
+  {
+    numéro: "7/20",
+    question: "Quelle est l'identité secrète de Superman ?",
+    options: ["Clark Kent", "Bruce Wayne", "Barry Allen", "Hal Jordan"],
+    answer: "Clark Kent"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom de la ferme où Clark Kent a été élevé ?",
+    options: ["La ferme des Kent", "La ferme des Waynes", "La ferme des Luthors", "La ferme des Ross"],
+    answer: "La ferme des Kent"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel pouvoir Clark Kent découvre-t-il en premier dans Smallville ?",
+    options: ["Super force", "Vision thermique", "Vol", "Super vitesse"],
+    answer: "Super vitesse"
+  },
+  {
+    numéro: "10/20",
+    question: "Qui est la meilleure amie de Clark Kent dans Smallville, connue pour sa passion pour le journalisme ?",
+    options: ["Chloe Sullivan", "Lana Lang", "Lois Lane", "Kara Zor-El"],
+    answer: "Chloe Sullivan"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel super-héros rejoint Clark Kent dans Smallville pour combattre Doomsday ?",
+    options: ["Oliver Queen", "Bruce Wayne", "Barry Allen", "Hal Jordan"],
+    answer: "Oliver Queen"
+  },
+  {
+    numéro: "12/20",
+    question: "Quelle est la couleur de la kryptonite qui joue sur le physique de Superman ?",
+    options: ["Rouge", "Bleue", "Verte", "Noire"],
+    answer: "Verte"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le nom de l'entreprise que Lex Luthor dirige dans Smallville ?",
+    options: ["LuthorCorp", "LexCorp", "Wayne Enterprises", "Daily Planet"],
+    answer: "LuthorCorp"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le symbole sur la poitrine de Superman ?",
+    options: ["Un S", "Un K", "Un L", "Un V"],
+    answer: "Un S"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le nom du méchant kryptonien qui est libéré de la Zone Fantôme dans Smallville ?",
+    options: ["Zod", "Brainiac", "Doomsday", "Darkseid"],
+    answer: "Zod"
+  },
+  {
+    numéro: "16/20",
+    question: "Qui est la petite amie de longue date de Clark Kent dans Smallville avant Lois Lane ?",
+    options: ["Lana Lang", "Chloe Sullivan", "Lois Lane", "Kara Zor-El"],
+    answer: "Lana Lang"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est le nom de la mère adoptive de Clark Kent ?",
+    options: ["Martha Kent", "Martha Wayne", "Lara Lor-Van", "Kara Zor-El"],
+    answer: "Martha Kent"
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle est la profession de Jonathan Kent, le père adoptif de Clark ?",
+    options: ["Agriculteur", "Journaliste", "Scientifique", "Avocat"],
+    answer: "Agriculteur"
+  },
+  {
+    numéro: "19/20",
+    question: "Quelle est la faiblesse de Clark Kent face à la kryptonite rouge ?",
+    options: ["Il devient imprudent et agressif", "Il perd ses pouvoirs", "Il tombe malade", "Il devient invisible"],
+    answer: "Il devient imprudent et agressif"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le nom de la planète d'origine de Superman ?",
+    options: ["Krypton", "Thanagar", "Kripton", "Kalel"],
+    answer: "Krypton"
+  }
+];
 
 // Mélanger les options pour chaque thème de questions
 
@@ -9804,6 +9925,7 @@ shuffleQuestionsOptions(questionsPopRock);
 shuffleQuestionsOptions(questionsMarvel);
 shuffleQuestionsOptions(questionsSuperVilains);
 shuffleQuestionsOptions(questionsDetailsDisney);
+shuffleQuestionsOptions(questionsSuperman);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -9871,7 +9993,7 @@ const themePopRockBtn = document.getElementById("theme-popRock");
 const themeMarvelBtn = document.getElementById("theme-marvel");
 const themeSuperVilainsBtn = document.getElementById("theme-superVilains");
 const themeDetailsDisneyBtn = document.getElementById("theme-detailsDisney");
-
+const themeSupermanBtn = document.getElementById("theme-superman");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -9966,6 +10088,12 @@ themePixarBtn.addEventListener("click", () => {
 themeSuperVilainsBtn.addEventListener("click", () => {
   selectedTheme = "Super-Vilains";
   startQuiz(questionsSuperVilains);
+  scrollToTop();
+});
+
+themeSupermanBtn.addEventListener("click", () => {
+  selectedTheme = "Superman";
+  startQuiz(questionsSuperman);
   scrollToTop();
 });
 
