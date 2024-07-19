@@ -10301,21 +10301,21 @@ const questionsEspecesAnimales = [
   },
   {
     numéro: "5/20",
-    question: "Quel type d'animal est une étoile de mer ?",
-    options: ["Échinoderme", "Crustacé", "Mollusque", "Poisson"],
-    answer: "Échinoderme"
+    question: "À quelle espèce animale appartient le kangourou ?",
+    options: ["Marsupial", "Mammifère", "Reptile", "Amphibien"],
+    answer: "Marsupial"
   },
   {
     numéro: "6/20",
-    question: "Quel insecte est connu pour ses colonies et sa structure sociale complexe ?",
-    options: ["Fourmi", "Papillon", "Scarabée", "Moustique"],
-    answer: "Fourmi"
+    question: "À quelle espèce animale appartient le calmar géant ?",
+    options: ["Mollusque", "Crustacé", "Poisson", "Échinoderme"],
+    answer: "Mollusque"
   },
   {
     numéro: "7/20",
-    question: "Quel mollusque est connu pour sa coquille unique et spiralée ?",
-    options: ["Escargot", "Huître", "Seiche", "Calamar"],
-    answer: "Escargot"
+    question: "À quelle espèce animale appartient le manchot empereur ?",
+    options: ["Oiseau", "Mammifère", "Reptile", "Amphibien"],
+    answer: "Oiseau"
   },
   {
     numéro: "8/20",
@@ -10325,9 +10325,9 @@ const questionsEspecesAnimales = [
   },
   {
     numéro: "9/20",
-    question: "Quel poisson est connu pour son aptitude à gonfler son corps pour se protéger ?",
-    options: ["Poisson-globe", "Poisson-clown", "Poisson-ange", "Poisson-chat"],
-    answer: "Poisson-globe"
+    question: "À quelle espèce animale appartient la tarentule ?",
+    options: ["Arachnide", "Insecte", "Crustacé", "Mollusque"],
+    answer: "Arachnide"
   },
   {
     numéro: "10/20",
@@ -10343,9 +10343,9 @@ const questionsEspecesAnimales = [
   },
   {
     numéro: "12/20",
-    question: "Quel reptile est capable de changer de couleur pour se camoufler ?",
-    options: ["Caméléon", "Iguane", "Serpent", "Tortue"],
-    answer: "Caméléon"
+    question: "À quelle espèce animale appartient la méduse ?",
+    options: ["Cnidaire", "Mollusque", "Crustacé", "Poisson"],
+    answer: "Cnidaire"
   },
   {
     numéro: "13/20",
@@ -10355,21 +10355,21 @@ const questionsEspecesAnimales = [
   },
   {
     numéro: "14/20",
-    question: "Quel amphibien est célèbre pour sa transformation de têtard en adulte ?",
-    options: ["Grenouille", "Salamandre", "Triton", "Crapaud"],
-    answer: "Grenouille"
+    question: "Quel est le régime alimentaire des kangourous ?",
+    options: ["Herbivore", "Carnivore", "Omnivore", "Insectivore"],
+    answer: "Herbivore"
   },
   {
     numéro: "15/20",
-    question: "Quel poisson est connu pour sa bioluminescence dans les profondeurs marines ?",
-    options: ["Poisson lanterne", "Poisson-clown", "Poisson-perroquet", "Poisson-ange"],
-    answer: "Poisson lanterne"
+    question: "Quel est le régime alimentaire des renards ?",
+    options: ["Omnivore", "Carnivore", "Herbivore", "Insectivore"],
+    answer: "Omnivore"
   },
   {
     numéro: "16/20",
-    question: "Quel mollusque est connu pour produire des perles ?",
-    options: ["Huître", "Calamar", "Escargot", "Seiche"],
-    answer: "Huître"
+    question: "À quelle espèce animale appartient le triton ?",
+    options: ["Amphibien", "Reptile", "Poisson", "Mammifère"],
+    answer: "Amphibien"
   },
   {
     numéro: "17/20",
@@ -10379,21 +10379,21 @@ const questionsEspecesAnimales = [
   },
   {
     numéro: "18/20",
-    question: "Quel reptile possède une carapace rigide qui le protège des prédateurs ?",
-    options: ["Tortue", "Crocodile", "Serpent", "Lézard"],
-    answer: "Tortue"
+    question: "À quelle espèce animale appartient la crevette ?",
+    options: ["Crustacé", "Mollusque", "Poisson", "Arachnide"],
+    answer: "Crustacé"
   },
   {
     numéro: "19/20",
-    question: "Quel insecte est capable de marcher sur l'eau grâce à la tension superficielle ?",
-    options: ["Gerris", "Fourmi", "Papillon", "Libellule"],
-    answer: "Gerris"
+    question: "Quel groupe d'animaux comprend les insectes, les arachnides, les crustacés et les myriapodes ?",
+    options: ["Invertébrés", "Vertébrés", "Mollusques", "Poissons"],
+    answer: "Invertébrés"
   },
   {
     numéro: "20/20",
-    question: "Quel animal amphibien est souvent utilisé comme indicateur de la santé environnementale ?",
-    options: ["Grenouille", "Salamandre", "Triton", "Crapaud"],
-    answer: "Grenouille"
+    question: "Quel groupe d'animaux comprend les poissons, les amphibiens, les reptiles, les oiseaux et les mammifères ?",
+    options: ["Vertébrés", "Invertébrés", "Mollusques", "Crustacés"],
+    answer: "Vertébrés"
   }
 ];
 
@@ -10494,6 +10494,7 @@ const themeSupermanBtn = document.getElementById("theme-superman");
 const themeMersOceansBtn = document.getElementById("theme-mersOceans");
 const themeInsectesBtn = document.getElementById("theme-insectes");
 const themeAnimauxFermeBtn = document.getElementById("theme-animauxDeLaFerme");
+const themeEspecesAnimalesBtn = document.getElementById("theme-especesAnimales");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -10588,6 +10589,12 @@ themePixarBtn.addEventListener("click", () => {
 themeAnimauxFermeBtn.addEventListener("click", () => {
   selectedTheme = "Animaux de la ferme";
   startQuiz(questionsAnimauxFerme);
+  scrollToTop();
+});
+
+themeEspecesAnimalesBtn.addEventListener("click", () => {
+  selectedTheme = "Espèces animales";
+  startQuiz(questionsEspecesAnimales);
   scrollToTop();
 });
 
