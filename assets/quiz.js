@@ -10151,6 +10151,252 @@ const questionsInsectes = [
   }
 ];
 
+const questionsAnimauxFerme = [
+  {
+    numéro: "1/20",
+    question: "Quel est le principal produit obtenu des vaches laitières ?",
+    options: ["Viande", "Lait", "Laine", "Œufs"],
+    answer: "Lait"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel animal de la basse-cour est connu pour produire des œufs ?",
+    options: ["Poule", "Cochon", "Mouton", "Cheval"],
+    answer: "Poule"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel animal de la ferme est souvent utilisé pour labourer les champs ?",
+    options: ["Cheval", "Vache", "Chèvre", "Lapin"],
+    answer: "Cheval"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel produit est principalement obtenu des moutons ?",
+    options: ["Viande", "Lait", "Laine", "Œufs"],
+    answer: "Laine"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel animal de la basse-cour est connu pour son cri distinctif, le 'coin-coin' ?",
+    options: ["Canard", "Cheval", "Cochon", "Chèvre"],
+    answer: "Canard"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le principal produit obtenu des cochons ?",
+    options: ["Lait", "Viande", "Laine", "Œufs"],
+    answer: "Viande"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel animal de la ferme est souvent gardé pour sa capacité à fournir du lait et de la viande ?",
+    options: ["Chèvre", "Poulet", "Lapin", "Canard"],
+    answer: "Chèvre"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom du petit de la vache ?",
+    options: ["Agneau", "Porcelet", "Veau", "Poulain"],
+    answer: "Veau"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel animal de la basse-cour est souvent associé à la production de foie gras ?",
+    options: ["Canard", "Poulet", "Dinde", "Oie"],
+    answer: "Canard"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel animal de la ferme est connu pour sa capacité à produire du miel ?",
+    options: ["Abeille", "Poulet", "Cochon", "Chèvre"],
+    answer: "Abeille"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel animal de la ferme est célèbre pour ses longues oreilles tombantes ?",
+    options: ["Lapin", "Chèvre", "Cheval", "Vache"],
+    answer: "Lapin"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom du mâle reproducteur chez les poules ?",
+    options: ["Coq", "Poulet", "Coquelet", "Poussin"],
+    answer: "Coq"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel animal de la ferme est souvent utilisé pour sa laine et sa viande ?",
+    options: ["Mouton", "Chèvre", "Poulet", "Cochon"],
+    answer: "Mouton"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom du petit de la poule ?",
+    options: ["Porcelet", "Poussin", "Veau", "Agneau"],
+    answer: "Poussin"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel animal de la basse-cour est souvent gardé pour sa viande à Noël ?",
+    options: ["Dinde", "Poulet", "Canard", "Oie"],
+    answer: "Dinde"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel animal de la ferme est souvent associé à la production de fromage de chèvre ?",
+    options: ["Chèvre", "Vache", "Poulet", "Lapin"],
+    answer: "Chèvre"
+  },
+  {
+    numéro: "17/20",
+    question: "Pour quelle occasion sont élévées les dindes ?",
+    options: ["Noël", "Pâques", "Assomption", "Halloween"],
+    answer: "Noël"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel animal de la ferme est connu pour ses grandes cornes et sa capacité à escalader des terrains accidentés ?",
+    options: ["Chèvre", "Mouton", "Cheval", "Cochon"],
+    answer: "Chèvre"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel animal de la basse-cour est souvent élevé pour ses œufs et sa viande, et est plus petit que le canard ?",
+    options: ["Poule", "Dinde", "Oie", "Pintade"],
+    answer: "Pintade"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le nom du petit de la chèvre ?",
+    options: ["Chevreau", "Veau", "Poussin", "Porcelet"],
+    answer: "Chevreau"
+  }
+];
+
+const questionsEspecesAnimales = [
+  {
+    numéro: "1/20",
+    question: "Quel type d'animal est un dauphin ?",
+    options: ["Mammifère", "Poisson", "Reptile", "Amphibien"],
+    answer: "Mammifère"
+  },
+  {
+    numéro: "2/20",
+    question: "À quelle classe appartient le serpent ?",
+    options: ["Reptile", "Mammifère", "Amphibien", "Oiseau"],
+    answer: "Reptile"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est le plus grand crustacé vivant dans les océans ?",
+    options: ["Crabe araignée japonais", "Langouste", "Homard", "Écrevisse"],
+    answer: "Crabe araignée japonais"
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle espèce d'oiseau est capable de voler à reculons ?",
+    options: ["Colibri", "Aigle", "Hirondelle", "Mouette"],
+    answer: "Colibri"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel type d'animal est une étoile de mer ?",
+    options: ["Échinoderme", "Crustacé", "Mollusque", "Poisson"],
+    answer: "Échinoderme"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel insecte est connu pour ses colonies et sa structure sociale complexe ?",
+    options: ["Fourmi", "Papillon", "Scarabée", "Moustique"],
+    answer: "Fourmi"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel mollusque est connu pour sa coquille unique et spiralée ?",
+    options: ["Escargot", "Huître", "Seiche", "Calamar"],
+    answer: "Escargot"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom de l'animal amphibien qui peut régénérer ses membres ?",
+    options: ["Salamandre", "Grenouille", "Triton", "Crapaud"],
+    answer: "Salamandre"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel poisson est connu pour son aptitude à gonfler son corps pour se protéger ?",
+    options: ["Poisson-globe", "Poisson-clown", "Poisson-ange", "Poisson-chat"],
+    answer: "Poisson-globe"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le plus grand oiseau du monde en termes d'envergure ?",
+    options: ["Albatros", "Condor", "Aigle royal", "Autruche"],
+    answer: "Albatros"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel crustacé est connu pour sa capacité à régénérer ses membres perdus ?",
+    options: ["Crabe", "Homard", "Crevette", "Langoustine"],
+    answer: "Crabe"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel reptile est capable de changer de couleur pour se camoufler ?",
+    options: ["Caméléon", "Iguane", "Serpent", "Tortue"],
+    answer: "Caméléon"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel insecte est connu pour sa danse en huit qui communique des informations sur la localisation de la nourriture ?",
+    options: ["Abeille", "Fourmi", "Papillon", "Moustique"],
+    answer: "Abeille"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel amphibien est célèbre pour sa transformation de têtard en adulte ?",
+    options: ["Grenouille", "Salamandre", "Triton", "Crapaud"],
+    answer: "Grenouille"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel poisson est connu pour sa bioluminescence dans les profondeurs marines ?",
+    options: ["Poisson lanterne", "Poisson-clown", "Poisson-perroquet", "Poisson-ange"],
+    answer: "Poisson lanterne"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel mollusque est connu pour produire des perles ?",
+    options: ["Huître", "Calamar", "Escargot", "Seiche"],
+    answer: "Huître"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel oiseau est connu pour son mimétisme vocal exceptionnel, imitant les sons qu'il entend ?",
+    options: ["Loriot", "Perruche", "Mainate", "Rossignol"],
+    answer: "Mainate"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel reptile possède une carapace rigide qui le protège des prédateurs ?",
+    options: ["Tortue", "Crocodile", "Serpent", "Lézard"],
+    answer: "Tortue"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel insecte est capable de marcher sur l'eau grâce à la tension superficielle ?",
+    options: ["Gerris", "Fourmi", "Papillon", "Libellule"],
+    answer: "Gerris"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel animal amphibien est souvent utilisé comme indicateur de la santé environnementale ?",
+    options: ["Grenouille", "Salamandre", "Triton", "Crapaud"],
+    answer: "Grenouille"
+  }
+];
+
 
 // Mélanger les options pour chaque thème de questions
 
@@ -10175,6 +10421,8 @@ shuffleQuestionsOptions(questionsDetailsDisney);
 shuffleQuestionsOptions(questionsSuperman);
 shuffleQuestionsOptions(questionsMersOceans);
 shuffleQuestionsOptions(questionsInsectes);
+shuffleQuestionsOptions(questionsAnimauxFerme);
+shuffleQuestionsOptions(questionsEspecesAnimales);
 
 shuffleQuestionsOptions(questionsActeursActrices);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -10245,6 +10493,7 @@ const themeDetailsDisneyBtn = document.getElementById("theme-detailsDisney");
 const themeSupermanBtn = document.getElementById("theme-superman");
 const themeMersOceansBtn = document.getElementById("theme-mersOceans");
 const themeInsectesBtn = document.getElementById("theme-insectes");
+const themeAnimauxFermeBtn = document.getElementById("theme-animauxDeLaFerme");
 
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
 const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
@@ -10333,6 +10582,12 @@ themeFromagesBtn.addEventListener("click", () => {
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
+  scrollToTop();
+});
+
+themeAnimauxFermeBtn.addEventListener("click", () => {
+  selectedTheme = "Animaux de la ferme";
+  startQuiz(questionsAnimauxFerme);
   scrollToTop();
 });
 
