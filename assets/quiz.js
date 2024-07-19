@@ -11157,7 +11157,7 @@ const questionsPublicitesCelebres = [
   },
   {
     numéro: "4/20",
-    question: "Quelle marque utilise le slogan 'Because You're Worth It' ?",
+    question: "Quelle marque utilise le slogan ' Parce que je le vaux bien' ?",
     options: ["L'Oréal", "Maybelline", "Revlon", "Estée Lauder"],
     answer: "L'Oréal"
   },
