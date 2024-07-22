@@ -14,302 +14,6 @@ function shuffleQuestionsOptions(questions) {
 }
 
 // Tableau des questions
-const questionsCultureGenerale = [
-  {
-    numéro: "1/20",
-    question: "Quelle est la capitale de la France?",
-    options: ["Paris", "London", "Berlin", "Madrid"],
-    answer: "Paris",
-  },
-  {
-    numéro: "2/20",
-    question: "Quelle planète est connue sous le nom de planète rouge?",
-    options: ["Mars", "Jupiter", "Saturn", "Neptune"],
-    answer: "Mars",
-  },
-  {
-    numéro: "3/20",
-    question: "Qui a écrit 'Le Petit Prince' ?",
-    options: [
-      "Antoine de Saint-Exupéry",
-      "Victor Hugo",
-      "Albert Camus",
-      "Franz Kafka",
-    ],
-    answer: "Antoine de Saint-Exupéry",
-  },
-  {
-    numéro: "4/20",
-    question: "Quelle est la capitale du Canada ?",
-    options: ["Toronto", "Ottawa", "Montréal", "Québec"],
-    answer: "Ottawa",
-  },
-  {
-    numéro: "5/20",
-    question: "Quel est le plus haut sommet du monde ?",
-    options: ["Mont Everest", "K2", "Mont Kilimandjaro", "Mont McKinley"],
-    answer: "Mont Everest",
-  },
-  {
-    numéro: "6/20",
-    question: "Quelle est la monnaie du Japon ?",
-    options: ["Yuan", "Yen", "Roupie", "Baht"],
-    answer: "Yen",
-  },
-  {
-    numéro: "7/20",
-    question: "Quelle est la plus grande île du monde ?",
-    options: ["Australie", "Groenland", "Nouvelle-Guinée", "Borneo"],
-    answer: "Groenland",
-  },
-  {
-    numéro: "8/20",
-    question: "Quelle est la langue la plus parlée au monde ?",
-    options: ["Anglais", "Espagnol", "Mandarin", "Hindi"],
-    answer: "Mandarin",
-  },
-  {
-    numéro: "9/20",
-    question: "Quelle est la langue officielle du Brésil ?",
-    options: ["Portugais", "Espagnol", "Anglais", "Allemand"],
-    answer: "Portugais",
-  },
-  {
-    numéro: "10/20",
-    question: "Quel est le plus grand animal terrestre ?",
-    options: [
-      "Rhinocéros blanc",
-      "Girafe",
-      "Éléphant d'Afrique",
-      "Ours polaire",
-    ],
-    answer: "Éléphant d'Afrique",
-  },
-  {
-    numéro: "11/20",
-    question: "Quel est le pays le plus peuplé du monde ?",
-    options: ["États-Unis", "Brésil", "Inde", "Chine"],
-    answer: "Chine",
-  },
-  {
-    numéro: "12/20",
-    question: "Qui a écrit 'Les Fleurs du Mal' ?",
-    options: [
-      "Charles Baudelaire",
-      "Victor Hugo",
-      "Gustave Flaubert",
-      "Émile Zola",
-    ],
-    answer: "Charles Baudelaire",
-  },
-  {
-    numéro: "13/20",
-    question: "Quel est le pays le plus petit du monde par superficie ?",
-    options: ["Monaco", "Malte", "Nauru", "Vatican"],
-    answer: "Vatican",
-  },
-  {
-    numéro: "14/20",
-    question: "Qui a écrit 'Madame Bovary' ?",
-    options: [
-      "Émile Zola",
-      "Gustave Flaubert",
-      "Honoré de Balzac",
-      "Guy de Maupassant",
-    ],
-    answer: "Gustave Flaubert",
-  },
-  {
-    numéro: "15/20",
-    question: "Quelle est la capitale de l'Allemagne ?",
-    options: ["Hambourg", "Berlin", "Munich", "Francfort"],
-    answer: "Berlin",
-  },
-  {
-    numéro: "16/20",
-    question: "Quel est le plus grand désert du monde ?",
-    options: ["Gobi", "Sahara", "Antarctique", "Arabie"],
-    answer: "Antarctique",
-  },
-  {
-    numéro: "17/20",
-    question: "Quelle est la devise de l'Union européenne ?",
-    options: [
-      "In varietate concordia",
-      "Liberté, Égalité, Fraternité",
-      "United in diversity",
-      "E pluribus unum",
-    ],
-    answer: "In varietate concordia",
-  },
-  {
-    numéro: "18/20",
-    question: "Qui a écrit 'Les Misérables' ?",
-    options: [
-      "Gustave Flaubert",
-      "Victor Hugo",
-      "Émile Zola",
-      "Alexandre Dumas",
-    ],
-    answer: "Victor Hugo",
-  },
-  {
-    numéro: "19/20",
-    question: "Quelle est la capitale de l'Argentine ?",
-    options: ["Santiago", "Lima", "Buenos Aires", "Montevideo"],
-    answer: "Buenos Aires",
-  },
-  {
-    numéro: "20/20",
-    question: "Qui a écrit 'Les Fables' ?",
-    options: [
-      "Jean de La Fontaine",
-      "Voltaire",
-      "Molière",
-      "Jean-Jacques Rousseau",
-    ],
-    answer: "Jean de La Fontaine",
-  },
-];
-
-const questionsChansons = [
-  {
-    numéro: "1/20",
-    question: "Qui a chanté 'Bohemian Rhapsody' ?",
-    options: ["Queen", "The Beatles", "Led Zeppelin", "Pink Floyd"],
-    answer: "Queen",
-  },
-  {
-    numéro: "2/20",
-    question: "Qui a chanté 'Shape of You' ?",
-    options: ["Ed Sheeran", "Justin Bieber", "Taylor Swift", "Adele"],
-    answer: "Ed Sheeran",
-  },
-  {
-    numéro: "3/20",
-    question: "Qui a chanté 'La Vie en Rose' ?",
-    options: [
-      "Édith Piaf",
-      "Jacques Brel",
-      "Charles Aznavour",
-      "Serge Gainsbourg",
-    ],
-    answer: "Édith Piaf",
-  },
-  {
-    numéro: "4/20",
-    question: "Quel chanteur a interprété 'Ne me quitte pas' ?",
-    options: [
-      "Jacques Brel",
-      "Charles Aznavour",
-      "Serge Gainsbourg",
-      "Johnny Hallyday",
-    ],
-    answer: "Jacques Brel",
-  },
-  {
-    numéro: "5/20",
-    question: "Quel chanteur a chanté 'Purple Rain' ?",
-    options: ["Prince", "Michael Jackson", "David Bowie", "Elton John"],
-    answer: "Prince",
-  },
-  {
-    numéro: "6/20",
-    question: "Quel chanteur a interprété 'L'aigle noir' ?",
-    options: ["Barbara", "Mylène Farmer", "France Gall", "Michel Berger"],
-    answer: "Barbara",
-  },
-  {
-    numéro: "7/20",
-    question: "Qui a chanté 'Sous le vent' en duo avec Garou ?",
-    options: ["Céline Dion", "Lara Fabian", "Nolwenn Leroy", "Christophe Maé"],
-    answer: "Céline Dion",
-  },
-  {
-    numéro: "8/20",
-    question: "Qui a chanté 'Imagine' ?",
-    options: [
-      "John Lennon",
-      "Paul McCartney",
-      "George Harrison",
-      "Ringo Starr",
-    ],
-    answer: "John Lennon",
-  },
-  {
-    numéro: "9/20",
-    question: "Quel groupe a interprété 'J'ai demandé à la lune' ?",
-    options: ["Indochine", "Téléphone", "Noir Désir", "Les Rita Mitsouko"],
-    answer: "Indochine",
-  },
-  {
-    numéro: "10/20",
-    question: "Qui a chanté 'Billie Jean' ?",
-    options: ["Michael Jackson", "Prince", "David Bowie", "Elton John"],
-    answer: "Michael Jackson",
-  },
-  {
-    numéro: "11/20",
-    question: "Qui a chanté 'Adieu' ?",
-    options: ["Slimane", "Vianney", "Julien Doré", "Jérémy Frérot"],
-    answer: "Jérémy Frérot",
-  },
-  {
-    numéro: "12/20",
-    question: "Qui a chanté 'My Heart Will Go On' ?",
-    options: ["Céline Dion", "Mariah Carey", "Whitney Houston", "Madonna"],
-    answer: "Céline Dion",
-  },
-  {
-    numéro: "13/20",
-    question: "Qui a chanté 'À nos souvenirs' ?",
-    options: ["Trois Cafés Gourmands", "Claudio Capéo", "Soprano", "Gims"],
-    answer: "Trois Cafés Gourmands",
-  },
-  {
-    numéro: "14/20",
-    question: "Qui a chanté 'La même' en duo avec Vianney ?",
-    options: ["Maître Gims", "Slimane", "Julien Doré", "Amir"],
-    answer: "Maître Gims",
-  },
-  {
-    numéro: "15/20",
-    question: "Qui a chanté 'Tous les mêmes' ?",
-    options: ["Stromae", "Maitre Gims", "Soprano", "Julien Doré"],
-    answer: "Stromae",
-  },
-  {
-    numéro: "16/20",
-    question: "Qui a chanté 'Ca va ça vient' ?",
-    options: ["Vitaa", "Amel Bent", "Léa Castel", "Shy'm"],
-    answer: "Vitaa",
-  },
-  {
-    numéro: "17/20",
-    question: "Qui a chanté 'Dance Monkey' ?",
-    options: ["Tones and I", "Ava Max", "Billie Eilish", "Dua Lipa"],
-    answer: "Tones and I",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quelle chanson de Aya Nakamura a été certifiée single de diamant en France ?",
-    options: ["Djadja", "Pookie", "Copines", "La Dot"],
-    answer: "Djadja",
-  },
-  {
-    numéro: "19/20",
-    question: "Qui a chanté 'Shallow' en duo avec Lady Gaga ?",
-    options: ["Bradley Cooper", "Sam Smith", "Shawn Mendes", "Harry Styles"],
-    answer: "Bradley Cooper",
-  },
-  {
-    numéro: "20/20",
-    question: "Qui a chanté 'Mon soleil' en 2021 ?",
-    options: ["Jérémy Frérot", "Vianney", "Jenifer", "Dadju"],
-    answer: "Dadju",
-  },
-];
 
 const questionsDessinsAnimes = [
   {
@@ -480,329 +184,6 @@ const questionsDessinsAnimes = [
   },
 ];
 
-const questionsCuisine = [
-  {
-    numéro: "1/20",
-    question: "Quel ingrédient ne compose pas une sauce béchamel ?",
-    options: ["Farine", "Lait", "Beurre", "Crème fraîche"],
-    answer: "Crème fraîche",
-  },
-  {
-    numéro: "2/20",
-    question:
-      "Quel type de pâtes est souvent utilisé pour préparer le plat italien 'carbonara' ?",
-    options: ["Spaghetti", "Tagliatelle", "Penne", "Fettuccine"],
-    answer: "Spaghetti",
-  },
-  {
-    numéro: "3/20",
-    question: "Quel aliment est utilisé pour faire du guacamole ?",
-    options: ["Tomate", "Avocat", "Poivron", "Piment"],
-    answer: "Avocat",
-  },
-  {
-    numéro: "4/20",
-    question:
-      "Quel type de viande est utilisé pour préparer un boeuf bourguignon ?",
-    options: ["Filet mignon", "Épaule", "Jarret", "Paleron"],
-    answer: "Paleron",
-  },
-  {
-    numéro: "5/20",
-    question: "Quel est l'ingrédient principal dans un risotto ?",
-    options: ["Blé", "Riz", "Orge", "Millet"],
-    answer: "Riz",
-  },
-  {
-    numéro: "6/20",
-    question: "Quel légume est souvent utilisé dans la salade niçoise ?",
-    options: ["Laitue", "Concombre", "Tomate", "Haricot vert"],
-    answer: "Haricot vert",
-  },
-  {
-    numéro: "7/20",
-    question:
-      "Quel épice est souvent utilisé dans la cuisine indienne pour donner de la couleur aux plats ?",
-    options: ["Cumin", "Curcuma", "Coriandre", "Cannelle"],
-    answer: "Curcuma",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Quel type de poisson est traditionnellement utilisé pour faire du sushi ?",
-    options: ["Saumon", "Thon", "Dorade", "Bar"],
-    answer: "Thon",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Quel légume est traditionnellement utilisé dans la paella espagnole ?",
-    options: ["Poivron", "Courgette", "Aubergine", "Pois chiche"],
-    answer: "Poivron",
-  },
-  {
-    numéro: "10/20",
-    question: "Quel ingrédient est utilisé pour faire une sauce hollandaise ?",
-    options: ["Beurre", "Crème fraîche", "Moutarde", "Yaourt"],
-    answer: "Beurre",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Quel fromage italien à pâte filée est utilisé dans la préparation de la pizza margherita ?",
-    options: ["Provolone", "Gorgonzola", "Parmesan", "Mozzarella"],
-    answer: "Mozzarella",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "Quel mollusque est utilisé dans la cuisine italienne pour préparer les 'spaghetti alle vongole' ?",
-    options: ["Moule", "Palourde", "Huître", "Coquille Saint-Jacques"],
-    answer: "Palourde",
-  },
-  {
-    numéro: "13/20",
-    question: "Quel légume est utilisé pour faire une sauce pesto ?",
-    options: ["Basilic", "Persil", "Coriandre", "Menthe"],
-    answer: "Basilic",
-  },
-  {
-    numéro: "14/20",
-    question:
-      "Quel ingrédient est essentiel dans la préparation du tzatziki grec ?",
-    options: ["Concombre", "Tomate", "Poivron", "Oignon"],
-    answer: "Concombre",
-  },
-  {
-    numéro: "15/20",
-    question: "Quel ingrédient est utilisé pour faire une sauce béarnaise ?",
-    options: ["Estragon", "Ciboulette", "Persil", "Coriandre"],
-    answer: "Estragon",
-  },
-  {
-    numéro: "16/20",
-    question: "Quel fruit est souvent utilisé pour faire un clafoutis ?",
-    options: ["Framboise", "Cerise", "Myrtille", "Fraise"],
-    answer: "Cerise",
-  },
-  {
-    numéro: "17/20",
-    question: "Quel légume est utilisé pour faire une salade Caesar ?",
-    options: ["Laitue romaine", "Épinard", "Mâche", "Roquette"],
-    answer: "Laitue romaine",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quel fromage à pâte molle et à croûte fleurie est souvent associé à la gastronomie française et est utilisé dans la préparation du 'brie en croûte' ?",
-    options: ["Camembert", "Brie", "Roquefort", "Munster"],
-    answer: "Brie",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quel fromage de la région française de Normandie est connue pour sa forme typique ?",
-    options: ["Pont-l'Évêque", "Neufchâtel", "Livarot", "Camembert"],
-    answer: "Neufchâtel",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quel crustacé est utilisé pour préparer la célèbre soupe française 'bisque' ?",
-    options: ["Homard", "Crevette", "Langouste", "Crabe"],
-    answer: "Homard",
-  },
-];
-
-const questionsHarry = [
-  {
-    numéro: "1/20",
-    question:
-      "Quel est le nom de l'école de sorcellerie fréquentée par Harry Potter ?",
-    options: ["Durmstrang", "Poudlard", "Beauxbâtons", "Ilvermorny"],
-    answer: "Poudlard",
-  },
-  {
-    numéro: "2/20",
-    question: "Quel est le prénom des parents de Harry Potter ?",
-    options: [
-      "James et Lily",
-      "Charles et Diana",
-      "Henry et Emma",
-      "John et Mary",
-    ],
-    answer: "James et Lily",
-  },
-  {
-    numéro: "3/20",
-    question:
-      "Quel est le nom du professeur de potions durant les premières années à Poudlard ?",
-    options: [
-      "Albus Dumbledore",
-      "Gilderoy Lockhart",
-      "Severus Rogue",
-      "Minerva McGonagall",
-    ],
-    answer: "Severus Rogue",
-  },
-  {
-    numéro: "4/20",
-    question:
-      "Quel est le nom du prisonnier d'Azkaban qui s'échappe dans le troisième film ?",
-    options: [
-      "Peter Pettigrew",
-      "Sirius Black",
-      "Bellatrix Lestrange",
-      "Lucius Malefoy",
-    ],
-    answer: "Sirius Black",
-  },
-  {
-    numéro: "5/20",
-    question: "Quel est le patronus de Harry Potter ?",
-    options: ["Un cerf", "Un phénix", "Un chien", "Un dragon"],
-    answer: "Un cerf",
-  },
-  {
-    numéro: "6/20",
-    question:
-      "Quel est le nom de la maison à laquelle appartient Drago Malefoy ?",
-    options: ["Serpentard", "Gryffondor", "Serdaigle", "Poufsouffle"],
-    answer: "Serpentard",
-  },
-  {
-    numéro: "7/20",
-    question: "Quel est le nom de l'elfe de maison de la famille Malefoy ?",
-    options: ["Winky", "Kreacher", "Dobby", "Hokey"],
-    answer: "Dobby",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Quel est le métier de Hermione Granger après avoir quitté Poudlard ?",
-    options: [
-      "Magizoologiste",
-      "Auror",
-      "Professeur à Poudlard",
-      "Employée au ministère de la Magie",
-    ],
-    answer: "Employée au ministère de la Magie",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Quel est le nom du frère de Ron Weasley qui travaille avec des dragons ?",
-    options: ["George", "Percy", "Charlie", "Bill"],
-  },
-  {
-    numéro: "10/20",
-    question: "Quel est le nom complet de Voldemort ?",
-    options: [
-      "Salazar Serpentard",
-      "Tom Elvis Jedusor",
-      "Regulus Black",
-      "Gellert Grindelwald",
-    ],
-    answer: "Tom Elvis Jedusor",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Quel est le nom du sport préféré des sorciers dans l'univers de Harry Potter ?",
-    options: ["Quidditch", "Wizard Chess", "Spellcasting", "Broom Racing"],
-    answer: "Quidditch",
-  },
-  {
-    numéro: "12/20",
-    question: "Quel est le nom de la banque des sorciers à Londres ?",
-    options: [
-      "Gringotts",
-      "Ollivander's",
-      "Flourish and Blotts",
-      "The Leaky Cauldron",
-    ],
-    answer: "Gringotts",
-  },
-  {
-    numéro: "13/20",
-    question:
-      "Quel est le nom de la potion permettant de changer d'apparence ?",
-    options: ["Veritaserum", "Amortentia", "Felix Felicis", "Polynectar"],
-    answer: "Polynectar",
-  },
-  {
-    numéro: "14/20",
-    question:
-      "Quel est le nom du professeur de Défense contre les forces du Mal dans la première année de Harry ?",
-    options: [
-      "Remus Lupin",
-      "Severus Rogue",
-      "Quirinus Quirrell",
-      "Dolores Ombrage",
-    ],
-    answer: "Quirinus Quirrell",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Quel est le nom de la carte magique qui montre tout Poudlard et ses habitants ?",
-    options: [
-      "La Carte des Fondateurs",
-      "La Carte du Maraudeur",
-      "La Carte de Poudlard",
-      "La Carte de l'École",
-    ],
-    answer: "La Carte du Maraudeur",
-  },
-  {
-    numéro: "16/20",
-    question: "Quel est le nom du professeur de divination à Poudlard ?",
-    options: [
-      "Aurora Sinistra",
-      "Filius Flitwick",
-      "Pomona Chourave",
-      "Sybille Trelawney",
-    ],
-    answer: "Sybille Trelawney",
-  },
-  {
-    numéro: "17/20",
-    question: "Quel est le nom du serpent de Voldemort ?",
-    options: ["Nagili", "Basilic", "Niffler", "Nagini"],
-    answer: "Nagini",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quel est le nom du directeur de Poudlard avant Albus Dumbledore ?",
-    options: [
-      "Horace Slughorn",
-      "Phineas Nigellus Black",
-      "Armando Dippet",
-      "Dilys Derwent",
-    ],
-    answer: "Armando Dippet",
-  },
-  {
-    numéro: "19/20",
-    question: "Quel est le nom de l'animal de compagnie de Ron Weasley ?",
-    options: ["Pattenrond", "Croûtard", "Hedwige", "Errol"],
-    answer: "Croûtard",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quel est le nom du groupe de sorciers rebelles dirigé par Harry, Ron et Hermione en cinquième année ?",
-    options: [
-      "La Brigade Inquisitoriale",
-      "L'Ordre du Phénix",
-      "L'Armée de Dumbledore",
-      "Les Maraudeurs",
-    ],
-    answer: "L'Armée de Dumbledore",
-  },
-];
-
 const questionsSeries = [
   {
     numéro: "1/20",
@@ -959,736 +340,6 @@ const questionsSeries = [
       "Quel est le nom de l'ennemi juré de Rick Grimes, connu pour utiliser une batte de baseball couverte de fil barbelé ?",
     options: ["Negan", "Governor", "Shane", "Merle"],
     answer: "Negan",
-  },
-];
-
-const questionsGeographie = [
-  {
-    numéro: "1/20",
-    question: "Quel est le plus grand pays du monde par superficie ?",
-    options: ["Russie", "Canada", "Chine", "États-Unis"],
-    answer: "Russie",
-  },
-  {
-    numéro: "2/20",
-    question: "Où se trouve le mont Everest, le plus haut sommet du monde ?",
-    options: ["Népal", "Inde", "Chine", "Bhoutan"],
-    answer: "Népal",
-  },
-  {
-    numéro: "3/20",
-    question: "Quel est le fleuve le plus long du monde ?",
-    options: ["Nil", "Amazone", "Yangzi Jiang", "Mississippi"],
-    answer: "Amazone",
-  },
-  {
-    numéro: "4/20",
-    question:
-      "Quel est le point le plus bas de la Terre, situé à environ 430 mètres sous le niveau de la mer ?",
-    options: [
-      "Mer Morte",
-      "Vallée de la Mort",
-      "Lac Assal",
-      "Fosse des Mariannes",
-    ],
-    answer: "Mer Morte",
-  },
-  {
-    numéro: "5/20",
-    question: "Quel pays est le plus grand producteur mondial de café ?",
-    options: ["Brésil", "Colombie", "Vietnam", "Indonésie"],
-    answer: "Brésil",
-  },
-  {
-    numéro: "6/20",
-    question: "Quel est le plus grand archipel du monde en nombre d'îles ?",
-    options: ["Indonésie", "Philippines", "Japon", "Maldives"],
-    answer: "Indonésie",
-  },
-  {
-    numéro: "7/20",
-    question: "Quel est le pays le plus peuplé d'Afrique ?",
-    options: [
-      "Nigeria",
-      "Égypte",
-      "Éthiopie",
-      "République Démocratique du Congo",
-    ],
-    answer: "Nigeria",
-  },
-  {
-    numéro: "8/20",
-    question: "Quelle est la plus haute montagne d'Afrique ?",
-    options: ["Mont Kilimandjaro", "Mont Kenya", "Mont Stanley", "Mont Elgon"],
-    answer: "Mont Kilimandjaro",
-  },
-  {
-    numéro: "9/20",
-    question: "Quel est le plus grand pays d'Amérique du Sud par superficie ?",
-    options: ["Brésil", "Argentine", "Colombie", "Pérou"],
-    answer: "Brésil",
-  },
-  {
-    numéro: "10/20",
-    question: "Quel est le plus grand lac d'eau douce en volume du monde ?",
-    options: ["lac Baïkal", "lac Supérieur", "lac Tanganyika", "lac Victoria"],
-    answer: "lac Baïkal",
-  },
-  {
-    numéro: "11/20",
-    question: "Quel pays a le plus grand nombre de langues officielles ?",
-    options: ["Afrique du Sud", "Inde", "Suisse", "Nouvelle-Zélande"],
-    answer: "Afrique du Sud",
-  },
-  {
-    numéro: "12/20",
-    question: "Dans quel océan se trouve l'île de Madagascar ?",
-    options: [
-      "Océan Indien",
-      "Océan Atlantique",
-      "Océan Pacifique",
-      "Océan Arctique",
-    ],
-    answer: "Océan Indien",
-  },
-  {
-    numéro: "13/20",
-    question: "Quelle est la capitale du Pérou ?",
-    options: ["Lima", "Cusco", "Arequipa", "Trujillo"],
-    answer: "Lima",
-  },
-  {
-    numéro: "14/20",
-    question: "Quelle est la plus haute cascade du monde ?",
-    options: [
-      "Salto Angel (Venezuela)",
-      "Niagara (États-Unis/Canada)",
-      "Victoria (Zimbabwe/Zambie)",
-      "Tugela (Afrique du Sud)",
-    ],
-    answer: "Salto Angel (Venezuela)",
-  },
-  {
-    numéro: "15/20",
-    question: "Quelle est la ville la plus peuplée d'Europe ?",
-    options: ["Moscou", "Londres", "Paris", "Berlin"],
-    answer: "Moscou",
-  },
-  {
-    numéro: "16/20",
-    question: "Quel est le plus grand désert chaud du monde ?",
-    options: ["Sahara", "Kalahari", "Arabie", "Gobi"],
-    answer: "Sahara",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Quel est le pays le plus grand exportateur de pétrole au monde ?",
-    options: ["Arabie Saoudite", "États-Unis", "Russie", "Canada"],
-    answer: "Arabie Saoudite",
-  },
-  {
-    numéro: "18/20",
-    question: "Quelle est la capitale de la Suède ?",
-    options: ["Stockholm", "Oslo", "Copenhague", "Helsinki"],
-    answer: "Stockholm",
-  },
-  {
-    numéro: "19/20",
-    question: "Dans quel pays se trouve la ville de Dubaï ?",
-    options: ["Émirats Arabes Unis", "Arabie Saoudite", "Qatar", "Koweït"],
-    answer: "Émirats Arabes Unis",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quel est le plus long fleuve de France, s'étendant sur environ 1,012 kilomètres ?",
-    options: ["Loire", "Rhône", "Seine", "Garonne"],
-    answer: "Loire",
-  },
-];
-
-const questionsOrthographe = [
-  {
-    numéro: "1/20",
-    question:
-      "Comment s'écrit le mot désignant l'action de se débarrasser de quelque chose ?",
-    options: ["Jetter", "Jeté", "Jeter", "Je tais"],
-    answer: "Jeter",
-  },
-  {
-    numéro: "2/20",
-    question: "Quel est le féminin de 'acteur' ?",
-    options: ["Actrice", "Acteuse", "Acteure", "Actrisse"],
-    answer: "Actrice",
-  },
-  {
-    numéro: "3/20",
-    question:
-      "Comment s'écrit le mot désignant une énigme difficile, un problème insoluble ?",
-    options: ["Querelle", "Querelleur", "Querele", "Querrelle"],
-    answer: "Querelle",
-  },
-  {
-    numéro: "4/20",
-    question: "Quel est le mot désignant un petit lac ou une mare ?",
-    options: ["Marette", "Mare", "Maret", "Marre"],
-    answer: "Mare",
-  },
-  {
-    numéro: "5/20",
-    question: "Quel est le pluriel de 'monsieur' ?",
-    options: ["Monsieurs", "Monsieures", "Monsieur", "Messieurs"],
-    answer: "Messieurs",
-  },
-  {
-    numéro: "6/20",
-    question:
-      "Comment s'écrit le mot désignant un ensemble de règles ou de lois ?",
-    options: ["Règles", "Règle", "Règlement", "Règlements"],
-    answer: "Règlement",
-  },
-  {
-    numéro: "7/20",
-    question: "Quel est le féminin de 'professeur' ?",
-    options: ["Professeuse", "Professeure", "Professeur", "Professeuress"],
-    answer: "Professeure",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Quel est l'ancien terme pour désigner un poète musicien de la Renaissance ?",
-    options: ["Bachique", "Vagant", "Troubadour", "Luthier"],
-    answer: "Troubadour",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Comment s'écrit le mot désignant la conversion d'une substance solide en gaz sans passer par l'état liquide ?",
-    options: [
-      "Sublimation",
-      "Substantiation ",
-      "Substitution",
-      "Subtilisation",
-    ],
-    answer: "Sublimation",
-  },
-  {
-    numéro: "10/20",
-    question: "Quel est le féminin de 'ministre' ?",
-    options: ["Ministère", "Ministesse", "Ministre", "Ministresse"],
-    answer: "Ministre",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Comment s'écrit le mot désignant une plante grimpante souvent utilisée comme décoration ?",
-    options: ["Lièvre", "Lierre", "Lières", "Lyère"],
-    answer: "Lierre",
-  },
-  {
-    numéro: "12/20",
-    question: "Quel est l'ancien terme pour désigner un alchimiste ?",
-    options: ["Sorcellier", "Alchimiste", "Philosophe", "Nigromant"],
-    answer: "Nigromant",
-  },
-  {
-    numéro: "13/20",
-    question: "Comment s'écrit le mot désignant une pierre précieuse bleue ?",
-    options: ["Saphire", "Saphyr", "Saphir", "Safir"],
-    answer: "Saphir",
-  },
-  {
-    numéro: "14/20",
-    question:
-      "Comment s'écrit le mot désignant une personne qui s'occupe des enfants ?",
-    options: ["Nourrice", "Nourrisse", "Nourice", "Nourisse"],
-    answer: "Nourrice",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Comment s'écrit le mot désignant un vieux gréement à trois mâts ?",
-    options: ["Trois-mâts", "Tri-mât", "Très-mât", "Tri-mas"],
-    answer: "Trois-mâts",
-  },
-  {
-    numéro: "16/20",
-    question:
-      "Quel est le mot désignant une marque laissée par la rouille sur le métal ?",
-    options: ["Ferrugine", "Ferrugineuse", "Ferruginé", "Ferruginée"],
-    answer: "Ferrugine",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Comment s'écrit le mot désignant un courant d'eau rapide et tourbillonnant ?",
-    options: ["Mouillard", "Moulinet", "Mouillon", "Mouille"],
-    answer: "Mouillon",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Comment s'écrit le mot désignant une personne atteinte de gigantisme ?",
-    options: ["Gigantesque", "Géantisme", "Gigantée", "Gigantiste"],
-    answer: "Géantisme",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quel est le mot désignant une inflammation aiguë de la muqueuse intestinale ?",
-    options: ["Entérite", "Entéritique", "Entéritée", "Entérine"],
-    answer: "Entérite",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quel est l'ancien terme pour désigner un ensemble de règles édictées par un seigneur au Moyen Âge ?",
-    options: ["Charte", "Ordonnance", "Fief", "Édit"],
-    answer: "Ordonnance",
-  },
-];
-
-const questionsSport = [
-  {
-    numéro: "1/20",
-    question:
-      "Quel est le nom du joueur de football brésilien surnommé 'O Fenômeno' ?",
-    options: ["Ronaldo", "Pelé", "Zidane", "Messi"],
-    answer: "Ronaldo",
-  },
-  {
-    numéro: "2/20",
-    question:
-      "Dans quel sport l'expression 'Grand Chelem' désigne-t-elle la victoire dans les quatre tournois majeurs la même année ?",
-    options: ["Tennis", "Golf", "Football", "Basketball"],
-    answer: "Tennis",
-  },
-  {
-    numéro: "3/20",
-    question:
-      "Quel est le nom du plus grand événement sportif international regroupant des athlètes de plus de 200 pays différents, se déroulant tous les quatre ans ?",
-    options: [
-      "Jeux Olympiques",
-      "Coupe du Monde",
-      "Championnat du Monde",
-      "Euro",
-    ],
-    answer: "Jeux Olympiques",
-  },
-  {
-    numéro: "4/20",
-    question:
-      "Quel sport utilise une raquette pour frapper une balle contre un mur dans un court fermé avec des lignes marquant les limites du jeu ?",
-    options: ["Squash", "Tennis", "Paddle", "Ping-pong"],
-    answer: "Squash",
-  },
-  {
-    numéro: "5/20",
-    question:
-      "Quel joueur de basket-ball américain a remporté six titres NBA avec les Chicago Bulls dans les années 1990 ?",
-    options: ["Michael Jordan", "Magic Johnson", "Larry Bird", "Kobe Bryant"],
-    answer: "Michael Jordan",
-  },
-  {
-    numéro: "6/20",
-    question:
-      "Quel golfeur américain a remporté 15 titres du Grand Chelem, dont cinq Masters et quatre US Open ?",
-    options: [
-      "Tiger Woods",
-      "Jack Nicklaus",
-      "Arnold Palmer",
-      "Phil Mickelson",
-    ],
-    answer: "Tiger Woods",
-  },
-  {
-    numéro: "7/20",
-    question:
-      "Quel est le nom du championnat annuel de rugby où s'affrontent des équipes européennes ?",
-    options: [
-      "Tournoi des Six Nations",
-      "Coupe du Monde de Rugby",
-      "Championnat de France",
-      "Rugby Championship",
-    ],
-    answer: "Tournoi des Six Nations",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Dans quel sport les participants descendent une pente enneigée à l'aide de skis, en slalomant entre des portes ou d'autres obstacles ?",
-    options: ["Ski alpin", "Snowboard", "Ski de fond", "Biathlon"],
-    answer: "Ski alpin",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Quel est le nom du sport qui se pratique sur une piste de glace où les concurrents descendent la pente à grande vitesse, en se couchant sur un traîneau ?",
-    options: ["Luge", "Bobsleigh", "Skeleton", "Patinage de vitesse"],
-    answer: "Skeleton",
-  },
-  {
-    numéro: "10/20",
-    question:
-      "Quel footballeur argentin a remporté cinq Ballons d'Or et joue pour le FC Barcelone depuis le début de sa carrière professionnelle en 2000 ?",
-    options: ["Lionel Messi", "Cristiano Ronaldo", "Diego Maradona", "Neymar"],
-    answer: "Lionel Messi",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Quel joueur de tennis suisse a remporté 20 titres du Grand Chelem, dont huit Wimbledon et cinq US Open ?",
-    options: ["Roger Federer", "Novak Djokovic", "Rafael Nadal", "Andy Murray"],
-    answer: "Roger Federer",
-  },
-  {
-    numéro: "12/20",
-    question: "Quelle est la distance officielle d'un marathon en kilomètres ?",
-    options: ["42,195 km", "40,195 km", "45 km", "50 km"],
-    answer: "42,195 km",
-  },
-  {
-    numéro: "13/20",
-    question: "Dans quel sport le joueur peut-il marquer un 'touchdown' ?",
-    options: [
-      "Football américain",
-      "Basket-ball",
-      "Baseball",
-      "Hockey sur glace",
-    ],
-    answer: "Football américain",
-  },
-  {
-    numéro: "14/20",
-    question: "Quel est le sport principal du Tour de France ?",
-    options: [
-      "Cyclisme sur route",
-      "Course à pied",
-      "Cyclisme sur piste",
-      "Ski alpin",
-    ],
-    answer: "Cyclisme sur route",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Quel joueur de football brésilien a remporté deux Coupes du Monde de la FIFA avec le Brésil en 1958 et 1962 ?",
-    options: ["Pelé", "Ronaldinho", "Ronaldo", "Romário"],
-    answer: "Pelé",
-  },
-  {
-    numéro: "16/20",
-    question:
-      "Quelle est la distance d'une piste d'athlétisme standard utilisée pour les courses sur longue distance, comme le 10 000 mètres ?",
-    options: ["400 mètres", "800 mètres", "200 mètres", "1000 mètres"],
-    answer: "400 mètres",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Quel est le nom donné à la méthode utilisée pour marquer un point en rugby, où le joueur pose le ballon derrière la ligne de but de l'adversaire ?",
-    options: ["Essai", "Pénalité", "Drop", "Conversion"],
-    answer: "Essai",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quel joueur de tennis espagnol a remporté un record de 13 titres à Roland-Garros, dominant sur terre battue ?",
-    options: ["Rafael Nadal", "Roger Federer", "Novak Djokovic", "Andy Murray"],
-    answer: "Rafael Nadal",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quel est le nom de la compétition internationale de football la plus prestigieuse pour les équipes nationales, remportée par la France en 2018 ?",
-    options: [
-      "Coupe du Monde de la FIFA",
-      "Ligue des Champions",
-      "Copa America",
-      "Euro",
-    ],
-    answer: "Coupe du Monde de la FIFA",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quel joueur français a remporté la Coupe du Monde de la FIFA en 1998 en tant que capitaine de l'équipe nationale et est désormais entraîneur de l'équipe nationale française ?",
-    options: [
-      "Zinédine Zidane",
-      "Didier Deschamps",
-      "Thierry Henry",
-      "Marcel Desailly",
-    ],
-    answer: "Didier Deschamps",
-  },
-];
-
-const questionsAnimaux = [
-  {
-    numéro: "1/20",
-    question: "Quel oiseau ne vole pas ?",
-    options: ["Autruche", "Aigle", "Moineau", "Colibri"],
-    answer: "Autruche",
-  },
-  {
-    numéro: "2/20",
-    question: "Quel est le plus grand reptile du monde ?",
-    options: ["Crocodile", "Serpent boa", "Tortue géante", "Lézard Komodo"],
-    answer: "Crocodile",
-  },
-  {
-    numéro: "3/20",
-    question: "Quel est l'animal terrestre le plus rapide ?",
-    options: ["Guépard", "Antilope", "Lion", "Zèbre"],
-    answer: "Guépard",
-  },
-  {
-    numéro: "4/20",
-    question: "Quel est le plus grand poisson du monde ?",
-    options: ["Requin-baleine", "Requin marteau", "Raie manta", "Thon"],
-    answer: "Requin-baleine",
-  },
-  {
-    numéro: "5/20",
-    question: "Quel est le plus petit mammifère au monde ?",
-    options: ["Musaraigne", "Souris", "Chauve-souris", "Mulot"],
-    answer: "Musaraigne",
-  },
-  {
-    numéro: "6/20",
-    question:
-      "Quel insecte peut soulever des objets jusqu'à 50 fois son poids ?",
-    options: ["Fourmi", "Scarabée", "Papillon", "Abeille"],
-    answer: "Fourmi",
-  },
-  {
-    numéro: "7/20",
-    question: "Quel animal hiberne pendant tout l'hiver ?",
-    options: ["Ours", "Écureuil", "Marmotte", "Renard"],
-    answer: "Marmotte",
-  },
-  {
-    numéro: "8/20",
-    question: "Quel est l'animal national de l'Australie ?",
-    options: ["Kangourou", "Koala", "Emu", "Wombat"],
-    answer: "Kangourou",
-  },
-  {
-    numéro: "9/20",
-    question: "Quel est l'oiseau symbole des États-Unis ?",
-    options: ["Aigle", "Hibou", "Pigeon", "Faucon"],
-    answer: "Aigle",
-  },
-  {
-    numéro: "10/20",
-    question: "Quel est l'animal qui dort le moins ?",
-    options: ["Girafe", "Dauphin", "Chauve-souris", "Éléphant"],
-    answer: "Dauphin",
-  },
-  {
-    numéro: "11/20",
-    question: "Quel est l'oiseau le plus rapide au monde ?",
-    options: ["Colibri", "Faucon pèlerin", "Aigle", "Autruche"],
-    answer: "Faucon pèlerin",
-  },
-  {
-    numéro: "12/20",
-    question: "Quel est le plus grand animal marin ?",
-    options: ["Baleine bleue", "Requin blanc", "Orque", "Méduse géante"],
-    answer: "Baleine bleue",
-  },
-  {
-    numéro: "13/20",
-    question: "Quel est le serpent le plus venimeux au monde ?",
-    options: ["Cobra", "Vipère", "Mamba noir", "Taïpan"],
-    answer: "Mamba noir",
-  },
-  {
-    numéro: "14/20",
-    question:
-      "Quel animal a le plus grand cerveau en proportion de sa taille ?",
-    options: ["Éléphant", "Dauphin", "Chimpanzé", "Humain"],
-    answer: "Dauphin",
-  },
-  {
-    numéro: "15/20",
-    question: "Quel est l'animal le plus lent du monde ?",
-    options: ["Limace", "Tortue", "Koala", "Paresseux"],
-    answer: "Limace",
-  },
-  {
-    numéro: "16/20",
-    question: "Quel est le plus grand rongeur du monde ?",
-    options: ["Castor", "Rat", "Chinchilla", "Capybara"],
-    answer: "Capybara",
-  },
-  {
-    numéro: "17/20",
-    question: "Quel est l'oiseau qui peut courir le plus vite ?",
-    options: ["Autruche", "Émeu", "Kiwi", "Pingouin"],
-    answer: "Autruche",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quel est l'animal qui peut survivre sans eau le plus longtemps ?",
-    options: ["Chameau", "Kangourou", "Souris du désert", "Éléphant"],
-    answer: "Souris du désert",
-  },
-  {
-    numéro: "19/20",
-    question: "Quel est le poisson le plus venimeux au monde ?",
-    options: [
-      "Poisson-pierre",
-      "Poisson-scie",
-      "Poisson-globe",
-      "Raie pastenague",
-    ],
-    answer: "Poisson-pierre",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quel animal a le plus petit cerveau en proportion de sa taille ?",
-    options: ["Souris", "Poulet", "Grenouille", "Poisson"],
-    answer: "Poisson",
-  },
-];
-
-const questionsFaitsInsolites = [
-  {
-    numéro: "1/20",
-    question: "Quel pays consomme le plus de chocolat par habitant ?",
-    options: ["Suisse", "Belgique", "Allemagne", "États-Unis"],
-    answer: "Suisse",
-  },
-  {
-    numéro: "2/20",
-    question:
-      "Quel est le record de la personne ayant le plus de piercings au corps ?",
-    options: ["567", "746", "901", "1027"],
-    answer: "1027",
-  },
-  {
-    numéro: "3/20",
-    question:
-      "Quel est le nombre de chutes de cheveux quotidien moyen pour une personne ?",
-    options: ["100", "200", "50", "150"],
-    answer: "100",
-  },
-  {
-    numéro: "4/20",
-    question: "Quel est l'objet le plus souvent volé dans le monde ?",
-    options: ["Voiture", "Portefeuille", "Téléphone portable", "Stylo"],
-    answer: "Stylo",
-  },
-  {
-    numéro: "5/20",
-    question:
-      "Quel est le nombre moyen de mots prononcés par une personne chaque jour ?",
-    options: ["2 000 mots", "5 000 mots", "7 000 mots", "10 000 mots"],
-    answer: "7 000 mots",
-  },
-  {
-    numéro: "6/20",
-    question:
-      "Quel est le record du monde pour le nombre de hamburgers mangés en 10 minutes ?",
-    options: ["12", "22", "32", "42"],
-    answer: "32",
-  },
-  {
-    numéro: "7/20",
-    question: "Quel est le poids du plus gros hamburger jamais réalisé ?",
-    options: ["250 kg", "500 kg", "750 kg", "1 000 kg"],
-    answer: "1 000 kg",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Quelle est la quantité de papier toilette utilisée en moyenne par personne par an ?",
-    options: ["5 kg", "10 kg", "15 kg", "20 kg"],
-    answer: "20 kg",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Quelle est la durée la plus longue qu'une personne a passée sans dormir ?",
-    options: ["3 jours", "7 jours", "11 jours", "15 jours"],
-    answer: "11 jours",
-  },
-  {
-    numéro: "10/20",
-    question: "Quel est le nombre de selfies pris chaque jour dans le monde ?",
-    options: ["1 million", "5 millions", "10 millions", "25 millions"],
-    answer: "25 millions",
-  },
-  {
-    numéro: "11/20",
-    question: "Quelle est la vitesse moyenne d'un pet humain ?",
-    options: ["6 km/h", "10 km/h", "14 km/h", "18 km/h"],
-    answer: "14 km/h",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "Quel est le record du monde pour le nombre de mots tapés en une minute sur un clavier ?",
-    options: ["150 mots", "200 mots", "256 mots", "212 mots"],
-    answer: "212 mots",
-  },
-  {
-    numéro: "13/20",
-    question:
-      "Quelle est la distance la plus longue jamais parcourue à la nage sans s'arrêter ?",
-    options: ["100 km", "225 km", "300 km", "400 km"],
-    answer: "225 km",
-  },
-  {
-    numéro: "14/20",
-    question: "Combien de fois le cœur humain bat-il en moyenne par jour ?",
-    options: ["10 000 fois", "25 000 fois", "100 000 fois", "56 000 fois"],
-    answer: "100 000 fois",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Quelle est la quantité de chocolat consommée par habitant en Suisse par an ?",
-    options: ["5 kg", "10 kg", "15 kg", "20 kg"],
-    answer: "10 kg",
-  },
-  {
-    numéro: "16/20",
-    question:
-      "Quelle est la température la plus basse jamais enregistrée sur Terre ?",
-    options: ["-60,2 °C", "-83,6 °C", "-100 °C", "-128,6 °C"],
-    answer: "-128,6 °C",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Quelle est la longueur du plus long cheveu humain jamais enregistré ?",
-    options: ["50 cm", "75 cm", "100 cm", "150 cm"],
-    answer: "150 cm",
-  },
-  {
-    numéro: "18/20",
-    question: "Quel est le nombre de pattes qu'un escargot possède ?",
-    options: ["0", "1", "4", "6"],
-    answer: "1",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quel est le nombre de fois qu'un colibri bat des ailes en une seconde ?",
-    options: ["20 fois", "40 fois", "60 fois", "80 fois"],
-    answer: "80 fois",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quel est le nombre moyen de pas qu'une personne fait dans sa vie ?",
-    options: ["100 millions", "200 millions", "300 millions", "400 millions"],
-    answer: "200 millions",
   },
 ];
 
@@ -1883,135 +534,6 @@ const questionsCinema = [
   },
 ];
 
-const questionsPrincessesDisney = [
-  {
-    numéro: "1/20",
-    question:
-      "Quel est le nom de la princesse qui vit dans un château de glace ?",
-    options: ["Cendrillon", "Belle", "Elsa", "Ariel"],
-    answer: "Elsa",
-  },
-  {
-    numéro: "2/20",
-    question: "Quelle princesse Disney chante 'Partir là-bas' ?",
-    options: ["Jasmine", "Ariel", "Elsa", "Cendrillon"],
-    answer: "Ariel",
-  },
-  {
-    numéro: "3/20",
-    question: "Quel est le nom du prince dans 'La Belle et la Bête' ?",
-    options: ["Eric", "Charmant", "Adam", "Philippe"],
-    answer: "Adam",
-  },
-  {
-    numéro: "4/20",
-    question: "Quelle princesse est endormie pendant presque tout le film ?",
-    options: ["Tiana", "Blanche-Neige", "Aurore", "Cendrillon"],
-    answer: "Aurore",
-  },
-  {
-    numéro: "5/20",
-    question: "Quelle princesse Disney a un tigre comme compagnon ?",
-    options: ["Mulan", "Jasmine", "Pocahontas", "Ariel"],
-    answer: "Jasmine",
-  },
-  {
-    numéro: "6/20",
-    question: "Quelle princesse Disney est connue pour sa chevelure magique ?",
-    options: ["Merida", "Raiponce", "Cendrillon", "Aurore"],
-    answer: "Raiponce",
-  },
-  {
-    numéro: "7/20",
-    question: "Quel est le nom du père de la princesse vivant sous l'eau ?",
-    options: ["Triton", "Eric", "Sébastien", "Polochon"],
-    answer: "Triton",
-  },
-  {
-    numéro: "8/20",
-    question: "Quelle princesse Disney a une marraine fée ?",
-    options: ["Cendrillon", "Belle", "Raiponce", "Tiana"],
-    answer: "Cendrillon",
-  },
-  {
-    numéro: "9/20",
-    question: "Quel est le nom de la princesse guerrière chinoise ?",
-    options: ["Pocahontas", "Mulan", "Jasmine", "Belle"],
-    answer: "Mulan",
-  },
-  {
-    numéro: "10/20",
-    question: "Quelle princesse Disney a une grenouille comme compagnon ?",
-    options: ["Tiana", "Aurore", "Merida", "Elsa"],
-    answer: "Tiana",
-  },
-  {
-    numéro: "11/20",
-    question: "Quelle princesse Disney parle aux animaux de la forêt ?",
-    options: ["Blanche-Neige", "Jasmine", "Tiana", "Raiponce"],
-    answer: "Blanche-Neige",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "Quel est le nom de la princesse qui veut découvrir un monde nouveau en Amérique ?",
-    options: ["Ariel", "Pocahontas", "Merida", "Belle"],
-    answer: "Pocahontas",
-  },
-  {
-    numéro: "13/20",
-    question: "Quel est le nom de la sœur d'Elsa dans 'La Reine des Neiges' ?",
-    options: ["Anna", "Belle", "Jasmine", "Tiana"],
-    answer: "Anna",
-  },
-  {
-    numéro: "14/20",
-    question: "Quel est le nom du prince de Cendrillon ?",
-    options: ["Eric", "Charmant", "Philippe", "Aladdin"],
-    answer: "Charmant",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Quelle princesse Disney est connue pour sa chevelure rousse et son talent au tir à l'arc ?",
-    options: ["Ariel", "Merida", "Elsa", "Blanche-Neige"],
-    answer: "Merida",
-  },
-  {
-    numéro: "16/20",
-    question: "Quel est le nom du dragon qui accompagne Mulan ?",
-    options: ["Pascal", "Raja", "Mushu", "Olaf"],
-    answer: "Mushu",
-  },
-  {
-    numéro: "17/20",
-    question: "Quel est le nom de la méchante sorcière dans 'Blanche-Neige' ?",
-    options: ["Maléfique", "Ursula", "Grimhilde", "Gothel"],
-    answer: "Grimhilde",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quel est le prénom du père de Belle dans 'La Belle et la Bête' ?",
-    options: ["Maurice", "Henry", "John", "Eric"],
-    answer: "Maurice",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quel est le nom de la princesse de l'île de Motunui dans 'Vaiana' ?",
-    options: ["Moana", "Tiana", "Merida", "Ariel"],
-    answer: "Moana",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quelle princesse Disney rêve de devenir une grande cuisinière à la Nouvelle-Orléans ?",
-    options: ["Tiana", "Ariel", "Mulan", "Belle"],
-    answer: "Tiana",
-  },
-];
-
 const questionsHorreur = [
   {
     numéro: "1/20",
@@ -2175,680 +697,923 @@ const questionsHorreur = [
   },
 ];
 
-const questionsDrapeaux = [
-  {
-    numéro: "1/20",
-    question: "Quel pays est représenté par ce drapeau ?",
-    image: "../assets/img/france.png",
-    options: ["France", "Allemagne", "Espagne", "Italie"],
-    answer: "France",
-  },
-  {
-    numéro: "2/20",
-    question: "À quel pays appartient ce drapeau ?",
-    image: "../assets/img/republique_tcheque.png",
-    options: ["Norvège", "République Tchèque", "Autriche", "Pologne"],
-    answer: "République Tchèque",
-  },
-  {
-    numéro: "3/20",
-    question: "A quel pays appartient ce drapeau ?",
-    image: "../assets/img/afrique_du_sud.png",
-    options: ["Afrique du Nord", "Afrique du Sud", "Vietnam", "Corée du Sud"],
-    answer: "Afrique du Sud",
-  },
-  {
-    numéro: "4/20",
-    question:
-      "Ce drapeau est celui de quel pays européen qui comporte trois bandes verticales de couleurs rouge, blanche et rouge ?",
-    image: "../assets/img/autriche.png",
-    options: ["Autriche", "Hongrie", "Pays-Bas", "Belgique"],
-    answer: "Autriche",
-  },
-  {
-    numéro: "5/20",
-    question:
-      "Quel pays d'Afrique est représenté par ce drapeau avec une étoile jaune sur fond vert, rouge et noir ?",
-    image: "../assets/img/ghana.png",
-    options: ["Afrique du Sud", "Nigeria", "Éthiopie", "Ghana"],
-    answer: "Ghana",
-  },
-  {
-    numéro: "6/20",
-    question:
-      "À quel pays appartient ce drapeau avec une étoile blanche à cinq branches sur fond bleu ?",
-    image: "../assets/img/etats_unis.png",
-    options: ["États-Unis", "Australie", "Nouvelle-Zélande", "Brésil"],
-    answer: "États-Unis",
-  },
-  {
-    numéro: "7/20",
-    question:
-      "Ce drapeau avec une croix rouge sur fond blanc est celui de quel pays européen ?",
-    image: "../assets/img/danemark.png",
-    options: ["Suisse", "Norvège", "Danemark", "Suède"],
-    answer: "Danemark",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Quel pays asiatique est représenté par ce drapeau avec une lune et une étoile blanche sur fond vert ?",
-    image: "../assets/img/pakistan.jpg",
-    options: ["Malaisie", "Pakistan", "Indonésie", "Bangladesh"],
-    answer: "Pakistan",
-  },
-  {
-    numéro: "9/20",
-    question: "A quels pays appartient ce drapeau ?",
-    image: "../assets/img/coree_du_sud.png",
-    options: ["Mexique", "Corée du Sud", "Argentine", "Pérou"],
-    answer: "Corée du Sud",
-  },
-  {
-    numéro: "10/20",
-    question: "À quel pays appartient ce drapeau ?",
-    image: "../assets/img/botswana.png",
-    options: ["Botswana", "Gabon", "Argentine", "Estonie"],
-    answer: "Botswana",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Quel est le nom du pays représenté par ce drapeau bleu avec une croix rouge et quatre croix blanches ?",
-    image: "../assets/img/finlande.png",
-    options: ["Suède", "Norvège", "Danemark", "Finlande"],
-    answer: "Finlande",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "Ce drapeau avec une étoile jaune sur fond vert, rouge, jaune et noir est celui de quel pays africain ?",
-    image: "../assets/img/egypte.png",
-    options: ["Nigeria", "Afrique du Sud", "Égypte", "Zimbabwe"],
-    answer: "Égypte",
-  },
-  {
-    numéro: "13/20",
-    question:
-      "À quel pays appartient ce drapeau tricolore vertical avec des bandes vertes, blanches et rouges ?",
-    image: "../assets/img/hongrie.png",
-    options: ["Italie", "Hongrie", "Russie", "Bulgarie"],
-    answer: "Hongrie",
-  },
-  {
-    numéro: "14/20",
-    question:
-      "Ce drapeau avec une étoile rouge à cinq branches sur fond vert est celui de quel pays d'Asie du Sud-Est ?",
-    image: "../assets/img/vietnam.png",
-    options: ["Vietnam", "Laos", "Cambodge", "Thaïlande"],
-    answer: "Vietnam",
-  },
-  {
-    numéro: "15/20",
-    question: "À quel pays appartient ce drapeau ?",
-    image: "../assets/img/albanie.png",
-    options: ["Albanie", "Arabie Saoudite", "Bahamas", "Bangladesh"],
-    answer: "Albanie",
-  },
-  {
-    numéro: "16/20",
-    question: "À quel pays appartient ce drapeau ?",
-    image: "../assets/img/sri_lanka.png",
-    options: ["Sri Lanka", "Bénin", "Bhoutan", "Birmanie"],
-    answer: "Sri Lanka",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Ce drapeau avec une lune et une étoile rouge sur fond blanc est celui de quel pays du Moyen-Orient ?",
-    image: "../assets/img/turquie.png",
-    options: ["Arabie Saoudite", "Iran", "Turquie", "Émirats Arabes Unis"],
-    answer: "Turquie",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quel pays d'Amérique du Sud est représenté par ce drapeau tricolore horizontal avec des bandes jaune, bleu et rouge ?",
-    image: "../assets/img/colombie.png",
-    options: ["Colombie", "Pérou", "Équateur", "Venezuela"],
-    answer: "Colombie",
-  },
-  {
-    numéro: "19/20",
-    question: "À quel pays appartient ce drapeau ?",
-    image: "../assets/img/mexique.png",
-    options: ["Brésil", "Cameroun", "Cambodge", "Mexique"],
-    answer: "Mexique",
-  },
-  {
-    numéro: "20/20",
-    question: "À quel pays appartient ce drapeau ?",
-    image: "../assets/img/laos.png",
-    options: ["Chine", "Vietnam", "Corée du Nord", "Laos"],
-    answer: "Laos",
-  },
-];
-
-const questionsSpiderman = [
+const questionsActeursActrices = [
   {
     numéro: "1/20",
     question:
-      "Quel acteur incarne Spider-Man dans le film de 2002 réalisé par Sam Raimi ?",
+      "Quel acteur incarne Iron Man dans le Marvel Cinematic Universe ?",
     options: [
-      "Tobey Maguire",
-      "Andrew Garfield",
-      "Tom Holland",
-      "Jake Gyllenhaal",
+      "Chris Hemsworth",
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
     ],
-    answer: "Tobey Maguire",
+    answer: "Robert Downey Jr.",
   },
   {
     numéro: "2/20",
-    question: "Dans quel film Spider-Man affronte-t-il le Docteur Octopus ?",
+    question:
+      "Quelle actrice joue le rôle de Katniss Everdeen dans 'The Hunger Games' ?",
     options: [
-      "Spider-Man",
-      "Spider-Man 2",
-      "Spider-Man 3",
-      "The Amazing Spider-Man",
+      "Shailene Woodley",
+      "Jennifer Lawrence",
+      "Emma Watson",
+      "Kristen Stewart",
     ],
-    answer: "Spider-Man 2",
+    answer: "Jennifer Lawrence",
   },
   {
     numéro: "3/20",
     question:
-      "Quel acteur joue le rôle de l'ennemi principal, le Bouffon Vert, dans le film de 2002 ?",
-    options: [
-      "James Franco",
-      "Willem Dafoe",
-      "Alfred Molina",
-      "Thomas Haden Church",
-    ],
-    answer: "Willem Dafoe",
+      "Quel acteur est célèbre pour son rôle de Jack Dawson dans 'Titanic' ?",
+    options: ["Brad Pitt", "Johnny Depp", "Leonardo DiCaprio", "Matt Damon"],
+    answer: "Leonardo DiCaprio",
   },
   {
     numéro: "4/20",
     question:
-      "Quel est le nom de la petite amie de Peter Parker dans 'The Amazing Spider-Man' ?",
-    options: ["Mary Jane Watson", "Gwen Stacy", "Betty Brant", "Felicia Hardy"],
-    answer: "Gwen Stacy",
+      "Quelle actrice a joué le rôle de Hermione Granger dans la saga 'Harry Potter' ?",
+    options: [
+      "Emma Stone",
+      "Emma Watson",
+      "Natalie Portman",
+      "Keira Knightley",
+    ],
+    answer: "Emma Watson",
   },
   {
     numéro: "5/20",
-    question: "Qui a réalisé le film 'Spider-Man: Homecoming' ?",
-    options: ["Jon Watts", "Sam Raimi", "Marc Webb", "Jon Favreau"],
-    answer: "Jon Watts",
+    question:
+      "Quelle actrice a incarné le personnage de Clarice Starling dans 'Le Silence des agneaux' ?",
+    options: [
+      "Jodie Foster",
+      "Gillian Anderson",
+      "Meryl Streep",
+      "Nicole Kidman",
+    ],
+    answer: "Jodie Foster",
   },
   {
     numéro: "6/20",
     question:
-      "Quel acteur joue le rôle de Spider-Man dans le film 'Spider-Man: Homecoming' ?",
+      "Quelle actrice a incarné le rôle de Rachel Green dans la série 'Friends' ?",
     options: [
-      "Tobey Maguire",
-      "Andrew Garfield",
-      "Tom Holland",
-      "Miles Morales",
+      "Courteney Cox",
+      "Jennifer Aniston",
+      "Lisa Kudrow",
+      "Sarah Jessica Parker",
     ],
-    answer: "Tom Holland",
+    answer: "Jennifer Aniston",
   },
   {
     numéro: "7/20",
     question:
-      "Quel méchant apparaît dans le film 'Spider-Man: Far From Home' ?",
-    options: ["Le Vautour", "Mysterio", "Le Bouffon Vert", "L'Homme-Sable"],
-    answer: "Mysterio",
+      "Quel acteur est connu pour son rôle de Neo dans la trilogie 'Matrix' ?",
+    options: ["Brad Pitt", "Keanu Reeves", "Tom Cruise", "Will Smith"],
+    answer: "Keanu Reeves",
   },
   {
     numéro: "8/20",
     question:
-      "Dans 'Spider-Man: New Generation', quel personnage devient Spider-Man dans un univers parallèle ?",
-    options: ["Peter Parker", "Miles Morales", "Gwen Stacy", "Miguel O'Hara"],
-    answer: "Miles Morales",
+      "Quel acteur a incarné le personnage de Ethan Hunt dans la série de films 'Mission Impossible' ?",
+    options: ["Tom Cruise", "Matt Damon", "Keanu Reeves", "Brad Pitt"],
+    answer: "Tom Cruise",
   },
   {
     numéro: "9/20",
     question:
-      "Quel est le vrai nom du Vautour, ennemi principal de 'Spider-Man: Homecoming' ?",
-    options: ["Norman Osborn", "Adrian Toomes", "Flint Marko", "Curt Connors"],
-    answer: "Adrian Toomes",
+      "Quel acteur a incarné le personnage de Walter White dans la série 'Breaking Bad' ?",
+    options: [
+      "Aaron Paul",
+      "Bryan Cranston",
+      "Jon Hamm",
+      "Matthew McConaughey",
+    ],
+    answer: "Bryan Cranston",
   },
   {
     numéro: "10/20",
     question:
-      "Dans 'Spider-Man 3', quel symbiote extraterrestre fusionne avec Peter Parker ?",
-    options: ["Venom", "Carnage", "Riot", "Toxin"],
-    answer: "Venom",
+      "Quelle actrice a interprété la reine Elizabeth II dans la série 'The Crown' ?",
+    options: ["Claire Foy", "Olivia Colman", "Helen Mirren", "Emily Blunt"],
+    answer: "Claire Foy",
   },
   {
     numéro: "11/20",
-    question:
-      "Dans quel film Spider-Man affronte-t-il Electro pour la première fois ?",
-    options: [
-      "Spider-Man",
-      "Spider-Man 2",
-      "The Amazing Spider-Man 2",
-      "Spider-Man: Far From Home",
-    ],
-    answer: "The Amazing Spider-Man 2",
+    question: "Quel acteur a incarné le rôle de Indiana Jones ?",
+    options: ["Harrison Ford", "Tom Selleck", "Mark Hamill", "Michael Douglas"],
+    answer: "Harrison Ford",
   },
   {
     numéro: "12/20",
     question:
-      "Dans 'The Amazing Spider-Man', quel scientifique devient le Lézard ?",
-    options: [
-      "Dr. Otto Octavius",
-      "Dr. Curt Connors",
-      "Dr. Norman Osborn",
-      "Dr. Miles Warren",
-    ],
-    answer: "Dr. Curt Connors",
+      "Quelle actrice a incarné Mary Poppins dans le film 'Mary Poppins Returns' ?",
+    options: ["Emily Blunt", "Anne Hathaway", "Amy Adams", "Rachel McAdams"],
+    answer: "Emily Blunt",
   },
   {
     numéro: "13/20",
     question:
-      "Dans quel film Spider-Man se joint-il à Iron Man pour combattre Captain America ?",
-    options: [
-      "Avengers",
-      "Captain America: Civil War",
-      "Spider-Man: Homecoming",
-      "Avengers: Endgame",
-    ],
-    answer: "Captain America: Civil War",
-  },
-  {
-    numéro: "14/20",
-    question:
-      "Quel est le véritable nom de l'Homme-Sable dans 'Spider-Man 3' ?",
-    options: ["Flint Marko", "Eddie Brock", "Curt Connors", "Max Dillon"],
-    answer: "Flint Marko",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Quel film de Spider-Man met en scène trois générations d'acteurs ayant joué Spider-Man ?",
-    options: [
-      "Spider-Man 2",
-      "Spider-Man: Homecoming",
-      "Spider-Man: No Way Home",
-      "The Amazing Spider-Man 2",
-    ],
-    answer: "Spider-Man: No Way Home",
-  },
-  {
-    numéro: "16/20",
-    question: "Quel est le nom du journal pour lequel travaille Peter Parker ?",
-    options: [
-      "Le Daily Planet",
-      "Le Daily Bugle",
-      "Le New York Times",
-      "Le Gotham Gazette",
-    ],
-    answer: "Le Daily Bugle",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Dans 'Spider-Man: Far From Home', quelle ville européenne Peter Parker visite-t-il en premier ?",
-    options: ["Paris", "Berlin", "Venise", "Londres"],
-    answer: "Venise",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quel méchant se révèle être le père de Liz Allan dans 'Spider-Man: Homecoming' ?",
-    options: ["Le Bouffon Vert", "Mysterio", "Le Vautour", "Le Scorpion"],
-    answer: "Le Vautour",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quel personnage mentor de Peter Parker apparaît dans les films de l'univers cinématographique Marvel ?",
-    options: ["Nick Fury", "Tony Stark", "Steve Rogers", "Bruce Banner"],
-    answer: "Tony Stark",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quel est le nom de l'oncle de Peter Parker qui meurt dans le premier film 'Spider-Man' ?",
-    options: ["Oncle Ben", "Oncle Jack", "Oncle Tom", "Oncle Harry"],
-    answer: "Oncle Ben",
-  },
-];
-
-const questionsVraiFaux = [
-  {
-    numéro: "1/20",
-    question: "Les chauves-souris sont aveugles.",
-    options: ["Vrai", "Faux"],
-    answer: "Faux",
-  },
-  {
-    numéro: "2/20",
-    question: "Le mont Everest est la plus haute montagne du monde.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "3/20",
-    question: "Les dauphins sont des mammifères.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "4/20",
-    question: "Le Nil est le fleuve le plus long du monde.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "5/20",
-    question: "Les koalas sont des ours.",
-    options: ["Vrai", "Faux"],
-    answer: "Faux",
-  },
-  {
-    numéro: "6/20",
-    question: "L'eau bout à 90 degrés Celsius.",
-    options: ["Vrai", "Faux"],
-    answer: "Faux",
-  },
-  {
-    numéro: "7/20",
-    question:
-      "Le piment Carolina Reaper était le piment le plus fort du monde de 2013 à 2023.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "8/20",
-    question: "La Grande Muraille de Chine est visible depuis l'espace.",
-    options: ["Vrai", "Faux"],
-    answer: "Faux",
-  },
-  {
-    numéro: "9/20",
-    question: "Le cœur humain a quatre chambres.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "10/20",
-    question: "Les éléphants sont les seuls animaux à posséder un menton.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "11/20",
-    question: "Les étoiles de mer ont deux cœurs.",
-    options: ["Vrai", "Faux"],
-    answer: "Faux",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "L'hippopotomonstrosesquipedaliophobie est la peur des longs mots.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "13/20",
-    question: "Le plus petit os du corps humain est dans l'oreille.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "14/20",
-    question: "Le chocolat est toxique pour les chiens.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Les girafes ont le même nombre de vertèbres cervicales que les humains.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "16/20",
-    question: "Les tomates sont des légumes.",
-    options: ["Vrai", "Faux"],
-    answer: "Faux",
-  },
-  {
-    numéro: "17/20",
-    question: "Le drapeau de la France est composé de trois bandes verticales.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "18/20",
-    question: "Le kangourou est le symbole national de l'Australie.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "19/20",
-    question: "Les renards sont des animaux monogames.",
-    options: ["Vrai", "Faux"],
-    answer: "Vrai",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Le cerveau humain est le plus grand cerveau de tous les animaux.",
-    options: ["Vrai", "Faux"],
-    answer: "Faux",
-  },
-];
-
-const questionsTimBurton = [
-  {
-    numéro: "1/20",
-    question:
-      "Quel acteur a joué le rôle principal dans le film 'Edward aux mains d'argent' de Tim Burton ?",
-    options: [
-      "Johnny Depp",
-      "Michael Keaton",
-      "Ewan McGregor",
-      "Leonardo DiCaprio",
-    ],
+      "Quel acteur a joué le rôle de Captain Jack Sparrow dans 'Pirates des Caraïbes' ?",
+    options: ["Johnny Depp", "Orlando Bloom", "Geoffrey Rush", "Javier Bardem"],
     answer: "Johnny Depp",
   },
   {
-    numéro: "2/20",
-    question:
-      "Dans quel film de Tim Burton apparaît le personnage de Jack Skellington, le roi des citrouilles ?",
-    options: [
-      "The Nightmare Before Christmas",
-      "Frankenweenie",
-      "Alice au pays des merveilles",
-      "Sweeney Todd",
-    ],
-    answer: "The Nightmare Before Christmas",
-  },
-  {
-    numéro: "3/20",
-    question:
-      "Dans quel film de Tim Burton un homme découvre-t-il un arbre magique qui peut prédire l'avenir de manière ambiguë ?",
-    options: [
-      "Big Fish",
-      "Edward aux mains d'argent",
-      "Sweeney Todd",
-      "Charlie et la chocolaterie",
-    ],
-    answer: "Big Fish",
-  },
-  {
-    numéro: "4/20",
-    question:
-      "Quelle actrice a joué le rôle de Catwoman dans 'Batman Returns', réalisé par Tim Burton ?",
-    options: [
-      "Michelle Pfeiffer",
-      "Winona Ryder",
-      "Helena Bonham Carter",
-      "Anne Hathaway",
-    ],
-    answer: "Michelle Pfeiffer",
-  },
-  {
-    numéro: "5/20",
-    question:
-      "Dans quel film de Tim Burton une jeune femme est-elle transportée dans un monde parallèle rempli de créatures étranges et de magie ?",
-    options: [
-      "Alice au pays des merveilles",
-      "Miss Peregrine et les enfants particuliers",
-      "Charlie et la chocolaterie",
-      "Big Fish",
-    ],
-    answer: "Alice au pays des merveilles",
-  },
-  {
-    numéro: "6/20",
-    question: "Quel est le nom de la maman de Dumbo dans le film ?",
-    options: ["Delilah", "Mme. Dumbo", "Mme. Jumbo", "Ella"],
-    answer: "Mme. Jumbo",
-  },
-  {
-    numéro: "7/20",
-    question:
-      "Dans quel film de Tim Burton un jeune garçon découvre-t-il une porte vers un monde fantastique où des créatures étranges résident ?",
-    options: [
-      "Charlie et la chocolaterie",
-      "Alice au pays des merveilles",
-      "Big Fish",
-      "Miss Peregrine et les enfants particuliers",
-    ],
-    answer: "Miss Peregrine et les enfants particuliers",
-  },
-  {
-    numéro: "8/20",
-    question: "Dans 'Beetlejuice', comment les Maitland meurent-ils ?",
-    options: [
-      "Ils se noient",
-      "Ils ont un accident de voiture",
-      "Ils tombent d'une falaise",
-      "Ils sont frappés par la foudre",
-    ],
-    answer: "Ils ont un accident de voiture",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Quel célèbre acteur a joué le rôle de Joker dans 'Batman' de Tim Burton ?",
-    options: [
-      "Jack Nicholson",
-      "Heath Ledger",
-      "Joaquin Phoenix",
-      "Jared Leto",
-    ],
-    answer: "Jack Nicholson",
-  },
-  {
-    numéro: "10/20",
-    question:
-      "Dans 'Alice au pays des merveilles' (2010), quel personnage aide Alice à se préparer pour la bataille finale ?",
-    options: [
-      "Le Lapin Blanc",
-      "Le Chapelier Fou",
-      "Le Chat du Cheshire",
-      "Le Loir",
-    ],
-    answer: "Le Lapin Blanc",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Dans quel film de Tim Burton un homme retourne-t-il dans sa ville natale pour découvrir qu'elle est devenue un parc d'attractions gothique ?",
-    options: ["Big Fish", "Dark Shadows", "Mars Attacks!", "Ed Wood"],
-    answer: "Dark Shadows",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "Quel est le nom de l'usine de chocolat dans 'Charlie et la chocolaterie' ?",
-    options: [
-      "Wonka Chocolate Factory",
-      "Sweet's chocolate",
-      "Sweet Tooth Factory",
-      "Golden Ticket Factory",
-    ],
-    answer: "Wonka Chocolate Factory",
-  },
-  {
-    numéro: "13/20",
-    question:
-      "Dans 'Beetlejuice', comment Lydia Deetz communique-t-elle avec les Maitland après leur mort ?",
-    options: [
-      "Avec un médium",
-      "En utilisant un tableau Ouija",
-      "Par télépathie",
-      "À travers un miroir magique",
-    ],
-    answer: "À travers un miroir magique",
-  },
-  {
     numéro: "14/20",
     question:
-      "Quel est le nom de la sorcière qui jette un sort à Edward dans 'Edward aux mains d'argent' ?",
-    options: ["Peg Boggs", "Kim Boggs", "Joyce", "Esmeralda"],
-    answer: "Esmeralda",
+      "Quelle actrice a joué le rôle principal dans le film 'Wonder Woman' ?",
+    options: [
+      "Gal Gadot",
+      "Scarlett Johansson",
+      "Brie Larson",
+      "Margot Robbie",
+    ],
+    answer: "Gal Gadot",
   },
   {
     numéro: "15/20",
     question:
-      "Quel est le nom du personnage principal féminin dans 'Les Noces Funèbres' de Tim Burton ?",
-    options: ["Emily", "Victoria", "Sally", "Elsa"],
-    answer: "Emily",
+      "Quel acteur est célèbre pour son rôle de Wolverine dans les films 'X-Men' ?",
+    options: [
+      "Hugh Jackman",
+      "Chris Hemsworth",
+      "Ryan Reynolds",
+      "Chris Evans",
+    ],
+    answer: "Hugh Jackman",
   },
   {
     numéro: "16/20",
     question:
-      "Quel est le nom du chien fantôme dans 'Frankenweenie' de Tim Burton ?",
-    options: ["Sparky", "Zero", "Scud", "Spike"],
-    answer: "Sparky",
+      "Quelle actrice a remporté l'Oscar de la meilleure actrice pour son rôle dans 'La La Land' ?",
+    options: ["Amy Adams", "Natalie Portman", "Emma Stone", "Jessica Chastain"],
+    answer: "Emma Stone",
   },
   {
     numéro: "17/20",
     question:
-      "Quel est le nom du cirque où se déroule une grande partie de l'action dans le film 'Dumbo' de Tim Burton ?",
-    options: [
-      "Cirque Wonders",
-      "Cirque Dreamland",
-      "Cirque Fantasia",
-      "Cirque Stardust",
-    ],
-    answer: "Cirque Dreamland",
+      "Quel acteur a joué le rôle de Tony Montana dans le film 'Scarface' ?",
+    options: ["Robert De Niro", "Al Pacino", "Joe Pesci", "Marlon Brando"],
+    answer: "Al Pacino",
   },
   {
     numéro: "18/20",
     question:
-      "Quelle actrice a joué le rôle principal dans le film 'Miss Peregrine et les enfants particuliers' de Tim Burton ?",
+      "Quelle actrice a joué le rôle de Black Widow dans les films Marvel ?",
     options: [
-      "Eva Green",
-      "Helena Bonham Carter",
-      "Winona Ryder",
-      "Anne Hathaway",
+      "Scarlett Johansson",
+      "Natalie Portman",
+      "Brie Larson",
+      "Elizabeth Olsen",
     ],
-    answer: "Eva Green",
+    answer: "Scarlett Johansson",
   },
   {
     numéro: "19/20",
-    question:
-      "Quel est le nom complet du personnage principal de 'Batman' dans le film de Tim Burton ?",
-    options: ["Bruce Wayne", "Peter Parker", "Clark Kent", "Tony Stark"],
-    answer: "Bruce Wayne",
+    question: "Quel acteur a joué le rôle de Forrest Gump ?",
+    options: ["Tom Hanks", "Robin Williams", "Johnny Depp", "Dustin Hoffman"],
+    answer: "Tom Hanks",
   },
   {
     numéro: "20/20",
     question:
-      "Quel acteur a joué le rôle de Beetlejuice dans le film éponyme de Tim Burton ?",
+      "Quelle actrice a incarné Mia Wallace dans le film 'Pulp Fiction' ?",
+    options: ["Uma Thurman", "Winona Ryder", "Jodie Foster", "Meg Ryan"],
+    answer: "Uma Thurman",
+  },
+];
+
+const questionsAnimes = [
+  {
+    numéro: "1/20",
+    question: "Quel est le rêve de Luffy dans One Piece ?",
+    options: ["Devenir le Roi des Pirates", "Trouver le trésor One Piece", "Devenir un Amiral de la Marine", "Trouver All Blue"],
+    answer: "Devenir le Roi des Pirates"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le pouvoir principal de Gon Freecss dans Hunter x Hunter ?",
+    options: ["Renforcement", "Manipulation", "Transmutation", "Spécialisation"],
+    answer: "Renforcement"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est le nom de l'équipe de Natsu Dragnir dans Fairy Tail ?",
+    options: ["Team Natsu", "Team Dragon", "Team Fairy", "Team Fire"],
+    answer: "Team Natsu"
+  },
+  {
+    numéro: "4/20",
+    question: "Comment se nomme la petite sœur d'Anya dans Spy x Family ?",
+    options: ["Elle n'a pas de petite sœur", "Becky", "Yor", "Loyd"],
+    answer: "Elle n'a pas de petite sœur"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le style de combat de Tanjiro Kamado dans Demon Slayer ?",
+    options: ["Souffle de l'Eau", "Souffle du Feu", "Souffle de la Foudre", "Souffle du Vent"],
+    answer: "Souffle de l'Eau"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom de l'ennemi principal de Goku dans Dragon Ball Z ?",
+    options: ["Freezer", "Cell", "Majin Buu", "Vegeta"],
+    answer: "Freezer"
+  },
+  {
+    numéro: "7/20",
+    question: "Comment se nomme la protagoniste de Komi cherche ses mots ?",
+    options: ["Shoko Komi", "Komi San", "Komi Shoko", "Shoko Tadano"],
+    answer: "Shoko Komi"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom du goule qui attaque Ken Kaneki dans Tokyo Ghoul ?",
+    options: ["Rize Kamishiro", "Touka Kirishima", "Yoshimura", "Nishiki Nishio"],
+    answer: "Rize Kamishiro"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est le métier de Shinya Kogami dans Psycho Pass ?",
+    options: ["Inspecteur", "Exécuteur ", "Détective", "Scientifique"],
+    answer: "Exécuteur "
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle malédiction frappe la classe 3-3 dans Another ?",
+    options: ["Un étudiant mort réapparaît", "Tous les étudiants deviennent des goules", "Un tueur en série les pourchasse", "Ils sont transportés dans un autre monde"],
+    answer: "Un étudiant mort réapparaît"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel métal est recherché par les frères Elric dans Fullmetal Alchemist ?",
+    options: ["Pierre Philosophale", "Or", "Argent", "Plomb"],
+    answer: "Pierre Philosophale"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le pouvoir de Saitama dans One Punch Man ?",
+    options: ["Super force", "Invisibilité", "Vol", "Télékinésie"],
+    answer: "Super force"
+  },
+  {
+    numéro: "13/20",
+    question: "Quelle est la principale toupie de Tyson dans Beyblade ?",
+    options: ["Dragoon", "Pegasus", "Bull", "Wolf"],
+    answer: "Dragoon"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom du rival de Yugi dans Yu-Gi-Oh ?",
+    options: ["Seto Kaiba", "Joey Wheeler", "Bakura", "Marik Ishtar"],
+    answer: "Seto Kaiba"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le rêve de Yatora Yaguchi dans Blue Period ?",
+    options: ["Devenir artiste", "Devenir musicien", "Devenir écrivain", "Devenir ingénieur"],
+    answer: "Devenir artiste"
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle est la particularité de Shinichi Izumi dans Parasite ?",
+    options: ["Il partage son corps avec un parasite", "Il peut voir les esprits", "Il est un vampire", "Il peut manipuler le feu"],
+    answer: "Il partage son corps avec un parasite"
+  },
+  {
+    numéro: "17/20",
+    question: "Quelle application mobile transforme les gens en avatars dans Lookism ?",
+    options: ["4 Look", "LOOK", "Avatarize", "Lookism"],
+    answer: "Lookism"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel est le but principal de Senku Ishigami dans Dr. Stone ?",
+    options: ["Rebâtir la civilisation avec la science", "Devenir le chef du village", "Trouver un remède pour sauver son père", "Créer une arme ultime"],
+    answer: "Rebâtir la civilisation avec la science"
+  },
+  {
+    numéro: "19/20",
+    question: "Qui est le capitaine de l'équipage d'Edens Zero ?",
+    options: ["Shiki Granbell", "Rebecca Bluegarden", "Weisz Steiner", "Happy"],
+    answer: "Shiki Granbell"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le pouvoir de Davi dans My Daemon ?",
+    options: ["Invoquer un démon", "Voler", "Manipuler le temps", "Télékinésie"],
+    answer: "Invoquer un démon"
+  }
+];
+
+const questionsComedies = [
+  {
+    numéro: "1/20",
+    question: "Quel film met en scène un groupe d'amis qui décide de partir en vacances au ski ensemble ?",
     options: [
-      "Michael Keaton",
-      "Johnny Depp",
-      "Christopher Walken",
-      "Jack Nicholson",
+      "Les Bronzés font du ski",
+      "Tout Schuss",
+      "Les petits flocons",
+      "La deuxième étoile",
     ],
-    answer: "Michael Keaton",
+    answer: "Les Bronzés font du ski",
+  },
+  {
+    numéro: "2/20",
+    question: "Quel film raconte l'histoire de trois personnes totalement opposées qui se retrouvent après la mort de leur mère et doivent respecter ses dernières volontés ?",
+    options: [
+      "Les 3 Frères",
+      "3 femmes",
+      "3 hommes et un couffin",
+      "La femme de mon pote",
+    ],
+    answer: "Les 3 Frères",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel film met en scène des vacanciers dans un camping où les situations comiques s'enchaînent ?",
+    options: ["Camping", "Les Tuche", "Le paquet", "Camping-car"],
+    answer: "Camping",
+  },
+  {
+    numéro: "4/20",
+    question: "Quel film parodie les films d'horreur et d'action tout en mettant en avant l'humour absurde ?",
+    options: ["La Cité de la Peur", "Scary movie", "OSS 117", "Y a t'il un pilote dans l'avion?"],
+    answer: "La Cité de la Peur",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel film raconte l'histoire d'une amitié entre un aristocrate paraplégique et son aide à domicile d'origine modeste ?",
+    options: [
+      "Intouchables",
+      "The artist",
+      "La doublure",
+      "L'amour sans préavis",
+    ],
+    answer: "Intouchables",
+  },
+  {
+    numéro: "6/20",
+    question: "Quel film se déroule dans le Nord de la France et met en scène un employé de bureau de poste muté malgré lui ?",
+    options: [
+      "Bienvenue chez les Ch'tis",
+      "La Vie d'Adèle",
+      "Les Tuches",
+      "La ch'tite famille",
+    ],
+    answer: "Bienvenue chez les Ch'tis",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel film français met en scène deux beaux-frères qui parient d'arrêter de fumer pendant quinze jours ?",
+    options: [
+      "Le Pari",
+      "Les 3 Frères",
+      "Sous la Seine",
+      "L'arnaqueur",
+    ],
+    answer: "Le Pari",
+  },
+  {
+    numéro: "8/20",
+    question: "Quel film raconte l'histoire de quatre filles qui épousent des hommes de différentes origines ?",
+    options: [
+      "Qu'est-ce qu'on a fait au Bon Dieu ?",
+      "Les Filles du docteur March",
+      "4 filles et un jean",
+      "Telle mère telle fille",
+    ],
+    answer: "Qu'est-ce qu'on a fait au Bon Dieu ?",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel film met en scène un pseudo surfeur qui part à la conquête des vagues du sud de la France ?",
+    options: [
+      "Brice de Nice",
+      "Point break",
+      "Les rois de la glisse",
+      "Blue crush",
+    ],
+    answer: "Brice de Nice",
+  },
+  {
+    numéro: "10/20",
+    question: "Quel film suit une équipe de chasseurs de fantômes essayant de sauver New York d'une invasion surnaturelle ?",
+    options: [
+      "SOS Fantômes",
+      "Fantôme et cie",
+      "Casper",
+      "Le manoir hanté",
+    ],
+    answer: "SOS Fantômes",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel film raconte l'histoire d'un chevalier du Moyen Âge transporté accidentellement à l'époque moderne ?",
+    options: [
+      "Les Visiteurs",
+      "Les chevaliers du ciel",
+      "Le dernier des templiers",
+      "Lancelot",
+    ],
+    answer: "Les Visiteurs",
+  },
+  {
+    numéro: "12/20",
+    question: "Quel film met en scène une famille modeste qui gagne une fortune à la loterie ?",
+    options: [
+      "Les Tuches",
+      "La famille Bélier",
+      "Heureux gagnants",
+      "Ah! Si j'étais riche",
+    ],
+    answer: "Les Tuches",
+  },
+  {
+    numéro: "13/20",
+    question: "Quel film  suit les aventures d'un chauffeur marseillais aux côtés d'un policier parisien ?",
+    options: [
+      "Taxi",
+      "Le transporteur",
+      "Fast and furious",
+      "Drive my car",
+    ],
+    answer: "Taxi",
+  },
+  {
+    numéro: "14/20",
+    question: "Quel film met en scène les aventures délirantes de gaulois en Égypte antique ?",
+    options: [
+      "Astérix et Obélix mission Cléopâtre",
+      "Astérix et Obélix: le domaine des dieux",
+      "Astérix et Obélix aux jeux Olympiques",
+      "Astérix et Obélix au service de sa majesté",
+    ],
+    answer: "Astérix et Obélix mission Cléopâtre",
+  },
+  {
+    numéro: "15/20",
+    question: "Quel film suit un groupe d'amis qui partent à Las Vegas pour fêter un enterrement de vie de garçon et se retrouvent dans des situations délirantes ?",
+    options: [
+      "Very Bad Trip",
+      "American Pie",
+      "Casino",
+      "Jackpot",
+    ],
+    answer: "Very Bad Trip",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel film raconte l'histoire d'une jeune femme obnubilée par la taille de ses fesses, qui s'invente une histoire d'amour avec un chirurgien brésilien pour échapper à la pression familiale ?",
+    options: [
+      "Joséphine",
+      "Le fabuleux destin d'Amelie Poulain",
+      "Le Journal de Bridget Jones",
+      "Vilaine",
+    ],
+    answer: "Joséphine",
+  },
+  {
+    numéro: "17/20",
+    question: "Quel film met en scène un couple en crise qui voit sa vie chamboulée par l'arrivée de Marijo ?",
+    options: [
+      "Gazon Maudit",
+      "La leçon de piano",
+      "L'auberge espagnole",
+      "American Beauty",
+    ],
+    answer: "Gazon Maudit",
+  },
+  {
+    numéro: "18/20",
+    question: "Quel film raconte l'histoire d'une vieille dame acariâtre qui terrorise son entourage ?",
+    options: [
+      "Tatie Danielle",
+      "Maison de retraite",
+      "Et si on vivait tous ensemble?",
+      "Joyeuse retraite",
+    ],
+    answer: "Tatie Danielle",
+  },
+  {
+    numéro: "19/20",
+    question: "Quel film met en scène un critique gastronomique victime d'agueusie et luttant pour conserver son statut ?",
+    options: [
+      "L'aile ou la cuisse",
+      "A vif !",
+      "Julie et Julia",
+      "Le grand restaurant",
+    ],
+    answer: "L'aile ou la cuisse",
+  },
+  {
+    numéro: "20/20",
+    question: "Quel film raconte les aventures loufoques de lycéens en quête de perdre leur virginité avant la fin de leurs études ?",
+    options: [
+      "American Pie",
+      "Projet X",
+      "LOL",
+      "Nos jours heureux",
+    ],
+    answer: "American Pie",
+  },
+];
+
+const questionsTelerealite = [
+  {
+    numéro: "1/20",
+    question:
+      "Quelle émission de téléréalité met en scène un candidat cherchant l'amour parmi un groupe de prétendantes ou prétendants ?",
+    options: [
+      "Le Bachelor",
+      "Secret Story",
+      "Les Anges de la téléréalité",
+      "L'amour est dans le pré",
+    ],
+    answer: "Le Bachelor",
+  },
+  {
+    numéro: "2/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des chefs cuisiniers amateurs ou professionnels pour remporter le titre de meilleur chef ?",
+    options: [
+      "Top Chef",
+      "MasterChef",
+      "Le Meilleur Pâtissier",
+      "La Cuisine des Mousquetaires",
+    ],
+    answer: "Top Chef",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Dans quelle émission de téléréalité des candidats doivent-ils survivre sur une île déserte en participant à des épreuves physiques et mentales ?",
+    options: [
+      "Koh-Lanta",
+      "Pékin Express",
+      "La Ferme Célébrités",
+      "Secret Story",
+    ],
+    answer: "Koh-Lanta",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quelle émission de téléréalité suit des candidats qui doivent garder des secrets tout en essayant de découvrir ceux des autres ?",
+    options: [
+      "Secret Story",
+      "Les Anges de la téléréalité",
+      "Loft Story",
+      "La Maison des Secrets",
+    ],
+    answer: "Secret Story",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Quelle émission de téléréalité suit des agriculteurs cherchant l'amour parmi des prétendantes ou prétendants ?",
+    options: [
+      "L'amour est dans le pré",
+      "Le Bachelor",
+      "Les Anges de la téléréalité",
+      "Secret Story",
+    ],
+    answer: "L'amour est dans le pré",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des chanteurs amateurs pour trouver la meilleure voix de France ?",
+    options: ["The Voice", "Star Academy", "Nouvelle Star", "Popstars"],
+    answer: "The Voice",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des célébrités qui doivent apprendre à danser avec des partenaires professionnels ?",
+    options: [
+      "Danse avec les stars",
+      "The Voice",
+      "La Ferme Célébrités",
+      "Top Chef",
+    ],
+    answer: "Danse avec les stars",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des pâtissiers amateurs pour remporter le titre de meilleur pâtissier ?",
+    options: [
+      "Le Meilleur Pâtissier",
+      "Top Chef",
+      "MasterChef",
+      "Les Rois du Gâteau",
+    ],
+    answer: "Le Meilleur Pâtissier",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quelle émission de téléréalité suit des candidats qui parcourent le monde en équipe pour remporter un grand prix ?",
+    options: [
+      "Pékin Express",
+      "Koh-Lanta",
+      "The Amazing Race",
+      "La Carte aux Trésors",
+    ],
+    answer: "Pékin Express",
+  },
+  {
+    numéro: "10/20",
+    question:
+      "Quelle émission de téléréalité rassemble des célébrités dans une ferme où elles doivent s'occuper des animaux et des tâches agricoles ?",
+    options: [
+      "La Ferme Célébrités",
+      "Secret Story",
+      "Koh-Lanta",
+      "Pékin Express",
+    ],
+    answer: "La Ferme Célébrités",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quelle émission de téléréalité suit la vie quotidienne de jeunes adultes en quête de célébrité et de succès ?",
+    options: [
+      "Les Anges de la téléréalité",
+      "Secret Story",
+      "Star Academy",
+      "Loft Story",
+    ],
+    answer: "Les Anges de la téléréalité",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Quelle émission de téléréalité suit des candidats qui doivent chanter devant un jury pour remporter un contrat d'enregistrement ?",
+    options: ["Star Academy", "Nouvelle Star", "The Voice", "Popstars"],
+    answer: "Star Academy",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Quelle émission de téléréalité met en scène des couples de futurs mariés qui évaluent leurs cérémonies de mariage respectives ?",
+    options: [
+      "4 Mariages pour une Lune de Miel",
+      "Mariés au Premier Regard",
+      "L'amour est dans le pré",
+      "La Robe de Ma Vie",
+    ],
+    answer: "4 Mariages pour une Lune de Miel",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quelle émission de téléréalité met au défi deux familles lors d'un jeu?",
+    options: [
+      "Une Famille en Or",
+      "Les Marseillais",
+      "La Villa des Cœurs Brisés",
+      "Les Anges de la téléréalité",
+    ],
+    answer: "Une Famille en Or",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quelle émission de téléréalité met en scène des candidats célibataires qui se marient sans s'être rencontrés auparavant ?",
+    options: [
+      "Mariés au Premier Regard",
+      "L'amour est dans le pré",
+      "Le Bachelor",
+      "4 Mariages pour une Lune de Miel",
+    ],
+    answer: "Mariés au Premier Regard",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des candidats qui doivent organiser des dîners chez eux pour remporter un prix ?",
+    options: [
+      "Un Dîner Presque Parfait",
+      "Top Chef",
+      "Le Meilleur Pâtissier",
+      "MasterChef",
+    ],
+    answer: "Un Dîner Presque Parfait",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quelle émission de téléréalité suit des candidats qui participent à des épreuves culinaires pour remporter un prix en argent et la reconnaissance de chefs célèbres ?",
+    options: [
+      "MasterChef",
+      "Top Chef",
+      "Le Meilleur Pâtissier",
+      "Cauchemar en Cuisine",
+    ],
+    answer: "MasterChef",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quelle émission de téléréalité consiste à rénover et décorer des maisons avec l'aide d'une équipe de professionnels ?",
+    options: ["D&CO", "Maison à Vendre", "Rénovation Impossible", "Queer Eye"],
+    answer: "D&CO",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quelle émission de téléréalité met en scène des célibataires qui cherchent l'amour sur une île tropicale ?",
+    options: [
+      "Love Island",
+      "Les Princes de l'Amour",
+      "L'île de la Tentation",
+      "Bachelor in Paradise",
+    ],
+    answer: "Love Island",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quelle émission de téléréalité met en compétition des candidats qui doivent vendre une maison pour gagner ?",
+    options: ["Maison à Vendre", "D&CO", "Rénovation Impossible", "Queer Eye"],
+    answer: "Maison à Vendre",
+  },
+];
+
+const questionsSport = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel est le nom du joueur de football brésilien surnommé 'O Fenômeno' ?",
+    options: ["Ronaldo", "Pelé", "Zidane", "Messi"],
+    answer: "Ronaldo",
+  },
+  {
+    numéro: "2/20",
+    question:
+      "Dans quel sport l'expression 'Grand Chelem' désigne-t-elle la victoire dans les quatre tournois majeurs la même année ?",
+    options: ["Tennis", "Golf", "Football", "Basketball"],
+    answer: "Tennis",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Quel est le nom du plus grand événement sportif international regroupant des athlètes de plus de 200 pays différents, se déroulant tous les quatre ans ?",
+    options: [
+      "Jeux Olympiques",
+      "Coupe du Monde",
+      "Championnat du Monde",
+      "Euro",
+    ],
+    answer: "Jeux Olympiques",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quel sport utilise une raquette pour frapper une balle contre un mur dans un court fermé avec des lignes marquant les limites du jeu ?",
+    options: ["Squash", "Tennis", "Paddle", "Ping-pong"],
+    answer: "Squash",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Quel joueur de basket-ball américain a remporté six titres NBA avec les Chicago Bulls dans les années 1990 ?",
+    options: ["Michael Jordan", "Magic Johnson", "Larry Bird", "Kobe Bryant"],
+    answer: "Michael Jordan",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quel golfeur américain a remporté 15 titres du Grand Chelem, dont cinq Masters et quatre US Open ?",
+    options: [
+      "Tiger Woods",
+      "Jack Nicklaus",
+      "Arnold Palmer",
+      "Phil Mickelson",
+    ],
+    answer: "Tiger Woods",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quel est le nom du championnat annuel de rugby où s'affrontent des équipes européennes ?",
+    options: [
+      "Tournoi des Six Nations",
+      "Coupe du Monde de Rugby",
+      "Championnat de France",
+      "Rugby Championship",
+    ],
+    answer: "Tournoi des Six Nations",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Dans quel sport les participants descendent une pente enneigée à l'aide de skis, en slalomant entre des portes ou d'autres obstacles ?",
+    options: ["Ski alpin", "Snowboard", "Ski de fond", "Biathlon"],
+    answer: "Ski alpin",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quel est le nom du sport qui se pratique sur une piste de glace où les concurrents descendent la pente à grande vitesse, en se couchant sur un traîneau ?",
+    options: ["Luge", "Bobsleigh", "Skeleton", "Patinage de vitesse"],
+    answer: "Skeleton",
+  },
+  {
+    numéro: "10/20",
+    question:
+      "Quel footballeur argentin a remporté cinq Ballons d'Or et joue pour le FC Barcelone depuis le début de sa carrière professionnelle en 2000 ?",
+    options: ["Lionel Messi", "Cristiano Ronaldo", "Diego Maradona", "Neymar"],
+    answer: "Lionel Messi",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quel joueur de tennis suisse a remporté 20 titres du Grand Chelem, dont huit Wimbledon et cinq US Open ?",
+    options: ["Roger Federer", "Novak Djokovic", "Rafael Nadal", "Andy Murray"],
+    answer: "Roger Federer",
+  },
+  {
+    numéro: "12/20",
+    question: "Quelle est la distance officielle d'un marathon en kilomètres ?",
+    options: ["42,195 km", "40,195 km", "45 km", "50 km"],
+    answer: "42,195 km",
+  },
+  {
+    numéro: "13/20",
+    question: "Dans quel sport le joueur peut-il marquer un 'touchdown' ?",
+    options: [
+      "Football américain",
+      "Basket-ball",
+      "Baseball",
+      "Hockey sur glace",
+    ],
+    answer: "Football américain",
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le sport principal du Tour de France ?",
+    options: [
+      "Cyclisme sur route",
+      "Course à pied",
+      "Cyclisme sur piste",
+      "Ski alpin",
+    ],
+    answer: "Cyclisme sur route",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quel joueur de football brésilien a remporté deux Coupes du Monde de la FIFA avec le Brésil en 1958 et 1962 ?",
+    options: ["Pelé", "Ronaldinho", "Ronaldo", "Romário"],
+    answer: "Pelé",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Quelle est la distance d'une piste d'athlétisme standard utilisée pour les courses sur longue distance, comme le 10 000 mètres ?",
+    options: ["400 mètres", "800 mètres", "200 mètres", "1000 mètres"],
+    answer: "400 mètres",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quel est le nom donné à la méthode utilisée pour marquer un point en rugby, où le joueur pose le ballon derrière la ligne de but de l'adversaire ?",
+    options: ["Essai", "Pénalité", "Drop", "Conversion"],
+    answer: "Essai",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel joueur de tennis espagnol a remporté un record de 13 titres à Roland-Garros, dominant sur terre battue ?",
+    options: ["Rafael Nadal", "Roger Federer", "Novak Djokovic", "Andy Murray"],
+    answer: "Rafael Nadal",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel est le nom de la compétition internationale de football la plus prestigieuse pour les équipes nationales, remportée par la France en 2018 ?",
+    options: [
+      "Coupe du Monde de la FIFA",
+      "Ligue des Champions",
+      "Copa America",
+      "Euro",
+    ],
+    answer: "Coupe du Monde de la FIFA",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel joueur français a remporté la Coupe du Monde de la FIFA en 1998 en tant que capitaine de l'équipe nationale et est désormais entraîneur de l'équipe nationale française ?",
+    options: [
+      "Zinédine Zidane",
+      "Didier Deschamps",
+      "Thierry Henry",
+      "Marcel Desailly",
+    ],
+    answer: "Didier Deschamps",
   },
 ];
 
@@ -3067,6 +1832,593 @@ const questionsJoueursFoot = [
       "Aymeric Laporte",
     ],
     answer: "Robin Le Normand",
+  },
+];
+
+const questionsJeuxVideo = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel personnage emblématique de Nintendo porte une salopette rouge et une casquette avec un M ?",
+    options: ["Link", "Mario", "Kirby", "Donkey Kong"],
+    answer: "Mario",
+  },
+  {
+    numéro: "2/20",
+    question:
+      "Quel est le nom de l'héroïne principale de la série 'Tomb Raider' ?",
+    options: ["Lara Croft", "Samus Aran", "Zelda", "Cortana"],
+    answer: "Lara Croft",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Quel jeu vidéo de 2017 se déroule dans l'univers de Hyrule et met en scène Link ?",
+    options: [
+      "The Elder Scrolls V: Skyrim",
+      "Dark Souls III",
+      "The Legend of Zelda: Breath of the Wild",
+      "Horizon Zero Dawn",
+    ],
+    answer: "The Legend of Zelda: Breath of the Wild",
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est le jeu vidéo le plus vendu de tous les temps ?",
+    options: ["Tetris", "Minecraft", "Grand Theft Auto V", "Super Mario Bros."],
+    answer: "Minecraft",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Quelle est la forme géométrique de base des blocs dans le jeu Tetris ?",
+    options: ["Carré", "Triangle", "Cercle", "Losange"],
+    answer: "Carré",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quel personnage de jeu vidéo est connu pour sa vitesse et ses chaussures rouges ?",
+    options: ["Mega Man", "Crash Bandicoot", "Sonic the Hedgehog", "Pac-Man"],
+    answer: "Sonic the Hedgehog",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quel jeu de combat de 1992 met en scène des personnages comme Ryu, Ken et Chun-Li ?",
+    options: [
+      "Tekken",
+      "Street Fighter II",
+      "Mortal Kombat",
+      "King of Fighters",
+    ],
+    answer: "Street Fighter II",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Quel est le nom de la ville fictive inspirée de Las Vegas dans GTA San Andreas ?",
+    options: ["Liberty City", "Vice City", "Las Venturas", "San Fierro"],
+    answer: "Las Venturas",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quel jeu vidéo multijoueur en ligne a popularisé le genre 'battle royale' en 2017 ?",
+    options: [
+      "Apex Legends",
+      "PlayerUnknown's Battlegrounds (PUBG)",
+      "Fortnite",
+      "Call of Duty: Warzone",
+    ],
+    answer: "Fortnite",
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le nom du plombier vert, frère de Mario ?",
+    options: ["Luigi", "Wario", "Toad", "Bowser"],
+    answer: "Luigi",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quel jeu vidéo développé par Mojang permet de construire et explorer des mondes en blocs ?",
+    options: ["Terraria", "Roblox", "Minecraft", "LEGO Worlds"],
+    answer: "Minecraft",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Dans quel jeu incarne-t-on un assassin membre de la confrérie des Assassins ?",
+    options: ["Hitman", "Assassin's Creed", "Dishonored", "Thief"],
+    answer: "Assassin's Creed",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Dans 'Wii Sports Resort', quel sport utilise principalement le Wii MotionPlus pour une précision accrue ?",
+    options: ["Tennis de table", "Golf", "Natation", "Basket-ball"],
+    answer: "Tennis de table",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quel est le nom de la princesse que Mario doit souvent sauver dans les jeux 'Super Mario' ?",
+    options: [
+      "Princesse Daisy",
+      "Princesse Peach",
+      "Princesse Zelda",
+      "Princesse Rosalina",
+    ],
+    answer: "Princesse Peach",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quel personnage principal de GTA est surnommé 'The Joker' dans l'un des opus de la série ?",
+    options: ["Claude", "Tommy Vercetti", "Niko Bellic", "CJ"],
+    answer: "Tommy Vercetti",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Dans quel jeu de simulation de vie les joueurs peuvent construire des maisons, créer des familles et gérer des personnages virtuels ?",
+    options: ["Animal Crossing", "The Sims", "Harvest Moon", "Stardew Valley"],
+    answer: "The Sims",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quel personnage de jeux vidéo est connu pour son apparence sans bras ni jambes ?",
+    options: ["Rayman", "Globox", "Murphy", "Ly"],
+    answer: "Rayman",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel jeu vidéo d'action-aventure met en scène un héros nommé Nathan Drake ?",
+    options: [
+      "Tomb Raider",
+      "Uncharted",
+      "The Last of Us",
+      "Red Dead Redemption",
+    ],
+    answer: "Uncharted",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel jeu de combat de 1995 a popularisé les 'Fatalities' et les 'Brutalities' ?",
+    options: ["Tekken", "SoulCalibur", "Mortal Kombat", "Dead or Alive"],
+    answer: "Mortal Kombat",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel jeu vidéo de 2013 développé par Naughty Dog suit les aventures de Joel et Ellie dans un monde post-apocalyptique ?",
+    options: ["The Last of Us", "Days Gone", "Fallout 4", "Horizon Zero Dawn"],
+    answer: "The Last of Us",
+  },
+];
+
+const questionsCultureGenerale = [
+  {
+    numéro: "1/20",
+    question: "Quelle est la capitale de la France?",
+    options: ["Paris", "London", "Berlin", "Madrid"],
+    answer: "Paris",
+  },
+  {
+    numéro: "2/20",
+    question: "Quelle planète est connue sous le nom de planète rouge?",
+    options: ["Mars", "Jupiter", "Saturn", "Neptune"],
+    answer: "Mars",
+  },
+  {
+    numéro: "3/20",
+    question: "Qui a écrit 'Le Petit Prince' ?",
+    options: [
+      "Antoine de Saint-Exupéry",
+      "Victor Hugo",
+      "Albert Camus",
+      "Franz Kafka",
+    ],
+    answer: "Antoine de Saint-Exupéry",
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle est la capitale du Canada ?",
+    options: ["Toronto", "Ottawa", "Montréal", "Québec"],
+    answer: "Ottawa",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le plus haut sommet du monde ?",
+    options: ["Mont Everest", "K2", "Mont Kilimandjaro", "Mont McKinley"],
+    answer: "Mont Everest",
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle est la monnaie du Japon ?",
+    options: ["Yuan", "Yen", "Roupie", "Baht"],
+    answer: "Yen",
+  },
+  {
+    numéro: "7/20",
+    question: "Quelle est la plus grande île du monde ?",
+    options: ["Australie", "Groenland", "Nouvelle-Guinée", "Borneo"],
+    answer: "Groenland",
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle est la langue la plus parlée au monde ?",
+    options: ["Anglais", "Espagnol", "Mandarin", "Hindi"],
+    answer: "Mandarin",
+  },
+  {
+    numéro: "9/20",
+    question: "Quelle est la langue officielle du Brésil ?",
+    options: ["Portugais", "Espagnol", "Anglais", "Allemand"],
+    answer: "Portugais",
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le plus grand animal terrestre ?",
+    options: [
+      "Rhinocéros blanc",
+      "Girafe",
+      "Éléphant d'Afrique",
+      "Ours polaire",
+    ],
+    answer: "Éléphant d'Afrique",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le pays le plus peuplé du monde ?",
+    options: ["États-Unis", "Brésil", "Inde", "Chine"],
+    answer: "Chine",
+  },
+  {
+    numéro: "12/20",
+    question: "Qui a écrit 'Les Fleurs du Mal' ?",
+    options: [
+      "Charles Baudelaire",
+      "Victor Hugo",
+      "Gustave Flaubert",
+      "Émile Zola",
+    ],
+    answer: "Charles Baudelaire",
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le pays le plus petit du monde par superficie ?",
+    options: ["Monaco", "Malte", "Nauru", "Vatican"],
+    answer: "Vatican",
+  },
+  {
+    numéro: "14/20",
+    question: "Qui a écrit 'Madame Bovary' ?",
+    options: [
+      "Émile Zola",
+      "Gustave Flaubert",
+      "Honoré de Balzac",
+      "Guy de Maupassant",
+    ],
+    answer: "Gustave Flaubert",
+  },
+  {
+    numéro: "15/20",
+    question: "Quelle est la capitale de l'Allemagne ?",
+    options: ["Hambourg", "Berlin", "Munich", "Francfort"],
+    answer: "Berlin",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le plus grand désert du monde ?",
+    options: ["Gobi", "Sahara", "Antarctique", "Arabie"],
+    answer: "Antarctique",
+  },
+  {
+    numéro: "17/20",
+    question: "Quelle est la devise de l'Union européenne ?",
+    options: [
+      "In varietate concordia",
+      "Liberté, Égalité, Fraternité",
+      "United in diversity",
+      "E pluribus unum",
+    ],
+    answer: "In varietate concordia",
+  },
+  {
+    numéro: "18/20",
+    question: "Qui a écrit 'Les Misérables' ?",
+    options: [
+      "Gustave Flaubert",
+      "Victor Hugo",
+      "Émile Zola",
+      "Alexandre Dumas",
+    ],
+    answer: "Victor Hugo",
+  },
+  {
+    numéro: "19/20",
+    question: "Quelle est la capitale de l'Argentine ?",
+    options: ["Santiago", "Lima", "Buenos Aires", "Montevideo"],
+    answer: "Buenos Aires",
+  },
+  {
+    numéro: "20/20",
+    question: "Qui a écrit 'Les Fables' ?",
+    options: [
+      "Jean de La Fontaine",
+      "Voltaire",
+      "Molière",
+      "Jean-Jacques Rousseau",
+    ],
+    answer: "Jean de La Fontaine",
+  },
+];
+
+const questionsFaitsInsolites = [
+  {
+    numéro: "1/20",
+    question: "Quel pays consomme le plus de chocolat par habitant ?",
+    options: ["Suisse", "Belgique", "Allemagne", "États-Unis"],
+    answer: "Suisse",
+  },
+  {
+    numéro: "2/20",
+    question:
+      "Quel est le record de la personne ayant le plus de piercings au corps ?",
+    options: ["567", "746", "901", "1027"],
+    answer: "1027",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Quel est le nombre de chutes de cheveux quotidien moyen pour une personne ?",
+    options: ["100", "200", "50", "150"],
+    answer: "100",
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est l'objet le plus souvent volé dans le monde ?",
+    options: ["Voiture", "Portefeuille", "Téléphone portable", "Stylo"],
+    answer: "Stylo",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Quel est le nombre moyen de mots prononcés par une personne chaque jour ?",
+    options: ["2 000 mots", "5 000 mots", "7 000 mots", "10 000 mots"],
+    answer: "7 000 mots",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quel est le record du monde pour le nombre de hamburgers mangés en 10 minutes ?",
+    options: ["12", "22", "32", "42"],
+    answer: "32",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le poids du plus gros hamburger jamais réalisé ?",
+    options: ["250 kg", "500 kg", "750 kg", "1 000 kg"],
+    answer: "1 000 kg",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Quelle est la quantité de papier toilette utilisée en moyenne par personne par an ?",
+    options: ["5 kg", "10 kg", "15 kg", "20 kg"],
+    answer: "20 kg",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quelle est la durée la plus longue qu'une personne a passée sans dormir ?",
+    options: ["3 jours", "7 jours", "11 jours", "15 jours"],
+    answer: "11 jours",
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le nombre de selfies pris chaque jour dans le monde ?",
+    options: ["1 million", "5 millions", "10 millions", "25 millions"],
+    answer: "25 millions",
+  },
+  {
+    numéro: "11/20",
+    question: "Quelle est la vitesse moyenne d'un pet humain ?",
+    options: ["6 km/h", "10 km/h", "14 km/h", "18 km/h"],
+    answer: "14 km/h",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Quel est le record du monde pour le nombre de mots tapés en une minute sur un clavier ?",
+    options: ["150 mots", "200 mots", "256 mots", "212 mots"],
+    answer: "212 mots",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Quelle est la distance la plus longue jamais parcourue à la nage sans s'arrêter ?",
+    options: ["100 km", "225 km", "300 km", "400 km"],
+    answer: "225 km",
+  },
+  {
+    numéro: "14/20",
+    question: "Combien de fois le cœur humain bat-il en moyenne par jour ?",
+    options: ["10 000 fois", "25 000 fois", "100 000 fois", "56 000 fois"],
+    answer: "100 000 fois",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quelle est la quantité de chocolat consommée par habitant en Suisse par an ?",
+    options: ["5 kg", "10 kg", "15 kg", "20 kg"],
+    answer: "10 kg",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Quelle est la température la plus basse jamais enregistrée sur Terre ?",
+    options: ["-60,2 °C", "-83,6 °C", "-100 °C", "-128,6 °C"],
+    answer: "-128,6 °C",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quelle est la longueur du plus long cheveu humain jamais enregistré ?",
+    options: ["50 cm", "75 cm", "100 cm", "150 cm"],
+    answer: "150 cm",
+  },
+  {
+    numéro: "18/20",
+    question: "Quel est le nombre de pattes qu'un escargot possède ?",
+    options: ["0", "1", "4", "6"],
+    answer: "1",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel est le nombre de fois qu'un colibri bat des ailes en une seconde ?",
+    options: ["20 fois", "40 fois", "60 fois", "80 fois"],
+    answer: "80 fois",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel est le nombre moyen de pas qu'une personne fait dans sa vie ?",
+    options: ["100 millions", "200 millions", "300 millions", "400 millions"],
+    answer: "200 millions",
+  },
+];
+
+const questionsVraiFaux = [
+  {
+    numéro: "1/20",
+    question: "Les chauves-souris sont aveugles.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "2/20",
+    question: "Le mont Everest est la plus haute montagne du monde.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "3/20",
+    question: "Les dauphins sont des mammifères.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "4/20",
+    question: "Le Nil est le fleuve le plus long du monde.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "5/20",
+    question: "Les koalas sont des ours.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "6/20",
+    question: "L'eau bout à 90 degrés Celsius.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Le piment Carolina Reaper était le piment le plus fort du monde de 2013 à 2023.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "8/20",
+    question: "La Grande Muraille de Chine est visible depuis l'espace.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "9/20",
+    question: "Le cœur humain a quatre chambres.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "10/20",
+    question: "Les éléphants sont les seuls animaux à posséder un menton.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "11/20",
+    question: "Les étoiles de mer ont deux cœurs.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "L'hippopotomonstrosesquipedaliophobie est la peur des longs mots.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "13/20",
+    question: "Le plus petit os du corps humain est dans l'oreille.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "14/20",
+    question: "Le chocolat est toxique pour les chiens.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Les girafes ont le même nombre de vertèbres cervicales que les humains.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "16/20",
+    question: "Les tomates sont des légumes.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
+  },
+  {
+    numéro: "17/20",
+    question: "Le drapeau de la France est composé de trois bandes verticales.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "18/20",
+    question: "Le kangourou est le symbole national de l'Australie.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "19/20",
+    question: "Les renards sont des animaux monogames.",
+    options: ["Vrai", "Faux"],
+    answer: "Vrai",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Le cerveau humain est le plus grand cerveau de tous les animaux.",
+    options: ["Vrai", "Faux"],
+    answer: "Faux",
   },
 ];
 
@@ -3310,357 +2662,440 @@ const questionsCodeDeLaRoute = [
   },
 ];
 
-const questionsActeursActrices = [
+const questionsCuisine = [
   {
     numéro: "1/20",
-    question:
-      "Quel acteur incarne Iron Man dans le Marvel Cinematic Universe ?",
-    options: [
-      "Chris Hemsworth",
-      "Robert Downey Jr.",
-      "Chris Evans",
-      "Mark Ruffalo",
-    ],
-    answer: "Robert Downey Jr.",
+    question: "Quel ingrédient ne compose pas une sauce béchamel ?",
+    options: ["Farine", "Lait", "Beurre", "Crème fraîche"],
+    answer: "Crème fraîche",
   },
   {
     numéro: "2/20",
     question:
-      "Quelle actrice joue le rôle de Katniss Everdeen dans 'The Hunger Games' ?",
-    options: [
-      "Shailene Woodley",
-      "Jennifer Lawrence",
-      "Emma Watson",
-      "Kristen Stewart",
-    ],
-    answer: "Jennifer Lawrence",
+      "Quel type de pâtes est souvent utilisé pour préparer le plat italien 'carbonara' ?",
+    options: ["Spaghetti", "Tagliatelle", "Penne", "Fettuccine"],
+    answer: "Spaghetti",
   },
   {
     numéro: "3/20",
-    question:
-      "Quel acteur est célèbre pour son rôle de Jack Dawson dans 'Titanic' ?",
-    options: ["Brad Pitt", "Johnny Depp", "Leonardo DiCaprio", "Matt Damon"],
-    answer: "Leonardo DiCaprio",
+    question: "Quel aliment est utilisé pour faire du guacamole ?",
+    options: ["Tomate", "Avocat", "Poivron", "Piment"],
+    answer: "Avocat",
   },
   {
     numéro: "4/20",
     question:
-      "Quelle actrice a joué le rôle de Hermione Granger dans la saga 'Harry Potter' ?",
-    options: [
-      "Emma Stone",
-      "Emma Watson",
-      "Natalie Portman",
-      "Keira Knightley",
-    ],
-    answer: "Emma Watson",
+      "Quel type de viande est utilisé pour préparer un boeuf bourguignon ?",
+    options: ["Filet mignon", "Épaule", "Jarret", "Paleron"],
+    answer: "Paleron",
   },
   {
     numéro: "5/20",
-    question:
-      "Quelle actrice a incarné le personnage de Clarice Starling dans 'Le Silence des agneaux' ?",
-    options: [
-      "Jodie Foster",
-      "Gillian Anderson",
-      "Meryl Streep",
-      "Nicole Kidman",
-    ],
-    answer: "Jodie Foster",
+    question: "Quel est l'ingrédient principal dans un risotto ?",
+    options: ["Blé", "Riz", "Orge", "Millet"],
+    answer: "Riz",
   },
   {
     numéro: "6/20",
-    question:
-      "Quelle actrice a incarné le rôle de Rachel Green dans la série 'Friends' ?",
-    options: [
-      "Courteney Cox",
-      "Jennifer Aniston",
-      "Lisa Kudrow",
-      "Sarah Jessica Parker",
-    ],
-    answer: "Jennifer Aniston",
+    question: "Quel légume est souvent utilisé dans la salade niçoise ?",
+    options: ["Laitue", "Concombre", "Tomate", "Haricot vert"],
+    answer: "Haricot vert",
   },
   {
     numéro: "7/20",
     question:
-      "Quel acteur est connu pour son rôle de Neo dans la trilogie 'Matrix' ?",
-    options: ["Brad Pitt", "Keanu Reeves", "Tom Cruise", "Will Smith"],
-    answer: "Keanu Reeves",
+      "Quel épice est souvent utilisé dans la cuisine indienne pour donner de la couleur aux plats ?",
+    options: ["Cumin", "Curcuma", "Coriandre", "Cannelle"],
+    answer: "Curcuma",
   },
   {
     numéro: "8/20",
     question:
-      "Quel acteur a incarné le personnage de Ethan Hunt dans la série de films 'Mission Impossible' ?",
-    options: ["Tom Cruise", "Matt Damon", "Keanu Reeves", "Brad Pitt"],
-    answer: "Tom Cruise",
+      "Quel type de poisson est traditionnellement utilisé pour faire du sushi ?",
+    options: ["Saumon", "Thon", "Dorade", "Bar"],
+    answer: "Thon",
   },
   {
     numéro: "9/20",
     question:
-      "Quel acteur a incarné le personnage de Walter White dans la série 'Breaking Bad' ?",
-    options: [
-      "Aaron Paul",
-      "Bryan Cranston",
-      "Jon Hamm",
-      "Matthew McConaughey",
-    ],
-    answer: "Bryan Cranston",
+      "Quel légume est traditionnellement utilisé dans la paella espagnole ?",
+    options: ["Poivron", "Courgette", "Aubergine", "Pois chiche"],
+    answer: "Poivron",
   },
   {
     numéro: "10/20",
-    question:
-      "Quelle actrice a interprété la reine Elizabeth II dans la série 'The Crown' ?",
-    options: ["Claire Foy", "Olivia Colman", "Helen Mirren", "Emily Blunt"],
-    answer: "Claire Foy",
+    question: "Quel ingrédient est utilisé pour faire une sauce hollandaise ?",
+    options: ["Beurre", "Crème fraîche", "Moutarde", "Yaourt"],
+    answer: "Beurre",
   },
   {
     numéro: "11/20",
-    question: "Quel acteur a incarné le rôle de Indiana Jones ?",
-    options: ["Harrison Ford", "Tom Selleck", "Mark Hamill", "Michael Douglas"],
-    answer: "Harrison Ford",
+    question:
+      "Quel fromage italien à pâte filée est utilisé dans la préparation de la pizza margherita ?",
+    options: ["Provolone", "Gorgonzola", "Parmesan", "Mozzarella"],
+    answer: "Mozzarella",
   },
   {
     numéro: "12/20",
     question:
-      "Quelle actrice a incarné Mary Poppins dans le film 'Mary Poppins Returns' ?",
-    options: ["Emily Blunt", "Anne Hathaway", "Amy Adams", "Rachel McAdams"],
-    answer: "Emily Blunt",
+      "Quel mollusque est utilisé dans la cuisine italienne pour préparer les 'spaghetti alle vongole' ?",
+    options: ["Moule", "Palourde", "Huître", "Coquille Saint-Jacques"],
+    answer: "Palourde",
   },
   {
     numéro: "13/20",
-    question:
-      "Quel acteur a joué le rôle de Captain Jack Sparrow dans 'Pirates des Caraïbes' ?",
-    options: ["Johnny Depp", "Orlando Bloom", "Geoffrey Rush", "Javier Bardem"],
-    answer: "Johnny Depp",
+    question: "Quel légume est utilisé pour faire une sauce pesto ?",
+    options: ["Basilic", "Persil", "Coriandre", "Menthe"],
+    answer: "Basilic",
   },
   {
     numéro: "14/20",
     question:
-      "Quelle actrice a joué le rôle principal dans le film 'Wonder Woman' ?",
-    options: [
-      "Gal Gadot",
-      "Scarlett Johansson",
-      "Brie Larson",
-      "Margot Robbie",
-    ],
-    answer: "Gal Gadot",
+      "Quel ingrédient est essentiel dans la préparation du tzatziki grec ?",
+    options: ["Concombre", "Tomate", "Poivron", "Oignon"],
+    answer: "Concombre",
   },
   {
     numéro: "15/20",
-    question:
-      "Quel acteur est célèbre pour son rôle de Wolverine dans les films 'X-Men' ?",
-    options: [
-      "Hugh Jackman",
-      "Chris Hemsworth",
-      "Ryan Reynolds",
-      "Chris Evans",
-    ],
-    answer: "Hugh Jackman",
+    question: "Quel ingrédient est utilisé pour faire une sauce béarnaise ?",
+    options: ["Estragon", "Ciboulette", "Persil", "Coriandre"],
+    answer: "Estragon",
   },
   {
     numéro: "16/20",
-    question:
-      "Quelle actrice a remporté l'Oscar de la meilleure actrice pour son rôle dans 'La La Land' ?",
-    options: ["Amy Adams", "Natalie Portman", "Emma Stone", "Jessica Chastain"],
-    answer: "Emma Stone",
+    question: "Quel fruit est souvent utilisé pour faire un clafoutis ?",
+    options: ["Framboise", "Cerise", "Myrtille", "Fraise"],
+    answer: "Cerise",
   },
   {
     numéro: "17/20",
-    question:
-      "Quel acteur a joué le rôle de Tony Montana dans le film 'Scarface' ?",
-    options: ["Robert De Niro", "Al Pacino", "Joe Pesci", "Marlon Brando"],
-    answer: "Al Pacino",
+    question: "Quel légume est utilisé pour faire une salade Caesar ?",
+    options: ["Laitue romaine", "Épinard", "Mâche", "Roquette"],
+    answer: "Laitue romaine",
   },
   {
     numéro: "18/20",
     question:
-      "Quelle actrice a joué le rôle de Black Widow dans les films Marvel ?",
-    options: [
-      "Scarlett Johansson",
-      "Natalie Portman",
-      "Brie Larson",
-      "Elizabeth Olsen",
-    ],
-    answer: "Scarlett Johansson",
+      "Quel fromage à pâte molle et à croûte fleurie est souvent associé à la gastronomie française et est utilisé dans la préparation du 'brie en croûte' ?",
+    options: ["Camembert", "Brie", "Roquefort", "Munster"],
+    answer: "Brie",
   },
   {
     numéro: "19/20",
-    question: "Quel acteur a joué le rôle de Forrest Gump ?",
-    options: ["Tom Hanks", "Robin Williams", "Johnny Depp", "Dustin Hoffman"],
-    answer: "Tom Hanks",
+    question:
+      "Quel fromage de la région française de Normandie est connue pour sa forme typique ?",
+    options: ["Pont-l'Évêque", "Neufchâtel", "Livarot", "Camembert"],
+    answer: "Neufchâtel",
   },
   {
     numéro: "20/20",
     question:
-      "Quelle actrice a incarné Mia Wallace dans le film 'Pulp Fiction' ?",
-    options: ["Uma Thurman", "Winona Ryder", "Jodie Foster", "Meg Ryan"],
-    answer: "Uma Thurman",
+      "Quel crustacé est utilisé pour préparer la célèbre soupe française 'bisque' ?",
+    options: ["Homard", "Crevette", "Langouste", "Crabe"],
+    answer: "Homard",
   },
 ];
 
-const questionsJeuxVideo = [
+
+
+
+const questionsOrthographe = [
   {
     numéro: "1/20",
     question:
-      "Quel personnage emblématique de Nintendo porte une salopette rouge et une casquette avec un M ?",
-    options: ["Link", "Mario", "Kirby", "Donkey Kong"],
-    answer: "Mario",
+      "Comment s'écrit le mot désignant l'action de se débarrasser de quelque chose ?",
+    options: ["Jetter", "Jeté", "Jeter", "Je tais"],
+    answer: "Jeter",
   },
   {
     numéro: "2/20",
-    question:
-      "Quel est le nom de l'héroïne principale de la série 'Tomb Raider' ?",
-    options: ["Lara Croft", "Samus Aran", "Zelda", "Cortana"],
-    answer: "Lara Croft",
+    question: "Quel est le féminin de 'acteur' ?",
+    options: ["Actrice", "Acteuse", "Acteure", "Actrisse"],
+    answer: "Actrice",
   },
   {
     numéro: "3/20",
     question:
-      "Quel jeu vidéo de 2017 se déroule dans l'univers de Hyrule et met en scène Link ?",
-    options: [
-      "The Elder Scrolls V: Skyrim",
-      "Dark Souls III",
-      "The Legend of Zelda: Breath of the Wild",
-      "Horizon Zero Dawn",
-    ],
-    answer: "The Legend of Zelda: Breath of the Wild",
+      "Comment s'écrit le mot désignant une énigme difficile, un problème insoluble ?",
+    options: ["Querelle", "Querelleur", "Querele", "Querrelle"],
+    answer: "Querelle",
   },
   {
     numéro: "4/20",
-    question: "Quel est le jeu vidéo le plus vendu de tous les temps ?",
-    options: ["Tetris", "Minecraft", "Grand Theft Auto V", "Super Mario Bros."],
-    answer: "Minecraft",
+    question: "Quel est le mot désignant un petit lac ou une mare ?",
+    options: ["Marette", "Mare", "Maret", "Marre"],
+    answer: "Mare",
   },
   {
     numéro: "5/20",
-    question:
-      "Quelle est la forme géométrique de base des blocs dans le jeu Tetris ?",
-    options: ["Carré", "Triangle", "Cercle", "Losange"],
-    answer: "Carré",
+    question: "Quel est le pluriel de 'monsieur' ?",
+    options: ["Monsieurs", "Monsieures", "Monsieur", "Messieurs"],
+    answer: "Messieurs",
   },
   {
     numéro: "6/20",
     question:
-      "Quel personnage de jeu vidéo est connu pour sa vitesse et ses chaussures rouges ?",
-    options: ["Mega Man", "Crash Bandicoot", "Sonic the Hedgehog", "Pac-Man"],
-    answer: "Sonic the Hedgehog",
+      "Comment s'écrit le mot désignant un ensemble de règles ou de lois ?",
+    options: ["Règles", "Règle", "Règlement", "Règlements"],
+    answer: "Règlement",
   },
   {
     numéro: "7/20",
-    question:
-      "Quel jeu de combat de 1992 met en scène des personnages comme Ryu, Ken et Chun-Li ?",
-    options: [
-      "Tekken",
-      "Street Fighter II",
-      "Mortal Kombat",
-      "King of Fighters",
-    ],
-    answer: "Street Fighter II",
+    question: "Quel est le féminin de 'professeur' ?",
+    options: ["Professeuse", "Professeure", "Professeur", "Professeuress"],
+    answer: "Professeure",
   },
   {
     numéro: "8/20",
     question:
-      "Quel est le nom de la ville fictive inspirée de Las Vegas dans GTA San Andreas ?",
-    options: ["Liberty City", "Vice City", "Las Venturas", "San Fierro"],
-    answer: "Las Venturas",
+      "Quel est l'ancien terme pour désigner un poète musicien de la Renaissance ?",
+    options: ["Bachique", "Vagant", "Troubadour", "Luthier"],
+    answer: "Troubadour",
   },
   {
     numéro: "9/20",
     question:
-      "Quel jeu vidéo multijoueur en ligne a popularisé le genre 'battle royale' en 2017 ?",
+      "Comment s'écrit le mot désignant la conversion d'une substance solide en gaz sans passer par l'état liquide ?",
     options: [
-      "Apex Legends",
-      "PlayerUnknown's Battlegrounds (PUBG)",
-      "Fortnite",
-      "Call of Duty: Warzone",
+      "Sublimation",
+      "Substantiation ",
+      "Substitution",
+      "Subtilisation",
     ],
-    answer: "Fortnite",
+    answer: "Sublimation",
   },
   {
     numéro: "10/20",
-    question: "Quel est le nom du plombier vert, frère de Mario ?",
-    options: ["Luigi", "Wario", "Toad", "Bowser"],
-    answer: "Luigi",
+    question: "Quel est le féminin de 'ministre' ?",
+    options: ["Ministère", "Ministesse", "Ministre", "Ministresse"],
+    answer: "Ministre",
   },
   {
     numéro: "11/20",
     question:
-      "Quel jeu vidéo développé par Mojang permet de construire et explorer des mondes en blocs ?",
-    options: ["Terraria", "Roblox", "Minecraft", "LEGO Worlds"],
-    answer: "Minecraft",
+      "Comment s'écrit le mot désignant une plante grimpante souvent utilisée comme décoration ?",
+    options: ["Lièvre", "Lierre", "Lières", "Lyère"],
+    answer: "Lierre",
   },
   {
     numéro: "12/20",
-    question:
-      "Dans quel jeu incarne-t-on un assassin membre de la confrérie des Assassins ?",
-    options: ["Hitman", "Assassin's Creed", "Dishonored", "Thief"],
-    answer: "Assassin's Creed",
+    question: "Quel est l'ancien terme pour désigner un alchimiste ?",
+    options: ["Sorcellier", "Alchimiste", "Philosophe", "Nigromant"],
+    answer: "Nigromant",
   },
   {
     numéro: "13/20",
-    question:
-      "Dans 'Wii Sports Resort', quel sport utilise principalement le Wii MotionPlus pour une précision accrue ?",
-    options: ["Tennis de table", "Golf", "Natation", "Basket-ball"],
-    answer: "Tennis de table",
+    question: "Comment s'écrit le mot désignant une pierre précieuse bleue ?",
+    options: ["Saphire", "Saphyr", "Saphir", "Safir"],
+    answer: "Saphir",
   },
   {
     numéro: "14/20",
     question:
-      "Quel est le nom de la princesse que Mario doit souvent sauver dans les jeux 'Super Mario' ?",
-    options: [
-      "Princesse Daisy",
-      "Princesse Peach",
-      "Princesse Zelda",
-      "Princesse Rosalina",
-    ],
-    answer: "Princesse Peach",
+      "Comment s'écrit le mot désignant une personne qui s'occupe des enfants ?",
+    options: ["Nourrice", "Nourrisse", "Nourice", "Nourisse"],
+    answer: "Nourrice",
   },
   {
     numéro: "15/20",
     question:
-      "Quel personnage principal de GTA est surnommé 'The Joker' dans l'un des opus de la série ?",
-    options: ["Claude", "Tommy Vercetti", "Niko Bellic", "CJ"],
-    answer: "Tommy Vercetti",
+      "Comment s'écrit le mot désignant un vieux gréement à trois mâts ?",
+    options: ["Trois-mâts", "Tri-mât", "Très-mât", "Tri-mas"],
+    answer: "Trois-mâts",
   },
   {
     numéro: "16/20",
     question:
-      "Dans quel jeu de simulation de vie les joueurs peuvent construire des maisons, créer des familles et gérer des personnages virtuels ?",
-    options: ["Animal Crossing", "The Sims", "Harvest Moon", "Stardew Valley"],
-    answer: "The Sims",
+      "Quel est le mot désignant une marque laissée par la rouille sur le métal ?",
+    options: ["Ferrugine", "Ferrugineuse", "Ferruginé", "Ferruginée"],
+    answer: "Ferrugine",
   },
   {
     numéro: "17/20",
     question:
-      "Quel personnage de jeux vidéo est connu pour son apparence sans bras ni jambes ?",
-    options: ["Rayman", "Globox", "Murphy", "Ly"],
-    answer: "Rayman",
+      "Comment s'écrit le mot désignant un courant d'eau rapide et tourbillonnant ?",
+    options: ["Mouillard", "Moulinet", "Mouillon", "Mouille"],
+    answer: "Mouillon",
   },
   {
     numéro: "18/20",
     question:
-      "Quel jeu vidéo d'action-aventure met en scène un héros nommé Nathan Drake ?",
-    options: [
-      "Tomb Raider",
-      "Uncharted",
-      "The Last of Us",
-      "Red Dead Redemption",
-    ],
-    answer: "Uncharted",
+      "Comment s'écrit le mot désignant une personne atteinte de gigantisme ?",
+    options: ["Gigantesque", "Géantisme", "Gigantée", "Gigantiste"],
+    answer: "Géantisme",
   },
   {
     numéro: "19/20",
     question:
-      "Quel jeu de combat de 1995 a popularisé les 'Fatalities' et les 'Brutalities' ?",
-    options: ["Tekken", "SoulCalibur", "Mortal Kombat", "Dead or Alive"],
-    answer: "Mortal Kombat",
+      "Quel est le mot désignant une inflammation aiguë de la muqueuse intestinale ?",
+    options: ["Entérite", "Entéritique", "Entéritée", "Entérine"],
+    answer: "Entérite",
   },
   {
     numéro: "20/20",
     question:
-      "Quel jeu vidéo de 2013 développé par Naughty Dog suit les aventures de Joel et Ellie dans un monde post-apocalyptique ?",
-    options: ["The Last of Us", "Days Gone", "Fallout 4", "Horizon Zero Dawn"],
-    answer: "The Last of Us",
+      "Quel est l'ancien terme pour désigner un ensemble de règles édictées par un seigneur au Moyen Âge ?",
+    options: ["Charte", "Ordonnance", "Fief", "Édit"],
+    answer: "Ordonnance",
   },
 ];
+
+
+
+const questionsDrapeaux = [
+  {
+    numéro: "1/20",
+    question: "Quel pays est représenté par ce drapeau ?",
+    image: "../assets/img/france.png",
+    options: ["France", "Allemagne", "Espagne", "Italie"],
+    answer: "France",
+  },
+  {
+    numéro: "2/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/republique_tcheque.png",
+    options: ["Norvège", "République Tchèque", "Autriche", "Pologne"],
+    answer: "République Tchèque",
+  },
+  {
+    numéro: "3/20",
+    question: "A quel pays appartient ce drapeau ?",
+    image: "../assets/img/afrique_du_sud.png",
+    options: ["Afrique du Nord", "Afrique du Sud", "Vietnam", "Corée du Sud"],
+    answer: "Afrique du Sud",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Ce drapeau est celui de quel pays européen qui comporte trois bandes verticales de couleurs rouge, blanche et rouge ?",
+    image: "../assets/img/autriche.png",
+    options: ["Autriche", "Hongrie", "Pays-Bas", "Belgique"],
+    answer: "Autriche",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Quel pays d'Afrique est représenté par ce drapeau avec une étoile jaune sur fond vert, rouge et noir ?",
+    image: "../assets/img/ghana.png",
+    options: ["Afrique du Sud", "Nigeria", "Éthiopie", "Ghana"],
+    answer: "Ghana",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "À quel pays appartient ce drapeau avec une étoile blanche à cinq branches sur fond bleu ?",
+    image: "../assets/img/etats_unis.png",
+    options: ["États-Unis", "Australie", "Nouvelle-Zélande", "Brésil"],
+    answer: "États-Unis",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Ce drapeau avec une croix rouge sur fond blanc est celui de quel pays européen ?",
+    image: "../assets/img/danemark.png",
+    options: ["Suisse", "Norvège", "Danemark", "Suède"],
+    answer: "Danemark",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Quel pays asiatique est représenté par ce drapeau avec une lune et une étoile blanche sur fond vert ?",
+    image: "../assets/img/pakistan.jpg",
+    options: ["Malaisie", "Pakistan", "Indonésie", "Bangladesh"],
+    answer: "Pakistan",
+  },
+  {
+    numéro: "9/20",
+    question: "A quels pays appartient ce drapeau ?",
+    image: "../assets/img/coree_du_sud.png",
+    options: ["Mexique", "Corée du Sud", "Argentine", "Pérou"],
+    answer: "Corée du Sud",
+  },
+  {
+    numéro: "10/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/botswana.png",
+    options: ["Botswana", "Gabon", "Argentine", "Estonie"],
+    answer: "Botswana",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quel est le nom du pays représenté par ce drapeau bleu avec une croix rouge et quatre croix blanches ?",
+    image: "../assets/img/finlande.png",
+    options: ["Suède", "Norvège", "Danemark", "Finlande"],
+    answer: "Finlande",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Ce drapeau avec une étoile jaune sur fond vert, rouge, jaune et noir est celui de quel pays africain ?",
+    image: "../assets/img/egypte.png",
+    options: ["Nigeria", "Afrique du Sud", "Égypte", "Zimbabwe"],
+    answer: "Égypte",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "À quel pays appartient ce drapeau tricolore vertical avec des bandes vertes, blanches et rouges ?",
+    image: "../assets/img/hongrie.png",
+    options: ["Italie", "Hongrie", "Russie", "Bulgarie"],
+    answer: "Hongrie",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Ce drapeau avec une étoile rouge à cinq branches sur fond vert est celui de quel pays d'Asie du Sud-Est ?",
+    image: "../assets/img/vietnam.png",
+    options: ["Vietnam", "Laos", "Cambodge", "Thaïlande"],
+    answer: "Vietnam",
+  },
+  {
+    numéro: "15/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/albanie.png",
+    options: ["Albanie", "Arabie Saoudite", "Bahamas", "Bangladesh"],
+    answer: "Albanie",
+  },
+  {
+    numéro: "16/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/sri_lanka.png",
+    options: ["Sri Lanka", "Bénin", "Bhoutan", "Birmanie"],
+    answer: "Sri Lanka",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Ce drapeau avec une lune et une étoile rouge sur fond blanc est celui de quel pays du Moyen-Orient ?",
+    image: "../assets/img/turquie.png",
+    options: ["Arabie Saoudite", "Iran", "Turquie", "Émirats Arabes Unis"],
+    answer: "Turquie",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel pays d'Amérique du Sud est représenté par ce drapeau tricolore horizontal avec des bandes jaune, bleu et rouge ?",
+    image: "../assets/img/colombie.png",
+    options: ["Colombie", "Pérou", "Équateur", "Venezuela"],
+    answer: "Colombie",
+  },
+  {
+    numéro: "19/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/mexique.png",
+    options: ["Brésil", "Cameroun", "Cambodge", "Mexique"],
+    answer: "Mexique",
+  },
+  {
+    numéro: "20/20",
+    question: "À quel pays appartient ce drapeau ?",
+    image: "../assets/img/laos.png",
+    options: ["Chine", "Vietnam", "Corée du Nord", "Laos"],
+    answer: "Laos",
+  },
+];
+
 
 const questionsActivitesPleinAir = [
   {
@@ -4199,6 +3634,741 @@ const questionsSportsMoteur = [
   },
 ];
 
+const questionsTennis = [
+  {
+    numéro: "1/20",
+    question: "Qui est le joueur de tennis suisse qui a remporté 20 titres du Grand Chelem en simple masculin ?",
+    options: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Andy Murray"],
+    answer: "Roger Federer"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel tournoi du Grand Chelem se joue sur gazon au Royaume-Uni chaque année en juin/juillet ?",
+    options: ["Wimbledon", "Roland Garros", "US Open", "Open d'Australie"],
+    answer: "Wimbledon"
+  },
+  {
+    numéro: "3/20",
+    question: "Qui est le joueur de tennis espagnol surnommé 'Rafa' qui a remporté 21 titres du Grand Chelem en simple masculin ?",
+    options: ["Rafael Nadal", "Roger Federer", "Novak Djokovic", "Andy Murray"],
+    answer: "Rafael Nadal"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel tournoi du Grand Chelem se joue sur dur à New York chaque année en août/septembre ?",
+    options: ["US Open", "Roland Garros", "Wimbledon", "Australian Open"],
+    answer: "US Open"
+  },
+  {
+    numéro: "5/20",
+    question: "Qui est le joueur de tennis serbe surnommé 'Nole' qui a remporté 20 titres du Grand Chelem en simple masculin ?",
+    options: ["Novak Djokovic", "Roger Federer", "Rafael Nadal", "Andy Murray"],
+    answer: "Novak Djokovic"
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle joueuse de tennis américaine a remporté 23 titres du Grand Chelem en simple féminin, un record dans l'ère Open ?",
+    options: ["Serena Williams", "Venus Williams", "Maria Sharapova", "Simona Halep"],
+    answer: "Serena Williams"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel joueur de tennis français, surnommé 'La Monf', est connu pour son style de jeu flamboyant et a atteint les demi-finales de l'US Open en 2008 ?",
+    options: ["Gaël Monfils", "Jo-Wilfried Tsonga", "Richard Gasquet", "Lucas Pouille"],
+    answer: "Gaël Monfils"
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle joueuse de tennis allemande a remporté Wimbledon à deux reprises, en 1988 et 1989, et a été numéro un mondiale ?",
+    options: ["Steffi Graf", "Martina Navratilova", "Monica Seles", "Serena Williams"],
+    answer: "Steffi Graf"
+  },
+  {
+    numéro: "9/20",
+    question: "Quelle joueuse de tennis américaine a remporté Wimbledon à cinq reprises entre 2000 et 2008, ainsi que l'US Open et l'Open d'Australie ?",
+    options: ["Venus Williams", "Serena Williams", "Maria Sharapova", "Justine Henin"],
+    answer: "Venus Williams"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel joueur de tennis américain, surnommé 'Pistol Pete', a remporté 14 titres du Grand Chelem en simple masculin dans les années 1990 ?",
+    options: ["Pete Sampras", "Andre Agassi", "Jim Courier", "Michael Chang"],
+    answer: "Pete Sampras"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le nom du type de surface de tennis le plus rapide ?",
+    options: ["Gazon", "Terre battue", "Dur", "Moquette"],
+    answer: "Gazon"
+  },
+  {
+    numéro: "12/20",
+    question: "Combien de points un joueur doit-il gagner pour remporter un tie-break dans un set de tennis ?",
+    options: ["7", "10", "12", "15"],
+    answer: "7"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le nom du type de surface de tennis le plus lent ?",
+    options: ["Terre battue", "Gazon", "Dur", "Moquette"],
+    answer: "Terre battue"
+  },
+  {
+    numéro: "14/20",
+    question: "À quelle distance le filet est-il placé au-dessus du sol dans un court de tennis réglementaire ?",
+    options: ["91,4 cm", "106,7 cm", "121,9 cm", "137,2 cm"],
+    answer: "91,4 cm"
+  },
+  {
+    numéro: "15/20",
+    question: "À quel âge minimum peut-on participer au tournoi junior de Roland Garros ?",
+    options: ["11 ans", "12 ans", "13 ans", "14 ans"],
+    answer: "11 ans"
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle joueuse de tennis française a remporté l'Open d'Australie en 2006 et Wimbledon en 2006, devenant la première Française depuis 1967 à atteindre la première place mondiale ?",
+    options: ["Marion Bartoli", "Amélie Mauresmo", "Mary Pierce", "Nathalie Tauziat"],
+    answer: "Amélie Mauresmo"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel joueur de tennis américain est connu pour son style flamboyant sur le court, ses tenues excentriques et ses remarquables succès dans les années 90 ?",
+    options: ["John McEnroe", "Jimmy Connors", "André Agassi", "Pete Sampras"],
+    answer: "André Agassi"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel joueur de tennis français, également chanteur à succès, a mené l'équipe de France à la victoire en Coupe Davis en 1991 ?",
+    options: ["Guy Forget", "Yannick Noah", "Henri Leconte", "Cédric Pioline"],
+    answer: "Yannick Noah"
+  },
+  {
+    numéro: "19/20",
+    question: "En quelle année a eu lieu la première édition du tournoi de Roland Garros ?",
+    options: ["1910", "1925", "1891", "1905"],
+    answer: "1891"
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle joueuse de tennis française a remporté six titres à Roland Garros dans les années 1920 ?",
+    options: ["Suzanne Lenglen", "Simone Mathieu", "Françoise Dürr", "Amélie Mauresmo"],
+    answer: "Suzanne Lenglen"
+  }
+];
+
+const questionsBricolage = [
+  {
+    numéro: "1/20",
+    question: "Quel outil est principalement utilisé pour percer des trous dans le bois ou d'autres matériaux ?",
+    options: ["Perceuse", "Tournevis", "Marteau", "Scie"],
+    answer: "Perceuse"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel type de clé est utilisé pour serrer ou desserrer des boulons et des écrous ?",
+    options: ["Clé à molette", "Clé à pipe", "Clé Allen", "Clé plate"],
+    answer: "Clé à molette"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel outil est utilisé pour couper des matériaux tels que le bois, le métal ou le plastique ?",
+    options: ["Scie", "Pince coupante", "Marteau", "Perceuse"],
+    answer: "Scie"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est l'outil principal pour mesurer des longueurs et des dimensions précises ?",
+    options: ["Mètre ruban", "Niveau à bulle", "Équerre", "Compas"],
+    answer: "Mètre ruban"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel outil est utilisé pour fixer deux pièces de bois ensemble à l'aide de vis ou de clous ?",
+    options: ["Perceuse-visseuse", "Marteau", "Tournevis", "Colle"],
+    answer: "Perceuse-visseuse"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est l'outil idéal pour lisser et polir des surfaces de bois ?",
+    options: ["Ponceuse", "Scie sauteuse", "Défonceuse", "Ciseaux à bois"],
+    answer: "Ponceuse"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel type de clou est le plus souvent utilisé pour fixer des objets légers sur des murs en plaques de plâtre ?",
+    options: ["Clou à tête plate", "Clou à tête d'homme", "Clou à tête d'as", "Clou à tête tronquée"],
+    answer: "Clou à tête d'homme"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel outil est utilisé pour serrer ou desserrer des écrous dans des endroits difficiles d'accès avec une grande force de levier ?",
+    options: ["Clé à pipe", "Marteau", "Tournevis", "Cliquet"],
+    answer: "Clé à pipe"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est l'outil indispensable pour mesurer l'angle droit entre deux surfaces ?",
+    options: ["Équerre", "Compas", "Rapporteur", "Niveau à bulle"],
+    answer: "Équerre"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel outil est utilisé pour appliquer de la peinture sur une surface de manière uniforme ?",
+    options: ["Pinceau", "Rouleau", "Pistolet à peinture", "Éponge"],
+    answer: "Rouleau"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel outil est utilisé pour enfoncer des clous ou frapper des surfaces dures pour les ajuster ?",
+    options: ["Marteau", "Tournevis", "Cliquet", "Clé à pipe"],
+    answer: "Marteau"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel outil est utilisé pour lisser les bords d'une pièce de bois après la coupe ?",
+    options: ["Rabot", "Scie sauteuse", "Défonceuse", "Ponceuse"],
+    answer: "Rabot"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel outil est utilisé pour fixer des objets lourds sur des surfaces creuses comme les cloisons sèches ?",
+    options: ["Pince à cheville Molly", "Tournevis", "Marteau", "Cliquet"],
+    answer: "Pince à cheville Molly"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel outil est utilisé pour enlever la rouille ou la peinture d'une surface métallique ?",
+    options: ["Ponceuse à bande", "Brosse métallique", "Décapant chimique", "Tournevis"],
+    answer: "Brosse métallique"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est l'outil utilisé pour couper des cercles parfaits dans le bois ou le métal ?",
+    options: ["Scie cloche", "Fraiseuse", "Ponceuse à bande", "Étau"],
+    answer: "Scie cloche"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est l'outil indispensable pour mesurer la verticalité ou l'horizontalité d'une surface ?",
+    options: ["Niveau à bulle", "Équerre", "Mètre ruban", "Rapporteur"],
+    answer: "Niveau à bulle"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel outil est utilisé pour couper des matériaux épais comme le métal ou le PVC ?",
+    options: ["Scie à métaux", "Scie circulaire", "Scie sauteuse", "Scie à onglet"],
+    answer: "Scie à métaux"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel est l'outil utilisé pour maintenir fermement des pièces de bois pendant leur collage ou leur assemblage ?",
+    options: ["Étau", "Serre-joint", "Pince à ressort", "Colle à bois"],
+    answer: "Serre-joint"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel outil est utilisé pour serrer ou desserrer des écrous et des boulons à l'aide de douilles interchangeables ?",
+    options: ["Cliquet", "Tournevis", "Marteau", "Pince à cheville Molly"],
+    answer: "Cliquet"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel dispositif est utilisé pour maintenir une pièce de bois ou de métal pendant qu'on la travaille ?",
+    options: ["Étau", "Serre-joint", "Équerre", "Pince"],
+    answer: "Étau"
+  }
+];
+
+const questionsPrincessesDisney = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel est le nom de la princesse qui vit dans un château de glace ?",
+    options: ["Cendrillon", "Belle", "Elsa", "Ariel"],
+    answer: "Elsa",
+  },
+  {
+    numéro: "2/20",
+    question: "Quelle princesse Disney chante 'Partir là-bas' ?",
+    options: ["Jasmine", "Ariel", "Elsa", "Cendrillon"],
+    answer: "Ariel",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est le nom du prince dans 'La Belle et la Bête' ?",
+    options: ["Eric", "Charmant", "Adam", "Philippe"],
+    answer: "Adam",
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle princesse est endormie pendant presque tout le film ?",
+    options: ["Tiana", "Blanche-Neige", "Aurore", "Cendrillon"],
+    answer: "Aurore",
+  },
+  {
+    numéro: "5/20",
+    question: "Quelle princesse Disney a un tigre comme compagnon ?",
+    options: ["Mulan", "Jasmine", "Pocahontas", "Ariel"],
+    answer: "Jasmine",
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle princesse Disney est connue pour sa chevelure magique ?",
+    options: ["Merida", "Raiponce", "Cendrillon", "Aurore"],
+    answer: "Raiponce",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le nom du père de la princesse vivant sous l'eau ?",
+    options: ["Triton", "Eric", "Sébastien", "Polochon"],
+    answer: "Triton",
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle princesse Disney a une marraine fée ?",
+    options: ["Cendrillon", "Belle", "Raiponce", "Tiana"],
+    answer: "Cendrillon",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est le nom de la princesse guerrière chinoise ?",
+    options: ["Pocahontas", "Mulan", "Jasmine", "Belle"],
+    answer: "Mulan",
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle princesse Disney a une grenouille comme compagnon ?",
+    options: ["Tiana", "Aurore", "Merida", "Elsa"],
+    answer: "Tiana",
+  },
+  {
+    numéro: "11/20",
+    question: "Quelle princesse Disney parle aux animaux de la forêt ?",
+    options: ["Blanche-Neige", "Jasmine", "Tiana", "Raiponce"],
+    answer: "Blanche-Neige",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Quel est le nom de la princesse qui veut découvrir un monde nouveau en Amérique ?",
+    options: ["Ariel", "Pocahontas", "Merida", "Belle"],
+    answer: "Pocahontas",
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le nom de la sœur d'Elsa dans 'La Reine des Neiges' ?",
+    options: ["Anna", "Belle", "Jasmine", "Tiana"],
+    answer: "Anna",
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom du prince de Cendrillon ?",
+    options: ["Eric", "Charmant", "Philippe", "Aladdin"],
+    answer: "Charmant",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quelle princesse Disney est connue pour sa chevelure rousse et son talent au tir à l'arc ?",
+    options: ["Ariel", "Merida", "Elsa", "Blanche-Neige"],
+    answer: "Merida",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le nom du dragon qui accompagne Mulan ?",
+    options: ["Pascal", "Raja", "Mushu", "Olaf"],
+    answer: "Mushu",
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est le nom de la méchante sorcière dans 'Blanche-Neige' ?",
+    options: ["Maléfique", "Ursula", "Grimhilde", "Gothel"],
+    answer: "Grimhilde",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel est le prénom du père de Belle dans 'La Belle et la Bête' ?",
+    options: ["Maurice", "Henry", "John", "Eric"],
+    answer: "Maurice",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel est le nom de la princesse de l'île de Motunui dans 'Vaiana' ?",
+    options: ["Moana", "Tiana", "Merida", "Ariel"],
+    answer: "Moana",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quelle princesse Disney rêve de devenir une grande cuisinière à la Nouvelle-Orléans ?",
+    options: ["Tiana", "Ariel", "Mulan", "Belle"],
+    answer: "Tiana",
+  },
+];
+
+const questionsPersonnagesDisney = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel est le nom du célèbre souriceau intrépide et optimiste, créé par Walt Disney en 1928 ?",
+    options: ["Dingo", "Mickey Mouse", "Donald Duck", "Pluto"],
+    answer: "Mickey Mouse",
+  },
+  {
+    numéro: "2/20",
+    question:
+      "Quelle princesse Disney, inspirée d'un conte de fées danois, a le pouvoir de geler les objets et les personnes ?",
+    options: ["Aurore", "Cendrillon", "Elsa", "Blanche-Neige"],
+    answer: "Elsa",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Quel est le nom du père du poisson clown courageux et aventureux ?",
+    options: ["Marin", "Nemo", "Dory", "Crush"],
+    answer: "Marin",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quel est le nom de la princesse qui est forcée de travailler comme servante avant de retrouver sa véritable identité grâce à une pantoufle de verre ?",
+    options: ["Aurore", "Cendrillon", "Ariel", "Belle"],
+    answer: "Cendrillon",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Quel est le nom du célèbre génie bleu qui vit dans une lampe magique et peut exaucer des vœux dans le film 'Aladdin' ?",
+    options: ["Abu", "Jafar", "Iago", "Génie"],
+    answer: "Génie",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quel est le nom du lionceau qui devient roi de la savane dans le film 'Le Roi Lion' ?",
+    options: ["Simba", "Mufasa", "Timon", "Pumbaa"],
+    answer: "Simba",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quel est le nom du protagoniste du film 'En Avant', un jeune elfe passionné de magie et d'aventure ?",
+    options: ["Barley", "Laurel", "Corey", "Wilden"],
+    answer: "Barley",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Dans le film 'Encanto', quel est le nom de l'aînée de la famille Madrigal, qui a le pouvoir de contrôler les plantes ?",
+    options: ["Isabela", "Mirabel", "Abuela Alma", "Antonio"],
+    answer: "Isabela",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Dans le film 'Luca', quel est le nom du meilleur ami de Luca, un jeune monstre marin audacieux ?",
+    options: ["Alberto", "Massimo", "Giulia", "Daniela"],
+    answer: "Alberto",
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle est la couleur du personnage Envie dans Vice-Versa 2?",
+    options: ["Turquoise", "Bleu", "Vert", "Rose"],
+    answer: "Turquoise",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quel est le nom du vaillant guerrier chinois qui se déguise en homme pour combattre à la place de son père malade dans le film 'Mulan' ?",
+    options: ["Mulan", "Shang", "Cri-Kee", "Mushu"],
+    answer: "Mulan",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Quel est le nom du célèbre chien de chasse rusé qui aide les renards dans le film 'Rox et Rouky' ?",
+    options: ["Rox", "Rouky", "Copper", "Tod"],
+    answer: "Copper",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Quel est le nom du méchant, souvent accompagné de son fidèle corbeau, dans le film 'La Belle au Bois Dormant' ?",
+    options: ["Jafar", "Gaston", "Maléfique", "Hades"],
+    answer: "Maléfique",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quel est le nom de la célèbre petite souris verte qui est la meilleure amie de Cendrillon ?",
+    options: ["Gus", "Suzy", "Perla", "Jac"],
+    answer: "Jac",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quel est le nom du célèbre capitaine pirate qui poursuit Peter Pan dans le Pays Imaginaire ?",
+    options: [
+      "Capitaine Crochet",
+      "Capitaine Barbossa",
+      "Capitaine Jack Sparrow",
+      "Capitaine Hector",
+    ],
+    answer: "Capitaine Crochet",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Quel est le nom du général chinois respecté qui prend Mulan sous son aile malgré son identité secrète de femme ?",
+    options: ["Shang", "Chi-Fu", "Ling", "Yao"],
+    answer: "Shang",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quel est le nom de la gentille fée marraine qui aide Cendrillon à se rendre au bal dans un carrosse magique ?",
+    options: ["Flora", "Pimprenelle", "Marraine la Bonne Fée", "Lucifer"],
+    answer: "Marraine la Bonne Fée",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel est le nom du célèbre lion majestueux, père de Simba, dans le film 'Le Roi Lion' ?",
+    options: ["Mufasa", "Scar", "Rafiki", "Zazu"],
+    answer: "Mufasa",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel est le nom du célèbre ours en peluche qui est le meilleur ami de Christopher Robin ?",
+    options: ["Tigrou", "Porcinet", "Bourriquet", "Winnie"],
+    answer: "Winnie",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel est le nom du célèbre chat roux de la princesse Aurore dans le film 'La Belle au Bois Dormant' ?",
+    options: ["Lucifer", "Figaro", "Cheshire", "Tom"],
+    answer: "Figaro",
+  },
+]; 
+
+const questionsDessinsAnimesDisney = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel est le premier long métrage d'animation réalisé par les studios Disney, sorti en 1937 ?",
+    options: [
+      "Pinocchio",
+      "Cendrillon",
+      "Blanche-Neige et les Sept Nains",
+      "La Belle et la Bête",
+    ],
+    answer: "Blanche-Neige et les Sept Nains",
+  },
+  {
+    numéro: "2/20",
+    question:
+      "Dans quel film Disney les personnages principaux s'aventurent-ils dans une jungle indienne et rencontrent des animaux comme Baloo et Shere Khan ?",
+    options: [
+      "La Belle et le Clochard",
+      "Le Livre de la Jungle",
+      "Les Aristochats",
+      "La Petite Sirène",
+    ],
+    answer: "Le Livre de la Jungle",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Quel est le titre du film Disney où une jeune fille courageuse part à la recherche de son père disparu avec l'aide d'un poisson et d'un crustacé ?",
+    options: [
+      "La Reine des Neiges",
+      "La Petite Sirène",
+      "Raiponce",
+      "La Belle et la Bête",
+    ],
+    answer: "La Petite Sirène",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quel est le nom du personnage principal du film Disney qui souhaite devenir un vrai garçon grâce à l'aide de Jiminy Cricket ?",
+    options: ["Bambi", "Dumbo", "Pinocchio", "Peter Pan"],
+    answer: "Pinocchio",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Dans quel film Disney des jouets prennent-ils vie lorsque les humains ne sont pas présents ?",
+    options: [
+      "Toy Story",
+      "Monstres et Cie",
+      "Les Indestructibles",
+      "La Reine des Neiges",
+    ],
+    answer: "Toy Story",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quel est le titre du film Disney où des animaux de la savane africaine sont représentés dans une histoire épique de trahison et de courage ?",
+    options: ["Le Roi Lion", "Bambi", "Madagascar", "Robin des Bois"],
+    answer: "Le Roi Lion",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quel est le nom du film Disney où un jeune prince trouve une lampe magique contenant un puissant génie capable d'accorder des souhaits ?",
+    options: ["Aladdin", "Charmant", "Hercule", "Tarzan"],
+    answer: "Aladdin",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Quel est le nom du film Disney où une jeune fille intrépide et un renard rusé se lient d'amitié malgré les différences entre leurs espèces ?",
+    options: [
+      "Pocahontas",
+      "La Belle et le Clochard",
+      "Robin des Bois",
+      "Les Aristochats",
+    ],
+    answer: "Robin des Bois",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quel est le titre du film Disney où une jeune princesse, malédiction oblige, se retrouve piégée dans un château en compagnie d'une Bête terrifiante ?",
+    options: [
+      "La Belle au Bois Dormant",
+      "La Belle et la Bête",
+      "Blanche-Neige et les Sept Nains",
+      "Cendrillon",
+    ],
+    answer: "La Belle et la Bête",
+  },
+  {
+    numéro: "10/20",
+    question:
+      "Quel est le nom du film Disney où une jeune femme courageuse part à la recherche de sa sœur gelée et apprend à maîtriser ses pouvoirs de glace ?",
+    options: [
+      "La Reine des Neiges",
+      "Vaiana, la Légende du Bout du Monde",
+      "La Princesse et la Grenouille",
+      "Mulan",
+    ],
+    answer: "La Reine des Neiges",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quel est le titre du film Disney où une jeune princesse hawaïenne part à l'aventure pour restaurer le cœur d'une déesse et sauver son île ?",
+    options: [
+      "Wish",
+      "Vaiana, la Légende du Bout du Monde",
+      "Lilo & Stitch",
+      "Encanto",
+    ],
+    answer: "Vaiana, la Légende du Bout du Monde",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Dans quel film Disney des jouets d'une chambre d'enfant partent-ils à la recherche de Buzz l'Éclair, leur nouveau camarade de jeu ?",
+    options: ["Toy Story 2", "Toy Story 3", "Toy Story 4", "Toy Story"],
+    answer: "Toy Story 2",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Quel est le nom du film Disney où un jeune Indien, avide de vengeance, se lance à la poursuite d'un grizzly qui a tué son frère ?",
+    options: [
+      "Tarzan",
+      "Bernard et Bianca au pays des kangourous",
+      "Frère des ours",
+      "Le Monde de Nemo",
+    ],
+    answer: "Frère des ours",
+  },
+  {
+    numéro: "14/20",
+    question:
+      " Dans quel film d'animation de Disney, une jeune femme passionnée de cuisine rêve-t-elle d'ouvrir son propre restaurant et travaille-t-elle dur pour atteindre son objectif malgré les obstacles ?",
+    options: [
+      "Atlantide, l'empire perdu",
+      "La Princesse et la Grenouille",
+      "Enchanted",
+      "Mulan",
+    ],
+    answer: "La Princesse et la Grenouille",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Dans quel film Disney les personnages principaux vivent-ils une aventure musicale dans les rues de Paris ?",
+    options: [
+      "Oliver et Compagnie",
+      "Rox et Rouky",
+      "Les Aventures de Bernard et Bianca",
+      "Le Bossu de Notre-Dame",
+    ],
+    answer: "Le Bossu de Notre-Dame",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Quel est le nom du film Disney où un jeune lion doit affronter son destin pour devenir le roi de la savane après la mort de son père ?",
+    options: ["Le Roi Lion", "Bambi", "Dumbo", "Tarzan"],
+    answer: "Le Roi Lion",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quel est le titre du film Disney où une jeune fille, en quête de justice, devient guerrière pour défendre son peuple contre les envahisseurs hun ?",
+    options: [
+      "Pocahontas",
+      "Mulan",
+      "Vaiana, la Légende du Bout du Monde",
+      "La Reine des Neiges",
+    ],
+    answer: "Mulan",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Dans quel film Disney un jeune garçon est élevé par des loups après avoir été abandonné par ses parents ?",
+    options: ["Lilo & Stitch", "Tarzan", "Le Livre de la Jungle", "Peter Pan"],
+    answer: "Le Livre de la Jungle",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel est le nom du film Disney où un jeune garçon vit des aventures magiques dans un monde souterrain rempli de créatures étranges ?",
+    options: [
+      "Les Mondes de Ralph",
+      "Atlantide, l'empire perdu",
+      "La Planète au trésor",
+      "Le Voyage d'Arlo",
+    ],
+    answer: "Atlantide, l'empire perdu",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Dans quel film Disney une petite fille se retrouve coincée dans un monde peuplé de monstres ?",
+    options: [
+      "Monstres et Cie",
+      "Toy Story",
+      "Les Indestructibles",
+      "Monstres Academy",
+    ],
+    answer: "Monstres et Cie",
+  },
+];
+
 const questionsMusiqueFilmsDisney = [
   {
     numéro: "1/20",
@@ -4437,363 +4607,802 @@ const questionsMusiqueFilmsDisney = [
   },
 ];
 
-const questionsDessinsAnimesDisney = [
+const questionsMechantsDisney = [
   {
     numéro: "1/20",
-    question:
-      "Quel est le premier long métrage d'animation réalisé par les studios Disney, sorti en 1937 ?",
-    options: [
-      "Pinocchio",
-      "Cendrillon",
-      "Blanche-Neige et les Sept Nains",
-      "La Belle et la Bête",
-    ],
-    answer: "Blanche-Neige et les Sept Nains",
+    question: "Quel est le nom du méchant dans 'La Petite Sirène' ?",
+    options: ["Ursula", "Joanna", "L'Hydre", "Gazeem"],
+    answer: "Ursula"
   },
   {
     numéro: "2/20",
-    question:
-      "Dans quel film Disney les personnages principaux s'aventurent-ils dans une jungle indienne et rencontrent des animaux comme Baloo et Shere Khan ?",
-    options: [
-      "La Belle et le Clochard",
-      "Le Livre de la Jungle",
-      "Les Aristochats",
-      "La Petite Sirène",
-    ],
-    answer: "Le Livre de la Jungle",
+    question: "Quel méchant veut la peau de 101 dalmatiens ?",
+    options: ["Cruella d'Enfer", "Jafar", "Helga Sinclair", "Gaston"],
+    answer: "Cruella d'Enfer"
   },
   {
     numéro: "3/20",
-    question:
-      "Quel est le titre du film Disney où une jeune fille courageuse part à la recherche de son père disparu avec l'aide d'un poisson et d'un crustacé ?",
-    options: [
-      "La Reine des Neiges",
-      "La Petite Sirène",
-      "Raiponce",
-      "La Belle et la Bête",
-    ],
-    answer: "La Petite Sirène",
+    question: "Quel méchant utilise une pomme empoisonnée pour endormir Blanche-Neige ?",
+    options: ["La Reine", "Maléfique", "Jafar", "Hades"],
+    answer: "La Reine"
   },
   {
     numéro: "4/20",
-    question:
-      "Quel est le nom du personnage principal du film Disney qui souhaite devenir un vrai garçon grâce à l'aide de Jiminy Cricket ?",
-    options: ["Bambi", "Dumbo", "Pinocchio", "Peter Pan"],
-    answer: "Pinocchio",
+    question: "Quel méchant est un capitaine pirate dans 'Peter Pan' ?",
+    options: ["Capitaine Crochet", "Denahi", "Monsieur La Lorgnette", "Jafar"],
+    answer: "Capitaine Crochet"
   },
   {
     numéro: "5/20",
+    question: "Quel méchant est un sorcier qui veut devenir Sultan dans 'Aladdin' ?",
+    options: ["Jafar", "Wesley", "Ursula", "Hadès"],
+    answer: "Jafar"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom du lion qui tue Mufasa dans 'Le Roi Lion' ?",
+    options: ["Scar", "Jafar", "Hadès", "Gaston"],
+    answer: "Scar"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel méchant est la fée maléfique qui maudit Aurore dans 'La Belle au bois dormant' ?",
+    options: ["Maléfique", "Ursula", "Cruella", "Goosey Loosey"],
+    answer: "Maléfique"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel méchant est le dieu des Enfers dans 'Hercule' ?",
+    options: ["Hadès", "Les Ombres Démoniaques", "Lawrence", "Gaston"],
+    answer: "Hadès"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel méchant veut chasser la Bête pour prouver son courage dans 'La Belle et la Bête' ?",
+    options: ["Gaston", "Jafar", "Scar", "Hadès"],
+    answer: "Gaston"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel méchant veut prendre le trône d'Arendelle dans 'La Reine des Neiges' ?",
+    options: ["Doug", "Hans", "Michel", "Le Roi Magnifico"],
+    answer: "Hans"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel méchant a une cicatrice en forme de tête de mort sur son visage dans 'Le Bossu de Notre-Dame' ?",
+    options: ["Claude Frollo", "Yokai", "Hadès", "Capitaine Crochet"],
+    answer: "Claude Frollo"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel méchant transforme des princes en grenouilles dans 'La Princesse et la Grenouille' ?",
+    options: ["Dr. Facilier", "Jafar", "Scar", "Hadès"],
+    answer: "Dr. Facilier"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel duo de méchants siamois provoque des problèmes pour Lady dans 'La Belle et le Clochard' ?",
+    options: ["Si et Am", "Anastasie et Javotte", "Flotsam et Jetsam", "Shenzi et Banzai"],
+    answer: "Si et Am"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel méchant est une mère adoptive abusive dans 'Raiponce' ?",
+    options: ["Mère Gothel", "Ursula", "Helga Sinclair", "Namaari"],
+    answer: "Mère Gothel"
+  },
+  {
+    numéro: "15/20",
+    question: "Dans quel film Disney le Prince Jean est-il le principal antagoniste ?",
+    options: ["Robin des Bois", "La Belle au Bois Dormant", "Le Livre de la Jungle", "Cendrillon"],
+    answer: "Robin des Bois"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel méchant en a après les souris dans 'Cendrillon' ?",
+    options: ["Lucifer", "Diablo", "Scar", "Kaa"],
+    answer: "Lucifer"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel méchant est une marâtre cruelle dans 'Cendrillon' ?",
+    options: ["Lady Tremaine", "Tante Sarah", "Maléfique", "Mère Gothel"],
+    answer: "Lady Tremaine"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel méchant est le chef du trio de hyènes dans 'Le Roi Lion' ?",
+    options: ["Shenzi", "Jafar", "Banzaï", "Demon"],
+    answer: "Shenzi"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel méchant est un empereur cruel dans 'Kuzco, l'empereur mégalo' ?",
+    options: ["Yzma", "Yzmo", "Zéphir", "Gargamel"],
+    answer: "Yzma"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel méchant transforme des humains en ânes dans 'Pinocchio' ?",
+    options: ["Le cochet", "Grand coquin", "Gédéon", "Stromboli "],
+    answer: "Le cochet"
+  }
+];
+
+const questionsDisneylandParis = [
+  {
+    numéro: "1/20",
+    question: "En quelle année le parc Disneyland Paris a-t-il ouvert ses portes ?",
+    options: ["1992", "1985", "2000", "1995"],
+    answer: "1992"
+  },
+  {
+    numéro: "2/20",
+    question: "Comment s'appelle le château emblématique du parc Disneyland Paris ?",
+    options: ["Le Château de la Belle au Bois Dormant", "Le Château de Cendrillon", "Le Château de Blanche-Neige", "Le Château de la Bête"],
+    answer: "Le Château de la Belle au Bois Dormant"
+  },
+  {
+    numéro: "3/20",
+    question: "Combien de parcs à thèmes composent Disneyland Paris ?",
+    options: ["2", "3", "1", "4"],
+    answer: "2"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est le nom du second parc à thème de Disneyland Paris, ouvert en 2002 ?",
+    options: ["Walt Disney Studios", "Magic Kingdom", "Epcot", "Animal Kingdom"],
+    answer: "Walt Disney Studios"
+  },
+  {
+    numéro: "5/20",
+    question: "Comment s'appelle la célèbre attraction de type montagnes russes enfermées située dans Discoveryland ?",
+    options: ["Space Mountain", "Big Thunder Mountain", "Indiana Jones et le Temple du Péril", "Rock 'n' Roller Coaster"],
+    answer: "Space Mountain"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom du quartier où se trouve le galion des pirates dans le parc Disneyland Paris ?",
+    options: ["Adventureland", "Fantasyland", "Frontierland", "Discoveryland"],
+    answer: "Adventureland"
+  },
+  {
+    numéro: "7/20",
+    question: "Quelle attraction emblématique permet de faire un tour en bateau à travers le monde des poupées animées ?",
+    options: ["It's a Small World", "Pirates of the Caribbean", "Peter Pan's Flight", "The Jungle Cruise"],
+    answer: "It's a Small World"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel spectacle nocturne utilise des projections, des feux d'artifice et des fontaines sur le château ?",
+    options: ["Disney Illuminations", "Fantasmic!", "World of Color", "Happily Ever After"],
+    answer: "Disney Illuminations"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel hôtel de Disneyland Paris est directement situé à l'entrée du parc Disneyland ?",
+    options: ["Disneyland Hotel", "Hotel New York", "Hotel Cheyenne", "Hotel Santa Fe"],
+    answer: "Disneyland Hotel"
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle attraction de Disneyland Paris est inspirée du film 'Indiana Jones' ?",
+    options: ["Indiana Jones et le Temple du Péril", "Pirates of the Caribbean", "The Twilight Zone Tower of Terror", "Big Thunder Mountain"],
+    answer: "Indiana Jones et le Temple du Péril"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel parc de Disneyland Paris contient l'attraction 'Ratatouille : L'Aventure Totalement Toquée de Rémy' ?",
+    options: ["Walt Disney Studios", "Magic Kingdom", "Disneyland Park", "Animal Kingdom"],
+    answer: "Walt Disney Studios"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom de la zone thématique dédiée à Toy Story dans Walt Disney Studios ?",
+    options: ["Toy Story Playland", "Toy Story Land", "Pixar Pier", "Andy’s Backyard"],
+    answer: "Toy Story Playland"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel spectacle acrobatique se déroule dans l'amphithéâtre de Frontierland ?",
+    options: ["The Lion King: Rhythms of the Pride Lands", "Mickey's PhilharMagic", "Frozen: A Musical Invitation", "Mickey and the Magician"],
+    answer: "The Lion King: Rhythms of the Pride Lands"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom de l'attraction où les visiteurs peuvent rencontrer leurs personnages Disney préférés dans Disneyland Park ?",
+    options: ["Meet Mickey Mouse", "Princess Pavilion", "Character Meet and Greet", "Starport"],
+    answer: "Meet Mickey Mouse"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le nom de l'attraction aquatique située à Adventureland, inspirée des histoires d'un prince et un génie ?",
+    options: ["Le Passage Enchanté d'Aladdin", "Pirates of the Caribbean", "Les Mystères du Nautilus", "La Cabane des Robinson"],
+    answer: "Le Passage Enchanté d'Aladdin"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le thème de l'attraction 'Phantom Manor' dans Frontierland ?",
+    options: ["Maison hantée", "Château de princesse", "Espace", "Sous-marin"],
+    answer: "Maison hantée"
+  },
+  {
+    numéro: "17/20",
+    question: "Quelle est la durée approximative du trajet en train de la 'Disneyland Railroad' autour du parc Disneyland ?",
+    options: ["20 minutes", "10 minutes", "30 minutes", "40 minutes"],
+    answer: "20 minutes"
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle est la principale saison pendant laquelle Disneyland Paris propose des décorations et des spectacles spéciaux pour Halloween ?",
+    options: ["Octobre", "Novembre", "Décembre", "Janvier"],
+    answer: "Octobre"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel est le nom de la parade quotidienne qui traverse le parc Disneyland ?",
+    options: ["Disney Stars on Parade", "Main Street Electrical Parade", "Festival of Fantasy Parade", "Dreamlights Parade"],
+    answer: "Disney Stars on Parade"
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle est la zone thématique inspirée des contes de fées dans Disneyland Park ?",
+    options: ["Fantasyland", "Adventureland", "Frontierland", "Discoveryland"],
+    answer: "Fantasyland"
+  }
+];
+
+const questionsAnimauxDisney = [
+  {
+    numéro: "1/20",
+    question: "Quel animal est Sid dans le film 'l'âge de glace' ?",
+    options: ["Paresseux", "Suricate", "Ecureuil", "Mangouste"],
+    answer: "Paresseux"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel type d'animal est Bambi ?",
+    options: ["Cerf", "Lapin", "Renard", "Ours"],
+    answer: "Cerf"
+  },
+  {
+    numéro: "3/20",
+    question: "Comment s'appelle le cheval dans 'Raiponce' ?",
+    options: ["Maximus", "Philippe", "Pegasus", "Achilles"],
+    answer: "Maximus"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel animal est Baloo dans 'Le Livre de la jungle' ?",
+    options: ["Ours", "Tigre", "Panthère", "Éléphant"],
+    answer: "Ours"
+  },
+  {
+    numéro: "5/20",
+    question: "Comment s'appelle le chien de Mickey Mouse ?",
+    options: ["Pluto", "Dingo", "Max", "Goofy"],
+    answer: "Pluto"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel type d'animal est Abu dans 'Aladdin' ?",
+    options: ["Singe", "Perroquet", "Tigre", "Chameau"],
+    answer: "Singe"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel animal est Shere Khan dans 'Le Livre de la jungle' ?",
+    options: ["Tigre", "Panthère", "Ours", "Serpent"],
+    answer: "Tigre"
+  },
+  {
+    numéro: "8/20",
+    question: "Dans 'La Belle et le Clochard', quel type de chien est Clochard ?",
+    options: ["Chien bâtard", "Cocker Spaniel", "Dalmatien", "Caniche"],
+    answer: "Chien bâtard"
+  },
+  {
+    numéro: "9/20",
+    question: "Comment s'appelle le chat de Cendrillon ?",
+    options: ["Lucifer", "Figaro", "Oliver", "Tom"],
+    answer: "Lucifer"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel animal est Rafiki dans 'Le Roi Lion' ?",
+    options: ["Mandrill", "Lion", "Babouin", "Girafe"],
+    answer: "Mandrill"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel type d'animal est Pégase dans 'Hercules' ?",
+    options: ["Cheval ailé", "Chèvre", "Lion", "Chien"],
+    answer: "Cheval ailé"
+  },
+  {
+    numéro: "12/20",
+    question: "Comment s'appelle le chat de Geppetto dans 'Pinocchio' ?",
+    options: ["Figaro", "Lucifer", "Oliver", "Tom"],
+    answer: "Figaro"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel type d'animal est Sébastien dans 'La Petite Sirène' ?",
+    options: ["Crabe", "Poisson", "Homard", "Crevette"],
+    answer: "Crabe"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel animal est Robin des Bois dans le film Disney du même nom ?",
+    options: ["Renard", "Ours", "Lion", "Lapin"],
+    answer: "Renard"
+  },
+  {
+    numéro: "15/20",
+    question: "Comment s'appelle le dragon gardien dans 'Mulan' ?",
+    options: ["Mushu", "Khan", "Shan Yu", "Cri-Kee"],
+    answer: "Mushu"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel animal est le personnage principal dans 'Zootopie' qui est un officier de police ?",
+    options: ["Lapin", "Renard", "Tigre", "Éléphant"],
+    answer: "Lapin"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel animal est Bagheera dans 'Le Livre de la jungle' ?",
+    options: ["Panthère", "Tigre", "Ours", "Loup"],
+    answer: "Panthère"
+  },
+  {
+    numéro: "18/20",
+    question: "Comment s'appelle le renard arnaqueur dans 'Zootopie' ?",
+    options: ["Nick Wilde", "Judy Hopps", "Finnick", "Chief Bogo"],
+    answer: "Nick Wilde"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel type d'animal est utilisé comme maillet dans le croquet de la Reine de Cœur dans 'Alice au Pays des Merveilles' ?",
+    options: ["Flamant rose", "Hérisson", "Lapin", "Chat"],
+    answer: "Flamant rose"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel type d'animal est Pumbaa dans 'Le Roi Lion' ?",
+    options: ["Phacochère", "Lion", "Hyène", "Suricate"],
+    answer: "Phacochère"
+  }
+];
+
+const questionsPixar = [
+  {
+    numéro: "1/20",
     question:
-      "Dans quel film Disney des jouets prennent-ils vie lorsque les humains ne sont pas présents ?",
-    options: [
-      "Toy Story",
-      "Monstres et Cie",
-      "Les Indestructibles",
-      "La Reine des Neiges",
-    ],
+      "Quel film Pixar met en scène des jouets qui prennent vie lorsque les humains ne sont pas présents ?",
+    options: ["Toy Story", "Monstres et Cie", "Cars", "Les Indestructibles"],
     answer: "Toy Story",
   },
   {
-    numéro: "6/20",
-    question:
-      "Quel est le titre du film Disney où des animaux de la savane africaine sont représentés dans une histoire épique de trahison et de courage ?",
-    options: ["Le Roi Lion", "Bambi", "Madagascar", "Robin des Bois"],
-    answer: "Le Roi Lion",
-  },
-  {
-    numéro: "7/20",
-    question:
-      "Quel est le nom du film Disney où un jeune prince trouve une lampe magique contenant un puissant génie capable d'accorder des souhaits ?",
-    options: ["Aladdin", "Charmant", "Hercule", "Tarzan"],
-    answer: "Aladdin",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Quel est le nom du film Disney où une jeune fille intrépide et un renard rusé se lient d'amitié malgré les différences entre leurs espèces ?",
-    options: [
-      "Pocahontas",
-      "La Belle et le Clochard",
-      "Robin des Bois",
-      "Les Aristochats",
-    ],
-    answer: "Robin des Bois",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Quel est le titre du film Disney où une jeune princesse, malédiction oblige, se retrouve piégée dans un château en compagnie d'une Bête terrifiante ?",
-    options: [
-      "La Belle au Bois Dormant",
-      "La Belle et la Bête",
-      "Blanche-Neige et les Sept Nains",
-      "Cendrillon",
-    ],
-    answer: "La Belle et la Bête",
-  },
-  {
-    numéro: "10/20",
-    question:
-      "Quel est le nom du film Disney où une jeune femme courageuse part à la recherche de sa sœur gelée et apprend à maîtriser ses pouvoirs de glace ?",
-    options: [
-      "La Reine des Neiges",
-      "Vaiana, la Légende du Bout du Monde",
-      "La Princesse et la Grenouille",
-      "Mulan",
-    ],
-    answer: "La Reine des Neiges",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Quel est le titre du film Disney où une jeune princesse hawaïenne part à l'aventure pour restaurer le cœur d'une déesse et sauver son île ?",
-    options: [
-      "Wish",
-      "Vaiana, la Légende du Bout du Monde",
-      "Lilo & Stitch",
-      "Encanto",
-    ],
-    answer: "Vaiana, la Légende du Bout du Monde",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "Dans quel film Disney des jouets d'une chambre d'enfant partent-ils à la recherche de Buzz l'Éclair, leur nouveau camarade de jeu ?",
-    options: ["Toy Story 2", "Toy Story 3", "Toy Story 4", "Toy Story"],
-    answer: "Toy Story 2",
-  },
-  {
-    numéro: "13/20",
-    question:
-      "Quel est le nom du film Disney où un jeune Indien, avide de vengeance, se lance à la poursuite d'un grizzly qui a tué son frère ?",
-    options: [
-      "Tarzan",
-      "Bernard et Bianca au pays des kangourous",
-      "Frère des ours",
-      "Le Monde de Nemo",
-    ],
-    answer: "Frère des ours",
-  },
-  {
-    numéro: "14/20",
-    question:
-      " Dans quel film d'animation de Disney, une jeune femme passionnée de cuisine rêve-t-elle d'ouvrir son propre restaurant et travaille-t-elle dur pour atteindre son objectif malgré les obstacles ?",
-    options: [
-      "Atlantide, l'empire perdu",
-      "La Princesse et la Grenouille",
-      "Enchanted",
-      "Mulan",
-    ],
-    answer: "La Princesse et la Grenouille",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Dans quel film Disney les personnages principaux vivent-ils une aventure musicale dans les rues de Paris ?",
-    options: [
-      "Oliver et Compagnie",
-      "Rox et Rouky",
-      "Les Aventures de Bernard et Bianca",
-      "Le Bossu de Notre-Dame",
-    ],
-    answer: "Le Bossu de Notre-Dame",
-  },
-  {
-    numéro: "16/20",
-    question:
-      "Quel est le nom du film Disney où un jeune lion doit affronter son destin pour devenir le roi de la savane après la mort de son père ?",
-    options: ["Le Roi Lion", "Bambi", "Dumbo", "Tarzan"],
-    answer: "Le Roi Lion",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Quel est le titre du film Disney où une jeune fille, en quête de justice, devient guerrière pour défendre son peuple contre les envahisseurs hun ?",
-    options: [
-      "Pocahontas",
-      "Mulan",
-      "Vaiana, la Légende du Bout du Monde",
-      "La Reine des Neiges",
-    ],
-    answer: "Mulan",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Dans quel film Disney un jeune garçon est élevé par des loups après avoir été abandonné par ses parents ?",
-    options: ["Lilo & Stitch", "Tarzan", "Le Livre de la Jungle", "Peter Pan"],
-    answer: "Le Livre de la Jungle",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quel est le nom du film Disney où un jeune garçon vit des aventures magiques dans un monde souterrain rempli de créatures étranges ?",
-    options: [
-      "Les Mondes de Ralph",
-      "Atlantide, l'empire perdu",
-      "La Planète au trésor",
-      "Le Voyage d'Arlo",
-    ],
-    answer: "Atlantide, l'empire perdu",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Dans quel film Disney une petite fille se retrouve coincée dans un monde peuplé de monstres ?",
-    options: [
-      "Monstres et Cie",
-      "Toy Story",
-      "Les Indestructibles",
-      "Monstres Academy",
-    ],
-    answer: "Monstres et Cie",
-  },
-];
-
-const questionsPersonnagesDisney = [
-  {
-    numéro: "1/20",
-    question:
-      "Quel est le nom du célèbre souriceau intrépide et optimiste, créé par Walt Disney en 1928 ?",
-    options: ["Dingo", "Mickey Mouse", "Donald Duck", "Pluto"],
-    answer: "Mickey Mouse",
-  },
-  {
     numéro: "2/20",
     question:
-      "Quelle princesse Disney, inspirée d'un conte de fées danois, a le pouvoir de geler les objets et les personnes ?",
-    options: ["Aurore", "Cendrillon", "Elsa", "Blanche-Neige"],
-    answer: "Elsa",
+      "Quel film Pixar raconte l'histoire d'un poisson clown qui se perd dans l'océan ?",
+    options: ["Le Monde de Nemo", "Wall-E", "Ratatouille", "Là-haut"],
+    answer: "Le Monde de Nemo",
   },
   {
     numéro: "3/20",
     question:
-      "Quel est le nom du père du poisson clown courageux et aventureux ?",
-    options: ["Marin", "Nemo", "Dory", "Crush"],
-    answer: "Marin",
+      "Quel film Pixar met en avant des personnages émotions vivant dans la tête d'une jeune fille ?",
+    options: ["Vice-Versa", "Coco", "Les Indestructibles", "Brave"],
+    answer: "Vice-Versa",
   },
   {
     numéro: "4/20",
     question:
-      "Quel est le nom de la princesse qui est forcée de travailler comme servante avant de retrouver sa véritable identité grâce à une pantoufle de verre ?",
-    options: ["Aurore", "Cendrillon", "Ariel", "Belle"],
-    answer: "Cendrillon",
+      "Quel film Pixar se déroule dans un monde où les voitures sont des personnages anthropomorphes ?",
+    options: ["Cars", "Monstres Academy", "Ratatouille", "Le Monde de Dory"],
+    answer: "Cars",
   },
   {
     numéro: "5/20",
     question:
-      "Quel est le nom du célèbre génie bleu qui vit dans une lampe magique et peut exaucer des vœux dans le film 'Aladdin' ?",
-    options: ["Abu", "Jafar", "Iago", "Génie"],
-    answer: "Génie",
+      "Quel film Pixar met en scène des animaux qui mènent une double vie ?",
+    options: [
+      "La Vie Secrète des Animaux de Compagnie",
+      "Toy Story",
+      "Monstres et Cie",
+      "Là-haut",
+    ],
+    answer: "La Vie Secrète des Animaux de Compagnie",
   },
   {
     numéro: "6/20",
     question:
-      "Quel est le nom du lionceau qui devient roi de la savane dans le film 'Le Roi Lion' ?",
-    options: ["Simba", "Mufasa", "Timon", "Pumbaa"],
-    answer: "Simba",
+      "Quel film Pixar présente un robot nettoyeur solitaire sur une Terre dévastée ?",
+    options: ["Wall-E", "Là-haut", "Coco", "Les Indestructibles"],
+    answer: "Wall-E",
   },
   {
     numéro: "7/20",
     question:
-      "Quel est le nom du protagoniste du film 'En Avant', un jeune elfe passionné de magie et d'aventure ?",
-    options: ["Barley", "Laurel", "Corey", "Wilden"],
-    answer: "Barley",
+      "Quel film Pixar raconte l'histoire d'un rat qui rêve de devenir chef cuisinier à Paris ?",
+    options: ["Ratatouille", "Le Monde de Nemo", "Monstres Academy", "Cars"],
+    answer: "Ratatouille",
   },
   {
     numéro: "8/20",
     question:
-      "Dans le film 'Encanto', quel est le nom de l'aînée de la famille Madrigal, qui a le pouvoir de contrôler les plantes ?",
-    options: ["Isabela", "Mirabel", "Abuela Alma", "Antonio"],
-    answer: "Isabela",
+      "Quel film Pixar suit les aventures de super-héros retirés forcés de reprendre du service ?",
+    options: ["Les Indestructibles", "Toy Story", "Vice-Versa", "Coco"],
+    answer: "Les Indestructibles",
   },
   {
     numéro: "9/20",
     question:
-      "Dans le film 'Luca', quel est le nom du meilleur ami de Luca, un jeune monstre marin audacieux ?",
-    options: ["Alberto", "Massimo", "Giulia", "Daniela"],
-    answer: "Alberto",
+      "Quel film Pixar raconte l'histoire d'un vieil homme et un jeune scout naviguant vers une destination exotique ?",
+    options: ["Là-haut", "Vice-Versa", "Rebelle", "Monstres et Cie"],
+    answer: "Là-haut",
   },
   {
     numéro: "10/20",
-    question: "Quelle est la couleur du personnage Envie dans Vice-Versa 2?",
-    options: ["Turquoise", "Bleu", "Vert", "Rose"],
-    answer: "Turquoise",
+    question:
+      "Quel film Pixar raconte l'histoire d'une petite fourmi qui tente de sauver sa colonie en recrutant des guerriers ?",
+    options: ["1001 Pattes", "Le Monde de Nemo", "Cars", "Ratatouille"],
+    answer: "1001 Pattes",
   },
   {
     numéro: "11/20",
     question:
-      "Quel est le nom du vaillant guerrier chinois qui se déguise en homme pour combattre à la place de son père malade dans le film 'Mulan' ?",
-    options: ["Mulan", "Shang", "Cri-Kee", "Mushu"],
-    answer: "Mulan",
+      "Quel film Pixar met en scène un jeune musicien mexicain qui se retrouve dans le monde des morts ?",
+    options: ["Coco", "Vice-Versa", "Les Indestructibles", "Ratatouille"],
+    answer: "Coco",
   },
   {
     numéro: "12/20",
     question:
-      "Quel est le nom du célèbre chien de chasse rusé qui aide les renards dans le film 'Rox et Rouky' ?",
-    options: ["Rox", "Rouky", "Copper", "Tod"],
-    answer: "Copper",
+      "Quel film Pixar se déroule dans une ville où les habitants sont des éléments de la nature, comme le feu, l'eau, la terre et l'air ?",
+    options: [
+      "Élémentaire",
+      "Vice-Versa",
+      "Les Indestructibles",
+      "Monstres et Cie",
+    ],
+    answer: "Élémentaire",
   },
   {
     numéro: "13/20",
     question:
-      "Quel est le nom du méchant, souvent accompagné de son fidèle corbeau, dans le film 'La Belle au Bois Dormant' ?",
-    options: ["Jafar", "Gaston", "Maléfique", "Hades"],
-    answer: "Maléfique",
+      "Quel film Pixar met en avant une jeune princesse écossaise qui défie une tradition ancienne ?",
+    options: [
+      "Rebelle",
+      "Monstres Academy",
+      "Le Monde de Nemo",
+      "Les Indestructibles",
+    ],
+    answer: "Rebelle",
   },
   {
     numéro: "14/20",
     question:
-      "Quel est le nom de la célèbre petite souris verte qui est la meilleure amie de Cendrillon ?",
-    options: ["Gus", "Suzy", "Perla", "Jac"],
-    answer: "Jac",
+      "Quel film Pixar met en scène un jeune monstre effrayé par les enfants humains qui se retrouve dans un collège de monstres ?",
+    options: [
+      "Monstres Academy",
+      "Les Indestructibles",
+      "Toy Story",
+      "Là-haut",
+    ],
+    answer: "Monstres Academy",
   },
   {
     numéro: "15/20",
     question:
-      "Quel est le nom du célèbre capitaine pirate qui poursuit Peter Pan dans le Pays Imaginaire ?",
-    options: [
-      "Capitaine Crochet",
-      "Capitaine Barbossa",
-      "Capitaine Jack Sparrow",
-      "Capitaine Hector",
-    ],
-    answer: "Capitaine Crochet",
+      "Quel film Pixar met en scène une jeune fille qui découvre un passage secret menant à un monde fantastique ?",
+    options: ["Monstres et Cie", "Toy Story", "Là-haut", "Vice-Versa"],
+    answer: "Monstres et Cie",
   },
   {
     numéro: "16/20",
     question:
-      "Quel est le nom du général chinois respecté qui prend Mulan sous son aile malgré son identité secrète de femme ?",
-    options: ["Shang", "Chi-Fu", "Ling", "Yao"],
-    answer: "Shang",
+      "Quel film Pixar raconte l'histoire de deux frères elfes qui partent en quête de magie pour ramener leur père à la vie ?",
+    options: ["En Avant", "Soul", "Luca", "Vice-Versa"],
+    answer: "En Avant",
   },
   {
     numéro: "17/20",
     question:
-      "Quel est le nom de la gentille fée marraine qui aide Cendrillon à se rendre au bal dans un carrosse magique ?",
-    options: ["Flora", "Pimprenelle", "Marraine la Bonne Fée", "Lucifer"],
-    answer: "Marraine la Bonne Fée",
+      "Quel film Pixar se déroule dans un monde où les émotions d'un musicien de jazz sont mises à l'épreuve après un accident ?",
+    options: ["Soul", "Coco", "Rebelle", "Wall-E"],
+    answer: "Soul",
   },
   {
     numéro: "18/20",
     question:
-      "Quel est le nom du célèbre lion majestueux, père de Simba, dans le film 'Le Roi Lion' ?",
-    options: ["Mufasa", "Scar", "Rafiki", "Zazu"],
-    answer: "Mufasa",
+      "Quel film Pixar raconte l'histoire d'un jeune garçon et de son ami qui vivent un été inoubliable en Italie, tout en cachant qu'ils sont en réalité des monstres marins ?",
+    options: ["Luca", "En Avant", "En avant", "Soul"],
+    answer: "Luca",
   },
   {
     numéro: "19/20",
     question:
-      "Quel est le nom du célèbre ours en peluche qui est le meilleur ami de Christopher Robin ?",
-    options: ["Tigrou", "Porcinet", "Bourriquet", "Winnie"],
-    answer: "Winnie",
+      "Quel film Pixar raconte l'histoire d'un groupe de personnages de jeu vidéo qui découvrent l'importance de l'amitié ?",
+    options: [
+      "Les Mondes de Ralph",
+      "Les Indestructibles",
+      "Monstres et Cie",
+      "Toy Story",
+    ],
+    answer: "Les Mondes de Ralph",
   },
   {
     numéro: "20/20",
     question:
-      "Quel est le nom du célèbre chat roux de la princesse Aurore dans le film 'La Belle au Bois Dormant' ?",
-    options: ["Lucifer", "Figaro", "Cheshire", "Tom"],
-    answer: "Figaro",
+      "Quel film Pixar raconte l'histoire d'un poisson bleu souffrant de pertes de mémoire qui part à la recherche de sa famille ?",
+    options: ["Le Monde de Dory", "Le Monde de Nemo", "Ratatouille", "Là-haut"],
+    answer: "Le Monde de Dory",
+  },
+];
+
+const questionsDetailsDisney = [
+  {
+    numéro: "1/20",
+    question: "Comment s'appelle l'elfe à la chemise de bucheron rouge dans 'En avant' ?",
+    options: ["Ian Lightfoot", "Barley Lightfoot", "Wilden Lightfoot", "Laurel Lightfoot"],
+    answer: "Ian Lightfoot"
+  },
+  {
+    numéro: "2/20",
+    question: "Comment s'appelle la jeune-fille au bonnet vert dans 'Alerte rouge' ?",
+    options: ["Abby", "Miriam", "Lily", "Meilin"],
+    answer: "Miriam"
+  },
+  {
+    numéro: "3/20",
+    question: "De quelle race animal est Tuk Tuk dans 'Raya et le dernier dragon'?",
+    options: ["un mélange de tatou, d’insecte et de cochon", "un tatou", "un pangolin", "un mélange de pangolin, d'insecte et de hamster"],
+    answer: "un mélange de tatou, d’insecte et de cochon"
+  },
+  {
+    numéro: "4/20",
+    question: "De quelle couleur sont les pompons sur les ballerines de la fée Clochette",
+    options: ["Blanc", "Vert", "Jaune", "Rose"],
+    answer: "Blanc"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le prénom de la femme de Marin dans 'Le monde de Nemo'?",
+    options: ["Corail", "Darla", "Gill", "Astrid"],
+    answer: "Corail"
+  },
+  {
+    numéro: "6/20",
+    question: "Dans Lilo et Stitch, quels dessins sont représentés sur la robe de Lilo ?",
+    options: ["Des feuilles", "Des fleurs", "Des oursons", "Des pois"],
+    answer: "Des feuilles"
+  },
+  {
+    numéro: "7/20",
+    question: "De quelle couleur est le canapé dans la tour de contrôle de Vice-Versa 2?",
+    options: ["Rouge", "Bleu", "Vert", "Orange"],
+    answer: "Rouge"
+  },
+  {
+    numéro: "8/20",
+    question: "Combien d'élans tiennent compagnie aux ours pendant leur périple dans 'Frère des ours'?",
+    options: ["2", "1", "4", "3"],
+    answer: "2"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel dessin est sur la voile du bateau de Vaïana et Maui",
+    options: ["Une spirale", "Un dessin maori", "Une tortue", "Une vague"],
+    answer: "Une spirale"
+  },
+  {
+    numéro: "10/20",
+    question: "Comment s'appelle a grand-mère de Coco dans le film 'Coco'?",
+    options: ["Mama Coco", "Grandma", "Mama", "Mama Rivera"],
+    answer: "Mama Coco"
+  },
+  {
+    numéro: "11/20",
+    question: "Comment s'appellent les 2 souris principales dans 'Cendrillon'?",
+    options: ["Gus et Jaq", "Mert et Ventus", "Perla et Suzy", "Bert et Luke"],
+    answer: "Gus et Jaq"
+  },
+  {
+    numéro: "12/20",
+    question: "Comment s'appelle le créateur du restaurant dans 'Ratatouille'?",
+    options: ["Auguste Gusteau", "Anton Ego", "Colette", "Django"],
+    answer: "Auguste Gusteau"
+  },
+  {
+    numéro: "13/20",
+    question: "De quelle couleur est le chapeau de la théière appelée Madame Samovar dans 'La belle et la bête'?",
+    options: ["Violet", "Bleu", "Rose", "Orange"],
+    answer: "Violet"
+  },
+  {
+    numéro: "14/20",
+    question: "Combien de frères à Rebelle dans le film du même nom?",
+    options: ["3", "0", "1", "5"],
+    answer: "3"
+  },
+  {
+    numéro: "15/20",
+    question: "A quel tableau Anna dit-elle 'Salut' dans la chanson 'Je voudrai un bonhomme de neige' de la Reine des neige ?",
+    options: ["Jeanne d'Arc", "Leonard de Vinci", "Jeanne du Barry", "Henri IV"],
+    answer: "Jeanne d'Arc"
+  },
+  {
+    numéro: "16/20",
+    question: "De quelle couleur est la larve que mange Simba lors de sa 1ère fois ?",
+    options: ["Rouge", "Blanche", "Crème", "Verte"],
+    answer: "Rouge"
+  },
+  {
+    numéro: "17/20",
+    question: "Combien d'oeil possède Jumba dans 'Lilo et Stitch' ?",
+    options: ["2", "4", "6", "3"],
+    answer: "4"
+  },
+  {
+    numéro: "18/20",
+    question: "Avec quoi Raiponce assomme Flynn dans la tour ?",
+    options: ["Une poêle", "Une casserole", "Un couvercle", "Une louche"],
+    answer: "Une poêle"
+  },
+  {
+    numéro: "19/20",
+    question: "Dans les 102 dalmatiens, quelle est la particularité du 102ème chien ?",
+    options: ["Il n'a pas de tâche", "Il est noir", "Il a des plus petites tâches", "Il a la truffe rose"],
+    answer: "Il n'a pas de tâche"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le rôle d'Abuela (Alma Madrigal) dans 'Encanto' ?",
+    options: ["Veiller sur la chandelle magique", "Attribuer les pouvoirs de chacun", "Protéger Mirabel", "Retrouver Bruno Madrigal"],
+    answer: "Veiller sur la chandelle magique"
+  }
+];
+
+const questionsChansons = [
+  {
+    numéro: "1/20",
+    question: "Qui a chanté 'Bohemian Rhapsody' ?",
+    options: ["Queen", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+    answer: "Queen",
+  },
+  {
+    numéro: "2/20",
+    question: "Qui a chanté 'Shape of You' ?",
+    options: ["Ed Sheeran", "Justin Bieber", "Taylor Swift", "Adele"],
+    answer: "Ed Sheeran",
+  },
+  {
+    numéro: "3/20",
+    question: "Qui a chanté 'La Vie en Rose' ?",
+    options: [
+      "Édith Piaf",
+      "Jacques Brel",
+      "Charles Aznavour",
+      "Serge Gainsbourg",
+    ],
+    answer: "Édith Piaf",
+  },
+  {
+    numéro: "4/20",
+    question: "Quel chanteur a interprété 'Ne me quitte pas' ?",
+    options: [
+      "Jacques Brel",
+      "Charles Aznavour",
+      "Serge Gainsbourg",
+      "Johnny Hallyday",
+    ],
+    answer: "Jacques Brel",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel chanteur a chanté 'Purple Rain' ?",
+    options: ["Prince", "Michael Jackson", "David Bowie", "Elton John"],
+    answer: "Prince",
+  },
+  {
+    numéro: "6/20",
+    question: "Quel chanteur a interprété 'L'aigle noir' ?",
+    options: ["Barbara", "Mylène Farmer", "France Gall", "Michel Berger"],
+    answer: "Barbara",
+  },
+  {
+    numéro: "7/20",
+    question: "Qui a chanté 'Sous le vent' en duo avec Garou ?",
+    options: ["Céline Dion", "Lara Fabian", "Nolwenn Leroy", "Christophe Maé"],
+    answer: "Céline Dion",
+  },
+  {
+    numéro: "8/20",
+    question: "Qui a chanté 'Imagine' ?",
+    options: [
+      "John Lennon",
+      "Paul McCartney",
+      "George Harrison",
+      "Ringo Starr",
+    ],
+    answer: "John Lennon",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel groupe a interprété 'J'ai demandé à la lune' ?",
+    options: ["Indochine", "Téléphone", "Noir Désir", "Les Rita Mitsouko"],
+    answer: "Indochine",
+  },
+  {
+    numéro: "10/20",
+    question: "Qui a chanté 'Billie Jean' ?",
+    options: ["Michael Jackson", "Prince", "David Bowie", "Elton John"],
+    answer: "Michael Jackson",
+  },
+  {
+    numéro: "11/20",
+    question: "Qui a chanté 'Adieu' ?",
+    options: ["Slimane", "Vianney", "Julien Doré", "Jérémy Frérot"],
+    answer: "Jérémy Frérot",
+  },
+  {
+    numéro: "12/20",
+    question: "Qui a chanté 'My Heart Will Go On' ?",
+    options: ["Céline Dion", "Mariah Carey", "Whitney Houston", "Madonna"],
+    answer: "Céline Dion",
+  },
+  {
+    numéro: "13/20",
+    question: "Qui a chanté 'À nos souvenirs' ?",
+    options: ["Trois Cafés Gourmands", "Claudio Capéo", "Soprano", "Gims"],
+    answer: "Trois Cafés Gourmands",
+  },
+  {
+    numéro: "14/20",
+    question: "Qui a chanté 'La même' en duo avec Vianney ?",
+    options: ["Maître Gims", "Slimane", "Julien Doré", "Amir"],
+    answer: "Maître Gims",
+  },
+  {
+    numéro: "15/20",
+    question: "Qui a chanté 'Tous les mêmes' ?",
+    options: ["Stromae", "Maitre Gims", "Soprano", "Julien Doré"],
+    answer: "Stromae",
+  },
+  {
+    numéro: "16/20",
+    question: "Qui a chanté 'Ca va ça vient' ?",
+    options: ["Vitaa", "Amel Bent", "Léa Castel", "Shy'm"],
+    answer: "Vitaa",
+  },
+  {
+    numéro: "17/20",
+    question: "Qui a chanté 'Dance Monkey' ?",
+    options: ["Tones and I", "Ava Max", "Billie Eilish", "Dua Lipa"],
+    answer: "Tones and I",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quelle chanson de Aya Nakamura a été certifiée single de diamant en France ?",
+    options: ["Djadja", "Pookie", "Copines", "La Dot"],
+    answer: "Djadja",
+  },
+  {
+    numéro: "19/20",
+    question: "Qui a chanté 'Shallow' en duo avec Lady Gaga ?",
+    options: ["Bradley Cooper", "Sam Smith", "Shawn Mendes", "Harry Styles"],
+    answer: "Bradley Cooper",
+  },
+  {
+    numéro: "20/20",
+    question: "Qui a chanté 'Mon soleil' en 2021 ?",
+    options: ["Jérémy Frérot", "Vianney", "Jenifer", "Dadju"],
+    answer: "Dadju",
   },
 ];
 
@@ -5019,6 +5628,1419 @@ const questionsBandesOriginalesFilms = [
   },
 ];
 
+const questionsAnnees80 = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel artiste français a chanté 'Pour que tu m'aimes encore' en 1987, devenu un succès international ?",
+    options: [
+      "Jean-Jacques Goldman",
+      "Johnny Hallyday",
+      "Céline Dion",
+      "Francis Cabrel",
+    ],
+    answer: "Céline Dion",
+  },
+  {
+    numéro: "2/20",
+    question:
+      "Quelle chanson de Jeanne Mas est sortie en 1985, marquant son début dans la musique pop française ?",
+    options: [
+      "En rouge et noir",
+      "Toute première fois",
+      "Johnny, Johnny",
+      "Femmes d'aujourd'hui",
+    ],
+    answer: "Toute première fois",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Quel artiste a sorti l'album 'Thriller' en 1982, devenu l'album le plus vendu de tous les temps ?",
+    options: ["Prince", "Michael Jackson", "Madonna", "Bruce Springsteen"],
+    answer: "Michael Jackson",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quel groupe a sorti 'Nuit de folie' en 1988, un tube de la musique dance française ?",
+    options: [
+      "Jean-Pierre Mader",
+      "Jean-Luc Lahaye",
+      "Début de Soirée",
+      "Gérard Blanc",
+    ],
+    answer: "Début de Soirée",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Quelle chanson de Mylène Farmer est sortie en 1986, marquant le début de sa carrière solo ?",
+    options: ["Désenchantée", "Libertine", "Sans contrefaçon", "Maman a tort"],
+    answer: "Libertine",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quelle chanson de Michael Jackson est sortie en 1982, marquant le début de l'ère 'Thriller' ?",
+    options: ["Beat It", "Billie Jean", "Thriller", "Bad"],
+    answer: "Billie Jean",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quel groupe a sorti la chanson 'Africa', devenue un hit mondial en 1982 ?",
+    options: ["Toto", "Boston", "Journey", "Foreigner"],
+    answer: "Toto",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Quel artiste a sorti l'album 'Purple Rain' en 1984, accompagné du film du même nom ?",
+    options: ["Prince", "David Bowie", "George Michael", "Elton John"],
+    answer: "Prince",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quel groupe français a chanté 'Marcia Baila', une chanson devenue emblématique des années 80 ?",
+    options: ["Indochine", "Les Rita Mitsouko", "Téléphone", "Trust"],
+    answer: "Les Rita Mitsouko",
+  },
+  {
+    numéro: "10/20",
+    question:
+      "Quelle chanson de Jean-Jacques Goldman est sortie en 1985, un des nombreux succès de sa carrière ?",
+    options: [
+      "Quand la musique est bonne",
+      "Au bout de mes rêves",
+      "Je te promets",
+      "Envole-moi",
+    ],
+    answer: "Quand la musique est bonne",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quelle chanson de Madonna est devenue un tube en 1984, propulsant sa carrière musicale ?",
+    options: [
+      "Like a Virgin",
+      "Material Girl",
+      "Into the Groove",
+      "Papa Don't Preach",
+    ],
+    answer: "Like a Virgin",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Quelle chanson de Michel Berger a été popularisée en 1980, issue de la comédie musicale 'Starmania' ?",
+    options: [
+      "Chanter pour ceux qui sont loin de chez eux",
+      "Quelque chose de Tennessee",
+      "La groupie du pianiste",
+      "Les uns contre les autres",
+    ],
+    answer: "La groupie du pianiste",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Quelle chanteuse a sorti 'Girls Just Want to Have Fun' en 1983, un hymne des années 80 ?",
+    options: ["Cyndi Lauper", "Madonna", "Whitney Houston", "Tina Turner"],
+    answer: "Cyndi Lauper",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quelle chanson de Jeanne Mas est sortie en 1985, marquant son début dans la musique pop française ?",
+    options: [
+      "En rouge et noir",
+      "Toute première fois",
+      "Johnny, Johnny",
+      "Femmes d'aujourd'hui",
+    ],
+    answer: "Toute première fois",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quelle chanson du groupe U2 est sortie en 1987, devenant l'une de leurs plus grandes réussites ?",
+    options: [
+      "Sunday Bloody Sunday",
+      "With or Without You",
+      "Pride (In the Name of Love)",
+      "Where the Streets Have No Name",
+    ],
+    answer: "With or Without You",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Quel artiste français est connu pour la chanson 'Papa chanteur' sortie en 1982 ?",
+    options: [
+      "Jean-Pierre Mader",
+      "Jean-Luc Lahaye",
+      "Patrick Hernandez",
+      "Gérard Blanc",
+    ],
+    answer: "Jean-Luc Lahaye",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quelle chanson de Mylène Farmer est sortie en 1987, marquant le début de sa carrière solo ?",
+    options: ["Désenchantée", "Libertine", "Sans contrefaçon", "Maman a tort"],
+    answer: "Sans contrefaçon",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel duo français a chanté 'Les Démons de minuit', une chanson très populaire en 1986 ?",
+    options: ["Elsa et Glenn Medeiros", "Images", "Gold", "Cookie Dingler"],
+    answer: "Images",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel artiste français a sorti 'Joe le taxi' en 1987, une chanson qui l'a propulsé sur la scène internationale ?",
+    options: ["Vanessa Paradis", "Patricia Kaas", "Lio", "Indra"],
+    answer: "Vanessa Paradis",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quelle chanson de Daniel Balavoine est sortie en 1983, peu de temps avant sa disparition tragique ?",
+    options: [
+      "Mon fils, ma bataille",
+      "Sauver l'amour",
+      "L'Aziza",
+      "Vivre ou survivre",
+    ],
+    answer: "L'Aziza",
+  },
+];
+
+const questionsInstruments = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel instrument de musique est souvent associé à la musique classique indienne et se joue avec un archet ?",
+    options: ["Sitar", "Tabla", "Sarod", "Violon"],
+    answer: "Violon",
+  },
+  {
+    numéro: "2/20",
+    question:
+      "Quel est l'instrument de musique à cordes pincées le plus ancien, ayant des origines datant de plus de 3 000 ans en Perse ?",
+    options: ["Sitar", "Oud", "Luth", "Guitare"],
+    answer: "Luth",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "À quelle famille d'instruments de musique appartient le saxophone ?",
+    options: ["Cordes", "Cuivres", "Bois", "Percussions"],
+    answer: "Cuivres",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quel instrument de percussion africain est joué avec les mains et est traditionnellement fabriqué à partir d'un tronc d'arbre creusé et d'une peau de chèvre tendue ?",
+    options: ["Bongo", "Conga", "Djembé", "Timbales"],
+    answer: "Djembé",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Quel instrument a popularisé Jimi Hendrix, connu pour ses performances électriques et sa virtuosité ?",
+    options: ["Basse", "Batterie", "Guitare électrique", "Clarinette"],
+    answer: "Guitare électrique",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quel instrument à vent est souvent utilisé dans les fanfares et est connu pour sa forme incurvée distinctive ?",
+    options: ["Saxophone", "Trompette", "Cor d'harmonie", "Tuba"],
+    answer: "Tuba",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quel instrument à vent utilise un embout buccal et des clés pour produire des sons ?",
+    options: ["Trompette", "Saxophone", "Flûte traversière", "Clarinette"],
+    answer: "Clarinette",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Quel instrument à cordes pincées est originaire d'Hawaï et est souvent associé à la musique de l'île ?",
+    options: ["Ukulélé", "Banjo", "Mandoline", "Guitare"],
+    answer: "Ukulélé",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quel instrument à cordes est couramment utilisé dans le bluegrass et possède quatre cordes accordées en quintes ?",
+    options: ["Violoncelle", "Mandoline", "Violon", "Banjo"],
+    answer: "Banjo",
+  },
+  {
+    numéro: "10/20",
+    question:
+      "Quel instrument électronique utilise un clavier et produit des sons synthétisés ?",
+    options: ["Synthétiseur", "Theremin", "Mellotron", "Orgue électrique"],
+    answer: "Synthétiseur",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quel instrument de percussion est constitué de deux plaques métalliques qui s'entrechoquent pour produire des sons ?",
+    options: ["Glockenspiel", "Cymbales", "Xylophone", "Tambourin"],
+    answer: "Cymbales",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Quel instrument à clavier a été inventé au XVIIIe siècle par Bartolomeo Cristofori à Florence, en Italie ?",
+    options: ["Clavecin", "Piano", "Orgue", "Accordéon"],
+    answer: "Piano",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Quel instrument à vent utilise une anche simple et est souvent associé à la musique classique et au jazz ?",
+    options: ["Flûte traversière", "Hautbois", "Clarinet", "Basson"],
+    answer: "Hautbois",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quel instrument à cordes frottées est plus grand que le violon et plus petit que la contrebasse, souvent utilisé en musique classique pour jouer des lignes mélodiques et des parties d'accompagnement ?",
+    options: ["Violoncelle", "Alto", "Contrebasse", "Violon"],
+    answer: "Violoncelle",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quel instrument à vent est souvent associé au jazz et se joue en utilisant une anche simple ou double ?",
+    options: ["Saxophone", "Trombone", "Trompette", "Cor"],
+    answer: "Saxophone",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Quel instrument à cordes est traditionnellement utilisé dans la musique flamenco et a un corps en forme de poire ?",
+    options: ["Guitare", "Mandoline", "Charango", "Laúd"],
+    answer: "Guitare",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quel instrument de percussion peut être joué en frappant avec des baguettes, en utilisant des balais ou même avec les mains ?",
+    options: ["Marimba", "Tambour", "Cajón", "Batterie"],
+    answer: "Batterie",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel instrument à vent en bambou est populaire dans la musique traditionnelle japonaise ?",
+    options: ["Shakuhachi", "Erhu", "Dizi", "Didgeridoo"],
+    answer: "Shakuhachi",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel instrument à vent est souvent utilisé dans les orchestres symphoniques et utilise une embouchure et des pistons ?",
+    options: ["Trompette", "Tuba", "Cor d'harmonie", "Bugle"],
+    answer: "Trompette",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel instrument de percussion brésilien est souvent associé à la samba et est joué avec des maillets ?",
+    options: ["Pandeiro", "Agogô", "Cuíca", "Surdo"],
+    answer: "Surdo",
+  },
+];
+
+const questionsPopRock = [
+  {
+    numéro: "1/20",
+    question: "Quel groupe est connu pour la chanson 'Bohemian Rhapsody' ?",
+    options: ["Queen", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+    answer: "Queen"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel membre des Beatles a été assassiné en 1980 ?",
+    options: ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
+    answer: "John Lennon"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel groupe a sorti l'album 'The Dark Side of the Moon' ?",
+    options: ["Pink Floyd", "The Rolling Stones", "The Who", "Fleetwood Mac"],
+    answer: "Pink Floyd"
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle est la nationalité du groupe U2 ?",
+    options: ["Irlandaise", "Américaine", "Anglaise", "Australienne"],
+    answer: "Irlandaise"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le titre de la première chanson des Rolling Stones à atteindre la première place des charts américains ?",
+    options: ["(I Can't Get No) Satisfaction", "Paint It Black", "Angie", "Start Me Up"],
+    answer: "(I Can't Get No) Satisfaction"
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle est la profession de Bruce Springsteen avant de devenir célèbre ?",
+    options: ["Musicien", "Journaliste", "Professeur", "Ouvrier"],
+    answer: "Musicien"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le nom du premier album des Arctic Monkeys ?",
+    options: ["Whatever People Say I Am, That's What I'm Not", "Favourite Worst Nightmare", "AM", "Humbug"],
+    answer: "Whatever People Say I Am, That's What I'm Not"
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle chanson de Nirvana a été réalisée en acoustique pour MTV Unplugged en 1993 ?",
+    options: ["About a Girl", "Smells Like Teen Spirit", "In Bloom", "Lithium"],
+    answer: "About a Girl"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel membre de Queen a écrit la chanson 'We Will Rock You' ?",
+    options: ["Brian May", "Freddie Mercury", "Roger Taylor", "John Deacon"],
+    answer: "Brian May"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le vrai nom de Bono, le chanteur principal de U2 ?",
+    options: ["Paul Hewson", "David Howell Evans", "Adam Clayton", "Larry Mullen Jr."],
+    answer: "Paul Hewson"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel groupe est connu pour la chanson 'Smells Like Teen Spirit' ?",
+    options: ["Nirvana", "Pearl Jam", "Soundgarden", "Alice in Chains"],
+    answer: "Nirvana"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel album des Beatles est souvent considéré comme l'un des meilleurs albums de tous les temps ?",
+    options: ["Sgt. Pepper's Lonely Hearts Club Band", "Abbey Road", "Revolver", "The White Album"],
+    answer: "Sgt. Pepper's Lonely Hearts Club Band"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel groupe a sorti l'album 'Hotel California' ?",
+    options: ["Eagles", "Fleetwood Mac", "The Doors", "The Beach Boys"],
+    answer: "Eagles"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel membre des Rolling Stones a fondé le groupe ?",
+    options: ["Brian Jones", "Mick Jagger", "Keith Richards", "Charlie Watts"],
+    answer: "Brian Jones"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel groupe a popularisé le genre 'grunge' dans les années 90 ?",
+    options: ["Nirvana", "Red Hot Chili Peppers", "Green Day", "Blink-182"],
+    answer: "Nirvana"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le titre de l'album légendaire des Sex Pistols ?",
+    options: ["Never Mind the Bollocks, Here's the Sex Pistols", "London Calling", "The Clash", "Combat Rock"],
+    answer: "Never Mind the Bollocks, Here's the Sex Pistols"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel groupe a sorti la chanson 'Wonderwall' ?",
+    options: ["Oasis", "Blur", "Radiohead", "The Verve"],
+    answer: "Oasis"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel membre du groupe Foo Fighters était le batteur de Nirvana ?",
+    options: ["Dave Grohl", "Pat Smear", "Taylor Hawkins", "Nate Mendel"],
+    answer: "Dave Grohl"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel groupe britannique a sorti l'album 'A Night at the Opera' ?",
+    options: ["Queen", "Led Zeppelin", "The Beatles", "Pink Floyd"],
+    answer: "Queen"
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle est la chanson la plus célèbre de Lynyrd Skynyrd ?",
+    options: ["Sweet Home Alabama", "Free Bird", "Simple Man", "Tuesday's Gone"],
+    answer: "Sweet Home Alabama"
+  }
+];
+
+const questionsInstrumentsCorde = [
+  {
+    numéro: "1/20",
+    question: "Quel instrument à corde est souvent utilisé dans la musique classique et possède quatre cordes ?",
+    options: ["Violon", "Guitare", "Harpe", "Banjo"],
+    answer: "Violon"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel instrument à corde a été popularisé par des musiciens comme Jimi Hendrix et Eric Clapton ?",
+    options: ["Guitare électrique", "Contrebasse", "Mandoline", "Luth"],
+    answer: "Guitare électrique"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel instrument à corde est associé au style de musique flamenco ?",
+    options: ["Guitare espagnole", "Violoncelle", "Harpe", "Sitar"],
+    answer: "Guitare espagnole"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel instrument à corde possède 88 touches et est largement utilisé dans la musique classique et jazz ?",
+    options: ["Piano", "Clavecin", "Cithare", "Bouzouki"],
+    answer: "Piano"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel instrument à corde est traditionnellement utilisé dans la musique folk irlandaise ?",
+    options: ["Violoncelle", "Guitare acoustique", "Banjo", "Bouzouki"],
+    answer: "Bouzouki"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel instrument à corde possède 47 cordes et est souvent joué dans les orchestres symphoniques ?",
+    options: ["Harpe", "Mandoline", "Violon", "Guitare"],
+    answer: "Harpe"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel instrument à corde a été utilisé par Niccolò Paganini, un célèbre virtuose du 19ème siècle ?",
+    options: ["Violoncelle", "Guitare", "Violon", "Luth"],
+    answer: "Violon"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel instrument à corde est connu pour son utilisation dans la musique bluegrass ?",
+    options: ["Banjo", "Harpe", "Sitar", "Clavecin"],
+    answer: "Banjo"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel instrument à corde, similaire à un luth, est utilisé dans la musique baroque ?",
+    options: ["Théorbe", "Mandoline", "Guitare", "Violon"],
+    answer: "Théorbe"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel instrument à corde d'origine indienne est souvent associé à la musique de Ravi Shankar ?",
+    options: ["Sitar", "Tambura", "Sarod", "Veena"],
+    answer: "Sitar"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel instrument à corde est un membre plus grand de la famille des violons et est joué entre les genoux ?",
+    options: ["Violoncelle", "Violon", "Alto", "Contrebasse"],
+    answer: "Violoncelle"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel instrument à corde est utilisé dans la musique traditionnelle japonaise ?",
+    options: ["Koto", "Guzheng", "Sitar", "Banjo"],
+    answer: "Koto"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel instrument à corde a été popularisé par les Beatles, notamment George Harrison ?",
+    options: ["Sitar", "Guitare", "Mandoline", "Banjo"],
+    answer: "Sitar"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel instrument à corde, souvent utilisé dans le jazz, a une caisse de résonance en forme de huit ?",
+    options: ["Guitare acoustique", "Guitare électrique", "Mandoline", "Ukulélé"],
+    answer: "Guitare acoustique"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel instrument à corde est typique de la musique hawaïenne ?",
+    options: ["Ukulélé", "Banjo", "Harpe", "Violon"],
+    answer: "Ukulélé"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel instrument à corde est le plus grand membre de la famille des violons ?",
+    options: ["Contrebasse", "Violoncelle", "Alto", "Violon"],
+    answer: "Contrebasse"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel instrument à corde est couramment utilisé dans les orchestres symphoniques et a quatre cordes ?",
+    options: ["Alto", "Banjo", "Mandoline", "Ukulélé"],
+    answer: "Alto"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel instrument à corde est souvent utilisé dans la musique country américaine ?",
+    options: ["Guitare acoustique", "Harpe", "Violon", "Banjo"],
+    answer: "Banjo"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel instrument à corde est connu pour ses sonorités riches et profondes, et est souvent utilisé dans la musique de chambre ?",
+    options: ["Violoncelle", "Violon", "Alto", "Contrebasse"],
+    answer: "Violoncelle"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel instrument à corde a été inventé par les anciens Grecs et est considéré comme l'ancêtre de la guitare ?",
+    options: ["Luth", "Lyre", "Harpe", "Mandoline"],
+    answer: "Lyre"
+  }
+];
+
+const questionsStarsChanson = [
+  {
+    numéro: "1/20",
+    question: "Quel est le surnom de Johnny Hallyday, souvent appelé le 'Elvis Presley' français ?",
+    options: ["Le Taulier", "Le Roi", "Le Patron", "Le Maître"],
+    answer: "Le Taulier"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le titre de la chanson de Michel Sardou qui a suscité des controverses pour ses paroles en 1976 ?",
+    options: ["Le France", "Je suis pour", "Les Lacs du Connemara", "La Maladie d'amour"],
+    answer: "Je suis pour"
+  },
+  {
+    numéro: "3/20",
+    question: "Quelle est la chanson la plus célèbre de Keen'V, sortie en 2011, qui a atteint le top des charts en France ?",
+    options: ["J'aimerais trop", "La vie du bon côté", "Dis-moi oui", "Ma vie au soleil"],
+    answer: "J'aimerais trop"
+  },
+  {
+    numéro: "4/20",
+    question: "Kendji Girac a gagné 'The Voice' en France dans quelle saison ?",
+    options: ["Saison 3", "Saison 1", "Saison 2", "Saison 4"],
+    answer: "Saison 3"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le titre de la chanson de Mylène Farmer qui a été un énorme succès en 1988 ?",
+    options: ["Désenchantée", "Sans contrefaçon", "Libertine", "Pourvu qu'elles soient douces"],
+    answer: "Sans contrefaçon"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom du célèbre duo musical que Sylvie Vartan formait avec Johnny Hallyday dans les années 60 ?",
+    options: ["Les Années Yéyé", "Les Rockers", "Les Chouchous", "Les Idoles"],
+    answer: "Les Années Yéyé"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le titre du premier album studio de Hoshi, sorti en 2018 ?",
+    options: ["Il suffit d'y croire", "Amour censure", "Ta marinière", "Soleil levant"],
+    answer: "Il suffit d'y croire"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel album de Michael Jackson, sorti en 1982, est le plus vendu de tous les temps ?",
+    options: ["Thriller", "Bad", "Off the Wall", "Dangerous"],
+    answer: "Thriller"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est le surnom de Madonna, souvent appelée la 'Reine de...' ?",
+    options: ["La Reine de la Pop", "La Reine du Rock", "La Reine du R&B", "La Reine du Jazz"],
+    answer: "La Reine de la Pop"
+  },
+  {
+    numéro: "10/20",
+    question: "Céline Dion a représenté quel pays lors de sa victoire à l'Eurovision en 1988 ?",
+    options: ["Suisse", "France", "Canada", "Belgique"],
+    answer: "Suisse"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le titre de la chanson d'Aya Nakamura qui a connu un énorme succès en 2018 ?",
+    options: ["Djadja", "Copines", "Pookie", "Comportement"],
+    answer: "Djadja"
+  },
+  {
+    numéro: "12/20",
+    question: "Avec quel groupe Beyoncé a-t-elle commencé sa carrière musicale avant de devenir une artiste solo à succès ?",
+    options: ["Destiny's Child", "TLC", "Spice Girls", "En Vogue"],
+    answer: "Destiny's Child"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le titre du premier album d'Adèle, sorti en 2008 ?",
+    options: ["19", "21", "25", "30"],
+    answer: "19"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le titre de la chanson de Pink qui a été un énorme succès en 2001, tirée de l'album 'Missundaztood' ?",
+    options: ["Get the Party Started", "Just Like a Pill", "So What", "Try"],
+    answer: "Get the Party Started"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le titre de la chanson avec laquelle Slimane a remporté 'The Voice' en France ?",
+    options: ["A fleur de toi", "Viens on s'aime", "Paname", "Adieu"],
+    answer: "A fleur de toi"
+  },
+  {
+    numéro: "16/20",
+    question: "Vitaa a collaboré avec quel artiste sur l'album 'VersuS', sorti en 2019 ?",
+    options: ["Slimane", "M. Pokora", "Kendji Girac", "Gims"],
+    answer: "Slimane"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est le titre de la chanson d'Ed Sheeran qui a été un énorme succès en 2017, tirée de l'album '÷' (Divide) ?",
+    options: ["Shape of You", "Thinking Out Loud", "Perfect", "Castle on the Hill"],
+    answer: "Shape of You"
+  },
+  {
+    numéro: "18/20",
+    question: "Soprano faisait partie de quel groupe de rap français avant de commencer sa carrière solo ?",
+    options: ["Psy 4 de la Rime", "IAM", "113", "Sniper"],
+    answer: "Psy 4 de la Rime"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel est le titre du premier album studio de Dadju, sorti en 2017 ?",
+    options: ["Gentleman 2.0", "Poison ou Antidote", "Mafia K'1 Fry", "Reine"],
+    answer: "Gentleman 2.0"
+  },
+  {
+    numéro: "20/20",
+    question: "Jérémy Frérot faisait partie de quel duo musical avant de commencer sa carrière solo ?",
+    options: ["Fréro Delavega", "Cats on Trees", "Bigflo et Oli", "Madame Monsieur"],
+    answer: "Fréro Delavega"
+  }
+];
+
+const questionsFestivalsMusiqueFrance = [
+  {
+    numéro: "1/20",
+    question: "Quel festival de musique se déroule chaque année à Carhaix, en Bretagne ?",
+    options: ["Les Vieilles Charrues", "Hellfest", "Solidays", "Rock en Seine"],
+    answer: "Les Vieilles Charrues"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel festival de musique métal a lieu chaque année à Clisson ?",
+    options: ["Hellfest", "Download Festival", "Motocultor Festival", "MetalDays"],
+    answer: "Hellfest"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel festival parisien a lieu sur l'hippodrome de Longchamp et est organisé par Solidarité Sida ?",
+    options: ["Solidays", "Rock en Seine", "We Love Green", "Lollapalooza Paris"],
+    answer: "Solidays"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel festival se tient chaque année au Domaine National de Saint-Cloud, près de Paris ?",
+    options: ["Rock en Seine", "We Love Green", "Les Eurockéennes", "Garorock"],
+    answer: "Rock en Seine"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel festival se déroule sur l'île du Gaou, dans le Var, et propose une programmation éclectique chaque été ?",
+    options: ["Les Voix du Gaou", "Festival de Nîmes", "Les Déferlantes", "Main Square Festival"],
+    answer: "Les Voix du Gaou"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel festival, situé à Belfort, est l'un des plus anciens et des plus importants festivals de rock en France ?",
+    options: ["Les Eurockéennes", "Main Square Festival", "Garorock", "Vieilles Charrues"],
+    answer: "Les Eurockéennes"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel festival de musique électronique se déroule à Lyon chaque année ?",
+    options: ["Nuits Sonores", "Les Transmusicales", "Astropolis", "Marsatac"],
+    answer: "Nuits Sonores"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel festival de musique se tient dans l'enceinte du théâtre antique de Nîmes ?",
+    options: ["Festival de Nîmes", "Les Déferlantes", "Les Vieilles Charrues", "Main Square Festival"],
+    answer: "Festival de Nîmes"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel festival se déroule à Marmande et est célèbre pour sa programmation rock, pop et électro ?",
+    options: ["Garorock", "Les Eurockéennes", "Solidays", "Les Déferlantes"],
+    answer: "Garorock"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel festival se déroule à Argelès-sur-Mer et propose une programmation variée allant du rock à la musique électronique ?",
+    options: ["Les Déferlantes", "Les Vieilles Charrues", "Rock en Seine", "Main Square Festival"],
+    answer: "Les Déferlantes"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel festival de musique éclectique se tient chaque année à la Citadelle d'Arras ?",
+    options: ["Main Square Festival", "Les Eurockéennes", "Solidays", "Vieilles Charrues"],
+    answer: "Main Square Festival"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel festival a lieu à la Cité des Congrès de Nantes et est consacré aux musiques électroniques et actuelles ?",
+    options: ["Scopitone", "Nuits Sonores", "Les Transmusicales", "Astropolis"],
+    answer: "Scopitone"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel festival de musique est organisé à Montpellier et met en avant la scène indépendante et émergente ?",
+    options: ["Tinals (This is Not a Love Song)", "Marsatac", "Les Déferlantes", "Les Vieilles Charrues"],
+    answer: "Tinals (This is Not a Love Song)"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel festival se déroule à Rennes et est connu pour découvrir les artistes émergents ?",
+    options: ["Les Transmusicales", "Les Vieilles Charrues", "Rock en Seine", "Nuits Sonores"],
+    answer: "Les Transmusicales"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel festival de musique classique a lieu chaque été dans le parc du Château de Fontainebleau ?",
+    options: ["Festival de l'Orangerie de Sceaux", "Festival de la Vézère", "Festival de la Roque-d'Anthéron", "Festival de Fontainebleau"],
+    answer: "Festival de Fontainebleau"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel festival de musique électro se déroule chaque année à Brest ?",
+    options: ["Astropolis", "Marsatac", "Nuits Sonores", "Scopitone"],
+    answer: "Astropolis"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel festival de musique se déroule à Marseille et propose une programmation variée de musiques actuelles ?",
+    options: ["Marsatac", "Nuits Sonores", "Les Transmusicales", "Solidays"],
+    answer: "Marsatac"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel festival de musique électro se déroule chaque été dans le Bois de Vincennes à Paris ?",
+    options: ["We Love Green", "Solidays", "Rock en Seine", "Lollapalooza Paris"],
+    answer: "We Love Green"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel festival de musique, qui se tient à La Rochelle, est consacré à la chanson francophone et aux découvertes musicales ?",
+    options: ["Les Francofolies", "Les Déferlantes", "Main Square Festival", "Garorock"],
+    answer: "Les Francofolies"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel festival de musique est organisé chaque année à Belfort et attire des milliers de spectateurs ?",
+    options: ["Les Eurockéennes", "Garorock", "Les Vieilles Charrues", "Solidays"],
+    answer: "Les Eurockéennes"
+  }
+];
+
+const questionsHarry = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel est le nom de l'école de sorcellerie fréquentée par Harry Potter ?",
+    options: ["Durmstrang", "Poudlard", "Beauxbâtons", "Ilvermorny"],
+    answer: "Poudlard",
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le prénom des parents de Harry Potter ?",
+    options: [
+      "James et Lily",
+      "Charles et Diana",
+      "Henry et Emma",
+      "John et Mary",
+    ],
+    answer: "James et Lily",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Quel est le nom du professeur de potions durant les premières années à Poudlard ?",
+    options: [
+      "Albus Dumbledore",
+      "Gilderoy Lockhart",
+      "Severus Rogue",
+      "Minerva McGonagall",
+    ],
+    answer: "Severus Rogue",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quel est le nom du prisonnier d'Azkaban qui s'échappe dans le troisième film ?",
+    options: [
+      "Peter Pettigrew",
+      "Sirius Black",
+      "Bellatrix Lestrange",
+      "Lucius Malefoy",
+    ],
+    answer: "Sirius Black",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le patronus de Harry Potter ?",
+    options: ["Un cerf", "Un phénix", "Un chien", "Un dragon"],
+    answer: "Un cerf",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quel est le nom de la maison à laquelle appartient Drago Malefoy ?",
+    options: ["Serpentard", "Gryffondor", "Serdaigle", "Poufsouffle"],
+    answer: "Serpentard",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le nom de l'elfe de maison de la famille Malefoy ?",
+    options: ["Winky", "Kreacher", "Dobby", "Hokey"],
+    answer: "Dobby",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Quel est le métier de Hermione Granger après avoir quitté Poudlard ?",
+    options: [
+      "Magizoologiste",
+      "Auror",
+      "Professeur à Poudlard",
+      "Employée au ministère de la Magie",
+    ],
+    answer: "Employée au ministère de la Magie",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quel est le nom du frère de Ron Weasley qui travaille avec des dragons ?",
+    options: ["George", "Percy", "Charlie", "Bill"],
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le nom complet de Voldemort ?",
+    options: [
+      "Salazar Serpentard",
+      "Tom Elvis Jedusor",
+      "Regulus Black",
+      "Gellert Grindelwald",
+    ],
+    answer: "Tom Elvis Jedusor",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Quel est le nom du sport préféré des sorciers dans l'univers de Harry Potter ?",
+    options: ["Quidditch", "Wizard Chess", "Spellcasting", "Broom Racing"],
+    answer: "Quidditch",
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom de la banque des sorciers à Londres ?",
+    options: [
+      "Gringotts",
+      "Ollivander's",
+      "Flourish and Blotts",
+      "The Leaky Cauldron",
+    ],
+    answer: "Gringotts",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Quel est le nom de la potion permettant de changer d'apparence ?",
+    options: ["Veritaserum", "Amortentia", "Felix Felicis", "Polynectar"],
+    answer: "Polynectar",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quel est le nom du professeur de Défense contre les forces du Mal dans la première année de Harry ?",
+    options: [
+      "Remus Lupin",
+      "Severus Rogue",
+      "Quirinus Quirrell",
+      "Dolores Ombrage",
+    ],
+    answer: "Quirinus Quirrell",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quel est le nom de la carte magique qui montre tout Poudlard et ses habitants ?",
+    options: [
+      "La Carte des Fondateurs",
+      "La Carte du Maraudeur",
+      "La Carte de Poudlard",
+      "La Carte de l'École",
+    ],
+    answer: "La Carte du Maraudeur",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le nom du professeur de divination à Poudlard ?",
+    options: [
+      "Aurora Sinistra",
+      "Filius Flitwick",
+      "Pomona Chourave",
+      "Sybille Trelawney",
+    ],
+    answer: "Sybille Trelawney",
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est le nom du serpent de Voldemort ?",
+    options: ["Nagili", "Basilic", "Niffler", "Nagini"],
+    answer: "Nagini",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel est le nom du directeur de Poudlard avant Albus Dumbledore ?",
+    options: [
+      "Horace Slughorn",
+      "Phineas Nigellus Black",
+      "Armando Dippet",
+      "Dilys Derwent",
+    ],
+    answer: "Armando Dippet",
+  },
+  {
+    numéro: "19/20",
+    question: "Quel est le nom de l'animal de compagnie de Ron Weasley ?",
+    options: ["Pattenrond", "Croûtard", "Hedwige", "Errol"],
+    answer: "Croûtard",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel est le nom du groupe de sorciers rebelles dirigé par Harry, Ron et Hermione en cinquième année ?",
+    options: [
+      "La Brigade Inquisitoriale",
+      "L'Ordre du Phénix",
+      "L'Armée de Dumbledore",
+      "Les Maraudeurs",
+    ],
+    answer: "L'Armée de Dumbledore",
+  },
+];
+
+const questionsSpiderman = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel acteur incarne Spider-Man dans le film de 2002 réalisé par Sam Raimi ?",
+    options: [
+      "Tobey Maguire",
+      "Andrew Garfield",
+      "Tom Holland",
+      "Jake Gyllenhaal",
+    ],
+    answer: "Tobey Maguire",
+  },
+  {
+    numéro: "2/20",
+    question: "Dans quel film Spider-Man affronte-t-il le Docteur Octopus ?",
+    options: [
+      "Spider-Man",
+      "Spider-Man 2",
+      "Spider-Man 3",
+      "The Amazing Spider-Man",
+    ],
+    answer: "Spider-Man 2",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Quel acteur joue le rôle de l'ennemi principal, le Bouffon Vert, dans le film de 2002 ?",
+    options: [
+      "James Franco",
+      "Willem Dafoe",
+      "Alfred Molina",
+      "Thomas Haden Church",
+    ],
+    answer: "Willem Dafoe",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quel est le nom de la petite amie de Peter Parker dans 'The Amazing Spider-Man' ?",
+    options: ["Mary Jane Watson", "Gwen Stacy", "Betty Brant", "Felicia Hardy"],
+    answer: "Gwen Stacy",
+  },
+  {
+    numéro: "5/20",
+    question: "Qui a réalisé le film 'Spider-Man: Homecoming' ?",
+    options: ["Jon Watts", "Sam Raimi", "Marc Webb", "Jon Favreau"],
+    answer: "Jon Watts",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quel acteur joue le rôle de Spider-Man dans le film 'Spider-Man: Homecoming' ?",
+    options: [
+      "Tobey Maguire",
+      "Andrew Garfield",
+      "Tom Holland",
+      "Miles Morales",
+    ],
+    answer: "Tom Holland",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Quel méchant apparaît dans le film 'Spider-Man: Far From Home' ?",
+    options: ["Le Vautour", "Mysterio", "Le Bouffon Vert", "L'Homme-Sable"],
+    answer: "Mysterio",
+  },
+  {
+    numéro: "8/20",
+    question:
+      "Dans 'Spider-Man: New Generation', quel personnage devient Spider-Man dans un univers parallèle ?",
+    options: ["Peter Parker", "Miles Morales", "Gwen Stacy", "Miguel O'Hara"],
+    answer: "Miles Morales",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quel est le vrai nom du Vautour, ennemi principal de 'Spider-Man: Homecoming' ?",
+    options: ["Norman Osborn", "Adrian Toomes", "Flint Marko", "Curt Connors"],
+    answer: "Adrian Toomes",
+  },
+  {
+    numéro: "10/20",
+    question:
+      "Dans 'Spider-Man 3', quel symbiote extraterrestre fusionne avec Peter Parker ?",
+    options: ["Venom", "Carnage", "Riot", "Toxin"],
+    answer: "Venom",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Dans quel film Spider-Man affronte-t-il Electro pour la première fois ?",
+    options: [
+      "Spider-Man",
+      "Spider-Man 2",
+      "The Amazing Spider-Man 2",
+      "Spider-Man: Far From Home",
+    ],
+    answer: "The Amazing Spider-Man 2",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Dans 'The Amazing Spider-Man', quel scientifique devient le Lézard ?",
+    options: [
+      "Dr. Otto Octavius",
+      "Dr. Curt Connors",
+      "Dr. Norman Osborn",
+      "Dr. Miles Warren",
+    ],
+    answer: "Dr. Curt Connors",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Dans quel film Spider-Man se joint-il à Iron Man pour combattre Captain America ?",
+    options: [
+      "Avengers",
+      "Captain America: Civil War",
+      "Spider-Man: Homecoming",
+      "Avengers: Endgame",
+    ],
+    answer: "Captain America: Civil War",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quel est le véritable nom de l'Homme-Sable dans 'Spider-Man 3' ?",
+    options: ["Flint Marko", "Eddie Brock", "Curt Connors", "Max Dillon"],
+    answer: "Flint Marko",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quel film de Spider-Man met en scène trois générations d'acteurs ayant joué Spider-Man ?",
+    options: [
+      "Spider-Man 2",
+      "Spider-Man: Homecoming",
+      "Spider-Man: No Way Home",
+      "The Amazing Spider-Man 2",
+    ],
+    answer: "Spider-Man: No Way Home",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le nom du journal pour lequel travaille Peter Parker ?",
+    options: [
+      "Le Daily Planet",
+      "Le Daily Bugle",
+      "Le New York Times",
+      "Le Gotham Gazette",
+    ],
+    answer: "Le Daily Bugle",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Dans 'Spider-Man: Far From Home', quelle ville européenne Peter Parker visite-t-il en premier ?",
+    options: ["Paris", "Berlin", "Venise", "Londres"],
+    answer: "Venise",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel méchant se révèle être le père de Liz Allan dans 'Spider-Man: Homecoming' ?",
+    options: ["Le Bouffon Vert", "Mysterio", "Le Vautour", "Le Scorpion"],
+    answer: "Le Vautour",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel personnage mentor de Peter Parker apparaît dans les films de l'univers cinématographique Marvel ?",
+    options: ["Nick Fury", "Tony Stark", "Steve Rogers", "Bruce Banner"],
+    answer: "Tony Stark",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel est le nom de l'oncle de Peter Parker qui meurt dans le premier film 'Spider-Man' ?",
+    options: ["Oncle Ben", "Oncle Jack", "Oncle Tom", "Oncle Harry"],
+    answer: "Oncle Ben",
+  },
+];
+
+const questionsTimBurton = [
+  {
+    numéro: "1/20",
+    question:
+      "Quel acteur a joué le rôle principal dans le film 'Edward aux mains d'argent' de Tim Burton ?",
+    options: [
+      "Johnny Depp",
+      "Michael Keaton",
+      "Ewan McGregor",
+      "Leonardo DiCaprio",
+    ],
+    answer: "Johnny Depp",
+  },
+  {
+    numéro: "2/20",
+    question:
+      "Dans quel film de Tim Burton apparaît le personnage de Jack Skellington, le roi des citrouilles ?",
+    options: [
+      "The Nightmare Before Christmas",
+      "Frankenweenie",
+      "Alice au pays des merveilles",
+      "Sweeney Todd",
+    ],
+    answer: "The Nightmare Before Christmas",
+  },
+  {
+    numéro: "3/20",
+    question:
+      "Dans quel film de Tim Burton un homme découvre-t-il un arbre magique qui peut prédire l'avenir de manière ambiguë ?",
+    options: [
+      "Big Fish",
+      "Edward aux mains d'argent",
+      "Sweeney Todd",
+      "Charlie et la chocolaterie",
+    ],
+    answer: "Big Fish",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quelle actrice a joué le rôle de Catwoman dans 'Batman Returns', réalisé par Tim Burton ?",
+    options: [
+      "Michelle Pfeiffer",
+      "Winona Ryder",
+      "Helena Bonham Carter",
+      "Anne Hathaway",
+    ],
+    answer: "Michelle Pfeiffer",
+  },
+  {
+    numéro: "5/20",
+    question:
+      "Dans quel film de Tim Burton une jeune femme est-elle transportée dans un monde parallèle rempli de créatures étranges et de magie ?",
+    options: [
+      "Alice au pays des merveilles",
+      "Miss Peregrine et les enfants particuliers",
+      "Charlie et la chocolaterie",
+      "Big Fish",
+    ],
+    answer: "Alice au pays des merveilles",
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom de la maman de Dumbo dans le film ?",
+    options: ["Delilah", "Mme. Dumbo", "Mme. Jumbo", "Ella"],
+    answer: "Mme. Jumbo",
+  },
+  {
+    numéro: "7/20",
+    question:
+      "Dans quel film de Tim Burton un jeune garçon découvre-t-il une porte vers un monde fantastique où des créatures étranges résident ?",
+    options: [
+      "Charlie et la chocolaterie",
+      "Alice au pays des merveilles",
+      "Big Fish",
+      "Miss Peregrine et les enfants particuliers",
+    ],
+    answer: "Miss Peregrine et les enfants particuliers",
+  },
+  {
+    numéro: "8/20",
+    question: "Dans 'Beetlejuice', comment les Maitland meurent-ils ?",
+    options: [
+      "Ils se noient",
+      "Ils ont un accident de voiture",
+      "Ils tombent d'une falaise",
+      "Ils sont frappés par la foudre",
+    ],
+    answer: "Ils ont un accident de voiture",
+  },
+  {
+    numéro: "9/20",
+    question:
+      "Quel célèbre acteur a joué le rôle de Joker dans 'Batman' de Tim Burton ?",
+    options: [
+      "Jack Nicholson",
+      "Heath Ledger",
+      "Joaquin Phoenix",
+      "Jared Leto",
+    ],
+    answer: "Jack Nicholson",
+  },
+  {
+    numéro: "10/20",
+    question:
+      "Dans 'Alice au pays des merveilles' (2010), quel personnage aide Alice à se préparer pour la bataille finale ?",
+    options: [
+      "Le Lapin Blanc",
+      "Le Chapelier Fou",
+      "Le Chat du Cheshire",
+      "Le Loir",
+    ],
+    answer: "Le Lapin Blanc",
+  },
+  {
+    numéro: "11/20",
+    question:
+      "Dans quel film de Tim Burton un homme retourne-t-il dans sa ville natale pour découvrir qu'elle est devenue un parc d'attractions gothique ?",
+    options: ["Big Fish", "Dark Shadows", "Mars Attacks!", "Ed Wood"],
+    answer: "Dark Shadows",
+  },
+  {
+    numéro: "12/20",
+    question:
+      "Quel est le nom de l'usine de chocolat dans 'Charlie et la chocolaterie' ?",
+    options: [
+      "Wonka Chocolate Factory",
+      "Sweet's chocolate",
+      "Sweet Tooth Factory",
+      "Golden Ticket Factory",
+    ],
+    answer: "Wonka Chocolate Factory",
+  },
+  {
+    numéro: "13/20",
+    question:
+      "Dans 'Beetlejuice', comment Lydia Deetz communique-t-elle avec les Maitland après leur mort ?",
+    options: [
+      "Avec un médium",
+      "En utilisant un tableau Ouija",
+      "Par télépathie",
+      "À travers un miroir magique",
+    ],
+    answer: "À travers un miroir magique",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quel est le nom de la sorcière qui jette un sort à Edward dans 'Edward aux mains d'argent' ?",
+    options: ["Peg Boggs", "Kim Boggs", "Joyce", "Esmeralda"],
+    answer: "Esmeralda",
+  },
+  {
+    numéro: "15/20",
+    question:
+      "Quel est le nom du personnage principal féminin dans 'Les Noces Funèbres' de Tim Burton ?",
+    options: ["Emily", "Victoria", "Sally", "Elsa"],
+    answer: "Emily",
+  },
+  {
+    numéro: "16/20",
+    question:
+      "Quel est le nom du chien fantôme dans 'Frankenweenie' de Tim Burton ?",
+    options: ["Sparky", "Zero", "Scud", "Spike"],
+    answer: "Sparky",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quel est le nom du cirque où se déroule une grande partie de l'action dans le film 'Dumbo' de Tim Burton ?",
+    options: [
+      "Cirque Wonders",
+      "Cirque Dreamland",
+      "Cirque Fantasia",
+      "Cirque Stardust",
+    ],
+    answer: "Cirque Dreamland",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quelle actrice a joué le rôle principal dans le film 'Miss Peregrine et les enfants particuliers' de Tim Burton ?",
+    options: [
+      "Eva Green",
+      "Helena Bonham Carter",
+      "Winona Ryder",
+      "Anne Hathaway",
+    ],
+    answer: "Eva Green",
+  },
+  {
+    numéro: "19/20",
+    question:
+      "Quel est le nom complet du personnage principal de 'Batman' dans le film de Tim Burton ?",
+    options: ["Bruce Wayne", "Peter Parker", "Clark Kent", "Tony Stark"],
+    answer: "Bruce Wayne",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel acteur a joué le rôle de Beetlejuice dans le film éponyme de Tim Burton ?",
+    options: [
+      "Michael Keaton",
+      "Johnny Depp",
+      "Christopher Walken",
+      "Jack Nicholson",
+    ],
+    answer: "Michael Keaton",
+  },
+];
+
 const questionsDragonBall = [
   {
     numéro: "1/20",
@@ -5170,6 +7192,630 @@ const questionsDragonBall = [
     question: "Quel est le nom de la fils de Gohan et Videl ?",
     options: ["Pan", "Kale", "Marron", "Bra"],
     answer: "Pan",
+  },
+];
+
+const questionsMarvel = [
+  {
+    numéro: "1/20",
+    question: "Quel super-héros est également connu sous le nom de Steve Rogers ?",
+    options: ["Captain America", "Iron Man", "Thor", "Hulk"],
+    answer: "Captain America"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel acteur interprète Spider-Man dans Spider-Man: No Way Home ?",
+    options: ["Tom Holland", "Tobey Maguire", "Andrew Garfield", "Chris Pratt"],
+    answer: "Tom Holland"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est le matériau du bouclier de Captain America ?",
+    options: ["Vibranium", "Adamantium", "Titanium", "Acier"],
+    answer: "Vibranium"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel super-héros est aussi appelé 'Le Tisseur' ?",
+    options: ["Spider-Man", "Doctor Strange", "Black Panther", "Ant-Man"],
+    answer: "Spider-Man"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel personnage est surnommé 'le Sorcier Suprême' ?",
+    options: ["Doctor Strange", "Scarlet Witch", "Loki", "Thanos"],
+    answer: "Doctor Strange"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le nom de l'arme de Thor ?",
+    options: ["Mjolnir", "Stormbreaker", "Gungnir", "Hofund"],
+    answer: "Mjolnir"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le nom de l'alter ego de Hulk ?",
+    options: ["Bruce Banner", "Tony Stark", "Peter Parker", "Stephen Strange"],
+    answer: "Bruce Banner"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel groupe de super-héros comprend Star-Lord, Gamora, Drax, Rocket et Groot ?",
+    options: ["Les Gardiens de la Galaxie", "Les Avengers", "Les X-Men", "Les Quatre Fantastiques"],
+    answer: "Les Gardiens de la Galaxie"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est le nom de la nation que Black Panther protège ?",
+    options: ["Wakanda", "Genosha", "Latveria", "Sokovia"],
+    answer: "Wakanda"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le nom du frère adoptif de Thor qui est aussi connu comme le 'Dieu de la Malice' ?",
+    options: ["Loki", "Heimdall", "Balder", "Hela"],
+    answer: "Loki"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel super-héros est interprété par Chris Hemsworth dans l'univers cinématographique Marvel ?",
+    options: ["Thor", "Captain America", "Iron Man", "Hawkeye"],
+    answer: "Thor"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom du méchant principal dans 'Avengers: Infinity War' ?",
+    options: ["Thanos", "Loki", "Ultron", "Red Skull"],
+    answer: "Thanos"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel super-héros est aveugle mais possède des sens surdéveloppés ?",
+    options: ["Daredevil", "Hawkeye", "Cyclope", "Quicksilver"],
+    answer: "Daredevil"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel personnage féminin devient un super-héros après une piqûre d'araignée radioactive ?",
+    options: ["Spider-Woman", "Black Widow", "Scarlet Witch", "Wasp"],
+    answer: "Spider-Woman"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le nom de l'organisation dirigée par Nick Fury ?",
+    options: ["S.H.I.E.L.D.", "HYDRA", "A.I.M.", "S.W.O.R.D."],
+    answer: "S.H.I.E.L.D."
+  },
+  {
+    numéro: "16/20",
+    question: "Quel super-héros possède une armure faite d'un alliage spécial appelé 'Adamantium' ?",
+    options: ["Wolverine", "Iron Man", "Captain America", "Black Panther"],
+    answer: "Wolverine"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel personnage des Gardiens de la Galaxie ne prononce que les mots 'Je s’appelle Groot' ?",
+    options: ["Groot", "Rocket", "Drax", "Gamora"],
+    answer: "Groot"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel acteur incarne Tony Stark/Iron Man dans l'univers cinématographique Marvel ?",
+    options: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth"],
+    answer: "Robert Downey Jr."
+  },
+  {
+    numéro: "19/20",
+    question: "Quel super-héros a pour nom civil 'Matt Murdock' ?",
+    options: ["Daredevil", "Iron Fist", "Luke Cage", "Jessica Jones"],
+    answer: "Daredevil"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le nom civil de Daredevil ?",
+    options: ["Matt Murdock", "Peter Parker", "Steve Rogers", "Clint Barton"],
+    answer: "Matt Murdock"
+  }
+];
+
+const questionsSuperVilains = [
+  {
+    numéro: "1/20",
+    question: "Quel super-vilain est surnommé le 'Titan Fou' ?",
+    options: ["Thanos", "Loki", "Red Skull", "Ultron"],
+    answer: "Thanos"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel ennemi de Spider-Man est un scientifique devenu lézard géant ?",
+    options: ["Le Lézard", "Venom", "Le Bouffon Vert", "Docteur Octopus"],
+    answer: "Le Lézard"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel super-vilain a été le premier ennemi des Avengers dans leur film de 2012 ?",
+    options: ["Loki", "Ultron", "Thanos", "Red Skull"],
+    answer: "Loki"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel ennemi des X-Men peut contrôler le métal ?",
+    options: ["Magneto", "Apocalypse", "Mystique", "Sabretooth"],
+    answer: "Magneto"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel super-vilain est le roi de Wakanda avant T'Challa et revient pour réclamer le trône dans 'Black Panther' ?",
+    options: ["Killmonger", "M'Baku", "Klaw", "Zemo"],
+    answer: "Killmonger"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel super-vilain est un génie scientifique avec des bras mécaniques qui combattent Spider-Man ?",
+    options: ["Docteur Octopus", "Le Bouffon Vert", "Venom", "Electro"],
+    answer: "Docteur Octopus"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel ennemi de Daredevil contrôle une grande partie du crime organisé à New York ?",
+    options: ["Kingpin", "Bullseye", "Purple Man", "The Hand"],
+    answer: "Kingpin"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel super-vilain est une intelligence artificielle créée par Tony Stark et Bruce Banner ?",
+    options: ["Ultron", "Thanos", "Loki", "Red Skull"],
+    answer: "Ultron"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel super-vilain est un extraterrestre symbiotique qui s'attache à Eddie Brock ?",
+    options: ["Venom", "Carnage", "Morbius", "Scorpion"],
+    answer: "Venom"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel super-vilain est un ancien chirurgien devenu sorcier maléfique et ennemi de Doctor Strange ?",
+    options: ["Baron Mordo", "Dormammu", "Kaecilius", "Mephisto"],
+    answer: "Baron Mordo"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel ennemi des Gardiens de la Galaxie est surnommé 'Le Destructeur' ?",
+    options: ["Ronan", "Ego", "Nebula", "Thanos"],
+    answer: "Ronan"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel super-vilain est un scientifique qui se transforme en un monstre de sable ?",
+    options: ["Sandman", "Rhino", "Lizard", "Vulture"],
+    answer: "Sandman"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel ennemi de Thor est le dieu du mensonge et de la tromperie ?",
+    options: ["Loki", "Hela", "Malekith", "Surtur"],
+    answer: "Loki"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel super-vilain de l'univers Marvel a une tête en forme de crâne rouge ?",
+    options: ["Red Skull", "Crossbones", "Baron Zemo", "Winter Soldier"],
+    answer: "Red Skull"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel super-vilain est aussi appelé Victor Von Doom et est un ennemi des Quatre Fantastiques ?",
+    options: ["Docteur Doom", "Galactus", "Mole Man", "Silver Surfer"],
+    answer: "Docteur Doom"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel super-vilain est un dieu du chaos qui affronte Thor dans 'Thor: Ragnarok' ?",
+    options: ["Hela", "Loki", "Surtur", "Malekith"],
+    answer: "Hela"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel super-vilain peut manipuler l'électricité et est un ennemi de Spider-Man ?",
+    options: ["Electro", "Shocker", "Rhino", "Vulture"],
+    answer: "Electro"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel super-vilain est une version maléfique de Spider-Man et s'appelle Cletus Kasady ?",
+    options: ["Carnage", "Venom", "Morbius", "Toxin"],
+    answer: "Carnage"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel super-vilain est un ancien général Kree devenu accroc à la Pierre de l'Infini ?",
+    options: ["Yon-Rogg", "Ronan", "Korath", "Talos"],
+    answer: "Ronan"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel super-vilain est un méchant de l'univers Marvel qui est un maître en arts martiaux et ennemi de Shang-Chi ?",
+    options: ["Le Mandarin", "Killian", "Whiplash", "Taskmaster"],
+    answer: "Le Mandarin"
+  }
+];
+
+const questionsPersonnalitesMondiales = [
+  {
+    numéro: "1/20",
+    question: "Quelle est la nationalité du chanteur Roch Voisine ?",
+    options: ["Canadienne", "Française", "Belge", "Américaine"],
+    answer: "Canadienne"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le genre littéraire pour lequel Stephen King est le plus connu ?",
+    options: ["Horreur", "Romance", "Science-fiction", "Fantaisie"],
+    answer: "Horreur"
+  },
+  {
+    numéro: "3/20",
+    question: "Quelle théorie célèbre a été développée par Albert Einstein ?",
+    options: ["Théorie de la relativité", "Théorie de la gravitation", "Théorie de l'évolution", "Théorie du Big Bang"],
+    answer: "Théorie de la relativité"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel rôle Charles de Gaulle a-t-il joué pendant la Seconde Guerre mondiale ?",
+    options: ["Chef de la Résistance française", "Président des États-Unis", "Premier ministre britannique", "Empereur du Japon"],
+    answer: "Chef de la Résistance française"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel type de contenu est principalement produit par Amixem sur YouTube ?",
+    options: ["Vlogs et divertissement", "Cuisine", "Jeux vidéo", "Tutoriels de maquillage"],
+    answer: "Vlogs et divertissement"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel titre était porté par Napoléon Bonaparte en France ?",
+    options: ["Empereur", "Roi", "Président", "Premier ministre"],
+    answer: "Empereur"
+  },
+  {
+    numéro: "7/20",
+    question: "Dans quelle maison Harry Potter a-t-il été réparti à Poudlard ?",
+    options: ["Gryffondor", "Serpentard", "Poufsouffle", "Serdaigle"],
+    answer: "Gryffondor"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel type de vidéos Tibo Inshape est-il connu pour produire ?",
+    options: ["Fitness et musculation", "Cuisine", "Mode", "Voyage"],
+    answer: "Fitness et musculation"
+  },
+  {
+    numéro: "9/20",
+    question: "Quelle émission de télévision française est principalement animée par Nagui ?",
+    options: ["Taratata", "Le Grand Journal", "The Voice", "Qui veut gagner des millions ?"],
+    answer: "Taratata"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel pays Barack Obama a-t-il dirigé en tant que président ?",
+    options: ["États-Unis", "Canada", "Royaume-Uni", "France"],
+    answer: "États-Unis"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le métier du personnage Columbo dans la série télévisée éponyme ?",
+    options: ["Détective", "Docteur", "Avocat", "Journaliste"],
+    answer: "Détective"
+  },
+  {
+    numéro: "12/20",
+    question: "Quelle émission de télévision a révélé Jenifer Bartoli au grand public ?",
+    options: ["Star Academy", "The Voice", "Popstars", "La Nouvelle Star"],
+    answer: "Star Academy"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel type de contenu est principalement produit par Squeezie sur YouTube ?",
+    options: ["Jeux vidéo", "Cuisine", "Mode", "Voyage"],
+    answer: "Jeux vidéo"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom du père dans la série télévisée 'Les Simpson' ?",
+    options: ["Homer Simpson", "Bart Simpson", "Ned Flanders", "Moe Szyslak"],
+    answer: "Homer Simpson"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel groupe musical a révélé Harry Styles au grand public ?",
+    options: ["One Direction", "The Beatles", "NSYNC", "Backstreet Boys"],
+    answer: "One Direction"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le métier de Tintin dans la bande dessinée éponyme ?",
+    options: ["Journaliste", "Détective", "Docteur", "Pilote"],
+    answer: "Journaliste"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel rôle Tom Hanks a-t-il joué dans le film 'Toy Story' ?",
+    options: ["Woody", "Buzz l'éclair", "Monsieur Patate", "Rex"],
+    answer: "Woody"
+  },
+  {
+    numéro: "18/20",
+    question: "Dans quel film d'animation un extraterrestre bleu apparaît-il ?",
+    options: ["Lilo & Stitch", "Le Roi Lion", "La Belle et la Bête", "Aladdin"],
+    answer: "Lilo & Stitch"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel type de contenu est principalement produit par Neo et Swan sur YouTube ?",
+    options: ["Vlogs familiaux et défis", "Jeux vidéo", "Cuisine", "Mode"],
+    answer: "Vlogs familiaux et défis"
+  },
+  {
+    numéro: "20/20",
+    question: "Quelle émission de télévision a révélé Louane au grand public ?",
+    options: ["The Voice", "Star Academy", "Nouvelle Star", "Popstars"],
+    answer: "The Voice"
+  }
+];
+
+const questionsSuperman = [
+  {
+    numéro: "1/20",
+    question: "Quel est le véritable nom de Superman ?",
+    options: ["Kal-El", "Jor-El", "Clark Kent", "Lex Luthor"],
+    answer: "Kal-El"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le nom de la ville où Clark Kent grandit dans Smallville ?",
+    options: ["Smallville", "Metropolis", "Gotham City", "Central City"],
+    answer: "Smallville"
+  },
+  {
+    numéro: "3/20",
+    question: "Qui est le père biologique de Superman ?",
+    options: ["Jor-El", "Zod", "Jonathan Kent", "Lex Luthor"],
+    answer: "Jor-El"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est le métier de Lois Lane ?",
+    options: ["Journaliste", "Scientifique", "Avocate", "Médecin"],
+    answer: "Journaliste"
+  },
+  {
+    numéro: "5/20",
+    question: "Quelle substance affaiblit Superman ?",
+    options: ["Kryptonite", "Adamantium", "Vibranium", "Mithril"],
+    answer: "Kryptonite"
+  },
+  {
+    numéro: "6/20",
+    question: "Comment s'appelle l'ami d'enfance de Clark Kent dans Smallville qui devient plus tard son ennemi ?",
+    options: ["Lex Luthor", "Pete Ross", "Jimmy Olsen", "Bruce Wayne"],
+    answer: "Lex Luthor"
+  },
+  {
+    numéro: "7/20",
+    question: "Quelle est l'identité secrète de Superman ?",
+    options: ["Clark Kent", "Bruce Wayne", "Barry Allen", "Hal Jordan"],
+    answer: "Clark Kent"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom de la ferme où Clark Kent a été élevé ?",
+    options: ["La ferme des Kent", "La ferme des Waynes", "La ferme des Luthors", "La ferme des Ross"],
+    answer: "La ferme des Kent"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel pouvoir Clark Kent découvre-t-il en premier dans Smallville ?",
+    options: ["Super force", "Vision thermique", "Vol", "Super vitesse"],
+    answer: "Super vitesse"
+  },
+  {
+    numéro: "10/20",
+    question: "Qui est la meilleure amie de Clark Kent dans Smallville, connue pour sa passion pour le journalisme ?",
+    options: ["Chloe Sullivan", "Lana Lang", "Lois Lane", "Kara Zor-El"],
+    answer: "Chloe Sullivan"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel super-héros rejoint Clark Kent dans Smallville pour combattre Doomsday ?",
+    options: ["Oliver Queen", "Bruce Wayne", "Barry Allen", "Hal Jordan"],
+    answer: "Oliver Queen"
+  },
+  {
+    numéro: "12/20",
+    question: "Quelle est la couleur de la kryptonite qui joue sur le physique de Superman ?",
+    options: ["Rouge", "Bleue", "Verte", "Noire"],
+    answer: "Verte"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le nom de l'entreprise que Lex Luthor dirige dans Smallville ?",
+    options: ["LuthorCorp", "LexCorp", "Wayne Enterprises", "Daily Planet"],
+    answer: "LuthorCorp"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le symbole sur la poitrine de Superman ?",
+    options: ["Un S", "Un K", "Un L", "Un V"],
+    answer: "Un S"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le nom du méchant kryptonien qui est libéré de la Zone Fantôme dans Smallville ?",
+    options: ["Zod", "Brainiac", "Doomsday", "Darkseid"],
+    answer: "Zod"
+  },
+  {
+    numéro: "16/20",
+    question: "Qui est la petite amie de longue date de Clark Kent dans Smallville avant Lois Lane ?",
+    options: ["Lana Lang", "Chloe Sullivan", "Lois Lane", "Kara Zor-El"],
+    answer: "Lana Lang"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est le nom de la mère adoptive de Clark Kent ?",
+    options: ["Martha Kent", "Martha Wayne", "Lara Lor-Van", "Kara Zor-El"],
+    answer: "Martha Kent"
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle est la profession de Jonathan Kent, le père adoptif de Clark ?",
+    options: ["Agriculteur", "Journaliste", "Scientifique", "Avocat"],
+    answer: "Agriculteur"
+  },
+  {
+    numéro: "19/20",
+    question: "Quelle est la faiblesse de Clark Kent face à la kryptonite rouge ?",
+    options: ["Il devient imprudent et agressif", "Il perd ses pouvoirs", "Il tombe malade", "Il devient invisible"],
+    answer: "Il devient imprudent et agressif"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le nom de la planète d'origine de Superman ?",
+    options: ["Krypton", "Thanagar", "Kripton", "Kalel"],
+    answer: "Krypton"
+  }
+];
+
+const questionsAnimaux = [
+  {
+    numéro: "1/20",
+    question: "Quel oiseau ne vole pas ?",
+    options: ["Autruche", "Aigle", "Moineau", "Colibri"],
+    answer: "Autruche",
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le plus grand reptile du monde ?",
+    options: ["Crocodile", "Serpent boa", "Tortue géante", "Lézard Komodo"],
+    answer: "Crocodile",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est l'animal terrestre le plus rapide ?",
+    options: ["Guépard", "Antilope", "Lion", "Zèbre"],
+    answer: "Guépard",
+  },
+  {
+    numéro: "4/20",
+    question: "Quel est le plus grand poisson du monde ?",
+    options: ["Requin-baleine", "Requin marteau", "Raie manta", "Thon"],
+    answer: "Requin-baleine",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le plus petit mammifère au monde ?",
+    options: ["Musaraigne", "Souris", "Chauve-souris", "Mulot"],
+    answer: "Musaraigne",
+  },
+  {
+    numéro: "6/20",
+    question:
+      "Quel insecte peut soulever des objets jusqu'à 50 fois son poids ?",
+    options: ["Fourmi", "Scarabée", "Papillon", "Abeille"],
+    answer: "Fourmi",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel animal hiberne pendant tout l'hiver ?",
+    options: ["Ours", "Écureuil", "Marmotte", "Renard"],
+    answer: "Marmotte",
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est l'animal national de l'Australie ?",
+    options: ["Kangourou", "Koala", "Emu", "Wombat"],
+    answer: "Kangourou",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est l'oiseau symbole des États-Unis ?",
+    options: ["Aigle", "Hibou", "Pigeon", "Faucon"],
+    answer: "Aigle",
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est l'animal qui dort le moins ?",
+    options: ["Girafe", "Dauphin", "Chauve-souris", "Éléphant"],
+    answer: "Dauphin",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est l'oiseau le plus rapide au monde ?",
+    options: ["Colibri", "Faucon pèlerin", "Aigle", "Autruche"],
+    answer: "Faucon pèlerin",
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le plus grand animal marin ?",
+    options: ["Baleine bleue", "Requin blanc", "Orque", "Méduse géante"],
+    answer: "Baleine bleue",
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le serpent le plus venimeux au monde ?",
+    options: ["Cobra", "Vipère", "Mamba noir", "Taïpan"],
+    answer: "Mamba noir",
+  },
+  {
+    numéro: "14/20",
+    question:
+      "Quel animal a le plus grand cerveau en proportion de sa taille ?",
+    options: ["Éléphant", "Dauphin", "Chimpanzé", "Humain"],
+    answer: "Dauphin",
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est l'animal le plus lent du monde ?",
+    options: ["Limace", "Tortue", "Koala", "Paresseux"],
+    answer: "Limace",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le plus grand rongeur du monde ?",
+    options: ["Castor", "Rat", "Chinchilla", "Capybara"],
+    answer: "Capybara",
+  },
+  {
+    numéro: "17/20",
+    question: "Quel est l'oiseau qui peut courir le plus vite ?",
+    options: ["Autruche", "Émeu", "Kiwi", "Pingouin"],
+    answer: "Autruche",
+  },
+  {
+    numéro: "18/20",
+    question:
+      "Quel est l'animal qui peut survivre sans eau le plus longtemps ?",
+    options: ["Chameau", "Kangourou", "Souris du désert", "Éléphant"],
+    answer: "Souris du désert",
+  },
+  {
+    numéro: "19/20",
+    question: "Quel est le poisson le plus venimeux au monde ?",
+    options: [
+      "Poisson-pierre",
+      "Poisson-scie",
+      "Poisson-globe",
+      "Raie pastenague",
+    ],
+    answer: "Poisson-pierre",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel animal a le plus petit cerveau en proportion de sa taille ?",
+    options: ["Souris", "Poulet", "Grenouille", "Poisson"],
+    answer: "Poisson",
   },
 ];
 
@@ -5611,6 +8257,646 @@ const questionsEcosystemesHabitats = [
     answer: "Désert",
   },
 ];
+
+const questionsMersOceans = [
+  {
+    numéro: "1/20",
+    question: "Quel est l'océan le plus vaste de la planète Terre ?",
+    options: ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Arctique"],
+    answer: "Océan Pacifique"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le nom de la mer bordée par la Jordanie, Israël et la Palestine, connue pour sa salinité élevée ?",
+    options: ["Mer Morte", "Mer Rouge", "Mer Noire", "Mer Caspienne"],
+    answer: "Mer Morte"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel courant océanique chaud traverse l'Atlantique Nord et influence le climat de l'Europe ?",
+    options: ["Courant du Labrador", "Courant de Humboldt", "Gulf Stream", "Courant de Kuroshio"],
+    answer: "Gulf Stream"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel océan est le plus profond, abritant la fosse des Mariannes ?",
+    options: ["Océan Atlantique", "Océan Indien", "Océan Pacifique", "Océan Austral"],
+    answer: "Océan Pacifique"
+  },
+  {
+    numéro: "5/20",
+    question: "Quelle mer est située entre l'Europe, l'Afrique et l'Asie, connue pour son importance historique et culturelle ?",
+    options: ["Mer Noire", "Mer Méditerranée", "Mer Rouge", "Mer d'Arabie"],
+    answer: "Mer Méditerranée"
+  },
+  {
+    numéro: "6/20",
+    question: "Quelle mer intérieure, entourée par la Russie, le Kazakhstan, le Turkménistan et l'Iran, est la plus grande étendue d'eau salée enclavée au monde ?",
+    options: ["Mer Caspienne", "Mer Noire", "Mer d'Aral", "Mer Baltique"],
+    answer: "Mer Caspienne"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le nom de la grande barrière de corail située au large de la côte nord-est de l'Australie ?",
+    options: ["Barrière de corail de Belize", "Grande Barrière de corail", "Barrière de corail de Mesoamerica", "Barrière de corail de Chagos"],
+    answer: "Grande Barrière de corail"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel phénomène naturel, caractérisé par une montée anormale du niveau de la mer, est souvent associé aux cyclones et ouragans ?",
+    options: ["Marée haute", "Raz-de-marée", "Tsunami", "Surge de tempête"],
+    answer: "Surge de tempête"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel détroit sépare l'Espagne et le Maroc, reliant la mer Méditerranée à l'océan Atlantique ?",
+    options: ["Détroit de Gibraltar", "Détroit de Bering", "Détroit de Magellan", "Détroit de Malacca"],
+    answer: "Détroit de Gibraltar"
+  },
+  {
+    numéro: "10/20",
+    question: "Quelle mer est célèbre pour ses nombreux naufrages et sa légende du triangle des Bermudes ?",
+    options: ["Mer des Caraïbes", "Mer des Sargasses", "Mer de Chine méridionale", "Mer de Norvège"],
+    answer: "Mer des Sargasses"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel courant océanique froid longe la côte ouest de l'Amérique du Sud, influençant le climat de la région ?",
+    options: ["Courant du Brésil", "Courant de Humboldt", "Courant des Aiguilles", "Courant de Californie"],
+    answer: "Courant de Humboldt"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom de la mer située entre la Chine et la péninsule coréenne ?",
+    options: ["Mer Jaune", "Mer de Chine méridionale", "Mer de Chine orientale", "Mer du Japon"],
+    answer: "Mer Jaune"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel est le plus grand océanique du monde, qui couvre environ 30 % de la surface terrestre ?",
+    options: ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Austral"],
+    answer: "Océan Pacifique"
+  },
+  {
+    numéro: "14/20",
+    question: "Quelle est la profondeur approximative de la fosse des Mariannes, le point le plus profond des océans du monde ?",
+    options: ["11 000 mètres", "8 000 mètres", "7 000 mètres", "9 000 mètres"],
+    answer: "11 000 mètres"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le nom du phénomène océanique où les eaux de surface deviennent exceptionnellement chaudes dans l'océan Pacifique équatorial ?",
+    options: ["El Niño", "La Niña", "Upwelling", "Thermocline"],
+    answer: "El Niño"
+  },
+  {
+    numéro: "16/20",
+    question: "Quelle mer intérieure est connue pour ses hauts niveaux de salinité et pour avoir perdu une grande partie de son eau en raison de l'irrigation ?",
+    options: ["Mer d'Aral", "Mer Caspienne", "Mer Morte", "Mer Noire"],
+    answer: "Mer d'Aral"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel océan entoure le continent antarctique ?",
+    options: ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Austral"],
+    answer: "Océan Austral"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel détroit relie la mer Rouge à l'océan Indien ?",
+    options: ["Détroit de Malacca", "Détroit de Gibraltar", "Détroit de Bering", "Détroit de Bab-el-Mandeb"],
+    answer: "Détroit de Bab-el-Mandeb"
+  },
+  {
+    numéro: "19/20",
+    question: "Quelle mer borde les côtes de la Bulgarie, de la Roumanie et de l'Ukraine ?",
+    options: ["Mer Noire", "Mer Méditerranée", "Mer Baltique", "Mer du Nord"],
+    answer: "Mer Noire"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le nom de l'immense gyre océanique dans le Pacifique Nord, connu pour sa grande accumulation de déchets plastiques ?",
+    options: ["Great Pacific Garbage Patch", "Atlantic Trash Vortex", "Indian Ocean Garbage Zone", "Antarctic Trash Gyre"],
+    answer: "Great Pacific Garbage Patch"
+  }
+];
+
+const questionsInsectes = [
+  {
+    numéro: "1/20",
+    question: "Quel insecte est connu pour sa capacité à produire du miel ?",
+    options: ["Abeille", "Fourmi", "Papillon", "Libellule"],
+    answer: "Abeille"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel est le nom de l'insecte qui peut sauter jusqu'à 100 fois la longueur de son corps ?",
+    options: ["Sauterelle", "Fourmi", "Mouche", "Puce"],
+    answer: "Puce"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel insecte est célèbre pour ses transformations de la larve à l'adulte, passant par le stade de nymphe dans un cocon ?",
+    options: ["Papillon", "Mouche", "Abeille", "Scarabée"],
+    answer: "Papillon"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel insecte est connu pour sa capacité à porter des charges plusieurs fois plus lourdes que son propre poids ?",
+    options: ["Fourmi", "Abeille", "Libellule", "Sauterelle"],
+    answer: "Fourmi"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel est le plus grand insecte vivant sur Terre ?",
+    options: ["Phasme", "Scarabée Goliath", "Libellule", "Mante religieuse"],
+    answer: "Phasme"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel insecte est connu pour sa capacité à clignoter et produire de la lumière ?",
+    options: ["Luciole", "Papillon de nuit", "Cigale", "Mille-pattes"],
+    answer: "Luciole"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel insecte est capable de voler en arrière ?",
+    options: ["Libellule", "Papillon", "Abeille", "Moustique"],
+    answer: "Libellule"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel insecte est souvent associé à la propagation de maladies comme le paludisme et la dengue ?",
+    options: ["Moustique", "Tique", "Puce", "Abeille"],
+    answer: "Moustique"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel insecte construit des nids en papier mâché ?",
+    options: ["Guêpe", "Fourmi", "Abeille", "Termite"],
+    answer: "Guêpe"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel insecte est connu pour sa capacité à produire un son stridulant en frottant ses ailes ou ses pattes arrière ?",
+    options: ["Criquet", "Mouche", "Scarabée", "Libellule"],
+    answer: "Criquet"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel est le nom de l'insecte dont les larves sont connues sous le nom de chenilles ?",
+    options: ["Papillon", "Mouche", "Guêpe", "Scarabée"],
+    answer: "Papillon"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel insecte est souvent appelé 'dieu des jardins' en raison de son rôle bénéfique dans le contrôle des ravageurs ?",
+    options: ["Coccinelle", "Criquet", "Libellule", "Fourmi"],
+    answer: "Coccinelle"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel insecte a une relation mutualiste avec les pucerons, les protégeant en échange de leur miellat ?",
+    options: ["Fourmi", "Libellule", "Papillon", "Guêpe"],
+    answer: "Fourmi"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel insecte est souvent appelé 'tondeuse de gazon' naturelle en raison de son appétit pour l'herbe et les plantes ?",
+    options: ["Sauterelle", "Cigale", "Criquet", "Papillon"],
+    answer: "Sauterelle"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel insecte est connu pour son rôle dans la décomposition des matières organiques mortes ?",
+    options: ["Coléoptère nécrophore", "Moustique", "Papillon", "Fourmi"],
+    answer: "Coléoptère nécrophore"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel insecte est souvent considéré comme un indicateur de la qualité de l'eau douce ?",
+    options: ["Libellule", "Moustique", "Scarabée", "Fourmi"],
+    answer: "Libellule"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel insecte est connu pour construire des galeries complexes et souterraines ?",
+    options: ["Termite", "Fourmi", "Abeille", "Guêpe"],
+    answer: "Termite"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel insecte est capable de régénérer ses membres perdus au fil du temps ?",
+    options: ["Mante religieuse", "Criquet", "Fourmi", "Papillon"],
+    answer: "Mante religieuse"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel insecte est connu pour son camouflage efficace, imitant des branches ou des feuilles ?",
+    options: ["Phasme", "Sauterelle", "Papillon", "Guêpe"],
+    answer: "Phasme"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel insecte est souvent utilisé comme modèle dans les études de génétique et de développement ?",
+    options: ["Mouche drosophile", "Fourmi", "Abeille", "Papillon"],
+    answer: "Mouche drosophile"
+  }
+];
+
+const questionsAnimauxFerme = [
+  {
+    numéro: "1/20",
+    question: "Quel est le principal produit obtenu des vaches laitières ?",
+    options: ["Viande", "Lait", "Laine", "Œufs"],
+    answer: "Lait"
+  },
+  {
+    numéro: "2/20",
+    question: "Quel animal de la basse-cour est connu pour produire des œufs ?",
+    options: ["Poule", "Cochon", "Mouton", "Cheval"],
+    answer: "Poule"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel animal de la ferme est souvent utilisé pour labourer les champs ?",
+    options: ["Cheval", "Vache", "Chèvre", "Lapin"],
+    answer: "Cheval"
+  },
+  {
+    numéro: "4/20",
+    question: "Quel produit est principalement obtenu des moutons ?",
+    options: ["Viande", "Lait", "Laine", "Œufs"],
+    answer: "Laine"
+  },
+  {
+    numéro: "5/20",
+    question: "Quel animal de la basse-cour est connu pour son cri distinctif, le 'coin-coin' ?",
+    options: ["Canard", "Cheval", "Cochon", "Chèvre"],
+    answer: "Canard"
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le principal produit obtenu des cochons ?",
+    options: ["Lait", "Viande", "Laine", "Œufs"],
+    answer: "Viande"
+  },
+  {
+    numéro: "7/20",
+    question: "Quel animal de la ferme est souvent gardé pour sa capacité à fournir du lait et de la viande ?",
+    options: ["Chèvre", "Poulet", "Lapin", "Canard"],
+    answer: "Chèvre"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom du petit de la vache ?",
+    options: ["Agneau", "Porcelet", "Veau", "Poulain"],
+    answer: "Veau"
+  },
+  {
+    numéro: "9/20",
+    question: "Quel animal de la basse-cour est souvent associé à la production de foie gras ?",
+    options: ["Canard", "Poulet", "Dinde", "Oie"],
+    answer: "Canard"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel animal de la ferme est connu pour sa capacité à produire du miel ?",
+    options: ["Abeille", "Poulet", "Cochon", "Chèvre"],
+    answer: "Abeille"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel animal de la ferme est célèbre pour ses longues oreilles tombantes ?",
+    options: ["Lapin", "Chèvre", "Cheval", "Vache"],
+    answer: "Lapin"
+  },
+  {
+    numéro: "12/20",
+    question: "Quel est le nom du mâle reproducteur chez les poules ?",
+    options: ["Coq", "Poulet", "Coquelet", "Poussin"],
+    answer: "Coq"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel animal de la ferme est souvent utilisé pour sa laine et sa viande ?",
+    options: ["Mouton", "Chèvre", "Poulet", "Cochon"],
+    answer: "Mouton"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le nom du petit de la poule ?",
+    options: ["Porcelet", "Poussin", "Veau", "Agneau"],
+    answer: "Poussin"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel animal de la basse-cour est souvent gardé pour sa viande à Noël ?",
+    options: ["Dinde", "Poulet", "Canard", "Oie"],
+    answer: "Dinde"
+  },
+  {
+    numéro: "16/20",
+    question: "Quel animal de la ferme est souvent associé à la production de fromage de chèvre ?",
+    options: ["Chèvre", "Vache", "Poulet", "Lapin"],
+    answer: "Chèvre"
+  },
+  {
+    numéro: "17/20",
+    question: "Pour quelle occasion sont élévées les dindes ?",
+    options: ["Noël", "Pâques", "Assomption", "Halloween"],
+    answer: "Noël"
+  },
+  {
+    numéro: "18/20",
+    question: "Quel animal de la ferme est connu pour ses grandes cornes et sa capacité à escalader des terrains accidentés ?",
+    options: ["Chèvre", "Mouton", "Cheval", "Cochon"],
+    answer: "Chèvre"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel animal de la basse-cour est souvent élevé pour ses œufs et sa viande, et est plus petit que le canard ?",
+    options: ["Poule", "Dinde", "Oie", "Pintade"],
+    answer: "Pintade"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel est le nom du petit de la chèvre ?",
+    options: ["Chevreau", "Veau", "Poussin", "Porcelet"],
+    answer: "Chevreau"
+  }
+];
+
+const questionsEspecesAnimales = [
+  {
+    numéro: "1/20",
+    question: "Quel type d'animal est un dauphin ?",
+    options: ["Mammifère", "Poisson", "Reptile", "Amphibien"],
+    answer: "Mammifère"
+  },
+  {
+    numéro: "2/20",
+    question: "À quelle classe appartient le serpent ?",
+    options: ["Reptile", "Mammifère", "Amphibien", "Oiseau"],
+    answer: "Reptile"
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est le plus grand crustacé vivant dans les océans ?",
+    options: ["Crabe araignée japonais", "Langouste", "Homard", "Écrevisse"],
+    answer: "Crabe araignée japonais"
+  },
+  {
+    numéro: "4/20",
+    question: "Quelle espèce d'oiseau est capable de voler à reculons ?",
+    options: ["Colibri", "Aigle", "Hirondelle", "Mouette"],
+    answer: "Colibri"
+  },
+  {
+    numéro: "5/20",
+    question: "À quelle espèce animale appartient le kangourou ?",
+    options: ["Marsupial", "Mammifère", "Reptile", "Amphibien"],
+    answer: "Marsupial"
+  },
+  {
+    numéro: "6/20",
+    question: "À quelle espèce animale appartient le calmar géant ?",
+    options: ["Mollusque", "Crustacé", "Poisson", "Échinoderme"],
+    answer: "Mollusque"
+  },
+  {
+    numéro: "7/20",
+    question: "À quelle espèce animale appartient le manchot empereur ?",
+    options: ["Oiseau", "Mammifère", "Reptile", "Amphibien"],
+    answer: "Oiseau"
+  },
+  {
+    numéro: "8/20",
+    question: "Quel est le nom de l'animal amphibien qui peut régénérer ses membres ?",
+    options: ["Salamandre", "Grenouille", "Triton", "Crapaud"],
+    answer: "Salamandre"
+  },
+  {
+    numéro: "9/20",
+    question: "À quelle espèce animale appartient la tarentule ?",
+    options: ["Arachnide", "Insecte", "Crustacé", "Mollusque"],
+    answer: "Arachnide"
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le plus grand oiseau du monde en termes d'envergure ?",
+    options: ["Albatros", "Condor", "Aigle royal", "Autruche"],
+    answer: "Albatros"
+  },
+  {
+    numéro: "11/20",
+    question: "Quel crustacé est connu pour sa capacité à régénérer ses membres perdus ?",
+    options: ["Crabe", "Homard", "Crevette", "Langoustine"],
+    answer: "Crabe"
+  },
+  {
+    numéro: "12/20",
+    question: "À quelle espèce animale appartient la méduse ?",
+    options: ["Cnidaire", "Mollusque", "Crustacé", "Poisson"],
+    answer: "Cnidaire"
+  },
+  {
+    numéro: "13/20",
+    question: "Quel insecte est connu pour sa danse en huit qui communique des informations sur la localisation de la nourriture ?",
+    options: ["Abeille", "Fourmi", "Papillon", "Moustique"],
+    answer: "Abeille"
+  },
+  {
+    numéro: "14/20",
+    question: "Quel est le régime alimentaire des kangourous ?",
+    options: ["Herbivore", "Carnivore", "Omnivore", "Insectivore"],
+    answer: "Herbivore"
+  },
+  {
+    numéro: "15/20",
+    question: "Quel est le régime alimentaire des renards ?",
+    options: ["Omnivore", "Carnivore", "Herbivore", "Insectivore"],
+    answer: "Omnivore"
+  },
+  {
+    numéro: "16/20",
+    question: "À quelle espèce animale appartient le triton ?",
+    options: ["Amphibien", "Reptile", "Poisson", "Mammifère"],
+    answer: "Amphibien"
+  },
+  {
+    numéro: "17/20",
+    question: "Quel oiseau est connu pour son mimétisme vocal exceptionnel, imitant les sons qu'il entend ?",
+    options: ["Loriot", "Perruche", "Mainate", "Rossignol"],
+    answer: "Mainate"
+  },
+  {
+    numéro: "18/20",
+    question: "À quelle espèce animale appartient la crevette ?",
+    options: ["Crustacé", "Mollusque", "Poisson", "Arachnide"],
+    answer: "Crustacé"
+  },
+  {
+    numéro: "19/20",
+    question: "Quel groupe d'animaux comprend les insectes, les arachnides, les crustacés et les myriapodes ?",
+    options: ["Invertébrés", "Vertébrés", "Mollusques", "Poissons"],
+    answer: "Invertébrés"
+  },
+  {
+    numéro: "20/20",
+    question: "Quel groupe d'animaux comprend les poissons, les amphibiens, les reptiles, les oiseaux et les mammifères ?",
+    options: ["Vertébrés", "Invertébrés", "Mollusques", "Crustacés"],
+    answer: "Vertébrés"
+  }
+];
+
+const questionsGeographie = [
+  {
+    numéro: "1/20",
+    question: "Quel est le plus grand pays du monde par superficie ?",
+    options: ["Russie", "Canada", "Chine", "États-Unis"],
+    answer: "Russie",
+  },
+  {
+    numéro: "2/20",
+    question: "Où se trouve le mont Everest, le plus haut sommet du monde ?",
+    options: ["Népal", "Inde", "Chine", "Bhoutan"],
+    answer: "Népal",
+  },
+  {
+    numéro: "3/20",
+    question: "Quel est le fleuve le plus long du monde ?",
+    options: ["Nil", "Amazone", "Yangzi Jiang", "Mississippi"],
+    answer: "Amazone",
+  },
+  {
+    numéro: "4/20",
+    question:
+      "Quel est le point le plus bas de la Terre, situé à environ 430 mètres sous le niveau de la mer ?",
+    options: [
+      "Mer Morte",
+      "Vallée de la Mort",
+      "Lac Assal",
+      "Fosse des Mariannes",
+    ],
+    answer: "Mer Morte",
+  },
+  {
+    numéro: "5/20",
+    question: "Quel pays est le plus grand producteur mondial de café ?",
+    options: ["Brésil", "Colombie", "Vietnam", "Indonésie"],
+    answer: "Brésil",
+  },
+  {
+    numéro: "6/20",
+    question: "Quel est le plus grand archipel du monde en nombre d'îles ?",
+    options: ["Indonésie", "Philippines", "Japon", "Maldives"],
+    answer: "Indonésie",
+  },
+  {
+    numéro: "7/20",
+    question: "Quel est le pays le plus peuplé d'Afrique ?",
+    options: [
+      "Nigeria",
+      "Égypte",
+      "Éthiopie",
+      "République Démocratique du Congo",
+    ],
+    answer: "Nigeria",
+  },
+  {
+    numéro: "8/20",
+    question: "Quelle est la plus haute montagne d'Afrique ?",
+    options: ["Mont Kilimandjaro", "Mont Kenya", "Mont Stanley", "Mont Elgon"],
+    answer: "Mont Kilimandjaro",
+  },
+  {
+    numéro: "9/20",
+    question: "Quel est le plus grand pays d'Amérique du Sud par superficie ?",
+    options: ["Brésil", "Argentine", "Colombie", "Pérou"],
+    answer: "Brésil",
+  },
+  {
+    numéro: "10/20",
+    question: "Quel est le plus grand lac d'eau douce en volume du monde ?",
+    options: ["lac Baïkal", "lac Supérieur", "lac Tanganyika", "lac Victoria"],
+    answer: "lac Baïkal",
+  },
+  {
+    numéro: "11/20",
+    question: "Quel pays a le plus grand nombre de langues officielles ?",
+    options: ["Afrique du Sud", "Inde", "Suisse", "Nouvelle-Zélande"],
+    answer: "Afrique du Sud",
+  },
+  {
+    numéro: "12/20",
+    question: "Dans quel océan se trouve l'île de Madagascar ?",
+    options: [
+      "Océan Indien",
+      "Océan Atlantique",
+      "Océan Pacifique",
+      "Océan Arctique",
+    ],
+    answer: "Océan Indien",
+  },
+  {
+    numéro: "13/20",
+    question: "Quelle est la capitale du Pérou ?",
+    options: ["Lima", "Cusco", "Arequipa", "Trujillo"],
+    answer: "Lima",
+  },
+  {
+    numéro: "14/20",
+    question: "Quelle est la plus haute cascade du monde ?",
+    options: [
+      "Salto Angel (Venezuela)",
+      "Niagara (États-Unis/Canada)",
+      "Victoria (Zimbabwe/Zambie)",
+      "Tugela (Afrique du Sud)",
+    ],
+    answer: "Salto Angel (Venezuela)",
+  },
+  {
+    numéro: "15/20",
+    question: "Quelle est la ville la plus peuplée d'Europe ?",
+    options: ["Moscou", "Londres", "Paris", "Berlin"],
+    answer: "Moscou",
+  },
+  {
+    numéro: "16/20",
+    question: "Quel est le plus grand désert chaud du monde ?",
+    options: ["Sahara", "Kalahari", "Arabie", "Gobi"],
+    answer: "Sahara",
+  },
+  {
+    numéro: "17/20",
+    question:
+      "Quel est le pays le plus grand exportateur de pétrole au monde ?",
+    options: ["Arabie Saoudite", "États-Unis", "Russie", "Canada"],
+    answer: "Arabie Saoudite",
+  },
+  {
+    numéro: "18/20",
+    question: "Quelle est la capitale de la Suède ?",
+    options: ["Stockholm", "Oslo", "Copenhague", "Helsinki"],
+    answer: "Stockholm",
+  },
+  {
+    numéro: "19/20",
+    question: "Dans quel pays se trouve la ville de Dubaï ?",
+    options: ["Émirats Arabes Unis", "Arabie Saoudite", "Qatar", "Koweït"],
+    answer: "Émirats Arabes Unis",
+  },
+  {
+    numéro: "20/20",
+    question:
+      "Quel est le plus long fleuve de France, s'étendant sur environ 1,012 kilomètres ?",
+    options: ["Loire", "Rhône", "Seine", "Garonne"],
+    answer: "Loire",
+  },
+];
+
+
 
 const questionsMathematiques = [
   {
@@ -6574,342 +9860,6 @@ const questionsBoissonsCocktail = [
   },
 ];
 
-const questionsAnnees80 = [
-  {
-    numéro: "1/20",
-    question:
-      "Quel artiste français a chanté 'Pour que tu m'aimes encore' en 1987, devenu un succès international ?",
-    options: [
-      "Jean-Jacques Goldman",
-      "Johnny Hallyday",
-      "Céline Dion",
-      "Francis Cabrel",
-    ],
-    answer: "Céline Dion",
-  },
-  {
-    numéro: "2/20",
-    question:
-      "Quelle chanson de Jeanne Mas est sortie en 1985, marquant son début dans la musique pop française ?",
-    options: [
-      "En rouge et noir",
-      "Toute première fois",
-      "Johnny, Johnny",
-      "Femmes d'aujourd'hui",
-    ],
-    answer: "Toute première fois",
-  },
-  {
-    numéro: "3/20",
-    question:
-      "Quel artiste a sorti l'album 'Thriller' en 1982, devenu l'album le plus vendu de tous les temps ?",
-    options: ["Prince", "Michael Jackson", "Madonna", "Bruce Springsteen"],
-    answer: "Michael Jackson",
-  },
-  {
-    numéro: "4/20",
-    question:
-      "Quel groupe a sorti 'Nuit de folie' en 1988, un tube de la musique dance française ?",
-    options: [
-      "Jean-Pierre Mader",
-      "Jean-Luc Lahaye",
-      "Début de Soirée",
-      "Gérard Blanc",
-    ],
-    answer: "Début de Soirée",
-  },
-  {
-    numéro: "5/20",
-    question:
-      "Quelle chanson de Mylène Farmer est sortie en 1986, marquant le début de sa carrière solo ?",
-    options: ["Désenchantée", "Libertine", "Sans contrefaçon", "Maman a tort"],
-    answer: "Libertine",
-  },
-  {
-    numéro: "6/20",
-    question:
-      "Quelle chanson de Michael Jackson est sortie en 1982, marquant le début de l'ère 'Thriller' ?",
-    options: ["Beat It", "Billie Jean", "Thriller", "Bad"],
-    answer: "Billie Jean",
-  },
-  {
-    numéro: "7/20",
-    question:
-      "Quel groupe a sorti la chanson 'Africa', devenue un hit mondial en 1982 ?",
-    options: ["Toto", "Boston", "Journey", "Foreigner"],
-    answer: "Toto",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Quel artiste a sorti l'album 'Purple Rain' en 1984, accompagné du film du même nom ?",
-    options: ["Prince", "David Bowie", "George Michael", "Elton John"],
-    answer: "Prince",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Quel groupe français a chanté 'Marcia Baila', une chanson devenue emblématique des années 80 ?",
-    options: ["Indochine", "Les Rita Mitsouko", "Téléphone", "Trust"],
-    answer: "Les Rita Mitsouko",
-  },
-  {
-    numéro: "10/20",
-    question:
-      "Quelle chanson de Jean-Jacques Goldman est sortie en 1985, un des nombreux succès de sa carrière ?",
-    options: [
-      "Quand la musique est bonne",
-      "Au bout de mes rêves",
-      "Je te promets",
-      "Envole-moi",
-    ],
-    answer: "Quand la musique est bonne",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Quelle chanson de Madonna est devenue un tube en 1984, propulsant sa carrière musicale ?",
-    options: [
-      "Like a Virgin",
-      "Material Girl",
-      "Into the Groove",
-      "Papa Don't Preach",
-    ],
-    answer: "Like a Virgin",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "Quelle chanson de Michel Berger a été popularisée en 1980, issue de la comédie musicale 'Starmania' ?",
-    options: [
-      "Chanter pour ceux qui sont loin de chez eux",
-      "Quelque chose de Tennessee",
-      "La groupie du pianiste",
-      "Les uns contre les autres",
-    ],
-    answer: "La groupie du pianiste",
-  },
-  {
-    numéro: "13/20",
-    question:
-      "Quelle chanteuse a sorti 'Girls Just Want to Have Fun' en 1983, un hymne des années 80 ?",
-    options: ["Cyndi Lauper", "Madonna", "Whitney Houston", "Tina Turner"],
-    answer: "Cyndi Lauper",
-  },
-  {
-    numéro: "14/20",
-    question:
-      "Quelle chanson de Jeanne Mas est sortie en 1985, marquant son début dans la musique pop française ?",
-    options: [
-      "En rouge et noir",
-      "Toute première fois",
-      "Johnny, Johnny",
-      "Femmes d'aujourd'hui",
-    ],
-    answer: "Toute première fois",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Quelle chanson du groupe U2 est sortie en 1987, devenant l'une de leurs plus grandes réussites ?",
-    options: [
-      "Sunday Bloody Sunday",
-      "With or Without You",
-      "Pride (In the Name of Love)",
-      "Where the Streets Have No Name",
-    ],
-    answer: "With or Without You",
-  },
-  {
-    numéro: "16/20",
-    question:
-      "Quel artiste français est connu pour la chanson 'Papa chanteur' sortie en 1982 ?",
-    options: [
-      "Jean-Pierre Mader",
-      "Jean-Luc Lahaye",
-      "Patrick Hernandez",
-      "Gérard Blanc",
-    ],
-    answer: "Jean-Luc Lahaye",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Quelle chanson de Mylène Farmer est sortie en 1987, marquant le début de sa carrière solo ?",
-    options: ["Désenchantée", "Libertine", "Sans contrefaçon", "Maman a tort"],
-    answer: "Sans contrefaçon",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quel duo français a chanté 'Les Démons de minuit', une chanson très populaire en 1986 ?",
-    options: ["Elsa et Glenn Medeiros", "Images", "Gold", "Cookie Dingler"],
-    answer: "Images",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quel artiste français a sorti 'Joe le taxi' en 1987, une chanson qui l'a propulsé sur la scène internationale ?",
-    options: ["Vanessa Paradis", "Patricia Kaas", "Lio", "Indra"],
-    answer: "Vanessa Paradis",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quelle chanson de Daniel Balavoine est sortie en 1983, peu de temps avant sa disparition tragique ?",
-    options: [
-      "Mon fils, ma bataille",
-      "Sauver l'amour",
-      "L'Aziza",
-      "Vivre ou survivre",
-    ],
-    answer: "L'Aziza",
-  },
-];
-
-const questionsInstruments = [
-  {
-    numéro: "1/20",
-    question:
-      "Quel instrument de musique est souvent associé à la musique classique indienne et se joue avec un archet ?",
-    options: ["Sitar", "Tabla", "Sarod", "Violon"],
-    answer: "Violon",
-  },
-  {
-    numéro: "2/20",
-    question:
-      "Quel est l'instrument de musique à cordes pincées le plus ancien, ayant des origines datant de plus de 3 000 ans en Perse ?",
-    options: ["Sitar", "Oud", "Luth", "Guitare"],
-    answer: "Luth",
-  },
-  {
-    numéro: "3/20",
-    question:
-      "À quelle famille d'instruments de musique appartient le saxophone ?",
-    options: ["Cordes", "Cuivres", "Bois", "Percussions"],
-    answer: "Cuivres",
-  },
-  {
-    numéro: "4/20",
-    question:
-      "Quel instrument de percussion africain est joué avec les mains et est traditionnellement fabriqué à partir d'un tronc d'arbre creusé et d'une peau de chèvre tendue ?",
-    options: ["Bongo", "Conga", "Djembé", "Timbales"],
-    answer: "Djembé",
-  },
-  {
-    numéro: "5/20",
-    question:
-      "Quel instrument a popularisé Jimi Hendrix, connu pour ses performances électriques et sa virtuosité ?",
-    options: ["Basse", "Batterie", "Guitare électrique", "Clarinette"],
-    answer: "Guitare électrique",
-  },
-  {
-    numéro: "6/20",
-    question:
-      "Quel instrument à vent est souvent utilisé dans les fanfares et est connu pour sa forme incurvée distinctive ?",
-    options: ["Saxophone", "Trompette", "Cor d'harmonie", "Tuba"],
-    answer: "Tuba",
-  },
-  {
-    numéro: "7/20",
-    question:
-      "Quel instrument à vent utilise un embout buccal et des clés pour produire des sons ?",
-    options: ["Trompette", "Saxophone", "Flûte traversière", "Clarinette"],
-    answer: "Clarinette",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Quel instrument à cordes pincées est originaire d'Hawaï et est souvent associé à la musique de l'île ?",
-    options: ["Ukulélé", "Banjo", "Mandoline", "Guitare"],
-    answer: "Ukulélé",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Quel instrument à cordes est couramment utilisé dans le bluegrass et possède quatre cordes accordées en quintes ?",
-    options: ["Violoncelle", "Mandoline", "Violon", "Banjo"],
-    answer: "Banjo",
-  },
-  {
-    numéro: "10/20",
-    question:
-      "Quel instrument électronique utilise un clavier et produit des sons synthétisés ?",
-    options: ["Synthétiseur", "Theremin", "Mellotron", "Orgue électrique"],
-    answer: "Synthétiseur",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Quel instrument de percussion est constitué de deux plaques métalliques qui s'entrechoquent pour produire des sons ?",
-    options: ["Glockenspiel", "Cymbales", "Xylophone", "Tambourin"],
-    answer: "Cymbales",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "Quel instrument à clavier a été inventé au XVIIIe siècle par Bartolomeo Cristofori à Florence, en Italie ?",
-    options: ["Clavecin", "Piano", "Orgue", "Accordéon"],
-    answer: "Piano",
-  },
-  {
-    numéro: "13/20",
-    question:
-      "Quel instrument à vent utilise une anche simple et est souvent associé à la musique classique et au jazz ?",
-    options: ["Flûte traversière", "Hautbois", "Clarinet", "Basson"],
-    answer: "Hautbois",
-  },
-  {
-    numéro: "14/20",
-    question:
-      "Quel instrument à cordes frottées est plus grand que le violon et plus petit que la contrebasse, souvent utilisé en musique classique pour jouer des lignes mélodiques et des parties d'accompagnement ?",
-    options: ["Violoncelle", "Alto", "Contrebasse", "Violon"],
-    answer: "Violoncelle",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Quel instrument à vent est souvent associé au jazz et se joue en utilisant une anche simple ou double ?",
-    options: ["Saxophone", "Trombone", "Trompette", "Cor"],
-    answer: "Saxophone",
-  },
-  {
-    numéro: "16/20",
-    question:
-      "Quel instrument à cordes est traditionnellement utilisé dans la musique flamenco et a un corps en forme de poire ?",
-    options: ["Guitare", "Mandoline", "Charango", "Laúd"],
-    answer: "Guitare",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Quel instrument de percussion peut être joué en frappant avec des baguettes, en utilisant des balais ou même avec les mains ?",
-    options: ["Marimba", "Tambour", "Cajón", "Batterie"],
-    answer: "Batterie",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quel instrument à vent en bambou est populaire dans la musique traditionnelle japonaise ?",
-    options: ["Shakuhachi", "Erhu", "Dizi", "Didgeridoo"],
-    answer: "Shakuhachi",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quel instrument à vent est souvent utilisé dans les orchestres symphoniques et utilise une embouchure et des pistons ?",
-    options: ["Trompette", "Tuba", "Cor d'harmonie", "Bugle"],
-    answer: "Trompette",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quel instrument de percussion brésilien est souvent associé à la samba et est joué avec des maillets ?",
-    options: ["Pandeiro", "Agogô", "Cuíca", "Surdo"],
-    answer: "Surdo",
-  },
-];
-
 const questionsNutritionSante = [
   {
     numéro: "1/20",
@@ -7455,2947 +10405,8 @@ const questionsFromages = [
   },
 ];
 
-const questionsPixar = [
-  {
-    numéro: "1/20",
-    question:
-      "Quel film Pixar met en scène des jouets qui prennent vie lorsque les humains ne sont pas présents ?",
-    options: ["Toy Story", "Monstres et Cie", "Cars", "Les Indestructibles"],
-    answer: "Toy Story",
-  },
-  {
-    numéro: "2/20",
-    question:
-      "Quel film Pixar raconte l'histoire d'un poisson clown qui se perd dans l'océan ?",
-    options: ["Le Monde de Nemo", "Wall-E", "Ratatouille", "Là-haut"],
-    answer: "Le Monde de Nemo",
-  },
-  {
-    numéro: "3/20",
-    question:
-      "Quel film Pixar met en avant des personnages émotions vivant dans la tête d'une jeune fille ?",
-    options: ["Vice-Versa", "Coco", "Les Indestructibles", "Brave"],
-    answer: "Vice-Versa",
-  },
-  {
-    numéro: "4/20",
-    question:
-      "Quel film Pixar se déroule dans un monde où les voitures sont des personnages anthropomorphes ?",
-    options: ["Cars", "Monstres Academy", "Ratatouille", "Le Monde de Dory"],
-    answer: "Cars",
-  },
-  {
-    numéro: "5/20",
-    question:
-      "Quel film Pixar met en scène des animaux qui mènent une double vie ?",
-    options: [
-      "La Vie Secrète des Animaux de Compagnie",
-      "Toy Story",
-      "Monstres et Cie",
-      "Là-haut",
-    ],
-    answer: "La Vie Secrète des Animaux de Compagnie",
-  },
-  {
-    numéro: "6/20",
-    question:
-      "Quel film Pixar présente un robot nettoyeur solitaire sur une Terre dévastée ?",
-    options: ["Wall-E", "Là-haut", "Coco", "Les Indestructibles"],
-    answer: "Wall-E",
-  },
-  {
-    numéro: "7/20",
-    question:
-      "Quel film Pixar raconte l'histoire d'un rat qui rêve de devenir chef cuisinier à Paris ?",
-    options: ["Ratatouille", "Le Monde de Nemo", "Monstres Academy", "Cars"],
-    answer: "Ratatouille",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Quel film Pixar suit les aventures de super-héros retirés forcés de reprendre du service ?",
-    options: ["Les Indestructibles", "Toy Story", "Vice-Versa", "Coco"],
-    answer: "Les Indestructibles",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Quel film Pixar raconte l'histoire d'un vieil homme et un jeune scout naviguant vers une destination exotique ?",
-    options: ["Là-haut", "Vice-Versa", "Rebelle", "Monstres et Cie"],
-    answer: "Là-haut",
-  },
-  {
-    numéro: "10/20",
-    question:
-      "Quel film Pixar raconte l'histoire d'une petite fourmi qui tente de sauver sa colonie en recrutant des guerriers ?",
-    options: ["1001 Pattes", "Le Monde de Nemo", "Cars", "Ratatouille"],
-    answer: "1001 Pattes",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Quel film Pixar met en scène un jeune musicien mexicain qui se retrouve dans le monde des morts ?",
-    options: ["Coco", "Vice-Versa", "Les Indestructibles", "Ratatouille"],
-    answer: "Coco",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "Quel film Pixar se déroule dans une ville où les habitants sont des éléments de la nature, comme le feu, l'eau, la terre et l'air ?",
-    options: [
-      "Élémentaire",
-      "Vice-Versa",
-      "Les Indestructibles",
-      "Monstres et Cie",
-    ],
-    answer: "Élémentaire",
-  },
-  {
-    numéro: "13/20",
-    question:
-      "Quel film Pixar met en avant une jeune princesse écossaise qui défie une tradition ancienne ?",
-    options: [
-      "Rebelle",
-      "Monstres Academy",
-      "Le Monde de Nemo",
-      "Les Indestructibles",
-    ],
-    answer: "Rebelle",
-  },
-  {
-    numéro: "14/20",
-    question:
-      "Quel film Pixar met en scène un jeune monstre effrayé par les enfants humains qui se retrouve dans un collège de monstres ?",
-    options: [
-      "Monstres Academy",
-      "Les Indestructibles",
-      "Toy Story",
-      "Là-haut",
-    ],
-    answer: "Monstres Academy",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Quel film Pixar met en scène une jeune fille qui découvre un passage secret menant à un monde fantastique ?",
-    options: ["Monstres et Cie", "Toy Story", "Là-haut", "Vice-Versa"],
-    answer: "Monstres et Cie",
-  },
-  {
-    numéro: "16/20",
-    question:
-      "Quel film Pixar raconte l'histoire de deux frères elfes qui partent en quête de magie pour ramener leur père à la vie ?",
-    options: ["En Avant", "Soul", "Luca", "Vice-Versa"],
-    answer: "En Avant",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Quel film Pixar se déroule dans un monde où les émotions d'un musicien de jazz sont mises à l'épreuve après un accident ?",
-    options: ["Soul", "Coco", "Rebelle", "Wall-E"],
-    answer: "Soul",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quel film Pixar raconte l'histoire d'un jeune garçon et de son ami qui vivent un été inoubliable en Italie, tout en cachant qu'ils sont en réalité des monstres marins ?",
-    options: ["Luca", "En Avant", "En avant", "Soul"],
-    answer: "Luca",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quel film Pixar raconte l'histoire d'un groupe de personnages de jeu vidéo qui découvrent l'importance de l'amitié ?",
-    options: [
-      "Les Mondes de Ralph",
-      "Les Indestructibles",
-      "Monstres et Cie",
-      "Toy Story",
-    ],
-    answer: "Les Mondes de Ralph",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quel film Pixar raconte l'histoire d'un poisson bleu souffrant de pertes de mémoire qui part à la recherche de sa famille ?",
-    options: ["Le Monde de Dory", "Le Monde de Nemo", "Ratatouille", "Là-haut"],
-    answer: "Le Monde de Dory",
-  },
-];
-
-const questionsTelerealite = [
-  {
-    numéro: "1/20",
-    question:
-      "Quelle émission de téléréalité met en scène un candidat cherchant l'amour parmi un groupe de prétendantes ou prétendants ?",
-    options: [
-      "Le Bachelor",
-      "Secret Story",
-      "Les Anges de la téléréalité",
-      "L'amour est dans le pré",
-    ],
-    answer: "Le Bachelor",
-  },
-  {
-    numéro: "2/20",
-    question:
-      "Quelle émission de téléréalité met en compétition des chefs cuisiniers amateurs ou professionnels pour remporter le titre de meilleur chef ?",
-    options: [
-      "Top Chef",
-      "MasterChef",
-      "Le Meilleur Pâtissier",
-      "La Cuisine des Mousquetaires",
-    ],
-    answer: "Top Chef",
-  },
-  {
-    numéro: "3/20",
-    question:
-      "Dans quelle émission de téléréalité des candidats doivent-ils survivre sur une île déserte en participant à des épreuves physiques et mentales ?",
-    options: [
-      "Koh-Lanta",
-      "Pékin Express",
-      "La Ferme Célébrités",
-      "Secret Story",
-    ],
-    answer: "Koh-Lanta",
-  },
-  {
-    numéro: "4/20",
-    question:
-      "Quelle émission de téléréalité suit des candidats qui doivent garder des secrets tout en essayant de découvrir ceux des autres ?",
-    options: [
-      "Secret Story",
-      "Les Anges de la téléréalité",
-      "Loft Story",
-      "La Maison des Secrets",
-    ],
-    answer: "Secret Story",
-  },
-  {
-    numéro: "5/20",
-    question:
-      "Quelle émission de téléréalité suit des agriculteurs cherchant l'amour parmi des prétendantes ou prétendants ?",
-    options: [
-      "L'amour est dans le pré",
-      "Le Bachelor",
-      "Les Anges de la téléréalité",
-      "Secret Story",
-    ],
-    answer: "L'amour est dans le pré",
-  },
-  {
-    numéro: "6/20",
-    question:
-      "Quelle émission de téléréalité met en compétition des chanteurs amateurs pour trouver la meilleure voix de France ?",
-    options: ["The Voice", "Star Academy", "Nouvelle Star", "Popstars"],
-    answer: "The Voice",
-  },
-  {
-    numéro: "7/20",
-    question:
-      "Quelle émission de téléréalité met en compétition des célébrités qui doivent apprendre à danser avec des partenaires professionnels ?",
-    options: [
-      "Danse avec les stars",
-      "The Voice",
-      "La Ferme Célébrités",
-      "Top Chef",
-    ],
-    answer: "Danse avec les stars",
-  },
-  {
-    numéro: "8/20",
-    question:
-      "Quelle émission de téléréalité met en compétition des pâtissiers amateurs pour remporter le titre de meilleur pâtissier ?",
-    options: [
-      "Le Meilleur Pâtissier",
-      "Top Chef",
-      "MasterChef",
-      "Les Rois du Gâteau",
-    ],
-    answer: "Le Meilleur Pâtissier",
-  },
-  {
-    numéro: "9/20",
-    question:
-      "Quelle émission de téléréalité suit des candidats qui parcourent le monde en équipe pour remporter un grand prix ?",
-    options: [
-      "Pékin Express",
-      "Koh-Lanta",
-      "The Amazing Race",
-      "La Carte aux Trésors",
-    ],
-    answer: "Pékin Express",
-  },
-  {
-    numéro: "10/20",
-    question:
-      "Quelle émission de téléréalité rassemble des célébrités dans une ferme où elles doivent s'occuper des animaux et des tâches agricoles ?",
-    options: [
-      "La Ferme Célébrités",
-      "Secret Story",
-      "Koh-Lanta",
-      "Pékin Express",
-    ],
-    answer: "La Ferme Célébrités",
-  },
-  {
-    numéro: "11/20",
-    question:
-      "Quelle émission de téléréalité suit la vie quotidienne de jeunes adultes en quête de célébrité et de succès ?",
-    options: [
-      "Les Anges de la téléréalité",
-      "Secret Story",
-      "Star Academy",
-      "Loft Story",
-    ],
-    answer: "Les Anges de la téléréalité",
-  },
-  {
-    numéro: "12/20",
-    question:
-      "Quelle émission de téléréalité suit des candidats qui doivent chanter devant un jury pour remporter un contrat d'enregistrement ?",
-    options: ["Star Academy", "Nouvelle Star", "The Voice", "Popstars"],
-    answer: "Star Academy",
-  },
-  {
-    numéro: "13/20",
-    question:
-      "Quelle émission de téléréalité met en scène des couples de futurs mariés qui évaluent leurs cérémonies de mariage respectives ?",
-    options: [
-      "4 Mariages pour une Lune de Miel",
-      "Mariés au Premier Regard",
-      "L'amour est dans le pré",
-      "La Robe de Ma Vie",
-    ],
-    answer: "4 Mariages pour une Lune de Miel",
-  },
-  {
-    numéro: "14/20",
-    question:
-      "Quelle émission de téléréalité met au défi deux familles lors d'un jeu?",
-    options: [
-      "Une Famille en Or",
-      "Les Marseillais",
-      "La Villa des Cœurs Brisés",
-      "Les Anges de la téléréalité",
-    ],
-    answer: "Une Famille en Or",
-  },
-  {
-    numéro: "15/20",
-    question:
-      "Quelle émission de téléréalité met en scène des candidats célibataires qui se marient sans s'être rencontrés auparavant ?",
-    options: [
-      "Mariés au Premier Regard",
-      "L'amour est dans le pré",
-      "Le Bachelor",
-      "4 Mariages pour une Lune de Miel",
-    ],
-    answer: "Mariés au Premier Regard",
-  },
-  {
-    numéro: "16/20",
-    question:
-      "Quelle émission de téléréalité met en compétition des candidats qui doivent organiser des dîners chez eux pour remporter un prix ?",
-    options: [
-      "Un Dîner Presque Parfait",
-      "Top Chef",
-      "Le Meilleur Pâtissier",
-      "MasterChef",
-    ],
-    answer: "Un Dîner Presque Parfait",
-  },
-  {
-    numéro: "17/20",
-    question:
-      "Quelle émission de téléréalité suit des candidats qui participent à des épreuves culinaires pour remporter un prix en argent et la reconnaissance de chefs célèbres ?",
-    options: [
-      "MasterChef",
-      "Top Chef",
-      "Le Meilleur Pâtissier",
-      "Cauchemar en Cuisine",
-    ],
-    answer: "MasterChef",
-  },
-  {
-    numéro: "18/20",
-    question:
-      "Quelle émission de téléréalité consiste à rénover et décorer des maisons avec l'aide d'une équipe de professionnels ?",
-    options: ["D&CO", "Maison à Vendre", "Rénovation Impossible", "Queer Eye"],
-    answer: "D&CO",
-  },
-  {
-    numéro: "19/20",
-    question:
-      "Quelle émission de téléréalité met en scène des célibataires qui cherchent l'amour sur une île tropicale ?",
-    options: [
-      "Love Island",
-      "Les Princes de l'Amour",
-      "L'île de la Tentation",
-      "Bachelor in Paradise",
-    ],
-    answer: "Love Island",
-  },
-  {
-    numéro: "20/20",
-    question:
-      "Quelle émission de téléréalité met en compétition des candidats qui doivent vendre une maison pour gagner ?",
-    options: ["Maison à Vendre", "D&CO", "Rénovation Impossible", "Queer Eye"],
-    answer: "Maison à Vendre",
-  },
-];
 
 
-const questionsComedies = [
-  {
-    numéro: "1/20",
-    question: "Quel film met en scène un groupe d'amis qui décide de partir en vacances au ski ensemble ?",
-    options: [
-      "Les Bronzés font du ski",
-      "Tout Schuss",
-      "Les petits flocons",
-      "La deuxième étoile",
-    ],
-    answer: "Les Bronzés font du ski",
-  },
-  {
-    numéro: "2/20",
-    question: "Quel film raconte l'histoire de trois personnes totalement opposées qui se retrouvent après la mort de leur mère et doivent respecter ses dernières volontés ?",
-    options: [
-      "Les 3 Frères",
-      "3 femmes",
-      "3 hommes et un couffin",
-      "La femme de mon pote",
-    ],
-    answer: "Les 3 Frères",
-  },
-  {
-    numéro: "3/20",
-    question: "Quel film met en scène des vacanciers dans un camping où les situations comiques s'enchaînent ?",
-    options: ["Camping", "Les Tuche", "Le paquet", "Camping-car"],
-    answer: "Camping",
-  },
-  {
-    numéro: "4/20",
-    question: "Quel film parodie les films d'horreur et d'action tout en mettant en avant l'humour absurde ?",
-    options: ["La Cité de la Peur", "Scary movie", "OSS 117", "Y a t'il un pilote dans l'avion?"],
-    answer: "La Cité de la Peur",
-  },
-  {
-    numéro: "5/20",
-    question: "Quel film raconte l'histoire d'une amitié entre un aristocrate paraplégique et son aide à domicile d'origine modeste ?",
-    options: [
-      "Intouchables",
-      "The artist",
-      "La doublure",
-      "L'amour sans préavis",
-    ],
-    answer: "Intouchables",
-  },
-  {
-    numéro: "6/20",
-    question: "Quel film se déroule dans le Nord de la France et met en scène un employé de bureau de poste muté malgré lui ?",
-    options: [
-      "Bienvenue chez les Ch'tis",
-      "La Vie d'Adèle",
-      "Les Tuches",
-      "La ch'tite famille",
-    ],
-    answer: "Bienvenue chez les Ch'tis",
-  },
-  {
-    numéro: "7/20",
-    question: "Quel film français met en scène deux beaux-frères qui parient d'arrêter de fumer pendant quinze jours ?",
-    options: [
-      "Le Pari",
-      "Les 3 Frères",
-      "Sous la Seine",
-      "L'arnaqueur",
-    ],
-    answer: "Le Pari",
-  },
-  {
-    numéro: "8/20",
-    question: "Quel film raconte l'histoire de quatre filles qui épousent des hommes de différentes origines ?",
-    options: [
-      "Qu'est-ce qu'on a fait au Bon Dieu ?",
-      "Les Filles du docteur March",
-      "4 filles et un jean",
-      "Telle mère telle fille",
-    ],
-    answer: "Qu'est-ce qu'on a fait au Bon Dieu ?",
-  },
-  {
-    numéro: "9/20",
-    question: "Quel film met en scène un pseudo surfeur qui part à la conquête des vagues du sud de la France ?",
-    options: [
-      "Brice de Nice",
-      "Point break",
-      "Les rois de la glisse",
-      "Blue crush",
-    ],
-    answer: "Brice de Nice",
-  },
-  {
-    numéro: "10/20",
-    question: "Quel film suit une équipe de chasseurs de fantômes essayant de sauver New York d'une invasion surnaturelle ?",
-    options: [
-      "SOS Fantômes",
-      "Fantôme et cie",
-      "Casper",
-      "Le manoir hanté",
-    ],
-    answer: "SOS Fantômes",
-  },
-  {
-    numéro: "11/20",
-    question: "Quel film raconte l'histoire d'un chevalier du Moyen Âge transporté accidentellement à l'époque moderne ?",
-    options: [
-      "Les Visiteurs",
-      "Les chevaliers du ciel",
-      "Le dernier des templiers",
-      "Lancelot",
-    ],
-    answer: "Les Visiteurs",
-  },
-  {
-    numéro: "12/20",
-    question: "Quel film met en scène une famille modeste qui gagne une fortune à la loterie ?",
-    options: [
-      "Les Tuches",
-      "La famille Bélier",
-      "Heureux gagnants",
-      "Ah! Si j'étais riche",
-    ],
-    answer: "Les Tuches",
-  },
-  {
-    numéro: "13/20",
-    question: "Quel film  suit les aventures d'un chauffeur marseillais aux côtés d'un policier parisien ?",
-    options: [
-      "Taxi",
-      "Le transporteur",
-      "Fast and furious",
-      "Drive my car",
-    ],
-    answer: "Taxi",
-  },
-  {
-    numéro: "14/20",
-    question: "Quel film met en scène les aventures délirantes de gaulois en Égypte antique ?",
-    options: [
-      "Astérix et Obélix mission Cléopâtre",
-      "Astérix et Obélix: le domaine des dieux",
-      "Astérix et Obélix aux jeux Olympiques",
-      "Astérix et Obélix au service de sa majesté",
-    ],
-    answer: "Astérix et Obélix mission Cléopâtre",
-  },
-  {
-    numéro: "15/20",
-    question: "Quel film suit un groupe d'amis qui partent à Las Vegas pour fêter un enterrement de vie de garçon et se retrouvent dans des situations délirantes ?",
-    options: [
-      "Very Bad Trip",
-      "American Pie",
-      "Casino",
-      "Jackpot",
-    ],
-    answer: "Very Bad Trip",
-  },
-  {
-    numéro: "16/20",
-    question: "Quel film raconte l'histoire d'une jeune femme obnubilée par la taille de ses fesses, qui s'invente une histoire d'amour avec un chirurgien brésilien pour échapper à la pression familiale ?",
-    options: [
-      "Joséphine",
-      "Le fabuleux destin d'Amelie Poulain",
-      "Le Journal de Bridget Jones",
-      "Vilaine",
-    ],
-    answer: "Joséphine",
-  },
-  {
-    numéro: "17/20",
-    question: "Quel film met en scène un couple en crise qui voit sa vie chamboulée par l'arrivée de Marijo ?",
-    options: [
-      "Gazon Maudit",
-      "La leçon de piano",
-      "L'auberge espagnole",
-      "American Beauty",
-    ],
-    answer: "Gazon Maudit",
-  },
-  {
-    numéro: "18/20",
-    question: "Quel film raconte l'histoire d'une vieille dame acariâtre qui terrorise son entourage ?",
-    options: [
-      "Tatie Danielle",
-      "Maison de retraite",
-      "Et si on vivait tous ensemble?",
-      "Joyeuse retraite",
-    ],
-    answer: "Tatie Danielle",
-  },
-  {
-    numéro: "19/20",
-    question: "Quel film met en scène un critique gastronomique victime d'agueusie et luttant pour conserver son statut ?",
-    options: [
-      "L'aile ou la cuisse",
-      "A vif !",
-      "Julie et Julia",
-      "Le grand restaurant",
-    ],
-    answer: "L'aile ou la cuisse",
-  },
-  {
-    numéro: "20/20",
-    question: "Quel film raconte les aventures loufoques de lycéens en quête de perdre leur virginité avant la fin de leurs études ?",
-    options: [
-      "American Pie",
-      "Projet X",
-      "LOL",
-      "Nos jours heureux",
-    ],
-    answer: "American Pie",
-  },
-];
-
-const questionsBricolage = [
-  {
-    numéro: "1/20",
-    question: "Quel outil est principalement utilisé pour percer des trous dans le bois ou d'autres matériaux ?",
-    options: ["Perceuse", "Tournevis", "Marteau", "Scie"],
-    answer: "Perceuse"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel type de clé est utilisé pour serrer ou desserrer des boulons et des écrous ?",
-    options: ["Clé à molette", "Clé à pipe", "Clé Allen", "Clé plate"],
-    answer: "Clé à molette"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel outil est utilisé pour couper des matériaux tels que le bois, le métal ou le plastique ?",
-    options: ["Scie", "Pince coupante", "Marteau", "Perceuse"],
-    answer: "Scie"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel est l'outil principal pour mesurer des longueurs et des dimensions précises ?",
-    options: ["Mètre ruban", "Niveau à bulle", "Équerre", "Compas"],
-    answer: "Mètre ruban"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel outil est utilisé pour fixer deux pièces de bois ensemble à l'aide de vis ou de clous ?",
-    options: ["Perceuse-visseuse", "Marteau", "Tournevis", "Colle"],
-    answer: "Perceuse-visseuse"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel est l'outil idéal pour lisser et polir des surfaces de bois ?",
-    options: ["Ponceuse", "Scie sauteuse", "Défonceuse", "Ciseaux à bois"],
-    answer: "Ponceuse"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel type de clou est le plus souvent utilisé pour fixer des objets légers sur des murs en plaques de plâtre ?",
-    options: ["Clou à tête plate", "Clou à tête d'homme", "Clou à tête d'as", "Clou à tête tronquée"],
-    answer: "Clou à tête d'homme"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel outil est utilisé pour serrer ou desserrer des écrous dans des endroits difficiles d'accès avec une grande force de levier ?",
-    options: ["Clé à pipe", "Marteau", "Tournevis", "Cliquet"],
-    answer: "Clé à pipe"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel est l'outil indispensable pour mesurer l'angle droit entre deux surfaces ?",
-    options: ["Équerre", "Compas", "Rapporteur", "Niveau à bulle"],
-    answer: "Équerre"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel outil est utilisé pour appliquer de la peinture sur une surface de manière uniforme ?",
-    options: ["Pinceau", "Rouleau", "Pistolet à peinture", "Éponge"],
-    answer: "Rouleau"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel outil est utilisé pour enfoncer des clous ou frapper des surfaces dures pour les ajuster ?",
-    options: ["Marteau", "Tournevis", "Cliquet", "Clé à pipe"],
-    answer: "Marteau"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel outil est utilisé pour lisser les bords d'une pièce de bois après la coupe ?",
-    options: ["Rabot", "Scie sauteuse", "Défonceuse", "Ponceuse"],
-    answer: "Rabot"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel outil est utilisé pour fixer des objets lourds sur des surfaces creuses comme les cloisons sèches ?",
-    options: ["Pince à cheville Molly", "Tournevis", "Marteau", "Cliquet"],
-    answer: "Pince à cheville Molly"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel outil est utilisé pour enlever la rouille ou la peinture d'une surface métallique ?",
-    options: ["Ponceuse à bande", "Brosse métallique", "Décapant chimique", "Tournevis"],
-    answer: "Brosse métallique"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel est l'outil utilisé pour couper des cercles parfaits dans le bois ou le métal ?",
-    options: ["Scie cloche", "Fraiseuse", "Ponceuse à bande", "Étau"],
-    answer: "Scie cloche"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel est l'outil indispensable pour mesurer la verticalité ou l'horizontalité d'une surface ?",
-    options: ["Niveau à bulle", "Équerre", "Mètre ruban", "Rapporteur"],
-    answer: "Niveau à bulle"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel outil est utilisé pour couper des matériaux épais comme le métal ou le PVC ?",
-    options: ["Scie à métaux", "Scie circulaire", "Scie sauteuse", "Scie à onglet"],
-    answer: "Scie à métaux"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel est l'outil utilisé pour maintenir fermement des pièces de bois pendant leur collage ou leur assemblage ?",
-    options: ["Étau", "Serre-joint", "Pince à ressort", "Colle à bois"],
-    answer: "Serre-joint"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel outil est utilisé pour serrer ou desserrer des écrous et des boulons à l'aide de douilles interchangeables ?",
-    options: ["Cliquet", "Tournevis", "Marteau", "Pince à cheville Molly"],
-    answer: "Cliquet"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel dispositif est utilisé pour maintenir une pièce de bois ou de métal pendant qu'on la travaille ?",
-    options: ["Étau", "Serre-joint", "Équerre", "Pince"],
-    answer: "Étau"
-  }
-];
-
-const questionsTennis = [
-  {
-    numéro: "1/20",
-    question: "Qui est le joueur de tennis suisse qui a remporté 20 titres du Grand Chelem en simple masculin ?",
-    options: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Andy Murray"],
-    answer: "Roger Federer"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel tournoi du Grand Chelem se joue sur gazon au Royaume-Uni chaque année en juin/juillet ?",
-    options: ["Wimbledon", "Roland Garros", "US Open", "Open d'Australie"],
-    answer: "Wimbledon"
-  },
-  {
-    numéro: "3/20",
-    question: "Qui est le joueur de tennis espagnol surnommé 'Rafa' qui a remporté 21 titres du Grand Chelem en simple masculin ?",
-    options: ["Rafael Nadal", "Roger Federer", "Novak Djokovic", "Andy Murray"],
-    answer: "Rafael Nadal"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel tournoi du Grand Chelem se joue sur dur à New York chaque année en août/septembre ?",
-    options: ["US Open", "Roland Garros", "Wimbledon", "Australian Open"],
-    answer: "US Open"
-  },
-  {
-    numéro: "5/20",
-    question: "Qui est le joueur de tennis serbe surnommé 'Nole' qui a remporté 20 titres du Grand Chelem en simple masculin ?",
-    options: ["Novak Djokovic", "Roger Federer", "Rafael Nadal", "Andy Murray"],
-    answer: "Novak Djokovic"
-  },
-  {
-    numéro: "6/20",
-    question: "Quelle joueuse de tennis américaine a remporté 23 titres du Grand Chelem en simple féminin, un record dans l'ère Open ?",
-    options: ["Serena Williams", "Venus Williams", "Maria Sharapova", "Simona Halep"],
-    answer: "Serena Williams"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel joueur de tennis français, surnommé 'La Monf', est connu pour son style de jeu flamboyant et a atteint les demi-finales de l'US Open en 2008 ?",
-    options: ["Gaël Monfils", "Jo-Wilfried Tsonga", "Richard Gasquet", "Lucas Pouille"],
-    answer: "Gaël Monfils"
-  },
-  {
-    numéro: "8/20",
-    question: "Quelle joueuse de tennis allemande a remporté Wimbledon à deux reprises, en 1988 et 1989, et a été numéro un mondiale ?",
-    options: ["Steffi Graf", "Martina Navratilova", "Monica Seles", "Serena Williams"],
-    answer: "Steffi Graf"
-  },
-  {
-    numéro: "9/20",
-    question: "Quelle joueuse de tennis américaine a remporté Wimbledon à cinq reprises entre 2000 et 2008, ainsi que l'US Open et l'Open d'Australie ?",
-    options: ["Venus Williams", "Serena Williams", "Maria Sharapova", "Justine Henin"],
-    answer: "Venus Williams"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel joueur de tennis américain, surnommé 'Pistol Pete', a remporté 14 titres du Grand Chelem en simple masculin dans les années 1990 ?",
-    options: ["Pete Sampras", "Andre Agassi", "Jim Courier", "Michael Chang"],
-    answer: "Pete Sampras"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel est le nom du type de surface de tennis le plus rapide ?",
-    options: ["Gazon", "Terre battue", "Dur", "Moquette"],
-    answer: "Gazon"
-  },
-  {
-    numéro: "12/20",
-    question: "Combien de points un joueur doit-il gagner pour remporter un tie-break dans un set de tennis ?",
-    options: ["7", "10", "12", "15"],
-    answer: "7"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel est le nom du type de surface de tennis le plus lent ?",
-    options: ["Terre battue", "Gazon", "Dur", "Moquette"],
-    answer: "Terre battue"
-  },
-  {
-    numéro: "14/20",
-    question: "À quelle distance le filet est-il placé au-dessus du sol dans un court de tennis réglementaire ?",
-    options: ["91,4 cm", "106,7 cm", "121,9 cm", "137,2 cm"],
-    answer: "91,4 cm"
-  },
-  {
-    numéro: "15/20",
-    question: "À quel âge minimum peut-on participer au tournoi junior de Roland Garros ?",
-    options: ["11 ans", "12 ans", "13 ans", "14 ans"],
-    answer: "11 ans"
-  },
-  {
-    numéro: "16/20",
-    question: "Quelle joueuse de tennis française a remporté l'Open d'Australie en 2006 et Wimbledon en 2006, devenant la première Française depuis 1967 à atteindre la première place mondiale ?",
-    options: ["Marion Bartoli", "Amélie Mauresmo", "Mary Pierce", "Nathalie Tauziat"],
-    answer: "Amélie Mauresmo"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel joueur de tennis américain est connu pour son style flamboyant sur le court, ses tenues excentriques et ses remarquables succès dans les années 90 ?",
-    options: ["John McEnroe", "Jimmy Connors", "André Agassi", "Pete Sampras"],
-    answer: "André Agassi"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel joueur de tennis français, également chanteur à succès, a mené l'équipe de France à la victoire en Coupe Davis en 1991 ?",
-    options: ["Guy Forget", "Yannick Noah", "Henri Leconte", "Cédric Pioline"],
-    answer: "Yannick Noah"
-  },
-  {
-    numéro: "19/20",
-    question: "En quelle année a eu lieu la première édition du tournoi de Roland Garros ?",
-    options: ["1910", "1925", "1891", "1905"],
-    answer: "1891"
-  },
-  {
-    numéro: "20/20",
-    question: "Quelle joueuse de tennis française a remporté six titres à Roland Garros dans les années 1920 ?",
-    options: ["Suzanne Lenglen", "Simone Mathieu", "Françoise Dürr", "Amélie Mauresmo"],
-    answer: "Suzanne Lenglen"
-  }
-];
-
-const questionsInstrumentsCorde = [
-  {
-    numéro: "1/20",
-    question: "Quel instrument à corde est souvent utilisé dans la musique classique et possède quatre cordes ?",
-    options: ["Violon", "Guitare", "Harpe", "Banjo"],
-    answer: "Violon"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel instrument à corde a été popularisé par des musiciens comme Jimi Hendrix et Eric Clapton ?",
-    options: ["Guitare électrique", "Contrebasse", "Mandoline", "Luth"],
-    answer: "Guitare électrique"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel instrument à corde est associé au style de musique flamenco ?",
-    options: ["Guitare espagnole", "Violoncelle", "Harpe", "Sitar"],
-    answer: "Guitare espagnole"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel instrument à corde possède 88 touches et est largement utilisé dans la musique classique et jazz ?",
-    options: ["Piano", "Clavecin", "Cithare", "Bouzouki"],
-    answer: "Piano"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel instrument à corde est traditionnellement utilisé dans la musique folk irlandaise ?",
-    options: ["Violoncelle", "Guitare acoustique", "Banjo", "Bouzouki"],
-    answer: "Bouzouki"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel instrument à corde possède 47 cordes et est souvent joué dans les orchestres symphoniques ?",
-    options: ["Harpe", "Mandoline", "Violon", "Guitare"],
-    answer: "Harpe"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel instrument à corde a été utilisé par Niccolò Paganini, un célèbre virtuose du 19ème siècle ?",
-    options: ["Violoncelle", "Guitare", "Violon", "Luth"],
-    answer: "Violon"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel instrument à corde est connu pour son utilisation dans la musique bluegrass ?",
-    options: ["Banjo", "Harpe", "Sitar", "Clavecin"],
-    answer: "Banjo"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel instrument à corde, similaire à un luth, est utilisé dans la musique baroque ?",
-    options: ["Théorbe", "Mandoline", "Guitare", "Violon"],
-    answer: "Théorbe"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel instrument à corde d'origine indienne est souvent associé à la musique de Ravi Shankar ?",
-    options: ["Sitar", "Tambura", "Sarod", "Veena"],
-    answer: "Sitar"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel instrument à corde est un membre plus grand de la famille des violons et est joué entre les genoux ?",
-    options: ["Violoncelle", "Violon", "Alto", "Contrebasse"],
-    answer: "Violoncelle"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel instrument à corde est utilisé dans la musique traditionnelle japonaise ?",
-    options: ["Koto", "Guzheng", "Sitar", "Banjo"],
-    answer: "Koto"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel instrument à corde a été popularisé par les Beatles, notamment George Harrison ?",
-    options: ["Sitar", "Guitare", "Mandoline", "Banjo"],
-    answer: "Sitar"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel instrument à corde, souvent utilisé dans le jazz, a une caisse de résonance en forme de huit ?",
-    options: ["Guitare acoustique", "Guitare électrique", "Mandoline", "Ukulélé"],
-    answer: "Guitare acoustique"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel instrument à corde est typique de la musique hawaïenne ?",
-    options: ["Ukulélé", "Banjo", "Harpe", "Violon"],
-    answer: "Ukulélé"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel instrument à corde est le plus grand membre de la famille des violons ?",
-    options: ["Contrebasse", "Violoncelle", "Alto", "Violon"],
-    answer: "Contrebasse"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel instrument à corde est couramment utilisé dans les orchestres symphoniques et a quatre cordes ?",
-    options: ["Alto", "Banjo", "Mandoline", "Ukulélé"],
-    answer: "Alto"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel instrument à corde est souvent utilisé dans la musique country américaine ?",
-    options: ["Guitare acoustique", "Harpe", "Violon", "Banjo"],
-    answer: "Banjo"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel instrument à corde est connu pour ses sonorités riches et profondes, et est souvent utilisé dans la musique de chambre ?",
-    options: ["Violoncelle", "Violon", "Alto", "Contrebasse"],
-    answer: "Violoncelle"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel instrument à corde a été inventé par les anciens Grecs et est considéré comme l'ancêtre de la guitare ?",
-    options: ["Luth", "Lyre", "Harpe", "Mandoline"],
-    answer: "Lyre"
-  }
-];
-
-const questionsAnimauxDisney = [
-  {
-    numéro: "1/20",
-    question: "Quel animal est Sid dans le film 'l'âge de glace' ?",
-    options: ["Paresseux", "Suricate", "Ecureuil", "Mangouste"],
-    answer: "Paresseux"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel type d'animal est Bambi ?",
-    options: ["Cerf", "Lapin", "Renard", "Ours"],
-    answer: "Cerf"
-  },
-  {
-    numéro: "3/20",
-    question: "Comment s'appelle le cheval dans 'Raiponce' ?",
-    options: ["Maximus", "Philippe", "Pegasus", "Achilles"],
-    answer: "Maximus"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel animal est Baloo dans 'Le Livre de la jungle' ?",
-    options: ["Ours", "Tigre", "Panthère", "Éléphant"],
-    answer: "Ours"
-  },
-  {
-    numéro: "5/20",
-    question: "Comment s'appelle le chien de Mickey Mouse ?",
-    options: ["Pluto", "Dingo", "Max", "Goofy"],
-    answer: "Pluto"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel type d'animal est Abu dans 'Aladdin' ?",
-    options: ["Singe", "Perroquet", "Tigre", "Chameau"],
-    answer: "Singe"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel animal est Shere Khan dans 'Le Livre de la jungle' ?",
-    options: ["Tigre", "Panthère", "Ours", "Serpent"],
-    answer: "Tigre"
-  },
-  {
-    numéro: "8/20",
-    question: "Dans 'La Belle et le Clochard', quel type de chien est Clochard ?",
-    options: ["Chien bâtard", "Cocker Spaniel", "Dalmatien", "Caniche"],
-    answer: "Chien bâtard"
-  },
-  {
-    numéro: "9/20",
-    question: "Comment s'appelle le chat de Cendrillon ?",
-    options: ["Lucifer", "Figaro", "Oliver", "Tom"],
-    answer: "Lucifer"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel animal est Rafiki dans 'Le Roi Lion' ?",
-    options: ["Mandrill", "Lion", "Babouin", "Girafe"],
-    answer: "Mandrill"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel type d'animal est Pégase dans 'Hercules' ?",
-    options: ["Cheval ailé", "Chèvre", "Lion", "Chien"],
-    answer: "Cheval ailé"
-  },
-  {
-    numéro: "12/20",
-    question: "Comment s'appelle le chat de Geppetto dans 'Pinocchio' ?",
-    options: ["Figaro", "Lucifer", "Oliver", "Tom"],
-    answer: "Figaro"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel type d'animal est Sébastien dans 'La Petite Sirène' ?",
-    options: ["Crabe", "Poisson", "Homard", "Crevette"],
-    answer: "Crabe"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel animal est Robin des Bois dans le film Disney du même nom ?",
-    options: ["Renard", "Ours", "Lion", "Lapin"],
-    answer: "Renard"
-  },
-  {
-    numéro: "15/20",
-    question: "Comment s'appelle le dragon gardien dans 'Mulan' ?",
-    options: ["Mushu", "Khan", "Shan Yu", "Cri-Kee"],
-    answer: "Mushu"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel animal est le personnage principal dans 'Zootopie' qui est un officier de police ?",
-    options: ["Lapin", "Renard", "Tigre", "Éléphant"],
-    answer: "Lapin"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel animal est Bagheera dans 'Le Livre de la jungle' ?",
-    options: ["Panthère", "Tigre", "Ours", "Loup"],
-    answer: "Panthère"
-  },
-  {
-    numéro: "18/20",
-    question: "Comment s'appelle le renard arnaqueur dans 'Zootopie' ?",
-    options: ["Nick Wilde", "Judy Hopps", "Finnick", "Chief Bogo"],
-    answer: "Nick Wilde"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel type d'animal est utilisé comme maillet dans le croquet de la Reine de Cœur dans 'Alice au Pays des Merveilles' ?",
-    options: ["Flamant rose", "Hérisson", "Lapin", "Chat"],
-    answer: "Flamant rose"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel type d'animal est Pumbaa dans 'Le Roi Lion' ?",
-    options: ["Phacochère", "Lion", "Hyène", "Suricate"],
-    answer: "Phacochère"
-  }
-];
-
-const questionsMechantsDisney = [
-  {
-    numéro: "1/20",
-    question: "Quel est le nom du méchant dans 'La Petite Sirène' ?",
-    options: ["Ursula", "Joanna", "L'Hydre", "Gazeem"],
-    answer: "Ursula"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel méchant veut la peau de 101 dalmatiens ?",
-    options: ["Cruella d'Enfer", "Jafar", "Helga Sinclair", "Gaston"],
-    answer: "Cruella d'Enfer"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel méchant utilise une pomme empoisonnée pour endormir Blanche-Neige ?",
-    options: ["La Reine", "Maléfique", "Jafar", "Hades"],
-    answer: "La Reine"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel méchant est un capitaine pirate dans 'Peter Pan' ?",
-    options: ["Capitaine Crochet", "Denahi", "Monsieur La Lorgnette", "Jafar"],
-    answer: "Capitaine Crochet"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel méchant est un sorcier qui veut devenir Sultan dans 'Aladdin' ?",
-    options: ["Jafar", "Wesley", "Ursula", "Hadès"],
-    answer: "Jafar"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel est le nom du lion qui tue Mufasa dans 'Le Roi Lion' ?",
-    options: ["Scar", "Jafar", "Hadès", "Gaston"],
-    answer: "Scar"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel méchant est la fée maléfique qui maudit Aurore dans 'La Belle au bois dormant' ?",
-    options: ["Maléfique", "Ursula", "Cruella", "Goosey Loosey"],
-    answer: "Maléfique"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel méchant est le dieu des Enfers dans 'Hercule' ?",
-    options: ["Hadès", "Les Ombres Démoniaques", "Lawrence", "Gaston"],
-    answer: "Hadès"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel méchant veut chasser la Bête pour prouver son courage dans 'La Belle et la Bête' ?",
-    options: ["Gaston", "Jafar", "Scar", "Hadès"],
-    answer: "Gaston"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel méchant veut prendre le trône d'Arendelle dans 'La Reine des Neiges' ?",
-    options: ["Doug", "Hans", "Michel", "Le Roi Magnifico"],
-    answer: "Hans"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel méchant a une cicatrice en forme de tête de mort sur son visage dans 'Le Bossu de Notre-Dame' ?",
-    options: ["Claude Frollo", "Yokai", "Hadès", "Capitaine Crochet"],
-    answer: "Claude Frollo"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel méchant transforme des princes en grenouilles dans 'La Princesse et la Grenouille' ?",
-    options: ["Dr. Facilier", "Jafar", "Scar", "Hadès"],
-    answer: "Dr. Facilier"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel duo de méchants siamois provoque des problèmes pour Lady dans 'La Belle et le Clochard' ?",
-    options: ["Si et Am", "Anastasie et Javotte", "Flotsam et Jetsam", "Shenzi et Banzai"],
-    answer: "Si et Am"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel méchant est une mère adoptive abusive dans 'Raiponce' ?",
-    options: ["Mère Gothel", "Ursula", "Helga Sinclair", "Namaari"],
-    answer: "Mère Gothel"
-  },
-  {
-    numéro: "15/20",
-    question: "Dans quel film Disney le Prince Jean est-il le principal antagoniste ?",
-    options: ["Robin des Bois", "La Belle au Bois Dormant", "Le Livre de la Jungle", "Cendrillon"],
-    answer: "Robin des Bois"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel méchant en a après les souris dans 'Cendrillon' ?",
-    options: ["Lucifer", "Diablo", "Scar", "Kaa"],
-    answer: "Lucifer"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel méchant est une marâtre cruelle dans 'Cendrillon' ?",
-    options: ["Lady Tremaine", "Tante Sarah", "Maléfique", "Mère Gothel"],
-    answer: "Lady Tremaine"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel méchant est le chef du trio de hyènes dans 'Le Roi Lion' ?",
-    options: ["Shenzi", "Jafar", "Banzaï", "Demon"],
-    answer: "Shenzi"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel méchant est un empereur cruel dans 'Kuzco, l'empereur mégalo' ?",
-    options: ["Yzma", "Yzmo", "Zéphir", "Gargamel"],
-    answer: "Yzma"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel méchant transforme des humains en ânes dans 'Pinocchio' ?",
-    options: ["Le cochet", "Grand coquin", "Gédéon", "Stromboli "],
-    answer: "Le cochet"
-  }
-];
-
-const questionsDisneylandParis = [
-  {
-    numéro: "1/20",
-    question: "En quelle année le parc Disneyland Paris a-t-il ouvert ses portes ?",
-    options: ["1992", "1985", "2000", "1995"],
-    answer: "1992"
-  },
-  {
-    numéro: "2/20",
-    question: "Comment s'appelle le château emblématique du parc Disneyland Paris ?",
-    options: ["Le Château de la Belle au Bois Dormant", "Le Château de Cendrillon", "Le Château de Blanche-Neige", "Le Château de la Bête"],
-    answer: "Le Château de la Belle au Bois Dormant"
-  },
-  {
-    numéro: "3/20",
-    question: "Combien de parcs à thèmes composent Disneyland Paris ?",
-    options: ["2", "3", "1", "4"],
-    answer: "2"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel est le nom du second parc à thème de Disneyland Paris, ouvert en 2002 ?",
-    options: ["Walt Disney Studios", "Magic Kingdom", "Epcot", "Animal Kingdom"],
-    answer: "Walt Disney Studios"
-  },
-  {
-    numéro: "5/20",
-    question: "Comment s'appelle la célèbre attraction de type montagnes russes enfermées située dans Discoveryland ?",
-    options: ["Space Mountain", "Big Thunder Mountain", "Indiana Jones et le Temple du Péril", "Rock 'n' Roller Coaster"],
-    answer: "Space Mountain"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel est le nom du quartier où se trouve le galion des pirates dans le parc Disneyland Paris ?",
-    options: ["Adventureland", "Fantasyland", "Frontierland", "Discoveryland"],
-    answer: "Adventureland"
-  },
-  {
-    numéro: "7/20",
-    question: "Quelle attraction emblématique permet de faire un tour en bateau à travers le monde des poupées animées ?",
-    options: ["It's a Small World", "Pirates of the Caribbean", "Peter Pan's Flight", "The Jungle Cruise"],
-    answer: "It's a Small World"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel spectacle nocturne utilise des projections, des feux d'artifice et des fontaines sur le château ?",
-    options: ["Disney Illuminations", "Fantasmic!", "World of Color", "Happily Ever After"],
-    answer: "Disney Illuminations"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel hôtel de Disneyland Paris est directement situé à l'entrée du parc Disneyland ?",
-    options: ["Disneyland Hotel", "Hotel New York", "Hotel Cheyenne", "Hotel Santa Fe"],
-    answer: "Disneyland Hotel"
-  },
-  {
-    numéro: "10/20",
-    question: "Quelle attraction de Disneyland Paris est inspirée du film 'Indiana Jones' ?",
-    options: ["Indiana Jones et le Temple du Péril", "Pirates of the Caribbean", "The Twilight Zone Tower of Terror", "Big Thunder Mountain"],
-    answer: "Indiana Jones et le Temple du Péril"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel parc de Disneyland Paris contient l'attraction 'Ratatouille : L'Aventure Totalement Toquée de Rémy' ?",
-    options: ["Walt Disney Studios", "Magic Kingdom", "Disneyland Park", "Animal Kingdom"],
-    answer: "Walt Disney Studios"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel est le nom de la zone thématique dédiée à Toy Story dans Walt Disney Studios ?",
-    options: ["Toy Story Playland", "Toy Story Land", "Pixar Pier", "Andy’s Backyard"],
-    answer: "Toy Story Playland"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel spectacle acrobatique se déroule dans l'amphithéâtre de Frontierland ?",
-    options: ["The Lion King: Rhythms of the Pride Lands", "Mickey's PhilharMagic", "Frozen: A Musical Invitation", "Mickey and the Magician"],
-    answer: "The Lion King: Rhythms of the Pride Lands"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel est le nom de l'attraction où les visiteurs peuvent rencontrer leurs personnages Disney préférés dans Disneyland Park ?",
-    options: ["Meet Mickey Mouse", "Princess Pavilion", "Character Meet and Greet", "Starport"],
-    answer: "Meet Mickey Mouse"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel est le nom de l'attraction aquatique située à Adventureland, inspirée des histoires d'un prince et un génie ?",
-    options: ["Le Passage Enchanté d'Aladdin", "Pirates of the Caribbean", "Les Mystères du Nautilus", "La Cabane des Robinson"],
-    answer: "Le Passage Enchanté d'Aladdin"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel est le thème de l'attraction 'Phantom Manor' dans Frontierland ?",
-    options: ["Maison hantée", "Château de princesse", "Espace", "Sous-marin"],
-    answer: "Maison hantée"
-  },
-  {
-    numéro: "17/20",
-    question: "Quelle est la durée approximative du trajet en train de la 'Disneyland Railroad' autour du parc Disneyland ?",
-    options: ["20 minutes", "10 minutes", "30 minutes", "40 minutes"],
-    answer: "20 minutes"
-  },
-  {
-    numéro: "18/20",
-    question: "Quelle est la principale saison pendant laquelle Disneyland Paris propose des décorations et des spectacles spéciaux pour Halloween ?",
-    options: ["Octobre", "Novembre", "Décembre", "Janvier"],
-    answer: "Octobre"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel est le nom de la parade quotidienne qui traverse le parc Disneyland ?",
-    options: ["Disney Stars on Parade", "Main Street Electrical Parade", "Festival of Fantasy Parade", "Dreamlights Parade"],
-    answer: "Disney Stars on Parade"
-  },
-  {
-    numéro: "20/20",
-    question: "Quelle est la zone thématique inspirée des contes de fées dans Disneyland Park ?",
-    options: ["Fantasyland", "Adventureland", "Frontierland", "Discoveryland"],
-    answer: "Fantasyland"
-  }
-];
-
-const questionsStarsChanson = [
-  {
-    numéro: "1/20",
-    question: "Quel est le surnom de Johnny Hallyday, souvent appelé le 'Elvis Presley' français ?",
-    options: ["Le Taulier", "Le Roi", "Le Patron", "Le Maître"],
-    answer: "Le Taulier"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel est le titre de la chanson de Michel Sardou qui a suscité des controverses pour ses paroles en 1976 ?",
-    options: ["Le France", "Je suis pour", "Les Lacs du Connemara", "La Maladie d'amour"],
-    answer: "Je suis pour"
-  },
-  {
-    numéro: "3/20",
-    question: "Quelle est la chanson la plus célèbre de Keen'V, sortie en 2011, qui a atteint le top des charts en France ?",
-    options: ["J'aimerais trop", "La vie du bon côté", "Dis-moi oui", "Ma vie au soleil"],
-    answer: "J'aimerais trop"
-  },
-  {
-    numéro: "4/20",
-    question: "Kendji Girac a gagné 'The Voice' en France dans quelle saison ?",
-    options: ["Saison 3", "Saison 1", "Saison 2", "Saison 4"],
-    answer: "Saison 3"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel est le titre de la chanson de Mylène Farmer qui a été un énorme succès en 1988 ?",
-    options: ["Désenchantée", "Sans contrefaçon", "Libertine", "Pourvu qu'elles soient douces"],
-    answer: "Sans contrefaçon"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel est le nom du célèbre duo musical que Sylvie Vartan formait avec Johnny Hallyday dans les années 60 ?",
-    options: ["Les Années Yéyé", "Les Rockers", "Les Chouchous", "Les Idoles"],
-    answer: "Les Années Yéyé"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel est le titre du premier album studio de Hoshi, sorti en 2018 ?",
-    options: ["Il suffit d'y croire", "Amour censure", "Ta marinière", "Soleil levant"],
-    answer: "Il suffit d'y croire"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel album de Michael Jackson, sorti en 1982, est le plus vendu de tous les temps ?",
-    options: ["Thriller", "Bad", "Off the Wall", "Dangerous"],
-    answer: "Thriller"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel est le surnom de Madonna, souvent appelée la 'Reine de...' ?",
-    options: ["La Reine de la Pop", "La Reine du Rock", "La Reine du R&B", "La Reine du Jazz"],
-    answer: "La Reine de la Pop"
-  },
-  {
-    numéro: "10/20",
-    question: "Céline Dion a représenté quel pays lors de sa victoire à l'Eurovision en 1988 ?",
-    options: ["Suisse", "France", "Canada", "Belgique"],
-    answer: "Suisse"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel est le titre de la chanson d'Aya Nakamura qui a connu un énorme succès en 2018 ?",
-    options: ["Djadja", "Copines", "Pookie", "Comportement"],
-    answer: "Djadja"
-  },
-  {
-    numéro: "12/20",
-    question: "Avec quel groupe Beyoncé a-t-elle commencé sa carrière musicale avant de devenir une artiste solo à succès ?",
-    options: ["Destiny's Child", "TLC", "Spice Girls", "En Vogue"],
-    answer: "Destiny's Child"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel est le titre du premier album d'Adèle, sorti en 2008 ?",
-    options: ["19", "21", "25", "30"],
-    answer: "19"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel est le titre de la chanson de Pink qui a été un énorme succès en 2001, tirée de l'album 'Missundaztood' ?",
-    options: ["Get the Party Started", "Just Like a Pill", "So What", "Try"],
-    answer: "Get the Party Started"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel est le titre de la chanson avec laquelle Slimane a remporté 'The Voice' en France ?",
-    options: ["A fleur de toi", "Viens on s'aime", "Paname", "Adieu"],
-    answer: "A fleur de toi"
-  },
-  {
-    numéro: "16/20",
-    question: "Vitaa a collaboré avec quel artiste sur l'album 'VersuS', sorti en 2019 ?",
-    options: ["Slimane", "M. Pokora", "Kendji Girac", "Gims"],
-    answer: "Slimane"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel est le titre de la chanson d'Ed Sheeran qui a été un énorme succès en 2017, tirée de l'album '÷' (Divide) ?",
-    options: ["Shape of You", "Thinking Out Loud", "Perfect", "Castle on the Hill"],
-    answer: "Shape of You"
-  },
-  {
-    numéro: "18/20",
-    question: "Soprano faisait partie de quel groupe de rap français avant de commencer sa carrière solo ?",
-    options: ["Psy 4 de la Rime", "IAM", "113", "Sniper"],
-    answer: "Psy 4 de la Rime"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel est le titre du premier album studio de Dadju, sorti en 2017 ?",
-    options: ["Gentleman 2.0", "Poison ou Antidote", "Mafia K'1 Fry", "Reine"],
-    answer: "Gentleman 2.0"
-  },
-  {
-    numéro: "20/20",
-    question: "Jérémy Frérot faisait partie de quel duo musical avant de commencer sa carrière solo ?",
-    options: ["Fréro Delavega", "Cats on Trees", "Bigflo et Oli", "Madame Monsieur"],
-    answer: "Fréro Delavega"
-  }
-];
-
-const questionsFestivalsMusiqueFrance = [
-  {
-    numéro: "1/20",
-    question: "Quel festival de musique se déroule chaque année à Carhaix, en Bretagne ?",
-    options: ["Les Vieilles Charrues", "Hellfest", "Solidays", "Rock en Seine"],
-    answer: "Les Vieilles Charrues"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel festival de musique métal a lieu chaque année à Clisson ?",
-    options: ["Hellfest", "Download Festival", "Motocultor Festival", "MetalDays"],
-    answer: "Hellfest"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel festival parisien a lieu sur l'hippodrome de Longchamp et est organisé par Solidarité Sida ?",
-    options: ["Solidays", "Rock en Seine", "We Love Green", "Lollapalooza Paris"],
-    answer: "Solidays"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel festival se tient chaque année au Domaine National de Saint-Cloud, près de Paris ?",
-    options: ["Rock en Seine", "We Love Green", "Les Eurockéennes", "Garorock"],
-    answer: "Rock en Seine"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel festival se déroule sur l'île du Gaou, dans le Var, et propose une programmation éclectique chaque été ?",
-    options: ["Les Voix du Gaou", "Festival de Nîmes", "Les Déferlantes", "Main Square Festival"],
-    answer: "Les Voix du Gaou"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel festival, situé à Belfort, est l'un des plus anciens et des plus importants festivals de rock en France ?",
-    options: ["Les Eurockéennes", "Main Square Festival", "Garorock", "Vieilles Charrues"],
-    answer: "Les Eurockéennes"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel festival de musique électronique se déroule à Lyon chaque année ?",
-    options: ["Nuits Sonores", "Les Transmusicales", "Astropolis", "Marsatac"],
-    answer: "Nuits Sonores"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel festival de musique se tient dans l'enceinte du théâtre antique de Nîmes ?",
-    options: ["Festival de Nîmes", "Les Déferlantes", "Les Vieilles Charrues", "Main Square Festival"],
-    answer: "Festival de Nîmes"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel festival se déroule à Marmande et est célèbre pour sa programmation rock, pop et électro ?",
-    options: ["Garorock", "Les Eurockéennes", "Solidays", "Les Déferlantes"],
-    answer: "Garorock"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel festival se déroule à Argelès-sur-Mer et propose une programmation variée allant du rock à la musique électronique ?",
-    options: ["Les Déferlantes", "Les Vieilles Charrues", "Rock en Seine", "Main Square Festival"],
-    answer: "Les Déferlantes"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel festival de musique éclectique se tient chaque année à la Citadelle d'Arras ?",
-    options: ["Main Square Festival", "Les Eurockéennes", "Solidays", "Vieilles Charrues"],
-    answer: "Main Square Festival"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel festival a lieu à la Cité des Congrès de Nantes et est consacré aux musiques électroniques et actuelles ?",
-    options: ["Scopitone", "Nuits Sonores", "Les Transmusicales", "Astropolis"],
-    answer: "Scopitone"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel festival de musique est organisé à Montpellier et met en avant la scène indépendante et émergente ?",
-    options: ["Tinals (This is Not a Love Song)", "Marsatac", "Les Déferlantes", "Les Vieilles Charrues"],
-    answer: "Tinals (This is Not a Love Song)"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel festival se déroule à Rennes et est connu pour découvrir les artistes émergents ?",
-    options: ["Les Transmusicales", "Les Vieilles Charrues", "Rock en Seine", "Nuits Sonores"],
-    answer: "Les Transmusicales"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel festival de musique classique a lieu chaque été dans le parc du Château de Fontainebleau ?",
-    options: ["Festival de l'Orangerie de Sceaux", "Festival de la Vézère", "Festival de la Roque-d'Anthéron", "Festival de Fontainebleau"],
-    answer: "Festival de Fontainebleau"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel festival de musique électro se déroule chaque année à Brest ?",
-    options: ["Astropolis", "Marsatac", "Nuits Sonores", "Scopitone"],
-    answer: "Astropolis"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel festival de musique se déroule à Marseille et propose une programmation variée de musiques actuelles ?",
-    options: ["Marsatac", "Nuits Sonores", "Les Transmusicales", "Solidays"],
-    answer: "Marsatac"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel festival de musique électro se déroule chaque été dans le Bois de Vincennes à Paris ?",
-    options: ["We Love Green", "Solidays", "Rock en Seine", "Lollapalooza Paris"],
-    answer: "We Love Green"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel festival de musique, qui se tient à La Rochelle, est consacré à la chanson francophone et aux découvertes musicales ?",
-    options: ["Les Francofolies", "Les Déferlantes", "Main Square Festival", "Garorock"],
-    answer: "Les Francofolies"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel festival de musique est organisé chaque année à Belfort et attire des milliers de spectateurs ?",
-    options: ["Les Eurockéennes", "Garorock", "Les Vieilles Charrues", "Solidays"],
-    answer: "Les Eurockéennes"
-  }
-];
-
-const questionsPersonnalitesMondiales = [
-  {
-    numéro: "1/20",
-    question: "Quelle est la nationalité du chanteur Roch Voisine ?",
-    options: ["Canadienne", "Française", "Belge", "Américaine"],
-    answer: "Canadienne"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel est le genre littéraire pour lequel Stephen King est le plus connu ?",
-    options: ["Horreur", "Romance", "Science-fiction", "Fantaisie"],
-    answer: "Horreur"
-  },
-  {
-    numéro: "3/20",
-    question: "Quelle théorie célèbre a été développée par Albert Einstein ?",
-    options: ["Théorie de la relativité", "Théorie de la gravitation", "Théorie de l'évolution", "Théorie du Big Bang"],
-    answer: "Théorie de la relativité"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel rôle Charles de Gaulle a-t-il joué pendant la Seconde Guerre mondiale ?",
-    options: ["Chef de la Résistance française", "Président des États-Unis", "Premier ministre britannique", "Empereur du Japon"],
-    answer: "Chef de la Résistance française"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel type de contenu est principalement produit par Amixem sur YouTube ?",
-    options: ["Vlogs et divertissement", "Cuisine", "Jeux vidéo", "Tutoriels de maquillage"],
-    answer: "Vlogs et divertissement"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel titre était porté par Napoléon Bonaparte en France ?",
-    options: ["Empereur", "Roi", "Président", "Premier ministre"],
-    answer: "Empereur"
-  },
-  {
-    numéro: "7/20",
-    question: "Dans quelle maison Harry Potter a-t-il été réparti à Poudlard ?",
-    options: ["Gryffondor", "Serpentard", "Poufsouffle", "Serdaigle"],
-    answer: "Gryffondor"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel type de vidéos Tibo Inshape est-il connu pour produire ?",
-    options: ["Fitness et musculation", "Cuisine", "Mode", "Voyage"],
-    answer: "Fitness et musculation"
-  },
-  {
-    numéro: "9/20",
-    question: "Quelle émission de télévision française est principalement animée par Nagui ?",
-    options: ["Taratata", "Le Grand Journal", "The Voice", "Qui veut gagner des millions ?"],
-    answer: "Taratata"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel pays Barack Obama a-t-il dirigé en tant que président ?",
-    options: ["États-Unis", "Canada", "Royaume-Uni", "France"],
-    answer: "États-Unis"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel est le métier du personnage Columbo dans la série télévisée éponyme ?",
-    options: ["Détective", "Docteur", "Avocat", "Journaliste"],
-    answer: "Détective"
-  },
-  {
-    numéro: "12/20",
-    question: "Quelle émission de télévision a révélé Jenifer Bartoli au grand public ?",
-    options: ["Star Academy", "The Voice", "Popstars", "La Nouvelle Star"],
-    answer: "Star Academy"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel type de contenu est principalement produit par Squeezie sur YouTube ?",
-    options: ["Jeux vidéo", "Cuisine", "Mode", "Voyage"],
-    answer: "Jeux vidéo"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel est le nom du père dans la série télévisée 'Les Simpson' ?",
-    options: ["Homer Simpson", "Bart Simpson", "Ned Flanders", "Moe Szyslak"],
-    answer: "Homer Simpson"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel groupe musical a révélé Harry Styles au grand public ?",
-    options: ["One Direction", "The Beatles", "NSYNC", "Backstreet Boys"],
-    answer: "One Direction"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel est le métier de Tintin dans la bande dessinée éponyme ?",
-    options: ["Journaliste", "Détective", "Docteur", "Pilote"],
-    answer: "Journaliste"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel rôle Tom Hanks a-t-il joué dans le film 'Toy Story' ?",
-    options: ["Woody", "Buzz l'éclair", "Monsieur Patate", "Rex"],
-    answer: "Woody"
-  },
-  {
-    numéro: "18/20",
-    question: "Dans quel film d'animation un extraterrestre bleu apparaît-il ?",
-    options: ["Lilo & Stitch", "Le Roi Lion", "La Belle et la Bête", "Aladdin"],
-    answer: "Lilo & Stitch"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel type de contenu est principalement produit par Neo et Swan sur YouTube ?",
-    options: ["Vlogs familiaux et défis", "Jeux vidéo", "Cuisine", "Mode"],
-    answer: "Vlogs familiaux et défis"
-  },
-  {
-    numéro: "20/20",
-    question: "Quelle émission de télévision a révélé Louane au grand public ?",
-    options: ["The Voice", "Star Academy", "Nouvelle Star", "Popstars"],
-    answer: "The Voice"
-  }
-];
-
-const questionsAnimes = [
-  {
-    numéro: "1/20",
-    question: "Quel est le rêve de Luffy dans One Piece ?",
-    options: ["Devenir le Roi des Pirates", "Trouver le trésor One Piece", "Devenir un Amiral de la Marine", "Trouver All Blue"],
-    answer: "Devenir le Roi des Pirates"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel est le pouvoir principal de Gon Freecss dans Hunter x Hunter ?",
-    options: ["Renforcement", "Manipulation", "Transmutation", "Spécialisation"],
-    answer: "Renforcement"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel est le nom de l'équipe de Natsu Dragnir dans Fairy Tail ?",
-    options: ["Team Natsu", "Team Dragon", "Team Fairy", "Team Fire"],
-    answer: "Team Natsu"
-  },
-  {
-    numéro: "4/20",
-    question: "Comment se nomme la petite sœur d'Anya dans Spy x Family ?",
-    options: ["Elle n'a pas de petite sœur", "Becky", "Yor", "Loyd"],
-    answer: "Elle n'a pas de petite sœur"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel est le style de combat de Tanjiro Kamado dans Demon Slayer ?",
-    options: ["Souffle de l'Eau", "Souffle du Feu", "Souffle de la Foudre", "Souffle du Vent"],
-    answer: "Souffle de l'Eau"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel est le nom de l'ennemi principal de Goku dans Dragon Ball Z ?",
-    options: ["Freezer", "Cell", "Majin Buu", "Vegeta"],
-    answer: "Freezer"
-  },
-  {
-    numéro: "7/20",
-    question: "Comment se nomme la protagoniste de Komi cherche ses mots ?",
-    options: ["Shoko Komi", "Komi San", "Komi Shoko", "Shoko Tadano"],
-    answer: "Shoko Komi"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel est le nom du goule qui attaque Ken Kaneki dans Tokyo Ghoul ?",
-    options: ["Rize Kamishiro", "Touka Kirishima", "Yoshimura", "Nishiki Nishio"],
-    answer: "Rize Kamishiro"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel est le métier de Shinya Kogami dans Psycho Pass ?",
-    options: ["Inspecteur", "Exécuteur ", "Détective", "Scientifique"],
-    answer: "Exécuteur "
-  },
-  {
-    numéro: "10/20",
-    question: "Quelle malédiction frappe la classe 3-3 dans Another ?",
-    options: ["Un étudiant mort réapparaît", "Tous les étudiants deviennent des goules", "Un tueur en série les pourchasse", "Ils sont transportés dans un autre monde"],
-    answer: "Un étudiant mort réapparaît"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel métal est recherché par les frères Elric dans Fullmetal Alchemist ?",
-    options: ["Pierre Philosophale", "Or", "Argent", "Plomb"],
-    answer: "Pierre Philosophale"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel est le pouvoir de Saitama dans One Punch Man ?",
-    options: ["Super force", "Invisibilité", "Vol", "Télékinésie"],
-    answer: "Super force"
-  },
-  {
-    numéro: "13/20",
-    question: "Quelle est la principale toupie de Tyson dans Beyblade ?",
-    options: ["Dragoon", "Pegasus", "Bull", "Wolf"],
-    answer: "Dragoon"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel est le nom du rival de Yugi dans Yu-Gi-Oh ?",
-    options: ["Seto Kaiba", "Joey Wheeler", "Bakura", "Marik Ishtar"],
-    answer: "Seto Kaiba"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel est le rêve de Yatora Yaguchi dans Blue Period ?",
-    options: ["Devenir artiste", "Devenir musicien", "Devenir écrivain", "Devenir ingénieur"],
-    answer: "Devenir artiste"
-  },
-  {
-    numéro: "16/20",
-    question: "Quelle est la particularité de Shinichi Izumi dans Parasite ?",
-    options: ["Il partage son corps avec un parasite", "Il peut voir les esprits", "Il est un vampire", "Il peut manipuler le feu"],
-    answer: "Il partage son corps avec un parasite"
-  },
-  {
-    numéro: "17/20",
-    question: "Quelle application mobile transforme les gens en avatars dans Lookism ?",
-    options: ["4 Look", "LOOK", "Avatarize", "Lookism"],
-    answer: "Lookism"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel est le but principal de Senku Ishigami dans Dr. Stone ?",
-    options: ["Rebâtir la civilisation avec la science", "Devenir le chef du village", "Trouver un remède pour sauver son père", "Créer une arme ultime"],
-    answer: "Rebâtir la civilisation avec la science"
-  },
-  {
-    numéro: "19/20",
-    question: "Qui est le capitaine de l'équipage d'Edens Zero ?",
-    options: ["Shiki Granbell", "Rebecca Bluegarden", "Weisz Steiner", "Happy"],
-    answer: "Shiki Granbell"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel est le pouvoir de Davi dans My Daemon ?",
-    options: ["Invoquer un démon", "Voler", "Manipuler le temps", "Télékinésie"],
-    answer: "Invoquer un démon"
-  }
-];
-
-const questionsPopRock = [
-  {
-    numéro: "1/20",
-    question: "Quel groupe est connu pour la chanson 'Bohemian Rhapsody' ?",
-    options: ["Queen", "The Beatles", "Led Zeppelin", "Pink Floyd"],
-    answer: "Queen"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel membre des Beatles a été assassiné en 1980 ?",
-    options: ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
-    answer: "John Lennon"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel groupe a sorti l'album 'The Dark Side of the Moon' ?",
-    options: ["Pink Floyd", "The Rolling Stones", "The Who", "Fleetwood Mac"],
-    answer: "Pink Floyd"
-  },
-  {
-    numéro: "4/20",
-    question: "Quelle est la nationalité du groupe U2 ?",
-    options: ["Irlandaise", "Américaine", "Anglaise", "Australienne"],
-    answer: "Irlandaise"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel est le titre de la première chanson des Rolling Stones à atteindre la première place des charts américains ?",
-    options: ["(I Can't Get No) Satisfaction", "Paint It Black", "Angie", "Start Me Up"],
-    answer: "(I Can't Get No) Satisfaction"
-  },
-  {
-    numéro: "6/20",
-    question: "Quelle est la profession de Bruce Springsteen avant de devenir célèbre ?",
-    options: ["Musicien", "Journaliste", "Professeur", "Ouvrier"],
-    answer: "Musicien"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel est le nom du premier album des Arctic Monkeys ?",
-    options: ["Whatever People Say I Am, That's What I'm Not", "Favourite Worst Nightmare", "AM", "Humbug"],
-    answer: "Whatever People Say I Am, That's What I'm Not"
-  },
-  {
-    numéro: "8/20",
-    question: "Quelle chanson de Nirvana a été réalisée en acoustique pour MTV Unplugged en 1993 ?",
-    options: ["About a Girl", "Smells Like Teen Spirit", "In Bloom", "Lithium"],
-    answer: "About a Girl"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel membre de Queen a écrit la chanson 'We Will Rock You' ?",
-    options: ["Brian May", "Freddie Mercury", "Roger Taylor", "John Deacon"],
-    answer: "Brian May"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel est le vrai nom de Bono, le chanteur principal de U2 ?",
-    options: ["Paul Hewson", "David Howell Evans", "Adam Clayton", "Larry Mullen Jr."],
-    answer: "Paul Hewson"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel groupe est connu pour la chanson 'Smells Like Teen Spirit' ?",
-    options: ["Nirvana", "Pearl Jam", "Soundgarden", "Alice in Chains"],
-    answer: "Nirvana"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel album des Beatles est souvent considéré comme l'un des meilleurs albums de tous les temps ?",
-    options: ["Sgt. Pepper's Lonely Hearts Club Band", "Abbey Road", "Revolver", "The White Album"],
-    answer: "Sgt. Pepper's Lonely Hearts Club Band"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel groupe a sorti l'album 'Hotel California' ?",
-    options: ["Eagles", "Fleetwood Mac", "The Doors", "The Beach Boys"],
-    answer: "Eagles"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel membre des Rolling Stones a fondé le groupe ?",
-    options: ["Brian Jones", "Mick Jagger", "Keith Richards", "Charlie Watts"],
-    answer: "Brian Jones"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel groupe a popularisé le genre 'grunge' dans les années 90 ?",
-    options: ["Nirvana", "Red Hot Chili Peppers", "Green Day", "Blink-182"],
-    answer: "Nirvana"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel est le titre de l'album légendaire des Sex Pistols ?",
-    options: ["Never Mind the Bollocks, Here's the Sex Pistols", "London Calling", "The Clash", "Combat Rock"],
-    answer: "Never Mind the Bollocks, Here's the Sex Pistols"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel groupe a sorti la chanson 'Wonderwall' ?",
-    options: ["Oasis", "Blur", "Radiohead", "The Verve"],
-    answer: "Oasis"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel membre du groupe Foo Fighters était le batteur de Nirvana ?",
-    options: ["Dave Grohl", "Pat Smear", "Taylor Hawkins", "Nate Mendel"],
-    answer: "Dave Grohl"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel groupe britannique a sorti l'album 'A Night at the Opera' ?",
-    options: ["Queen", "Led Zeppelin", "The Beatles", "Pink Floyd"],
-    answer: "Queen"
-  },
-  {
-    numéro: "20/20",
-    question: "Quelle est la chanson la plus célèbre de Lynyrd Skynyrd ?",
-    options: ["Sweet Home Alabama", "Free Bird", "Simple Man", "Tuesday's Gone"],
-    answer: "Sweet Home Alabama"
-  }
-];
-
-const questionsMarvel = [
-  {
-    numéro: "1/20",
-    question: "Quel super-héros est également connu sous le nom de Steve Rogers ?",
-    options: ["Captain America", "Iron Man", "Thor", "Hulk"],
-    answer: "Captain America"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel acteur interprète Spider-Man dans Spider-Man: No Way Home ?",
-    options: ["Tom Holland", "Tobey Maguire", "Andrew Garfield", "Chris Pratt"],
-    answer: "Tom Holland"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel est le matériau du bouclier de Captain America ?",
-    options: ["Vibranium", "Adamantium", "Titanium", "Acier"],
-    answer: "Vibranium"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel super-héros est aussi appelé 'Le Tisseur' ?",
-    options: ["Spider-Man", "Doctor Strange", "Black Panther", "Ant-Man"],
-    answer: "Spider-Man"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel personnage est surnommé 'le Sorcier Suprême' ?",
-    options: ["Doctor Strange", "Scarlet Witch", "Loki", "Thanos"],
-    answer: "Doctor Strange"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel est le nom de l'arme de Thor ?",
-    options: ["Mjolnir", "Stormbreaker", "Gungnir", "Hofund"],
-    answer: "Mjolnir"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel est le nom de l'alter ego de Hulk ?",
-    options: ["Bruce Banner", "Tony Stark", "Peter Parker", "Stephen Strange"],
-    answer: "Bruce Banner"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel groupe de super-héros comprend Star-Lord, Gamora, Drax, Rocket et Groot ?",
-    options: ["Les Gardiens de la Galaxie", "Les Avengers", "Les X-Men", "Les Quatre Fantastiques"],
-    answer: "Les Gardiens de la Galaxie"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel est le nom de la nation que Black Panther protège ?",
-    options: ["Wakanda", "Genosha", "Latveria", "Sokovia"],
-    answer: "Wakanda"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel est le nom du frère adoptif de Thor qui est aussi connu comme le 'Dieu de la Malice' ?",
-    options: ["Loki", "Heimdall", "Balder", "Hela"],
-    answer: "Loki"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel super-héros est interprété par Chris Hemsworth dans l'univers cinématographique Marvel ?",
-    options: ["Thor", "Captain America", "Iron Man", "Hawkeye"],
-    answer: "Thor"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel est le nom du méchant principal dans 'Avengers: Infinity War' ?",
-    options: ["Thanos", "Loki", "Ultron", "Red Skull"],
-    answer: "Thanos"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel super-héros est aveugle mais possède des sens surdéveloppés ?",
-    options: ["Daredevil", "Hawkeye", "Cyclope", "Quicksilver"],
-    answer: "Daredevil"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel personnage féminin devient un super-héros après une piqûre d'araignée radioactive ?",
-    options: ["Spider-Woman", "Black Widow", "Scarlet Witch", "Wasp"],
-    answer: "Spider-Woman"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel est le nom de l'organisation dirigée par Nick Fury ?",
-    options: ["S.H.I.E.L.D.", "HYDRA", "A.I.M.", "S.W.O.R.D."],
-    answer: "S.H.I.E.L.D."
-  },
-  {
-    numéro: "16/20",
-    question: "Quel super-héros possède une armure faite d'un alliage spécial appelé 'Adamantium' ?",
-    options: ["Wolverine", "Iron Man", "Captain America", "Black Panther"],
-    answer: "Wolverine"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel personnage des Gardiens de la Galaxie ne prononce que les mots 'Je s’appelle Groot' ?",
-    options: ["Groot", "Rocket", "Drax", "Gamora"],
-    answer: "Groot"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel acteur incarne Tony Stark/Iron Man dans l'univers cinématographique Marvel ?",
-    options: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth"],
-    answer: "Robert Downey Jr."
-  },
-  {
-    numéro: "19/20",
-    question: "Quel super-héros a pour nom civil 'Matt Murdock' ?",
-    options: ["Daredevil", "Iron Fist", "Luke Cage", "Jessica Jones"],
-    answer: "Daredevil"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel est le nom civil de Daredevil ?",
-    options: ["Matt Murdock", "Peter Parker", "Steve Rogers", "Clint Barton"],
-    answer: "Matt Murdock"
-  }
-];
-
-const questionsSuperVilains = [
-  {
-    numéro: "1/20",
-    question: "Quel super-vilain est surnommé le 'Titan Fou' ?",
-    options: ["Thanos", "Loki", "Red Skull", "Ultron"],
-    answer: "Thanos"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel ennemi de Spider-Man est un scientifique devenu lézard géant ?",
-    options: ["Le Lézard", "Venom", "Le Bouffon Vert", "Docteur Octopus"],
-    answer: "Le Lézard"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel super-vilain a été le premier ennemi des Avengers dans leur film de 2012 ?",
-    options: ["Loki", "Ultron", "Thanos", "Red Skull"],
-    answer: "Loki"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel ennemi des X-Men peut contrôler le métal ?",
-    options: ["Magneto", "Apocalypse", "Mystique", "Sabretooth"],
-    answer: "Magneto"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel super-vilain est le roi de Wakanda avant T'Challa et revient pour réclamer le trône dans 'Black Panther' ?",
-    options: ["Killmonger", "M'Baku", "Klaw", "Zemo"],
-    answer: "Killmonger"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel super-vilain est un génie scientifique avec des bras mécaniques qui combattent Spider-Man ?",
-    options: ["Docteur Octopus", "Le Bouffon Vert", "Venom", "Electro"],
-    answer: "Docteur Octopus"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel ennemi de Daredevil contrôle une grande partie du crime organisé à New York ?",
-    options: ["Kingpin", "Bullseye", "Purple Man", "The Hand"],
-    answer: "Kingpin"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel super-vilain est une intelligence artificielle créée par Tony Stark et Bruce Banner ?",
-    options: ["Ultron", "Thanos", "Loki", "Red Skull"],
-    answer: "Ultron"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel super-vilain est un extraterrestre symbiotique qui s'attache à Eddie Brock ?",
-    options: ["Venom", "Carnage", "Morbius", "Scorpion"],
-    answer: "Venom"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel super-vilain est un ancien chirurgien devenu sorcier maléfique et ennemi de Doctor Strange ?",
-    options: ["Baron Mordo", "Dormammu", "Kaecilius", "Mephisto"],
-    answer: "Baron Mordo"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel ennemi des Gardiens de la Galaxie est surnommé 'Le Destructeur' ?",
-    options: ["Ronan", "Ego", "Nebula", "Thanos"],
-    answer: "Ronan"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel super-vilain est un scientifique qui se transforme en un monstre de sable ?",
-    options: ["Sandman", "Rhino", "Lizard", "Vulture"],
-    answer: "Sandman"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel ennemi de Thor est le dieu du mensonge et de la tromperie ?",
-    options: ["Loki", "Hela", "Malekith", "Surtur"],
-    answer: "Loki"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel super-vilain de l'univers Marvel a une tête en forme de crâne rouge ?",
-    options: ["Red Skull", "Crossbones", "Baron Zemo", "Winter Soldier"],
-    answer: "Red Skull"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel super-vilain est aussi appelé Victor Von Doom et est un ennemi des Quatre Fantastiques ?",
-    options: ["Docteur Doom", "Galactus", "Mole Man", "Silver Surfer"],
-    answer: "Docteur Doom"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel super-vilain est un dieu du chaos qui affronte Thor dans 'Thor: Ragnarok' ?",
-    options: ["Hela", "Loki", "Surtur", "Malekith"],
-    answer: "Hela"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel super-vilain peut manipuler l'électricité et est un ennemi de Spider-Man ?",
-    options: ["Electro", "Shocker", "Rhino", "Vulture"],
-    answer: "Electro"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel super-vilain est une version maléfique de Spider-Man et s'appelle Cletus Kasady ?",
-    options: ["Carnage", "Venom", "Morbius", "Toxin"],
-    answer: "Carnage"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel super-vilain est un ancien général Kree devenu accroc à la Pierre de l'Infini ?",
-    options: ["Yon-Rogg", "Ronan", "Korath", "Talos"],
-    answer: "Ronan"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel super-vilain est un méchant de l'univers Marvel qui est un maître en arts martiaux et ennemi de Shang-Chi ?",
-    options: ["Le Mandarin", "Killian", "Whiplash", "Taskmaster"],
-    answer: "Le Mandarin"
-  }
-];
-
-const questionsDetailsDisney = [
-  {
-    numéro: "1/20",
-    question: "Comment s'appelle l'elfe à la chemise de bucheron rouge dans 'En avant' ?",
-    options: ["Ian Lightfoot", "Barley Lightfoot", "Wilden Lightfoot", "Laurel Lightfoot"],
-    answer: "Ian Lightfoot"
-  },
-  {
-    numéro: "2/20",
-    question: "Comment s'appelle la jeune-fille au bonnet vert dans 'Alerte rouge' ?",
-    options: ["Abby", "Miriam", "Lily", "Meilin"],
-    answer: "Miriam"
-  },
-  {
-    numéro: "3/20",
-    question: "De quelle race animal est Tuk Tuk dans 'Raya et le dernier dragon'?",
-    options: ["un mélange de tatou, d’insecte et de cochon", "un tatou", "un pangolin", "un mélange de pangolin, d'insecte et de hamster"],
-    answer: "un mélange de tatou, d’insecte et de cochon"
-  },
-  {
-    numéro: "4/20",
-    question: "De quelle couleur sont les pompons sur les ballerines de la fée Clochette",
-    options: ["Blanc", "Vert", "Jaune", "Rose"],
-    answer: "Blanc"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel est le prénom de la femme de Marin dans 'Le monde de Nemo'?",
-    options: ["Corail", "Darla", "Gill", "Astrid"],
-    answer: "Corail"
-  },
-  {
-    numéro: "6/20",
-    question: "Dans Lilo et Stitch, quels dessins sont représentés sur la robe de Lilo ?",
-    options: ["Des feuilles", "Des fleurs", "Des oursons", "Des pois"],
-    answer: "Des feuilles"
-  },
-  {
-    numéro: "7/20",
-    question: "De quelle couleur est le canapé dans la tour de contrôle de Vice-Versa 2?",
-    options: ["Rouge", "Bleu", "Vert", "Orange"],
-    answer: "Rouge"
-  },
-  {
-    numéro: "8/20",
-    question: "Combien d'élans tiennent compagnie aux ours pendant leur périple dans 'Frère des ours'?",
-    options: ["2", "1", "4", "3"],
-    answer: "2"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel dessin est sur la voile du bateau de Vaïana et Maui",
-    options: ["Une spirale", "Un dessin maori", "Une tortue", "Une vague"],
-    answer: "Une spirale"
-  },
-  {
-    numéro: "10/20",
-    question: "Comment s'appelle a grand-mère de Coco dans le film 'Coco'?",
-    options: ["Mama Coco", "Grandma", "Mama", "Mama Rivera"],
-    answer: "Mama Coco"
-  },
-  {
-    numéro: "11/20",
-    question: "Comment s'appellent les 2 souris principales dans 'Cendrillon'?",
-    options: ["Gus et Jaq", "Mert et Ventus", "Perla et Suzy", "Bert et Luke"],
-    answer: "Gus et Jaq"
-  },
-  {
-    numéro: "12/20",
-    question: "Comment s'appelle le créateur du restaurant dans 'Ratatouille'?",
-    options: ["Auguste Gusteau", "Anton Ego", "Colette", "Django"],
-    answer: "Auguste Gusteau"
-  },
-  {
-    numéro: "13/20",
-    question: "De quelle couleur est le chapeau de la théière appelée Madame Samovar dans 'La belle et la bête'?",
-    options: ["Violet", "Bleu", "Rose", "Orange"],
-    answer: "Violet"
-  },
-  {
-    numéro: "14/20",
-    question: "Combien de frères à Rebelle dans le film du même nom?",
-    options: ["3", "0", "1", "5"],
-    answer: "3"
-  },
-  {
-    numéro: "15/20",
-    question: "A quel tableau Anna dit-elle 'Salut' dans la chanson 'Je voudrai un bonhomme de neige' de la Reine des neige ?",
-    options: ["Jeanne d'Arc", "Leonard de Vinci", "Jeanne du Barry", "Henri IV"],
-    answer: "Jeanne d'Arc"
-  },
-  {
-    numéro: "16/20",
-    question: "De quelle couleur est la larve que mange Simba lors de sa 1ère fois ?",
-    options: ["Rouge", "Blanche", "Crème", "Verte"],
-    answer: "Rouge"
-  },
-  {
-    numéro: "17/20",
-    question: "Combien d'oeil possède Jumba dans 'Lilo et Stitch' ?",
-    options: ["2", "4", "6", "3"],
-    answer: "4"
-  },
-  {
-    numéro: "18/20",
-    question: "Avec quoi Raiponce assomme Flynn dans la tour ?",
-    options: ["Une poêle", "Une casserole", "Un couvercle", "Une louche"],
-    answer: "Une poêle"
-  },
-  {
-    numéro: "19/20",
-    question: "Dans les 102 dalmatiens, quelle est la particularité du 102ème chien ?",
-    options: ["Il n'a pas de tâche", "Il est noir", "Il a des plus petites tâches", "Il a la truffe rose"],
-    answer: "Il n'a pas de tâche"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel est le rôle d'Abuela (Alma Madrigal) dans 'Encanto' ?",
-    options: ["Veiller sur la chandelle magique", "Attribuer les pouvoirs de chacun", "Protéger Mirabel", "Retrouver Bruno Madrigal"],
-    answer: "Veiller sur la chandelle magique"
-  }
-];
-
-const questionsSuperman = [
-  {
-    numéro: "1/20",
-    question: "Quel est le véritable nom de Superman ?",
-    options: ["Kal-El", "Jor-El", "Clark Kent", "Lex Luthor"],
-    answer: "Kal-El"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel est le nom de la ville où Clark Kent grandit dans Smallville ?",
-    options: ["Smallville", "Metropolis", "Gotham City", "Central City"],
-    answer: "Smallville"
-  },
-  {
-    numéro: "3/20",
-    question: "Qui est le père biologique de Superman ?",
-    options: ["Jor-El", "Zod", "Jonathan Kent", "Lex Luthor"],
-    answer: "Jor-El"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel est le métier de Lois Lane ?",
-    options: ["Journaliste", "Scientifique", "Avocate", "Médecin"],
-    answer: "Journaliste"
-  },
-  {
-    numéro: "5/20",
-    question: "Quelle substance affaiblit Superman ?",
-    options: ["Kryptonite", "Adamantium", "Vibranium", "Mithril"],
-    answer: "Kryptonite"
-  },
-  {
-    numéro: "6/20",
-    question: "Comment s'appelle l'ami d'enfance de Clark Kent dans Smallville qui devient plus tard son ennemi ?",
-    options: ["Lex Luthor", "Pete Ross", "Jimmy Olsen", "Bruce Wayne"],
-    answer: "Lex Luthor"
-  },
-  {
-    numéro: "7/20",
-    question: "Quelle est l'identité secrète de Superman ?",
-    options: ["Clark Kent", "Bruce Wayne", "Barry Allen", "Hal Jordan"],
-    answer: "Clark Kent"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel est le nom de la ferme où Clark Kent a été élevé ?",
-    options: ["La ferme des Kent", "La ferme des Waynes", "La ferme des Luthors", "La ferme des Ross"],
-    answer: "La ferme des Kent"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel pouvoir Clark Kent découvre-t-il en premier dans Smallville ?",
-    options: ["Super force", "Vision thermique", "Vol", "Super vitesse"],
-    answer: "Super vitesse"
-  },
-  {
-    numéro: "10/20",
-    question: "Qui est la meilleure amie de Clark Kent dans Smallville, connue pour sa passion pour le journalisme ?",
-    options: ["Chloe Sullivan", "Lana Lang", "Lois Lane", "Kara Zor-El"],
-    answer: "Chloe Sullivan"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel super-héros rejoint Clark Kent dans Smallville pour combattre Doomsday ?",
-    options: ["Oliver Queen", "Bruce Wayne", "Barry Allen", "Hal Jordan"],
-    answer: "Oliver Queen"
-  },
-  {
-    numéro: "12/20",
-    question: "Quelle est la couleur de la kryptonite qui joue sur le physique de Superman ?",
-    options: ["Rouge", "Bleue", "Verte", "Noire"],
-    answer: "Verte"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel est le nom de l'entreprise que Lex Luthor dirige dans Smallville ?",
-    options: ["LuthorCorp", "LexCorp", "Wayne Enterprises", "Daily Planet"],
-    answer: "LuthorCorp"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel est le symbole sur la poitrine de Superman ?",
-    options: ["Un S", "Un K", "Un L", "Un V"],
-    answer: "Un S"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel est le nom du méchant kryptonien qui est libéré de la Zone Fantôme dans Smallville ?",
-    options: ["Zod", "Brainiac", "Doomsday", "Darkseid"],
-    answer: "Zod"
-  },
-  {
-    numéro: "16/20",
-    question: "Qui est la petite amie de longue date de Clark Kent dans Smallville avant Lois Lane ?",
-    options: ["Lana Lang", "Chloe Sullivan", "Lois Lane", "Kara Zor-El"],
-    answer: "Lana Lang"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel est le nom de la mère adoptive de Clark Kent ?",
-    options: ["Martha Kent", "Martha Wayne", "Lara Lor-Van", "Kara Zor-El"],
-    answer: "Martha Kent"
-  },
-  {
-    numéro: "18/20",
-    question: "Quelle est la profession de Jonathan Kent, le père adoptif de Clark ?",
-    options: ["Agriculteur", "Journaliste", "Scientifique", "Avocat"],
-    answer: "Agriculteur"
-  },
-  {
-    numéro: "19/20",
-    question: "Quelle est la faiblesse de Clark Kent face à la kryptonite rouge ?",
-    options: ["Il devient imprudent et agressif", "Il perd ses pouvoirs", "Il tombe malade", "Il devient invisible"],
-    answer: "Il devient imprudent et agressif"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel est le nom de la planète d'origine de Superman ?",
-    options: ["Krypton", "Thanagar", "Kripton", "Kalel"],
-    answer: "Krypton"
-  }
-];
-
-const questionsMersOceans = [
-  {
-    numéro: "1/20",
-    question: "Quel est l'océan le plus vaste de la planète Terre ?",
-    options: ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Arctique"],
-    answer: "Océan Pacifique"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel est le nom de la mer bordée par la Jordanie, Israël et la Palestine, connue pour sa salinité élevée ?",
-    options: ["Mer Morte", "Mer Rouge", "Mer Noire", "Mer Caspienne"],
-    answer: "Mer Morte"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel courant océanique chaud traverse l'Atlantique Nord et influence le climat de l'Europe ?",
-    options: ["Courant du Labrador", "Courant de Humboldt", "Gulf Stream", "Courant de Kuroshio"],
-    answer: "Gulf Stream"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel océan est le plus profond, abritant la fosse des Mariannes ?",
-    options: ["Océan Atlantique", "Océan Indien", "Océan Pacifique", "Océan Austral"],
-    answer: "Océan Pacifique"
-  },
-  {
-    numéro: "5/20",
-    question: "Quelle mer est située entre l'Europe, l'Afrique et l'Asie, connue pour son importance historique et culturelle ?",
-    options: ["Mer Noire", "Mer Méditerranée", "Mer Rouge", "Mer d'Arabie"],
-    answer: "Mer Méditerranée"
-  },
-  {
-    numéro: "6/20",
-    question: "Quelle mer intérieure, entourée par la Russie, le Kazakhstan, le Turkménistan et l'Iran, est la plus grande étendue d'eau salée enclavée au monde ?",
-    options: ["Mer Caspienne", "Mer Noire", "Mer d'Aral", "Mer Baltique"],
-    answer: "Mer Caspienne"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel est le nom de la grande barrière de corail située au large de la côte nord-est de l'Australie ?",
-    options: ["Barrière de corail de Belize", "Grande Barrière de corail", "Barrière de corail de Mesoamerica", "Barrière de corail de Chagos"],
-    answer: "Grande Barrière de corail"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel phénomène naturel, caractérisé par une montée anormale du niveau de la mer, est souvent associé aux cyclones et ouragans ?",
-    options: ["Marée haute", "Raz-de-marée", "Tsunami", "Surge de tempête"],
-    answer: "Surge de tempête"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel détroit sépare l'Espagne et le Maroc, reliant la mer Méditerranée à l'océan Atlantique ?",
-    options: ["Détroit de Gibraltar", "Détroit de Bering", "Détroit de Magellan", "Détroit de Malacca"],
-    answer: "Détroit de Gibraltar"
-  },
-  {
-    numéro: "10/20",
-    question: "Quelle mer est célèbre pour ses nombreux naufrages et sa légende du triangle des Bermudes ?",
-    options: ["Mer des Caraïbes", "Mer des Sargasses", "Mer de Chine méridionale", "Mer de Norvège"],
-    answer: "Mer des Sargasses"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel courant océanique froid longe la côte ouest de l'Amérique du Sud, influençant le climat de la région ?",
-    options: ["Courant du Brésil", "Courant de Humboldt", "Courant des Aiguilles", "Courant de Californie"],
-    answer: "Courant de Humboldt"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel est le nom de la mer située entre la Chine et la péninsule coréenne ?",
-    options: ["Mer Jaune", "Mer de Chine méridionale", "Mer de Chine orientale", "Mer du Japon"],
-    answer: "Mer Jaune"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel est le plus grand océanique du monde, qui couvre environ 30 % de la surface terrestre ?",
-    options: ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Austral"],
-    answer: "Océan Pacifique"
-  },
-  {
-    numéro: "14/20",
-    question: "Quelle est la profondeur approximative de la fosse des Mariannes, le point le plus profond des océans du monde ?",
-    options: ["11 000 mètres", "8 000 mètres", "7 000 mètres", "9 000 mètres"],
-    answer: "11 000 mètres"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel est le nom du phénomène océanique où les eaux de surface deviennent exceptionnellement chaudes dans l'océan Pacifique équatorial ?",
-    options: ["El Niño", "La Niña", "Upwelling", "Thermocline"],
-    answer: "El Niño"
-  },
-  {
-    numéro: "16/20",
-    question: "Quelle mer intérieure est connue pour ses hauts niveaux de salinité et pour avoir perdu une grande partie de son eau en raison de l'irrigation ?",
-    options: ["Mer d'Aral", "Mer Caspienne", "Mer Morte", "Mer Noire"],
-    answer: "Mer d'Aral"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel océan entoure le continent antarctique ?",
-    options: ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Austral"],
-    answer: "Océan Austral"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel détroit relie la mer Rouge à l'océan Indien ?",
-    options: ["Détroit de Malacca", "Détroit de Gibraltar", "Détroit de Bering", "Détroit de Bab-el-Mandeb"],
-    answer: "Détroit de Bab-el-Mandeb"
-  },
-  {
-    numéro: "19/20",
-    question: "Quelle mer borde les côtes de la Bulgarie, de la Roumanie et de l'Ukraine ?",
-    options: ["Mer Noire", "Mer Méditerranée", "Mer Baltique", "Mer du Nord"],
-    answer: "Mer Noire"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel est le nom de l'immense gyre océanique dans le Pacifique Nord, connu pour sa grande accumulation de déchets plastiques ?",
-    options: ["Great Pacific Garbage Patch", "Atlantic Trash Vortex", "Indian Ocean Garbage Zone", "Antarctic Trash Gyre"],
-    answer: "Great Pacific Garbage Patch"
-  }
-];
-
-const questionsInsectes = [
-  {
-    numéro: "1/20",
-    question: "Quel insecte est connu pour sa capacité à produire du miel ?",
-    options: ["Abeille", "Fourmi", "Papillon", "Libellule"],
-    answer: "Abeille"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel est le nom de l'insecte qui peut sauter jusqu'à 100 fois la longueur de son corps ?",
-    options: ["Sauterelle", "Fourmi", "Mouche", "Puce"],
-    answer: "Puce"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel insecte est célèbre pour ses transformations de la larve à l'adulte, passant par le stade de nymphe dans un cocon ?",
-    options: ["Papillon", "Mouche", "Abeille", "Scarabée"],
-    answer: "Papillon"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel insecte est connu pour sa capacité à porter des charges plusieurs fois plus lourdes que son propre poids ?",
-    options: ["Fourmi", "Abeille", "Libellule", "Sauterelle"],
-    answer: "Fourmi"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel est le plus grand insecte vivant sur Terre ?",
-    options: ["Phasme", "Scarabée Goliath", "Libellule", "Mante religieuse"],
-    answer: "Phasme"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel insecte est connu pour sa capacité à clignoter et produire de la lumière ?",
-    options: ["Luciole", "Papillon de nuit", "Cigale", "Mille-pattes"],
-    answer: "Luciole"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel insecte est capable de voler en arrière ?",
-    options: ["Libellule", "Papillon", "Abeille", "Moustique"],
-    answer: "Libellule"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel insecte est souvent associé à la propagation de maladies comme le paludisme et la dengue ?",
-    options: ["Moustique", "Tique", "Puce", "Abeille"],
-    answer: "Moustique"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel insecte construit des nids en papier mâché ?",
-    options: ["Guêpe", "Fourmi", "Abeille", "Termite"],
-    answer: "Guêpe"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel insecte est connu pour sa capacité à produire un son stridulant en frottant ses ailes ou ses pattes arrière ?",
-    options: ["Criquet", "Mouche", "Scarabée", "Libellule"],
-    answer: "Criquet"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel est le nom de l'insecte dont les larves sont connues sous le nom de chenilles ?",
-    options: ["Papillon", "Mouche", "Guêpe", "Scarabée"],
-    answer: "Papillon"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel insecte est souvent appelé 'dieu des jardins' en raison de son rôle bénéfique dans le contrôle des ravageurs ?",
-    options: ["Coccinelle", "Criquet", "Libellule", "Fourmi"],
-    answer: "Coccinelle"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel insecte a une relation mutualiste avec les pucerons, les protégeant en échange de leur miellat ?",
-    options: ["Fourmi", "Libellule", "Papillon", "Guêpe"],
-    answer: "Fourmi"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel insecte est souvent appelé 'tondeuse de gazon' naturelle en raison de son appétit pour l'herbe et les plantes ?",
-    options: ["Sauterelle", "Cigale", "Criquet", "Papillon"],
-    answer: "Sauterelle"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel insecte est connu pour son rôle dans la décomposition des matières organiques mortes ?",
-    options: ["Coléoptère nécrophore", "Moustique", "Papillon", "Fourmi"],
-    answer: "Coléoptère nécrophore"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel insecte est souvent considéré comme un indicateur de la qualité de l'eau douce ?",
-    options: ["Libellule", "Moustique", "Scarabée", "Fourmi"],
-    answer: "Libellule"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel insecte est connu pour construire des galeries complexes et souterraines ?",
-    options: ["Termite", "Fourmi", "Abeille", "Guêpe"],
-    answer: "Termite"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel insecte est capable de régénérer ses membres perdus au fil du temps ?",
-    options: ["Mante religieuse", "Criquet", "Fourmi", "Papillon"],
-    answer: "Mante religieuse"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel insecte est connu pour son camouflage efficace, imitant des branches ou des feuilles ?",
-    options: ["Phasme", "Sauterelle", "Papillon", "Guêpe"],
-    answer: "Phasme"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel insecte est souvent utilisé comme modèle dans les études de génétique et de développement ?",
-    options: ["Mouche drosophile", "Fourmi", "Abeille", "Papillon"],
-    answer: "Mouche drosophile"
-  }
-];
-
-const questionsAnimauxFerme = [
-  {
-    numéro: "1/20",
-    question: "Quel est le principal produit obtenu des vaches laitières ?",
-    options: ["Viande", "Lait", "Laine", "Œufs"],
-    answer: "Lait"
-  },
-  {
-    numéro: "2/20",
-    question: "Quel animal de la basse-cour est connu pour produire des œufs ?",
-    options: ["Poule", "Cochon", "Mouton", "Cheval"],
-    answer: "Poule"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel animal de la ferme est souvent utilisé pour labourer les champs ?",
-    options: ["Cheval", "Vache", "Chèvre", "Lapin"],
-    answer: "Cheval"
-  },
-  {
-    numéro: "4/20",
-    question: "Quel produit est principalement obtenu des moutons ?",
-    options: ["Viande", "Lait", "Laine", "Œufs"],
-    answer: "Laine"
-  },
-  {
-    numéro: "5/20",
-    question: "Quel animal de la basse-cour est connu pour son cri distinctif, le 'coin-coin' ?",
-    options: ["Canard", "Cheval", "Cochon", "Chèvre"],
-    answer: "Canard"
-  },
-  {
-    numéro: "6/20",
-    question: "Quel est le principal produit obtenu des cochons ?",
-    options: ["Lait", "Viande", "Laine", "Œufs"],
-    answer: "Viande"
-  },
-  {
-    numéro: "7/20",
-    question: "Quel animal de la ferme est souvent gardé pour sa capacité à fournir du lait et de la viande ?",
-    options: ["Chèvre", "Poulet", "Lapin", "Canard"],
-    answer: "Chèvre"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel est le nom du petit de la vache ?",
-    options: ["Agneau", "Porcelet", "Veau", "Poulain"],
-    answer: "Veau"
-  },
-  {
-    numéro: "9/20",
-    question: "Quel animal de la basse-cour est souvent associé à la production de foie gras ?",
-    options: ["Canard", "Poulet", "Dinde", "Oie"],
-    answer: "Canard"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel animal de la ferme est connu pour sa capacité à produire du miel ?",
-    options: ["Abeille", "Poulet", "Cochon", "Chèvre"],
-    answer: "Abeille"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel animal de la ferme est célèbre pour ses longues oreilles tombantes ?",
-    options: ["Lapin", "Chèvre", "Cheval", "Vache"],
-    answer: "Lapin"
-  },
-  {
-    numéro: "12/20",
-    question: "Quel est le nom du mâle reproducteur chez les poules ?",
-    options: ["Coq", "Poulet", "Coquelet", "Poussin"],
-    answer: "Coq"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel animal de la ferme est souvent utilisé pour sa laine et sa viande ?",
-    options: ["Mouton", "Chèvre", "Poulet", "Cochon"],
-    answer: "Mouton"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel est le nom du petit de la poule ?",
-    options: ["Porcelet", "Poussin", "Veau", "Agneau"],
-    answer: "Poussin"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel animal de la basse-cour est souvent gardé pour sa viande à Noël ?",
-    options: ["Dinde", "Poulet", "Canard", "Oie"],
-    answer: "Dinde"
-  },
-  {
-    numéro: "16/20",
-    question: "Quel animal de la ferme est souvent associé à la production de fromage de chèvre ?",
-    options: ["Chèvre", "Vache", "Poulet", "Lapin"],
-    answer: "Chèvre"
-  },
-  {
-    numéro: "17/20",
-    question: "Pour quelle occasion sont élévées les dindes ?",
-    options: ["Noël", "Pâques", "Assomption", "Halloween"],
-    answer: "Noël"
-  },
-  {
-    numéro: "18/20",
-    question: "Quel animal de la ferme est connu pour ses grandes cornes et sa capacité à escalader des terrains accidentés ?",
-    options: ["Chèvre", "Mouton", "Cheval", "Cochon"],
-    answer: "Chèvre"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel animal de la basse-cour est souvent élevé pour ses œufs et sa viande, et est plus petit que le canard ?",
-    options: ["Poule", "Dinde", "Oie", "Pintade"],
-    answer: "Pintade"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel est le nom du petit de la chèvre ?",
-    options: ["Chevreau", "Veau", "Poussin", "Porcelet"],
-    answer: "Chevreau"
-  }
-];
-
-const questionsEspecesAnimales = [
-  {
-    numéro: "1/20",
-    question: "Quel type d'animal est un dauphin ?",
-    options: ["Mammifère", "Poisson", "Reptile", "Amphibien"],
-    answer: "Mammifère"
-  },
-  {
-    numéro: "2/20",
-    question: "À quelle classe appartient le serpent ?",
-    options: ["Reptile", "Mammifère", "Amphibien", "Oiseau"],
-    answer: "Reptile"
-  },
-  {
-    numéro: "3/20",
-    question: "Quel est le plus grand crustacé vivant dans les océans ?",
-    options: ["Crabe araignée japonais", "Langouste", "Homard", "Écrevisse"],
-    answer: "Crabe araignée japonais"
-  },
-  {
-    numéro: "4/20",
-    question: "Quelle espèce d'oiseau est capable de voler à reculons ?",
-    options: ["Colibri", "Aigle", "Hirondelle", "Mouette"],
-    answer: "Colibri"
-  },
-  {
-    numéro: "5/20",
-    question: "À quelle espèce animale appartient le kangourou ?",
-    options: ["Marsupial", "Mammifère", "Reptile", "Amphibien"],
-    answer: "Marsupial"
-  },
-  {
-    numéro: "6/20",
-    question: "À quelle espèce animale appartient le calmar géant ?",
-    options: ["Mollusque", "Crustacé", "Poisson", "Échinoderme"],
-    answer: "Mollusque"
-  },
-  {
-    numéro: "7/20",
-    question: "À quelle espèce animale appartient le manchot empereur ?",
-    options: ["Oiseau", "Mammifère", "Reptile", "Amphibien"],
-    answer: "Oiseau"
-  },
-  {
-    numéro: "8/20",
-    question: "Quel est le nom de l'animal amphibien qui peut régénérer ses membres ?",
-    options: ["Salamandre", "Grenouille", "Triton", "Crapaud"],
-    answer: "Salamandre"
-  },
-  {
-    numéro: "9/20",
-    question: "À quelle espèce animale appartient la tarentule ?",
-    options: ["Arachnide", "Insecte", "Crustacé", "Mollusque"],
-    answer: "Arachnide"
-  },
-  {
-    numéro: "10/20",
-    question: "Quel est le plus grand oiseau du monde en termes d'envergure ?",
-    options: ["Albatros", "Condor", "Aigle royal", "Autruche"],
-    answer: "Albatros"
-  },
-  {
-    numéro: "11/20",
-    question: "Quel crustacé est connu pour sa capacité à régénérer ses membres perdus ?",
-    options: ["Crabe", "Homard", "Crevette", "Langoustine"],
-    answer: "Crabe"
-  },
-  {
-    numéro: "12/20",
-    question: "À quelle espèce animale appartient la méduse ?",
-    options: ["Cnidaire", "Mollusque", "Crustacé", "Poisson"],
-    answer: "Cnidaire"
-  },
-  {
-    numéro: "13/20",
-    question: "Quel insecte est connu pour sa danse en huit qui communique des informations sur la localisation de la nourriture ?",
-    options: ["Abeille", "Fourmi", "Papillon", "Moustique"],
-    answer: "Abeille"
-  },
-  {
-    numéro: "14/20",
-    question: "Quel est le régime alimentaire des kangourous ?",
-    options: ["Herbivore", "Carnivore", "Omnivore", "Insectivore"],
-    answer: "Herbivore"
-  },
-  {
-    numéro: "15/20",
-    question: "Quel est le régime alimentaire des renards ?",
-    options: ["Omnivore", "Carnivore", "Herbivore", "Insectivore"],
-    answer: "Omnivore"
-  },
-  {
-    numéro: "16/20",
-    question: "À quelle espèce animale appartient le triton ?",
-    options: ["Amphibien", "Reptile", "Poisson", "Mammifère"],
-    answer: "Amphibien"
-  },
-  {
-    numéro: "17/20",
-    question: "Quel oiseau est connu pour son mimétisme vocal exceptionnel, imitant les sons qu'il entend ?",
-    options: ["Loriot", "Perruche", "Mainate", "Rossignol"],
-    answer: "Mainate"
-  },
-  {
-    numéro: "18/20",
-    question: "À quelle espèce animale appartient la crevette ?",
-    options: ["Crustacé", "Mollusque", "Poisson", "Arachnide"],
-    answer: "Crustacé"
-  },
-  {
-    numéro: "19/20",
-    question: "Quel groupe d'animaux comprend les insectes, les arachnides, les crustacés et les myriapodes ?",
-    options: ["Invertébrés", "Vertébrés", "Mollusques", "Poissons"],
-    answer: "Invertébrés"
-  },
-  {
-    numéro: "20/20",
-    question: "Quel groupe d'animaux comprend les poissons, les amphibiens, les reptiles, les oiseaux et les mammifères ?",
-    options: ["Vertébrés", "Invertébrés", "Mollusques", "Crustacés"],
-    answer: "Vertébrés"
-  }
-];
 
 const questionsAnglais = [
   {
@@ -11600,7 +11611,7 @@ themeAnimauxDisneyBtn.addEventListener("click", () => {
 });
 
 themeInstrumentsCordeBtn.addEventListener("click", () => {
-  selectedTheme = " Instruments à cordes";
+  selectedTheme = "Instruments à cordes";
   startQuiz(questionsInstrumentsCorde);
   scrollToTop();
 });
