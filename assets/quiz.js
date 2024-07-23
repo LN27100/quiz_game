@@ -9957,9 +9957,9 @@ const questionsPublicitesCelebres = [
   },
   {
     numéro: "3/20",
-    question: "Quel est le produit pour lequel le personnage de Tony the Tiger est le porte-parole ?",
-    options: ["Frosted Flakes", "Cocoa Pebbles", "Cheerios", "Lucky Charms"],
-    answer: "Frosted Flakes"
+    question: "Quel est le produit pour lequel le personnage de Tony le tigre est le porte-parole ?",
+    options: ["Frosties de Kellogg's", "Cocoa Pebbles", "Cheerios", "Lucky Charms"],
+    answer: "Frosties de Kellogg's"
   },
   {
     numéro: "4/20",
@@ -9981,15 +9981,15 @@ const questionsPublicitesCelebres = [
   },
   {
     numéro: "7/20",
-    question: "Quelle marque de voiture utilise le slogan 'Vorsprung durch Technik' ?",
-    options: ["Audi", "BMW", "Mercedes-Benz", "Volkswagen"],
-    answer: "Audi"
+    question: "Qui a 'Le déclic fraïcheur'?",
+    options: ["Mentos", "Tic-Tac", "Kiss Cool", "Frisk"],
+    answer: "Mentos"
   },
   {
     numéro: "8/20",
-    question: "Quel est le produit associé au célèbre slogan 'The Ultimate Driving Machine' ?",
-    options: ["BMW", "Audi", "Mercedes-Benz", "Porsche"],
-    answer: "BMW"
+    question: "Qui utilise le slogan 'La vie,la vraie' ?",
+    options: ["Auchan", "Intermarché", "Leclerc", "Carrefour"],
+    answer: "Auchan"
   },
   {
     numéro: "9/20",
