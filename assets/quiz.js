@@ -4129,7 +4129,7 @@ const questionsDetailsDisney = [
   },
   {
     numéro: "14/20",
-    question: "Combien de frères à Rebelle dans le film du même nom?",
+    question: "Combien de frères a Rebelle dans le film du même nom?",
     options: ["3", "0", "1", "5"],
     answer: "3"
   },
@@ -9969,13 +9969,13 @@ const questionsPublicitesCelebres = [
   },
   {
     numéro: "5/20",
-    question: "Quelle marque est connue pour sa publicité 'La Redoute est la mode' ?",
-    options: ["La Redoute", "Vente-Privée", "Zalando", "H&M"],
-    answer: "La Redoute"
+    question: "Quelle marque de biscuits est associée au slogan 'C'est bon d'être gourmand' ?",
+    options: ["LU", "Bonne Maman", "BN", "Pim's"],
+    answer: "LU"
   },
   {
     numéro: "6/20",
-    question: "Quel produit est promu avec le slogan 'Have a Break, Have a Kit Kat' ?",
+    question: "Quel produit est promu avec le slogan 'Have a Break, Have a...' ?",
     options: ["Kit Kat", "Snickers", "Twix", "Mars"],
     answer: "Kit Kat"
   },
@@ -9999,7 +9999,7 @@ const questionsPublicitesCelebres = [
   },
   {
     numéro: "10/20",
-    question: "Quel produit est promu avec le slogan 'Red Bull Gives You Wings' ?",
+    question: "Quel produit 'donne des ailes' ?",
     options: ["Red Bull", "Monster", "Rockstar", "5-hour Energy"],
     answer: "Red Bull"
   },
@@ -10017,9 +10017,9 @@ const questionsPublicitesCelebres = [
   },
   {
     numéro: "13/20",
-    question: "Quel est le produit associé au célèbre jingle 'Have a Coke and a Smile' ?",
-    options: ["Coca-Cola", "Pepsi", "Dr Pepper", "Sprite"],
-    answer: "Coca-Cola"
+    question: "Quel produit est associé au slogan 'Sans les mains !' ?",
+    options: ["BN", "Oreo", "Prince", "Pepito"],
+    answer: "BN"
   },
   {
     numéro: "14/20",
@@ -10029,27 +10029,27 @@ const questionsPublicitesCelebres = [
   },
   {
     numéro: "15/20",
-    question: "Quel est le produit promu avec le slogan 'Taste the Feeling' ?",
-    options: ["Coca-Cola", "Pepsi", "7 Up", "Fanta"],
-    answer: "Coca-Cola"
+    question: "Quel produit est promu avec la publicité 'Le goût des choses simples' ?",
+    options: ["Paysan Breton", "Elle & Vire", "Président", "Danone"],
+    answer: "Président"
   },
   {
     numéro: "16/20",
-    question: "Quelle marque est associée au slogan 'The King of Beers' ?",
-    options: ["Budweiser", "Heineken", "Coors", "Corona"],
-    answer: "Budweiser"
+    question: "Quelle marque est associée à la publicité 'On se lève tous pour Danette' ?",
+    options: ["Danone", "Nestlé", "Yoplait", "Activia"],
+    answer: "Danone"
   },
   {
     numéro: "17/20",
-    question: "Quel produit est promu avec le slogan 'I'm a Pepper, Wouldn't You Like to Be a Pepper Too?' ?",
-    options: ["Dr Pepper", "Pepsi", "Coca-Cola", "Sprite"],
-    answer: "Dr Pepper"
+    question: "Quelle marque utilise le slogan 'Quand c’est trop, c’est...' ?",
+    options: ["Tropico", "Oasis", "Fanta", "Tropicana"],
+    answer: "Tropico"
   },
   {
     numéro: "18/20",
-    question: "Quel est le produit associé au slogan 'Like a Good Neighbor, State Farm is There' ?",
-    options: ["State Farm", "Geico", "Allstate", "Progressive"],
-    answer: "State Farm"
+    question: "Quel produit utilise le slogan 'Laissez-vous fondre' ?",
+    options: ["Côte d'Or", "Milka", "Lindt", "Nestlé Dessert"],
+    answer: "Lindt"
   },
   {
     numéro: "19/20",
