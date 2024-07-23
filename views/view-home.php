@@ -126,7 +126,7 @@ $img_path = $upload_dir . $img;
     </div>
   </div>
 
-  
+
   <h4>Catégorie Audiovisuelle</h4>
   <div class="container grid">
     <button id="theme-dessins" class="theme-button" data-theme="Dessins animés" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Dessins animés</button>
@@ -188,7 +188,6 @@ $img_path = $upload_dir . $img;
     <button id="theme-superVilains" class="theme-button" data-theme="Super-Vilains" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Super-Vilains</button>
     <button id="theme-personnalitesMondiales" class="theme-button" data-theme="Personnalités mondiales" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Personnalités mondiales</button>
     <button id="theme-superman" class="theme-button" data-theme="Superman" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Superman</button>
-
   </div>
 
   <h4>Catégorie Nature et Animaux</h4>

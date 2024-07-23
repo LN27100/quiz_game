@@ -11271,6 +11271,8 @@ const questionsViennoiseriesPatisseries = [
 
 
 // Mélanger les options pour chaque thème de questions
+
+// CATEGORIE AUDIOVISUELLE
 shuffleQuestionsOptions(questionsDessinsAnimes);
 shuffleQuestionsOptions(questionsSeries);
 shuffleQuestionsOptions(questionsCinema);
@@ -11280,6 +11282,7 @@ shuffleQuestionsOptions(questionsAnimes);
 shuffleQuestionsOptions(questionsComedies);
 shuffleQuestionsOptions(questionsTelerealite);
 
+// CATEGORIE SPORTS ET LOISIRS
 shuffleQuestionsOptions(questionsSport);
 shuffleQuestionsOptions(questionsJoueursFoot);
 shuffleQuestionsOptions(questionsJeuxVideo);
@@ -11289,6 +11292,7 @@ shuffleQuestionsOptions(questionsSportsMoteur);
 shuffleQuestionsOptions(questionsTennis);
 shuffleQuestionsOptions(questionsBricolage);
 
+// CATEGORIE DISNEY
 shuffleQuestionsOptions(questionsPrincessesDisney);
 shuffleQuestionsOptions(questionsPersonnagesDisney);
 shuffleQuestionsOptions(questionsDessinsAnimesDisney);
@@ -11299,6 +11303,7 @@ shuffleQuestionsOptions(questionsAnimauxDisney);
 shuffleQuestionsOptions(questionsPixar);
 shuffleQuestionsOptions(questionsDetailsDisney);
 
+// CATEGORIE MUSICALE
 shuffleQuestionsOptions(questionsChansons);
 shuffleQuestionsOptions(questionsBandesOriginalesFilms);
 shuffleQuestionsOptions(questionsAnnees80);
@@ -11308,6 +11313,7 @@ shuffleQuestionsOptions(questionsInstrumentsCorde);
 shuffleQuestionsOptions(questionsStarsChanson);
 shuffleQuestionsOptions(questionsFestivalsMusiqueFrance );
 
+// CATEGORIE PERSONNALITES ET SUPER-HEROS
 shuffleQuestionsOptions(questionsHarry);
 shuffleQuestionsOptions(questionsSpiderman);
 shuffleQuestionsOptions(questionsTimBurton);
@@ -11317,6 +11323,7 @@ shuffleQuestionsOptions(questionsSuperVilains);
 shuffleQuestionsOptions(questionsPersonnalitesMondiales);
 shuffleQuestionsOptions(questionsSuperman);
 
+// CATEGORIE NATURE ET ANIMAUX
 shuffleQuestionsOptions(questionsAnimaux);
 shuffleQuestionsOptions(questionsPlantesBotanique);
 shuffleQuestionsOptions(questionsAnimauxDomestiques);
@@ -11326,6 +11333,7 @@ shuffleQuestionsOptions(questionsInsectes);
 shuffleQuestionsOptions(questionsAnimauxFerme);
 shuffleQuestionsOptions(questionsEspecesAnimales);
 
+// CATEGORIE SCOLAIRE
 shuffleQuestionsOptions(questionsGeographie);
 shuffleQuestionsOptions(questionsOrthographe);
 shuffleQuestionsOptions(questionsDrapeaux);
@@ -11335,6 +11343,7 @@ shuffleQuestionsOptions(questionsSciences);
 shuffleQuestionsOptions(questionsLitterature);
 shuffleQuestionsOptions(questionsAnglais);
 
+// CATEGORIE CULTURE ET MEDIAS
 shuffleQuestionsOptions(questionsCultureGenerale);
 shuffleQuestionsOptions(questionsFaitsInsolites);
 shuffleQuestionsOptions(questionsVraiFaux);
@@ -11344,6 +11353,7 @@ shuffleQuestionsOptions(questionsLangageSMS);
 shuffleQuestionsOptions(questionsMarquesLogos);
 shuffleQuestionsOptions(questionsPublicitesCelebres);
 
+// CATEGORIE ALIMENTATION
 shuffleQuestionsOptions(questionsCuisine);
 shuffleQuestionsOptions(questionsGastronomieDuMonde);
 shuffleQuestionsOptions(questionsBoissonsCocktail);
@@ -11365,6 +11375,7 @@ const resultContainer = document.getElementById("result-container");
 const scoreText = document.getElementById("score");
 const finishButton = document.getElementById("finish-btn");
 
+// CATEGORIE AUDIOVISUELLE
 const themeDessinsBtn = document.getElementById("theme-dessins");
 const themeSeriesBtn = document.getElementById("theme-series");
 const themeCinemaBtn = document.getElementById("theme-cinema");
@@ -11374,6 +11385,7 @@ const themeAnimesBtn = document.getElementById("theme-animes");
 const themeComediesBtn = document.getElementById("theme-comedies");
 const themeTelerealiteBtn = document.getElementById("theme-telerealite");
 
+// CATEGORIE SPORTS ET LOISIRS
 const themeSportBtn = document.getElementById("theme-sport");
 const themeJoueursFootBtn = document.getElementById("theme-joueursFoot");
 const themeJeuxVideoBtn = document.getElementById("theme-jeuxVideo");
@@ -11383,6 +11395,7 @@ const themeSportsMoteurBtn = document.getElementById("theme-sportsMoteur");
 const themeTennisBtn = document.getElementById("theme-tennis");
 const themeBricolageBtn = document.getElementById("theme-bricolage");
 
+// CATEGORIE DISNEY
 const themePrincessesDisneyBtn = document.getElementById("theme-princessesDisney");
 const themePersonnagesDisneyBtn = document.getElementById("theme-personnagesDisney");
 const themeDessinsAnimesDisneyBtn = document.getElementById("theme-dessinsAnimesDisney");
@@ -11393,6 +11406,7 @@ const themeAnimauxDisneyBtn = document.getElementById("theme-animauxDisney");
 const themePixarBtn = document.getElementById("theme-filmsPixar");
 const themeDetailsDisneyBtn = document.getElementById("theme-detailsDisney");
 
+// CATEGORIE MUSICALE
 const themeChansonsBtn = document.getElementById("theme-chansons");
 const themeBandesOriginalesFilmBtn = document.getElementById("theme-bandesOriginalesFilm");
 const themeAnnees80Btn = document.getElementById("theme-annees80");
@@ -11402,6 +11416,7 @@ const themeInstrumentsCordeBtn = document.getElementById("theme-instrumentsCorde
 const themeStarsChansonBtn = document.getElementById("theme-starChanson");
 const themeFestivalsMusiqueFranceBtn = document.getElementById("theme-festivalsMusique");
 
+// CATEGORIE PERSONNALITES ET SUPER-HEROS
 const themeHarryBtn = document.getElementById("theme-harry");
 const themeSpidermanBtn = document.getElementById("theme-spiderman");
 const themeTimBurtonBtn = document.getElementById("theme-timBurton");
@@ -11411,6 +11426,7 @@ const themeSuperVilainsBtn = document.getElementById("theme-superVilains");
 const themePersonnalitesMondialesBtn = document.getElementById("theme-personnalitesMondiales");
 const themeSupermanBtn = document.getElementById("theme-superman");
 
+// CATEGORIE NATURE ET ANIMAUX
 const themeAnimauxBtn = document.getElementById("theme-animaux");
 const themePlantesBotaniqueBtn = document.getElementById("theme-plantesBotanique");
 const themeAnimauxDomestiquesBtn = document.getElementById("theme-animauxDomestiques");
@@ -11420,6 +11436,7 @@ const themeInsectesBtn = document.getElementById("theme-insectes");
 const themeAnimauxFermeBtn = document.getElementById("theme-animauxDeLaFerme");
 const themeEspecesAnimalesBtn = document.getElementById("theme-especesAnimales");
 
+// CATEGORIE SCOLAIRE
 const themeGeographieBtn = document.getElementById("theme-geographie");
 const themeOrthographeBtn = document.getElementById("theme-orthographe");
 const themeDrapeauxBtn = document.getElementById("theme-drapeaux");
@@ -11429,6 +11446,7 @@ const themeSciencesBtn = document.getElementById("theme-sciences");
 const themeLitteratureBtn = document.getElementById("theme-litterature");
 const themeAnglaisBtn = document.getElementById("theme-anglais");
 
+// CATEGORIE CULTURE ET MEDIAS
 const themeCultureBtn = document.getElementById("theme-culture");
 const themeFaitsInsolitesBtn = document.getElementById("theme-faitsInsolites");
 const themeVraiFauxBtn = document.getElementById("theme-vraiFaux");
@@ -11438,6 +11456,7 @@ const themeLangageSMSBtn = document.getElementById("theme-langageSMS");
 const themeMarquesLogosBtn = document.getElementById("theme-marquesLogos");
 const themePublicitesCelebresBtn = document.getElementById("theme-publicitesCelebres");
 
+// CATEGORIE ALIMENTATION
 const themeCuisineBtn = document.getElementById("theme-cuisine");
 const themeGastronomieDuMondeBtn = document.getElementById("theme-gastronomieMonde");
 const themeBoissonsCocktailBtn = document.getElementById("theme-boissonsCocktail");
@@ -11478,10 +11497,12 @@ function scrollToTop() {
 
 
 // Écouter le clic sur les boutons de thème et démarrer le quiz correspondant
+// CATEGORIE AUDIOVISUELLE
 themeDessinsBtn.addEventListener("click", () => {
   selectedTheme = "Dessins animés";
   startQuiz(questionsDessinsAnimes);
-  scrollToTop();
+  scrollToTop(); // Appeler la fonction pour faire défiler la page vers le haut
+
 });
 
 themeSeriesBtn.addEventListener("click", () => {
@@ -11527,6 +11548,7 @@ themeTelerealiteBtn.addEventListener("click", () => {
 });
 
 
+// CATEGORIE SPORTS ET LOISIRS
 themeSportBtn.addEventListener("click", () => {
   selectedTheme = "Tous sports";
   startQuiz(questionsSport);
@@ -11576,6 +11598,7 @@ themeBricolageBtn.addEventListener("click", () => {
 });
 
 
+// CATEFORIE DISNEY
 themePrincessesDisneyBtn.addEventListener("click", () => {
   selectedTheme = "Princesses Disney";
   startQuiz(questionsPrincessesDisney);
@@ -11631,6 +11654,7 @@ themeDetailsDisneyBtn.addEventListener("click", () => {
 });
 
 
+// CATEGORIE MUSICALE
 themeChansonsBtn.addEventListener("click", () => {
   selectedTheme = "Chansons";
   startQuiz(questionsChansons);
@@ -11680,6 +11704,7 @@ themeFestivalsMusiqueFranceBtn.addEventListener("click", () => {
 });
 
 
+// CATEGORIE PERSONNALITES ET SUPER-HEROS
 themeHarryBtn.addEventListener("click", () => {
   selectedTheme = "Harry Potter";
   startQuiz(questionsHarry);
@@ -11729,6 +11754,7 @@ themeSupermanBtn.addEventListener("click", () => {
 });
 
 
+// CATEGORIE NATURE ET ANIMAUX
 themeAnimauxBtn.addEventListener("click", () => {
   selectedTheme = "Animaux en général";
   startQuiz(questionsAnimaux);
@@ -11753,58 +11779,15 @@ themeEcosystemesHabitatsBtn.addEventListener("click", () => {
   scrollToTop();
 });
 
-
-
-
-
-
-
-
-themeFromagesBtn.addEventListener("click", () => {
-  selectedTheme = "Fromages";
-  startQuiz(questionsFromages);
-  scrollToTop(); // Appeler la fonction pour faire défiler la page vers le haut
-});
-
-themePublicitesCelebresBtn.addEventListener("click", () => {
-  selectedTheme = "Publicités célèbres";
-  startQuiz(questionsPublicitesCelebres);
+themeMersOceansBtn.addEventListener("click", () => {
+  selectedTheme = "Mers et Océans";
+  startQuiz(questionsMersOceans);
   scrollToTop();
 });
 
-themeDessertsBtn.addEventListener("click", () => {
-  selectedTheme = "Desserts";
-  startQuiz(questionsDesserts);
-  scrollToTop();
-});
-
-themeFruitsLegumesBtn.addEventListener("click", () => {
-  selectedTheme = "Fruits et Légumes";
-  startQuiz(questionsFruitsLegumes);
-  scrollToTop();
-});
-
-themeViennoiseriesPatisseriesBtn.addEventListener("click", () => {
-  selectedTheme = "Viennoiseries et Pâtisseries";
-  startQuiz(questionsViennoiseriesPatisseries);
-  scrollToTop();
-});
-
-themeLitteratureBtn.addEventListener("click", () => {
-  selectedTheme = "Littérature";
-  startQuiz(questionsLitterature);
-  scrollToTop();
-});
-
-themeSciencesBtn.addEventListener("click", () => {
-  selectedTheme = "Sciences";
-  startQuiz(questionsSciences);
-  scrollToTop();
-});
-
-themeAnglaisBtn.addEventListener("click", () => {
-  selectedTheme = "Anglais";
-  startQuiz(questionsAnglais);
+themeInsectesBtn.addEventListener("click", () => {
+  selectedTheme = "Insectes";
+  startQuiz(questionsInsectes);
   scrollToTop();
 });
 
@@ -11820,15 +11803,23 @@ themeEspecesAnimalesBtn.addEventListener("click", () => {
   scrollToTop();
 });
 
-themeMersOceansBtn.addEventListener("click", () => {
-  selectedTheme = "Mers et Océans";
-  startQuiz(questionsMersOceans);
+
+// CATEGORIE SCOLAIRE
+themeGeographieBtn.addEventListener("click", () => {
+  selectedTheme = "Géographie";
+  startQuiz(questionsGeographie);
   scrollToTop();
 });
 
-themeInsectesBtn.addEventListener("click", () => {
-  selectedTheme = "Insectes";
-  startQuiz(questionsInsectes);
+themeOrthographeBtn.addEventListener("click", () => {
+  selectedTheme = "Orthographe";
+  startQuiz(questionsOrthographe);
+  scrollToTop();
+});
+
+themeDrapeauxBtn.addEventListener("click", () => {
+  selectedTheme = "Drapeaux";
+  startQuiz(questionsDrapeaux);
   scrollToTop();
 });
 
@@ -11841,6 +11832,50 @@ themeMathematiquesBtn.addEventListener("click", () => {
 themeHistoireBtn.addEventListener("click", () => {
   selectedTheme = "Histoire";
   startQuiz(questionsHistoire);
+  scrollToTop();
+});
+
+themeSciencesBtn.addEventListener("click", () => {
+  selectedTheme = "Sciences";
+  startQuiz(questionsSciences);
+  scrollToTop();
+});
+
+themeLitteratureBtn.addEventListener("click", () => {
+  selectedTheme = "Littérature";
+  startQuiz(questionsLitterature);
+  scrollToTop();
+});
+
+themeAnglaisBtn.addEventListener("click", () => {
+  selectedTheme = "Anglais";
+  startQuiz(questionsAnglais);
+  scrollToTop();
+});
+
+
+// CATEGORIE CULTURE ET MEDIAS
+themeCultureBtn.addEventListener("click", () => {
+  selectedTheme = "Culture générale";
+  startQuiz(questionsCultureGenerale);
+  scrollToTop();
+});
+
+themeFaitsInsolitesBtn.addEventListener("click", () => {
+  selectedTheme = "Faits insolites";
+  startQuiz(questionsFaitsInsolites);
+  scrollToTop();
+});
+
+themeVraiFauxBtn.addEventListener("click", () => {
+  selectedTheme = "Vrai ou Faux ?";
+  startQuiz(questionsVraiFaux);
+  scrollToTop();
+});
+
+themeCodeDeLaRouteBtn.addEventListener("click", () => {
+  selectedTheme = "Code de la route";
+  startQuiz(questionsCodeDeLaRoute);
   scrollToTop();
 });
 
@@ -11862,6 +11897,20 @@ themeMarquesLogosBtn.addEventListener("click", () => {
   scrollToTop();
 });
 
+themePublicitesCelebresBtn.addEventListener("click", () => {
+  selectedTheme = "Publicités célèbres";
+  startQuiz(questionsPublicitesCelebres);
+  scrollToTop();
+});
+
+
+// CATEGORIE ALIMENTATION
+themeCuisineBtn.addEventListener("click", () => {
+  selectedTheme = "Cuisine en général";
+  startQuiz(questionsCuisine);
+  scrollToTop();
+});
+
 themeGastronomieDuMondeBtn.addEventListener("click", () => {
   selectedTheme = "Gastronomie du Monde";
   startQuiz(questionsGastronomieDuMonde);
@@ -11880,54 +11929,29 @@ themeNutritionSanteBtn.addEventListener("click", () => {
   scrollToTop();
 });
 
-themeCultureBtn.addEventListener("click", () => {
-  selectedTheme = "Culture générale";
-  startQuiz(questionsCultureGenerale);
+themeDessertsBtn.addEventListener("click", () => {
+  selectedTheme = "Desserts";
+  startQuiz(questionsDesserts);
   scrollToTop();
 });
 
-themeVraiFauxBtn.addEventListener("click", () => {
-  selectedTheme = "Vrai ou Faux ?";
-  startQuiz(questionsVraiFaux);
+themeFromagesBtn.addEventListener("click", () => {
+  selectedTheme = "Fromages";
+  startQuiz(questionsFromages);
+  scrollToTop(); 
+});
+
+themeFruitsLegumesBtn.addEventListener("click", () => {
+  selectedTheme = "Fruits et Légumes";
+  startQuiz(questionsFruitsLegumes);
   scrollToTop();
 });
 
-themeCodeDeLaRouteBtn.addEventListener("click", () => {
-  selectedTheme = "Code de la route";
-  startQuiz(questionsCodeDeLaRoute);
+themeViennoiseriesPatisseriesBtn.addEventListener("click", () => {
+  selectedTheme = "Viennoiseries et Pâtisseries";
+  startQuiz(questionsViennoiseriesPatisseries);
   scrollToTop();
 });
-
-themeDrapeauxBtn.addEventListener("click", () => {
-  selectedTheme = "Drapeaux";
-  startQuiz(questionsDrapeaux);
-  scrollToTop();
-});
-
-themeFaitsInsolitesBtn.addEventListener("click", () => {
-  selectedTheme = "Faits insolites";
-  startQuiz(questionsFaitsInsolites);
-  scrollToTop();
-});
-
-themeCuisineBtn.addEventListener("click", () => {
-  selectedTheme = "Cuisine";
-  startQuiz(questionsCuisine);
-  scrollToTop();
-});
-
-themeGeographieBtn.addEventListener("click", () => {
-  selectedTheme = "Géographie";
-  startQuiz(questionsGeographie);
-  scrollToTop();
-});
-
-themeOrthographeBtn.addEventListener("click", () => {
-  selectedTheme = "Orthographe";
-  startQuiz(questionsOrthographe);
-  scrollToTop();
-});
-
 
 
 
