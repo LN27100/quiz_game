@@ -90,8 +90,8 @@ $img_path = $upload_dir . $img;
         </div>
       </div>
     </nav>
-
   </header>
+
 
   <div class="container">
     <h1>Quiz Game</h1>
@@ -126,6 +126,7 @@ $img_path = $upload_dir . $img;
     </div>
   </div>
 
+  
   <h4>Catégorie Audiovisuelle</h4>
   <div class="container grid">
     <button id="theme-dessins" class="theme-button" data-theme="Dessins animés" data-playerPseudo="<?php echo $pseudo; ?>">Thème <br> Dessins animés</button>

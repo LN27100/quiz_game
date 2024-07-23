@@ -11357,86 +11357,95 @@ shuffleQuestionsOptions(questionsViennoiseriesPatisseries);
 
 
 // Éléments DOM
-const premièreQuestion = questionsCultureGenerale[0];
+const premièreQuestion = questionsDessinsAnimes[0];
 const quizContainer = document.getElementById("quiz-container");
-const themeFromagesBtn = document.getElementById("theme-fromages");
-const themePixarBtn = document.getElementById("theme-filmsPixar");
-const themeTelerealiteBtn = document.getElementById("theme-telerealite");
-const themeComediesBtn = document.getElementById("theme-comedies");
-const themeBricolageBtn = document.getElementById("theme-bricolage");
-const themeTennisBtn = document.getElementById("theme-tennis");
-const themeInstrumentsCordeBtn = document.getElementById("theme-instrumentsCordes");
-const themeAnimauxDisneyBtn = document.getElementById("theme-animauxDisney");
-const themeMechantsDisneyBtn = document.getElementById("theme-mechantsDisney");
-const themeDisneylandParisBtn = document.getElementById("theme-parcDisneyland");
-const themeStarsChansonBtn = document.getElementById("theme-starChanson");
-const themeFestivalsMusiqueFranceBtn = document.getElementById("theme-festivalsMusique");
-const themePersonnalitesMondialesBtn = document.getElementById("theme-personnalitesMondiales");
-const themeAnimesBtn = document.getElementById("theme-animes");
-const themePopRockBtn = document.getElementById("theme-popRock");
-const themeMarvelBtn = document.getElementById("theme-marvel");
-const themeSuperVilainsBtn = document.getElementById("theme-superVilains");
-const themeDetailsDisneyBtn = document.getElementById("theme-detailsDisney");
-const themeSupermanBtn = document.getElementById("theme-superman");
-const themeMersOceansBtn = document.getElementById("theme-mersOceans");
-const themeInsectesBtn = document.getElementById("theme-insectes");
-const themeAnimauxFermeBtn = document.getElementById("theme-animauxDeLaFerme");
-const themeEspecesAnimalesBtn = document.getElementById("theme-especesAnimales");
-const themeAnglaisBtn = document.getElementById("theme-anglais");
-const themeSciencesBtn = document.getElementById("theme-sciences");
-const themeLitteratureBtn = document.getElementById("theme-litterature");
-const themeViennoiseriesPatisseriesBtn = document.getElementById("theme-viennoiseriesPatisseries");
-const themeFruitsLegumesBtn = document.getElementById("theme-fruitsLegumes");
-const themeDessertsBtn = document.getElementById("theme-desserts");
-const themePublicitesCelebresBtn = document.getElementById("theme-publicitesCelebres");
-const themeTimBurtonBtn = document.getElementById("theme-timBurton");
-const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
-const themeActeursActricesBtn = document.getElementById("theme-acteursActrices");
-const themeActivitesPleinAirBtn = document.getElementById("theme-activitesPleinAir");
-const themeJeuxVideoBtn = document.getElementById("theme-jeuxVideo");
-const themeJoueursFootBtn = document.getElementById("theme-joueursFoot");
-const themeHorreurBtn = document.getElementById("theme-horreur");
-const themeSportsMoteurBtn = document.getElementById("theme-sportsMoteur");
-const themePersonnagesDisneyBtn = document.getElementById("theme-personnagesDisney");
-const themeDessinsAnimesDisneyBtn = document.getElementById("theme-dessinsAnimesDisney");
-const themeMusiqueFilmsDisneyBtn = document.getElementById("theme-musiqueFilmsDisney");
-const themeBandesOriginalesFilmBtn = document.getElementById("theme-bandesOriginalesFilm");
-const themeAnnees80Btn = document.getElementById("theme-annees80");
-const themeInstrumentsBtn = document.getElementById("theme-instruments");
-const themeDragonBallBtn = document.getElementById("theme-dragonBall");
-const themePlantesBotaniqueBtn = document.getElementById("theme-plantesBotanique");
-const themeAnimauxDomestiquesBtn = document.getElementById("theme-animauxDomestiques");
-const themeEcosystemesHabitatsBtn = document.getElementById("theme-ecosystemesHabitats");
-const themeMathematiquesBtn = document.getElementById("theme-mathematiques");
-const themeHistoireBtn = document.getElementById("theme-histoire");
-const themeBdMangaComicsBtn = document.getElementById("theme-bdMangaComics");
-const themeLangageSMSBtn = document.getElementById("theme-langageSMS");
-const themeMarquesLogosBtn = document.getElementById("theme-marquesLogos");
-const themeGastronomieDuMondeBtn = document.getElementById("theme-gastronomieMonde");
-const themeBoissonsCocktailBtn = document.getElementById("theme-boissonsCocktail");
-const themeNutritionSanteBtn = document.getElementById("theme-nutritionSante");
-const themeVraiFauxBtn = document.getElementById("theme-vraiFaux");
-const themeSpidermanBtn = document.getElementById("theme-spiderman");
-const themeDrapeauxBtn = document.getElementById("theme-drapeaux");
-const themeAnimauxBtn = document.getElementById("theme-animaux");
-const themeFaitsInsolitesBtn = document.getElementById("theme-faitsInsolites");
-const themeCinemaBtn = document.getElementById("theme-cinema");
-const themeCultureBtn = document.getElementById("theme-culture");
-const themeChansonsBtn = document.getElementById("theme-chansons");
-const themeDessinsBtn = document.getElementById("theme-dessins");
-const themeSeriesBtn = document.getElementById("theme-series");
-const themeCuisineBtn = document.getElementById("theme-cuisine");
-const themeHarryBtn = document.getElementById("theme-harry");
-const themeJeuxDeSocieteBtn = document.getElementById("theme-jeuxDeSociete");
-const themeGeographieBtn = document.getElementById("theme-geographie");
-const themeOrthographeBtn = document.getElementById("theme-orthographe");
-const themePrincessesDisneyBtn = document.getElementById("theme-princessesDisney");
-const themeSportBtn = document.getElementById("theme-sport");
 const optionsContainer = document.getElementById("options-container");
 const nextButton = document.getElementById("next-btn");
 const resultContainer = document.getElementById("result-container");
 const scoreText = document.getElementById("score");
 const finishButton = document.getElementById("finish-btn");
+
+const themeDessinsBtn = document.getElementById("theme-dessins");
+const themeSeriesBtn = document.getElementById("theme-series");
+const themeCinemaBtn = document.getElementById("theme-cinema");
+const themeHorreurBtn = document.getElementById("theme-horreur");
+const themeActeursActricesBtn = document.getElementById("theme-acteursActrices");
+const themeAnimesBtn = document.getElementById("theme-animes");
+const themeComediesBtn = document.getElementById("theme-comedies");
+const themeTelerealiteBtn = document.getElementById("theme-telerealite");
+
+const themeSportBtn = document.getElementById("theme-sport");
+const themeJoueursFootBtn = document.getElementById("theme-joueursFoot");
+const themeJeuxVideoBtn = document.getElementById("theme-jeuxVideo");
+const themeActivitesPleinAirBtn = document.getElementById("theme-activitesPleinAir");
+const themeJeuxDeSocieteBtn = document.getElementById("theme-jeuxDeSociete");
+const themeSportsMoteurBtn = document.getElementById("theme-sportsMoteur");
+const themeTennisBtn = document.getElementById("theme-tennis");
+const themeBricolageBtn = document.getElementById("theme-bricolage");
+
+const themePrincessesDisneyBtn = document.getElementById("theme-princessesDisney");
+const themePersonnagesDisneyBtn = document.getElementById("theme-personnagesDisney");
+const themeDessinsAnimesDisneyBtn = document.getElementById("theme-dessinsAnimesDisney");
+const themeMusiqueFilmsDisneyBtn = document.getElementById("theme-musiqueFilmsDisney");
+const themeMechantsDisneyBtn = document.getElementById("theme-mechantsDisney");
+const themeDisneylandParisBtn = document.getElementById("theme-parcDisneyland");
+const themeAnimauxDisneyBtn = document.getElementById("theme-animauxDisney");
+const themePixarBtn = document.getElementById("theme-filmsPixar");
+const themeDetailsDisneyBtn = document.getElementById("theme-detailsDisney");
+
+const themeChansonsBtn = document.getElementById("theme-chansons");
+const themeBandesOriginalesFilmBtn = document.getElementById("theme-bandesOriginalesFilm");
+const themeAnnees80Btn = document.getElementById("theme-annees80");
+const themeInstrumentsBtn = document.getElementById("theme-instruments");
+const themePopRockBtn = document.getElementById("theme-popRock");
+const themeInstrumentsCordeBtn = document.getElementById("theme-instrumentsCordes");
+const themeStarsChansonBtn = document.getElementById("theme-starChanson");
+const themeFestivalsMusiqueFranceBtn = document.getElementById("theme-festivalsMusique");
+
+const themeHarryBtn = document.getElementById("theme-harry");
+const themeSpidermanBtn = document.getElementById("theme-spiderman");
+const themeTimBurtonBtn = document.getElementById("theme-timBurton");
+const themeDragonBallBtn = document.getElementById("theme-dragonBall");
+const themeMarvelBtn = document.getElementById("theme-marvel");
+const themeSuperVilainsBtn = document.getElementById("theme-superVilains");
+const themePersonnalitesMondialesBtn = document.getElementById("theme-personnalitesMondiales");
+const themeSupermanBtn = document.getElementById("theme-superman");
+
+const themeAnimauxBtn = document.getElementById("theme-animaux");
+const themePlantesBotaniqueBtn = document.getElementById("theme-plantesBotanique");
+const themeAnimauxDomestiquesBtn = document.getElementById("theme-animauxDomestiques");
+const themeEcosystemesHabitatsBtn = document.getElementById("theme-ecosystemesHabitats");
+const themeMersOceansBtn = document.getElementById("theme-mersOceans");
+const themeInsectesBtn = document.getElementById("theme-insectes");
+const themeAnimauxFermeBtn = document.getElementById("theme-animauxDeLaFerme");
+const themeEspecesAnimalesBtn = document.getElementById("theme-especesAnimales");
+
+const themeGeographieBtn = document.getElementById("theme-geographie");
+const themeOrthographeBtn = document.getElementById("theme-orthographe");
+const themeDrapeauxBtn = document.getElementById("theme-drapeaux");
+const themeMathematiquesBtn = document.getElementById("theme-mathematiques");
+const themeHistoireBtn = document.getElementById("theme-histoire");
+const themeSciencesBtn = document.getElementById("theme-sciences");
+const themeLitteratureBtn = document.getElementById("theme-litterature");
+const themeAnglaisBtn = document.getElementById("theme-anglais");
+
+const themeCultureBtn = document.getElementById("theme-culture");
+const themeFaitsInsolitesBtn = document.getElementById("theme-faitsInsolites");
+const themeVraiFauxBtn = document.getElementById("theme-vraiFaux");
+const themeCodeDeLaRouteBtn = document.getElementById("theme-codeDeLaRoute");
+const themeBdMangaComicsBtn = document.getElementById("theme-bdMangaComics");
+const themeLangageSMSBtn = document.getElementById("theme-langageSMS");
+const themeMarquesLogosBtn = document.getElementById("theme-marquesLogos");
+const themePublicitesCelebresBtn = document.getElementById("theme-publicitesCelebres");
+
+const themeCuisineBtn = document.getElementById("theme-cuisine");
+const themeGastronomieDuMondeBtn = document.getElementById("theme-gastronomieMonde");
+const themeBoissonsCocktailBtn = document.getElementById("theme-boissonsCocktail");
+const themeNutritionSanteBtn = document.getElementById("theme-nutritionSante");
+const themeDessertsBtn = document.getElementById("theme-desserts");
+const themeFromagesBtn = document.getElementById("theme-fromages");
+const themeFruitsLegumesBtn = document.getElementById("theme-fruitsLegumes");
+const themeViennoiseriesPatisseriesBtn = document.getElementById("theme-viennoiseriesPatisseries");
 
 
 
@@ -11469,17 +11478,292 @@ function scrollToTop() {
 
 
 // Écouter le clic sur les boutons de thème et démarrer le quiz correspondant
+themeDessinsBtn.addEventListener("click", () => {
+  selectedTheme = "Dessins animés";
+  startQuiz(questionsDessinsAnimes);
+  scrollToTop();
+});
 
-themeFromagesBtn.addEventListener("click", () => {
-  selectedTheme = "Fromages";
-  startQuiz(questionsFromages);
-  scrollToTop(); // Appeler la fonction pour faire défiler la page vers le haut
+themeSeriesBtn.addEventListener("click", () => {
+  selectedTheme = "Séries TV";
+  startQuiz(questionsSeries);
+  scrollToTop();
+});
+
+themeCinemaBtn.addEventListener("click", () => {
+  selectedTheme = "Cinéma";
+  startQuiz(questionsCinema);
+  scrollToTop();
+});
+
+themeHorreurBtn.addEventListener("click", () => {
+  selectedTheme = "Films d'horreur";
+  startQuiz(questionsHorreur);
+  scrollToTop();
+});
+
+themeActeursActricesBtn.addEventListener("click", () => {
+  selectedTheme = "Actrices/Acteurs";
+  startQuiz(questionsActeursActrices);
+  scrollToTop();
+});
+
+themeAnimesBtn.addEventListener("click", () => {
+  selectedTheme = "Animes";
+  startQuiz(questionsAnimes);
+  scrollToTop();
+});
+
+themeComediesBtn.addEventListener("click", () => {
+  selectedTheme = "Comédies";
+  startQuiz(questionsComedies);
+  scrollToTop();
+});
+
+themeTelerealiteBtn.addEventListener("click", () => {
+  selectedTheme = "Téléréalité";
+  startQuiz(questionsTelerealite);
+  scrollToTop();
+});
+
+
+themeSportBtn.addEventListener("click", () => {
+  selectedTheme = "Tous sports";
+  startQuiz(questionsSport);
+  scrollToTop();
+});
+
+themeJoueursFootBtn.addEventListener("click", () => {
+  selectedTheme = "Joueurs de foot";
+  startQuiz(questionsJoueursFoot);
+  scrollToTop();
+});
+
+themeJeuxVideoBtn.addEventListener("click", () => {
+  selectedTheme = "Jeux Vidéo";
+  startQuiz(questionsJeuxVideo);
+  scrollToTop();
+});
+
+themeActivitesPleinAirBtn.addEventListener("click", () => {
+  selectedTheme = "Activités de plein air";
+  startQuiz(questionsActivitesPleinAir);
+  scrollToTop();
+});
+
+themeJeuxDeSocieteBtn.addEventListener("click", () => {
+  selectedTheme = "Jeux de société";
+  startQuiz(questionsJeuxDeSociete);
+  scrollToTop();
+});
+
+themeSportsMoteurBtn.addEventListener("click", () => {
+  selectedTheme = "Sports à moteur";
+  startQuiz(questionsSportsMoteur);
+  scrollToTop();
+});
+
+themeTennisBtn.addEventListener("click", () => {
+  selectedTheme = "Tennis";
+  startQuiz(questionsTennis);
+  scrollToTop();
+});
+
+themeBricolageBtn.addEventListener("click", () => {
+  selectedTheme = "Bricolage";
+  startQuiz(questionsBricolage);
+  scrollToTop();
+});
+
+
+themePrincessesDisneyBtn.addEventListener("click", () => {
+  selectedTheme = "Princesses Disney";
+  startQuiz(questionsPrincessesDisney);
+  scrollToTop();
+});
+
+themePersonnagesDisneyBtn.addEventListener("click", () => {
+  selectedTheme = "Personnages Disney";
+  startQuiz(questionsPersonnagesDisney);
+  scrollToTop();
+});
+
+themeDessinsAnimesDisneyBtn.addEventListener("click", () => {
+  selectedTheme = "Dessins animés Disney";
+  startQuiz(questionsDessinsAnimesDisney);
+  scrollToTop();
+});
+
+themeMusiqueFilmsDisneyBtn.addEventListener("click", () => {
+  selectedTheme = "Musique de films Disney";
+  startQuiz(questionsMusiqueFilmsDisney);
+  scrollToTop();
+});
+
+themeMechantsDisneyBtn.addEventListener("click", () => {
+  selectedTheme = "Méchants Disney";
+  startQuiz(questionsMechantsDisney);
+  scrollToTop();
+});
+
+themeDisneylandParisBtn.addEventListener("click", () => {
+  selectedTheme = "Parc Disneyland Paris";
+  startQuiz(questionsDisneylandParis);
+  scrollToTop();
+});
+
+themeAnimauxDisneyBtn.addEventListener("click", () => {
+  selectedTheme = "Animaux Disney";
+  startQuiz(questionsAnimauxDisney);
+  scrollToTop();
 });
 
 themePixarBtn.addEventListener("click", () => {
   selectedTheme = "Films pixar";
   startQuiz(questionsPixar);
   scrollToTop();
+});
+
+themeDetailsDisneyBtn.addEventListener("click", () => {
+  selectedTheme = "Détails des Disney";
+  startQuiz(questionsDetailsDisney);
+  scrollToTop();
+});
+
+
+themeChansonsBtn.addEventListener("click", () => {
+  selectedTheme = "Chansons";
+  startQuiz(questionsChansons);
+  scrollToTop();
+});
+
+themeBandesOriginalesFilmBtn.addEventListener("click", () => {
+  selectedTheme = "Bandes originales de films";
+  startQuiz(questionsBandesOriginalesFilms);
+  scrollToTop();
+});
+
+themeAnnees80Btn.addEventListener("click", () => {
+  selectedTheme = "Années 80";
+  startQuiz(questionsAnnees80);
+  scrollToTop();
+});
+
+themeInstrumentsBtn.addEventListener("click", () => {
+  selectedTheme = "Instruments de musique";
+  startQuiz(questionsInstruments);
+  scrollToTop();
+});
+
+themePopRockBtn.addEventListener("click", () => {
+  selectedTheme = "Pop-Rock";
+  startQuiz(questionsPopRock);
+  scrollToTop();
+});
+
+themeInstrumentsCordeBtn.addEventListener("click", () => {
+  selectedTheme = "Instruments à cordes";
+  startQuiz(questionsInstrumentsCorde);
+  scrollToTop();
+});
+
+themeStarsChansonBtn.addEventListener("click", () => {
+  selectedTheme = "Star de la chanson";
+  startQuiz(questionsStarsChanson);
+  scrollToTop();
+});
+
+themeFestivalsMusiqueFranceBtn.addEventListener("click", () => {
+  selectedTheme = "Festivals de musique français";
+  startQuiz(questionsFestivalsMusiqueFrance);
+  scrollToTop();
+});
+
+
+themeHarryBtn.addEventListener("click", () => {
+  selectedTheme = "Harry Potter";
+  startQuiz(questionsHarry);
+  scrollToTop();
+});
+
+themeSpidermanBtn.addEventListener("click", () => {
+  selectedTheme = "Spiderman";
+  startQuiz(questionsSpiderman);
+  scrollToTop();
+});
+
+themeTimBurtonBtn.addEventListener("click", () => {
+  selectedTheme = "Tim Burton";
+  startQuiz(questionsTimBurton);
+  scrollToTop();
+});
+
+themeDragonBallBtn.addEventListener("click", () => {
+  selectedTheme = "Dragon Ball";
+  startQuiz(questionsDragonBall);
+  scrollToTop();
+});
+
+themeMarvelBtn.addEventListener("click", () => {
+  selectedTheme = "Marvel";
+  startQuiz(questionsMarvel);
+  scrollToTop();
+});
+
+themeSuperVilainsBtn.addEventListener("click", () => {
+  selectedTheme = "Super-Vilains";
+  startQuiz(questionsSuperVilains);
+  scrollToTop();
+});
+
+themePersonnalitesMondialesBtn.addEventListener("click", () => {
+  selectedTheme = "Personnalités mondiales";
+  startQuiz(questionsPersonnalitesMondiales);
+  scrollToTop();
+});
+
+themeSupermanBtn.addEventListener("click", () => {
+  selectedTheme = "Superman";
+  startQuiz(questionsSuperman);
+  scrollToTop();
+});
+
+
+themeAnimauxBtn.addEventListener("click", () => {
+  selectedTheme = "Animaux en général";
+  startQuiz(questionsAnimaux);
+  scrollToTop();
+});
+
+themePlantesBotaniqueBtn.addEventListener("click", () => {
+  selectedTheme = "Plantes et Botanique";
+  startQuiz(questionsPlantesBotanique);
+  scrollToTop();
+});
+
+themeAnimauxDomestiquesBtn.addEventListener("click", () => {
+  selectedTheme = "Animaux domestiques";
+  startQuiz(questionsAnimauxDomestiques);
+  scrollToTop();
+});
+
+themeEcosystemesHabitatsBtn.addEventListener("click", () => {
+  selectedTheme = "Ecosystèmes et habitats";
+  startQuiz(questionsEcosystemesHabitats);
+  scrollToTop();
+});
+
+
+
+
+
+
+
+
+themeFromagesBtn.addEventListener("click", () => {
+  selectedTheme = "Fromages";
+  startQuiz(questionsFromages);
+  scrollToTop(); // Appeler la fonction pour faire défiler la page vers le haut
 });
 
 themePublicitesCelebresBtn.addEventListener("click", () => {
@@ -11548,162 +11832,6 @@ themeInsectesBtn.addEventListener("click", () => {
   scrollToTop();
 });
 
-themeSuperVilainsBtn.addEventListener("click", () => {
-  selectedTheme = "Super-Vilains";
-  startQuiz(questionsSuperVilains);
-  scrollToTop();
-});
-
-themeSupermanBtn.addEventListener("click", () => {
-  selectedTheme = "Superman";
-  startQuiz(questionsSuperman);
-  scrollToTop();
-});
-
-themeMarvelBtn.addEventListener("click", () => {
-  selectedTheme = "Marvel";
-  startQuiz(questionsMarvel);
-  scrollToTop();
-});
-
-themePopRockBtn.addEventListener("click", () => {
-  selectedTheme = "Pop-Rock";
-  startQuiz(questionsPopRock);
-  scrollToTop();
-});
-
-themeAnimesBtn.addEventListener("click", () => {
-  selectedTheme = "Animes";
-  startQuiz(questionsAnimes);
-  scrollToTop();
-});
-
-themeDetailsDisneyBtn.addEventListener("click", () => {
-  selectedTheme = "Détails des Disney";
-  startQuiz(questionsDetailsDisney);
-  scrollToTop();
-});
-
-themeStarsChansonBtn.addEventListener("click", () => {
-  selectedTheme = "Star de la chanson";
-  startQuiz(questionsStarsChanson);
-  scrollToTop();
-});
-
-themePersonnalitesMondialesBtn.addEventListener("click", () => {
-  selectedTheme = "Personnalités mondiales";
-  startQuiz(questionsPersonnalitesMondiales);
-  scrollToTop();
-});
-
-themeMechantsDisneyBtn.addEventListener("click", () => {
-  selectedTheme = "Méchants Disney";
-  startQuiz(questionsMechantsDisney);
-  scrollToTop();
-});
-
-themeDisneylandParisBtn.addEventListener("click", () => {
-  selectedTheme = "Parc Disneyland Paris";
-  startQuiz(questionsDisneylandParis);
-  scrollToTop();
-});
-
-themeAnimauxDisneyBtn.addEventListener("click", () => {
-  selectedTheme = "Animaux Disney";
-  startQuiz(questionsAnimauxDisney);
-  scrollToTop();
-});
-
-themeInstrumentsCordeBtn.addEventListener("click", () => {
-  selectedTheme = "Instruments à cordes";
-  startQuiz(questionsInstrumentsCorde);
-  scrollToTop();
-});
-
-themeFestivalsMusiqueFranceBtn.addEventListener("click", () => {
-  selectedTheme = "Festivals de musique français";
-  startQuiz(questionsFestivalsMusiqueFrance);
-  scrollToTop();
-});
-
-themeTennisBtn.addEventListener("click", () => {
-  selectedTheme = "Tennis";
-  startQuiz(questionsTennis);
-  scrollToTop();
-});
-
-themeBricolageBtn.addEventListener("click", () => {
-  selectedTheme = "Bricolage";
-  startQuiz(questionsBricolage);
-  scrollToTop();
-});
-
-themeComediesBtn.addEventListener("click", () => {
-  selectedTheme = "Comédies";
-  startQuiz(questionsComedies);
-  scrollToTop();
-});
-
-themeTelerealiteBtn.addEventListener("click", () => {
-  selectedTheme = "Téléréalité";
-  startQuiz(questionsTelerealite);
-  scrollToTop();
-});
-
-themePersonnagesDisneyBtn.addEventListener("click", () => {
-  selectedTheme = "Personnages Disney";
-  startQuiz(questionsPersonnagesDisney);
-  scrollToTop();
-});
-
-themeMusiqueFilmsDisneyBtn.addEventListener("click", () => {
-  selectedTheme = "Musique de flms Disney";
-  startQuiz(questionsMusiqueFilmsDisney);
-  scrollToTop();
-});
-
-themeBandesOriginalesFilmBtn.addEventListener("click", () => {
-  selectedTheme = "Bandes originales de films";
-  startQuiz(questionsBandesOriginalesFilms);
-  scrollToTop();
-});
-
-themeAnnees80Btn.addEventListener("click", () => {
-  selectedTheme = "Années 80";
-  startQuiz(questionsAnnees80);
-  scrollToTop();
-});
-
-themeInstrumentsBtn.addEventListener("click", () => {
-  selectedTheme = "Instruments de musique";
-  startQuiz(questionsInstruments);
-  scrollToTop();
-});
-
-themeDragonBallBtn.addEventListener("click", () => {
-  selectedTheme = "Dragon Ball";
-  startQuiz(questionsDragonBall);
-  scrollToTop();
-});
-
-themePlantesBotaniqueBtn.addEventListener("click", () => {
-  selectedTheme = "Plantes et Botanique";
-  startQuiz(questionsPlantesBotanique);
-  scrollToTop();
-});
-
-themeAnimauxDomestiquesBtn.addEventListener("click", () => {
-  selectedTheme = "Animaux domestiques";
-  startQuiz(questionsAnimauxDomestiques);
-  scrollToTop();
-});
-
-themeEcosystemesHabitatsBtn.addEventListener("click", () => {
-  selectedTheme = "Ecosystèmes et habitats";
-  startQuiz(questionsEcosystemesHabitats);
-  scrollToTop();
-});
-
 themeMathematiquesBtn.addEventListener("click", () => {
   selectedTheme = "Mathématiques";
   startQuiz(questionsMathematiques);
@@ -11758,54 +11886,6 @@ themeCultureBtn.addEventListener("click", () => {
   scrollToTop();
 });
 
-themeActeursActricesBtn.addEventListener("click", () => {
-  selectedTheme = "Actrices/Acteurs";
-  startQuiz(questionsActeursActrices);
-  scrollToTop();
-});
-
-themeJeuxDeSocieteBtn.addEventListener("click", () => {
-  selectedTheme = "Jeux de société";
-  startQuiz(questionsJeuxDeSociete);
-  scrollToTop();
-});
-
-themeSportsMoteurBtn.addEventListener("click", () => {
-  selectedTheme = "Sports à moteur";
-  startQuiz(questionsSportsMoteur);
-  scrollToTop();
-});
-
-themeActivitesPleinAirBtn.addEventListener("click", () => {
-  selectedTheme = "Activités de plein air";
-  startQuiz(questionsActivitesPleinAir);
-  scrollToTop();
-});
-
-themeTimBurtonBtn.addEventListener("click", () => {
-  selectedTheme = "Tim Burton";
-  startQuiz(questionsTimBurton);
-  scrollToTop();
-});
-
-themeJeuxVideoBtn.addEventListener("click", () => {
-  selectedTheme = "Jeux Vidéo";
-  startQuiz(questionsJeuxVideo);
-  scrollToTop();
-});
-
-themeHorreurBtn.addEventListener("click", () => {
-  selectedTheme = "Films d'horreur";
-  startQuiz(questionsHorreur);
-  scrollToTop();
-});
-
-themeJoueursFootBtn.addEventListener("click", () => {
-  selectedTheme = "Joueurs de foot";
-  startQuiz(questionsJoueursFoot);
-  scrollToTop();
-});
-
 themeVraiFauxBtn.addEventListener("click", () => {
   selectedTheme = "Vrai ou Faux ?";
   startQuiz(questionsVraiFaux);
@@ -11824,57 +11904,15 @@ themeDrapeauxBtn.addEventListener("click", () => {
   scrollToTop();
 });
 
-themePrincessesDisneyBtn.addEventListener("click", () => {
-  selectedTheme = "Princesses Disney";
-  startQuiz(questionsPrincessesDisney);
-  scrollToTop();
-});
-
-themeDessinsAnimesDisneyBtn.addEventListener("click", () => {
-  selectedTheme = "Dessins animés Disney";
-  startQuiz(questionsDessinsAnimesDisney);
-  scrollToTop();
-});
-
 themeFaitsInsolitesBtn.addEventListener("click", () => {
   selectedTheme = "Faits insolites";
   startQuiz(questionsFaitsInsolites);
   scrollToTop();
 });
 
-themeAnimauxBtn.addEventListener("click", () => {
-  selectedTheme = "Animaux";
-  startQuiz(questionsAnimaux);
-  scrollToTop();
-});
-
-themeChansonsBtn.addEventListener("click", () => {
-  selectedTheme = "Chansons";
-  startQuiz(questionsChansons);
-  scrollToTop();
-});
-
-themeDessinsBtn.addEventListener("click", () => {
-  selectedTheme = "Dessins animés";
-  startQuiz(questionsDessinsAnimes);
-  scrollToTop();
-});
-
-themeSeriesBtn.addEventListener("click", () => {
-  selectedTheme = "Séries TV";
-  startQuiz(questionsSeries);
-  scrollToTop();
-});
-
 themeCuisineBtn.addEventListener("click", () => {
   selectedTheme = "Cuisine";
   startQuiz(questionsCuisine);
-  scrollToTop();
-});
-
-themeHarryBtn.addEventListener("click", () => {
-  selectedTheme = "Harry Potter";
-  startQuiz(questionsHarry);
   scrollToTop();
 });
 
@@ -11890,23 +11928,6 @@ themeOrthographeBtn.addEventListener("click", () => {
   scrollToTop();
 });
 
-themeSportBtn.addEventListener("click", () => {
-  selectedTheme = "Tous sports";
-  startQuiz(questionsSport);
-  scrollToTop();
-});
-
-themeCinemaBtn.addEventListener("click", () => {
-  selectedTheme = "Cinéma";
-  startQuiz(questionsCinema);
-  scrollToTop();
-});
-
-themeSpidermanBtn.addEventListener("click", () => {
-  selectedTheme = "Spiderman";
-  startQuiz(questionsSpiderman);
-  scrollToTop();
-});
 
 
 
